@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#102a3a">
+ <meta name="description" content="Elektroinstallateur EFZ: Vierjähriger Lernpfad mit Audio, Cloudoption, Wiederholungen, Vertiefungsaufgaben und Fortschritt.">
+ <link rel="manifest" href="./manifest.webmanifest">
+ <link rel="icon" type="image/png" href="./icon-192.png">
+ <link rel="apple-touch-icon" href="./icon-192.png">
+ <link rel="stylesheet" href="./styles.css">
+ <title>Elektroinstallateur EFZ · Lernplattform</title>
+</head>
+<body>
+ <div class="app-shell">
+  <header class="header">
+   <div class="header-inner">
+    <div style="display:flex;align-items:center;gap:8px">
+     <button id="hamb" class="btn icononly drawer-toggle" aria-label="Navigation öffnen" aria-expanded="false">☰</button>
+     <a class="logo" href="#" id="logo" aria-label="Startseite">
+      <span class="logo-icon">E<span style="color:#5ee0bc">+</span></span>
+      <span class="logo-text">ELEKTRO · EFZ<small>DEINE DIGITALE FACHSCHULE</small></span>
+     </a>
+    </div>
+    <div class="right-tools">
+     <span id="save-status" class="tiny-status" aria-live="polite">Lernstand lokal gespeichert</span>
+     <button class="btn tiny" data-header-go="sources" title="Quellen und Umfang">ⓘ <span>Quellen</span></button>
+     <button class="btn tiny" data-header-go="settings" title="Einstellungen und Backup">⚙ <span>Einstellungen</span></button>
+    </div>
+   </div>
+  </header>
+  <div class="layout">
+   <aside id="side" class="sidebar" aria-label="Lernnavigation">
+    <div class="side-heading">Lernplattform</div>
+    <button class="nav-link" data-nav="dashboard"><span class="nav-num">⌂</span><span>Übersicht<span class="nav-meta">Dein persönlicher Lernstand</span></span></button>
+    <div class="side-rule"></div>
+    <div class="side-heading">Ausbildung · BiVo 2015</div>
+    <button class="nav-link" data-year="1"><span class="nav-num">01</span><span>Erstes Lehrjahr<span class="nav-meta">Grundlagen und Sicherheit</span></span></button>
+    <button class="nav-link" data-year="2"><span class="nav-num">02</span><span>Zweites Lehrjahr<span class="nav-meta">Wechselstrom und Schutz</span></span></button>
+    <button class="nav-link" data-year="3"><span class="nav-num">03</span><span>Drittes Lehrjahr<span class="nav-meta">Anlagen und PV</span></span></button>
+    <button class="nav-link" data-year="4"><span class="nav-num">04</span><span>Viertes Lehrjahr<span class="nav-meta">Vertiefung und QV</span></span></button>
+    <div class="side-rule"></div>
+    <button class="nav-link" data-nav="sources"><span class="nav-num">ℹ</span><span>Quellen & Umfang</span></button>
+    <button class="nav-link" data-nav="practice"><span class="nav-num">✎</span><span>Vertiefungsaufgaben</span></button>
+    <button class="nav-link" data-nav="reviews"><span class="nav-num">↺</span><span>Wiederholungen</span></button>
+    <button class="nav-link" data-nav="stats"><span class="nav-num">▥</span><span>Lernstatistik</span></button>
+    <button class="nav-link" data-nav="cloud"><span class="nav-num">☁</span><span>Cloud & Geräte</span></button>
+    <button class="nav-link" data-nav="settings"><span class="nav-num">⚙</span><span>Audio & Datensicherung</span></button>
+    <div class="side-rule"></div>
+    <div class="side-note"><strong>Fachliche Sicherheit</strong><br>Selbstlernaufgaben nur mit Simulation, Papier oder ungefährlicher Kleinspannung. Netzinstallationen benötigen fachlich beaufsichtigte Praxis und die erforderlichen Berechtigungen.</div>
+   </aside>
+   <main id="main" class="main" aria-live="polite">
+    <div class="content"><h1>Lernplattform wird geladen …</h1></div>
+   </main>
+  </div>
+ </div>
+ <script src="./data.js"></script>
+ <script src="./storage.js"></script>
+ <script src="./reviews.js"></script>
+ <script src="./exercises.js"></script>
+ <script src="./audio-engine.js"></script>
+ <script src="./cloud.js"></script>
+ <script src="./app.js"></script>
+ <script>document.querySelectorAll('[data-header-go]').forEach(b=>b.addEventListener('click',()=>document.querySelector('.nav-link[data-nav="'+b.dataset.headerGo+'"]').click()));</script>
+</body>
+</html>
