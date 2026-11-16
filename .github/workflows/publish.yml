@@ -1,0 +1,92 @@
+name: Elektro EFZ – kostenlose MP3-Erzeugung und GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      audio_mode:
+        description: "Audio-Umfang (normalerweise alle Unterrichtslektionen)"
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - probe
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '*.js'
+      - '*.css'
+      - '*.webmanifest'
+      - '*.png'
+      - 'tts_scripts/**'
+      - 'tools/**'
+      - '.github/workflows/publish.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: elektro-efz-github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Dateien laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sprach- und Audio-Werkzeuge installieren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install piper-tts==1.2.0
+
+      - name: Vorhandene Aufnahmen und Stimmenmodell wiederverwenden
+        uses: actions/cache@v4
+        with:
+          path: |
+            .audio-cache
+            .voice-cache
+          key: elektro-audio-v080-${{ hashFiles('tts_scripts/*.txt') }}
+          restore-keys: |
+            elektro-audio-v080-
+
+      - name: Kostenlose männliche Stimme (Thorsten High) bereitstellen
+        run: |
+          mkdir -p .voice-cache
+          if [ ! -s .voice-cache/de_DE-thorsten-high.onnx ] || [ ! -s .voice-cache/de_DE-thorsten-high.onnx.json ]; then
+            (cd .voice-cache && python -m piper.download_voices de_DE-thorsten-high)
+          fi
+
+      - name: Unterrichtsaufnahmen kostenlos erstellen
+        env:
+          AUDIO_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.audio_mode || 'all' }}
+        run: |
+          python tools/generate_audio.py --model .voice-cache/de_DE-thorsten-high.onnx --config .voice-cache/de_DE-thorsten-high.onnx.json --mode "$AUDIO_MODE"
+          python tools/build_site.py --mode "$AUDIO_MODE"
+
+      - name: GitHub Pages einrichten
+        uses: actions/configure-pages@v5
+
+      - name: Webseite mit MP3-Dateien paketieren
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Elektro-EFZ-Website veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4
