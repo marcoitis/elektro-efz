@@ -66,11 +66,32 @@ jobs:
             elektro-audio-v080-
 
       - name: Kostenlose männliche Stimme (Thorsten High) bereitstellen
+        shell: bash
         run: |
+          set -euo pipefail
           mkdir -p .voice-cache
-          if [ ! -s .voice-cache/de_DE-thorsten-high.onnx ] || [ ! -s .voice-cache/de_DE-thorsten-high.onnx.json ]; then
-            (cd .voice-cache && python -m piper.download_voices de_DE-thorsten-high)
+          MODEL=".voice-cache/de_DE-thorsten-high.onnx"
+          CONFIG="${MODEL}.json"
+          BASE="https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/de/de_DE/thorsten/high"
+          EXPECTED_SHA256="9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1"
+          if [ ! -s "$MODEL" ] || ! echo "$EXPECTED_SHA256  $MODEL" | sha256sum --check --status; then
+            echo "Lade offizielles Piper-Sprachmodell Thorsten High herunter ..."
+            curl --fail --location --show-error --silent --retry 5 --retry-all-errors \
+              --connect-timeout 30 --max-time 900 \
+              "$BASE/de_DE-thorsten-high.onnx" --output "${MODEL}.download"
+            echo "$EXPECTED_SHA256  ${MODEL}.download" | sha256sum --check
+            mv "${MODEL}.download" "$MODEL"
           fi
+          if [ ! -s "$CONFIG" ]; then
+            echo "Lade Sprachmodell-Konfiguration herunter ..."
+            curl --fail --location --show-error --silent --retry 5 --retry-all-errors \
+              --connect-timeout 30 --max-time 120 \
+              "$BASE/de_DE-thorsten-high.onnx.json" --output "${CONFIG}.download"
+            python -m json.tool "${CONFIG}.download" >/dev/null
+            mv "${CONFIG}.download" "$CONFIG"
+          fi
+          python -m json.tool "$CONFIG" >/dev/null
+          echo "Stimme Thorsten High ist vollständig vorhanden und überprüft."
 
       - name: Unterrichtsaufnahmen kostenlos erstellen
         env:
