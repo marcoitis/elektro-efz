@@ -1,0 +1,7 @@
+{
+  "version": "0.8",
+  "voice": "Piper de_DE-thorsten-high",
+  "generated": 0,
+  "description": "Unterrichtsaudios werden beim GitHub-Actions-Deployment erzeugt.",
+  "tracks": {}
+}

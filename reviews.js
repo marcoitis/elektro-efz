@@ -20,9 +20,10 @@ function stats(state,lessons,modules){
  const byDay={};for(const a of attempts){const d=(a.at||'').slice(0,10);if(d)byDay[d]=(byDay[d]||0)+1}
  return {completed:completed.size,total:lessons.length,dueIds,hard,attempts:attempts.length,average,years,byDay};
 }
-function merged(a,b){const newer=Date.parse(a?.updated||'')>=Date.parse(b?.updated||'')?a:b,older=newer===a?b:a;const r=JSON.parse(JSON.stringify(newer||{}));r.lessonDone=[...new Set([...(a?.lessonDone||[]),...(b?.lessonDone||[])])];
- for(const key of ['quizAnswers','notes','audioIndex','audioTime','reviews','exerciseProgress','quizAttemptDone'])r[key]={...(older?.[key]||{}),...(newer?.[key]||{})};
+function merged(a,b){const newer=Date.parse(a?.updated||'')>=Date.parse(b?.updated||'')?a:b,older=newer===a?b:a;const r=JSON.parse(JSON.stringify(newer||{}));r.lessonDone=[...new Set([...(a?.lessonDone||[]),...(b?.lessonDone||[])])];r.normDone=[...new Set([...(a?.normDone||[]),...(b?.normDone||[])])];
+ for(const key of ['quizAnswers','notes','audioIndex','audioTime','reviews','exerciseProgress','quizAttemptDone','normNotes','normQuiz','normStudyNotes'])r[key]={...(older?.[key]||{}),...(newer?.[key]||{})};
  const events=[...(a?.attemptHistory||[]),...(b?.attemptHistory||[])];r.attemptHistory=[...new Map(events.map(x=>[x.id||`${x.lessonId}-${x.at}-${x.score}`,x])).values()].sort((x,y)=>String(x.at).localeCompare(String(y.at))).slice(-2000);
+ r.adaptiveResults=[...new Map([...(a?.adaptiveResults||[]),...(b?.adaptiveResults||[])].map(x=>[`${x.at}-${x.level}-${x.kind}-${x.correct}`,x])).values()].sort((x,y)=>String(x.at).localeCompare(String(y.at))).slice(-500);
  r.updated=new Date().toISOString();return r;
 }
 window.ElektroReviews={review,due,stats,merged};

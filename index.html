@@ -40,10 +40,11 @@
     <button class="nav-link" data-year="3"><span class="nav-num">03</span><span>Drittes Lehrjahr<span class="nav-meta">Anlagen und PV</span></span></button>
     <button class="nav-link" data-year="4"><span class="nav-num">04</span><span>Viertes Lehrjahr<span class="nav-meta">Vertiefung und QV</span></span></button>
     <div class="side-rule"></div>
-    <button class="nav-link" data-nav="sources"><span class="nav-num">ℹ</span><span>Quellen & Umfang</span></button>
+    <button class="nav-link" data-nav="normcourse"><span class="nav-num">▣</span><span>Normen-Akademie<span class="nav-meta">33 vertiefte Lektionen · 99 Fragen</span></span></button>
+    <button class="nav-link" data-nav="sources"><span class="nav-num">ℹ</span><span>Quellen & Umfang</span></button><button class="nav-link" data-nav="norms"><span class="nav-num">§</span><span>Normenregister</span></button>
     <button class="nav-link" data-nav="practice"><span class="nav-num">✎</span><span>Vertiefungsaufgaben</span></button>
     <button class="nav-link" data-nav="reviews"><span class="nav-num">↺</span><span>Wiederholungen</span></button>
-    <button class="nav-link" data-nav="stats"><span class="nav-num">▥</span><span>Lernstatistik</span></button>
+    <button class="nav-link" data-nav="stats"><span class="nav-num">▥</span><span>Lernstatistik</span></button><button class="nav-link" data-nav="offline"><span class="nav-num">↓</span><span>Offline & Audio</span></button><button class="nav-link" data-nav="trainer"><span class="nav-num">∑</span><span>Prüfungs-Trainer</span></button><button class="nav-link" data-nav="simulator"><span class="nav-num">⚡</span><span>Schaltungssimulator</span></button>
     <button class="nav-link" data-nav="cloud"><span class="nav-num">☁</span><span>Cloud & Geräte</span></button>
     <button class="nav-link" data-nav="settings"><span class="nav-num">⚙</span><span>Audio & Datensicherung</span></button>
     <div class="side-rule"></div>
@@ -60,6 +61,11 @@
  <script src="./exercises.js"></script>
  <script src="./audio-engine.js"></script>
  <script src="./cloud.js"></script>
+ <script src="./offline.js"></script>
+ <script src="./trainer.js"></script>
+ <script src="./simulator.js"></script>
+ <script src="./norms.js"></script>
+ <script src="./norm-course.js"></script>
  <script src="./app.js"></script>
  <script>document.querySelectorAll('[data-header-go]').forEach(b=>b.addEventListener('click',()=>document.querySelector('.nav-link[data-nav="'+b.dataset.headerGo+'"]').click()));</script>
 </body>
