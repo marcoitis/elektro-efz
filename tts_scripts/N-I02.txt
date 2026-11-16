@@ -1,0 +1,27 @@
+Gesamtfall: Einen Maschinenverteiler fachlich beurteilen.
+
+Hier kannst Du Dein Maschinenbauwissen direkt nutzen: Die elektrische Verteilung ist ein technisches System, das wie eine Maschine bemessen, dokumentiert, hergestellt und sicher betrieben werden muss.
+
+Anforderungen aufnehmen.
+
+Eine fiktive Produktionsanlage benötigt 80 A Einspeisung, mehrere Motorabgänge und eine Steuerstromversorgung. Du definierst Spannung, Versorgungssystem, erwartete Kurzschlussbeanspruchung, Umgebung, Bedienkonzept und Leistungsfluss als technische Anforderungen.
+
+Nachweisstruktur erstellen.
+
+Für das geplante Gehäuse und die Komponenten müssen u. a. Schutz, Erwärmung, Isolation und Kurzschlussfestigkeit bewertet werden. Ein vorhandener Bauartnachweis wird nur innerhalb seiner Bedingungen genutzt. Für das gefertigte Exemplar folgt der erforderliche Stücknachweis.
+
+Sicherer Betrieb nach Übergabe.
+
+Ein aktuelles Schema, eindeutige Kennzeichnung und festgelegte Schalt-/Arbeitsverantwortung ermöglichen eine sichere Instandhaltung. Spätere Änderungen müssen fachlich und dokumentarisch nachverfolgt werden.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenbeispiel: Drei Verbraucher mit 8, 12 und 20 A haben zusammen 40 A Nennlast. Die erforderliche Netz- und Verteilerauslegung folgt aber nicht allein aus dieser Summe, sondern aus Anlaufverhalten, Gleichzeitigkeitsannahmen, Schutz und dem normativ nachgewiesenen Aufbau.
+
+Praxisfall.
+
+Nach Inbetriebnahme soll ein zusätzlicher Frequenzumrichter eingebaut werden, ohne die Verteiler-Unterlagen anzupassen.
+
+Musterlösung.
+
+Vor Änderung sind Wärme, EMV, Schutz, Leitungswege, der Nachweisumfang und die Dokumentation neu zu beurteilen. Eine mechanisch freie Hutschiene bedeutet nicht automatisch elektrische oder thermische Reserve.

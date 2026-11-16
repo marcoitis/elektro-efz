@@ -1,0 +1,27 @@
+Energieverteiler: Bedienung, Unterteilung und Wartbarkeit.
+
+In industriellen Energieverteilern ist nicht nur der elektrische Betrieb wichtig. Es muss auch geklärt sein, wie einzelne Stromkreise identifiziert, abgeschaltet, geprüft und gewartet werden können.
+
+Innere Unterteilung ist eine funktionale Entscheidung.
+
+Trennwände und funktionale Unterteilungen können Schutzziele unterstützen und Wartung erleichtern. Das bedeutet nicht, dass jede scheinbar abgetrennte Kammer ohne Spannung betreten werden darf. Die vorgesehene Betriebs- und Schutzart bleibt entscheidend.
+
+Anschlussräume und Leitungswege planen.
+
+Dichte Kabelführung, enge Biegeradien und schwer erreichbare Anschlussstellen verschlechtern Montage und spätere Wartung. Die Schaltgerätekombination ist für den tatsächlichen Anwendungsfall mit den Ein- und Ausführungen zu projektieren.
+
+Nachweis und Bedienkonzept zusammen betrachten.
+
+Eine technisch normierte Kombination benötigt weiterhin ein verständliches Einlinienschema, Kennzeichnungen, Wartungsinformationen und klare Schalt-/Trennstellen. Besonders wichtig ist die sichere Übernahme in die betriebliche Organisation nach EN 50110.
+
+Rechenbeispiel oder Denkmodell.
+
+Planungsfall: Eine Produktion besitzt einen 630-A-Hauptverteiler mit vier abgehenden Funktionsfeldern. Skizziere die stromflussbezogene Funktion und die möglichen organisatorischen Wartungsgrenzen, ohne Live-Arbeiten vorzusehen.
+
+Praxisfall.
+
+Ein Abgang muss gewartet werden; die übrigen sollen weiterlaufen. Der Verteiler besitzt jedoch keine dokumentierte Unterteilung.
+
+Musterlösung.
+
+Keine Annahme „die anderen Fächer sind sicher“. Es ist die nachgewiesene Bauart und der elektrische Zustand massgebend; die Freigabe erfolgt über sichere Arbeitsverfahren und berechtigte Personen.

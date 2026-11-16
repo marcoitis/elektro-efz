@@ -1,0 +1,27 @@
+Messen, Erproben, Besichtigen – drei verschiedene Tätigkeiten.
+
+In der Alltagssprache heisst vieles „messen“. Die Norm unterscheidet betriebliche Messungen, gezielte Erprobungen und Inspektionen. Diese Tätigkeiten können ganz unterschiedliche Gefährdungen auslösen.
+
+Eine Messung kann die Situation verändern.
+
+Das Messgerät wird Teil des Stromkreises, insbesondere bei Strommessungen. Messkategorie, Spannungsbereich, geeignete Leitungen und der Zustand des Gerätes müssen passen. Ein falsch ausgewählter Messbereich oder eine ungünstige Leitungsführung kann einen Kurzschluss verursachen.
+
+Erprobung ist mehr als ein Zahlenwert.
+
+Bei Funktionsprüfungen kann ein Betriebsmittel anlaufen oder ein Schutzgerät betätigen. Deshalb müssen die Auswirkungen auf andere Personen, Prozesse und verbundene Anlagen vorab bewertet werden. Eine Maschine darf beispielsweise nicht unkontrolliert anlaufen, nur weil ein Eingang getestet wird.
+
+Besichtigen ist ein eigenständiger Prüfschritt.
+
+Vor einer Messung liefert die Sichtprüfung Hinweise auf fehlende Abdeckungen, ungeeignete Leiterführung, beschädigte Isolation oder falsche Kennzeichnung. Sichtprüfung, Erprobung und Messung ergänzen sich; keine davon macht die beiden anderen überflüssig.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: Ein Stromkreis zeigt bei der Durchgangsmessung „0 Ω“. Das ist kein Nachweis für die Bemessungsfestigkeit oder richtige Zuordnung der Leitung. Der Messwert muss im Kontext von Prüfverfahren und Anlagenzustand interpretiert werden.
+
+Praxisfall.
+
+An einer Anlage wurde eine neue Verteilertür montiert. Welche drei unterschiedlichen Nachweise würdest Du in einer fiktiven Prüfplanung vorsehen?
+
+Musterlösung.
+
+Sichtprüfung von Abdeckungen/Kennzeichnung und Schutzleiterverbindungen, geeignete Funktionsprüfung von Verriegelungen sowie nur durch Fachpersonen durchgeführte elektrische Prüfungen. Die konkrete Auswahl und Reihenfolge richtet sich nach Anlage, Norm und Hersteller.

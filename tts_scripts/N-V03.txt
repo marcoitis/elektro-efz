@@ -1,0 +1,27 @@
+Erwärmung verstehen: Strom, Übergangswiderstand und Gehäuse.
+
+Ein Verteiler kann elektrisch funktionieren und trotzdem gefährlich warm werden. Das gilt besonders bei schlechten Verbindungen, hoher Packungsdichte oder ungeeigneter Belüftung.
+
+Verlustleistung wächst quadratisch mit Strom.
+
+Für einen ohmschen Widerstand lautet die Verlustleistung P = I² × R. Wird der Strom verdoppelt, vervierfacht sich die Verlustleistung im gleichen Widerstand. Kleine Übergangswiderstände an Schraub- oder Klemmstellen können deshalb thermisch erheblich sein.
+
+Von Verlustleistung zu Temperatur.
+
+Wärme muss über Leiter, Geräte, Luft und Gehäuse abgeführt werden. Umgebungstemperatur, Gehäusebauart, Einbauhöhe, Anzahl gleichzeitig belasteter Stromkreise und Einbauabstände beeinflussen die resultierenden Temperaturen. Das lässt sich nicht allein mit einem P=I²R-Wert erschöpfend beurteilen.
+
+Normnachweis statt Handauflegen.
+
+Die Norm behandelt Erwärmungsgrenzen und Möglichkeiten des Bauartnachweises. Welche Methode zulässig ist, hängt von der Kombination und den Nachweisbedingungen ab. Ein kurzer Funktionstest oder eine einfache Thermografie-Aufnahme genügt nicht als genereller Ersatz für einen Bauartnachweis.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenbeispiel: Übergangswiderstand 1,5 mΩ, Strom 125 A. P = 125² × 0,0015 Ω = 23,44 W an genau dieser Stelle. Bei 250 A wäre es 93,75 W. Die Rechnung zeigt die starke Stromabhängigkeit, nicht die endgültige zulässige Temperatur.
+
+Praxisfall.
+
+Bei einer Verteilung wird eine Klemmstelle wärmer als baugleiche Nachbarstellen. Ein Kollege möchte die Schraube im laufenden Betrieb nachziehen.
+
+Musterlösung.
+
+Das wäre keine zulässige improvisierte Sofortmassnahme. Unter fachlicher Leitung sind zuerst Gefährdung, Abschaltung, Ursache und ein sicherer Prüf-/Instandhaltungsablauf zu klären. Thermografie ist ein Diagnosehinweis, kein Reparaturfreibrief.

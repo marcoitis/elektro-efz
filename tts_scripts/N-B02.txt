@@ -1,0 +1,27 @@
+Trennungsabstand, Potentialausgleich und Überspannungsschutz.
+
+Blitzströme können grosse Potentialdifferenzen erzeugen. Daher ist nicht jede metallische Nähe unproblematisch; ebenso wenig ist die blosse Verbindung aller Teile in jeder Situation automatisch die richtige Lösung.
+
+Trennungsabstand als Schutzprinzip.
+
+Der Trennungsabstand soll gefährliche Überschläge zwischen Blitzschutzleiter und anderen leitfähigen Teilen vermeiden. Sein erforderlicher Wert ist eine projektspezifische Berechnung. Die Norm behandelt dafür mehrere Einflussgrössen; eine pauschale Zahl wäre fachlich unzureichend.
+
+Potentialausgleich und SPD ergänzen sich.
+
+An geeignet definierten Stellen werden leitfähige Systeme einbezogen, um Potentialdifferenzen zu begrenzen. Überspannungsschutzgeräte begrenzen bestimmte transiente Überspannungen. Die Auswahl und Anordnung hängen vom Schutzkonzept, den Leitungswegen und den Normvorgaben ab.
+
+Leitungsschleifen auf PV-Dächern vermeiden.
+
+Grosse DC-Leitungsschleifen begünstigen die Einkopplung von Störspannungen. Deshalb ist eine fachgerechte gemeinsame Führung von Hin- und Rückleitern und eine gezielte Überspannungsschutzplanung wichtig. Das ersetzt keinen Blitzschutz-Nachweis.
+
+Rechenbeispiel oder Denkmodell.
+
+Gedankenexperiment: Eine DC-Zuleitung läuft über 20 m nahe einer Ableitung und quert sie mehrfach. Ohne Abstands- und Leitungsführungskonzept können bei einem Blitzereignis problematische Überspannungen auftreten.
+
+Praxisfall.
+
+Bei einer Dachsanierung sollen PV-Kabel unmittelbar an einem vorhandenen Blitzableiter befestigt werden.
+
+Musterlösung.
+
+Diese Ausführung keinesfalls ohne Blitzschutzplanung vorsehen. Erforderlich ist eine fachkundige Beurteilung von Trennungsabstand, Potentialausgleich, Schirmung und Überspannungsschutz.

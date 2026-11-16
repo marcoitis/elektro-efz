@@ -1,0 +1,27 @@
+Blitzschutz nach Änderungen inspizieren und dokumentieren.
+
+Blitzschutz ist kein „einmal montiert und vergessen“-Bauteil. Ein Dachumbau, eine neue PV oder eine geänderte Gebäudenutzung können die Anlage verändern, ohne dass dies im Stromzähler sichtbar wird.
+
+Vorher-Nachher-Zustand erfassen.
+
+Dokumentiert werden sollen insbesondere die wesentlichen Systemteile, ihre Führung, Verbindungen, relevante Dachaufbauten und die vorgesehenen Kontrollen. Nur so kann später zwischen ursprünglichem Konzept und Umbau unterschieden werden.
+
+Inspektion ist mehr als äusserer Anblick.
+
+Äussere Beschädigung, Korrosion, lose Halterungen und fehlende Anschlüsse sind offensichtliche Prüfthemen. Ebenso wichtig sind unerkannte Änderungen und nicht mehr eingehaltene Schutzgeometrien. Welche Prüfungen und Perioden gelten, hängt von der Anlage und der Norm ab.
+
+Koordination mit anderen Gewerken.
+
+Dachdecker, PV-Monteure, Elektroinstallateur und Blitzschutzfachleute haben unterschiedliche Aufgaben. Eine Übergabe muss klar machen, wer bestehende Schutzfunktionen kontrolliert und wer Nacharbeiten bestätigt hat.
+
+Rechenbeispiel oder Denkmodell.
+
+Fall: Ein Blitzschutzplan zeigt vier Fangeinrichtungen. Nach einer Klimageräte-Montage sind zwei weitere hohe Aufbauten vorhanden. Ohne Dokumentationsnachführung ist unklar, ob sie im geschützten Bereich liegen.
+
+Praxisfall.
+
+Ein Dach wurde saniert, dabei wurden mehrere Ableiter zeitweise ausgehängt. Nach Bauende existiert kein Abnahmeprotokoll.
+
+Musterlösung.
+
+Ein berechtigtes Fachunternehmen muss die Anlage in Bezug auf Ausführung und Prüfumfang wieder beurteilen; das blosse Wiederbefestigen beweist keine unveränderte Schutzwirkung.

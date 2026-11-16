@@ -1,0 +1,27 @@
+Zähler, Hauptanschluss und Messkonzepte verstehen.
+
+Ein PV-System kann technisch Strom erzeugen und trotzdem falsch abgerechnet werden. Deshalb ist die Messeinrichtung kein nachträgliches Zubehör, sondern Bestandteil des gesamten Anlagenkonzepts.
+
+Anschlussüberstromschutz und Hauptverteilung.
+
+Überstromschutzgeräte an der Netzschnittstelle begrenzen und schützen innerhalb ihres jeweiligen Aufgabenbereichs. Auswahl und Platzierung müssen zum Anschlusskonzept und den Vorgaben des VNB passen. Für die detaillierte innere Installation ist die NIN zusätzlich erforderlich.
+
+Messkonzept vor Hardware.
+
+Bezug und Einspeisung können getrennt oder bidirektional gemessen werden. Bei mehreren Verbrauchsstätten, einem Speicher oder einem Eigenverbrauchszusammenschluss wird das Schema komplexer: Was ist Netzbezug, Eigenverbrauch, Speicherladung und Rückspeisung? Diese Definition bestimmt Zähleranordnung und Abrechnung.
+
+Zugang, Plomben und Kommunikation.
+
+Zählerplätze müssen nach VNB-Vorgaben erreichbar und geeignet sein. Plombierte Bereiche sind keine frei zugängliche Übungsfläche. Fernablesung, Kommunikation und Steuerung sind früh in die Planung einzubeziehen.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenbeispiel: PV-Erzeugung 12 kWh, zeitgleicher Verbrauch 8 kWh, Speicherladung 2 kWh und Einspeisung 2 kWh. Die 12 kWh müssen energiebilanziell plausibel aufgeteilt sein. Hier wurden keine Speicherverluste berücksichtigt – in einer realen Messbilanz müssen sie separat erfasst werden.
+
+Praxisfall.
+
+Bei einer neuen PV soll der alte Zähler ersetzt werden. Der Eigentümer will selbst vorab die Plombe entfernen.
+
+Musterlösung.
+
+Das ist keine zulässige Selbsthilfemassnahme. Planung und Auswechslung der Messeinrichtung sind mit dem VNB und den berechtigten Fachpersonen abzustimmen.

@@ -1,0 +1,27 @@
+Gesamtfall: Aufdach-PV vom Entwurf bis zur Übergabe.
+
+In dieser Fallstudie verknüpfst Du die zuvor getrennt gelernten Themen. Das Ziel ist, einen fachlichen Projektablauf zu begründen – nicht eine Netzanlage selbstständig zu installieren.
+
+Projektannahmen und technische Daten.
+
+Ein Einfamilienhaus erhält 24 Module zu 430 Wp, verteilt auf zwei Strings. DC-Spannungen werden anhand des Datenblatts, der lokalen Temperaturen und der geplanten Wechselrichtergrenzen geprüft. Parallel werden Dachstatik, Leitungstrassen, mechanischer Schutz und vorhandener Blitzschutz abgeklärt.
+
+Netzanbindung und Dokumente.
+
+Vor der Ausführung sind die erforderlichen Netzmeldungen und Bewilligungen zu klären. Zu den technischen Unterlagen gehören Stringschema, Netz-/Messkonzept, Geräte-/Schutzdaten, Herstelleranweisungen und eine gültige IA mit den geforderten VNB-Unterlagen. Die Installation erfolgt nur im zulässigen betrieblichen Bewilligungsumfang.
+
+Abnahme und Übergabe.
+
+Die PV-Teile sind zu besichtigen und entsprechend SN EN 62446-1 zu prüfen. Zusätzlich gelten die nationalen Regeln für elektrische Installationen, SiNa und die Netzabnahme. Übergabeunterlagen sollen spätere Erweiterungen oder Störungen nachvollziehbar machen.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenbeispiel: Generator-Nennleistung = 24 × 430 Wp = 10 320 Wp, also 10,32 kWp. Das ist die DC-STC-Nennleistung, nicht die garantierte dauernde AC-Einspeiseleistung.
+
+Praxisfall.
+
+Der Bauherr fordert, die Anlage heute zu montieren und morgen ohne weitere Unterlagen einspeisen zu lassen.
+
+Musterlösung.
+
+Planung und Normen verbieten ein unkoordiniertes Abkürzen der Verfahren. Es fehlen mindestens die konkret einschlägigen Netzmeldungen, das fachlich nachgewiesene Installations- und Schutzkonzept sowie Inbetriebnahme- und Prüfunterlagen.

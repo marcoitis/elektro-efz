@@ -1,0 +1,27 @@
+Erdung, Schutzpotentialausgleich und Blitzschutz unterscheiden.
+
+Die Wörter Erdung und Potentialausgleich werden oft synonym verwendet. Technisch haben sie unterschiedliche Aufgaben. Ein guter Elektroinstallateur muss verstehen, welche Verbindungen welchem Schutzkonzept dienen.
+
+Erdungsanlage.
+
+Der Erder stellt die elektrische Verbindung zum Erdreich her. Seine Wirkung hängt von Ausführung, Boden und System ab. Bei einem Fundamenterder können leitende Bauteile der Fundamentkonstruktion genutzt werden, sofern die Bauweise geeignet und die normativen Bedingungen erfüllt sind.
+
+Schutzpotentialausgleich.
+
+Der Potentialausgleich verbindet relevante leitfähige Teile, um gefährliche Potentialdifferenzen zu vermindern. Das ist nicht dasselbe wie die Vorstellung, Strom verschwinde einfach „in der Erde“. Die konkrete Schutzwirkung ergibt sich aus dem gesamten Netz- und Fehlerschutzsystem.
+
+Blitzschutz als eigenes System.
+
+Ein Blitzschutzsystem führt hohe Impulsströme und muss damit zurechtkommen. Seine äusseren Teile, innerer Potentialausgleich und Überspannungsschutz werden als System geplant. Das einfache Vorhandensein eines Erders beweist noch keinen vollständigen Blitzschutz.
+
+Rechenbeispiel oder Denkmodell.
+
+Gedankenexperiment: Zwei Metallgehäuse haben gegenüber einer idealisierten Erde ähnliche Spannungen, jedoch untereinander eine gefährliche Potentialdifferenz. Das zeigt, weshalb eine geeignete Verbindung der Teile wichtig ist.
+
+Praxisfall.
+
+Im Neubau ist eine Fundamenterder-Verbindung geplant, aber die Abdichtung des Gebäudes wird später geändert.
+
+Musterlösung.
+
+Die Erderplanung muss mit dem Bau- und Abdichtungskonzept neu abgeglichen werden. Fundamentisolierung kann den Kontakt zum Erdreich verändern; die Lösung darf nicht unkoordiniert auf der Baustelle improvisiert werden.

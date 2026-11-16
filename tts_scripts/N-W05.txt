@@ -1,0 +1,27 @@
+Batteriespeicher, USV und Rückspeisung beurteilen.
+
+Ein Batteriespeicher ist keine gewöhnliche Last. Er kann Energie beziehen, ins Haus liefern, ins Netz einspeisen oder im Ersatzstrombetrieb Versorgung bereitstellen. Jede Betriebsart hat andere Konsequenzen.
+
+AC- und DC-gekoppelte Systeme unterscheiden.
+
+Beim AC-gekoppelten Speicher besitzt die Batterie typischerweise einen eigenen Wechselrichter. Beim DC-gekoppelten System wird die Batterie auf der Gleichstromseite mit einer geeigneten Systemarchitektur integriert. Für den Netzanschluss sind Funktionsschaltbild, Phasenverteilung, Schutzkonzept und Messanordnung massgebend.
+
+Ersatzstrom ist nicht identisch mit Eigenverbrauch.
+
+Ein Speicher für Eigenverbrauch optimiert den Energiefluss im Netzparallelbetrieb. Bei Ersatzstrombetrieb sind Netztrennung, Rückspeiseschutz, Neutralleiter-/Erdungskonzept und zulässige Betriebsart besonders kritisch. Ein nicht korrekt getrenntes Inselnetz könnte das öffentliche Netz gefährlich rückspeisen.
+
+USV und Speicher nicht verwechseln.
+
+Eine USV soll bestimmte Verbraucher bei Unterbruch versorgen. Die WV-CH behandeln auch die Verhinderung unerlaubter Rückspeisung. Ob ein System gleichzeitig USV- und netzparallelfähige Speicherfunktionen bietet, muss aus seiner vorgesehenen und zugelassenen Betriebsart hervorgehen.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: Ein 10-kWh-Speicher mit 5-kW-Wechselrichter kann seine Nennenergie rechnerisch nicht eine ganze Nacht lang bei 5 kW liefern: 10 kWh / 5 kW = 2 h idealisiert; real sind Verluste und nutzbare Kapazität zu berücksichtigen.
+
+Praxisfall.
+
+Bei Stromausfall schaltet ein Heimakku einen Steckdosenkreis weiter. Eine Person möchte die Netztrennung mit einem gewöhnlichen Schalter improvisieren.
+
+Musterlösung.
+
+Nicht zulässig. Die Netztrennung und das Erdungs-/Schutzkonzept müssen für den vorgesehenen Betrieb von qualifizierten Fachpersonen projektiert, geprüft und dokumentiert werden.

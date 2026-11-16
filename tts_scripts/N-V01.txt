@@ -1,0 +1,27 @@
+Was ist eine Schaltgerätekombination – und welche Norm gilt?.
+
+Eine Verteilung besteht nicht einfach aus einem Gehäuse, ein paar Sicherungen und Drähten. Als Schaltgerätekombination ist sie ein technisches Gesamtsystem mit definierten Bemessungen, Schutzmassnahmen und Nachweisen.
+
+System und Einzelkomponenten trennen.
+
+Ein Leitungsschutzschalter kann für sich konform sein, ohne dass die gesamte Kombination dadurch normgerecht wird. Einbautemperatur, Verdrahtung, Luftstrecken, mechanische Anordnung und Kurzschlussbeanspruchung entstehen erst im Zusammenspiel. Darum beurteilt die 61439 die Kombination.
+
+Teil 1 wird mit passendem Anwendungsteil verwendet.
+
+SN EN IEC 61439-1 enthält allgemeine Regeln. SN EN IEC 61439-2 ergänzt sie für Energie-Schaltgerätekombinationen. Andere Anwendungsteile betreffen z. B. Verteilungen für Laien, Baustellen oder Schienenverteilersysteme. Für die exakte Zuordnung muss die konkrete Bauart und Nutzung bekannt sein.
+
+Die Nutzungsart verändert die Anforderungen.
+
+Ein Verteilfeld in einem Industriebetrieb hat andere Bediener, Umgebung und mechanische Beanspruchungen als ein Wohnungsverteiler. Aus der Ähnlichkeit der Gehäuse darf nicht automatisch dieselbe Norm angewendet werden. Bei Teil 3 liegt aus Deinem Upload nur die Schweizer Einführung vor, nicht der technische Volltext.
+
+Rechenbeispiel oder Denkmodell.
+
+Denkbild: Ein Kunststoffgehäuse mit IP-Schutz allein sagt nichts über die Dauerstromtragfähigkeit des fertig bestückten Verteilers. Dafür sind unter anderem Bauart, Bestückung und thermische Nachweise entscheidend.
+
+Praxisfall.
+
+Ein Lieferant schickt für einen Wohnungsverteiler lediglich das Datenblatt eines LS-Schalters.
+
+Musterlösung.
+
+Das Datenblatt eines Einzelgeräts ist kein Nachweis für die gesamte Schaltgerätekombination. Verlange die zur konkreten Verteilerbauart passenden Produkt- und Nachweisinformationen.

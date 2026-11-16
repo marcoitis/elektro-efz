@@ -1,0 +1,27 @@
+PV-Fehlerdiagnose mit I-U-Kennlinie und Thermografie.
+
+Eine PV-Anlage kann im Jahresertrag hinter der Erwartung zurückbleiben, ohne dass eine Sicherung ausgelöst hat. Erweiterte Prüfungen helfen, elektrische und thermische Auffälligkeiten systematisch zu lokalisieren.
+
+Kennlinie statt einzelner Spannung.
+
+Die Strom-Spannungs-Kennlinie beschreibt, wie sich ein PV-String über verschiedene Betriebspunkte verhält. Daraus lassen sich Leerlaufspannung, Kurzschlussstrom, maximale Leistung und typische Abweichungsmuster beurteilen. Veränderte Einstrahlung oder Temperatur können ähnliche Effekte verursachen wie ein Defekt.
+
+Thermografie ist eine Momentaufnahme.
+
+Infrarotbilder zeigen Temperaturunterschiede an Modulen, Verbindungen oder Teilflächen. Ein heisser Bereich kann mehrere Ursachen haben, etwa Verschattung, Zellfehler oder schlechte Kontakte. Ein einzelnes Wärmebild ohne Betriebs- und Umgebungsbedingungen ist noch keine eindeutige Diagnose.
+
+Prüfkategorie 2 setzt Kategorie 1 voraus.
+
+Erweiterte Diagnostik ergänzt die grundlegende Prüfung, ersetzt sie aber nicht. Sicherheit, Messgerätetauglichkeit und die Dokumentation der Bedingungen sind wesentlich.
+
+Rechenbeispiel oder Denkmodell.
+
+Idealisiertes Kennlinienbeispiel: Wenn der MPP bei 380 V und 9 A liegt, beträgt die elektrische Leistung 380 × 9 = 3420 W. Dieser Punkt ist nicht die Leerlaufspannung, sondern ein Arbeitspunkt.
+
+Praxisfall.
+
+Zwei Strings liefern 3,4 kW und 2,6 kW. Die Module sind identisch, aber einer ist teilweise verschattet.
+
+Musterlösung.
+
+Die Leistungsdifferenz ist zunächst plausibel durch die unterschiedlichen Bedingungen erklärbar. Erst Messungen unter vergleichbaren Bedingungen und die Kennlinienform erlauben weiterführende Schlussfolgerungen.

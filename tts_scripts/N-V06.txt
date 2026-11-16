@@ -1,0 +1,27 @@
+Bauartnachweis und Stücknachweis sauber trennen.
+
+Dies ist eine der zentralsten Unterscheidungen in der Ausbildung. Der Bauartnachweis beantwortet: „Ist diese Konstruktion bei den vorgesehenen Bedingungen grundsätzlich geeignet?“ Der Stücknachweis beantwortet: „Wurde dieses konkrete Exemplar korrekt hergestellt?“
+
+Bauartnachweis am System.
+
+Er umfasst unter anderem Schutz gegen elektrischen Schlag, mechanische Anforderungen, Isolation, Erwärmung und Kurzschlussfestigkeit. Der ursprüngliche Hersteller ist für die entsprechenden Bauarteigenschaften verantwortlich. Je nach Anforderung sind definierte Prüf-, Berechnungs- oder Vergleichsverfahren möglich.
+
+Stücknachweis an jedem gefertigten Exemplar.
+
+Er kontrolliert beispielsweise Kennzeichnung, Schutz, Verdrahtung, elektrische Isolationsverhältnisse und Funktion entsprechend den zutreffenden Vorgaben. Ein einmaliger Bauartnachweis ersetzt den erforderlichen Nachweis für eine abweichende oder neu gebaute Einheit nicht.
+
+Änderungen können Rollen und Nachweise verschieben.
+
+Wenn der Zusammenbauer wesentliche konstruktive Abweichungen vom nachgewiesenen System vornimmt, muss die Verantwortlichkeit und der erforderliche Nachweisumfang neu beurteilt werden. Das ist insbesondere bei Herstellerwechseln von Komponenten, Sammelschienen-Umbauten und anderen thermisch relevanten Änderungen wichtig.
+
+Rechenbeispiel oder Denkmodell.
+
+Analogie aus dem Maschinenbau: Die Konstruktion eines Getriebes wird hinsichtlich Last und Temperatur nachgewiesen; jedes gebaute Getriebe wird trotzdem auf richtige Montage und Funktion geprüft. Beide Ebenen lösen unterschiedliche Qualitätsfragen.
+
+Praxisfall.
+
+Ein Verteilerbauer besitzt einen Bauartnachweis für eine bestimmte Komponentenfamilie, setzt aber ungeprüft andere Hauptschalter ein.
+
+Musterlösung.
+
+Die neue Konfiguration ist nicht automatisch vom alten Bauartnachweis gedeckt. Änderungen sind gegen die Bedingungen des Ursprungssystems zu prüfen und erforderliche neue Nachweise zu dokumentieren.

@@ -1,0 +1,27 @@
+Schutz gegen elektrischen Schlag: Gehäuse ist nicht alles.
+
+Eine gute Schaltgerätekombination trennt gefährliche Teile zuverlässig von Menschen und verbindet berührbare leitfähige Teile mit dem vorgesehenen Schutzsystem.
+
+Direkter und indirekter Schutz.
+
+Abdeckungen, Barrieren und geeignete Isolierung dienen dazu, gefährliche aktive Teile unzugänglich zu machen. Der Schutz im Fehlerfall hängt zusätzlich von Schutzleiterverbindungen, Schutzmassnahmen und dem Zusammenwirken mit der Anlage ab.
+
+Schutzleiterkontinuität ist eine Systemaufgabe.
+
+Türen, abnehmbare Teile und Verbindungselemente können leitfähige Oberflächen besitzen. Ob und wie eine Schutzleiterverbindung erforderlich ist, muss für die Bauart beurteilt und nachgewiesen werden. Ein grün-gelbes Kabel am Gehäuse allein beweist nicht, dass die Schutzfunktion überall erfüllt ist.
+
+Nachweise haben unterschiedliche Ebenen.
+
+Die Bauartprüfung beurteilt das Konzept der Kombination. Der Stücknachweis prüft die tatsächlich gefertigte Einheit. Bei Installation und Betrieb kommen weitere Anforderungen der NIN und Anlagenprüfung hinzu.
+
+Rechenbeispiel oder Denkmodell.
+
+Prüfgedanke: Eine Tür lässt sich öffnen und ein bewegliches Metallteil ist zugänglich. Frag nicht zuerst „Wo schraube ich einen Draht fest?“, sondern „Welches Schutzkonzept fordert die konkrete Bauart, und wie ist es nachzuweisen?“
+
+Praxisfall.
+
+Eine Nachrüstkomponente verändert die mechanische Schutzabdeckung des Verteilers.
+
+Musterlösung.
+
+Änderung durch qualifizierten Planer/Hersteller beurteilen lassen: Die ursprünglichen Nachweise und Schutzarten könnten betroffen sein. Nicht auf die Geräte-Einzelzertifikate verlassen.

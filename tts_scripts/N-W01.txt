@@ -1,0 +1,27 @@
+Vom Haus bis zum Netz: Wer ist für was zuständig?.
+
+Die Niederspannungsanlage im Gebäude ist Teil eines Gesamtsystems. Am Netzanschlusspunkt endet nicht nur ein Kabel, sondern es treffen die Verantwortlichkeiten des Verteilnetzbetreibers (VNB) und des Installationsbetriebs aufeinander.
+
+Drei Grenzen unterscheiden.
+
+Der Netzanschluss beschreibt die physische Verbindung, der Anschlusspunkt die definierte Übergabestelle und der Verknüpfungspunkt den relevanten Netzbezug für technische Bewertungen. Diese Punkte können im Plan unterschiedlich liegen. Wer sie verwechselt, dimensioniert oder meldet unter Umständen am falschen Ort.
+
+Werkvorschriften ergänzen Installationsnormen.
+
+Die Werkvorschriften CH regeln insbesondere den Anschluss an das Verteilnetz, die Meldung, Messung und koordinierende technische Bedingungen. Sie ersetzen weder die NIN für die Installation noch die NIV für die Bewilligungen. Regionale Ergänzungen des zuständigen VNB sind zusätzlich zu berücksichtigen.
+
+Der VNB ist Projektpartner.
+
+Bei neuen Erzeugern, Speicheranlagen oder geänderten Hauptanschlüssen kann der VNB Vorgaben zur Messung, zu Netzrückwirkungen, zu Schutzfunktionen und zur Steuerbarkeit machen. Der zuständige Fachbetrieb koordiniert diese Themen vor einer verbindlichen Bestellung.
+
+Rechenbeispiel oder Denkmodell.
+
+Planungsbeispiel: Du unterscheidest in einem Einlinienschema Netz, Hausanschluss, Zähler, Hauptverteilung, Wechselrichter und Batterie. Markiere anschliessend den Teil, in dem VNB-Unterlagen erforderlich sind.
+
+Praxisfall.
+
+Ein Haus soll eine PV-Anlage und einen Speicher erhalten. Der Wechselrichter ist bereits bestellt, aber der Netzbetreiber noch nicht kontaktiert.
+
+Musterlösung.
+
+Das Projekt ist aus Sicht der Netzschnittstelle unvollständig. Vor der Installation sind die vorgesehenen Melde- und Anschlussverfahren, die zulässigen Betriebsarten, die Messung und die lokalen Vorgaben zu klären.

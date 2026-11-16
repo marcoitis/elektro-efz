@@ -1,0 +1,27 @@
+Blitzschutz als System statt einzelner Fangstange.
+
+Bei Blitzschutz ist die Fangstange nur ein sichtbarer Teil. Ein Blitzschutzsystem muss einen Blitzstrom möglichst kontrolliert aufnehmen, ableiten und in das Erdungs- und Potentialausgleichssystem einbinden.
+
+Äusserer und innerer Blitzschutz.
+
+Der äussere Blitzschutz betrachtet Fangeinrichtungen, Ableitungen und Erdungsanlage. Der innere Blitzschutz zielt unter anderem darauf, gefährliche Funkenüberschläge und Überspannungen zu beherrschen. Beide Bereiche hängen eng zusammen.
+
+Schutzklassen und Risiko.
+
+Die Norm behandelt Schutzklassen, Pflichten und Kontrollintervalle. Die konkrete Notwendigkeit und Klasse hängen von Bauwerk, Nutzung und rechtlichem Rahmen ab; sie können nicht allein aus der Höhe eines Hauses oder dem Eigentümerwunsch abgeleitet werden.
+
+PV ändert die Dachlandschaft.
+
+PV-Module, Gestelle, Leitungswege und Dachaufbauten verändern die vorhandenen metallischen Strukturen. Eine bestehende Blitzschutzanlage muss daher bei einem PV-Umbau fachkundig hinsichtlich Schutzraum, Abständen und Potentialausgleich neu bewertet werden.
+
+Rechenbeispiel oder Denkmodell.
+
+Denkbild: Eine Fangstange ohne sichere Ableitung zum Erdungssystem kann Blitzenergie nicht als vollständiges System bewältigen. Es braucht einen durchgehenden, geprüften Pfad.
+
+Praxisfall.
+
+Auf einem Gewerbedach mit bestehendem Blitzschutz werden PV-Module näher an die Fangstangen montiert.
+
+Musterlösung.
+
+Prüfen lassen, ob Schutzräume und Trennungsabstände noch eingehalten sind. Keine eigenmächtige Verbindung oder Kürzung der Ableitungen vornehmen.

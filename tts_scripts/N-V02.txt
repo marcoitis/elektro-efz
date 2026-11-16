@@ -1,0 +1,27 @@
+Bemessungsdaten einer Verteilung richtig lesen.
+
+Bei einer Verteilung ist die Aufschrift „400 V, 125 A“ noch keine vollständige technische Beschreibung. Sie benötigen mehrere zusammenpassende Bemessungsgrössen und Einsatzbedingungen.
+
+Spannungsgrössen unterscheiden.
+
+Bemessungsbetriebsspannung, Bemessungsisolationsspannung und Bemessungs-Stossspannungsfestigkeit beantworten verschiedene Fragen. Betriebsspannung beschreibt den vorgesehenen normalen Einsatz; Isolations- und Stossspannungsfestigkeit betreffen das elektrische Isolationssystem und transiente Beanspruchungen.
+
+Stromgrössen gehören zum System.
+
+Bemessungsstrom eines Einspeisestromkreises, einzelner Abgänge und die zulässige gleichzeitige Belastung sind zu beachten. Ein 125-A-Sammelschienensystem kann bei ungeeigneter Anordnung, Umgebung oder Gehäusebelüftung thermisch nicht automatisch jede denkbare Bestückung tragen.
+
+Umgebung und Aufstellungsort gehören auf das Datenblatt.
+
+Schutzart, Innen-/Aussenaufstellung, Temperatur, Verschmutzung, mechanische Beanspruchung und Zugänglichkeit wirken auf die Auswahl. Die Kombination muss unter den vorgesehenen Betriebsbedingungen funktionieren; eine Zahl ohne Randbedingungen ist nur begrenzt aussagekräftig.
+
+Rechenbeispiel oder Denkmodell.
+
+Fallrechnung: Drei Abgänge zu je 32 A ergeben eine Summe der Nennwerte von 96 A. Ob die Einspeisung dafür 96 A gleichzeitig tragen muss, hängt vom nachgewiesenen Gleichzeitigkeitsansatz und realen Nutzungsprofil ab; der tatsächliche Nachweis ist hersteller-/anlagenbezogen.
+
+Praxisfall.
+
+Ein Verteiler soll von 20 °C Innenraum in eine kleine, schlecht belüftete Techniknische verlegt werden.
+
+Musterlösung.
+
+Die bisherigen Betriebs- und Erwärmungsannahmen müssen überprüft werden. Aus dem gleichen Nennstrom folgt nicht zwangsläufig die gleiche thermische Eignung.

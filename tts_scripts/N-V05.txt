@@ -1,0 +1,27 @@
+Kurzschlussbeanspruchung: Warum 16 A nicht die ganze Wahrheit ist.
+
+Im Normalbetrieb führt ein Abgang vielleicht 16 A. Bei einem Fehler können kurzfristig wesentlich höhere Ströme auftreten. Das betrifft Schutzorgane, Sammelschienen, Halterungen und Anschlüsse.
+
+Thermische und dynamische Wirkung unterscheiden.
+
+Ein hoher Fehlerstrom erhitzt Leiter in kurzer Zeit und erzeugt starke elektrodynamische Kräfte. Diese können Bauteile verformen oder Verbindungen lösen. Ein Schutzschalter mit geeignetem Ausschaltvermögen macht nicht automatisch jedes dahinterliegende Sammelschienensystem kurzschlussfest.
+
+Netzseitige Fehlerstromdaten benötigt man vor der Auslegung.
+
+Die zu erwartenden Kurzschlussströme sind abhängig von Trafo, Netzimpedanz, Leitungswegen und weiteren Quellen. Ob eine Strombegrenzung oder ein bedingter Kurzschlussbemessungswert genutzt werden darf, ist im jeweiligen Konzept nachzuweisen.
+
+Bauartnachweise richtig lesen.
+
+Die 61439-1 behandelt den Nachweis der Kurzschlussfestigkeit. Für konkrete Schaltgerätekombinationen können Nachweiswege und Bedingungen differieren; entscheidend ist der dokumentierte zulässige Aufbau. Komponenten dürfen nicht beliebig durch andere Fabrikate ersetzt werden.
+
+Rechenbeispiel oder Denkmodell.
+
+Denkrechnung: Eine Kraft kann näherungsweise mit dem Quadrat des Stromes zunehmen. Verdoppelt sich der Fehlerstrom, steigt diese kraftbezogene Tendenz etwa um Faktor vier. Das ist ein qualitatives Modell, kein Ersatz für den Normnachweis.
+
+Praxisfall.
+
+Eine Verteilung wird an einen stärkeren Transformator angeschlossen, ohne die Verteilung zu verändern.
+
+Musterlösung.
+
+Die Kurzschlussdaten am Anschlusspunkt können steigen. Die Kombination und ihre Schutzgeräte müssen gegen die neue Beanspruchung erneut beurteilt werden, auch wenn der normale Betriebsstrom gleich bleibt.

@@ -1,0 +1,27 @@
+Netzparallele PV: Phasen, Unsymmetrie und Inbetriebnahme.
+
+Bei einer PV-Anlage ist nicht nur die DC-Leistung wichtig. Für das Verteilnetz zählt die Wechselrichterleistung an den Aussenleitern und das Verhalten des Wechselrichters bei Netzstörungen.
+
+Symmetrie und Anschlussart.
+
+Die WV-CH 2025 behandelt in Abschnitt 10.3.1 unter anderem den dreiphasig symmetrischen Anschluss sowie eine besondere Grenze für einphasige Erzeugung: Ein einzelner einphasiger Wechselrichter darf in dem beschriebenen Rahmen bis 3,7 kVA angeschlossen werden. Die zulässige Unsymmetrie ist gleichfalls auf 3,7 kVA begrenzt. Es gilt zusätzlich die konkrete VNB-Vorgabe.
+
+Grenzwert nicht falsch interpretieren.
+
+3,7 kVA bezeichnet Scheinleistung, nicht zwingend Wirkleistung in kW. Bei cos φ gleich 1 sind die Zahlen gleich; bei cos φ gleich 0,9 beträgt die Wirkleistung 3,33 kW. Mehrere einphasige Geräte können je nach Phasenverteilung und Kopplung andere Netzbewertungen erfordern.
+
+Die Inbetriebnahme ist ein dokumentierter Vorgang.
+
+Vorausgesetzt sind unter anderem genehmigte Unterlagen, die für die Schweiz relevanten Wechselrichtereinstellungen, Mess-/Kommunikationseinrichtungen und die Abnahme mit dem VNB. Eine leuchtende Einspeiseanzeige allein beweist keine regelkonforme Inbetriebnahme.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenweg: 3,7 kVA × 0,9 = 3,33 kW Wirkleistung. Drei gleichmässig verteilte einphasige Erzeuger zu je 3,7 kVA ergeben rechnerisch 11,1 kVA insgesamt; das ist kein Freipass für jede beliebige Gerätekombination.
+
+Praxisfall.
+
+Ein Bauherr plant zwei einphasige 4-kVA-Wechselrichter auf derselben Phase, weil es günstiger ist.
+
+Musterlösung.
+
+Das Konzept kollidiert mit den in WV-CH 2025, 10.3.1 behandelten Grenzen und muss durch eine fachkundige Planung samt VNB-Abklärung ersetzt werden. Nicht selbst umverdrahten.

@@ -1,0 +1,27 @@
+Technisches Anschlussgesuch, Installationsanzeige und SiNa.
+
+Die drei Kürzel TAG, IA und SiNa meinen unterschiedliche Dokumente. Wer sie korrekt einordnet, kann ein PV-Projekt vom Vorprojekt bis zur Übergabe sauber strukturieren.
+
+TAG: Netzverträglichkeit vorab klären.
+
+Für verschiedene Anlagen, beispielsweise netzparallel betriebene Erzeuger und elektrische Speicher, ist ein technisches Anschlussgesuch vorgesehen. Es stellt der Netzbetreiberperspektive die geplante Leistung, Betriebsart und die technischen Kenndaten zur Verfügung. Das TAG ist kein Ersatz für eine Installationsbewilligung.
+
+IA: geplante elektrische Arbeiten anzeigen.
+
+Die Installationsanzeige beschreibt die geplanten Installationsarbeiten und beinhaltet je nach Projekt Schema, Leistungsangaben und Messeinrichtungen. Eine Bestätigung des VNB ist keine Aussage, dass jede Schraubverbindung, jeder Querschnitt und jeder Schutz korrekt ausgelegt wurde. Diese Verantwortung bleibt bei den berechtigten Fachpersonen.
+
+Nach Installation: Prüfung und Nachweise.
+
+Vor Inbetriebnahme sind die Voraussetzungen des VNB sowie die notwendigen Prüfungen und Messprotokolle zu erfüllen. Der Sicherheitsnachweis dokumentiert den geprüften Zustand im gesetzlichen Rahmen. Die normgerechte PV-Systemdokumentation nach SN EN 62446-1 kommt zusätzlich hinzu.
+
+Rechenbeispiel oder Denkmodell.
+
+Ein praktischer Zeitstrahl lautet: Idee → Netz-/Bewilligungsabklärung → TAG (falls nötig) → IA → geregelte Installation → Prüfung und VNB-Inbetriebnahme → SiNa und Anlagendokumentation.
+
+Praxisfall.
+
+Du erhältst eine Rechnung für einen fertig montierten Wechselrichter. Der Lieferant behauptet: „Wir haben doch das TAG, also kann die Anlage sofort ans Netz.“
+
+Musterlösung.
+
+Nein. Das TAG behandelt die technische Anschlussabklärung. Es ersetzt weder freigegebene Installation, noch Inbetriebnahmebedingungen und Nachweise. Prüfe die erforderlichen Dokumente und die VNB-Freigaben.

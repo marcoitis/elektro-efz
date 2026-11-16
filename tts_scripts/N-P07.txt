@@ -1,0 +1,27 @@
+Der PV-Prüfbericht als belastbarer Qualitätsnachweis.
+
+Der Kunde braucht keinen Ordner voller unverständlicher Zahlen. Er braucht einen prüfbaren Nachweis, welche Anlage in welchem Zustand übergeben wurde. Ein guter Bericht macht das Ergebnis nachvollziehbar.
+
+Identität und Randbedingungen.
+
+Anlage, Standort, verantwortliche Fachpersonen, Prüfdatum, Module, Wechselrichter und die dokumentierte Verschaltung müssen eindeutig sein. Bei PV-Werten sind relevante Umweltbedingungen und Messgerätedaten wichtig.
+
+Messung, Bewertung und Mangel trennen.
+
+Prüfwerte werden nicht durch Aussagen wie „sieht gut aus“ ersetzt. Soll und Ist, Messunsicherheit, nicht geprüfte Bereiche, Abweichungen und Korrekturmassnahmen sind sauber voneinander zu unterscheiden.
+
+Dokumente müssen später verwendbar bleiben.
+
+Stromlaufplan, Datenblätter, Schutz-/Trennkonzept, Bedienungsanleitung und Prüfbericht sollten übereinstimmen. Nach einer Erweiterung ist die Dokumentation nachzuführen, statt die alte Anlagenkonfiguration unverändert weiterzureichen.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel für Dokumentenqualität: Bericht A sagt „PV 10 kW – alles ok“. Bericht B bezeichnet 24 Module, zwei Strings, Inverter, Prüfpositionen, Bedingungen und Ergebnisse. Nur Bericht B erlaubt eine nachvollziehbare spätere Fehleranalyse.
+
+Praxisfall.
+
+Du ergänzt eine Bestands-PV um weitere Module. Der ältere Prüfbericht enthält nur den Zustand vor der Erweiterung.
+
+Musterlösung.
+
+Für die Änderung ist eine nachvollziehbare aktuelle Dokumentation der betroffenen Anlagenteile und ihrer Prüfungen erforderlich. Vorher-/Nachher-Zustand muss erkennbar bleiben.

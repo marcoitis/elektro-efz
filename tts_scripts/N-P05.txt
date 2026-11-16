@@ -1,0 +1,27 @@
+PV-Isolationsprüfung verstehen, ohne gefährlich zu messen.
+
+Fehlerhafte Isolation kann gefährliche Berührungsspannungen, Brände und Funktionsstörungen verursachen. Die Isolationsprüfung ist deshalb eine zentrale elektrische Sicherheitsprüfung, jedoch kein Experiment für zu Hause.
+
+Was ein Isolationsmessgerät untersucht.
+
+Das Gerät prüft unter kontrollierten Bedingungen den Widerstand zwischen aktiven Leitern und Bezugspotenzialen. Ein sehr hoher Widerstand ist grundsätzlich ein erwünschtes Ergebnis. Die Prüfung setzt jedoch voraus, dass der Prüfling und angeschlossene Elektronik die Methode und Spannung vertragen.
+
+Warum PV anders ist als eine harmlose 12-V-Schaltung.
+
+Der PV-Generator kann selbst Spannung erzeugen. Ein falsches Prüfverfahren oder unpassendes Gerät kann Menschen gefährden und Wechselrichter oder Modul-Elektronik beschädigen. Systeme mit Leistungsoptimierern oder Modulwechselrichtern können abweichende Prüfverfahren erfordern.
+
+Ergebnisse sind kontextabhängig.
+
+Die Norm enthält abgestufte Verfahren und Anforderungen. Feuchtigkeit, Länge der DC-Leitungen, angeschlossene Schutzbauteile und Messkonfiguration beeinflussen das Ergebnis. Grenzwerte dürfen nicht aus einer pauschalen Internetliste übernommen werden.
+
+Rechenbeispiel oder Denkmodell.
+
+Rechenidee: Die qualitative Wirkung von Leckpfaden kann mit dem Ohmschen Gesetz erklärt werden: Bei gleicher Spannung würde ein zehnfach kleinerer Widerstand theoretisch einen zehnfach grösseren Strom bedeuten. Das ist keine Anleitung zur Erzeugung einer Prüfspannung.
+
+Praxisfall.
+
+Ein Messprotokoll enthält nur „Isolation i. O.“ ohne Prüfspannung, geprüften Schaltungsteil und Ergebnis.
+
+Musterlösung.
+
+Das Protokoll ist für eine nachvollziehbare Beurteilung unzureichend. Prüfkonfiguration, angewandte Methode, relevante Messwerte und Rahmenbedingungen müssen gemäss passender Norm und Anlagenausführung dokumentiert sein.

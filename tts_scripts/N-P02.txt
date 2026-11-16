@@ -1,0 +1,27 @@
+PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom.
+
+Die maximale PV-Spannung liegt häufig nicht am heissesten, sondern an einem kalten, hellen Tag. Für die Auslegung von Wechselrichter und DC-Komponenten musst Du die temperaturabhängige Leerlaufspannung verstehen.
+
+Serie erhöht Spannung, Parallel erhöht Strom.
+
+Bei baugleichen Modulen addieren sich in Serie die Spannungen; der Strom bleibt näherungsweise der Modulstrom. Bei parallel geschalteten Strings addieren sich die Ströme. In der Praxis sind Modultoleranzen, Temperatur- und Einstrahlungsunterschiede sowie Wechselrichtergrenzen zu berücksichtigen.
+
+Temperaturkoeffizient korrekt verwenden.
+
+Das Datenblatt gibt häufig eine relative Veränderung der Leerlaufspannung pro Kelvin an. Ein negativer Koeffizient bedeutet: Wenn die Zellentemperatur sinkt, steigt die Leerlaufspannung. Wichtig ist der tatsächliche Bezugspunkt des Datenblatts, meist 25 °C Zelltemperatur.
+
+Sollwert und Messwert unterscheiden.
+
+Die berechnete Erwartung ist nicht automatisch das Messergebnis. Messungen sind von Bestrahlungsstärke, Modultemperatur, Geräten und Sicherheit abhängig. Abweichungen werden untersucht, statt Grenzwerte aus einer Beispielrechnung als allgemeine Norm zu missverstehen.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: 12 Module mit Uoc(STC) = 41,2 V und Temperaturkoeffizient −0,28 %/K. Bei angenommener Zelltemperatur −10 °C ist ΔT = −35 K. Je Modul: 41,2 × [1 + (−0,0028 × −35)] = 45,24 V. String: 12 × 45,24 = 542,9 V. Das ist ein didaktisches Rechenbeispiel, keine normgerechte Gesamtbemessung.
+
+Praxisfall.
+
+Ein Wechselrichter erlaubt laut Datenblatt maximal 550 V DC. Reicht die eben berechnete 542,9-V-Schätzung als alleiniger Zulassungsnachweis?
+
+Musterlösung.
+
+Nein. Sicherheitsreserven, anzusetzende örtliche Extremtemperaturen, Modultoleranzen, Normvorgaben, maximal zulässige Systemspannungen sowie Herstelleranweisungen sind vollständig zu prüfen. Das knappe Ergebnis ist ein Warnsignal für eine fachkundige detaillierte Auslegung.

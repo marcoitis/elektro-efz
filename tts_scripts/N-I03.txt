@@ -1,0 +1,27 @@
+Quellenkritik: Was wir wirklich wissen – und was noch fehlt.
+
+Eine der wichtigsten beruflichen Fähigkeiten ist, zwischen nachgewiesenem Norminhalt, Fachwissen und ungeprüften Annahmen zu unterscheiden. Gerade bei elektrischer Sicherheit darf ein selbstbewusst klingender Text nie als Ersatz für eine verifizierte Quelle gelten.
+
+Vollständige und unvollständige Dateien unterscheiden.
+
+Die gelieferten Volltexte enthalten zum Beispiel EN 50110-1, EN 62446-1, EN IEC 61439-1/-2, die WV-CH, SN 414113 und SN 414022. Fünf hochgeladene Dateien sind dagegen nur fünf bis sechs Seiten lang und bestehen aus Einleitung oder nationalem Vorwort: 61439-3, -5, -6, -7 und 62446-2. Ihre konkreten Detailanforderungen können aus diesen Uploads nicht seriös gelehrt werden.
+
+NIN-Lücke bewusst sichtbar lassen.
+
+Die allgemeine Niederspannungs-Installationsnorm SN 411000:2025 liegt nicht vor. Deshalb sind normative Grenzwerte zu Leitungsschutz, Fehlerschutz, Installationsarten und vielen Prüfdetails in der bestehenden Plattform weiter zu validieren. Diese Lücke verschwindet nicht, nur weil wir zusätzliche Spezialnormen besitzen.
+
+Originaltext und Unterrichtstext trennen.
+
+Wir formulieren eigenständige Erklärungen, Rechenbeispiele, Entscheidungsbäume und Fragen. Die Originalnorm bleibt als lizenzierte Primärquelle ausserhalb der öffentlichen App. Im Unterricht dokumentieren wir Ausgabe und Abschnitt, aber geben keine umfangreichen geschützten Tabellen wieder.
+
+Rechenbeispiel oder Denkmodell.
+
+Qualitätsschema: Jede technische Aussage erhält eine von drei Markierungen: „in vorliegender Norm überprüft“, „fachliches Übungsbeispiel“ oder „Originalnorm/weitere Quelle erforderlich“. Das ist Qualitätsmanagement für Wissen.
+
+Praxisfall.
+
+Ein Online-Text behauptet einen bestimmten RCD-Grenzwert und führt eine NIN-Tabelle an, die Du nicht öffnen kannst.
+
+Musterlösung.
+
+Die Aussage wird nicht als normverifiziert übernommen. Eine berechtigte Fachperson muss anhand der gültigen NIN und des konkreten Anwendungsfalls prüfen. Bis dahin wird die Quelle als fehlend markiert.

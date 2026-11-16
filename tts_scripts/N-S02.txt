@@ -1,0 +1,27 @@
+Die fünf Sicherheitsregeln wirklich verstehen.
+
+Die fünf Sicherheitsregeln sind kein auswendig gelernter Spruch, sondern eine aufeinander abgestimmte Barrierenkette. Jede Regel verhindert einen anderen Fehler. Besonders bei PV, Batteriespeichern und USV ist das Denken in mehreren Energiequellen zentral.
+
+Energiequellen vollständig identifizieren.
+
+Eine Anlage kann aus dem öffentlichen Netz, einer PV-Anlage, einem Speicher oder einem Kondensator Energie erhalten. Vor dem Freischalten werden die möglichen Quellen anhand aktueller Unterlagen und einer Begehung identifiziert. Ein einziger ausgeschalteter Leitungsschutzschalter beweist keine Spannungsfreiheit.
+
+Trennen, sichern und prüfen.
+
+Erstens vollständig freischalten, zweitens gegen Wiedereinschalten sichern, drittens Spannungsfreiheit mit geeignetem Prüfmittel feststellen. Eine Status-LED, eine App-Anzeige oder ein auf Null stehendes Display sind kein Ersatz für eine geeignete elektrische Prüfung. Prüfmittel und Verfahren müssen zur Anlage und zum zulässigen Arbeitsauftrag passen.
+
+Erden, kurzschliessen und Nachbarteile schützen.
+
+Viertens wird, wo erforderlich, geerdet und kurzgeschlossen; die konkreten Bedingungen unterscheiden sich nach Anlage und Gefährdung. Fünftens sind benachbarte, unter Spannung stehende Teile abzudecken oder abzuschranken. Keine dieser Massnahmen berechtigt Unqualifizierte zum Arbeiten an Netzspannung.
+
+Rechenbeispiel oder Denkmodell.
+
+Denkbild: Die fünf Regeln sind fünf hintereinander geschaltete Sicherheitsschleusen. Wenn eine Schleuse ausfällt, darf man nicht auf eine der späteren Schleusen vertrauen.
+
+Praxisfall.
+
+Die Stromversorgung eines Wechselrichters ist AC-seitig abgeschaltet, aber die PV-Module sind beleuchtet. Ist die Wechselrichtereinheit dadurch vollständig energiefrei?
+
+Musterlösung.
+
+Nein. Die DC-Seite bleibt unter Lichteinwirkung potenziell spannungsführend; zusätzlich können interne Energiespeicher vorhanden sein. Die relevanten Herstelleranweisungen, Trennstellen und Entladezeiten sind zu berücksichtigen. Die konkrete sichere Arbeitsmethode darf nur von berechtigten Fachpersonen bestimmt und ausgeführt werden.

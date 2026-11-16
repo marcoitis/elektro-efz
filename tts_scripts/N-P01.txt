@@ -1,0 +1,27 @@
+Eine PV-Anlage vollständig dokumentieren.
+
+Eine PV-Anlage ist nur dann fachlich sauber übergeben, wenn eine andere Fachperson sie auch Jahre später verstehen, prüfen und sicher betreiben kann. Dazu braucht sie weit mehr als die Rechnung der Solarmodule.
+
+Von Moduldaten zum Stringschema.
+
+Zunächst sind Hersteller, Modultyp, Stückzahl, Ausrichtung, Verschaltung, Wechselrichter und gegebenenfalls Optimierer zu erfassen. Das Stringschema zeigt, welche Module in Reihe beziehungsweise welche Strings parallel geschaltet sind. Daraus ergeben sich erwartete Spannungen und Ströme.
+
+Elektrische und mechanische Informationen gehören zusammen.
+
+Neben DC- und AC-Schema werden Erdung/Potentialausgleich, Schutzeinrichtungen, Trennstellen, Kabelwege und Überspannungsschutz beschrieben. Bei Aufdachanlagen sind auch mechanische Angaben, Befestigung und relevante Tragwerksnachweise für spätere Inspektionen wichtig.
+
+Betrieb und Prüfung dokumentieren.
+
+Die Übergabe umfasst Betriebs- und Wartungsinformationen, Abschalt-/Notfallhinweise sowie Prüfprotokolle und Inbetriebnahmedaten. Ein Sollschema ohne Istzustand verliert an Aussagekraft, wenn vor Ort Änderungen vorgenommen wurden.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel für ein Stringblatt: String A = 12 Module Typ X in Reihe, String B = 12 Module Typ X in Reihe, beide an separaten MPP-Trackern. Erwartete Leerlaufspannung je String: Modul-Uoc × 12, unter Berücksichtigung der Temperatur.
+
+Praxisfall.
+
+Ein bestehendes PV-System hat 24 Module, aber keine Stringkennzeichnung. Du sollst zehn Jahre später einen Fehler suchen.
+
+Musterlösung.
+
+Zuerst einen sicheren Dokumentations- und Identifizierungsauftrag mit berechtigtem Betrieb organisieren. Ein hypothetisches neues Stringschema muss gegen den Istzustand geprüft werden; aus blossen Fotos kann die elektrische Verschaltung nicht sicher rekonstruiert werden.

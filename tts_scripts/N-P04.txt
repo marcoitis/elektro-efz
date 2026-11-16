@@ -1,0 +1,27 @@
+PV-Erstprüfung: Kategorie 1 systematisch lesen.
+
+Die Prüfungen der Kategorie 1 bilden die grundlegende Inbetriebnahmeprüfung. Entscheidend ist nicht das Auswendiglernen einer Reihenfolge, sondern das Verständnis, welche Fehler jede Prüfung sichtbar machen soll.
+
+Schutz- und Verbindungsprüfung.
+
+Wo Schutzleiter und Potentialausgleichsleiter vorgesehen sind, ist ihre Durchgängigkeit relevant. Die Polarität und die Generatoranschlusskästen werden vor dem Zusammenschalten kritisch betrachtet, weil ein Polaritätsfehler schwerwiegende Schäden auslösen kann.
+
+Elektrisches Verhalten prüfen.
+
+Die Leerlaufspannungen und Strangströme werden auf Plausibilität überprüft. Sind zwei gleiche Strings unter ähnlichen Bedingungen deutlich verschieden, kann das auf Verschaltung, Verschattung, Defekte oder Messfehler hindeuten. Ein Vergleich hat nur Sinn, wenn Einstrahlung und Temperatur berücksichtigt sind.
+
+Isolations- und Funktionsprüfungen.
+
+Zur Kategorie 1 gehören auch geeignete Isolationsprüfungen und Funktionsprüfungen. Weil PV-Strings bereits bei Tageslicht hohe DC-Spannungen führen können, sind Messmethoden, Prüfgeräte und Sicherungsmassnahmen ausschliesslich Sache entsprechend qualifizierter Personen.
+
+Rechenbeispiel oder Denkmodell.
+
+Prüflogik: Sichtprüfung → Prüfung der vorgesehenen Schutzleiter → Polarität → Stringdaten → Funktion → Isolationsnachweis. Die konkrete zulässige Sequenz muss der Norm und dem verwendeten System entsprechen.
+
+Praxisfall.
+
+String A misst erwartungsgemäss etwa 450 V Leerlaufspannung, String B nur etwa 370 V. Beide sollen identisch aufgebaut sein.
+
+Musterlösung.
+
+Zuerst Mess- und Umgebungsbedingungen sowie dokumentierte Stringkonfiguration vergleichen. Danach die Abweichung durch die verantwortliche Fachperson untersuchen. Nicht eigenmächtig unter Spannung umstecken.

@@ -1,0 +1,27 @@
+Fundamenterder planen: Neubau, weisse Wanne, isolierte Fundamente.
+
+Bei einem Fundamenterder entscheidet sich die Qualität häufig schon lange, bevor der Elektroinstallateur seinen letzten Anschluss setzt: beim Fundamentaufbau und beim Zusammenspiel mit Armierung und Abdichtung.
+
+Der Baukörper ist Teil des Systems.
+
+Fundamentform, vorhandene Armierung, Kontakt zum Erdreich, Betonqualität, Korrosionsbedingungen und Verbindungen werden früh betrachtet. Bei geeignetem Fundamentaufbau kann eine leitfähige, dauerhaft verbundene Erdungsstruktur entstehen.
+
+Isolierte Fundamente und weisse Wanne.
+
+Eine dichte oder elektrisch isolierende Bauweise kann die erdende Funktion der eingebauten Armierung einschränken. Die Norm behandelt hierfür besondere Ausführungen beziehungsweise alternative Erderelektroden. Das ist ein Planungsentscheid, kein Grund, die Armierung wahllos überbrücken zu dürfen.
+
+Anschlussstellen und Dokumentation.
+
+Die künftige Hauptanschlussstelle muss zugänglich und nachvollziehbar sein. Verbindungen über Gebäudefugen sowie Übergänge zu anderen metallischen Systemen müssen fachgerecht projektiert werden. Fotos vor dem Betonieren, Zeichnungen und Prüf-/Abnahmeunterlagen erleichtern später die Kontrolle.
+
+Rechenbeispiel oder Denkmodell.
+
+Didaktisches Beispiel: Ein Fundament ist vollständig durch eine isolierende Schicht vom Erdreich getrennt. Es wäre fachlich falsch, die im Beton liegende Armierung ungeprüft wie einen unmittelbar erdberührten Elektrodenring zu behandeln.
+
+Praxisfall.
+
+Der Architekt plant nachträglich eine durchgehende Perimeterdämmung und Abdichtung. Das ursprüngliche Erdungskonzept sah nur die Fundamentarmierung vor.
+
+Musterlösung.
+
+Eine gemeinsame Planungsprüfung von Elektrofachperson und Bauplanung ist notwendig. Nach der Norm sind bei isolierten Fundamenten entsprechende Erderlösungen und deren Dokumentation zu berücksichtigen.

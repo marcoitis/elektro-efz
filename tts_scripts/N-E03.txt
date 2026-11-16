@@ -1,0 +1,27 @@
+Korrosion, Verbindungsqualität und Erder-Abnahme.
+
+Erdungsanlagen müssen über Jahrzehnte funktionieren, obwohl Teile später nicht mehr zugänglich sind. Dauerhaftigkeit und Qualität der Verbindungen sind deshalb genauso wichtig wie die reine Leitfähigkeit zum Zeitpunkt der Montage.
+
+Korrosion als schleichender Ausfall.
+
+Ungeeignete Materialpaarungen und Feuchtigkeit können Verbindungen langfristig verschlechtern. Die Auswahl muss zum Erdreich, Beton, zur Verbindungstechnik und zu benachbarten Metallen passen. Ein blankes Metallstück ist noch kein Nachweis der Eignung.
+
+Kontrollpunkte bewusst planen.
+
+Verdeckte Bauleistungen sind früh abnahmefähig zu machen. Pläne, Fotos, verwendete Werkstoffe, Verbindungsmethoden und Anschlusspunkte gehören in eine nachvollziehbare Dokumentation. Wenn erst nach dem Betonieren ein Fehler erkannt wird, ist seine Behebung oftmals aufwendig.
+
+Messwerte brauchen einen Zweck.
+
+Welche Messungen in einem konkreten Erdungssystem sinnvoll sind, hängt von Bauart, Schutzkonzept und Prüfziel ab. Eine einzelne scheinbar gute Zahl beweist nicht sämtliche Verbindungen und nicht die Langzeitbeständigkeit.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: Zwei metallische Erderelemente sind elektrisch verbunden, aber an einer Übergangsstelle treffen ungeeignete Werkstoffe aufeinander. Die erste Durchgangsprüfung kann gut ausfallen, während langfristig Korrosion droht.
+
+Praxisfall.
+
+Nach einem Neubau fehlen Fotos, Armierungspläne und die Dokumentation der Erdanschlüsse.
+
+Musterlösung.
+
+Das ist ein gravierender Dokumentationsmangel. Die verantwortlichen Fachpersonen müssen klären, welche Nachweise nachträglich noch möglich sind und was nicht verifiziert werden kann.

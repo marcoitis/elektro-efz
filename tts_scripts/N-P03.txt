@@ -1,0 +1,27 @@
+PV-Sichtprüfung: Was muss vor jeder Messung stimmen?.
+
+Die Sichtprüfung ist bei der Inbetriebnahme kein Spaziergang über das Dach. Sie ist eine strukturierte Kontrolle der elektrischen, mechanischen und dokumentarischen Voraussetzungen – insbesondere der DC-Risiken.
+
+DC-Leitungen und Verbindungen.
+
+DC-Leitungen sind gegen mechanische Beschädigung, UV und Witterung zu schützen. Steckverbinder müssen zusammenpassen und passend verarbeitet sein. Leiterschleifen sollen so geführt sein, dass induzierte Überspannungen durch nahe Blitzeinwirkungen nicht unnötig verstärkt werden.
+
+Schutzeinrichtungen und Kennzeichnungen.
+
+Zu betrachten sind Trennstellen, Abschaltinformationen, Kennzeichnungen, Potentialausgleich, Überspannungsschutz und weitere nach Anlage erforderliche Schutzmassnahmen. Ein PV-System kann trotz getrennter AC-Seite DC-seitig Spannung führen; entsprechend deutlich müssen Warnungen und Pläne sein.
+
+Sichtprüfung dokumentiert konkrete Beobachtungen.
+
+Eine gute Prüfliste enthält nicht nur Ja/Nein, sondern Anlagenbezug, Datum, Prüfumfang, festgestellten Mangel, Massnahme und verantwortlich zeichnende Person. Nicht einsehbare Stellen sind als solche zu dokumentieren – nicht als geprüft zu markieren.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: Kabel liegen lose auf dem Dach, verbinden zwei Modulreihen in einer grossen Schleife und berühren die Dachhaut. Selbst wenn ein einfacher Funktionstest Einspeisung zeigt, sind mechanische Führung und Überspannungsrisiko noch offen.
+
+Praxisfall.
+
+In einer Fotodokumentation findest Du unleserliche Stringetiketten und ungeschützte DC-Steckverbinder.
+
+Musterlösung.
+
+Mängel im Sichtprüfprotokoll erfassen, Anlage nicht unkritisch abnehmen und durch berechtigte Fachpersonen beurteilen und beheben lassen. Fotos sind kein Ersatz für Inspektion vor Ort.
