@@ -37,6 +37,7 @@ jobs:
           python tools/validate_v093.py
           python tools/check_github_release.py
           node tools/test_sw_routes.js
+          node tools/test_audio_zip_import.js
       - name: Remote-Audio und Version vor Build prüfen
         run: |
           python - <<'PY'
