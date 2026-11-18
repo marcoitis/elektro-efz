@@ -5,7 +5,7 @@ Modes: text (default); partial (only manually approved MP3); all (requires 178 M
 from pathlib import Path
 import argparse,json,shutil,sys,hashlib,re
 ROOT=Path(__file__).resolve().parent.parent
-CORE=['index.html','styles.css','studio.css','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','data.js','storage.js','reviews.js','exercises.js','audio-engine.js','cloud.js','offline.js','trainer.js','simulator.js','norms.js','norm-course.js','academy-content.js','chapters.js','academy.js','studio.js','studio-examples-extra.js','lecture-scripts.js','lesson-audit.js','lesson-long-slides.js','app.js','sw.js','manifest.webmanifest','icon-192.png','icon-512.png','404.html','.nojekyll']
+CORE=['index.html','styles.css','studio.css','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','data.js','storage.js','reviews.js','exercises.js','audio-engine.js','audio-zip-import.js','cloud.js','offline.js','trainer.js','simulator.js','norms.js','norm-course.js','academy-content.js','chapters.js','academy.js','studio.js','studio-examples-extra.js','lecture-scripts.js','lesson-audit.js','lesson-long-slides.js','app.js','sw.js','version.json','manifest.webmanifest','icon-192.png','icon-512.png','404.html','.nojekyll']
 
 def build(mode='text',audio_dir='public-audio',site_dir='dist'):
  dest=ROOT/site_dir
@@ -53,7 +53,7 @@ def build(mode='text',audio_dir='public-audio',site_dir='dist'):
   if not base or urlparse(base).scheme!='https':raise SystemExit('Remote audio requires HTTPS baseUrl in audio-manifest.json')
   if any(k not in known for k in manifest_source.get('tracks',{})):raise SystemExit('Remote audio manifest has unknown lesson IDs')
   tracks=manifest_source.get('tracks',{})
- manifest={'version':'0.11.8','voice':'Von der Projektverantwortung geprüfte Audiofassungen' if tracks else 'Noch keine freigegebene Aufnahme','generated':len(tracks),'status':'partial' if tracks and len(tracks)<178 else ('complete' if tracks else 'text-first'), 'baseUrl':manifest_source['baseUrl'] if mode=='remote' else '', 'tracks':tracks}
+ manifest={'version':'0.11.9','voice':manifest_source.get('voice','Thorsten High (automatisch vertont)') if mode=='remote' else ('Lokale, freigegebene MP3s' if tracks else 'Noch keine freigegebene Aufnahme'),'generated':len(tracks),'status':manifest_source.get('status','rendered-not-acoustically-reviewed') if mode=='remote' else ('partial' if tracks and len(tracks)<178 else ('complete' if tracks else 'text-first')), 'baseUrl':manifest_source['baseUrl'] if mode=='remote' else '', 'tracks':tracks}
  (dest/'audio-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
  total=sum(p.stat().st_size for p in dest.rglob('*') if p.is_file())
  if total>900*1024**2:raise SystemExit('Pages upload would exceed prudent 900 MiB limit. Use remote object storage for audio.')

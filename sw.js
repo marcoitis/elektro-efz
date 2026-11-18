@@ -1,7 +1,7 @@
 /* Elektro EFZ v0.9 · versioned offline shell. Old cache is retained unless new install succeeds. */
 const CACHE='elektro-efz-shell-v0118-github-ready-1';
 const PREFIX='elektro-efz-shell-';
-const CORE=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
+const CORE=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./audio-zip-import.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
   './visuals/1.01-A.svg',
   './visuals/1.01-B.svg',
   './visuals/1.01-C.svg',
@@ -360,12 +360,13 @@ const CORE=['./','./index.html','./styles.css','./studio.css','./kurskompass.htm
   './learning-visuals/N-W05.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)))});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})())});
-self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();if(event.data?.type==='GET_VERSION')event.source?.postMessage({type:'APP_VERSION',version:'0.11.8',cache:CACHE})});
+self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();if(event.data?.type==='GET_VERSION')event.source?.postMessage({type:'APP_VERSION',version:'0.11.9',cache:CACHE})});
 self.addEventListener('fetch',event=>{
  const req=event.request,url=new URL(req.url);if(req.method!=='GET'||url.origin!==self.location.origin)return;
  if(req.mode==='navigate'){
   event.respondWith((async()=>{const cache=await caches.open(CACHE);const page=url.pathname.split('/').pop()||'index.html';const target='./'+page;const allowed=['index.html','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html'];if(allowed.includes(page)){const result=await cache.match(target);if(result)return result;}try{return await fetch(req)}catch(_){return new Response('Offline-Paket oder Seite fehlt. Bitte die App online öffnen.',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}})}})());return;
  }
+ if(url.pathname.endsWith('/version.json')){event.respondWith((async()=>{const cache=await caches.open(CACHE);try{const fresh=await fetch(req,{cache:'no-store'});if(fresh.ok){await cache.put(req,fresh.clone());return fresh}throw Error('Version nicht abrufbar')}catch(_){return await cache.match(req,{ignoreSearch:true})||new Response('{}',{status:503,headers:{'Content-Type':'application/json'}})}})());return;}
  if(url.pathname.endsWith('/audio-manifest.json')){event.respondWith((async()=>{const cache=await caches.open(CACHE);try{const r=await fetch(req,{cache:'no-store'});if(r.ok)await cache.put(req,r.clone());return r}catch(_){return await cache.match(req)||new Response('{}',{status:503})}})());return;}
  if(CORE.some(x=>new URL(x,self.registration.scope).pathname===url.pathname)){
   event.respondWith((async()=>{const cache=await caches.open(CACHE),result=await cache.match(req,{ignoreSearch:true});if(result)return result;return fetch(req)})());return;

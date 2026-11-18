@@ -42,7 +42,7 @@ jobs:
           node tools/test_sw_routes.js
       - name: Textbasierte PWA bauen (keine automatische MP3-Erzeugung)
         run: |
-          python tools/build_site.py --mode text
+          python tools/build_site.py --mode remote
           python tools/verify_pages_package.py --site dist
       - name: GitHub Pages vorbereiten
         uses: actions/configure-pages@v5

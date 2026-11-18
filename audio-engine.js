@@ -7,9 +7,30 @@ let dbPromise=null;
 let onTrackEnded=()=>{};
 function db(){if(!dbPromise)dbPromise=new Promise((resolve,reject)=>{if(!('indexedDB'in window)){reject(Error('IndexedDB nicht verfügbar'));return}const r=indexedDB.open(DB,VER);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(STORE))r.result.createObjectStore(STORE)};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error||Error('Audio-Speicher konnte nicht geöffnet werden'))});return dbPromise}
 async function transact(type,id,value){const d=await db();return new Promise((resolve,reject)=>{const t=d.transaction(STORE,type);const o=t.objectStore(STORE),r=type==='readonly'?o.get(id):value===null?o.delete(id):o.put(value,id);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error||Error('Fehler beim Lesen der Audio-Datei'));t.onerror=()=>reject(t.error)})}
-const media=new Audio();media.preload='metadata';let lessonId=null,blobUrl=null,loaded=false,notify=()=>{},position=()=>{};
-function unload(){media.pause();media.removeAttribute('src');media.load();if(blobUrl)URL.revokeObjectURL(blobUrl);blobUrl=null;lessonId=null;loaded=false;notify()}
-async function prepare(id,cb,savePosition,initial=0){if(lessonId===id&&loaded)return true;unload();lessonId=id;notify=cb||(()=>{});position=savePosition||(()=>{});try{const v=await transact('readonly',id);if(!v?.file){loaded=false;notify();return false}if(lessonId!==id)return false;blobUrl=URL.createObjectURL(v.file);media.src=blobUrl;media.playbackRate=1;loaded=true;media.addEventListener('loadedmetadata',()=>{if(lessonId===id&&initial>0&&Number.isFinite(media.duration))media.currentTime=Math.min(initial,Math.max(0,media.duration-1))},{once:true});notify();return true}catch(e){loaded=false;notify(e.message);return false}}
+const media=new Audio();media.preload='metadata';let lessonId=null,blobUrl=null,loaded=false,remote=false,notify=()=>{},position=()=>{};
+function unload(){media.pause();media.removeAttribute('src');media.load();if(blobUrl)URL.revokeObjectURL(blobUrl);blobUrl=null;lessonId=null;loaded=false;remote=false;notify()}
+async function prepare(id,cb,savePosition,initial=0){
+ if(lessonId===id&&loaded)return true;
+ unload();lessonId=id;notify=cb||(()=>{});position=savePosition||(()=>{});
+ try{
+  const v=await transact('readonly',id);
+  if(lessonId!==id)return false;
+  if(v?.file){blobUrl=URL.createObjectURL(v.file);media.src=blobUrl;remote=false;}
+  else{
+   if(!navigator.onLine){loaded=false;notify();return false}
+   const url=await window.ElektroOffline?.audioTrackUrl?.(id);
+   if(lessonId!==id)return false;
+   if(!url){loaded=false;notify();return false}
+   media.src=url;remote=true;
+  }
+  media.playbackRate=1;loaded=true;
+  media.addEventListener('loadedmetadata',()=>{
+   if(lessonId===id&&initial>0&&Number.isFinite(media.duration))
+    media.currentTime=Math.min(initial,Math.max(0,media.duration-1))
+  },{once:true});
+  notify();return true;
+ }catch(e){loaded=false;notify(e.message);return false}
+}
 media.addEventListener('timeupdate',()=>{if(loaded&&lessonId)position(lessonId,media.currentTime,media.duration)});
 media.addEventListener('play',()=>{if('mediaSession'in navigator){navigator.mediaSession.playbackState='playing'}notify()});
 media.addEventListener('pause',()=>{if('mediaSession'in navigator){navigator.mediaSession.playbackState='paused'}notify()});
@@ -29,5 +50,5 @@ async function importMany(files,knownIDs,onProgress=()=>{}){
 function setMetadata(title){if(!('mediaSession'in navigator)||!window.MediaMetadata)return;try{navigator.mediaSession.metadata=new MediaMetadata({title,artist:'Elektroinstallateur EFZ – Dozent',album:'Digitale Fachschule'})}catch(_){}}
 function isPlaying(){return loaded&&!media.paused&&!media.ended}
 function setOnEnded(callback){onTrackEnded=typeof callback==='function'?callback:()=>{}}
-window.ElektroAudio={prepare,setOnEnded,importFile,importMany,remove,has,list,count,details,unload,seek,play:()=>media.play(),pause:()=>media.pause(),setRate:v=>{media.playbackRate=v},setMetadata,getState:()=>({lessonId,loaded,playing:isPlaying(),current:media.currentTime||0,duration:Number.isFinite(media.duration)?media.duration:0})};
+window.ElektroAudio={prepare,setOnEnded,importFile,importMany,remove,has,list,count,details,unload,seek,play:()=>media.play(),pause:()=>media.pause(),setRate:v=>{media.playbackRate=v},setMetadata,getState:()=>({lessonId,loaded,remote,playing:isPlaying(),current:media.currentTime||0,duration:Number.isFinite(media.duration)?media.duration:0})};
 })();
