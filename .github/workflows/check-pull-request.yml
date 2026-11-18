@@ -1,0 +1,25 @@
+name: Elektro EFZ – Pull Request Prüfung
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/check_github_release.py
+          node tools/test_sw_routes.js
+          python tools/build_site.py --mode text
+          python tools/verify_pages_package.py --site dist
