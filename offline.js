@@ -1,7 +1,7 @@
 /* Offline manager v0.9. All lesson content is contained in data.js. */
 (function(){'use strict';
 const CACHE='elektro-efz-shell-v0118-github-ready-1';
-const FILES=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
+const FILES=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
   './visuals/1.01-A.svg',
   './visuals/1.01-B.svg',
   './visuals/1.01-C.svg',
@@ -387,10 +387,22 @@ async function verify(){const s=await status();if(!s.complete)throw Error('Offli
 }
 async function audioManifestData(){try{const r=await fetch(abs('./audio-manifest.json'),{cache:'no-store'});if(!r.ok)throw Error('Manifest nicht gefunden');const j=await r.json();return {tracks:j?.tracks||{},baseUrl:j?.baseUrl||''}}catch(_){return {tracks:{},baseUrl:''}}}
 async function audioManifest(){return (await audioManifestData()).tracks}
+async function audioTrackUrl(id){
+ if(!/^(?:[1-4]\\.[0-9]{2}-[A-Z]|N-[A-Z][0-9]{2})$/.test(String(id)))return null;
+ const info=await audioManifestData();
+ const path=info.tracks[String(id)];
+ if(typeof path!=='string'||!path.endsWith('.mp3'))return null;
+ try{
+  const base=info.baseUrl?new URL(info.baseUrl,root()):root();
+  const url=new URL(path,base);
+  if(!['https:'].includes(url.protocol)||url.username||url.password)return null;
+  return url.href;
+ }catch(_){return null}
+}
 async function audioCount(){return window.ElektroAudio.count?.()??0}
 async function audioDownloadAll(onProgress=()=>{},replaceExisting=false){const meta=await audioManifestData();const names=Object.entries(meta.tracks);let done=0,errors=[];if(!names.length)return {total:0,done:0,errors:[],message:'Keine externen Audioaufnahmen veröffentlicht. Du kannst eigene MP3/M4A-Dateien importieren.'};
  for(const [id,path] of names){if(!(window.ELEKTRO_DATA.lessons.some(l=>l.id===id)||window.ElektroNormCourse?.lessons.some(l=>"N-"+l.id===id))){errors.push('Unbekannte Lektion '+id);continue;}
   try{if(replaceExisting||!(await window.ElektroAudio.has(id))){const base=meta.baseUrl?new URL(meta.baseUrl,root()):root();if(base.protocol!=='https:'&&base.origin!==location.origin)throw Error('Unsichere Audioquelle');const url=new URL(path,base);if(url.protocol!=='https:'&&url.origin!==location.origin)throw Error('Audio-URL muss HTTPS nutzen');const r=await fetch(url.href);if(!r.ok)throw Error('HTTP '+r.status);const b=await r.blob();if(!/^audio\//.test(b.type))throw Error('Kein Audioformat');if(b.size>80*1024*1024)throw Error('Datei > 80 MB');const file=new File([b],id+'.mp3',{type:b.type});await window.ElektroAudio.importFile(id,file);}}catch(e){errors.push(id+': '+e.message)}done++;onProgress(done,names.length,id);
  }return {total:names.length,done,errors};}
-window.ElektroOffline={CACHE,FILES,status,download,verify,audioManifest,audioCount,audioDownloadAll};
+window.ElektroOffline={CACHE,FILES,status,download,verify,audioManifest,audioTrackUrl,audioCount,audioDownloadAll};
 })();
