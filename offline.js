@@ -1,7 +1,7 @@
 /* Offline manager v0.9. All lesson content is contained in data.js. */
 (function(){'use strict';
 const CACHE='elektro-efz-shell-v0118-github-ready-1';
-const FILES=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
+const FILES=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./audio-zip-import.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
   './visuals/1.01-A.svg',
   './visuals/1.01-B.svg',
   './visuals/1.01-C.svg',
