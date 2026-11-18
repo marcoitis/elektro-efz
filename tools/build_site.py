@@ -5,7 +5,7 @@ Modes: text (default); partial (only manually approved MP3); all (requires 178 M
 from pathlib import Path
 import argparse,json,shutil,sys,hashlib,re
 ROOT=Path(__file__).resolve().parent.parent
-CORE=['index.html','styles.css','studio.css','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','data.js','storage.js','reviews.js','exercises.js','audio-engine.js','cloud.js','offline.js','trainer.js','simulator.js','norms.js','norm-course.js','academy-content.js','chapters.js','academy.js','studio.js','studio-examples-extra.js','lecture-scripts.js','lesson-audit.js','lesson-long-slides.js','app.js','sw.js','version.json','manifest.webmanifest','icon-192.png','icon-512.png','404.html','.nojekyll']
+CORE=['index.html','styles.css','studio.css','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','data.js','storage.js','reviews.js','exercises.js','audio-engine.js','audio-zip-import.js','cloud.js','offline.js','trainer.js','simulator.js','norms.js','norm-course.js','academy-content.js','chapters.js','academy.js','studio.js','studio-examples-extra.js','lecture-scripts.js','lesson-audit.js','lesson-long-slides.js','app.js','sw.js','version.json','manifest.webmanifest','icon-192.png','icon-512.png','404.html','.nojekyll']
 
 def build(mode='text',audio_dir='public-audio',site_dir='dist'):
  dest=ROOT/site_dir
