@@ -400,9 +400,80 @@ async function audioTrackUrl(id){
  }catch(_){return null}
 }
 async function audioCount(){return window.ElektroAudio.count?.()??0}
-async function audioDownloadAll(onProgress=()=>{},replaceExisting=false){const meta=await audioManifestData();const names=Object.entries(meta.tracks);let done=0,errors=[];if(!names.length)return {total:0,done:0,errors:[],message:'Keine externen Audioaufnahmen veröffentlicht. Du kannst eigene MP3/M4A-Dateien importieren.'};
- for(const [id,path] of names){if(!(window.ELEKTRO_DATA.lessons.some(l=>l.id===id)||window.ElektroNormCourse?.lessons.some(l=>"N-"+l.id===id))){errors.push('Unbekannte Lektion '+id);continue;}
-  try{if(replaceExisting||!(await window.ElektroAudio.has(id))){const base=meta.baseUrl?new URL(meta.baseUrl,root()):root();if(base.protocol!=='https:'&&base.origin!==location.origin)throw Error('Unsichere Audioquelle');const url=new URL(path,base);if(url.protocol!=='https:'&&url.origin!==location.origin)throw Error('Audio-URL muss HTTPS nutzen');const r=await fetch(url.href);if(!r.ok)throw Error('HTTP '+r.status);const b=await r.blob();const header=new Uint8Array(await b.slice(0,3).arrayBuffer());if(!/^audio\//.test(b.type)&&!((header[0]===73&&header[1]===68&&header[2]===51)||(header[0]===255&&(header[1]&224)===224)))throw Error('Kein Audioformat');if(b.size>80*1024*1024)throw Error('Datei > 80 MB');const file=new File([b],id+'.mp3',{type:b.type});await window.ElektroAudio.importFile(id,file);}}catch(e){errors.push(id+': '+e.message);if(meta.baseUrl.includes('github.com/')&&((e instanceof TypeError)||/failed to fetch|load failed|networkerror|fetching/i.test(String(e.message))))return {total:names.length,done,errors,message:'GitHub blockiert den direkten Browser-Download (CORS). Lade die 15 ZIP-Audiopakete von GitHub Releases herunter und importiere sie über „ZIP-Audiopakete importieren“. Bereits gespeicherte Audios bleiben erhalten.'}}done++;onProgress(done,names.length,id);
- }return {total:names.length,done,errors};}
+/* Network hiccups in iOS Safari can affect one MP3 while the rest succeed.
+ * Import only after a full validated download; keep existing clips on failure.
+ * selectedIds enables a targeted retry without redownloading other lessons. */
+async function audioDownloadAll(onProgress=()=>{},replaceExisting=false,selectedIds=null){
+ const meta=await audioManifestData();
+ const all=Object.entries(meta.tracks);
+ const allowed=selectedIds==null?null:new Set(selectedIds);
+ const names=allowed?all.filter(([id])=>allowed.has(id)):all;
+ const result={total:names.length,done:0,downloaded:0,skipped:0,errors:[],failedIds:[]};
+ if(!all.length){
+  result.message='Keine externen Audioaufnahmen veröffentlicht. Du kannst eigene MP3/M4A-Dateien importieren.';
+  return result;
+ }
+ if(allowed){
+  for(const id of allowed)if(!Object.hasOwn(meta.tracks,id)){
+   result.errors.push(id+': im Audio-Manifest nicht vorhanden');
+   result.failedIds.push(id);
+  }
+ }
+ const rootUrl=root();
+ for(const [id,path] of names){
+  try{
+   if(!(window.ELEKTRO_DATA.lessons.some(l=>l.id===id)||
+     window.ElektroNormCourse?.lessons.some(l=>'N-'+l.id===id)))
+    throw Error('Unbekannte Lektion');
+   if(!replaceExisting && await window.ElektroAudio.has(id)){
+    result.skipped++;
+   }else{
+    const base=meta.baseUrl?new URL(meta.baseUrl,rootUrl):rootUrl;
+    if(base.protocol!=='https:'&&base.origin!==location.origin)throw Error('Unsichere Audioquelle');
+    const url=new URL(path,base);
+    if(url.protocol!=='https:'&&url.origin!==location.origin)throw Error('Audio-URL muss HTTPS nutzen');
+    if(url.origin!==base.origin && url.origin!==location.origin)throw Error('Unerwarteter Audio-Host');
+    let complete=false;
+    for(let attempt=1;attempt<=3;attempt++){
+     try{
+      const response=await fetch(url.href,{cache:'no-store'});
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const blob=await response.blob();
+      if(blob.size<4096||blob.size>80*1024*1024)throw Error('Unplausible MP3-Grösse');
+      const head=new Uint8Array(await blob.slice(0,3).arrayBuffer());
+      if(!(head[0]===73&&head[1]===68&&head[2]===51) &&
+         !(head[0]===255&&(head[1]&224)===224))
+       throw Error('Keine gültige MP3-Datei');
+      const file=new File([blob],id+'.mp3',{type:'audio/mpeg'});
+      await window.ElektroAudio.importFile(id,file);
+      result.downloaded++;
+      complete=true;
+      break;
+     }catch(e){
+      const message=String(e?.message||e);
+      const temporary=(e instanceof TypeError)||
+       /load failed|failed to fetch|network|aborted|timeout|HTTP (?:403|408|425|429|5\d\d)/i.test(message);
+      if(!temporary||attempt===3)throw Error(message+(temporary&&attempt===3?' (nach 3 Versuchen)':''));
+      onProgress(result.done,result.total,id+' · Verbindungsfehler, neuer Versuch '+(attempt+1)+'/3');
+      await new Promise(resolve=>setTimeout(resolve,attempt*850));
+     }
+    }
+    if(!complete)throw Error('Download unvollständig');
+   }
+  }catch(e){
+   result.errors.push(id+': '+String(e?.message||e));
+   result.failedIds.push(id);
+  }
+  result.done++;
+  onProgress(result.done,result.total,id);
+ }
+ if(result.errors.length){
+  result.message=result.downloaded+' MP3s gespeichert, '+result.skipped+' bereits vorhanden, '+result.errors.length+' fehlgeschlagen: '+
+   result.errors.slice(0,3).join(' · ')+'. Nur fehlgeschlagene MP3s erneut laden; bereits vorhandene bleiben erhalten.';
+ }else{
+  result.message=result.downloaded+' MP3s gespeichert, '+result.skipped+' bereits vorhanden. Keine Fehler.';
+ }
+ return result;
+}
 window.ElektroOffline={CACHE,FILES,status,download,verify,audioManifest,audioTrackUrl,audioCount,audioDownloadAll};
 })();
