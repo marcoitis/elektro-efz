@@ -388,7 +388,7 @@ async function verify(){const s=await status();if(!s.complete)throw Error('Offli
 async function audioManifestData(){try{const r=await fetch(abs('./audio-manifest.json'),{cache:'no-store'});if(!r.ok)throw Error('Manifest nicht gefunden');const j=await r.json();return {tracks:j?.tracks||{},baseUrl:j?.baseUrl||''}}catch(_){return {tracks:{},baseUrl:''}}}
 async function audioManifest(){return (await audioManifestData()).tracks}
 async function audioTrackUrl(id){
- if(!/^(?:[1-4]\\.[0-9]{2}-[A-Z]|N-[A-Z][0-9]{2})$/.test(String(id)))return null;
+ if(!/^(?:[1-4]\.[0-9]{2}-[A-Z]|N-[A-Z][0-9]{2})$/.test(String(id)))return null;
  const info=await audioManifestData();
  const path=info.tracks[String(id)];
  if(typeof path!=='string'||!path.endsWith('.mp3'))return null;
