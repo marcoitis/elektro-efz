@@ -1,8 +1,8 @@
 {
-  "version": "0.11.9",
-  "build": "0.11.9-audio-1",
+  "version": "0.11.10",
+  "build": "0.11.10-audio-1",
   "date": "2026-11-18",
-  "title": "Thorsten High Audio und Update-Prüfung",
+  "title": "Stabiler iPhone-Audio-Download und gezielte Nachladung",
   "recommended": true,
-  "notes": "178 vertonte Lektionen, optionale Offline-Audios, Update-Hinweis beim Start"
+  "notes": "Automatischer Wiederholversuch für MP3-Downloads und direkter Nachlade-Button für einzelne Lektionen"
 }
