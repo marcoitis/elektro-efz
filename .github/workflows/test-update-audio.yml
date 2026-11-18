@@ -1,0 +1,82 @@
+name: Test v0.11.9 – Audio und Start-Updates
+
+on:
+  push:
+    branches: [feature/audio-remote-update-check-v0119]
+    paths:
+      - .github/workflows/test-update-audio.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: App, PWA und Remote-Audio prüfen
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Source checkout
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript-Syntax
+        run: |
+          for FILE in app.js offline.js audio-engine.js audio-zip-import.js sw.js; do node --check "$FILE"; done
+      - name: Datenqualität und Offline-Routen
+        run: |
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/validate_v093.py
+          python tools/check_github_release.py
+          node tools/test_sw_routes.js
+      - name: Remote-Audio und Version vor Build prüfen
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          r=pathlib.Path('.')
+          version=json.loads((r/'version.json').read_text())
+          audio=json.loads((r/'audio-manifest.json').read_text())
+          plan=json.loads((r/'audio-plan/batches.json').read_text())
+          ids={x for b in plan['batches'] for x in b['ids']}
+          assert version['build']=='0.11.9-audio-1'
+          assert len(ids)==178==len(audio['tracks']) and set(audio['tracks'])==ids
+          assert all(name==id+'.mp3' for id,name in audio['tracks'].items())
+          assert audio['baseUrl'].startswith('https://github.com/marcoitis/elektro-efz/releases/download/')
+          assert 'audio-zip-import.js' in (r/'index.html').read_text()
+          assert './version.json' in (r/'sw.js').read_text()
+          assert 'checkVersionOnLaunch' in (r/'app.js').read_text()
+          print('PASS: Version 0.11.9, 178 audio URLs, ZIP fallback, PWA startup-check')
+          PY
+      - name: GitHub-Pages-Paket erzeugen
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+      - name: Build-Ergebnis kontrollieren
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('dist')
+          a=json.loads((p/'audio-manifest.json').read_text())
+          v=json.loads((p/'version.json').read_text())
+          assert len(a['tracks'])==178 and a['generated']==178
+          assert v['build']=='0.11.9-audio-1'
+          assert (p/'audio-zip-import.js').is_file()
+          print('PASS build:',len(a['tracks']),'remote MP3s; version:',v['build'])
+          PY
+      - name: CORS-Header für einzelnen GitHub-Release-Audiotrack protokollieren
+        run: |
+          curl -sSL --max-time 25 -H "Origin: https://marcoitis.github.io" \
+            -H "Range: bytes=0-1023" \
+            -D /tmp/audio_headers.txt -o /dev/null \
+            'https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.01-A.mp3'
+          echo 'Relevant HTTP/CORS header chain:'
+          grep -i -E '^HTTP/|^location:|^access-control-allow-origin:|^content-type:|^content-range:' /tmp/audio_headers.txt | tail -20 || true
+          echo 'Hinweis: Header-Test ersetzt keinen iPhone-Safari-Test.'
