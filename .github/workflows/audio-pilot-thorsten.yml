@@ -1,0 +1,51 @@
+name: Thorsten High – Audio-Pilot 1.01-A
+
+on:
+  push:
+    branches:
+      - audio-pilot-thorsten-high-20261118
+    paths:
+      - .github/workflows/audio-pilot-thorsten.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: 1.01-A mit Originalstimme rendern
+    runs-on: ubuntu-22.04
+    timeout-minutes: 35
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+      - name: Python 3.11 einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Piper installieren
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'piper-tts==1.2.0'
+          command -v piper
+          command -v ffmpeg
+      - name: Offizielles Thorsten-High-Modell herunterladen
+        run: |
+          mkdir -p .voice-cache .audio-cache
+          curl -fL --retry 4 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 4 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx.json 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          sha256sum .voice-cache/de_DE-thorsten-high.onnx
+          test "$(sha256sum .voice-cache/de_DE-thorsten-high.onnx | cut -d' ' -f1)" = '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1'
+      - name: Lektion mit Thorsten High vertonen
+        run: |
+          piper --model .voice-cache/de_DE-thorsten-high.onnx --config .voice-cache/de_DE-thorsten-high.onnx.json --output_file .audio-cache/1.01-A-Thorsten-High.wav --length_scale 1.04 --sentence_silence 0.35 < tts_scripts/1.01-A.txt
+          ffmpeg -nostdin -hide_banner -loglevel error -y -i .audio-cache/1.01-A-Thorsten-High.wav -af 'loudnorm=I=-18:LRA=9:TP=-2' -ac 1 -ar 22050 -codec:a libmp3lame -b:a 128k .audio-cache/1.01-A-Thorsten-High.mp3
+          ffprobe -v error -show_entries format=duration,size -of default=nw=1 .audio-cache/1.01-A-Thorsten-High.mp3
+          test "$(stat -c%s .audio-cache/1.01-A-Thorsten-High.mp3)" -gt 100000
+      - name: Audiodatei bereitstellen, keine Veröffentlichung
+        uses: actions/upload-artifact@v4
+        with:
+          name: Audio-Pilot-1.01-A-Thorsten-High
+          path: .audio-cache/1.01-A-Thorsten-High.mp3
+          retention-days: 7
+          if-no-files-found: error
