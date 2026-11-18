@@ -1,0 +1,50 @@
+name: Browser-Smoke-Test für Thorsten-High-Online-Audio
+
+on:
+  push:
+    branches: [feature/audio-remote-update-check-v0119]
+    paths: [.github/workflows/test-audio-browser.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  chrome-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Playwright installieren
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium
+      - name: MP3 aus GitHub Release im echten Browser als Media laden
+        run: |
+          node <<'JS'
+          const { chromium } = require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true,args:['--autoplay-policy=no-user-gesture-required']});
+            const page=await browser.newPage();
+            await page.goto('https://marcoitis.github.io/elektro-efz/',{waitUntil:'domcontentloaded'});
+            const status=await page.evaluate(async()=>{
+              const audio=new Audio();
+              audio.preload='metadata';
+              audio.src='https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.01-A.mp3';
+              return await new Promise(resolve=>{
+                const done=(reason)=>resolve({reason,readyState:audio.readyState,duration:audio.duration,
+                  networkState:audio.networkState,error:audio.error?.message||null});
+                const timer=setTimeout(()=>done('timeout'),16000);
+                audio.addEventListener('loadedmetadata',()=>{clearTimeout(timer);done('loadedmetadata')},{once:true});
+                audio.addEventListener('error',()=>{clearTimeout(timer);done('error')},{once:true});
+                audio.load();
+              });
+            });
+            console.log('Chrome HTML5 Media result:',JSON.stringify(status));
+            await browser.close();
+            if(status.reason!=='loadedmetadata'||status.duration<180)process.exitCode=1;
+          })().catch(e=>{console.error(e);process.exit(1)})
+          JS
