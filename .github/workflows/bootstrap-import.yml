@@ -1,0 +1,68 @@
+name: Import Elektro EFZ v0.11.8
+on:
+  push:
+    branches:
+      - upload-v0.11.8
+    paths:
+      - .bootstrap/trigger
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.repository == 'marcoitis/elektro-efz'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: upload-v0.11.8
+      - name: Restore and verify prepared release archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .bootstrap/part-*.txt | base64 -d > /tmp/elektro-release.zip
+          echo '8d6df5d5b86ca65a1f02552506dcb355f5330c2d69e00fa1423008c5c9213453  /tmp/elektro-release.zip' | sha256sum --check
+          python - <<'PY'
+          import zipfile
+          z = zipfile.ZipFile('/tmp/elektro-release.zip')
+          members = z.namelist()
+          assert len(members) == 1354, len(members)
+          assert z.testzip() is None
+          for f in members:
+              parts = f.split('/')
+              assert not f.startswith('/') and '..' not in parts and not f.startswith('.git/')
+          print('Verified', len(members), 'release files')
+          PY
+      - name: Replace the old release files with the approved v0.11.8 archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import shutil, zipfile
+          from pathlib import Path
+          for p in Path('.').iterdir():
+              if p.name == '.git':
+                  continue
+              if p.is_dir():
+                  shutil.rmtree(p)
+              else:
+                  p.unlink()
+          with zipfile.ZipFile('/tmp/elektro-release.zip') as z:
+              z.extractall('.')
+          PY
+          python tools/check_github_release.py
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/validate_v093.py
+          node tools/test_sw_routes.js
+      - name: Commit updated learning platform to the upload branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Release v0.11.8: 178 lessons, text-only Pages and audio roadmap'
+          git push origin HEAD:upload-v0.11.8
