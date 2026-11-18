@@ -6,7 +6,7 @@ from pathlib import Path
 import argparse,json,sys,re
 p=argparse.ArgumentParser();p.add_argument('--site',default='dist');a=p.parse_args()
 r=Path(__file__).resolve().parent.parent;site=r/a.site
-required=['index.html','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','sw.js','offline.js','audio-manifest.json','manifest.webmanifest','.nojekyll']
+required=['index.html','kurskompass.html','vertiefung-151.html','fachvertiefung-151.html','sw.js','offline.js','audio-manifest.json','version.json','manifest.webmanifest','.nojekyll']
 errors=[]
 for f in required:
  if not (site/f).is_file():errors.append('Missing '+f)
