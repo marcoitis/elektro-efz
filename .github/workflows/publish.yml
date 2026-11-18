@@ -40,7 +40,9 @@ jobs:
           python tools/validate_v093.py
           python tools/check_github_release.py
           node tools/test_sw_routes.js
-      - name: Textbasierte PWA bauen (keine automatische MP3-Erzeugung)
+          node tools/test_audio_zip_import.js
+          for file in app.js audio-engine.js audio-zip-import.js offline.js sw.js; do node --check "$file"; done
+      - name: PWA mit 178 Online-Audios und Update-Prüfung bauen
         run: |
           python tools/build_site.py --mode remote
           python tools/verify_pages_package.py --site dist
@@ -53,3 +55,26 @@ jobs:
       - name: GitHub Pages veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Öffentliche Seitenversion und Audio-Manifest nach Deployment kontrollieren
+        run: |
+          ROOT="https://marcoitis.github.io/elektro-efz"
+          PASSED=0
+          for CHECK in $(seq 1 15); do
+            if curl -fsSL --max-time 12 --retry 2 --header 'Cache-Control: no-cache' "$ROOT/version.json?commit=$GITHUB_SHA" -o /tmp/live-version.json &&
+               curl -fsSL --max-time 12 --retry 2 --header 'Cache-Control: no-cache' "$ROOT/audio-manifest.json?commit=$GITHUB_SHA" -o /tmp/live-audio.json &&
+               python - <<'PY'
+          import json
+          v=json.load(open('/tmp/live-version.json'))
+          a=json.load(open('/tmp/live-audio.json'))
+          assert v['build']=='0.11.9-audio-1',v
+          assert len(a['tracks'])==178 and a['generated']==178,(a.get('generated'),len(a['tracks']))
+          print('LIVE PASS',v['version'],'MP3:',len(a['tracks']))
+          PY
+            then
+              PASSED=1
+              break
+            fi
+            echo "Warte auf aktive Veröffentlichung, Versuch $CHECK von 15"
+            sleep 5
+          done
+          if [ "$PASSED" -ne 1 ]; then echo "Live-Version oder Audio-Manifest nicht aktuell" >&2; exit 1; fi
