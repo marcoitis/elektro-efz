@@ -1,0 +1,54 @@
+name: Test iOS Audio-Reparatur v0.11.10
+
+on:
+  push:
+    branches: [fix/ios-audio-retry-v01110]
+    paths: [.github/workflows/test-ios-audio.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ios-audio-check:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax und iOS-Fehlerfall prüfen
+        run: |
+          for file in app.js offline.js audio-engine.js audio-zip-import.js sw.js; do node --check "$file"; done
+          node tools/test_ios_audio_retry.js
+          node tools/test_audio_zip_import.js
+          node tools/test_sw_routes.js
+      - name: Fachtext- und Konsistenzprüfungen
+        run: |
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/validate_v093.py
+          python tools/check_github_release.py
+      - name: Build mit Remote-Audio und Versionsprüfung prüfen
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          python - <<'PY'
+          import pathlib,json
+          p=pathlib.Path('dist')
+          manifest=json.loads((p/'audio-manifest.json').read_text())
+          version=json.loads((p/'version.json').read_text())
+          assert len(manifest['tracks'])==178
+          assert version['build']=='0.11.10-audio-1'
+          assert 'Nur fehlende Audios laden' in (p/'app.js').read_text()
+          assert 'audio-retry-failed' in (p/'app.js').read_text()
+          print('PASS Version 0.11.10 + 178 Audio-MP3s')
+          PY
