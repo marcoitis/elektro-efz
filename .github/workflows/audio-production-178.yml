@@ -1,0 +1,111 @@
+name: Thorsten High – 178 Audiolektionen (15 Chargen)
+
+on:
+  push:
+    branches: [audio-production-thorsten-high-v0118-20261118]
+    paths:
+      - .github/workflows/audio-production-178.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: thorsten-high-audio-178-v0118
+  cancel-in-progress: false
+
+env:
+  AUDIO_TAG: thorsten-high-v0118-audio-20261118
+
+jobs:
+  prepare:
+    name: Plan prüfen und Audio-Release-Entwurf anlegen
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+    steps:
+      - name: Quellstand holen
+        uses: actions/checkout@v4
+      - name: 178 Manuskripte und 15 Chargen verifizieren
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          plan = json.loads(Path('audio-plan/batches.json').read_text(encoding='utf8'))
+          batches = plan['batches']
+          ids = [x for b in batches for x in b['ids']]
+          source = {f.stem for f in Path('tts_scripts').glob('*.txt')}
+          assert len(batches) == 15 and len(ids) == len(set(ids)) == len(source) == 178
+          assert set(ids) == source
+          print('OK: 178 eindeutige Manuskripte, 15 Chargen, 0 Lücken.')
+          PY
+      - name: Draft-Release anlegen (ohne Live-App zu verändern)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$AUDIO_TAG" >/dev/null 2>&1; then
+            echo "Draft-Release existiert bereits. Sie wird aktualisiert."
+          else
+            gh release create "$AUDIO_TAG" --draft --target "$GITHUB_SHA" \
+              --title "Elektro EFZ v0.11.8 – Thorsten High Audio (178 Lektionen)" \
+              --notes "15 Audio-Pakete mit je maximal 12 Lektionen, Originalstimme de_DE-thorsten-high, MP3 128 kbit/s mono. Automatische technische Kontrolle, fachliche und akustische Endabnahme noch offen. Nicht freigegeben fuer produktive App."
+          fi
+          echo "Entwurfs-Release: https://github.com/$GITHUB_REPOSITORY/releases"
+
+  render:
+    name: "Audio-Charge ${{ matrix.batch }}"
+    needs: prepare
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        batch: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    steps:
+      - name: Manuskripte laden
+        uses: actions/checkout@v4
+      - name: Python 3.11 einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Piper und FFmpeg installieren
+        run: |
+          python -m pip install 'piper-tts==1.2.0'
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          command -v piper && command -v ffmpeg
+      - name: Exaktes freigegebenes Stimmmodell holen und SHA-256 prüfen
+        run: |
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 5 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 5 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx.json 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Alle Lektionen der Charge vertonen und technisch prüfen
+        run: python tools/render_audio_batch_thorsten.py --batch ${{ matrix.batch }}
+      - name: ZIP-Paket in unveröffentlichten Release-Entwurf hochladen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BATCH=$(printf "%02d" ${{ matrix.batch }})
+          gh release upload "$AUDIO_TAG" ".audio-production/Audio_Thorsten_High_Batch_$BATCH.zip" --clobber
+          echo "Uploaded batch $BATCH" >> "$GITHUB_STEP_SUMMARY"
+
+  verify:
+    name: Alle 15 Pakete kontrollieren
+    needs: [prepare, render]
+    if: always()
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+    steps:
+      - name: Hochgeladene Dateien zählen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/$AUDIO_TAG" \
+            --jq '[.assets[].name | select(startswith("Audio_Thorsten_High_Batch_") and endswith(".zip"))] | length' > asset_count.txt
+          COUNT=$(cat asset_count.txt)
+          echo "Audio-Pakete im Release: $COUNT / 15"
+          echo "## Audio-Produktion" >> "$GITHUB_STEP_SUMMARY"
+          echo "Pakete in Draft-Release: **$COUNT / 15**" >> "$GITHUB_STEP_SUMMARY"
+          echo "Link: https://github.com/$GITHUB_REPOSITORY/releases" >> "$GITHUB_STEP_SUMMARY"
+          test "$COUNT" -eq 15
