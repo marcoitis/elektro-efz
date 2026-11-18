@@ -1,7 +1,7 @@
 {
-  "name": "Elektroinstallateur EFZ – Fachschule v0.8",
+  "name": "Elektroinstallateur EFZ – Fachschule v0.11.8",
   "short_name": "Elektro EFZ",
-  "description": "Vier Lehrjahre, Sprachunterricht, Vertiefung und Wiederholungslernen",
+  "description": "Vier Lehrjahre, Sprachunterricht, Prüfungen, Simulationen, Hausprojekt und Wiederholungslernen",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

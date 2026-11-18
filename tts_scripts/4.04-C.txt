@@ -1,1 +1,95 @@
-Lektion 4.04-C: Gebäudeautomation und Benutzerfunktionen. Eine gute Automationslösung verbindet technisches Verhalten mit verständlicher Bedienung. Szenen, Prioritäten, Zeitprogramme und manuelle Eingriffe dürfen nicht widersprüchlich sein. Eine HMI-Anzeige oder App muss den realen Zustand möglichst richtig abbilden. Eine Änderung an Parametern erfordert Versionierung und nachvollziehbare Funktionsprüfung. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle für ein fiktives Büro eine Bedienmatrix für Licht, Beschattung und Lüftung. Prüfe drei Fälle: manueller Eingriff, Zeitprogramm und Störmeldung. Definiere, welches Signal Vorrang hat und wie der Benutzer informiert wird. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: HMI, Benutzerfunktionen und Dokumentation; Analyse geplanter und tatsächlicher Funktion. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.4/5.5; N I N Teile 4/5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.04-C: Gebäudeautomation und Benutzerfunktionen. Eine gute Automationslösung verbindet technisches Verhalten mit verständlicher Bedienung. Szenen, Prioritäten, Zeitprogramme und manuelle Eingriffe dürfen nicht widersprüchlich sein. Eine HMI-Anzeige oder App muss den realen Zustand möglichst richtig abbilden. Eine Änderung an Parametern erfordert Versionierung und nachvollziehbare Funktionsprüfung. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle für ein fiktives Büro eine Bedienmatrix für Licht, Beschattung und Lüftung. Prüfe drei Fälle: manueller Eingriff, Zeitprogramm und Störmeldung. Definiere, welches Signal Vorrang hat und wie der Benutzer informiert wird. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: HMI, Benutzerfunktionen und Dokumentation; Analyse geplanter und tatsächlicher Funktion. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.4/5.5; NIN Teile 4/5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: HMI, Benutzerfunktionen und Dokumentation; Analyse geplanter und tatsächlicher Funktion.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Wozu dient eine Prioritätenmatrix?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Komplexere 24-V-Steuerung bzw. Software-Simulation mit 6 Ein- und Ausgängen. Halte zusätzlich die Antwort auf die Frage «Wozu dient eine Prioritätenmatrix?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wozu dient eine Prioritätenmatrix? Die richtige Antwort lautet: Zur eindeutigen Auflösung widersprüchlicher Befehle. Warum? Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben.. Warum? Der Merksatz lautet: Bedienoberflächen müssen die tatsächlichen Zustände korrekt wiedergeben.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigiertes Unterrichtsmanuskript.
+
+
+Fachkapitel 1: Technik aus Sicht des Benutzers formulieren.
+Eine gute Gebäudeautomation löst Nutzungsaufgaben, nicht nur abstrakte Ein- und Ausgangszustände. Im Sitzungszimmer möchte der Nutzer mit einer Taste eine Präsentationsszene aktivieren: passende Beleuchtung, Beschattung und allenfalls Lüftungsanforderung. Die Funktionsbeschreibung nennt daher zuerst das gewünschte Verhalten, danach die beteiligten Gewerke und die Voraussetzungen. Ein beliebiges Statusbit auf einer Visualisierung ist für einen Nutzer selten hilfreich. Die Ausbildung zeigt, wie aus einer Nutzererwartung eine überprüfbare Systemfunktion mit klaren Grenzbedingungen entsteht.
+
+Fachkapitel 2: Szenen sind gespeicherte Zustandsbündel.
+Eine Szene kann mehrere Dimmwerte, Beschattungspositionen oder Betriebsarten bündeln. Das System muss aber wissen, wie die Szene mit manuellen Eingriffen und anderen Automatikfunktionen zusammenwirkt. Wird während der Präsentation die Jalousie manuell verstellt, bleibt die Szene aktiv, wird sie teilweise überschrieben oder beginnt ein eigener Modus? Ohne definierte Priorität entstehen unvorhersehbare Bedienerfahrungen. Ein sauberer Plan trennt den Szenenaufruf, die jeweiligen Sollwerte und die Rückmeldungen. Die Schaltfolgen können zeitlich gestaffelt sein, wenn technische Gründe dies verlangen.
+
+Fachkapitel 3: Temperaturregelung und Komfortgrenzen.
+Ein Raumtemperaturregler verarbeitet Sollwert, Istwert und gegebenenfalls Betriebsart. Eine hohe Sollwertänderung beschleunigt ein träges Heizsystem nicht beliebig. Deshalb werden Komfort und Energieeffizienz nur gemeinsam sinnvoll bewertet. Ein Modell zeigt einen Raum mit 21 Grad Solltemperatur und 19,5 Grad Istwert. Die Regelung kann Wärme anfordern, aber Aktor, Heizleistung und Trägheit bestimmen die Reaktion. Wir erklären den Unterschied zwischen Regelabweichung und Stellgrösse sowie die Rolle einer Hysterese, ohne aus einem vereinfachten Modell eine fertig abgestimmte Gebäudeautomation abzuleiten.
+
+Fachkapitel 4: Präsenzlogik mit Tageslicht verknüpfen.
+Eine Beleuchtung soll sich nur dann automatisch einschalten, wenn Präsenz vorliegt und das Umgebungslicht unter einer festgelegten Schwelle liegt. Zusätzlich können Handbedienung und Reinigungsbetrieb Prioritäten haben. Für die Übung formulieren wir: Lichtfreigabe ist Präsenz UND zu dunkel, ausser ein manuelles Kommando setzt einen anderen definierten Modus. Ein solcher Satz kann in eine Logiktabelle übertragen werden. Eine wichtige Prüffrage lautet, ob der Helligkeitssensor durch das eigene Licht beeinflusst wird und dadurch ein unerwünschtes Ein- und Ausschalten entstehen kann.
+
+Fachkapitel 5: Kommunikationswege und Datenpunkte dokumentieren.
+Eine Gebäudeautomation besteht aus Geräten unterschiedlicher Gewerke. Ein Datenpunktverzeichnis beschreibt Bezeichnung, Bedeutung, Datentyp, Wertebereich, Richtung und Zuständigkeit. Bei einer Raumtemperatur sind etwa Grad Celsius und Skalierung wichtig; bei einer Beschattungsposition eine eindeutig definierte Prozentinterpretation. Die Datenpunkte werden mit den Bedienfunktionen verknüpft, sodass beim Test erkennbar ist, welches Signal die Ursache einer Bewegung war. Eine gut gepflegte Dokumentation erleichtert Wartung und verhindert, dass spätere Erweiterungen die vorhandenen Funktionen unbemerkt verändern.
+
+Fachkapitel 6: Visualisierung darf Sicherheit nicht vorspiegeln.
+Ein Bildschirm kann eine grüne Lampe anzeigen, obwohl der physikalische Aktor nicht den gewünschten Zustand erreicht hat. Deshalb unterscheiden wir Befehl, Rückmeldung und Alarm. Besonders bei Brandschutz- oder Sicherheitsfunktionen ist eine komfortorientierte Visualisierung nicht automatisch Teil einer zugelassenen Sicherheitsarchitektur. Lernende sollen die Grenzen der Anzeige benennen. Der Zustand eines Gewerks wird nur dann als nachgewiesen dargestellt, wenn eine dafür geeignete Rückmeldung verfügbar und korrekt ausgewertet wird. Für weitere Aufgaben ist die zuständige Fachplanung einzubeziehen.
+
+Fachkapitel 7: Benutzerrollen und Datenschutz.
+Eine Verwaltungsoberfläche kann Funktionen enthalten, die normale Nutzer nicht ändern sollten, beispielsweise Zeitprogramme, Betriebsgrenzen oder Konfiguration der Kommunikationsschnittstellen. Deshalb werden Rollen und Rechte festgelegt. Bei Zugangssystemen, Raumnutzung oder Präsenzdaten stellen sich zudem Datenschutzfragen. Die Unterrichtsaufgabe besteht darin, eine einfache Rechte-Matrix zu entwerfen: Nutzer bedient Szenen, Hauswart passt Zeitfenster an und Fachadministrator verändert Systemparameter. Die tatsächliche Umsetzung folgt den Vorgaben des Betreibers, den Datenschutzanforderungen und dem eingesetzten Produkt.
+
+Fachkapitel 8: Störung und manueller Fallback.
+Wenn das Netzwerk ausfällt, muss klar sein, ob bestimmte Funktionen lokal weiter verfügbar sind. Eine Beleuchtung kann bei geeigneter Architektur beispielsweise weiterhin per lokalem Taster bedient werden. Das ist nicht bei jedem System automatisch gegeben. Ein Funktionskonzept benennt deshalb Kommunikationsausfall, Sensorausfall und Geräteausfall als getrennte Situationen. Jeweils wird beschrieben, welches Verhalten erwartet wird und wie sich der Nutzer informieren kann. Eine gut geplante Ersatzbedienung erhöht die Nutzbarkeit, ersetzt aber keine vorgeschriebenen Sicherheitsmassnahmen.
+
+Fachkapitel 9: Abnahmetest als Szenenprotokoll.
+Jede Benutzerfunktion erhält ein Testszenario: Ausgangszustand, Bedienhandlung, erwartete Aktorreaktion, Rückmeldung und Zeitverhalten. Beim Präsentationsmodus wird geprüft, ob Licht und Beschattung korrekt reagieren und ob die manuelle Übersteuerung wie spezifiziert arbeitet. Eine mündliche Aussage der Betreiberin allein reicht für eine reproduzierbare Abnahme nicht aus. Das Protokoll dokumentiert die konkrete Softwareversion, geprüfte Geräte und verbleibende Abweichungen. Nach Abschluss werden Bediener auf die wichtigsten Funktionen und den Umgang mit Meldungen instruiert.
+
+Praxisfälle mit Lösungen und fachlicher Begründung.
+
+
+Aufgabe 1: Präsentationsszene.
+Ein Taster soll Licht auf 30 Prozent und Beschattung auf 80 Prozent fahren. Bezeichne beide Werte als Sollgrössen und dokumentiere eine Rückmeldung je Aktor. Die Anzeige Erfolgreich ist erst nach geeigneter Bestätigung gerechtfertigt.
+
+Aufgabe 2: Präsenz ohne Dunkelheit.
+Präsenz liegt vor, das Tageslicht ist ausreichend. Die Automatik bleibt aus. Bei manuell angeforderter Beleuchtung kann eine separate Bedienpriorität greifen; sie muss im Funktionsbeschrieb festgelegt sein.
+
+Aufgabe 3: Sensor beeinflusst sich selbst.
+Der Helligkeitssensor misst nach Einschalten der Leuchte mehr Licht und schaltet die Leuchte sofort wieder aus. Eine fachlich plausible Verbesserung ist Hysterese oder zeitliche Entkopplung, mit Tests gegen Flattern.
+
+Aufgabe 4: Kommunikationsunterbruch.
+Das zentrale Netzwerk fällt aus, aber der Raum soll bedienbar bleiben. Prüfe anhand der gewählten Architektur, ob lokale Gerätefunktion vorhanden ist. Ein manuell erreichbarer Schalter ist nur dann hilfreich, wenn er tatsächlich unabhängig arbeitet.
+
+Aufgabe 5: Rollenmatrix.
+Ein normaler Nutzer möchte den globalen Frostschutz-Sollwert ändern. Die Rollenmatrix verweigert dies; ein berechtigter Fachadministrator kann den Parameter nach dem vorgesehenen Verfahren verändern. Notiere die Begründung.
+
+Aufgabe 6: Abnahme eines Datenpunkts.
+Eine Temperatur von 215 wird übertragen, aber als 215 Grad dargestellt. Die Schnittstellenbeschreibung sieht Zehntelgrad vor; korrekt wären 21,5 Grad. Der Fehler liegt in der Skalierung, nicht zwangsläufig im Sensor.
+
+Abschlusskontrolle und Einordnung.
+Bearbeite abschliessend drei Fragen: Welche physikalischen oder logischen Annahmen lagen den Rechnungen und Beispielen dieser Lektion zugrunde? Welcher zweite Messpunkt, welche Quellenangabe oder welche unabhängige Kontrolle könnte das Ergebnis bestätigen? Was muss eine verantwortliche Fachperson vor einer realen Freigabe ergänzend prüfen? Halte Deine Antwort im Unterrichtsprotokoll fest. Die behandelten Beispiele sind bewusst Lernmodelle; ihre Plausibilität ersetzt weder Herstellerinformationen noch die geltenden Sicherheitsregeln oder einen fachgerechten Anlagenachweis.
+
+
+Vertiefende Fallanalyse: Raumszene mit Prioritätskonflikt.
+Ein Besprechungsraum besitzt Automatik für Präsenz und Tageslicht, eine manuelle Lichttaste sowie eine Szene Präsentation. Der Nutzer aktiviert Präsentation, worauf das Licht gedimmt und die Beschattung geschlossen wird. Wenige Minuten später verlässt die letzte Person den Raum. Die Präsenzautomatik würde normalerweise die Beleuchtung nach einer Nachlaufzeit ausschalten. Soll die Szene bestehen bleiben oder automatisch enden? Die Antwort ist keine allgemein gültige Steuerungsregel. Sie muss durch Betreiber und Fachplanung festgelegt und verständlich dokumentiert werden. In einer möglichen Lernvariante behält die manuelle Szene bis zu einer definierten Ausschaltbedingung Priorität. In einer anderen Variante endet sie nach zehn Minuten ohne Präsenz. Beide Varianten lassen sich logisch umsetzen; bewertet wird, ob der Funktionsbeschrieb eindeutig und die Testfälle vollständig sind. Der Lernende erstellt eine Prioritätenliste und überprüft, dass zwei gleichzeitige Befehle nicht zu widersprüchlichen Aktorwerten führen.
+
+Vertiefende Fallanalyse: Benutzertest und Betriebsszenario.
+Eine digitale Raumvisualisierung zeigt Solltemperatur 22 Grad, aktuelle Temperatur 20 Grad und Heizanforderung aktiv. Der Nutzer meldet trotzdem, es sei kalt. Die Fachanalyse unterscheidet den Sollwert, die gemessene Temperatur, den Ausgangsbefehl und die physikalische Heizwirkung. Eine grüne Heizanforderung bedeutet nicht zwingend, dass Wärmeleistung am Raum ankommt. Im Testprotokoll wird daher erfasst, ob der Regler angemessen reagiert, der Aktor den Befehl erhält und der Temperaturtrend plausibel verläuft. Die Regelung kann wegen der thermischen Trägheit nicht sofort zwei Grad Temperaturänderung erzeugen. Gleichzeitig wäre bei fehlender Rückmeldung offen, ob ein Ventil wirklich öffnet. Die Kundenerklärung sollte diesen Unterschied in Alltagssprache vermitteln, ohne eine nicht nachgewiesene Funktion als erfolgreich zu bezeichnen. So werden Bedienoberfläche, physikalisches System und Diagnose logisch verbunden.
+
+Mündliche Abschlussaufgabe.
+Für einen vollständigen Benutzertest schreiben Lernende vier Fälle auf. Erstens: Raum belegt und dunkel, automatische Beleuchtung soll reagieren. Zweitens: Raum belegt und hell, die automatische Beleuchtung bleibt aus. Drittens: Der Nutzer aktiviert die Präsentationsszene, wodurch festgelegte Licht- und Beschattungszustände angefordert werden. Viertens: Die zentrale Kommunikation fällt aus, und das Verhalten der lokalen Bedienung wird geprüft. Zu jedem Fall gehören Ausgangszustand, Aktion, Sollreaktion, Rückmeldung und Ergebnis. Anschliessend wird die Prioritätsfrage behandelt: Was gilt, wenn während Präsentation der Raum verlassen wird? Diese Antwort darf nicht dem Zufall überlassen werden. Eine ergänzende Datenpunktliste hält fest, ob ein Wert einen Befehl oder eine echte Zustandsrückmeldung beschreibt. Ohne diese Unterscheidung könnte die Visualisierung einen Erfolg anzeigen, obwohl ein Aktor blockiert ist. Die Übung verbindet nutzerorientiertes Denken, technische Planung, Diagnose und dokumentierte Abnahme. Die Regeln zu Datenschutz, Betriebszugang und Sicherheitsfunktionen müssen je nach Gebäude zusätzlich geprüft werden.
+
+
+Gezielte Lernkontrolle.
+Formuliere für eine reale Bedienoberfläche ausserdem getrennte Anzeigen für Befehl gesendet, Aktor hat reagiert und System meldet Störung. Ein manuell angeforderter Zustand ist nicht automatisch der tatsächlich erreichte Zustand. Dokumentiere, wie eine Nutzerin mit einer Fehlermeldung umgehen soll, ohne an der elektrischen Installation selbst eingreifen zu müssen.

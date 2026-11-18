@@ -1,0 +1,95 @@
+Lektion 4.11-C: Prüfungssimulation und Lernlückenanalyse. Eine Prüfungssimulation soll die tatsächliche Belastung und die fachliche Breite abbilden. Wähle Aufgaben aus mehreren Bereichen, arbeite mit den erlaubten Hilfsmitteln und korrigiere erst nach Abschluss. Dokumentiere Fehler nach Ursache: Wissenslücke, Rechenfehler, unklare Normenstelle oder Zeitproblem. Daraus ergibt sich ein gezielter Wiederholungsplan. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Plane zwei mehrstündige eigenständige Theorieprüfungsblöcke. Erfasse pro Aufgabe Bearbeitungszeit, erreichte Punkte und Fehlerursache. Sortiere die Themen nach Risiko und baue aus den fünf schwächsten Gebieten neue Übungssätze auf. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Prüfungssimulationen dienen der Diagnose des Lernstands. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kommunikationstechnik; Fehleranalyse, Notenberechnung, Wiederholung schwacher Themen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Kommunikationstechnik; Fehleranalyse, Notenberechnung, Wiederholung schwacher Themen.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was sollte nach einer Probeklausur entstehen?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Prüfungssimulationen dienen der Diagnose des Lernstands.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Eine beaufsichtigte 6-stündige Eigenprüfung in zwei Blöcken; Hilfsmittel wie im aktuellen QV-Aufgebot. Halte zusätzlich die Antwort auf die Frage «Was sollte nach einer Probeklausur entstehen?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was sollte nach einer Probeklausur entstehen? Die richtige Antwort lautet: Ein konkreter Plan für die grössten Wissenslücken. Warum? Prüfungssimulationen dienen der Diagnose des Lernstands.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Prüfungssimulationen dienen der Diagnose des Lernstands.. Warum? Der Merksatz lautet: Prüfungssimulationen dienen der Diagnose des Lernstands.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung.
+
+
+Fachkapitel 1: Prüfungssimulation ohne Unterbrechungen.
+Eine realistische Simulation benötigt einen festen Start, einen definierten Zeitrahmen und genau die zugelassenen Hilfsmittel. Wähle Aufgaben aus Elektrotechnik, Installationstechnik, Normenorientierung, Dokumentation und Kommunikationstechnik. Notiere vorher, welches Ergebnis als abgeschlossen gilt. Während der Bearbeitung werden keine Musterlösungen konsultiert. Ein kurzer Wissensabgleich zwischendurch würde das Ergebnis verfälschen, weil er die tatsächliche Prüfungssituation nicht mehr abbildet. Die Übung dient nicht der künstlichen Härte, sondern der Beobachtung: Wo wird Zeit verschenkt, welche Aufgaben werden unpräzise gelesen, welche Fehler entstehen erst unter Druck? Auch Erholung und Arbeitsrhythmus können erfasst werden, ohne die geltenden Prüfungsregeln zu imitieren, die nicht bekannt sind.
+
+Fachkapitel 2: Zeit und Punkte differenziert auswerten.
+Wenn ein Block 120 Minuten dauert und 100 Punkte umfasst, beträgt der rechnerische Mittelwert 1,2 Minuten pro Punkt. Das ist keine fixe Vorgabe für jede Frage: Eine komplexe Rechenaufgabe kann länger dauern als eine einfache Definitionsfrage. Dennoch hilft das Verhältnis bei der Planung. Erfasse für jede Aufgabe Bearbeitungszeit, erreichbare Punkte, tatsächliche Punkte und Fehlerursache. Eine Aufgabe mit 15 erreichbaren Punkten, 20 Minuten Aufwand und nur drei Punkten ist besonders interessant. Vielleicht fehlte das Fachmodell, vielleicht ging Zeit für das Suchen nach einer Formel verloren. Ohne Ursachenanalyse würde der Schüler einfach noch eine ähnliche Aufgabe lösen und den ursprünglichen Lernfehler übersehen.
+
+Fachkapitel 3: Fehler nach Ursachen codieren.
+Verwende ein kleines, stabiles Codesystem: F für Fachwissen, R für Rechenumformung, E für Einheit, N für unbelegte Normbehauptung, Z für Zeitmanagement und L für Lesefehler. Pro Aufgabe kann mehr als ein Code vorkommen, aber eine primäre Ursache sollte erkennbar bleiben. Wenn etwa in einer Spannungsfallaufgabe die Hin- und Rückleitung doppelt angesetzt wird, ist das nicht bloss ein Rechenfehler, sondern ein Modellfehler. Wenn eine Normzahl aus einer alten Liste genannt wird, ist es ein Quellenproblem. Diese Unterscheidung entscheidet über die passende Gegenmassnahme: Formeltraining, Fallanalyse, Normenrecherche oder präziseres Lesen.
+
+Fachkapitel 4: Lernlücken nach Risiko priorisieren.
+Nicht jede falsche Antwort ist gleich kritisch. Die Verwechslung von Kilowatt und Kilowattstunden kostet Punkte, kann aber mit systematischem Einheitentraining oft schnell korrigiert werden. Unklare Aussagen zu Freischalten, Prüfen oder Bewilligungsumfang betreffen dagegen Grundsätze, die in der Praxis sicherheitsrelevant sind. Priorisiere deshalb nach Häufigkeit, Schwere, Übertragbarkeit auf andere Aufgaben und benötigter Lernzeit. Erstelle ein Raster mit einer Dringlichkeitsstufe von eins bis drei. Eine seltene, aber sicherheitskritische Unsicherheit kann damit vor einem häufigen Schönheitsfehler landen. Das Ziel ist nicht die perfekte Statistik, sondern eine begründete Reihenfolge der nächsten Übungseinheiten.
+
+Fachkapitel 5: Gegenprobe nach drei Tagen.
+Eine Wiederholung direkt nach der Korrektur kann täuschen: Die Lösung befindet sich noch im Kurzzeitgedächtnis. Plane deshalb eine Gegenprüfung nach einigen Tagen mit veränderten Zahlen und anderer Darstellung. Wenn die ursprüngliche Aufgabe 400 Volt, 8 Ampere und cosφ = 0,85 verwendete, kann die Variante beispielsweise 400 Volt, 6 Ampere und cosφ = 0,9 vorgeben. Wer das Rechenmodell versteht, löst beide Fälle. Wer nur ein Ergebnis memoriert hat, scheitert an der Änderung. Halte fest, ob die Lösung ohne Hilfestellung, mit leichter Erinnerung oder nur nach erneuter Erklärung möglich war. Diese Lernstandskontrolle ist ehrlicher als die reine Wiederholung des identischen Testblatts.
+
+Fachkapitel 6: Mündliches und schriftliches Lernen verbinden.
+Ein schriftlicher Fehler kann durch ein kurzes Fachgespräch geklärt werden. Frage Dich nicht nur, welche Zahl korrekt wäre, sondern warum die Formel gilt und in welchen Fällen sie nicht verwendet werden darf. Ein falscher Neutralleiterstrom in einer unsymmetrischen Drehstromaufgabe lässt sich beispielsweise mit einem Zeigerbild besprechen. Ein unklarer RCD-Fall wird mit Stromwegen und Nachweisen statt mit Zahlentabellen erklärt. Das mündliche Erklären legt oft offen, wo ein Begriff nur oberflächlich bekannt ist. Anschliessend wird dieselbe Idee schriftlich mit einer neuen Aufgabe geprüft. So ergänzen sich unterschiedliche Lernformen.
+
+Fachkapitel 7: Lernportfolio ohne Selbsttäuschung.
+Ein gutes Portfolio enthält nicht nur bestandene Übungsblätter, sondern auch dokumentierte Fehler, Quellen und die nächste überprüfbare Handlung. Notiere pro Lernlücke ein konkretes Ziel: «Ich kann für eine symmetrische Drehstromlast die Leistung mit Einheiten herleiten und eine Rückprobe durchführen.» Ergänze zwei Aufgaben mit Datum, Resultat, Bearbeitungszeit und Kurzbewertung. Bei Normenfragen gehören Ausgabe, Fundstelle und offene Unsicherheit dazu. Eine mathematisch korrekt berechnete Übungsaufgabe ist kein Nachweis praktischer Installationskompetenz. Die beiden Bereiche bleiben im Portfolio sichtbar getrennt, gerade wenn ein EFZ-Qualifikationsverfahren als fernes Ziel betrachtet wird.
+
+Fachkapitel 8: Prüfungsregeln nur aus gültiger Wegleitung.
+Aufgabenanzahl, Zeitdauer, Gewichtung und zulässige Hilfsmittel unterscheiden sich je nach Qualifikationsverfahren, Durchführungsjahr und zuständiger Organisation. Ein frei erstellter Übungstest darf deshalb als Simulation bezeichnet werden, nicht als offizielle Prüfung. Für eine verlässliche Vorbereitung werden die aktuelle Bildungsverordnung, der gültige Bildungsplan, die Wegleitung und die kantonalen Angaben eingeholt. Wenn diese Dokumente nicht vorliegen, wird ein neutrales Übungsformat erstellt und die Abweichung vermerkt. Das schützt vor falschen Erwartungen und macht die Lernplattform transparenter.
+
+Anwendungsfälle und ausführliche Musterbegründungen.
+
+
+Fall 1: Punktedifferenz.
+In einer Probeprüfung sind 80 Punkte möglich, 56 werden erreicht. Ergebnis: 70 Prozent. Die Zahl allein zeigt noch nicht, ob die sicherheitskritischen Fachbereiche beherrscht werden. Werte die Aufgaben zusätzlich nach Themen und Fehlertypen aus.
+
+Fall 2: Zeitüberschreitung.
+Eine 10-Punkte-Aufgabe benötigt 24 Minuten, alle anderen zusammen 70 Minuten. Lösung: Prüfen, ob die erste Aufgabe wiederholt Informationen nachgeschlagen oder schlecht strukturiert wurde. Ein Zeitbudget mit Zwischenkontrolle kann helfen; fachliche Grundlagen müssen dennoch vorhanden sein.
+
+Fall 3: Einheitenfehler.
+Ein Kandidat berechnet für eine 1-kW-Last, die 30 Minuten betrieben wird, 30 kWh. Lösung: Eine halbe Stunde mal 1 kW ergibt 0,5 kWh. Im Lernplan eine eigene Einheitenspalte und zwei neue Energieaufgaben ergänzen.
+
+Fall 4: Veraltete Normfundstelle.
+Eine korrekte technische Idee wird mit einer nicht mehr überprüften Normausgabe begründet. Lösung: Fehlercode N verwenden. Massnahme: die im konkreten Fall gültige Originalquelle mit Stand und Anwendungsbereich recherchieren; Zahlen erst danach übernehmen.
+
+Fall 5: Schwierige Aufgabe zuerst?.
+Ein Kandidat löst die längste Aufgabe am Anfang und lässt drei einfache Fragen leer. Lösung: Die Strategie bei einer zweiten Simulation vergleichen. Gute Reihenfolge orientiert sich an Sicherheit, Verständnis, Punktewert und Zeitbudget, nicht nur an Gewohnheit.
+
+Fall 6: Lernzuwachs prüfen.
+Die erste Simulation ergibt 62 von 100 Punkten, eine spätere 77 Punkte. Verbesserung: 15 Prozentpunkte. Erst die Themen- und Fehleranalyse zeigt, ob die Verbesserung aus Verständnis, einfacherem Aufgabenmix oder anderen Hilfsmitteln resultiert.
+
+Vertiefter Praxisfall 1: Lernlücke statt Punktzahl erkennen.
+Ein Schüler löst die Gleichstromaufgaben richtig, verliert aber fast alle Punkte bei Wechselstromleistung. Eine pauschale Gesamtwertung würde diese spezifische Lücke verdecken. Im Auswertungsbogen wird deshalb für jede Aufgabe neben der Punktzahl ein Fachgebiet und ein Fehlercode eingetragen. Wenn die Fehler beispielsweise bei der Unterscheidung von P, Q und S auftreten, folgen zwei Übungen zum Leistungsdreieck und ein erklärendes Kurzgespräch. Erst danach wird ein neuer, veränderter Fall gerechnet. Das Vorgehen schafft einen nachvollziehbaren Zusammenhang zwischen Prüfungsergebnis, Lernmassnahme und erneuter Kontrolle, anstatt nur den gesamten Stoff noch einmal zu lesen.
+
+Vertiefter Praxisfall 2: Normfehler gesondert gewichten.
+Ein Kandidat beantwortet eine Schutzfrage mit einer sehr alten Normzahl, obwohl der physikalische Grundgedanke richtig ist. Für eine fiktive Lernmatrix kann dieser Fehler doppelt markiert werden: das technische Prinzip ist vorhanden, der normative Beleg aber nicht aktuell verifiziert. Die Gegenmassnahme ist kein blindes Auswendiglernen eines Ersatzwerts. Stattdessen wird die passende Originalausgabe gesucht, der Anwendungsfall eingegrenzt und die Fundstelle dokumentiert. Das Ergebnis bleibt offen, falls kein autorisierter Zugriff besteht. Diese klare Trennung verhindert, dass die Prüfungssimulation den Anschein einer fachlichen Sicherheitsfreigabe erweckt.
+
+Vertiefter Praxisfall 3: Zeitverlauf in der Simulation.
+Bei einer 90-Minuten-Simulation werden nach 30 Minuten erst 15 von 60 Punkten bearbeitet, obwohl die einfache Aufgabenhälfte noch offen ist. Der Kandidat muss seine Reihenfolge kritisch prüfen. Eine mögliche Strategie ist, klar lösbare Aufgaben zuerst vollständig zu dokumentieren und schwierige mehrstufige Rechnungen danach zu bearbeiten. Die fachlichen Sicherheitsanforderungen dürfen jedoch nicht für eine höhere Punktzahl ausgelassen werden. Die Auswertung kann ein Diagramm aus Zeit und bearbeiteten Punkten enthalten. Es zeigt, ob die Bearbeitung gegen Ende abbricht oder ob einzelne Fragen unverhältnismässig viel Zeit beanspruchen. Daraus folgt ein konkretes Trainingsziel.
+
+Vertiefter Praxisfall 4: Varianten statt Auswendiglernen.
+Nach der ersten Prüfung löst eine Person eine RLC-Aufgabe mit 30 Ohm und 40 Ohm Blindanteil. Bei der zweiten Übung werden andere Zahlen und eine andere grafische Darstellung gewählt. Das erlaubt zu prüfen, ob die Impedanz als Vektorbeziehung verstanden wurde. Eine identische Wiederholung könnte lediglich die Erinnerung an die zuvor gesehene Rechnung messen. Bei Normfällen wird die Variante nicht durch eine unbestätigte Normzahl geändert, sondern durch eine andere Anlagenbeschreibung und eine neu zu dokumentierende Recherche. Das Ziel ist transferierbares Verständnis, nicht die Wiedererkennung vertrauter Textbausteine.
+
+Vertiefter Praxisfall 5: Abschlussbogen mit Entscheidung.
+Zum Schluss einer Lernwoche stehen drei Aussagen im Bericht: Welche Themen sind stabil verstanden? Welche sind in einer erneuten Simulation noch unsicher? Für welche sicherheitsrelevanten Fragen wird fachliche Betreuung benötigt? Jede Aussage erhält einen konkreten Nachweis, etwa eine korrigierte Rechnung, einen Normenrecherchevermerk oder ein Feedback aus dem Fachgespräch. Ein Lernziel wird nicht allein deshalb als erreicht markiert, weil die Zeit abgelaufen ist. Der nächste Wochenplan kann sich auf wenige relevante Punkte konzentrieren und diese mit einem neuen Test abschliessen. So bleibt die Fortschrittsanzeige ehrlich und handlungsorientiert.
+
+Abschluss und Rückprobe.
+Beantworte die Aufgaben der Lektion zuerst ohne Musterlösung. Prüfe danach bei jeder Antwort den konkreten Sachverhalt, die technischen Voraussetzungen, die Aussagekraft der vorhandenen Nachweise und die noch fehlende Information. Ordne jedes Resultat eindeutig als theoretische Rechnung, didaktische Simulation, Dokumentationsbewertung oder fachkundig zu prüfenden realen Installationsfall ein. Diese Unterscheidung ist wesentlich, weil ein korrekt berechnetes Lernbeispiel weder eine Installationsbewilligung noch eine fachliche Sicherheitsfreigabe ersetzt.

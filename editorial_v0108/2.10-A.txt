@@ -1,0 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.10-A: Datenübertragung und Netzwerktopologien. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Datenübertragung als System.
+Zwischen zwei Netzwerkteilnehmern werden Informationen als elektrische, optische oder drahtlose Signale übertragen. Dabei sind Nutzdaten, Übertragungsgeschwindigkeit, Verzögerung und Fehlerrate unterschiedliche Grössen. Ein schneller nomineller Link garantiert keine identisch hohe Geschwindigkeit einer Anwendung. Protokolle fügen Steuerinformationen hinzu, Netzwerkteilnehmer teilen sich Ressourcen und Übertragungswege können gestört sein. Fachlich gute Analyse trennt deshalb die physikalische Verbindung von den darüberliegenden Diensten. Sonst wird ein langsamer Dateitransfer vorschnell mit einem Kabeldefekt gleichgesetzt.
+
+Analoge und digitale Signale.
+Ein analoges Signal kann innerhalb eines Wertebereichs kontinuierliche Zustände annehmen. Digitale Übertragung ordnet Signalzustände definierten Symbolen und Bits zu. Auch digitale Signale werden physikalisch durch endliche Spannungs- oder Lichtpegel realisiert und sind daher nicht frei von Rauschen oder Dämpfung. Entscheidend ist, ob der Empfänger die Zustände zuverlässig unterscheiden kann. Die Bandbreite des Übertragungskanals, das Modulationsverfahren und die Signalqualität begrenzen die übertragbare Datenmenge. Das Wort digital allein ist keine Qualitätsgarantie.
+
+Bandbreite und Datenrate.
+Bandbreite wird im Alltag häufig unpräzise mit Datenrate gleichgesetzt. Die physikalische Bandbreite eines Kanals beschreibt einen Frequenzbereich, während Datenrate die übertragenen Bits pro Sekunde angibt. Für einen einfachen Dateitransfer hilft die Rechnung: 100 Megabyte entsprechen grob 800 Megabit, wenn ein Byte mit acht Bit gerechnet wird. Über einen idealen 100-Megabit-pro-Sekunde-Link dauert die reine Übertragung mindestens rund acht Sekunden. Praktisch fällt sie wegen Overhead und weiteren Begrenzungen länger aus.
+
+Sternstruktur im Gebäude.
+In der strukturierten Gebäudeverkabelung wird ein Etagenbereich oft sternförmig an einen Verteiler angebunden. Jede Anschlussdose erhält einen eigenen permanenten Leitungsweg zum Patchfeld. Diese Architektur erleichtert Kennzeichnung, Fehlersuche und spätere Umnutzung. Ein Fehler in einer einzelnen Anschlussleitung muss nicht die anderen Anschlüsse unterbrechen. Dem stehen Verteilerraum, Leitungswege und Materialaufwand gegenüber. Wichtig ist, dass eine logische Netzstruktur nicht mit der physischen Führung verwechselt wird: Mehrere Verbindungen können im Kabelkanal nebeneinander liegen und trotzdem logisch unabhängig sein.
+
+Patchfeld und aktive Komponenten.
+Ein Patchfeld ist grundsätzlich ein passiver Abschluss- und Verteilpunkt. Ein Switch hingegen verarbeitet Ethernet-Frames und stellt aktive Anschlüsse bereit. Patchkabel verbinden diese Komponenten und können eine bestehende fest installierte Leitung verschiedenen Diensten zuordnen. Wer nur das Patchfeld sieht, könnte fälschlich annehmen, dass es bereits ein Netzwerk bereitstellt. Tatsächlich braucht die Kommunikation passende aktive Geräte und eine konsistente Konfiguration. Fachgerechte Dokumentation enthält deshalb Ports, Dosenbezeichnungen und die Zuordnung zu aktiven Komponenten.
+
+Topologien vergleichen.
+Bus, Ring, Stern und vermaschte Strukturen besitzen unterschiedliche Stärken und Ausfallbilder. Ein Stern bietet klare Einzelverbindungen, konzentriert aber viele Anschlüsse auf einen zentralen Punkt. Ein Ring kann je nach Protokoll alternative Wege ermöglichen, benötigt jedoch geeignete Steuerung. Eine vermaschte Struktur steigert Redundanz, erhöht aber Aufwand und Komplexität. Für den Unterricht genügt nicht eine Liste von Formen: Entscheidend ist, bei einem konkreten Kabelbruch zu erklären, welche Teilnehmer betroffen sind und warum.
+
+Praxisfall Bürogeschoss.
+Ein Bürogeschoss umfasst 24 Arbeitsplätze mit je zwei Datenanschlüssen. Ein strukturierter Entwurf muss mindestens 48 Ports für diese Anschlüsse berücksichtigen, zuzüglich gewünschter Reserven. Wird eine Reserve von 25 Prozent eingeplant, ergibt sich ein Planungswert von 60 Ports. Diese Rechnung ist nur ein Kapazitätsmodell und sagt noch nichts über zulässige Kabellängen, Brandschutz oder die erforderliche Switch-Ausstattung. Vor der Beschaffung sind genaue Belegung, PoE-Bedarf und Patchfeld-/Racklayout zu klären.
+
+Fehlersuche und Dokumentation.
+Wenn ein Anschluss nicht funktioniert, beginnt die Fehlersuche mit der Zuordnung zur Dose, zum Patchfeldport und zum Switchport. Danach wird zwischen physikalischem Link, Netzwerkkonfiguration und Anwendung unterschieden. Ein leuchtendes Link-Symbol beweist weder eine vollständig bestandene Verkabelungszertifizierung noch korrekte IP-Konfiguration. Dokumentiere daher zuerst, welche Ebene geprüft wurde. Diese Vorgehensweise reduziert unnötigen Kabeltausch und schafft eine eindeutige Grundlage für die spätere Fehlerbehebung.
+
+Lerntransfer.
+Zeichne für ein fiktives zweigeschossiges Büro eine Sternstruktur mit Etagenverteilern, Dosen, Patchfeldern und Switches. Trenne passive und aktive Komponenten farblich und nummeriere alle Anschlüsse. Simuliere auf dem Papier den Ausfall eines Patchkabels und danach den eines zentralen Switches. Beschreibe, welche Verbindungen jeweils betroffen sind. So wird der Unterschied zwischen physischer Topologie und funktioneller Verfügbarkeit sichtbar.
+
+Übertragung und Protokollanteile.
+Bei einer Dateigrösse von 50 Megabyte übertragen Netzwerkprotokolle zusätzlich Steuerinformationen. Ethernet, IP und ein Transportprotokoll enthalten jeweils Felder, die nicht zum eigentlichen Dateiinhalt gehören. Ausserdem können Verzögerungen, Wiederholungen und Verarbeitungszeiten auftreten. Die nominelle Datenrate eines Links ist daher eine Obergrenze für bestimmte idealisierte Betrachtungen, aber keine garantierte Anwendungsdatenrate. Bei einer Aufgabenlösung muss deutlich stehen, ob die theoretische Leitungsübertragung oder der reale nutzbare Durchsatz berechnet wird. Nur so lassen sich zwei Messungen sinnvoll vergleichen.
+
+Redundanz und zentrale Punkte.
+Eine sternförmige Verkabelung vereinfacht die Zuordnung von Anschlüssen. Gleichzeitig werden viele Verbindungen auf Verteiler und aktive Geräte konzentriert. Ein Ausfall des zentralen Switches kann deshalb zahlreiche Arbeitsplätze gleichzeitig betreffen. Eine doppelte Verkabelung oder redundante aktive Technik kann die Verfügbarkeit erhöhen, steigert aber Kosten und Komplexität. In einer Planung ist deshalb zu fragen, welche Ausfälle akzeptabel sind. Der Begriff Sternstruktur allein beantwortet die Frage nach betrieblicher Redundanz nicht. Zeichne für das Lernmodell zwei Ausfallvarianten und markiere die jeweils betroffenen Dienste.
+
+Rechnung mit Reserve.
+Für ein Gebäude mit 32 Datenanschlüssen soll eine Reserve von 20 Prozent bereitstehen. Rechnerisch ergibt sich 32 mal 1,20 gleich 38,4; sinnvoll gerundet sind mindestens 39 Anschlüsse vorzusehen. Ob man dafür eine passende Standardportzahl wählt, hängt von Komponenten und Ausbaukonzept ab. Diese Rechnung sagt noch nichts über Kabelkategorien oder die gesamte Bandbreite aus. Sie beantwortet ausschliesslich eine Kapazitätsfrage. Achte bei einem realen Entwurf darauf, Portzahl, Patchfeldbelegung, Switchports und zusätzlichen PoE-Bedarf separat zu planen.
+
+Netzebenen diagnostizieren.
+Ein Rechner kann physikalisch korrekt verkabelt sein und trotzdem keine Anwendung erreichen. Mögliche Ursachen liegen in der IP-Konfiguration, im Router, im DNS oder im Zieldienst. Umgekehrt kann eine Softwaremeldung Verbindung fehlgeschlagen auftreten, obwohl der physikalische Link vollständig funktionsfähig ist. Deshalb wird die Fehlersuche schichtweise organisiert. Dokumentiere zunächst Linkzustand und lokale Verbindung, dann Adressierung und Weiterleitung und zuletzt den eigentlichen Dienst. Diese Reihenfolge spart Zeit und vermeidet Fehlannahmen, die aus einer einzigen Statusanzeige abgeleitet werden.
+
+Wartbare Kennzeichnung.
+Stelle Dir vor, zwanzig gleichfarbige Kabel enden ungekennzeichnet in einem Schrank. Selbst wenn alle Verbindungen heute funktionieren, ist die spätere Wartung schwierig. Eine eindeutige Kennzeichnung verbindet Raumdose, feste Leitung, Patchfeldport und aktiven Anschluss. Ein Änderungsprotokoll dokumentiert Umbelegungen. Damit wird die Topologie nicht nur technisch aufgebaut, sondern organisatorisch beherrschbar. Erstelle für die Übung ein einfaches Schema mit eindeutigen Identifikatoren, etwa EG-01 bis EG-12, und beschreibe, wie ein Portwechsel darin nachgeführt werden müsste.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Dokument von 250 Megabyte soll über einen idealen 1-Gigabit-pro-Sekunde-Link übertragen werden. Welche theoretische Mindestdauer ergibt sich? Lösung und Rückprobe: 250 Megabyte entsprechen ungefähr 2 Gigabit. Bei 1 Gigabit pro Sekunde beträgt die theoretische Mindestzeit 2 Sekunden. Protokollaufwand und Geräteengpässe machen die tatsächliche Übertragung üblicherweise langsamer. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.10-A: Datenübertragung und Netzwerktopologien. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Datenübertragung als System.
+Zwischen zwei Netzwerkteilnehmern werden Informationen als elektrische, optische oder drahtlose Signale übertragen. Dabei sind Nutzdaten, Übertragungsgeschwindigkeit, Verzögerung und Fehlerrate unterschiedliche Grössen. Ein schneller nomineller Link garantiert keine identisch hohe Geschwindigkeit einer Anwendung. Protokolle fügen Steuerinformationen hinzu, Netzwerkteilnehmer teilen sich Ressourcen und Übertragungswege können gestört sein. Fachlich gute Analyse trennt deshalb die physikalische Verbindung von den darüberliegenden Diensten. Sonst wird ein langsamer Dateitransfer vorschnell mit einem Kabeldefekt gleichgesetzt.
+
+Analoge und digitale Signale.
+Ein analoges Signal kann innerhalb eines Wertebereichs kontinuierliche Zustände annehmen. Digitale Übertragung ordnet Signalzustände definierten Symbolen und Bits zu. Auch digitale Signale werden physikalisch durch endliche Spannungs- oder Lichtpegel realisiert und sind daher nicht frei von Rauschen oder Dämpfung. Entscheidend ist, ob der Empfänger die Zustände zuverlässig unterscheiden kann. Die Bandbreite des Übertragungskanals, das Modulationsverfahren und die Signalqualität begrenzen die übertragbare Datenmenge. Das Wort digital allein ist keine Qualitätsgarantie.
+
+Bandbreite und Datenrate.
+Bandbreite wird im Alltag häufig unpräzise mit Datenrate gleichgesetzt. Die physikalische Bandbreite eines Kanals beschreibt einen Frequenzbereich, während Datenrate die übertragenen Bits pro Sekunde angibt. Für einen einfachen Dateitransfer hilft die Rechnung: 100 Megabyte entsprechen grob 800 Megabit, wenn ein Byte mit acht Bit gerechnet wird. Über einen idealen 100-Megabit-pro-Sekunde-Link dauert die reine Übertragung mindestens rund acht Sekunden. Praktisch fällt sie wegen Overhead und weiteren Begrenzungen länger aus.
+
+Sternstruktur im Gebäude.
+In der strukturierten Gebäudeverkabelung wird ein Etagenbereich oft sternförmig an einen Verteiler angebunden. Jede Anschlussdose erhält einen eigenen permanenten Leitungsweg zum Patchfeld. Diese Architektur erleichtert Kennzeichnung, Fehlersuche und spätere Umnutzung. Ein Fehler in einer einzelnen Anschlussleitung muss nicht die anderen Anschlüsse unterbrechen. Dem stehen Verteilerraum, Leitungswege und Materialaufwand gegenüber. Wichtig ist, dass eine logische Netzstruktur nicht mit der physischen Führung verwechselt wird: Mehrere Verbindungen können im Kabelkanal nebeneinander liegen und trotzdem logisch unabhängig sein.
+
+Patchfeld und aktive Komponenten.
+Ein Patchfeld ist grundsätzlich ein passiver Abschluss- und Verteilpunkt. Ein Switch hingegen verarbeitet Ethernet-Frames und stellt aktive Anschlüsse bereit. Patchkabel verbinden diese Komponenten und können eine bestehende fest installierte Leitung verschiedenen Diensten zuordnen. Wer nur das Patchfeld sieht, könnte fälschlich annehmen, dass es bereits ein Netzwerk bereitstellt. Tatsächlich braucht die Kommunikation passende aktive Geräte und eine konsistente Konfiguration. Fachgerechte Dokumentation enthält deshalb Ports, Dosenbezeichnungen und die Zuordnung zu aktiven Komponenten.
+
+Topologien vergleichen.
+Bus, Ring, Stern und vermaschte Strukturen besitzen unterschiedliche Stärken und Ausfallbilder. Ein Stern bietet klare Einzelverbindungen, konzentriert aber viele Anschlüsse auf einen zentralen Punkt. Ein Ring kann je nach Protokoll alternative Wege ermöglichen, benötigt jedoch geeignete Steuerung. Eine vermaschte Struktur steigert Redundanz, erhöht aber Aufwand und Komplexität. Für den Unterricht genügt nicht eine Liste von Formen: Entscheidend ist, bei einem konkreten Kabelbruch zu erklären, welche Teilnehmer betroffen sind und warum.
+
+Praxisfall Bürogeschoss.
+Ein Bürogeschoss umfasst 24 Arbeitsplätze mit je zwei Datenanschlüssen. Ein strukturierter Entwurf muss mindestens 48 Ports für diese Anschlüsse berücksichtigen, zuzüglich gewünschter Reserven. Wird eine Reserve von 25 Prozent eingeplant, ergibt sich ein Planungswert von 60 Ports. Diese Rechnung ist nur ein Kapazitätsmodell und sagt noch nichts über zulässige Kabellängen, Brandschutz oder die erforderliche Switch-Ausstattung. Vor der Beschaffung sind genaue Belegung, PoE-Bedarf und Patchfeld-/Racklayout zu klären.
+
+Fehlersuche und Dokumentation.
+Wenn ein Anschluss nicht funktioniert, beginnt die Fehlersuche mit der Zuordnung zur Dose, zum Patchfeldport und zum Switchport. Danach wird zwischen physikalischem Link, Netzwerkkonfiguration und Anwendung unterschieden. Ein leuchtendes Link-Symbol beweist weder eine vollständig bestandene Verkabelungszertifizierung noch korrekte IP-Konfiguration. Dokumentiere daher zuerst, welche Ebene geprüft wurde. Diese Vorgehensweise reduziert unnötigen Kabeltausch und schafft eine eindeutige Grundlage für die spätere Fehlerbehebung.
+
+Lerntransfer.
+Zeichne für ein fiktives zweigeschossiges Büro eine Sternstruktur mit Etagenverteilern, Dosen, Patchfeldern und Switches. Trenne passive und aktive Komponenten farblich und nummeriere alle Anschlüsse. Simuliere auf dem Papier den Ausfall eines Patchkabels und danach den eines zentralen Switches. Beschreibe, welche Verbindungen jeweils betroffen sind. So wird der Unterschied zwischen physischer Topologie und funktioneller Verfügbarkeit sichtbar.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Dokument von 250 Megabyte soll über einen idealen 1-Gigabit-pro-Sekunde-Link übertragen werden. Welche theoretische Mindestdauer ergibt sich? Lösung und Rückprobe: 250 Megabyte entsprechen ungefähr 2 Gigabit. Bei 1 Gigabit pro Sekunde beträgt die theoretische Mindestzeit 2 Sekunden. Protokollaufwand und Geräteengpässe machen die tatsächliche Übertragung üblicherweise langsamer. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.10-A: Datenübertragung und Netzwerktopologien. Digitale Kommunikation überträgt Information in definierten Signalen und Protokollen. Bandbreite, Datenrate, Verzögerung und Übertragungsqualität sind unterschiedliche Eigenschaften. In der strukturierten Gebäudeverkabelung ist eine Sternstruktur mit zentralem Verteiler häufig. Passive Verkabelung und aktive Netzwerktechnik dürfen in Plänen nicht vermischt werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Zeichne ein einfaches Heimnetz mit Router, Switch, Patchfeld und drei Netzwerkdosen. Trenne die feste Verkabelung von Patchkabeln und aktiven Geräten. Dokumentiere Portnummern und die Funktion des zentralen Verteilers. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Topologie und Portdokumentation machen Fehler auffindbar. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Analoge und digitale Übertragung, Bandbreite; Strukturierte Verkabelung, Sternstruktur und Patchfelder. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Analoge und digitale Übertragung, Bandbreite; Strukturierte Verkabelung, Sternstruktur und Patchfelder.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Datenübertragungszeit. 100 MB Nutzdaten werden idealisiert über eine Verbindung mit 100 Mbit/s übertragen.
+
+Schritt 1. Im Dezimalmodell gelten 100 MB = 800 Mbit.
+
+Schritt 2. Zeit = Datenmenge / Datenrate.
+
+Schritt 3. 800 Mbit / (100 Mbit/s) = 8 s.
+
+Schritt 4. Protokolloverhead und Übertragungsbedingungen verlängern die reale Zeit.
+
+Kontrolle des Ergebnisses: Idealisierte Übertragungszeit: 8 Sekunden.
+
+Übungsauftrag zur Anwendung: Ethernet-Patchkabel an Lernmaterial herstellen und mittels einfacher Prüfgeräte prüfen. Halte zusätzlich die Antwort auf die Frage «Welche Topologie ist für strukturierte Gebäudeverkabelung verbreitet?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Topologie ist für strukturierte Gebäudeverkabelung verbreitet? Die richtige Antwort lautet: Sternstruktur. Warum? Topologie und Portdokumentation machen Fehler auffindbar.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Topologie und Portdokumentation machen Fehler auffindbar.. Warum? Der Merksatz lautet: Topologie und Portdokumentation machen Fehler auffindbar.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

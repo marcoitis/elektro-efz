@@ -1,1 +1,110 @@
-Lektion 4.01-B: Leistungsdreieck und Blindleistung. Scheinleistung, Wirkleistung und Blindleistung werden bei sinusförmigen Bedingungen als Leistungsdreieck dargestellt. Der Leistungsfaktor beeinflusst die für eine bestimmte Wirkleistung erforderliche Stromstärke. Eine Kompensation kann die Blindleistungsbelastung senken, muss aber systemtechnisch und wirtschaftlich beurteilt werden. Nichtlineare Lasten erfordern eine Betrachtung der Oberschwingungen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein idealisierter Verbraucher benötigt 800 Watt Wirkleistung und 600 var Blindleistung. Die Scheinleistung beträgt nach dem Satz des Pythagoras 1000 VA. Der Leistungsfaktor ist 0,8. Erläutere, wie sich der benötigte Strom ändern kann, wenn derselbe P-Wert mit höherem Leistungsfaktor bereitgestellt wird. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Wirkleistung bleibt bei Blindleistungskompensation nicht automatisch gleich der Scheinleistung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: P, Q, S, cos φ und Kompensation; Drehstrom-Wirkleistung, Symmetrie/Unsymmetrie. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.3; N I N Teil 3 (Lastdaten). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.01-B: Leistungsdreieck und Blindleistung. Scheinleistung, Wirkleistung und Blindleistung werden bei sinusförmigen Bedingungen als Leistungsdreieck dargestellt. Der Leistungsfaktor beeinflusst die für eine bestimmte Wirkleistung erforderliche Stromstärke. Eine Kompensation kann die Blindleistungsbelastung senken, muss aber systemtechnisch und wirtschaftlich beurteilt werden. Nichtlineare Lasten erfordern eine Betrachtung der Oberschwingungen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein idealisierter Verbraucher benötigt 800 Watt Wirkleistung und 600 var Blindleistung. Die Scheinleistung beträgt nach dem Satz des Pythagoras 1000 VA. Der Leistungsfaktor ist 0,8. Erläutere, wie sich der benötigte Strom ändern kann, wenn derselbe P-Wert mit höherem Leistungsfaktor bereitgestellt wird. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Wirkleistung bleibt bei Blindleistungskompensation nicht automatisch gleich der Scheinleistung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: P, Q, S, cos φ und Kompensation; Drehstrom-Wirkleistung, Symmetrie/Unsymmetrie. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.3; NIN Teil 3 (Lastdaten). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: P, Q, S, cos φ und Kompensation; Drehstrom-Wirkleistung, Symmetrie/Unsymmetrie.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Wirkleistung im symmetrischen Drehstrom. UL-L = 400 V, I = 10 A, Leistungsfaktor cos φ = 0,8.
+
+Schritt 1. Für symmetrische Drehstromlasten: P = √3 · U · I · cos φ.
+
+Schritt 2. Einsetzen: √3 · 400 V · 10 A · 0,8.
+
+Schritt 3. Ergebnis: P ≈ 5,54 kW.
+
+Schritt 4. Bei unsymmetrischen Lasten sind die Stränge getrennt zu betrachten.
+
+Kontrolle des Ergebnisses: P ≈ 5,54 kW.
+
+Übungsauftrag zur Anwendung: Schaltungs-Simulation, Berechnung von 20 wechselstromtechnischen Aufgaben. Halte zusätzlich die Antwort auf die Frage «Welche Scheinleistung folgt aus P=800 W und Q=600 var?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Scheinleistung folgt aus P=800 W und Q=600 var? Die richtige Antwort lautet: 1000 VA. Warum? Wirkleistung bleibt bei Blindleistungskompensation nicht automatisch gleich der Scheinleistung.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Wirkleistung bleibt bei Blindleistungskompensation nicht automatisch gleich der Scheinleistung.. Warum? Der Merksatz lautet: Wirkleistung bleibt bei Blindleistungskompensation nicht automatisch gleich der Scheinleistung.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Drei Leistungsgrössen sauber unterscheiden.
+In sinusförmigen Wechselstromnetzen unterscheiden wir Wirkleistung P, Blindleistung Q und Scheinleistung S. Wirkleistung beschreibt die zeitlich gemittelte Energieumsetzung in Wärme, Bewegung oder andere nutzbare Formen. Blindleistung ist ein Mass für den periodischen Energieaustausch zwischen Quelle und elektrischen beziehungsweise magnetischen Feldern. Scheinleistung ist das Produkt aus Effektivspannung und Effektivstrom. Bei einer Einphasenlast gelten S gleich U mal I, P gleich U mal I mal cos Phi und Q gleich U mal I mal sin Phi. Die Einheit von P ist Watt, von Q var und von S VA.
+
+
+Leistungsdreieck als Geometrie.
+Im Leistungsdreieck liegt P auf der horizontalen Achse und Q auf der vertikalen Achse; S ist die Hypotenuse. Für eine induktive Last wird Q im üblichen Verbraucherzählpfeilsystem positiv betrachtet. Bei P gleich 3 Kilowatt und Q gleich 4 kvar ergibt sich S gleich 5 kVA. Der Leistungsfaktor cos Phi beträgt drei Fünftel, also 0,6. Dieses einfache Dreieck macht sichtbar, warum die Netzbelastung von der Scheinleistung abhängt, obwohl die abgerechnete oder mechanisch umgesetzte Wirkleistung kleiner sein kann. Vorzeichenkonventionen müssen bei jeder Zeigerrechnung klar genannt werden.
+
+
+Strom aus Wirkleistung und Leistungsfaktor.
+Eine einphasige Last nimmt 2 Kilowatt Wirkleistung auf, die Spannung beträgt 230 Volt, der Leistungsfaktor 0,8. Der Effektivstrom ergibt sich rechnerisch aus 2000 geteilt durch 230 mal 0,8, also ungefähr 10,87 Ampere. Würde man den Leistungsfaktor vergessen, käme man nur auf 8,70 Ampere. Der Fehler wirkt sich in der Planung auf Strombelastung und Verluste aus. Die Rechnung setzt sinusförmige Bedingungen und einen eindeutig definierten Leistungsfaktor voraus; für verzerrte Ströme ist zusätzlich zwischen Verschiebungsfaktor und gesamtem Leistungsfaktor zu unterscheiden.
+
+
+Drehstromformel und ihre Voraussetzungen.
+Für symmetrische sinusförmige Drehstromlasten gilt P gleich Wurzel drei mal Leiterspannung mal Leiterstrom mal cos Phi. Bei 400 Volt, 12 Ampere und einem Leistungsfaktor von 0,85 ergibt sich rund 7,07 Kilowatt. Der Wert ist ein Resultat aus gleichmässiger Phasenbelastung und einem gemeinsamen Winkel. Bei stark unsymmetrischen Lasten darf man nicht einfach irgendeinen Phasenstrom in dieselbe Formel einsetzen. Dann werden die einzelnen Strangleistungen separat ermittelt und addiert. Der Unterricht sollte deshalb jede Formel mit ihren Modellvoraussetzungen verknüpfen.
+
+
+Blindleistungskompensation verstehen.
+Induktive Verbraucher können Blindleistung beanspruchen. Eine passende Kompensation vermindert unter geeigneten Betriebsbedingungen den reaktiven Stromanteil zwischen Quelle und Verbrauchergruppe. Wir betrachten einen Modellfall mit P gleich 10 Kilowatt und einem ursprünglichen Leistungsfaktor von 0,7. Daraus ergibt sich ein Winkel mit Tangens etwa 1,020 und Q etwa 10,2 kvar. Soll der Ziel-Leistungsfaktor 0,95 betragen, ist sein Tangens etwa 0,329; die gewünschte Restblindleistung liegt damit bei rund 3,29 kvar. Die rechnerische Kompensationsdifferenz beträgt also rund 6,9 kvar. Reale Auslegung braucht Frequenz-, Oberschwingungs- und Herstellerbetrachtung.
+
+
+Warum Kompensation nicht immer hilfreich ist.
+Ein Kondensator liefert im idealisierten Sinusmodell kapazitive Blindleistung. Zu viel Kompensation kann zu kapazitivem Betriebsverhalten führen. In Verbindung mit Netzinduktivitäten und Oberschwingungen können zudem Resonanzeffekte auftreten. Deshalb werden Kompensationsanlagen nicht allein aus dem Wunsch nach einem Leistungsfaktor nahe eins ausgewählt. Moderne Umrichter und aktive Netzteile beeinflussen die Stromform ebenfalls; dann greift das reine Leistungsdreieck nur eingeschränkt. Die Lernaufgabe besteht darin, physikalische Wirkung und die Grenzen des einfachen Berechnungsmodells zu unterscheiden.
+
+
+Elektrischer Leistungsfaktor bei verzerrtem Strom.
+Wenn die Spannung annähernd sinusförmig ist, der Strom aber zahlreiche Oberschwingungen enthält, ist cos Phi der Grundschwingung allein nicht mehr gleichbedeutend mit dem gesamten Leistungsfaktor. Man benötigt dann zusätzliche Angaben zu Verzerrung und Effektivwerten. Für eine Einführung genügt das qualitative Beispiel eines elektronischen Netzteils mit Stromspitzen. Das Netz wird durch den gesamten Effektivstrom beansprucht, auch wenn nur ein Teil davon mit der idealen Grundschwingung erklärt werden kann. Der Unterschied ist für spätere Energie- und Netzqualitätsanalysen wesentlich.
+
+
+Wirkenergie ist nicht dasselbe wie Wirkleistung.
+Ein Motor mit einer Wirkleistung von 2 Kilowatt nimmt bei fünf Stunden gleichförmigem Betrieb rechnerisch 10 Kilowattstunden elektrische Energie auf. Wird seine Leistung im Tagesverlauf verändert, müssen die Leistungen zeitlich integriert oder in Zeitabschnitte zerlegt werden. Die Blindleistung besitzt ebenfalls eine zeitbezogene Blindenergie-Kenngrösse, wird aber nicht als mechanische Arbeit verstanden. Im Lernprojekt erstellt man eine Tabelle aus Leistung, Dauer und Energie. Das verhindert die häufige Verwechslung von Kilowatt, Kilowattstunden und Kilovoltampere.
+
+
+Messwerte im Betrieb richtig lesen.
+Ein modernes Leistungsmessgerät kann P, Q, S, U, I und Leistungsfaktor anzeigen. Diese Werte müssen miteinander plausibel sein. Bei P gleich 4 Kilowatt und S gleich 5 kVA ergibt sich ein gesamter Leistungsfaktor von 0,8. Der Strom kann nicht allein aus P ohne Spannung und Leistungsfaktor bestimmt werden. Bei einem Motor ist ausserdem zu unterscheiden, ob die Typenschildangabe die mechanische Abgabeleistung oder die elektrische Aufnahme beschreibt. Ein Wirkungsgrad kleiner eins führt dazu, dass elektrische Eingangsleistung grösser als mechanische Ausgangsleistung ist.
+
+
+Fazit für die Netzbetrachtung.
+Das Leistungsdreieck ist keine dekorative Zeichnung, sondern ein Kontrollinstrument. Es verbindet Ströme, Spannungen, Leistungsfaktor und Energieumsetzung. Eine gute technische Beurteilung dokumentiert zuerst Einphasen- oder Drehstrommodell, Symmetrie, Sinusform und Vorzeichenkonvention. Erst dann werden Zahlen eingesetzt. Das Schlussgespräch soll nicht bei einer berechneten Blindleistung stehen bleiben: Was ändert sich beim Netzstrom, welche Belastung bleibt am Verbraucher, und welche zusätzlichen Prüfungen braucht eine reale Kompensationsanlage? Diese Fragen zeigen, ob die Wirkung verstanden wurde.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Leistungsdreieck aus P und Q.
+Eine Last hat 6 Kilowatt Wirkleistung und 8 kvar induktive Blindleistung. Berechne die Scheinleistung und den Leistungsfaktor. Die Scheinleistung beträgt nach Pythagoras 10 kVA; der Leistungsfaktor ist 6 geteilt durch 10 gleich 0,6. Die Musterlösung erklärt, dass 10 kVA nicht mit 10 Kilowatt gleichgesetzt werden darf. Der Blindanteil belastet Stromkreise, ohne im idealisierten Modell zusätzliche Nutzarbeit im Verbraucher zu liefern.
+
+
+Fall 2: Einphasenstrom richtig rechnen.
+Ein Gerät nimmt 1,84 Kilowatt Wirkleistung bei 230 Volt und cos Phi gleich 0,8 auf. Der Strom beträgt 1840 geteilt durch 230 mal 0,8, also 10 Ampere. Ohne den Leistungsfaktor wäre die Rechnung falsch. Die Musterlösung nennt zugleich die Voraussetzung eines geeigneten sinusförmigen Modells. Bei einem elektronischen Gerät mit stark verzerrtem Strom müsste der gesamte Leistungsfaktor statt nur der Grundschwingungswinkel berücksichtigt werden.
+
+
+Fall 3: Drehstrom-Wirkleistung.
+Für eine symmetrische Last werden 400 Volt Leiterspannung, 8 Ampere Leiterstrom und cos Phi gleich 0,9 angegeben. Die Wirkleistung beträgt Wurzel drei mal 400 mal 8 mal 0,9, also rund 4,99 Kilowatt. Die Scheinleistung wäre rund 5,54 kVA. Die Musterlösung prüft, dass weder Strangspannung und Leiterspannung noch Watt und VA verwechselt wurden. Bei Unsymmetrie müssten die Phasen einzeln betrachtet werden.
+
+
+Fall 4: Wirkleistung aus Energie ableiten.
+Ein Gerät verbraucht laut Modellzähler 12 Kilowattstunden über vier Stunden gleichförmigen Betrieb. Die durchschnittliche Wirkleistung beträgt 3 Kilowatt. Dieser Wert erlaubt ohne Spannung und Leistungsfaktor keine eindeutige Aussage über den Leiterstrom. Die Musterlösung nennt den Unterschied zwischen mittlerer und momentaner Leistung. Wenn das Gerät zeitweise ausgeschaltet war, wäre die momentane Leistung während der Laufphasen entsprechend höher gewesen.
+
+
+Fall 5: Kompensationsziel modellieren.
+Ein Betrieb hat P gleich 8 Kilowatt, ursprünglich cos Phi gleich 0,8. Dann beträgt tan Phi gleich 0,75 und die induktive Blindleistung 6 kvar. Bei einem gewünschten Leistungsfaktor von ungefähr 0,95 ergibt sich Q nach der Rechnung rund 2,63 kvar. Die erforderliche rechnerische Reduktion beträgt etwa 3,37 kvar. Das ist ausschliesslich eine Übung: Reale Kompensation verlangt die Prüfung von Oberschwingungen, Resonanzrisiken und den passenden Komponenten.
+
+
+Fall 6: Plausibilitätsfehler erkennen.
+Ein Bericht nennt P gleich 7 Kilowatt und S gleich 5 kVA für denselben betrachteten Verbraucherzustand. Kann das im üblichen passiven Leistungsmodell stimmen? Nein: Der Betrag der Wirkleistung kann nicht grösser als die Scheinleistung sein. Die Musterlösung fordert eine Prüfung von Messpunkt, Zeitbezug, Einheit und Vorzeichenkonvention. Bevor ein Gerät als defekt betrachtet wird, muss geklärt sein, ob die beiden Werte überhaupt dieselbe elektrische Situation beschreiben.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefte Betriebsbeurteilung: Motor und Scheinleistung.
+Ein Motor nimmt im Modell 4 Kilowatt elektrische Wirkleistung auf und besitzt einen Leistungsfaktor von 0,8. Seine Scheinleistung beträgt 5 kVA. Angenommen, die elektrische Wirkleistung bleibt gleich und der Leistungsfaktor verbessert sich bei unveränderten sonstigen Bedingungen auf 0,95, dann sinkt die benötigte Scheinleistung rechnerisch auf etwa 4,21 kVA. Das bedeutet nicht, dass der Motor plötzlich weniger mechanische Arbeit leistet. Die Aussage betrifft den Strombedarf aus der betrachteten Versorgung unter den Modellannahmen. Ergänze, welche Nebenbedingungen bei einer realen Kompensation geprüft werden müssten, insbesondere verzerrte Stromformen, Schalthäufigkeit und Resonanzrisiken.
+
+
+Lernabschluss.
+Unterscheide in einem einzigen Satz Watt, var und VA. Benenne beim Leistungsdreieck den Winkelbezug und die Voraussetzungen sinusförmiger Grössen. Achte darauf, dass eine elektrische Eingangsleistung nicht mit einer mechanischen Motorabgabeleistung verwechselt wird. Wer diese Begriffe sauber trennt, kann Datenblätter, Messprotokolle und Energieabrechnungen wesentlich zuverlässiger interpretieren.
+
+ In der Praxis ist ausserdem die Leserichtung der Leistungsanzeige zu beachten. Vorzeichen und Zählpfeile können je nach Messgerät die Richtung von Energieflüssen kennzeichnen. Ein negatives Vorzeichen darf daher nicht automatisch als Gerätedefekt interpretiert werden. Vor einem Vergleich mehrerer Messgeräte wird geprüft, ob dieselben Phasen, Anschlussrichtungen und Auswertungsdefinitionen verwendet wurden.

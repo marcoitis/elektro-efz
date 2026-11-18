@@ -21,6 +21,7 @@ async function importFile(id,file){if(!/^audio\//.test(file.type)&&!/\.(mp3|m4a|
 async function remove(id){await transact('readwrite',id,null);if(lessonId===id)unload()}
 async function has(id){try{return !!(await transact('readonly',id))}catch(_){return false}}
 async function list(){try{const d=await db();return await new Promise((resolve,reject)=>{const r=d.transaction(STORE,'readonly').objectStore(STORE).getAllKeys();r.onsuccess=()=>resolve(r.result||[]);r.onerror=()=>reject(r.error)})}catch(_){return []}}
+async function details(){try{const d=await db();return await new Promise((resolve,reject)=>{const items=[],r=d.transaction(STORE,'readonly').objectStore(STORE).openCursor();r.onsuccess=()=>{const c=r.result;if(!c){resolve(items);return}const v=c.value||{};items.push({id:String(c.key),bytes:Number(v.bytes||v.file?.size||0),name:String(v.name||'')});c.continue()};r.onerror=()=>reject(r.error)})}catch(_){return []}}
 async function count(){return (await list()).length}
 async function importMany(files,knownIDs,onProgress=()=>{}){
  let done=0,skipped=[],errors=[];for(const file of files){const id=file.name.replace(/\.(mp3|m4a|wav|ogg|aac)$/i,'');if(!knownIDs.includes(id)){skipped.push(file.name)}else{try{await importFile(id,file)}catch(e){errors.push(file.name+': '+e.message)}}done++;onProgress(done,files.length,file.name)}return {done,skipped,errors}
@@ -28,5 +29,5 @@ async function importMany(files,knownIDs,onProgress=()=>{}){
 function setMetadata(title){if(!('mediaSession'in navigator)||!window.MediaMetadata)return;try{navigator.mediaSession.metadata=new MediaMetadata({title,artist:'Elektroinstallateur EFZ – Dozent',album:'Digitale Fachschule'})}catch(_){}}
 function isPlaying(){return loaded&&!media.paused&&!media.ended}
 function setOnEnded(callback){onTrackEnded=typeof callback==='function'?callback:()=>{}}
-window.ElektroAudio={prepare,setOnEnded,importFile,importMany,remove,has,list,count,unload,seek,play:()=>media.play(),pause:()=>media.pause(),setRate:v=>{media.playbackRate=v},setMetadata,getState:()=>({lessonId,loaded,playing:isPlaying(),current:media.currentTime||0,duration:Number.isFinite(media.duration)?media.duration:0})};
+window.ElektroAudio={prepare,setOnEnded,importFile,importMany,remove,has,list,count,details,unload,seek,play:()=>media.play(),pause:()=>media.pause(),setRate:v=>{media.playbackRate=v},setMetadata,getState:()=>({lessonId,loaded,playing:isPlaying(),current:media.currentTime||0,duration:Number.isFinite(media.duration)?media.duration:0})};
 })();

@@ -1,0 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.10-C: IP-Adressen, Geräte und Fehlersuche. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Adresse und Netzmaske.
+Eine IPv4-Adresse besteht aus 32 Bit und wird meistens in vier Dezimalgruppen geschrieben. Zusammen mit der Subnetzmaske legt sie fest, welcher Teil das Netz kennzeichnet. Bei 192.168.10.34 mit der Maske 255.255.255.0, also /24, liegt die Adresse im Netz 192.168.10.0. Die üblichen Hostadressen dieses Subnetzes liegen von .1 bis .254, wobei .0 die Netzadresse und .255 die Broadcastadresse ist. Die reine Zahl am Gerät ergibt ohne Netzmaske noch keine vollständige Netzzuordnung.
+
+Gateway und Kommunikation.
+Geräte im gleichen IPv4-Subnetz können typischerweise direkt über die lokale Vermittlung kommunizieren, sofern keine weiteren Regeln dies verhindern. Für Ziele ausserhalb des lokalen Subnetzes wird meist ein Default-Gateway benötigt. Fehlt dieses oder ist es falsch konfiguriert, kann ein Gerät lokal erreichbar sein, aber keinen externen Dienst verwenden. Das ist ein häufiges Diagnosebild: Link vorhanden, lokale Erreichbarkeit vorhanden, Zugriff auf einen entfernten Server scheitert. Deshalb prüft man die Konfiguration in sinnvoller Reihenfolge.
+
+Switch, Router und Access Point.
+Ein Switch vermittelt Ethernet-Frames innerhalb eines lokalen Netzes anhand von MAC-Adressen. Ein Router verbindet unterschiedliche IP-Netze und entscheidet, wohin Pakete weitergeleitet werden. Ein Access Point stellt drahtlosen Endgeräten einen Zugang zum lokalen Netzwerk bereit. Moderne Geräte kombinieren oft mehrere Funktionen in einem Gehäuse. Für die Fehlersuche ist die logische Rolle dennoch zu unterscheiden: Ein Routerproblem wird nicht durch einen beliebigen Austausch eines Patchkabels im selben Teilnetz gelöst.
+
+VLAN als logische Trennung.
+VLANs ermöglichen es, einen physischen Switch in mehrere logische Broadcast-Domänen zu unterteilen. Dadurch können zum Beispiel Büro-, Gast- und Gebäudetechniknetz getrennt organisiert werden. Ein VLAN ersetzt jedoch keine vollständige Sicherheitsarchitektur. Zwischen VLANs ist kontrollierte Kommunikation über Routing und geeignete Regeln erforderlich. Fehlerhafte Portzuordnung kann dazu führen, dass ein Gerät zwar einen Ethernet-Link hat, aber im falschen Netz landet. Eine Dokumentation der VLAN-IDs und Portrollen ist deshalb ebenso wichtig wie die Kabelbelegung.
+
+PoE und Leistungsbudget.
+Power over Ethernet kann geeignete Endgeräte über die Datenleitung mit Energie versorgen. Dabei begrenzen Standard, Gerätetyp, Kabellänge und Switchbudget die tatsächlich verfügbare Leistung. Acht Geräte mit angenommen je 12 Watt benötigen zusammen 96 Watt. Ein Switch mit 90 Watt Gesamtbudget wäre dafür im vereinfachten Rechenmodell nicht ausreichend, selbst wenn alle Ports grundsätzlich PoE unterstützen. Bei realer Planung müssen zusätzliche Reserve und die konkret unterstützten PoE-Klassen berücksichtigt werden. Ein Datenlink allein ist kein Beweis für ausreichende Energieversorgung.
+
+Linktest gegen Zertifizierung.
+Ein einfacher Linktest zeigt, ob eine aktive Verbindung zustande kommt. Ein Kabeltester kann Aderzuordnung und grundlegende Leitungsfehler feststellen. Eine Zertifizierung der installierten Verkabelung umfasst dagegen definierte Messungen nach einer gewählten Klasse oder einem Standard. Diese Prüfungen beantworten unterschiedliche Fragen. Wird in einem Protokoll bloss Link vorhanden eingetragen, ist damit nicht nachgewiesen, dass die gesamte Installation für eine bestimmte Übertragungsklasse geeignet ist. Diese Abgrenzung ist für Qualitätsnachweise entscheidend.
+
+Systematische Fehlersuche.
+Beginne bei einem Verbindungsproblem mit Stromversorgung, Link und Portzustand. Kontrolliere danach IP-Adresse, Netzmaske und Gateway. Anschliessend folgen Erreichbarkeit innerhalb des lokalen Subnetzes, Routing und gegebenenfalls DNS-Auflösung. Ein erfolgreiches Ping-Ergebnis beweist nicht, dass die eigentliche Anwendung funktioniert, und ein gesperrter Ping beweist nicht automatisch einen Netzausfall. Gute Diagnose dokumentiert jeden Test, seine Aussagekraft und alternative Erklärungen.
+
+Praxisfall Subnetz.
+Ein Gerät hat 192.168.20.25/24, ein zweites 192.168.21.30/24. Ohne Router liegen die beiden in unterschiedlichen IP-Netzen. Auch wenn beide am gleichen Switch angeschlossen sind, kann eine direkte IP-Kommunikation unter üblichen Bedingungen scheitern. Ändert man eine Adresse gedanklich auf 192.168.20.30/24, sind beide im selben Netz. Das ist ein sicheres Papierbeispiel, um Netzmasken zu verstehen. An einer produktiven Steuerungsanlage werden IP-Adressen nicht ohne Freigabe geändert.
+
+Diagnosebericht.
+Erstelle ein fiktives Protokoll mit den Spalten Fehlerbild, physikalischer Link, IP-Konfiguration, Netzzuordnung, Gateway, DNS und Anwendungstest. Formuliere für jede Spalte ein beobachtbares Ergebnis und eine mögliche Schlussfolgerung. Vermeide den Satz Netzwerk kaputt als Diagnose. Er ersetzt keine technische Ursache. Unterscheide ausserdem zwischen einem freigegebenen Testlabor und einem betrieblichen Netzwerk, bei dem Änderungen nur koordiniert vorgenommen werden dürfen.
+
+IP-Subnetz als Rechenaufgabe.
+Bei einer /26-Netzmaske stehen sechs Host-Bits zur Verfügung. Ein Block enthält damit 64 IPv4-Adressen; in einem gewöhnlichen Subnetz bleiben 62 typische Hostadressen, wenn Netz- und Broadcastadresse reserviert werden. 192.168.5.70/26 liegt im Block 192.168.5.64 bis 192.168.5.127. Die Netzwerkadresse lautet .64, die Broadcastadresse .127. Für die Hostzuordnung werden gewöhnlich .65 bis .126 verwendet. Diese Rechnung schärft das Verständnis dafür, dass ähnliche Anfangsziffern allein kein Beweis für dieselbe Netzzugehörigkeit sind.
+
+DNS ist nicht gleich Internet.
+Wenn sich ein Server direkt über seine IP-Adresse erreichen lässt, aber nicht über seinen Namen, kann ein DNS-Problem vorliegen. Daraus folgt nicht, dass jedes Netzwerkkabel defekt ist. Ein Domain Name System übersetzt Namen in passende Adressinformationen, während IP die Adressierung und Weiterleitung organisiert. Die Fehlersuche vergleicht deshalb bewusst einen Dienstzugriff per Name mit einem passenden Test auf IP-Ebene. Allerdings können Sicherheitsregeln oder Anwendungsparameter die Aussage beeinflussen. Ein einzelner fehlgeschlagener Ping reicht für eine abschliessende Diagnose nicht aus.
+
+DHCP und statische Konfiguration.
+Ein DHCP-Dienst kann Adressen, Netzmasken, Gateways und weitere Parameter automatisch verteilen. In bestimmten Automationsnetzen werden feste Konfigurationen verwendet. Beide Ansätze haben Vor- und Nachteile. Bei einer unkontrollierten statischen Konfiguration drohen doppelte IP-Adressen, während ein fehlender DHCP-Dienst die Inbetriebnahme neuer Endgeräte stören kann. Ein Diagnoseprotokoll sollte deshalb festhalten, wie die Adressierung vorgesehen ist und ob die beobachteten Werte dazu passen. An produktiven Anlagen dürfen solche Einstellungen nur abgestimmt geändert werden.
+
+PoE-Fall mit Reserve.
+Vier Kameras benötigen laut Annahme jeweils 10 Watt, zwei Access Points jeweils 18 Watt. Zusammen ergibt das 76 Watt. Ein Switch mit 80 Watt PoE-Gesamtbudget besitzt im vereinfachten Modell nur 4 Watt Reserve. Das kann für spätere Erweiterungen oder ungünstige Startbedingungen ungeeignet sein. Der Rechenwert muss ausserdem mit den Leistungsgrenzen pro Port und dem tatsächlich unterstützten PoE-Verfahren abgeglichen werden. Eine genügend grosse Summe über alle Ports reicht allein nicht aus, wenn einzelne Ports bestimmte Geräte nicht versorgen können.
+
+VLAN-Fehler eingrenzen.
+Ein Arbeitsplatz erhält einen korrekten physikalischen Link, landet jedoch im Gastnetz statt im internen Verwaltungsnetz. Die IP-Adresse kann auf den ersten Blick gültig aussehen, aber zu einem anderen Subnetz gehören. Eine Änderung an DNS oder am Patchkabel würde dann möglicherweise nicht die Ursache beheben. Das Fallbeispiel zeigt, warum VLAN-Zuordnung und IP-Konfiguration gemeinsam zu betrachten sind. In der Selbstlernaufgabe wird die Portzuordnung auf einem Papiernetzplan korrigiert. Änderungen an produktiven Switches benötigen die Freigabe der zuständigen Netzwerkverantwortlichen.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Endgerät nutzt 192.168.12.44/24, ein Server 192.168.13.8/24. Ist eine direkte Kommunikation ohne Routing im üblichen IPv4-Modell möglich? Lösung und Rückprobe: Die Geräte befinden sich in unterschiedlichen /24-Netzen. Es wird ein Router beziehungsweise Layer-3-Weiterleitung benötigt, sofern keine Sonderkonfiguration vorliegt. Die physische Verbindung am gleichen Switch allein reicht nicht aus. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.10-C: IP-Adressen, Geräte und Fehlersuche. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Adresse und Netzmaske.
+Eine IPv4-Adresse besteht aus 32 Bit und wird meistens in vier Dezimalgruppen geschrieben. Zusammen mit der Subnetzmaske legt sie fest, welcher Teil das Netz kennzeichnet. Bei 192.168.10.34 mit der Maske 255.255.255.0, also /24, liegt die Adresse im Netz 192.168.10.0. Die üblichen Hostadressen dieses Subnetzes liegen von .1 bis .254, wobei .0 die Netzadresse und .255 die Broadcastadresse ist. Die reine Zahl am Gerät ergibt ohne Netzmaske noch keine vollständige Netzzuordnung.
+
+Gateway und Kommunikation.
+Geräte im gleichen IPv4-Subnetz können typischerweise direkt über die lokale Vermittlung kommunizieren, sofern keine weiteren Regeln dies verhindern. Für Ziele ausserhalb des lokalen Subnetzes wird meist ein Default-Gateway benötigt. Fehlt dieses oder ist es falsch konfiguriert, kann ein Gerät lokal erreichbar sein, aber keinen externen Dienst verwenden. Das ist ein häufiges Diagnosebild: Link vorhanden, lokale Erreichbarkeit vorhanden, Zugriff auf einen entfernten Server scheitert. Deshalb prüft man die Konfiguration in sinnvoller Reihenfolge.
+
+Switch, Router und Access Point.
+Ein Switch vermittelt Ethernet-Frames innerhalb eines lokalen Netzes anhand von MAC-Adressen. Ein Router verbindet unterschiedliche IP-Netze und entscheidet, wohin Pakete weitergeleitet werden. Ein Access Point stellt drahtlosen Endgeräten einen Zugang zum lokalen Netzwerk bereit. Moderne Geräte kombinieren oft mehrere Funktionen in einem Gehäuse. Für die Fehlersuche ist die logische Rolle dennoch zu unterscheiden: Ein Routerproblem wird nicht durch einen beliebigen Austausch eines Patchkabels im selben Teilnetz gelöst.
+
+VLAN als logische Trennung.
+VLANs ermöglichen es, einen physischen Switch in mehrere logische Broadcast-Domänen zu unterteilen. Dadurch können zum Beispiel Büro-, Gast- und Gebäudetechniknetz getrennt organisiert werden. Ein VLAN ersetzt jedoch keine vollständige Sicherheitsarchitektur. Zwischen VLANs ist kontrollierte Kommunikation über Routing und geeignete Regeln erforderlich. Fehlerhafte Portzuordnung kann dazu führen, dass ein Gerät zwar einen Ethernet-Link hat, aber im falschen Netz landet. Eine Dokumentation der VLAN-IDs und Portrollen ist deshalb ebenso wichtig wie die Kabelbelegung.
+
+PoE und Leistungsbudget.
+Power over Ethernet kann geeignete Endgeräte über die Datenleitung mit Energie versorgen. Dabei begrenzen Standard, Gerätetyp, Kabellänge und Switchbudget die tatsächlich verfügbare Leistung. Acht Geräte mit angenommen je 12 Watt benötigen zusammen 96 Watt. Ein Switch mit 90 Watt Gesamtbudget wäre dafür im vereinfachten Rechenmodell nicht ausreichend, selbst wenn alle Ports grundsätzlich PoE unterstützen. Bei realer Planung müssen zusätzliche Reserve und die konkret unterstützten PoE-Klassen berücksichtigt werden. Ein Datenlink allein ist kein Beweis für ausreichende Energieversorgung.
+
+Linktest gegen Zertifizierung.
+Ein einfacher Linktest zeigt, ob eine aktive Verbindung zustande kommt. Ein Kabeltester kann Aderzuordnung und grundlegende Leitungsfehler feststellen. Eine Zertifizierung der installierten Verkabelung umfasst dagegen definierte Messungen nach einer gewählten Klasse oder einem Standard. Diese Prüfungen beantworten unterschiedliche Fragen. Wird in einem Protokoll bloss Link vorhanden eingetragen, ist damit nicht nachgewiesen, dass die gesamte Installation für eine bestimmte Übertragungsklasse geeignet ist. Diese Abgrenzung ist für Qualitätsnachweise entscheidend.
+
+Systematische Fehlersuche.
+Beginne bei einem Verbindungsproblem mit Stromversorgung, Link und Portzustand. Kontrolliere danach IP-Adresse, Netzmaske und Gateway. Anschliessend folgen Erreichbarkeit innerhalb des lokalen Subnetzes, Routing und gegebenenfalls DNS-Auflösung. Ein erfolgreiches Ping-Ergebnis beweist nicht, dass die eigentliche Anwendung funktioniert, und ein gesperrter Ping beweist nicht automatisch einen Netzausfall. Gute Diagnose dokumentiert jeden Test, seine Aussagekraft und alternative Erklärungen.
+
+Praxisfall Subnetz.
+Ein Gerät hat 192.168.20.25/24, ein zweites 192.168.21.30/24. Ohne Router liegen die beiden in unterschiedlichen IP-Netzen. Auch wenn beide am gleichen Switch angeschlossen sind, kann eine direkte IP-Kommunikation unter üblichen Bedingungen scheitern. Ändert man eine Adresse gedanklich auf 192.168.20.30/24, sind beide im selben Netz. Das ist ein sicheres Papierbeispiel, um Netzmasken zu verstehen. An einer produktiven Steuerungsanlage werden IP-Adressen nicht ohne Freigabe geändert.
+
+Diagnosebericht.
+Erstelle ein fiktives Protokoll mit den Spalten Fehlerbild, physikalischer Link, IP-Konfiguration, Netzzuordnung, Gateway, DNS und Anwendungstest. Formuliere für jede Spalte ein beobachtbares Ergebnis und eine mögliche Schlussfolgerung. Vermeide den Satz Netzwerk kaputt als Diagnose. Er ersetzt keine technische Ursache. Unterscheide ausserdem zwischen einem freigegebenen Testlabor und einem betrieblichen Netzwerk, bei dem Änderungen nur koordiniert vorgenommen werden dürfen.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Endgerät nutzt 192.168.12.44/24, ein Server 192.168.13.8/24. Ist eine direkte Kommunikation ohne Routing im üblichen IPv4-Modell möglich? Lösung und Rückprobe: Die Geräte befinden sich in unterschiedlichen /24-Netzen. Es wird ein Router beziehungsweise Layer-3-Weiterleitung benötigt, sofern keine Sonderkonfiguration vorliegt. Die physische Verbindung am gleichen Switch allein reicht nicht aus. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.10-C: IP-Adressen, Geräte und Fehlersuche. Ein lokales IP-Netz ordnet Endgeräten Adressen und Netzbereiche zu. Router verbinden Netze, Switches leiten Daten im lokalen Netz weiter, und DHCP kann Adressen automatisch vergeben. Ein Netzfehler kann physisch, logisch oder durch eine falsche Konfiguration entstehen. Der Installateur muss die Trennung zwischen Verkabelungs- und Netzwerkproblem nachvollziehen können. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein Notebook erhält keine Verbindung zum Netz. Prüfe auf Papier zuerst Anschluss und Linkstatus, danach IP-Adresse und Standardgateway sowie die Erreichbarkeit des gewünschten Dienstes. Ordne die Beobachtungen Schicht für Schicht zu, ohne fremde Netzwerke zu verändern. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein gutes Netzwerkprotokoll trennt physische und logische Ursachen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: IP-Adressen, Subnetze, VLAN und PoE als Praxisüberblick; Verkabelungstest, Link-Test vs. Zertifizierung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: IP-Adressen, Subnetze, VLAN und PoE als Praxisüberblick; Verkabelungstest, Link-Test vs. Zertifizierung.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Datenübertragungszeit. 100 MB Nutzdaten werden idealisiert über eine Verbindung mit 100 Mbit/s übertragen.
+
+Schritt 1. Im Dezimalmodell gelten 100 MB = 800 Mbit.
+
+Schritt 2. Zeit = Datenmenge / Datenrate.
+
+Schritt 3. 800 Mbit / (100 Mbit/s) = 8 s.
+
+Schritt 4. Protokolloverhead und Übertragungsbedingungen verlängern die reale Zeit.
+
+Kontrolle des Ergebnisses: Idealisierte Übertragungszeit: 8 Sekunden.
+
+Übungsauftrag zur Anwendung: Ethernet-Patchkabel an Lernmaterial herstellen und mittels einfacher Prüfgeräte prüfen. Halte zusätzlich die Antwort auf die Frage «Wozu dient ein Router typischerweise?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wozu dient ein Router typischerweise? Die richtige Antwort lautet: Zur Verbindung unterschiedlicher Netze. Warum? Ein gutes Netzwerkprotokoll trennt physische und logische Ursachen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein gutes Netzwerkprotokoll trennt physische und logische Ursachen.. Warum? Der Merksatz lautet: Ein gutes Netzwerkprotokoll trennt physische und logische Ursachen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

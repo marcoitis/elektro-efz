@@ -1,0 +1,128 @@
+Einführung und Lernziele.
+Lektion 2.11-B: Schutzleiter- und Isolationsprüfung verstehen. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Warum Durchgängigkeit relevant ist.
+Ein Schutzleiter soll im Fehlerfall einen wirksamen Fehlerstrompfad ermöglichen. Seine elektrische Durchgängigkeit ist deshalb sicherheitsrelevant. Eine Sichtkontrolle kann einen vorhandenen Leiter erkennen, aber keine einwandfreie leitfähige Verbindung beweisen. Lose Klemmen, Korrosion oder Unterbrechungen können den Widerstand erhöhen. Die Prüfung muss zur Anlage und zum gewählten Schutzkonzept passen. Die hier behandelten Beispiele erklären nur das Ziel und den Rechenzusammenhang, nicht das konkrete Vorgehen an einer unter Spannung stehenden Installation.
+
+Widerstand und Kontaktfehler.
+Bei einem idealisierten Metallleiter ist der Widerstand vom Material, der Länge und vom Querschnitt abhängig. Ein schlechter Kontakt kann einen zusätzlichen Übergangswiderstand verursachen. Dadurch können Erwärmung und ein ungünstiger Fehlerstrompfad entstehen. Wenn im Modell ein Schutzleiter 0,2 Ohm und eine schlechte Verbindung 1,5 Ohm beiträgt, beträgt der gesamte Widerstand 1,7 Ohm. Der Kontaktfehler dominiert also die Strecke. Das verdeutlicht, warum mechanischer Zustand und elektrische Prüfung zusammen betrachtet werden müssen.
+
+Isolationswiderstand.
+Die Isolation trennt Leiter mit unterschiedlichen Potenzialen. Ein Isolationswiderstandstest beurteilt, ob unerwünschte leitfähige Pfade bestehen. Das gemessene Ergebnis hängt unter anderem von Prüfspannung, Anlagenzustand, Feuchtigkeit und angeschlossenen Geräten ab. Eine pauschale Zahl ohne Angaben zur Messkonfiguration ist daher wenig aussagekräftig. Für reale Installationen müssen Messverfahren, Grenzwerte und zulässige Abweichungen aus dem aktuell gültigen Regelwerk und den Herstellerangaben abgeleitet werden. Diese Lektion nennt bewusst keine unüberprüften Freigabewerte.
+
+Empfindliche Elektronik beachten.
+Moderne Installationen enthalten LED-Treiber, Steuerungen, Überspannungsschutzgeräte und andere elektronische Komponenten. Ungeeignete Prüfbedingungen können solche Geräte beeinflussen oder beschädigen. Die Fachperson muss daher vorab klären, welche Komponenten angeschlossen sind und wie die Messung sicher durchgeführt werden kann. Dies ist ein gutes Beispiel dafür, dass Prüfverfahren nicht schematisch auf jede Anlage übertragen werden dürfen. Eine dokumentierte Entscheidung kann wichtiger sein als ein mechanisch ausgeführter Standardablauf.
+
+RCD und Abschaltverhalten.
+Der Fehlerstromschutzschalter wird nach seinem Differenzstromprinzip beurteilt: Er erkennt, wenn die Stromsumme der aktiven Leiter nicht null ist. Bei einer instrumentellen Prüfung geht es unter anderem um tatsächliches Auslöseverhalten unter definierten Bedingungen. Die Betätigung der Prüftaste ist nur ein Teil der Funktionskontrolle und ersetzt nicht alle erforderlichen Messungen. Die Bewertung hängt vom eingesetzten Gerät, dem Netzsystem und den anwendbaren Prüfvorgaben ab. Ein allgemeines Schema darf nicht als verbindlicher Prüfbericht missverstanden werden.
+
+Polarität und Funktionsprüfung.
+Nach der technischen Schutzbeurteilung ist auch die bestimmungsgemässe Funktion zu prüfen. Dabei kann unter anderem wichtig sein, ob Leiter korrekt zugeordnet sind und ob Steuerungen erwartungsgemäss reagieren. Ein Gerät kann funktional arbeiten, obwohl eine sicherheitsrelevante Fehlverdrahtung vorliegt. Umgekehrt beweist ein bestandener Isolationswert nicht, dass eine Schaltung ihre Funktion korrekt erfüllt. Die Begriffe Funktionsprüfung und Sicherheitsprüfung sind daher getrennt zu behandeln, auch wenn ihre Ergebnisse gemeinsam dokumentiert werden.
+
+Messunsicherheit und Aussagegrenze.
+Jede Messung hat eine Unsicherheit, die von Gerät, Verfahren und Umgebungsbedingungen abhängt. Ein Messwert nahe an einer relevanten Grenze darf nicht unkritisch als exakte Wahrheit behandelt werden. Zu einem belastbaren Bericht gehören daher die gewählte Prüfmethode, das verwendete Instrument und die gegebenenfalls erforderliche Bewertung der Unsicherheit. Fachliches Prüfen bedeutet mehr als das Ablesen eines Displays. Im Unterricht lässt sich das durch das Vergleichen zweier hypothetischer Messprotokolle nachvollziehen.
+
+Dokumentation.
+Eine vollständige Prüfdokumentation sollte eindeutig erkennen lassen, was geprüft wurde, auf welcher Grundlage, durch wen und mit welchem Ergebnis. Ein Eintrag ohne Zuordnung zum Stromkreis kann bei späteren Rückfragen wertlos sein. Ebenso wichtig ist die dokumentierte Behandlung festgestellter Mängel. Ein nicht bestandener Punkt darf nicht durch positive Ergebnisse an anderer Stelle verdeckt werden. Für den Ausbildungskontext reicht eine fiktive Vorlage, mit der Lernende die logische Struktur des Nachweises einüben.
+
+Abschlussfall.
+Ein didaktisches Protokoll zeigt: Sichtprüfung ohne erkennbaren Fehler, Schutzleiterwiderstand im Vergleich zu früher deutlich erhöht, Funktionsprobe bestanden. Begründe, warum die Prüfung trotzdem nicht einfach als vollständig bestanden bezeichnet werden darf. Formuliere zwei mögliche Ursachen für die Widerstandsänderung und welche weitere fachliche Untersuchung nötig wäre. Die Aufgabe soll das Verständnis fördern, dass einzelne positive Ergebnisse eine ungeklärte sicherheitsrelevante Abweichung nicht kompensieren.
+
+Schutzleiterprinzip im Fehlerbild.
+Wenn ein aktiver Leiter ein leitfähiges Gehäuse berührt, hängt das Fehlerverhalten unter anderem von Netzsystem und wirksamem Schutzleiterpfad ab. Ein unterbrochener Schutzleiter kann die Schutzmassnahme entscheidend beeinträchtigen. Daher reicht die Feststellung, dass ein grün-gelber Leiter vorhanden ist, nicht aus. Die entsprechende fachliche Prüfung muss die elektrische Verbindung nachweisen. Im Lernmodell kann dieser Zusammenhang mit einem rein rechnerischen Widerstandsnetz dargestellt werden. Aussagen über tatsächliche Abschaltzeiten oder zulässige Widerstände erfordern die gültige Norm und das konkrete Schutzorgan.
+
+Reihenschaltung der Widerstände.
+Ein Modell enthält 0,18 Ohm Leitungswiderstand und zwei Übergänge mit je 0,12 Ohm. Insgesamt ergeben sich 0,42 Ohm. Verschlechtert sich einer der Übergänge auf 1,0 Ohm, steigt der Gesamtwert auf 1,30 Ohm. Der Rechenvergleich zeigt, wie stark ein einzelner schlechter Kontakt den gesamten Strompfad verändern kann. Die Zahlen sind didaktische Beispiele, keine Grenzwerte für die Abnahme. Bei realen Schutzleiterprüfungen spielen konkrete Messmethode und Bewertungsvorschriften eine entscheidende Rolle.
+
+Isolation und Prüfvorbereitung.
+Ein Isolationswert ist nur im Zusammenhang mit dem Prüfumfang aussagekräftig. Welche Leiter wurden berücksichtigt, welcher Zustand lag vor, welche Geräte waren angeschlossen und welche Messbedingungen galten? Wenn diese Angaben fehlen, ist eine spätere Beurteilung kaum möglich. Moderne elektronische Betriebsmittel können zudem besondere Vorsicht bei der Messplanung erfordern. Daraus folgt eine allgemeine Arbeitsregel: Herstellerunterlagen, Anlagenstruktur und gültige Normen sind vor einer echten Messung zu prüfen. Diese Lektion zeigt nur die fachliche Entscheidungslogik, keine Ausführungsanleitung.
+
+Verschiedene Prüfergebnisse.
+Angenommen, die Sichtprüfung zeigt keinen erkennbaren Mangel, aber im theoretischen Beispiel fällt der Schutzleiterwiderstand gegenüber der früheren Dokumentation deutlich höher aus. Eine bestandene Funktionsprobe des Verbrauchers hebt diese Abweichung nicht auf. Der korrekte Bericht führt den auffälligen Messbefund als eigenen Punkt und verlangt eine fachliche Abklärung. Daraus lernen die Teilnehmenden, dass Funktionsfähigkeit und elektrische Sicherheit unterschiedliche Nachweise sind. Auch ein RCD-Test allein ersetzt nicht alle anderen erforderlichen Prüfungen.
+
+Prüfprotokoll vergleichen.
+Vergleiche zwei fiktive Prüfblätter. Blatt A enthält nur mehrere Häkchen ohne Ort, Methode oder verantwortliche Person. Blatt B nennt Stromkreis, Prüfumfang, Gerät, Datum, Ergebnis und offenen Mangel. Nur Blatt B ermöglicht eine nachvollziehbare Weiterbearbeitung. Ergänze in Deiner Lernkontrolle die Frage, welcher Prüfnachweis für den konkreten Fall noch fehlt. Fachliche Qualität bedeutet hier, Grenzen der Dokumentation offenzulegen und nicht pauschal eine Sicherheit zu bescheinigen, die nicht überprüft wurde.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Bei einem fiktiven Prüfaufbau werden 0,25 Ohm Leitungswiderstand und 1,1 Ohm zusätzlicher Übergangswiderstand modelliert. Welcher Gesamtwert entsteht? Lösung und Rückprobe: In Reihenschaltung ergibt sich 1,35 Ohm. Der Übergangswiderstand trägt den grössten Anteil bei. Die Zahlen sind ausschliesslich ein Lernmodell und kein zulässiger Grenzwert für eine reale Schutzleiterprüfung. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.11-B: Schutzleiter- und Isolationsprüfung verstehen. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Warum Durchgängigkeit relevant ist.
+Ein Schutzleiter soll im Fehlerfall einen wirksamen Fehlerstrompfad ermöglichen. Seine elektrische Durchgängigkeit ist deshalb sicherheitsrelevant. Eine Sichtkontrolle kann einen vorhandenen Leiter erkennen, aber keine einwandfreie leitfähige Verbindung beweisen. Lose Klemmen, Korrosion oder Unterbrechungen können den Widerstand erhöhen. Die Prüfung muss zur Anlage und zum gewählten Schutzkonzept passen. Die hier behandelten Beispiele erklären nur das Ziel und den Rechenzusammenhang, nicht das konkrete Vorgehen an einer unter Spannung stehenden Installation.
+
+Widerstand und Kontaktfehler.
+Bei einem idealisierten Metallleiter ist der Widerstand vom Material, der Länge und vom Querschnitt abhängig. Ein schlechter Kontakt kann einen zusätzlichen Übergangswiderstand verursachen. Dadurch können Erwärmung und ein ungünstiger Fehlerstrompfad entstehen. Wenn im Modell ein Schutzleiter 0,2 Ohm und eine schlechte Verbindung 1,5 Ohm beiträgt, beträgt der gesamte Widerstand 1,7 Ohm. Der Kontaktfehler dominiert also die Strecke. Das verdeutlicht, warum mechanischer Zustand und elektrische Prüfung zusammen betrachtet werden müssen.
+
+Isolationswiderstand.
+Die Isolation trennt Leiter mit unterschiedlichen Potenzialen. Ein Isolationswiderstandstest beurteilt, ob unerwünschte leitfähige Pfade bestehen. Das gemessene Ergebnis hängt unter anderem von Prüfspannung, Anlagenzustand, Feuchtigkeit und angeschlossenen Geräten ab. Eine pauschale Zahl ohne Angaben zur Messkonfiguration ist daher wenig aussagekräftig. Für reale Installationen müssen Messverfahren, Grenzwerte und zulässige Abweichungen aus dem aktuell gültigen Regelwerk und den Herstellerangaben abgeleitet werden. Diese Lektion nennt bewusst keine unüberprüften Freigabewerte.
+
+Empfindliche Elektronik beachten.
+Moderne Installationen enthalten LED-Treiber, Steuerungen, Überspannungsschutzgeräte und andere elektronische Komponenten. Ungeeignete Prüfbedingungen können solche Geräte beeinflussen oder beschädigen. Die Fachperson muss daher vorab klären, welche Komponenten angeschlossen sind und wie die Messung sicher durchgeführt werden kann. Dies ist ein gutes Beispiel dafür, dass Prüfverfahren nicht schematisch auf jede Anlage übertragen werden dürfen. Eine dokumentierte Entscheidung kann wichtiger sein als ein mechanisch ausgeführter Standardablauf.
+
+RCD und Abschaltverhalten.
+Der Fehlerstromschutzschalter wird nach seinem Differenzstromprinzip beurteilt: Er erkennt, wenn die Stromsumme der aktiven Leiter nicht null ist. Bei einer instrumentellen Prüfung geht es unter anderem um tatsächliches Auslöseverhalten unter definierten Bedingungen. Die Betätigung der Prüftaste ist nur ein Teil der Funktionskontrolle und ersetzt nicht alle erforderlichen Messungen. Die Bewertung hängt vom eingesetzten Gerät, dem Netzsystem und den anwendbaren Prüfvorgaben ab. Ein allgemeines Schema darf nicht als verbindlicher Prüfbericht missverstanden werden.
+
+Polarität und Funktionsprüfung.
+Nach der technischen Schutzbeurteilung ist auch die bestimmungsgemässe Funktion zu prüfen. Dabei kann unter anderem wichtig sein, ob Leiter korrekt zugeordnet sind und ob Steuerungen erwartungsgemäss reagieren. Ein Gerät kann funktional arbeiten, obwohl eine sicherheitsrelevante Fehlverdrahtung vorliegt. Umgekehrt beweist ein bestandener Isolationswert nicht, dass eine Schaltung ihre Funktion korrekt erfüllt. Die Begriffe Funktionsprüfung und Sicherheitsprüfung sind daher getrennt zu behandeln, auch wenn ihre Ergebnisse gemeinsam dokumentiert werden.
+
+Messunsicherheit und Aussagegrenze.
+Jede Messung hat eine Unsicherheit, die von Gerät, Verfahren und Umgebungsbedingungen abhängt. Ein Messwert nahe an einer relevanten Grenze darf nicht unkritisch als exakte Wahrheit behandelt werden. Zu einem belastbaren Bericht gehören daher die gewählte Prüfmethode, das verwendete Instrument und die gegebenenfalls erforderliche Bewertung der Unsicherheit. Fachliches Prüfen bedeutet mehr als das Ablesen eines Displays. Im Unterricht lässt sich das durch das Vergleichen zweier hypothetischer Messprotokolle nachvollziehen.
+
+Dokumentation.
+Eine vollständige Prüfdokumentation sollte eindeutig erkennen lassen, was geprüft wurde, auf welcher Grundlage, durch wen und mit welchem Ergebnis. Ein Eintrag ohne Zuordnung zum Stromkreis kann bei späteren Rückfragen wertlos sein. Ebenso wichtig ist die dokumentierte Behandlung festgestellter Mängel. Ein nicht bestandener Punkt darf nicht durch positive Ergebnisse an anderer Stelle verdeckt werden. Für den Ausbildungskontext reicht eine fiktive Vorlage, mit der Lernende die logische Struktur des Nachweises einüben.
+
+Abschlussfall.
+Ein didaktisches Protokoll zeigt: Sichtprüfung ohne erkennbaren Fehler, Schutzleiterwiderstand im Vergleich zu früher deutlich erhöht, Funktionsprobe bestanden. Begründe, warum die Prüfung trotzdem nicht einfach als vollständig bestanden bezeichnet werden darf. Formuliere zwei mögliche Ursachen für die Widerstandsänderung und welche weitere fachliche Untersuchung nötig wäre. Die Aufgabe soll das Verständnis fördern, dass einzelne positive Ergebnisse eine ungeklärte sicherheitsrelevante Abweichung nicht kompensieren.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Bei einem fiktiven Prüfaufbau werden 0,25 Ohm Leitungswiderstand und 1,1 Ohm zusätzlicher Übergangswiderstand modelliert. Welcher Gesamtwert entsteht? Lösung und Rückprobe: In Reihenschaltung ergibt sich 1,35 Ohm. Der Übergangswiderstand trägt den grössten Anteil bei. Die Zahlen sind ausschliesslich ein Lernmodell und kein zulässiger Grenzwert für eine reale Schutzleiterprüfung. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.11-B: Schutzleiter- und Isolationsprüfung verstehen. Eine Durchgängigkeitsprüfung bewertet elektrische Verbindungen von Schutzleitern im vorgesehenen Prüfverfahren. Eine Isolationsmessung verfolgt einen anderen Zweck: Sie prüft die Isolationsverhältnisse mit dafür spezifizierter Prüfspannung. Beide Methoden erfordern die richtige Anlagenkonfiguration und können empfindliche Betriebsmittel beeinflussen. Konkrete Prüfbedingungen sind an der aktuellen N I N nachzuschlagen und fachkundig umzusetzen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Zeichne eine symbolische Anlage mit Schutzleiter und drei Verbraucherzweigen. Markiere, welche Verbindung die Durchgängigkeitsprüfung qualitativ betrifft und warum eine Isolationsprüfung nicht einfach an jedem angeschlossenen Elektronikgerät durchgeführt werden darf. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Unterschiedliche Schutzmerkmale verlangen unterschiedliche Prüfverfahren. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: R C D-Prüfung und Abschaltbedingungen; Polaritäts- und Funktionsprüfung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teil 6; N I V Artikel 24; E S T I zu Erstprüfungen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: RCD-Prüfung und Abschaltbedingungen; Polaritäts- und Funktionsprüfung.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was ist das primäre Ziel einer Schutzleiter-Durchgängigkeitsprüfung?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Unterschiedliche Schutzmerkmale verlangen unterschiedliche Prüfverfahren.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Theoretische Messprotokolle auswerten; reale Installationsmessungen nur im beaufsichtigten Ausbildungslabor. Halte zusätzlich die Antwort auf die Frage «Was ist das primäre Ziel einer Schutzleiter-Durchgängigkeitsprüfung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist das primäre Ziel einer Schutzleiter-Durchgängigkeitsprüfung? Die richtige Antwort lautet: Elektrische Kontinuität des vorgesehenen Schutzleiters. Warum? Unterschiedliche Schutzmerkmale verlangen unterschiedliche Prüfverfahren.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Unterschiedliche Schutzmerkmale verlangen unterschiedliche Prüfverfahren.. Warum? Der Merksatz lautet: Unterschiedliche Schutzmerkmale verlangen unterschiedliche Prüfverfahren.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

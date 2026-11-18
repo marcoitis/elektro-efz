@@ -25,3 +25,87 @@ Zwei Strings liefern 3,4 kW und 2,6 kW. Die Module sind identisch, aber einer is
 Musterlösung.
 
 Die Leistungsdifferenz ist zunächst plausibel durch die unterschiedlichen Bedingungen erklärbar. Erst Messungen unter vergleichbaren Bedingungen und die Kennlinienform erlauben weiterführende Schlussfolgerungen.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Zwei Strings liefern 3,4 kW und 2,6 kW. Die Module sind identisch, aber einer ist teilweise verschattet.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Die Leistungsdifferenz ist zunächst plausibel durch die unterschiedlichen Bedingungen erklärbar. Erst Messungen unter vergleichbaren Bedingungen und die Kennlinienform erlauben weiterführende Schlussfolgerungen.
+
+Möglicher sicherer Übungsauftrag: Zeichne auf Papier eine idealisierte Kennlinie mit Uoc, Isc und MPP; markiere die Wirkung eines allgemeinen Einstrahlungsrückgangs qualitativ.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wofür steht MPP? Die richtige Antwort lautet: Maximum Power Point. Warum? MPP bezeichnet den Betriebspunkt mit maximaler elektrischer Leistung.
+
+Frage 2: Welche Leistung ergibt 380 V × 9 A? Die richtige Antwort lautet: 3420 W. Warum? P = U × I = 3420 W.
+
+Frage 3: Ist Thermografie allein ein sicherer Defektnachweis? Die richtige Antwort lautet: Nein, Umgebungsbedingungen und weitere Prüfungen zählen. Warum? Thermische Auffälligkeiten müssen fachlich eingeordnet werden.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Warum Einzeldaten die Fehlerursache nicht beweisen.
+Eine geringere Tagesproduktion kann aus Bewölkung, hoher Zelltemperatur, Verschattung, Netzbegrenzung, Ausfall einzelner Strings oder einem falschen Messsystem stammen. Der erste Arbeitsschritt ist daher kein Bauteiltausch, sondern ein konsistenter Vergleich mit Erwartung und Randbedingungen. Ein Ertrag in Kilowattstunden beschreibt eine zeitliche Energiemenge; die Leistung in Kilowatt beschreibt einen Momentanwert. Beide Grössen dürfen nicht gleichgesetzt werden. Ein PV-Feld mit 10 kWp kann an einem bedeckten Tag erheblich weniger als 10 Kilowatt produzieren, ohne defekt zu sein. Für die Diagnose werden Zeitpunkt, Einstrahlung, Modultemperatur, Wechselrichterdaten und gegebenenfalls Vergleichsstrings berücksichtigt. Diese Informationen bilden das Fundament für eine technisch nachvollziehbare Fehlerhypothese.
+
+Fachkapitel 2: I-U-Kennlinie als Messkurve.
+Die Strom-Spannungs-Kennlinie einer Solarzelle fällt typischerweise bei höherer Spannung ab. Bei sehr niedriger Spannung liegt der Strom nahe dem Kurzschlussstrom, bei offener Klemme ist der Strom null und die Spannung gleich der Leerlaufspannung. Dazwischen liegt der maximale Leistungspunkt, an dem das Produkt aus Spannung und Strom am grössten ist. Eine Kennlinie enthält daher wesentlich mehr Information als ein einzelner Spannungswert. Bei einer Diagnose wird untersucht, ob die Kurve flacher, gestuft, verschoben oder in ihrer Stromhöhe verändert ist. Jede Form kann verschiedene Ursachen haben. Die Messbedingungen sind entscheidend: Ein dunklerer Himmel verschiebt die Kurve, ohne dass ein Modul beschädigt sein muss. Die Kurve wird deshalb nicht isoliert interpretiert.
+
+Fachkapitel 3: Füllfaktor und Leistungspunkt.
+Aus den Grössen Voc, Isc, Vmp und Imp lässt sich ein Füllfaktor bilden: FF = (Vmp mal Imp) / (Voc mal Isc). Nehmen wir als Lernbeispiel Voc 42 Volt, Isc 13 Ampere, Vmp 34 Volt und Imp 12,2 Ampere. Die MPP-Leistung beträgt 414,8 Watt, das Produkt aus Voc und Isc dagegen 546 Watt. Der Füllfaktor liegt somit bei rund 0,76. Er beschreibt die Form der Kennlinie, nicht direkt den jährlichen Ertrag. Wird ein Vergleich nur mit einem Zahlenwert durchgeführt, fehlen meist Angaben zu Temperatur und Einstrahlung. Bei einer realen Kennlinienprüfung werden Messgerät, zulässiges Verfahren und Bezugsbedingungen dokumentiert. Aktive PV-Stränge werden nicht zu Ausbildungszwecken improvisiert belastet.
+
+Fachkapitel 4: Teilverschattung und Stufenbildung.
+Wenn ein Modulfeld teilweise verschattet ist, können Bypassdioden bestimmte Zellgruppen überbrücken. Die resultierende Kennlinie erhält unter Umständen Stufen oder mehrere lokale Leistungshöhepunkte. Ein MPP-Tracker sucht einen geeigneten Betriebspunkt, dessen Ergebnis auch von der verwendeten Regelstrategie abhängen kann. Eine deutliche Stufe bedeutet noch nicht automatisch, dass eine Bypassdiode defekt ist; auch der tatsächliche Verschattungsverlauf muss untersucht werden. Für den Unterricht ist eine Simulation mit drei Modulgruppen hilfreich. Eine Gruppe erhält nur 40 Prozent der Einstrahlung der anderen Gruppen. Danach vergleichen die Lernenden die theoretischen Kennlinien mit und ohne Bypasspfade. So wird die Ursache-Wirkung-Beziehung sichtbar, ohne einen realen DC-Kreis gefährlich umzubauen.
+
+Fachkapitel 5: Thermografie benötigt einen Kontext.
+Ein Infrarotbild zeigt Oberflächentemperaturen, deren Interpretation von Lastzustand, Sonneneinstrahlung, Emissionsgrad, Reflexion und Blickwinkel abhängt. Ein scheinbar heller Bereich kann durch spiegelnde Strahlung verfälscht sein. Zudem erzeugt ein Modul ohne ausreichende Einstrahlung oder elektrische Belastung möglicherweise noch keine auffälligen Temperaturunterschiede. Darum gehört zu jedem aussagekräftigen Bild ein Satz mit Aufnahmezeit, Wetter, Lastzustand, Kameraeinstellung und Position. Die Interpretation unterscheidet warme Zellen, warme Verbindungsstellen und anders erwärmte Bauteile. Eine Thermografie darf nicht einfach an die Stelle aller elektrischen Prüfungen treten; sie liefert einen weiteren Hinweis. Die Art der zulässigen Untersuchung ist mit dem Sicherheitskonzept abzustimmen.
+
+Fachkapitel 6: Hotspot, schlechte Verbindung und Spiegelung.
+Ein auffälliger warmer Punkt im Zellbereich kann mit lokalen Zellproblemen oder Verschattung zusammenhängen. Ein warmer Steckverbinder kann auf einen erhöhten Übergangswiderstand hinweisen. Ein reflektierter Sonnenfleck kann hingegen nur wie ein Temperaturfehler aussehen. Deshalb prüft eine Fachperson zunächst, ob die Auffälligkeit mit der Geometrie und dem Betriebszustand plausibel ist und ob sie sich unter geeigneten Bedingungen reproduzieren lässt. Danach werden elektrische Daten und dokumentierte Sichtbefunde miteinander verglichen. Es wäre falsch, aus der blossen Farbe Rot in einer Wärmebildpalette auf die Schwere des Fehlers zu schliessen. Ohne kalibrierte Skala sind Farben nur Darstellungsinformationen, keine normativen Temperaturgrenzen.
+
+Fachkapitel 7: Vergleich von Strings und Datennormalisierung.
+Zwei baugleiche Strings auf derselben Dachfläche bieten gute Vergleichsmöglichkeiten, wenn Verschattung und Ausrichtung gleich sind. Liegt String A bei 4,2 Kilowatt und String B bei 3,3 Kilowatt, beträgt die Differenz 0,9 Kilowatt beziehungsweise etwa 21 Prozent bezogen auf A. Dieser Unterschied verdient eine Erklärung, sagt aber noch nicht, welcher Bestandteil betroffen ist. Der Diagnosebericht erfasst Einstrahlung, Temperatur, MPP-Spannungen und die Stringströme zum selben Zeitpunkt. Steht ein String um diese Zeit teilweise im Schatten, kann der Leistungsunterschied systembedingt sein. Zeigen sich hingegen reproduzierbare Unterschiede ohne erkennbare Umgebungsursache, ist eine fachkundige Vertiefungsprüfung plausibel.
+
+Fachkapitel 8: Diagnosekette und Nachverfolgung.
+Eine gute Fehlerdiagnose beginnt mit Symptom und erwarteter Funktion. Sie definiert danach plausible Hypothesen, relevante Prüfdaten, einen sicheren Untersuchungsplan und ein Bewertungskriterium. Je nach Ergebnis werden Hypothesen bestätigt, widerlegt oder offen gelassen. Ein Testbericht sollte niemals aus blossen Vermutungen einen sicheren Bauteildefekt formulieren. Im Anschluss werden Korrekturmassnahmen mit verantwortlicher Rolle dokumentiert und durch geeignete Prüfungen bestätigt. Die letzte Stufe ist die Aktualisierung der Anlagendokumentation. Falls ein Modul oder Verbinder ersetzt wurde, muss der Revisionsstand den Eingriff zeigen. Der Nutzen dieses Vorgehens ist nicht nur technische Sauberkeit; es verringert auch unnötige Ersatzteilkosten und wiederholte Servicefahrten.
+
+Fall 1: Fall 1 – Ertragseinbruch im Winter.
+Ein Feld liefert im Dezember 40 Prozent weniger Energie als im Juni. Das ist für sich kein Fehlernachweis, denn Sonnenhöhe, Tageslänge und Wetter unterscheiden sich. Ein angemessener Vergleich betrachtet den erwarteten Ertrag für beide Zeiträume unter dokumentierten Bedingungen. Wer nur die beiden Monatswerte nebeneinanderstellt, verwechselt saisonale Variabilität mit einer technischen Störung.
+
+Fall 2: Fall 2 – Kennlinienberechnung.
+Ein Modul weist Vmp 32,8 Volt und Imp 12,5 Ampere auf. Die Leistung beträgt 410 Watt. Mit Voc 41,5 Volt und Isc 13,2 Ampere ergibt sich ein Füllfaktor von rund 0,75. Der Rechenweg zeigt den Unterschied zwischen einem tatsächlich erreichbaren Arbeitspunkt und dem mathematischen Produkt der Extremwerte. Beide gehören als unterschiedliche Grössen in die Beurteilung.
+
+Fall 3: Fall 3 – Warmer Steckverbinder.
+Ein Wärmebild zeigt einen deutlich wärmeren Steckverbinder als benachbarte gleichartige Verbindungen. Eine erhöhte Verlustleistung durch Übergangswiderstand ist eine plausible Ursache. Sie darf jedoch nicht ohne zusätzliche Untersuchung als bewiesen gelten. Die sichere Weiterbearbeitung umfasst dokumentierten Ort, Betriebszustand, thermografische Daten und eine fachlich verantwortete Ursachenabklärung.
+
+Fall 4: Fall 4 – Spiegelung.
+Auf zwei Fotos derselben Modulreihe befindet sich ein heller Wärmepunkt jeweils an einer anderen Stelle, passend zum veränderten Kamerawinkel. Das spricht für einen Reflexionseffekt. Lernende sollen daraus nicht schliessen, die Messung sei wertlos, sondern verstehen, warum Blickwinkel, Oberflächen und Aufnahmebedingungen dokumentiert werden müssen, bevor eine Reparaturentscheidung folgt.
+
+Fall 5: Fall 5 – Zwei verschieden ausgerichtete Felder.
+Ein Oststring liefert morgens mehr als ein Weststring; nachmittags kehrt sich das Verhältnis um. Das Verhalten kann völlig normal sein. Die Frage lautet: Sind die Vergleichswerte dem jeweiligen Sonnenstand angemessen? Ein einfacher String-zu-String-Vergleich ohne Kenntnis der Geometrie wäre hier methodisch falsch und könnte eine unnötige Fehlersuche auslösen.
+
+Fall 6: Fall 6 – Verschattungskurve.
+Eine Kennlinie zeigt zwei lokale Maxima. Im Dachplan liegt ein Kamin nahe bei mehreren Modulen. Die Kombination kann auf Teilverschattung und Bypassverhalten hinweisen. Der nächste Schritt ist eine fachlich zulässige Prüfung mit dokumentierten Einstrahlungsbedingungen. Ohne Kenntnis des Messzeitpunkts und der tatsächlichen Verschattung wäre die Diagnose unvollständig.
+
+Fall 7: Fall 7 – Korrektur nach Reparatur.
+Nach Austausch eines beschädigten Moduls steigt die Ertragsanzeige. Eine gute Schlussfolgerung umfasst trotzdem den dokumentierten Ersatztyp, aktualisiertes Schema und die erforderliche Prüfung des veränderten Stromkreises. Die höhere Energieproduktion ist eine wertvolle Betriebsbeobachtung, aber kein Ersatz für alle Sicherheitsnachweise der Änderung.
+
+Fall 8: Fall 8 – Diagnosebericht.
+Erstelle eine Seite mit den Feldern Symptom, erwartetes Verhalten, Umgebungsdaten, Analyse der Kennlinie, Thermografiehinweis, plausible Ursachen, fehlende Prüfbelege und nächster fachlicher Schritt. Für jedes Feld muss klar sein, ob es sich um eine Beobachtung, eine Berechnung oder eine Interpretation handelt. So wird eine Diagnose auch für Dritte nachvollziehbar.
+
+Vertiefung 9: Zusatzfall – Degradation oder Verschmutzung.
+Über mehrere Jahre sinkt der wetterbereinigte Jahresertrag einer PV-Anlage. Als Erklärungen kommen Modulalterung, Verschmutzung, zunehmende Verschattung durch wachsende Bäume oder technische Ausfälle in Betracht. Eine einfache Ertragskurve kann diese Ursachen nicht sicher trennen. Zuerst wird geprüft, ob Zähler- und Wechselrichterdaten über die Zeit vergleichbar geblieben sind. Danach werden Standortveränderungen, Wartungseinträge und aktuelle Leistungskennlinien einbezogen. Der Lernauftrag besteht darin, mögliche Ursachen nach ihrer erwarteten Wirkung auf Leistung, Strom und Kennlinienform zu ordnen. Eine belastbare Diagnose entsteht erst, wenn eine Hypothese mit konkreten Beobachtungen gestützt wird.
+
+Vertiefung 10: Zusatzfall – MPPT und Clipping.
+Ein Wechselrichter begrenzt bei hoher Einstrahlung seine AC-Leistung auf eine vorgesehene Obergrenze. In einer Tageskurve entsteht dadurch ein flaches Leistungsplateau. Dieses Verhalten kann durch die Auslegung normal sein und ist nicht automatisch ein Defekt. Umgekehrt kann ein dauerhaft ungewöhnlich tiefer Leistungspunkt auf Einstellungs-, Temperatur- oder Geräteeinflüsse hinweisen. Zum Verständnis vergleichen Lernende zwei Kurven: Eine PV-DC-Leistung steigt weiter an, während AC bei zehn Kilowatt begrenzt bleibt; in der zweiten Kurve sinken beide Werte gleichzeitig durch eine Wolke. Der Vergleich zeigt, wie hilfreich getrennte DC- und AC-Messpunkte für die Diagnose sind.
+
+Vertiefung 11: Zusatzfall – Dokumentierte Unsicherheit.
+Eine thermografische Aufnahme zeigt einen Temperaturunterschied von acht Kelvin zwischen zwei Zellbereichen. Das klingt präzise, aber ohne vergleichbaren Emissionsgrad, Blickwinkel, Belastungszustand und Geräteinformation lässt sich keine sichere Defektbewertung ableiten. Im Bericht werden die beobachtete Differenz, mögliche Störeinflüsse und die offenen Prüfschritte getrennt aufgeführt. Wenn der gleiche Bereich unter geeigneten Bedingungen wiederholt auffällig ist, stärkt dies die Hypothese eines technischen Problems. Für die endgültige Aussage sind dennoch geeignete elektrische und fachliche Nachweise erforderlich. Die Übung trainiert den Umgang mit Unsicherheit statt die mechanische Übernahme einer Farbpalette als Diagnose.
+
+Vertiefung 12: Fall 12 – Wiederholbarkeit herstellen.
+Eine Thermografieaufnahme wurde bei schwacher Einstrahlung erstellt, die spätere Aufnahme unter starker Sonne. Der Temperaturvergleich wirkt dramatisch, lässt sich aber ohne die Betriebsbedingungen nicht direkt interpretieren. Für einen nachvollziehbaren Bericht müssen Einstrahlung, Lastzustand, Blickwinkel und Aufnahmeparameter ausreichend übereinstimmen oder die Unterschiede kenntlich gemacht werden. Die Aufgabe lautet, zuerst die Vergleichbarkeit der Datensätze zu beurteilen und erst danach eine Fehlerhypothese zu bewerten. Dies verhindert, dass ein erwünschter technischer Nachweis zu einer bloss eindrucksvollen Bilderfolge wird.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

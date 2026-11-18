@@ -25,3 +25,87 @@ Du ergänzt eine Bestands-PV um weitere Module. Der ältere Prüfbericht enthäl
 Musterlösung.
 
 Für die Änderung ist eine nachvollziehbare aktuelle Dokumentation der betroffenen Anlagenteile und ihrer Prüfungen erforderlich. Vorher-/Nachher-Zustand muss erkennbar bleiben.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Du ergänzt eine Bestands-PV um weitere Module. Der ältere Prüfbericht enthält nur den Zustand vor der Erweiterung.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Für die Änderung ist eine nachvollziehbare aktuelle Dokumentation der betroffenen Anlagenteile und ihrer Prüfungen erforderlich. Vorher-/Nachher-Zustand muss erkennbar bleiben.
+
+Möglicher sicherer Übungsauftrag: Erstelle ein Muster-Inhaltsverzeichnis für eine PV-Anlagenmappe inklusive Prüf- und Betriebsdokumentation.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welcher Bericht ist besser prüfbar? Die richtige Antwort lautet: Anlagenbezogene Messdaten mit Bedingungen. Warum? Nachvollziehbare Bewertung braucht identifizierbare Daten.
+
+Frage 2: Was geschieht nach einer PV-Erweiterung mit der Dokumentation? Die richtige Antwort lautet: Betroffene Unterlagen werden aktualisiert. Warum? Änderungen erfordern eine korrekte Ist-Dokumentation.
+
+Frage 3: Warum werden Umgebungsbedingungen erfasst? Die richtige Antwort lautet: PV-Messwerte hängen davon ab. Warum? Spannung und Strom sind abhängig von Einstrahlung und Temperatur.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Vom Prüfdokument zum belastbaren Nachweis.
+Ein Prüfbericht soll einer späteren Fachperson ermöglichen, den geprüften Anlagenzustand und die Bewertungsgrundlage zu rekonstruieren. Dazu benötigt er eindeutige Anlagenidentität, Umfang der Prüfung, verantwortliche Personen, Messergebnisse, Bewertung und allfällige Pendenzen. Ein Sammelordner mit Fotos, Datenblättern und unsortierten Messausdrucken erfüllt diese Funktion nicht automatisch. Die Berichtsstruktur muss zeigen, was tatsächlich geprüft wurde und was nur aus Unterlagen übernommen wurde. Das ist gerade bei PV wichtig, weil mehrere gleichartige Strings nebeneinander vorhanden sind und falsche Zuordnungen lange unbemerkt bleiben können. In der Ausbildung wird deshalb jedes Messergebnis mit einer String-ID, einem eindeutig bezeichneten Prüfaspekt und dem konkreten Berichtsdatum verbunden. Die Qualität hängt nicht von möglichst vielen Seiten ab, sondern von der Rückverfolgbarkeit.
+
+Fachkapitel 2: Prüfumfang und Grenzen.
+Ein Bericht bezeichnet sowohl die geprüften Teile als auch nicht zugängliche Bereiche, ausgenommene Stromkreise oder aufgrund der Anlagenarchitektur abweichend behandelte Prüfschritte. Eine fehlende Messung darf nicht durch ein unspezifisches Kreuz im Feld „in Ordnung“ verborgen werden. Vielmehr wird erklärt, warum sie nicht stattfand, welche technische Auswirkung diese Lücke hat und wie sie bearbeitet wird. Die zuständige Fachperson muss daraus ableiten können, ob ein weiterer Nachweis erforderlich ist. Eine freiwillige Fotografie eines Dachmoduls kann einen elektrischen Isolationsnachweis nicht ersetzen. Umgekehrt lässt eine korrekte elektrische Messung keine pauschale Aussage zur mechanischen Tragfähigkeit der Befestigung zu. Der Prüfumfang wird daher nach unterschiedlichen technischen Disziplinen abgegrenzt.
+
+Fachkapitel 3: Messwert, Sollwert und Referenz.
+Im Bericht gehört neben einem Messwert ein fachlich begründeter Bewertungsmassstab. Der zulässige oder erwartete Wert kann von Norm, Gerätehersteller, Datenblatt und der definierten Messsituation abhängen. Ein Zahlenpaar ohne diesen Bezug ist unvollständig. Beispiel: Für einen String mit 15 Modulen und je 40 Volt Voc ergibt sich bei Referenzbedingungen 600 Volt. Eine dokumentierte Messung von 625 Volt kann bei niedrigeren Temperaturen plausibel sein. Die Beurteilung erfordert daher den Temperaturkoeffizienten und eine nachvollziehbare Berechnung. Das Ergebnis wird nicht einfach „bestanden“ genannt, weil die Zahlen nahe beieinanderliegen. Ein fachkundiger Bericht trennt zwischen Modellrechnung, tatsächlicher Messung und der Prüfung gegen den konkret anwendbaren Grenzwert.
+
+Fachkapitel 4: Messunsicherheit und Auflösung.
+Messgeräte besitzen eine begrenzte Genauigkeit, und zusätzliche Unsicherheit entsteht aus Anschluss, Umgebungsbedingungen und der Interpretation des Prüfzustands. Eine Anzeige von 2,35 Megaohm bedeutet nicht automatisch, dass der wahre Wert auf die letzte Nachkommastelle feststeht. Eine seriöse Bewertung nennt bei Bedarf Messgerät, Gerätestatus, verwendetes Verfahren und relevante Unsicherheiten. Besonders kritisch wird es, wenn ein Messwert nahe an einem verbindlichen Bewertungskriterium liegt. Dann reicht es nicht, eine Rundungsregel aus dem Gefühl heraus anzuwenden. Die geltende Prüfvorschrift bestimmt, wie Grenzfälle zu beurteilen sind. In einer Unterrichtsaufgabe wird deshalb ein protokollierter Wert als Bereich beziehungsweise als Zahl mit Hinweis auf die Messbedingungen behandelt. Das fördert fachlich verantwortliche Aussagen statt Scheingenauigkeit.
+
+Fachkapitel 5: Mängel und Korrekturmassnahmen.
+Ein Mangel hat eine eigene Nachweiskette: Beobachtung, mögliche Gefährdung, verantwortliche Rolle, vereinbarte Massnahme, Termin, Behebung und erneuter Nachweis. Ohne diese Kette bleibt eine Pendenz im Projekt möglicherweise jahrelang unklar. Die Aussage „Mangel behoben“ reicht nicht, wenn weder ausgeführte Änderung noch Nachprüfung dokumentiert sind. Für sicherheitsrelevante Abweichungen kann eine Freigabe bis zur Klärung ausgeschlossen sein; dies ist durch die zuständige fachkundige Person zu beurteilen. Die Dringlichkeit darf nicht allein anhand einer subjektiven Farbcodierung festgelegt werden. Ein Bericht mit vielen grünen Feldern und einer ungeklärten gefährlichen Abweichung ist kein insgesamt positiver Sicherheitsnachweis.
+
+Fachkapitel 6: Formale Rolle des Sicherheitsnachweises.
+In der Schweiz sind für elektrische Installationen unter anderem die Anforderungen der NIV und der einschlägigen Ausführungsbestimmungen zu berücksichtigen. Bei PV-Anlagen müssen die vorgesehenen Prüf- und Nachweisdokumente richtig zugeordnet werden. Das ESTI verweist für PV auf die jeweils aktuelle Fassung des Mess- und Prüfprotokolls nach Weisung 233 sowie auf die Dokumentationsanforderungen nach SN EN 62446-1. Die Lernunterlage soll die Bedeutung dieser Dokumente erklären, aber keine frei erfundene einheitliche Pflichtformularliste für alle Sonderfälle präsentieren. Ob eine zusätzliche Kontrolle, ein besonderer Nachweis oder eine Meldung erforderlich ist, muss für die konkrete Anlage anhand der gültigen Originalvorgaben entschieden werden. Ein Prüfbericht ist nicht dasselbe wie ein vollumfänglicher Ersatz für Bewilligung oder Betreiberinstruktion.
+
+Fachkapitel 7: Revisionsgültige Unterlagen.
+Ein prüfbarer Abschluss verlangt, dass Stringschema, Geräteverzeichnis, Dachplan, Prüfliste und Betreiberunterlage denselben Anlagestand beschreiben. Nach einer Umverdrahtung kann ein vorher korrektes Protokoll sachlich veraltet sein. Wird beispielsweise MPPT 2 neu belegt, müssen Beschriftung, Plan und Prüfzuordnung nachgeführt werden. Gute digitale Ablagen verwenden eine eindeutige Versionskennung, ein Änderungsdatum und eine verantwortliche Person. Das Prüfdokument verweist auf diese Version. Eine unkommentierte Sammlung von „Schema final“, „Schema final neu“ und „Schema definitiv2“ ist gerade im Servicefall ein Sicherheitsrisiko. Die Ausbildung sollte deshalb bereits in kleinen Übungsdossiers auf eine konsequente Revisionslogik achten.
+
+Fachkapitel 8: Kundenübergabe und spätere Wartung.
+Der Bericht wird nicht nur für die Kontrollstelle erstellt. Der Betreiber benötigt verständliche Informationen zu regulärem Betrieb, Störmeldungen, Ansprechpartnern, Wartungsintervallen nach Herstellerangaben und sicherheitsrelevanten Grenzen eigener Eingriffe. Bei PV ist zu erläutern, dass ein Generator bei Beleuchtung eine Spannung erzeugen kann, selbst wenn die AC-Seite ausgeschaltet ist. Die Übergabe dokumentiert, was instruiert wurde und welche Unterlagen ausgehändigt wurden. Besonders wertvoll ist ein klarer Nachtragspfad: Wer aktualisiert den Plan, wenn ein Wechselrichter ersetzt oder ein Dachfeld erweitert wird? Ein prüfbares Dossier ist ein Werkzeug über den gesamten Lebenszyklus und kein bürokratisches Ritual kurz vor Rechnungsstellung.
+
+Fall 1: Fall 1 – Messliste ohne Kontext.
+Ein Prüfausdruck enthält Werte für String 1 bis 4, aber keine Modulanzahlen und keine Temperaturangaben. Die technische Bewertung muss einschränken, welche Soll-Ist-Vergleiche damit überhaupt möglich sind. Eine sinnvolle Nachforderung nennt konkrete fehlende Bezugsbedingungen statt pauschal eine neue Prüfung sämtlicher Anlagenteile zu verlangen.
+
+Fall 2: Fall 2 – Grenzwert in einer Tabelle.
+In der Vorlage steht ein Zahlenwert als „zulässiger Grenzwert“, aber es fehlt die Angabe, aus welcher Normausgabe oder Herstellervorgabe er stammt. Die fachliche Lösung besteht darin, die Referenz nachzuliefern und den Geltungsbereich zu kontrollieren. Ein kopierter Wert ist noch keine gültige Bewertungsgrundlage für das betreffende Gerät und die verwendete Messmethode.
+
+Fall 3: Fall 3 – Pendenz nach Reparatur.
+Ein defekter Steckverbinder wurde ersetzt. Im Bericht steht lediglich „erledigt“; eine dokumentierte Wiederprüfung fehlt. Der Abschluss muss den betroffenen String, die Massnahme, die verantwortliche Person und die erforderliche Nachprüfung enthalten. Erst so wird nachweisbar, welcher Zustand nach der Reparatur tatsächlich beurteilt wurde.
+
+Fall 4: Fall 4 – Datumswiderspruch.
+Das Prüfprotokoll weist Version 3 aus, der Stromlaufplan im Betreiberordner jedoch Version 1. Bei einer späteren Störung könnte das Serviceteam auf falsche Klemmenbezeichnungen zurückgreifen. Die erforderliche Handlung ist ein Revisionsabgleich und die kontrollierte Verteilung der gültigen Unterlagen. Die reine Existenz zweier korrekter Dateien genügt nicht.
+
+Fall 5: Fall 5 – Messunsicherheit.
+Ein dokumentierter Isolationswert liegt knapp oberhalb eines angenommenen Bewertungswerts. Das Ausbildungsziel ist nicht die pauschale Freigabe. Stattdessen notierst Du Messverfahren, Gerätespezifikation, Prüfumstände und die zugehörige Grenzregel. Wenn das Ergebnis unter Berücksichtigung der Unsicherheit nicht eindeutig ist, muss die befugte Fachperson die weitere Bewertung festlegen.
+
+Fall 6: Fall 6 – Falsche Anlagenidentität.
+Im Übergabeordner steht ein älterer Wechselrichtertyp, während vor Ort ein Ersatzgerät installiert wurde. Die richtige Massnahme ist die Aktualisierung des Geräteverzeichnisses, der Schaltpläne und gegebenenfalls der Prüfnachweise. Eine nachträgliche Änderung nur auf dem Deckblatt würde die technische Widersprüchlichkeit nicht beheben.
+
+Fall 7: Fall 7 – Betreiberinstruktion.
+Der Kunde kann die Online-Ertragsanzeige verwenden, weiss aber nicht, wen er bei einer Isolationsstörung kontaktieren soll. Plane eine kurze Übergabeeinheit mit dokumentiertem Ansprechpartner, freigegebenen Bedienhandlungen, typischen Meldungen und Hinweisen zum Verhalten bei technischen Störungen. Die Instruktion ersetzt keine Arbeiten am PV-Kreis.
+
+Fall 8: Fall 8 – Prüfbericht als Fachgespräch.
+Ein Kollege fragt, was die Endaussage „Anlage geprüft“ bedeutet. Antworte in vier Schritten: genaue Anlagenidentität, tatsächlicher Prüfumfang, Bewertung anhand der anwendbaren Kriterien und offene Abweichungen. Eine gute Antwort benennt auch, welche Fachfreigaben oder Kontrollen weiterhin ausstehen. Diese Form der Begründung ist deutlich tragfähiger als ein blosses „alles gut“.
+
+Vertiefung 9: Zusatzfall – Bericht für drei Adressaten.
+Eine PV-Abnahme liefert Informationen an Betreiber, Installationsbetrieb und Kontrollstelle. Alle drei benötigen denselben technischen Grundbestand, aber unterschiedliche Schwerpunkte. Der Betreiber braucht verständliche Bedien- und Störfallinformationen. Der Installationsbetrieb muss Mängel und Nacharbeiten eindeutig zuordnen können. Die Kontrollstelle benötigt nachvollziehbare Prüfergebnisse mit den zutreffenden rechtlichen und normativen Bezügen. Ein guter Bericht vermeidet drei voneinander abweichende Wahrheiten. Stattdessen gibt es einen gemeinsamen Revisionsstand mit unterschiedlichen, klar abgegrenzten Auszügen. Formuliere eine Einleitung, die Anlagenidentität, Prüfumfang und offene Grenzen unabhängig vom Adressaten gleich wiedergibt.
+
+Vertiefung 10: Zusatzfall – Elektronische Nachweisführung.
+Digitale Prüfprotokolle lassen sich leicht kopieren, verändern und weiterversenden. Deshalb muss nachvollziehbar sein, welche Datei der freigegebene Stand ist, wer sie erstellt beziehungsweise geprüft hat und welche Rohdaten ihr zugrunde liegen. Ein Bildschirmfoto einer grünen App-Anzeige genügt häufig nicht als eindeutige technische Dokumentation. Bei exportierten Messungen sollen zumindest String-ID, Zeitstempel, Gerätezusammenhang und relevante Prüfbedingungen enthalten bleiben. Auch Verweise auf Cloud-Daten sind kritisch, wenn sie Jahre später nicht mehr zugänglich sind. Ein dauerhaft nutzbares Dossier sollte die wesentlichen Informationen in einer kontrollierten Ablage sichern. Die technische Aussage ist wichtiger als die eingesetzte Softwareplattform.
+
+Vertiefung 11: Zusatzfall – Offene Pendenz klar benennen.
+Nach der Erstprüfung ist eine zusätzliche Kontrolle einer schwer zugänglichen Modulgruppe vorgesehen. Der Rest der Anlage wurde ohne erkennbare Mängel beurteilt. Ein Abschlussbericht muss den offenen Bereich ausdrücklich benennen und den Status der Freigabe durch die zuständige Fachperson klären lassen. Die Formulierung „alles geprüft“ wäre widersprüchlich. Eine Pendenz erhält eindeutige Verantwortlichkeit, technische Begründung und Termin. Nach Durchführung der ergänzenden Prüfung wird der Bericht revisioniert; die frühere Lücke darf nicht nachträglich aus der Historie gelöscht werden. Gerade bei späteren Haftungs- oder Wartungsfragen ist dieser transparente Verlauf wesentlich.
+
+Vertiefung 12: Fall 12 – Unterschrift und tatsächliche Verantwortung.
+Ein Abschlussprotokoll enthält mehrere Unterschriften, aber keine klare Aussage, wer die einzelnen Prüfungen durchgeführt und bewertet hat. Das Dokument bleibt trotz seiner formalen Wirkung technisch unvollständig. Für jeden Prüfumfang sollen die verantwortliche Rolle, das Ergebnis und eine nachvollziehbare Zuordnung zum Anlagenzustand vorhanden sein. Die Unterzeichnenden müssen die vorgesehenen Zuständigkeiten und gesetzlichen Anforderungen erfüllen. Das Lernziel besteht darin, Form und technische Substanz voneinander zu unterscheiden: Ein gut gestaltetes Deckblatt ersetzt keinen nachvollziehbaren Prüfbeleg. Zugleich ist ein fachlich sorgfältiger Messbericht ohne die erforderliche formale Abnahme kein automatisch vollständiger Sicherheitsnachweis.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

@@ -1,0 +1,39 @@
+# Maschinenspezifische Dateien, Testausgabe und Audio-Arbeitsstände
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+.audio-cache/
+.voice-cache/
+audio-approved/
+audio-review/
+output-audio/
+dist/
+node_modules/
+.pytest_cache/
+*.log
+*.zip
+*.wav
+*.mp3
+*.m4a
+*.ogg
+# Arbeitsschutz: normierte Originaldokumente und lizenzierte Scans niemals hier committen
+private/
+source-norms/
+scans/
+
+# Only explicitly released audio in this directory may enter the repository
+!public-audio/
+!public-audio/*.mp3
+!public-audio/.gitkeep

@@ -1,7 +1,8 @@
 {
-  "version": "0.8",
-  "voice": "Piper de_DE-thorsten-high",
+  "version": "0.11.8",
+  "voice": "Noch keine freigegebene Aufnahme",
   "generated": 0,
-  "description": "Unterrichtsaudios werden beim GitHub-Actions-Deployment erzeugt.",
+  "status": "text-first; Tonproduktion in getrennten, geprüften Etappen",
+  "baseUrl": "",
   "tracks": {}
 }

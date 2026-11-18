@@ -1,1 +1,120 @@
-Lektion 3.10-A: Strukturierte Kupferverkabelung und Patchfelder. Passive Kommunikationsverkabelung besteht aus fest installierten Strecken, Anschlussdosen, Patchfeldern und flexiblen Patchkabeln. Kategorien der Komponenten und Klassen der Übertragungsstrecke sind zu unterscheiden. Ein Link funktioniert nur im Rahmen der gewählten Verkabelungssystematik; falsche Kontaktierung und unsaubere Schirmführung können Probleme verursachen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Entwirf einen kleinen Kommunikationsverteiler mit sechs Datenanschlüssen. Erstelle Portnummern, eine Belegungsliste und einen Verbindungsplan. Nutze spannungsfreie Demonstrationskabel und dokumentiere, welche Messung eine fachliche Zertifizierung des Kabelsystems erfordern würde. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein korrektes Pinout ist noch kein vollständiger Qualitätsnachweis der Strecke. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kommunikationsverteiler, Kupferverkabelung und Patchfelder; Datendosen, Anschlusskategorien, Schirmung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.10-A: Strukturierte Kupferverkabelung und Patchfelder. Passive Kommunikationsverkabelung besteht aus fest installierten Strecken, Anschlussdosen, Patchfeldern und flexiblen Patchkabeln. Kategorien der Komponenten und Klassen der Übertragungsstrecke sind zu unterscheiden. Ein Link funktioniert nur im Rahmen der gewählten Verkabelungssystematik; falsche Kontaktierung und unsaubere Schirmführung können Probleme verursachen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Entwirf einen kleinen Kommunikationsverteiler mit sechs Datenanschlüssen. Erstelle Portnummern, eine Belegungsliste und einen Verbindungsplan. Nutze spannungsfreie Demonstrationskabel und dokumentiere, welche Messung eine fachliche Zertifizierung des Kabelsystems erfordern würde. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein korrektes Pinout ist noch kein vollständiger Qualitätsnachweis der Strecke. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kommunikationsverteiler, Kupferverkabelung und Patchfelder; Datendosen, Anschlusskategorien, Schirmung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Kommunikationsverteiler, Kupferverkabelung und Patchfelder; Datendosen, Anschlusskategorien, Schirmung.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Optische Leistungsdämpfung. Eine optische Verbindung weist im vereinfachten Leistungsmodell eine Dämpfung von 3 dB auf.
+
+Schritt 1. Leistungsverhältnis: P₂/P₁ = 10^(−3/10).
+
+Schritt 2. 10^(−0,3) ≈ 0,501.
+
+Schritt 3. Am Ausgang verbleiben idealisiert rund 50 % der Eingangsleistung.
+
+Schritt 4. Eine reale Abnahme verlangt gerätespezifische Messung und Grenzwerte.
+
+Kontrolle des Ergebnisses: −3 dB bedeutet ungefähr halbe optische Leistung.
+
+Übungsauftrag zur Anwendung: RJ45-Patch-/Installationskabel ausschließlich an spannungsfreier Dateninstallation/Trainingsmaterial; LWL nur Fachkurs. Halte zusätzlich die Antwort auf die Frage «Welche Aufgabe übernimmt ein Patchfeld?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Aufgabe übernimmt ein Patchfeld? Die richtige Antwort lautet: Strukturierte Terminierung und Zuordnung von Datenleitungen. Warum? Ein korrektes Pinout ist noch kein vollständiger Qualitätsnachweis der Strecke.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein korrektes Pinout ist noch kein vollständiger Qualitätsnachweis der Strecke.. Warum? Der Merksatz lautet: Ein korrektes Pinout ist noch kein vollständiger Qualitätsnachweis der Strecke.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachvertiefung.
+
+Strukturierte Verkabelung statt Einzelkabel.
+Bei der strukturierten Kupferverkabelung werden Anschlusspunkte, Verteiler, Strecken und Komponenten nach einem geplanten System dokumentiert. Dadurch lassen sich Geräte später wechseln, ohne dass für jede neue Anwendung die ganze Installation verändert werden muss. Die feste Verkabelung verbindet beispielsweise Anschlussdosen mit Patchfeldern im Etagenverteiler. Patchkabel verbinden dann die feste Strecke mit aktiven Geräten. Für die Ausbildung ist entscheidend, fest installierte Links und wechselbare Patchverbindungen auseinanderzuhalten, weil sie unterschiedlich gemessen und dokumentiert werden.
+
+
+Permanent Link gegen Channel.
+Ein Permanent Link beschreibt üblicherweise die fest installierte Verkabelung einschliesslich ihrer Anschlusskomponenten. Ein Channel umfasst zusätzlich die vorgesehenen Patch- beziehungsweise Geräteanschlusskabel. Deshalb ist ein Messergebnis nur interpretierbar, wenn bekannt ist, was tatsächlich gemessen wurde. Wird ein Channel-Test mit einem Permanent-Link-Grenzwert verglichen, ist die Bewertung methodisch falsch. Im Lernprojekt wird zu jedem Messergebnis daher ausdrücklich Prüfkonfiguration, gewählter Standard, Messgerät und Kalibrierstatus angegeben. Die exakten Grenzwerte müssen aus der zutreffenden Norm und dem Messprofil stammen.
+
+
+Aderpaar und Verdrillung.
+Twisted-Pair-Kabel enthalten paarweise verdrillte Leiter. Die Verdrillung hilft, elektromagnetische Störungen und Übersprechen zu begrenzen. Beim Auflegen an Dosen oder Patchfeldern dürfen die Paare daher nicht unnötig weit entdrillt werden. Für eine gegebene Verbindung sind Aderbelegung, Paarzuordnung und mechanische Zugentlastung gleichzeitig wichtig. Ein einfacher Durchgangstest erkennt möglicherweise eine elektrische Verbindung, aber nicht notwendigerweise eine fehlerfreie Paarführung im Hochfrequenzbetrieb. Genau deshalb unterscheidet man Wiremap von umfassender Übertragungskanalprüfung.
+
+
+Einfügedämpfung und Rückflussdämpfung.
+Einfügedämpfung beschreibt, wie stark ein Signal auf dem Übertragungsweg abgeschwächt wird. Rückflussdämpfung hängt mit Reflexionen zusammen, die durch Impedanzsprünge oder unsaubere Anschlüsse entstehen können. Beide Messgrössen beeinflussen die Übertragungsreserve. In einem Lernfall erhält ein Link auffällige Werte nach dem nachträglichen Ersetzen einer Dose. Die Diagnose prüft die Steck- beziehungsweise Anschlusstechnik und die Messkonfiguration, statt sofort das gesamte Kabel zu ersetzen. Eine gute Bewertung begründet, warum der jeweilige Parameter auf eine bestimmte Fehlerklasse hinweist.
+
+
+Nahnebensprechen zwischen Paaren.
+NEXT, Near-End Crosstalk, beschreibt unerwünschte Kopplung zwischen Aderpaaren, die vom nahen Leitungsende aus beurteilt wird. Entdrillte Paare, ungeeignete Komponenten oder problematische Führung können die Übertragungsreserve verschlechtern. Dass ein Ethernet-Gerät mit niedriger Datenrate noch funktioniert, beweist deshalb nicht, dass der Link sämtliche spezifizierten Leistungsanforderungen erfüllt. Die Ausbildungsaufgabe besteht darin, ein vereinfachtes Messergebnis mit mehreren Parametern zu interpretieren und gezielte Ursachen zuzuordnen. Grenzwerte werden nicht geraten, sondern aus dem gewählten Messstandard entnommen.
+
+
+Kategorien und Systemkompatibilität.
+Die Bezeichnungen von Kabeln und Komponenten sagen etwas über definierte Übertragungseigenschaften aus. Ein hochwertiges Kabel allein macht aber keine hochwertige Gesamtstrecke, wenn Dosen, Patchfelder oder Anschlusstechnik schlechter geeignet sind. Ebenso darf aus einer werbewirksamen Kategorienbezeichnung nicht unmittelbar eine garantierte Ethernet-Datenrate in beliebiger Länge und Umgebung abgeleitet werden. Für ein Projekt werden deshalb Systemkategorie, Anwendungsbedarf, Komponenten und tatsächliches Prüfprofil gemeinsam dokumentiert. Die Gesamteigenschaften müssen auf dem vollständigen vorgesehenen Link nachgewiesen werden.
+
+
+Trennung von Energieleitungen.
+Daten- und Energieleitungen können sich gegenseitig elektromagnetisch beeinflussen. Die passende gemeinsame Führung, Trennung oder Abschirmung hängt von Normen, Leitungstyp, Installationssystem und den Umgebungsbedingungen ab. Eine starre, frei erfundene Distanzregel ist hier besonders gefährlich. In der Lernaufgabe wird eine Kabeltrasse mit Netz- und Datenleitungen gezeichnet, und die offene Abklärung der anzuwendenden Regeln wird kenntlich gemacht. Eine Schirmung ersetzt nicht automatisch die Anforderungen an Schutz gegen gefährliche Spannungen.
+
+
+Patchfeld als Dokumentationspunkt.
+Jeder Port eines Patchfelds muss eindeutig einem Anschlussort zugeordnet werden können. Angenommen, Raum 2.14 besitzt zwei Dosen, aber beide sind im Plan einfach mit «LAN» bezeichnet. Bei späterer Störungssuche wird die Zuordnung unnötig aufwendig. Besser ist ein Schema wie Verteiler A, Patchfeld 2, Port 17 zu Raum 2.14, Anschluss 1. Ergänze Kabelkennung, Prüfdatum, Messergebnis und allfällige Abweichung. Eine saubere Beschriftung beschleunigt Inbetriebnahme, Umbau und spätere Fehlersuche oft stärker als ein zusätzliches Messgerät.
+
+
+PoE als Energieversorgung.
+Power over Ethernet ermöglicht die Versorgung geeigneter Endgeräte über die Datenverbindung. Das bedeutet aber nicht, dass jedes Netzwerkkabel für jede Verlustleistung und jede Bündelung gleich gut geeignet ist. Strom, Erwärmung, Leitungswiderstand, Umgebung und Kabelqualität können relevant werden. In einem didaktischen Beispiel liefert der Switch 15 Watt an ein Gerät, das zehn Watt benötigt. Die fünf Watt Differenz dürfen nicht automatisch vollständig als Kabelverlust interpretiert werden, da auch Betriebsart und Leistungsbudgetierung berücksichtigt werden müssen. Die reale Auslegung nutzt das geeignete PoE-Profil.
+
+
+Lernfall systematische Abnahme.
+Für einen neuen Büroraum liegen Kabelpläne und ein paar positive Durchgangstests vor. Die Dokumentation enthält jedoch keine Angaben zu Permanent Link oder Channel und keine Messergebnisse für Übertragungseigenschaften. Beurteile den Abnahmestand. Die Lösung lautet nicht automatisch «Netzwerk kaputt», sondern «Funktion teilweise beobachtet; der spezifizierte Link ist noch nicht nachgewiesen». Erstelle anschliessend eine Nachforderungsliste: eindeutige Portzuordnung, gewähltes Messprofil, vollständiges Prüfprotokoll und Zuordnung der Messwerte zum jeweiligen Kabel.
+
+Acht anwendungsorientierte Fallübungen mit Musterlösungen.
+
+Fall 1 – Durchgangstest bestanden.
+Ein Installateur hat acht Adern von Dose zu Patchfeld durchgemessen und erklärt die Strecke für hochfrequenztauglich. Die Musterlösung nennt die Begrenzung des Tests. Wiremap zeigt eine wichtige Eigenschaft, aber nicht alle Übertragungsparameter wie Dämpfung, Übersprechen und Rückflussdämpfung. Erst ein zum Link und zur Leistungsklasse passendes Messverfahren erlaubt die vorgesehene Bewertung.
+
+
+Fall 2 – Permanent Link gegen Channel.
+Ein Prüfprotokoll ist mit «Channel» beschriftet, in der Projektvorgabe wird aber eine Permanent-Link-Prüfung verlangt. Die Musterlösung fordert die Klärung der tatsächlich gemessenen Komponenten und der Referenzbedingungen. Ein formal grüner Messwert kann zum falschen Prüfauftrag gehören. Bezeichnung, Adapter und Grenzwertprofil müssen übereinstimmen, sonst ist die Aussagekraft des Berichts eingeschränkt.
+
+
+Fall 3 – Vertauschte Paare.
+Ein Datenkabel zeigt an allen Kontakten Durchgang, aber im Betrieb treten Übertragungsprobleme auf. Die Lernlösung diskutiert eine fehlerhafte Paarzuordnung oder zu weit entdrillte Paare. Das Paargefüge beeinflusst die Hochfrequenzeigenschaften und wird von einer einfachen Kontinuitätsprüfung nicht vollständig nachgewiesen. Die Diagnose verlangt eine passende Wiremap- und Performanceprüfung.
+
+
+Fall 4 – Zwei gleiche LAN-Beschriftungen.
+Im Büro 2.14 sind zwei Anschlussdosen mit «LAN» bezeichnet. Am Patchfeld weiss niemand, welcher Port zu welchem Tisch führt. Die Musterlösung erstellt eine eindeutige Zuordnung mit Raum, Anschlussnummer, Verteiler, Patchfeld und Port. Eine gut lesbare Kennzeichnung ist kein dekoratives Detail, sondern Teil der späteren Wartbarkeit und Fehlerlokalisierung.
+
+
+Fall 5 – NEXT auffällig.
+Ein Prüfergebnis zeigt auffälliges Nahnebensprechen, während die Dämpfung unauffällig wirkt. Die Musterlösung nennt unsaubere Paarführung oder unpassende Anschlusskomponenten als mögliche Ursachen. Die beiden Parameter beschreiben verschiedene physikalische Effekte. Ein pauschaler Kabeltausch ohne gezielte Prüfung des Anschlussbereichs ist keine effiziente erste Schlussfolgerung.
+
+
+Fall 6 – Kategorie des Kabels.
+Eine neue Leitung ist mit einer hohen Kabelkategorie bedruckt, die eingesetzten Anschlussdosen sind jedoch für andere Eigenschaften spezifiziert. Die Musterlösung beurteilt die Gesamtstrecke und erklärt, warum die Leistungsklasse nicht allein aus dem Kabelaufdruck hervorgeht. Hersteller- und Systemdaten sowie der Nachweis für den vollständigen Link sind erforderlich.
+
+
+Fall 7 – PoE und Wärme.
+An einem Patchfeld werden zahlreiche PoE-Endgeräte betrieben. Im Lernfall steigt die Bündelungsdichte der Leitungen deutlich. Die Musterlösung fordert eine Prüfung von Leistungsverteilung, Leitungsdaten, Bündelung und Erwärmung nach den zutreffenden Regeln. Eine korrekte Ethernet-Kommunikation allein beweist noch nicht, dass die thermische Auslegung jeder Verlegeart passt.
+
+
+Fall 8 – Plan und Realität unterscheiden sich.
+Der Plan zeigt 24 Ports, im Verteiler sind 28 belegte Ports vorhanden. Die Dokumentation ist nicht aktuell. Die Musterlösung verlangt einen systematischen Abgleich mit Kabellabeln und Messprotokollen sowie eine neue Portliste. Die zusätzlichen Links werden nicht einfach als «wahrscheinlich die neuen vier» bezeichnet, sondern eindeutig identifiziert und nachgewiesen.
+
+Zusätzliche Rechen- und Dokumentationsvertiefung.
+
+Messergebnis in vier Dimensionen.
+Ein Netzwerkprüfgerät meldet «Pass». Für eine technisch belastbare Bewertung musst Du dennoch wissen, welches Profil verwendet wurde. Halte fest, ob Permanent Link oder Channel gemessen wurde, welche Leistungsklasse vereinbart war, zu welchem Port das Ergebnis gehört und ob die relevante Messgeräte-Konfiguration dokumentiert ist. Ein positiver Wert für einen falsch ausgewählten Standard beantwortet nicht den eigentlichen Prüfauftrag. Die Musterlösung führt daher zuerst die Prüfkonfiguration und erst danach die gemessenen Parameter auf. Diese Reihenfolge schützt vor scheinbar erfolgreichen, aber inhaltlich unpassenden Abnahmen.
+
+
+Fehleranalyse an Dose 2.14.
+Ein Büroanschluss verliert sporadisch die Verbindung, während der Nachbaranschluss stabil läuft. Die Portliste ordnet den fehlerhaften Anschluss einer bestimmten Patchfeldposition zu. Zuerst werden aktive Endgeräte und Patchkabel als mögliche Ursachen eingegrenzt; danach kommen feste Leitung und Anschlusskomponenten in Betracht. Ein auffälliger NEXT-Wert weist auf eine andere Fehlerklasse hin als ein reiner Leitungsunterbruch. Die Musterlösung fordert für jede Hypothese ein geeignetes Messverfahren und eine klar dokumentierte Gegenprobe. So entsteht eine zielgerichtete Diagnose statt einer ungeordneten Austauschaktion.
+
+Prüfungsgespräch und Lernabschluss.
+
+Lernkontrolle zur strukturierten Verkabelung. Ein Link funktioniert im Alltag bei geringer Datenrate, doch das Prüfprotokoll fehlt. Erläutere, warum eine erfolgreiche Datenübertragung nicht zwingend die spezifizierte Verkabelungsqualität bestätigt. Unterscheide Wiremap, NEXT, Einfügedämpfung und Rückflussdämpfung als unterschiedliche Prüfgrössen. Entscheide anschliessend, ob der Messauftrag einen Permanent Link oder einen Channel umfasst und welche Anschlusskomponenten dadurch Teil der Prüfung sind. Abschliessend erstelle eine Portzuordnung mit Raum, Anschlussnummer, Verteiler, Patchfeld und Port. Ohne diese eindeutige Kennzeichnung ist selbst ein guter Messwert später nur schwer der richtigen Installation zuzuordnen.

@@ -1,0 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.09-B: Haushaltsgeräte und Anschlussdaten. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Anschlussdaten lesen.
+Ein Gerätedatenblatt nennt häufig Nennspannung, Frequenz, Leistungsaufnahme, Strom, Anschlussart und Schutzklasse. Diese Angaben beschreiben keine beliebige Steckmöglichkeit, sondern Bedingungen für den vorgesehenen Betrieb. Ein Gerät für 230 Volt und 50 Hertz ist nicht allein deshalb geeignet, weil irgendeine Steckdose mechanisch passt. Auch die Anschlussbedingungen des Herstellers sind entscheidend. Für die Ausbildung trennt man Geräteangaben, Merkmale der vorhandenen Installation und die daraus abzuleitende fachliche Prüfung. Diese Trennung verhindert, dass ein scheinbar passender Zahlenwert zu einer falschen Ausführungsentscheidung führt.
+
+Nennleistung und Betriebsprofil.
+Die Anschlussleistung ist ein wichtiger Planungswert, aber nicht der Jahresverbrauch. Ein Geschirrspüler nimmt während des Wasserheizens kurzfristig viel elektrische Leistung auf, während Umwälzpumpe, Sensorik und Wartephasen deutlich weniger benötigen. Deshalb ist es falsch, die höchste Leistung mit der gesamten Programmdauer zu multiplizieren und das Ergebnis als realen Verbrauch auszugeben. Besser sind gemessene Energie pro Programm, ein Lastprofil oder dokumentierte Herstellerangaben. Nur wenn ein Verbraucher konstant arbeitet, ist die einfache Multiplikation aus Nennleistung und Zeit direkt repräsentativ.
+
+Motorische Lasten und Anlaufstrom.
+Bei einem Motor kann der Einschaltstrom für kurze Zeit deutlich über dem Betriebsstrom liegen. Die Grösse hängt unter anderem von Motorbauart, Anlaufverfahren, mechanischer Last und Regelung ab. Ein Kompressor, der gegen Druck anlaufen muss, stellt andere Anforderungen als ein kleiner Lüfter. Für die technische Beurteilung werden daher nicht nur Leistung und Stromaufnahme im Dauerbetrieb, sondern auch Startbedingungen berücksichtigt. Daraus ergeben sich Anforderungen an Versorgung, Schutzorgane und gegebenenfalls die Steuerung. Die konkrete Gerätefreigabe erfolgt nach Herstellerunterlagen und geltenden Regeln.
+
+Schutzklassen und Kennzeichnungen.
+Geräte der Schutzklasse I besitzen berührbare leitfähige Teile, die in das Schutzkonzept mit Schutzleiter einbezogen werden. Geräte der Schutzklasse II nutzen doppelte oder verstärkte Isolierung als Schutzprinzip. Schutzklasse III beruht auf der Versorgung mit geeigneter Schutzkleinspannung. Diese Begriffe sind von IP-Schutzarten zu unterscheiden. Eine hohe IP-Schutzart sagt etwas über das Eindringen von Fremdkörpern und Wasser, aber nicht automatisch über die elektrische Schutzklasse. In einer Prüfung ist es wichtig, die Kennzeichnungen nicht bloss zu erkennen, sondern ihre verschiedenen Bedeutungen zu erläutern.
+
+Phasen und Lastverteilung.
+Mehrere leistungsstarke Haushaltsgeräte können gleichzeitig betrieben werden. Entscheidend ist, wie die Lasten auf die Aussenleiter verteilt sind und welche Randbedingungen des vorhandenen Stromkreises gelten. Eine reine Addition aller Typenschildleistungen kann als konservativer Überblick dienen, bildet aber die zeitliche Gleichzeitigkeit nicht exakt ab. Umgekehrt ist eine pauschale Annahme geringer Gleichzeitigkeit bei ungünstigen Betriebsbedingungen riskant. Die fachliche Planung muss Lastprofil, Schutzkonzept, Anschlussvorgaben und die tatsächliche Versorgung gemeinsam betrachten.
+
+Energieeffizienzlabels korrekt verstehen.
+Ein Effizienzlabel ermöglicht den Vergleich definierter Prüfbedingungen und Kennzahlen. Es liefert jedoch nicht automatisch den exakten Verbrauch einer einzelnen Familie. Die tatsächlich aufgenommene Energie hängt von Nutzung, Beladung, Programmauswahl, Wassertemperatur und Umgebung ab. Ein sparsames Gerät kann im Alltag viel verbrauchen, wenn es häufiger verwendet wird. Vergleichbar sind nur Werte, die unter derselben Prüfgrundlage ermittelt wurden. Beim Kauf- oder Beratungsfall muss daher der Nutzungskontext zusätzlich zur Labelklasse dokumentiert werden.
+
+Beispiel Jahresrechnung.
+Ein Gerät benötigt laut Hersteller 0,85 Kilowattstunden pro Durchlauf. Wird es 220-mal im Jahr betrieben, sind das rechnerisch 187 Kilowattstunden jährlich. Bei einem angenommenen Strompreis von 0,28 Franken pro Kilowattstunde entstehen rund 52,36 Franken Energiekosten pro Jahr. Erhöht sich die Häufigkeit auf 300 Durchläufe, steigt der Verbrauch auf 255 Kilowattstunden. Die Technik des Geräts blieb gleich, aber die Nutzung änderte das Ergebnis. Diese Rechnung zeigt auch, weshalb alle angenommenen Grössen klar in einem Vergleich ausgewiesen werden müssen.
+
+Fehlerfall und Prüfkette.
+Angenommen, ein Gerät löst beim Einschalten eine Schutzeinrichtung aus. Die Ursache kann Überlast, Kurzschluss, ein Fehlerstrom oder ein ungünstiges Einschaltverhalten sein. Diese Möglichkeiten sind nicht gleichbedeutend. Fachlich sinnvoll ist zuerst die Dokumentation des Symptoms: Welches Schutzgerät reagierte, unter welcher Last und zu welchem Zeitpunkt? Anschliessend werden die Geräte- und Installationsdaten überprüft. Eigenmächtiges Überbrücken oder wiederholtes Einschalten ohne Ursachenklärung ist keine Fehlersuche. Arbeiten und Messungen an Netzspannung gehören in die Hände berechtigter Fachpersonen.
+
+Lernkontrolle.
+Erstelle für einen fiktiven Haushalt eine Tabelle mit vier Geräten. Trage Spannung, Nennleistung, Schutzklasse, angenommene tägliche oder wöchentliche Nutzung und die daraus folgende Jahresenergie ein. Markiere in einer eigenen Spalte, welche Angaben gemessen, vom Hersteller übernommen oder geschätzt sind. Begründe ausserdem, weshalb Geräte mit Motoren im Anlauf anders betrachtet werden müssen als rein ohmsche Verbraucher. Die Bewertung soll nachvollziehbare Annahmen und korrekt verwendete Einheiten berücksichtigen, nicht nur die Endsumme.
+
+Gleichzeitigkeit im Haushalt.
+Ein Backofen, eine Waschmaschine und eine Kaffeemaschine können alle eine hohe Nennleistung besitzen. Trotzdem nehmen sie nicht während jeder Nutzungsminute die volle Leistung auf. Für eine Anschlussbeurteilung kann gerade der ungünstigste zeitgleiche Betrieb wichtig sein; für die Jahresenergierechnung dagegen die Summe der tatsächlichen Betriebsphasen. Diese zwei Fragestellungen müssen getrennt beantwortet werden. Eine geeignete Übersicht nennt für jedes Gerät den Maximalbedarf, die typischen Zeitfenster, die Häufigkeit und unbekannte Angaben. Ohne diese Struktur sind Behauptungen wie die Sicherung reicht oder das Gerät ist sparsam nicht ausreichend begründet.
+
+Typenschild und Wirkfaktor.
+Bei einem Wechselstromverbraucher stimmt Strom mal Spannung nicht in jedem Fall mit der Wirkleistung überein. Bei sinusförmigen Bedingungen gilt P = U mal I mal cos Phi. Ein Gerät mit 230 Volt, 5 Ampere und einem Leistungsfaktor von 0,8 nimmt rechnerisch 920 Watt Wirkleistung auf, während seine Scheinleistung 1150 VA beträgt. Moderne Elektronik kann zusätzlich nichtsinusförmige Ströme verursachen. Deshalb darf aus einem Stromwert nicht unkritisch auf die tatsächliche Wirkleistung geschlossen werden. Für genaue Beurteilungen werden geeignete Herstellerdaten oder passende Messverfahren benötigt.
+
+Berechnungsbeispiel Trockner.
+Ein Trockner benötigt im gewählten Programm 1,7 Kilowattstunden. Für 150 Durchläufe entstehen 255 Kilowattstunden pro Jahr. Wird eine alternative Betriebsart gewählt, die nur 1,2 Kilowattstunden je Durchlauf erfordert, reduziert sich der rechnerische Verbrauch auf 180 Kilowattstunden. Die Einsparung beträgt 75 Kilowattstunden. Ob beide Programme die gleiche Trocknungsaufgabe bewältigen, ist gesondert zu prüfen. Bei 0,30 Franken je Kilowattstunde entspricht die modellierte Differenz 22,50 Franken jährlich. Solche Aufgaben verbinden Geräteeigenschaften mit dem realen Nutzungsprofil.
+
+Elektronische Lasten.
+Schaltnetzteile und drehzahlgeregelte Motoren besitzen ein anderes elektrisches Verhalten als ein einfacher Heizwiderstand. Beim Einschalten können kurzzeitige Stromspitzen auftreten; während des Betriebs kann sich die Stromform von einem idealen Sinus unterscheiden. Das ist relevant für Geräteauswahl, Netzverträglichkeit und Interpretation von Messwerten. In der Ausbildung sollte deshalb nicht jeder Verbraucher als reiner Widerstand gezeichnet werden. Ein korrektes Modell benennt, ob es sich um eine ohmsche, induktive, elektronische oder kombinierte Last handelt und welche Näherung für die aktuelle Rechnung erlaubt ist.
+
+Dokumentationsaufgabe.
+Ein Installationsplan zeigt einen Anschluss für ein Haushaltsgerät, das im letzten Moment durch ein anderes Modell ersetzt wird. Die neue Variante hat andere Anschlussbedingungen. Liste die Angaben auf, die erneut geprüft werden müssen: Spannung, Frequenz, Strom, Anschlussart, erforderliche Schutzmassnahmen und Herstelleranweisung. Erkläre, weshalb eine unveränderte mechanische Steckform keine ausreichende Freigabe darstellt. Ergänze eine klare Trennung zwischen dem, was Du anhand des Datenblatts beurteilen kannst, und den Prüfungen an einer realen Installation, die einer qualifizierten Fachperson vorbehalten bleiben.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Küchengerät benötigt gemäss Datenblatt 1,05 Kilowattstunden pro Programm. Es wird fünfmal in jeder der 52 Wochen genutzt. Welcher Jahresverbrauch ergibt sich? Lösung und Rückprobe: 260 Programme mal 1,05 Kilowattstunden ergeben 273 Kilowattstunden pro Jahr. Ein anderes Nutzungsprofil führt zu einem anderen Ergebnis. Auf die elektrische Anschlussbelastung kann aus dieser Jahresenergiemenge nicht direkt geschlossen werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.09-B: Haushaltsgeräte und Anschlussdaten. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Anschlussdaten lesen.
+Ein Gerätedatenblatt nennt häufig Nennspannung, Frequenz, Leistungsaufnahme, Strom, Anschlussart und Schutzklasse. Diese Angaben beschreiben keine beliebige Steckmöglichkeit, sondern Bedingungen für den vorgesehenen Betrieb. Ein Gerät für 230 Volt und 50 Hertz ist nicht allein deshalb geeignet, weil irgendeine Steckdose mechanisch passt. Auch die Anschlussbedingungen des Herstellers sind entscheidend. Für die Ausbildung trennt man Geräteangaben, Merkmale der vorhandenen Installation und die daraus abzuleitende fachliche Prüfung. Diese Trennung verhindert, dass ein scheinbar passender Zahlenwert zu einer falschen Ausführungsentscheidung führt.
+
+Nennleistung und Betriebsprofil.
+Die Anschlussleistung ist ein wichtiger Planungswert, aber nicht der Jahresverbrauch. Ein Geschirrspüler nimmt während des Wasserheizens kurzfristig viel elektrische Leistung auf, während Umwälzpumpe, Sensorik und Wartephasen deutlich weniger benötigen. Deshalb ist es falsch, die höchste Leistung mit der gesamten Programmdauer zu multiplizieren und das Ergebnis als realen Verbrauch auszugeben. Besser sind gemessene Energie pro Programm, ein Lastprofil oder dokumentierte Herstellerangaben. Nur wenn ein Verbraucher konstant arbeitet, ist die einfache Multiplikation aus Nennleistung und Zeit direkt repräsentativ.
+
+Motorische Lasten und Anlaufstrom.
+Bei einem Motor kann der Einschaltstrom für kurze Zeit deutlich über dem Betriebsstrom liegen. Die Grösse hängt unter anderem von Motorbauart, Anlaufverfahren, mechanischer Last und Regelung ab. Ein Kompressor, der gegen Druck anlaufen muss, stellt andere Anforderungen als ein kleiner Lüfter. Für die technische Beurteilung werden daher nicht nur Leistung und Stromaufnahme im Dauerbetrieb, sondern auch Startbedingungen berücksichtigt. Daraus ergeben sich Anforderungen an Versorgung, Schutzorgane und gegebenenfalls die Steuerung. Die konkrete Gerätefreigabe erfolgt nach Herstellerunterlagen und geltenden Regeln.
+
+Schutzklassen und Kennzeichnungen.
+Geräte der Schutzklasse I besitzen berührbare leitfähige Teile, die in das Schutzkonzept mit Schutzleiter einbezogen werden. Geräte der Schutzklasse II nutzen doppelte oder verstärkte Isolierung als Schutzprinzip. Schutzklasse III beruht auf der Versorgung mit geeigneter Schutzkleinspannung. Diese Begriffe sind von IP-Schutzarten zu unterscheiden. Eine hohe IP-Schutzart sagt etwas über das Eindringen von Fremdkörpern und Wasser, aber nicht automatisch über die elektrische Schutzklasse. In einer Prüfung ist es wichtig, die Kennzeichnungen nicht bloss zu erkennen, sondern ihre verschiedenen Bedeutungen zu erläutern.
+
+Phasen und Lastverteilung.
+Mehrere leistungsstarke Haushaltsgeräte können gleichzeitig betrieben werden. Entscheidend ist, wie die Lasten auf die Aussenleiter verteilt sind und welche Randbedingungen des vorhandenen Stromkreises gelten. Eine reine Addition aller Typenschildleistungen kann als konservativer Überblick dienen, bildet aber die zeitliche Gleichzeitigkeit nicht exakt ab. Umgekehrt ist eine pauschale Annahme geringer Gleichzeitigkeit bei ungünstigen Betriebsbedingungen riskant. Die fachliche Planung muss Lastprofil, Schutzkonzept, Anschlussvorgaben und die tatsächliche Versorgung gemeinsam betrachten.
+
+Energieeffizienzlabels korrekt verstehen.
+Ein Effizienzlabel ermöglicht den Vergleich definierter Prüfbedingungen und Kennzahlen. Es liefert jedoch nicht automatisch den exakten Verbrauch einer einzelnen Familie. Die tatsächlich aufgenommene Energie hängt von Nutzung, Beladung, Programmauswahl, Wassertemperatur und Umgebung ab. Ein sparsames Gerät kann im Alltag viel verbrauchen, wenn es häufiger verwendet wird. Vergleichbar sind nur Werte, die unter derselben Prüfgrundlage ermittelt wurden. Beim Kauf- oder Beratungsfall muss daher der Nutzungskontext zusätzlich zur Labelklasse dokumentiert werden.
+
+Beispiel Jahresrechnung.
+Ein Gerät benötigt laut Hersteller 0,85 Kilowattstunden pro Durchlauf. Wird es 220-mal im Jahr betrieben, sind das rechnerisch 187 Kilowattstunden jährlich. Bei einem angenommenen Strompreis von 0,28 Franken pro Kilowattstunde entstehen rund 52,36 Franken Energiekosten pro Jahr. Erhöht sich die Häufigkeit auf 300 Durchläufe, steigt der Verbrauch auf 255 Kilowattstunden. Die Technik des Geräts blieb gleich, aber die Nutzung änderte das Ergebnis. Diese Rechnung zeigt auch, weshalb alle angenommenen Grössen klar in einem Vergleich ausgewiesen werden müssen.
+
+Fehlerfall und Prüfkette.
+Angenommen, ein Gerät löst beim Einschalten eine Schutzeinrichtung aus. Die Ursache kann Überlast, Kurzschluss, ein Fehlerstrom oder ein ungünstiges Einschaltverhalten sein. Diese Möglichkeiten sind nicht gleichbedeutend. Fachlich sinnvoll ist zuerst die Dokumentation des Symptoms: Welches Schutzgerät reagierte, unter welcher Last und zu welchem Zeitpunkt? Anschliessend werden die Geräte- und Installationsdaten überprüft. Eigenmächtiges Überbrücken oder wiederholtes Einschalten ohne Ursachenklärung ist keine Fehlersuche. Arbeiten und Messungen an Netzspannung gehören in die Hände berechtigter Fachpersonen.
+
+Lernkontrolle.
+Erstelle für einen fiktiven Haushalt eine Tabelle mit vier Geräten. Trage Spannung, Nennleistung, Schutzklasse, angenommene tägliche oder wöchentliche Nutzung und die daraus folgende Jahresenergie ein. Markiere in einer eigenen Spalte, welche Angaben gemessen, vom Hersteller übernommen oder geschätzt sind. Begründe ausserdem, weshalb Geräte mit Motoren im Anlauf anders betrachtet werden müssen als rein ohmsche Verbraucher. Die Bewertung soll nachvollziehbare Annahmen und korrekt verwendete Einheiten berücksichtigen, nicht nur die Endsumme.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Küchengerät benötigt gemäss Datenblatt 1,05 Kilowattstunden pro Programm. Es wird fünfmal in jeder der 52 Wochen genutzt. Welcher Jahresverbrauch ergibt sich? Lösung und Rückprobe: 260 Programme mal 1,05 Kilowattstunden ergeben 273 Kilowattstunden pro Jahr. Ein anderes Nutzungsprofil führt zu einem anderen Ergebnis. Auf die elektrische Anschlussbelastung kann aus dieser Jahresenergiemenge nicht direkt geschlossen werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.09-B: Haushaltsgeräte und Anschlussdaten. Haushaltsgeräte unterscheiden sich hinsichtlich Leistung, Einschaltverhalten, Betriebsdauer und Herstellerforderungen. Ein Anschluss muss zu Netzart, Bemessungsdaten, Schutzmassnahmen und Umgebung passen. Herstellerangaben über Einbau, Wärmeabfuhr und Anschlussbedingungen sind Teil der Planung. Ein älterer Anschlussort ist kein Beleg dafür, dass ein neues Gerät dort ohne Anpassungen verwendet werden darf. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche die Typenschilder einer fiktiven Wärmepumpe und eines Kochfelds. Notiere Bemessungsspannung, Anschlussleistung, Phasenzahl und besondere Montagevorgaben. Bestimme, welche Informationen ein autorisierter Installationsbetrieb zusätzlich für eine tatsächliche Installation benötigt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Typenschild und Installationsanleitung sind technische Pflichtlektüre. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Motorische Lasten, Anlaufstrom (Grundlagen); Energieverbrauch und Effizienzangaben. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; N I N Teil 5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Motorische Lasten, Anlaufstrom (Grundlagen); Energieverbrauch und Effizienzangaben.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Tagesenergie eines Geräts. Ein Gerät mit 2 kW läuft 30 Minuten pro Tag.
+
+Schritt 1. 30 Minuten entsprechen 0,5 Stunden.
+
+Schritt 2. E = P · t = 2 kW · 0,5 h.
+
+Schritt 3. Ergebnis E = 1 kWh pro Tag.
+
+Schritt 4. Jahreswerte erfordern ein realistisches Nutzungsprofil.
+
+Kontrolle des Ergebnisses: E = 1 kWh pro Tag.
+
+Übungsauftrag zur Anwendung: Rechenfälle einer Küche, einer Wärmepumpe und eines elektrischen Heizregisters; nur Planung. Halte zusätzlich die Antwort auf die Frage «Was sollte vor einer Geräteplanung bekannt sein?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was sollte vor einer Geräteplanung bekannt sein? Die richtige Antwort lautet: Anschlussdaten und Herstellerbedingungen. Warum? Typenschild und Installationsanleitung sind technische Pflichtlektüre.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Typenschild und Installationsanleitung sind technische Pflichtlektüre.. Warum? Der Merksatz lautet: Typenschild und Installationsanleitung sind technische Pflichtlektüre.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

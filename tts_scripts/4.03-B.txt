@@ -1,1 +1,95 @@
-Lektion 4.03-B: Batteriespeicher und Wirkungsgradkette. Ein Batteriesystem speichert elektrische Energie chemisch und gibt sie später ab. Dabei entstehen Verluste im Ladegerät, in der Batterie und im Wechselrichter. Auch Leistung und Kapazität sind unterschiedliche Grössen: Kilowatt beschreibt die momentane Abgabe, Kilowattstunden die gespeicherte Energiemenge. Für die Projektierung gelten zusätzliche Schutz- und Herstellervorgaben. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein Batteriespeicher nimmt aus der PV-Anlage 10 Kilowattstunden auf und gibt nach einem angenommenen Rundtrip-Wirkungsgrad von 85 Prozent 8,5 Kilowattstunden wieder ab. Erläutere, warum daraus noch keine Aussage zur Wirtschaftlichkeit oder zulässigen elektrischen Installation folgt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Speicherkapazität und Ausgangsleistung müssen getrennt betrachtet werden. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Ladeinfrastruktur und Lastmanagement; Netzanschluss, Meldung und Messkonzept. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; E S T I 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.03-B: Batteriespeicher und Wirkungsgradkette. Ein Batteriesystem speichert elektrische Energie chemisch und gibt sie später ab. Dabei entstehen Verluste im Ladegerät, in der Batterie und im Wechselrichter. Auch Leistung und Kapazität sind unterschiedliche Grössen: Kilowatt beschreibt die momentane Abgabe, Kilowattstunden die gespeicherte Energiemenge. Für die Projektierung gelten zusätzliche Schutz- und Herstellervorgaben. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein Batteriespeicher nimmt aus der PV-Anlage 10 Kilowattstunden auf und gibt nach einem angenommenen Rundtrip-Wirkungsgrad von 85 Prozent 8,5 Kilowattstunden wieder ab. Erläutere, warum daraus noch keine Aussage zur Wirtschaftlichkeit oder zulässigen elektrischen Installation folgt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Speicherkapazität und Ausgangsleistung müssen getrennt betrachtet werden. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Ladeinfrastruktur und Lastmanagement; Netzanschluss, Meldung und Messkonzept. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; ESTI 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Ladeinfrastruktur und Lastmanagement; Netzanschluss, Meldung und Messkonzept.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Ideale Ladezeit. Ein Speicher benötigt 44 kWh; die konstante Ladeleistung sei 11 kW.
+
+Schritt 1. Ideale Zeit: t = E / P.
+
+Schritt 2. Einsetzen: 44 kWh / 11 kW = 4 h.
+
+Schritt 3. Reale Ladeleistungen können sich ändern; Ladeverluste kommen hinzu.
+
+Schritt 4. Damit ist die Rechnung nur eine theoretische Untergrenze.
+
+Kontrolle des Ergebnisses: 4 h im idealisierten Modell.
+
+Übungsauftrag zur Anwendung: Energiemanagement-Simulation für Haus/PV/Ladestation; keine reale Anbindung. Halte zusätzlich die Antwort auf die Frage «Was bedeutet ein Wirkungsgrad von 85 % bei 10 kWh eingespeichert?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was bedeutet ein Wirkungsgrad von 85 % bei 10 kWh eingespeichert? Die richtige Antwort lautet: 8,5 kWh theoretisch nutzbare Rücklieferung. Warum? Speicherkapazität und Ausgangsleistung müssen getrennt betrachtet werden.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Speicherkapazität und Ausgangsleistung müssen getrennt betrachtet werden.. Warum? Der Merksatz lautet: Speicherkapazität und Ausgangsleistung müssen getrennt betrachtet werden.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigiertes Unterrichtsmanuskript.
+
+
+Fachkapitel 1: Speicherkapazität ist nicht gleich nutzbare AC-Energie.
+Ein Hersteller nennt eine Batterie mit zehn Kilowattstunden nomineller Energie. Daraus dürfen Lernende nicht ableiten, dass zehn Kilowattstunden am Hausnetz verfügbar sind. Zwischen chemisch speicherbarer Energie und nutzbarer AC-Energie liegen Betriebsfenster, Umrichterverluste und Eigenverbrauch des Systems. Wenn ein Speicher von zehn auf neunzig Prozent seines Nenn-SOC-Bereichs betrieben wird, sind zunächst nur acht Kilowattstunden im Batteriemodell nutzbar. Bei anschliessend 94 Prozent Entladewirkungsgrad wären rund 7,52 Kilowattstunden AC-Energie möglich. Die tatsächlichen Herstellerdefinitionen müssen immer zuerst gelesen werden.
+
+Fachkapitel 2: Lade- und Entladeleistung getrennt verstehen.
+Eine Batterie kann zehn Kilowattstunden nutzbare Energie speichern, aber auf drei Kilowatt Entladeleistung begrenzt sein. Bei einer momentanen Hauslast von acht Kilowatt deckt sie deshalb höchstens drei Kilowatt; die übrigen fünf Kilowatt müssen aus anderer Erzeugung oder dem Netz stammen. Umgekehrt benötigt das Laden eines Speichers Zeit: Acht Kilowattstunden mit maximal vier Kilowatt Ladeleistung dauern idealisiert mindestens zwei Stunden, real länger. Diese Unterscheidung ist besonders wichtig bei Gesprächen über Ersatzstrom, Wärmepumpen und Fahrzeugladung. Ein grosser Energieinhalt ersetzt keine ausreichende Leistungsfähigkeit.
+
+Fachkapitel 3: Wirkungsgradkette in beide Richtungen.
+Wir verfolgen eine Kilowattstunde von der PV-Seite durch den Wechselrichter, den Batteriewandler, den Speicher und zurück zum AC-Verbraucher. Werden für einen Modellpfad nacheinander 97 Prozent, 95 Prozent und 94 Prozent angenommen, ergibt das Produkt 0,97 mal 0,95 mal 0,94, also rund 86,6 Prozent. Das ist der Wirkungsgrad des genau definierten Pfads, nicht ein allgemeingültiger Gerätewert. Andere Systemarchitekturen haben andere Umwandlungsschritte. Wer nur den besten Einzelwirkungsgrad auf einem Datenblatt übernimmt, überschätzt den gesamten Nutzen.
+
+Fachkapitel 4: Betriebsfenster und Lebensdauer.
+Batteriesysteme schützen ihre Zellen unter anderem durch Temperatur- und Ladezustandsgrenzen. Ein BMS beobachtet Zellzustände und kann Leistung einschränken. Deshalb sind maximale Ladeleistung, Entladeleistung und tatsächlich verfügbare Kapazität nicht unter allen Bedingungen konstant. Wir unterscheiden Nennkapazität, nutzbare Kapazität und Kapazitätsverlust über die Lebensdauer. Ein Speicher kann auch dann im Alltag gut funktionieren, wenn er bei Kälte nur reduziert lädt; diese Einschränkung gehört aber in Planung und Kundeninformation. Eigene Eingriffe in ein Hochvolt-Batteriesystem sind keine Unterrichtsübung.
+
+Fachkapitel 5: AC- und DC-Kopplung.
+Bei einer AC-gekoppelten Lösung speist der PV-Wechselrichter ins Hausnetz und der Batteriespeicher besitzt üblicherweise einen eigenen Batterie-Wechselrichter. Die Kopplung vereinfacht manche Nachrüstungen, kann aber zusätzliche Umwandlungsschritte erzeugen. Bei DC-Kopplung werden PV und Batterie auf einer gemeinsamen DC-Seite eines geeigneten Systems verbunden. Welches Konzept wirtschaftlicher oder effizienter ist, hängt von Geräten, Betriebsweise und Dimensionierung ab. Ein Pfeildiagramm mit allen Energiepfaden ist eine bessere Grundlage als die pauschale Aussage, DC sei immer besser.
+
+Fachkapitel 6: Eigenverbrauch ist nicht automatisch Wirtschaftlichkeit.
+Ein Speicher, der die PV-Eigenverbrauchsquote erhöht, verursacht Investitionskosten, mögliche Wartung, Umwandlungsverluste und Alterung. Sein finanzieller Nutzen hängt von der Differenz zwischen vermiedenen Bezugskosten und entgangener Einspeisevergütung ab. Beispiel: Zwei zusätzliche Kilowattstunden Eigenverbrauch pro Tag bewirken 730 Kilowattstunden jährlich. Bei einer angenommenen Differenz von 0,18 Franken pro Kilowattstunde wären das rund 131 Franken jährlich, vor Speicherkosten und weiteren Effekten. Das ist ein Rechenmodell, keine belastbare Amortisationsprognose für ein konkretes Gebäude.
+
+Fachkapitel 7: Notstrom und Ersatzstrom präzise unterscheiden.
+Die Begriffe Backup, Notstrom und Ersatzstrom werden im Markt unterschiedlich verwendet. In der Ausbildung muss deshalb geklärt werden, welche Verbraucher im Netzausfall tatsächlich versorgt werden, ob eine allpolige oder andere technisch notwendige Trennung vorgesehen ist und wie Schutzeinrichtungen in dieser Betriebsart funktionieren. Aus dem Vorhandensein einer Batterie folgt keine automatische Ersatzstromfähigkeit. Auch die Umschaltzeit und die maximal verfügbare Leistung spielen eine Rolle. Die Freigabe einer realen Betriebsart verlangt konkrete Herstellerunterlagen und fachgerechte Auslegung.
+
+Fachkapitel 8: Batterie und Lastmanagement gemeinsam betrachten.
+Wenn ein Energiemanagement den Speicher gleichzeitig für Eigenverbrauch, Spitzenkappung und Ersatzstromreserve nutzen soll, entstehen Zielkonflikte. Ein hoher Ladezustand verbessert die verfügbare Reserve, nimmt aber mittags möglicherweise weniger PV-Überschuss auf. Ein niedriger Ladezustand schafft Platz für PV, reduziert jedoch die sofortige Ersatzstromdauer. Wir skizzieren deshalb Betriebsprioritäten mit Mindestreserve, maximalem Netzbezug und zulässigem Ladefenster. Die beste Einstellung ist kein universeller Zahlenwert, sondern eine dokumentierte Prioritätenentscheidung des Betreibers innerhalb der Herstellergrenzen.
+
+Fachkapitel 9: Messdaten interpretieren und überprüfen.
+Ein Speicher weist morgens 30 Prozent und abends 70 Prozent Ladezustand aus. Daraus lässt sich ohne Kenntnis von nutzbarer Kapazität, Zählerposition und Verlusten noch keine genaue Energiemenge ableiten. Eine gute Auswertung unterscheidet gespeicherte DC-Energie, vom Netz oder der PV-Seite bezogene Energie und später abgegebene AC-Energie. Wir prüfen die Bilanz über einen vollständigen Zyklus. Stimmen Anfangs- und Endladezustand überein, kann der Unterschied zwischen aufgenommener und abgegebener Energie als Modell für Verluste dienen; Nebenverbraucher müssen mitgezählt werden.
+
+Praxisfälle mit Lösungen und fachlicher Begründung.
+
+
+Aufgabe 1: Nutzbare Energie.
+Ein zehn-Kilowattstunden-Speicher darf modellhaft zwischen 15 und 95 Prozent arbeiten. Das ergibt acht Kilowattstunden DC-Nutzenergie. Bei 92 Prozent nachgelagertem Wirkungsgrad stehen ungefähr 7,36 Kilowattstunden AC zur Verfügung.
+
+Aufgabe 2: Entladezeit.
+Nutzbare acht Kilowattstunden und konstante Entladeleistung von zwei Kilowatt ergeben idealisiert vier Stunden. Wird die Leistung auf vier Kilowatt erhöht, sinkt die idealisierte Zeit auf zwei Stunden. Grenzen und Verluste verändern die Praxis.
+
+Aufgabe 3: Kettenwirkungsgrad.
+Drei Stufen mit 96, 95 und 93 Prozent ergeben zusammen rund 84,8 Prozent. Die Prozentwerte werden multipliziert, nicht zu 284 Prozent addiert. Erkläre, auf welche Systemgrenze sich die Zahl bezieht.
+
+Aufgabe 4: PV-Überschuss in den Speicher.
+Zwei Kilowatt PV-Überschuss während drei Stunden entsprechen sechs Kilowattstunden. Bei einer angenommenen Ladeeffizienz von 95 Prozent landen höchstens 5,7 Kilowattstunden im Speicher; zusätzlich gelten verfügbare Kapazität und Leistungsgrenze.
+
+Aufgabe 5: Notstrommissverständnis.
+Ein Speicher mit zwölf Kilowattstunden wird als ausreichend für eine Acht-Kilowatt-Last bewertet. Überprüfe zunächst die maximale Entladeleistung und den Ersatzstrombetriebsmodus. Wenn nur drei Kilowatt abgegeben werden können, ist die Annahme falsch.
+
+Aufgabe 6: Verschobener Eigenverbrauch.
+730 Kilowattstunden zusätzliche Selbstnutzung pro Jahr bei einem angenommenen finanziellen Vorteil von 15 Rappen je Kilowattstunde ergeben 109,50 Franken jährlich. Das ist ein Teilnutzen, keine Netto-Rendite des gesamten Systems.
+
+Abschlusskontrolle und Einordnung.
+Bearbeite abschliessend drei Fragen: Welche physikalischen oder logischen Annahmen lagen den Rechnungen und Beispielen dieser Lektion zugrunde? Welcher zweite Messpunkt, welche Quellenangabe oder welche unabhängige Kontrolle könnte das Ergebnis bestätigen? Was muss eine verantwortliche Fachperson vor einer realen Freigabe ergänzend prüfen? Halte Deine Antwort im Unterrichtsprotokoll fest. Die behandelten Beispiele sind bewusst Lernmodelle; ihre Plausibilität ersetzt weder Herstellerinformationen noch die geltenden Sicherheitsregeln oder einen fachgerechten Anlagenachweis.
+
+
+Vertiefende Fallanalyse: Geschlossener Lade-Entlade-Zyklus mit Verlusten.
+Ein Speicher hat zu Beginn und am Ende einer Messperiode denselben Ladezustand. Während der Periode wurden auf der AC-Seite 6,0 Kilowattstunden zum Laden aufgenommen und später 5,1 Kilowattstunden wieder abgegeben. Unter der Annahme, dass sämtliche Hilfsverbräuche in diesen Zählerwerten enthalten sind und keine weiteren Energiepfade vorliegen, ergibt sich ein AC-Rundlaufwirkungsgrad von 5,1 geteilt durch 6,0, also 85 Prozent. Die Differenz von 0,9 Kilowattstunden ist im definierten Modell ein Energieverlust. Würde der Speicher am Periodenende einen höheren Ladezustand aufweisen, dürfte die gesamte Differenz nicht mehr als Verlust interpretiert werden. Ein Teil der Energie wäre zusätzlich gespeichert. Das Beispiel illustriert, wie wichtig identische Anfangs- und Endzustände für eine aussagekräftige Bilanz sind. In einer echten Messung müssen ausserdem Messpunktlage, Zeitstempel, Messunsicherheit und Temperatur dokumentiert sein. Eine vom Hersteller genannte Spitzen-Effizienz ist nicht mit einem gemessenen Rundlaufwirkungsgrad unter beliebigen Betriebsbedingungen gleichzusetzen.
+
+Vertiefende Fallanalyse: Fachfall Leistungsreserve und gleichzeitige Verbraucher.
+Ein Speicher soll in einem Lernmodell einen Kühlschrank, eine Heizungsregelung und eine kleine Pumpe versorgen. Die Dauerleistungen betragen 150 Watt, 50 Watt und 400 Watt, zusammen 600 Watt. Bei verfügbaren 4,8 Kilowattstunden nutzbarer AC-Energie ergibt das idealisiert acht Stunden Versorgung. Doch die Pumpe kann einen deutlich höheren Anlaufstrom verlangen. Der Batterie-Wechselrichter muss deshalb nicht nur die Energie, sondern die kurzfristige Ausgangsleistung beherrschen. Zudem ist zu klären, ob der Ersatzstromausgang die benötigten Stromkreise überhaupt elektrisch versorgen darf und wie im Netzausfall getrennt und geschützt wird. Falls die Pumpe über ein gewöhnliches Schütz betrieben wird, kann die Umschaltung zusätzliche Funktionsbedingungen auslösen. Das Musterbeispiel endet daher nicht mit der Zahl acht Stunden, sondern mit einer Liste offener Leistungs-, Schaltungs- und Sicherheitsnachweise. Diese Trennung zwischen Energierechnung und Ausführungsfreigabe soll die Lernenden zu fachlich präziser Planung befähigen.
+
+Mündliche Abschlussaufgabe.
+Fachliche Gegenfrage: Ein Verkäufer behauptet, die Batterie sei zu 95 Prozent effizient und daher gingen beim Weg vom PV-Modul bis zur Steckdose nur fünf Prozent verloren. Der Satz kann bereits am Bezugsrahmen scheitern. Bezieht sich der Wirkungsgrad auf Zellen, auf DC-Laden, auf einen vollständigen DC-Zyklus oder auf AC-seitigen Rundlauf einschliesslich Batterieumrichter? Lernende sollen das Datenblatt lesen und die einzelnen Stufen als Pfeile markieren. Wenn ein Teilwirkungsgrad fehlt, wird er nicht stillschweigend als hundert Prozent angesetzt. Im nächsten Schritt wird eine Jahresbilanz mit typischen Lastfenstern verglichen. Ein System mit hoher Effizienz kann wirtschaftlich trotzdem ungeeignet sein, wenn der zusätzliche Eigenverbrauch klein ist. Umgekehrt kann ein Speicher betriebliche Vorteile wie begrenzte Lastspitzen bieten, die nicht in einer einzigen Eigenverbrauchszahl erscheinen. Die saubere Fachantwort benennt deshalb immer das Ziel der Bewertung und die verwendete Systemgrenze.

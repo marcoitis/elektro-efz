@@ -1,0 +1,110 @@
+Lektion 3.12-A: Gesamtplanung: Verbraucher, PV und Datensystem. Ein Gebäudeprojekt verbindet mehrere Disziplinen: elektrische Versorgung, Verbraucher, PV, Kommunikation, Gebäudeautomation und Baukoordination. Das Systemkonzept beschreibt vor der Detailplanung die Funktionsgrenzen und Schnittstellen. Besondere Aufmerksamkeit verdient die Trennung verschiedener Bewilligungs- und Verantwortungsbereiche. In der Lerneinheit wird ein vollständiges Modellprojekt auf Papier bearbeitet. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Entwirf ein Einfamilienhaus mit Wärmepumpe, PV, Ladepunkt, Datenverteiler und zehn Stromkreisgruppen als fiktive Anforderungsliste. Zeichne ein übersichtliches Blockschema mit den Hauptsystemen und nenne für jede Schnittstelle die fehlenden Fachabklärungen. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Gute Systemplanung zeigt Schnittstellen und Zuständigkeiten explizit. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Ein Gebäude: Verbraucher, Hausverteilung, PV, Daten und Automation; Stromlauf- und Übersichtsplan, Stringplan. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Ein Gebäude: Verbraucher, Hausverteilung, PV, Daten und Automation; Stromlauf- und Übersichtsplan, Stringplan.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Modulleistungen addieren. Acht PV-Module besitzen je 430 Wp Nennleistung.
+
+Schritt 1. Modulanzahl und Nennleistung multiplizieren.
+
+Schritt 2. 8 · 430 Wp = 3 440 Wp.
+
+Schritt 3. Umrechnung: 3 440 Wp = 3,44 kWp.
+
+Schritt 4. DC-Nennleistung ist nicht gleich momentaner AC-Einspeiseleistung.
+
+Kontrolle des Ergebnisses: 3,44 kWp DC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Reines Planungsprojekt, Messungen ggf. nur an zertifizierter Übungsanlage unter Leitung. Halte zusätzlich die Antwort auf die Frage «Was steht am Beginn der Gesamtplanung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was steht am Beginn der Gesamtplanung? Die richtige Antwort lautet: Funktionsanforderungen und Schnittstellen. Warum? Gute Systemplanung zeigt Schnittstellen und Zuständigkeiten explizit.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Gute Systemplanung zeigt Schnittstellen und Zuständigkeiten explizit.. Warum? Der Merksatz lautet: Gute Systemplanung zeigt Schnittstellen und Zuständigkeiten explizit.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Projektauftrag in überprüfbare Anforderungen zerlegen.
+Ein Gesamtplanungsprojekt beginnt nicht mit dem Einzeichnen von Steckdosen, sondern mit einer Klärung der Nutzung. Angenommen, ein kleines Gewerbeobjekt erhält neue Arbeitsplätze, eine Photovoltaikanlage und strukturierte Datenanschlüsse. Zuerst werden Betriebszeiten, Gerätearten, erwartete Leistungen, Erweiterungsreserven und räumliche Randbedingungen erfasst. Jedes Bedürfnis erhält eine Quelle: Bauherrschaft, Gerätehersteller, Betreiber oder Fachplanung. So lassen sich spätere Annahmen von bestätigten Angaben unterscheiden. Ein Satz wie «genügend Steckdosen» ist noch keine prüfbare Anforderung; eine nummerierte Arbeitsplatzliste mit Anzahl, Standort und vorgesehener Nutzung ist deutlich geeigneter.
+
+
+Lastenliste und Anschlussleistung.
+Die Lastenliste sammelt Verbraucher, deren Bemessungsdaten und Betriebsmuster. Beispielhaft können drei Arbeitsplätze je 400 Watt, ein Kühlaggregat mit 1,2 Kilowatt und eine Lüftung mit 900 Watt vorgesehen sein. Die rein arithmetische Summe beträgt 3,3 Kilowatt. Das ist noch keine belastbare Netzanschlussdimensionierung, weil Anlaufströme, Gleichzeitigkeiten und Leistungsfaktoren zu prüfen sind. Für den Unterricht setzen wir zunächst einen Gleichzeitigkeitssatz von 0,8 nur als Modellannahme an und erhalten 2,64 Kilowatt. Anschliessend wird erklärt, warum für Motoranläufe der Mittelwert nicht als alleinige Grösse genügt.
+
+
+Verbrauchergruppen bilden.
+Verbraucher werden nicht zufällig auf Stromkreise verteilt. Nutzungsart, räumliche Lage, Verfügbarkeit, Wartungsbedarf und mögliche Störungen sprechen für eine systematische Gruppierung. Ein Kommunikationsrack sollte etwa nicht von einer ungeklärten Werkstattlast abhängen. Kühlaggregate können einen anderen Verfügbarkeitsanspruch besitzen als allgemeine Bürosteckdosen. Die Zuordnung wird in einem Stromkreisverzeichnis mit eindeutigen Kennzeichen dokumentiert. Ob und wie Gruppen zu trennen sind, hängt bei realen Anlagen von Normen, Betriebsanforderungen und konkreter Planung ab. Die Lernaufgabe besteht zunächst im begründeten Entwurf, nicht in der freihändigen Auswahl von Sicherungswerten.
+
+
+PV-Erzeugung als zeitabhängige Quelle.
+Eine Photovoltaikanlage erzeugt Energie nicht einfach dann, wenn Verbraucher Strom verlangen. Für die Planung genügt daher die Angabe 8 Kilowatt Peak nicht. Entscheidend sind Ausrichtung, Verschattung, Jahres- und Tagesprofile sowie die Wechselrichterdaten. Im Lehrmodell nehmen wir an, dass die PV-Anlage an einem sonnigen Mittag 5 Kilowatt AC abgibt, während gleichzeitig 2,5 Kilowatt genutzt werden. Ohne Speicher läge rechnerisch ein Überschuss von 2,5 Kilowatt vor. Bei Bewölkung oder abends könnte die Bilanz umgekehrt aussehen. Diese Zeitabhängigkeit prägt Eigenverbrauch und Messkonzept.
+
+
+Dateninfrastruktur als eigener Planungsteil.
+Auch Datendosen benötigen eine klare Struktur. Das Raumblatt nennt Anzahl und Ort der Anschlüsse; der Netzplan beschreibt Verteiler, Patchfelder, Verbindungslängen, Beschriftung und aktive Komponenten. Energie- und Datenkabel können sich räumlich begegnen, unterliegen aber unterschiedlichen elektrischen und funktionalen Anforderungen. Deshalb werden die Leitungswege im Gesamtplan koordiniert. Für den Unterricht prüfen wir, ob die vorgesehene Patchfeldkapazität der geplanten Anzahl Ports zuzüglich Reserve entspricht. Bei sechzehn Endanschlüssen kann ein 24-Port-Patchfeld eine nachvollziehbare Planungsreserve darstellen, sofern auch Rackplatz, Komponentenklasse und Erweiterungswege passen.
+
+
+Raum- und Leitungswege koordinieren.
+Im Gewerbeobjekt müssen alle Gewerke durch gemeinsame Schächte, Deckenbereiche oder Wandzonen geführt werden. Eine Leitungsführung darf nicht nur aus kürzester geometrischer Distanz bestehen. Brandabschnitte, Zugänglichkeit, andere Installationen, mechanischer Schutz und spätere Wartung beeinflussen die Führung. Die Lernenden erstellen deshalb einen Plan mit Symbollegende, Leitungswegen und Konfliktstellen. Eine falsch geplante Durchdringung kann hohe Folgekosten verursachen, selbst wenn das elektrisch richtige Kabel vorgesehen war. Koordination bedeutet, solche Konflikte vor der Ausführung zu erkennen.
+
+
+Anschlussdaten dokumentieren statt schätzen.
+Ein Kühlgerät kann eine Anschlussleistung von 1,2 Kilowatt besitzen, aber einen deutlich anderen Anlaufstrom und Leistungsfaktor aufweisen. Wird eine Kennzahl aus einem älteren Datenblatt übernommen, ist der Entwurf möglicherweise falsch. Das Projekt verlangt daher eine Datenblattliste mit Hersteller, Typ, Revision und relevanten Kennwerten. Fehlende Daten werden als offene Punkte markiert. Gerade bei PV-Wechselrichtern, Batteriespeichern oder Netzwerkswitches können die genauen Anschluss- und Kommunikationsdaten Auswirkungen auf mehrere Fachgebiete haben. Eine Annahme darf temporär verwendet werden, muss aber sichtbar bleiben.
+
+
+Variantenvergleich mit nachvollziehbaren Kriterien.
+Zwei mögliche Trassen unterscheiden sich in Materialmenge, Zugänglichkeit und Brandabschnittsquerungen. Eine Entscheidung ausschliesslich nach Metern Kabel wäre zu kurz gegriffen. Für die Ausbildungsübung erstellen wir eine Tabelle mit Kosten, Wartung, Risiken, Reserve und Umsetzbarkeit. Jede Variante erhält dieselben Kriterien. Die Bewertung soll nicht als absolute Wahrheit auftreten, sondern begründete Vor- und Nachteile sichtbar machen. Dieser Ansatz kann auch für die Lage des Verteilers oder des Datenracks verwendet werden. Entscheidend ist, dass technische Konsequenzen und organisatorische Verantwortlichkeiten getrennt dokumentiert werden.
+
+
+Offene Schnittstellen früh identifizieren.
+Wer klärt die Netzanschlussbedingungen? Wer definiert die PV-Übergabestelle? Wer liefert die genaue Leistungsaufnahme der Lüftung? Wer verantwortet die Datennetzabnahme? Im Projekt werden diese Fragen als Schnittstellenliste geführt. Eine technische Zeichnung allein kann Verantwortlichkeiten nicht vollständig abbilden. Sinnvoll ist eine Tabelle mit Frage, Verantwortlichem, benötigtem Termin und Entscheidungsstatus. Wenn ein Wechselrichtermodell noch nicht feststeht, kann die Leitungsplanung vorläufig sein; der Status muss aber klar gekennzeichnet bleiben. So wird verhindert, dass vorläufige Angaben unbemerkt zur Ausführung gelangen.
+
+
+Projektabgabe und Verständlichkeitsprüfung.
+Am Ende des Planungsabschnitts sollen Raumbuch, Lastenliste, Stromkreiszuordnung, PV-Energiemodell, Netzwerkübersicht und Schnittstellenliste zueinander passen. Stimmt die Anzahl Arbeitsplätze aus dem Raumbuch mit den vorgesehenen Datendosen überein? Sind die angenommenen Verbraucherleistungen in allen Tabellen identisch? Jede Widersprüchlichkeit erhält einen Klärungsvermerk. Der Lernende soll das Projekt einem nicht beteiligten Kollegen in wenigen Minuten erklären können. Wenn dies nur mit mündlichen Zusatzinformationen gelingt, fehlt meist noch Dokumentation.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Lastliste mit fehlender Gleichzeitigkeitsannahme.
+Im Projekt sind Geräte mit 1,2, 0,9 und 1,5 Kilowatt vorgesehen. Die Summe beträgt 3,6 Kilowatt. Ein Kollege nennt die Zahl sofort als definitive Anschlussleistung. Welche Frage fehlt? Zuerst müssen Betriebszustände, Leistungsfaktoren und gegebenenfalls Anlaufströme geklärt werden. Ein willkürlich angenommener Gleichzeitigkeitsfaktor von 0,75 ergäbe zwar 2,7 Kilowatt, wäre aber ohne Begründung keine Planungsfreigabe. Die Lernaufgabe besteht darin, Bemessungsdaten und Modellannahmen sichtbar zu trennen.
+
+
+Fall 2: PV-Überschuss im Tagesprofil.
+Ein Gewerbeobjekt benötigt am Mittag 3 Kilowatt, die PV-Anlage liefert 5,5 Kilowatt AC. Wie gross ist der rechnerische Überschuss ohne Speicher? 2,5 Kilowatt. Wird während einer Stunde konstant diese Leistung erzeugt, entspricht das 2,5 Kilowattstunden Überschussenergie. Für eine Jahresprognose ist diese einzelne Stunde nicht repräsentativ. Die Übung prüft den Unterschied zwischen Leistung und Energie sowie die Notwendigkeit eines zeitlichen Lastprofils.
+
+
+Fall 3: Netzwerkreserve nachvollziehen.
+Für zwei Räume werden insgesamt 18 Datenanschlüsse geplant. Ein 24-Port-Patchfeld wäre auf den ersten Blick ausreichend. Welche zusätzlichen Fragen sind zu klären? Die Musterlösung nennt die Zahl tatsächlich verfügbarer Ports, aktive Netzwerktechnik, Rackfläche, Leitungswege, Portbeschriftung und Erweiterungsreserve. Wenn vier Ports bereits für andere Aufgaben belegt sind, bleiben rechnerisch nur zwei freie Ports. Eine Planung muss reale und nicht nur nominelle Kapazität betrachten.
+
+
+Fall 4: Trasse mit Brandschutzkonflikt.
+Die kürzeste Leitungsführung quert eine Brandabschnittsgrenze an nicht vorgesehener Stelle. Darf diese Variante allein wegen geringerer Kabellänge bevorzugt werden? Nein. Die brandschutztechnische Ausführung und die Abstimmung mit dem Gebäudekonzept sind mit der zuständigen Planung zu klären. Eine längere, technisch abgestimmte Trasse kann die bessere Variante sein. Das Beispiel zeigt, warum eine reine Materialkostenrechnung wichtige Projektfolgen übersehen kann.
+
+
+Fall 5: Anschlussdaten sind nur geschätzt.
+Eine Lüftung ist mit 900 Watt im Raumbuch eingetragen; das reale Gerät wurde noch nicht festgelegt. Wie wird dies dokumentiert? Die Angabe erhält den Status «Annahme», eine Quelle oder den Grund der Schätzung sowie eine offene Aufgabe für die Gerätespezifikation. Der Plan darf daraus vorläufige Kapazitäten ableiten, aber keine definitive Geräteabnahme. Die Lernkontrolle fragt, welche Zeichnungen und Berechnungen nach Eingang des endgültigen Datenblatts aktualisiert werden müssen.
+
+
+Fall 6: Schnittstellenliste bei Terminverzug.
+Die Netzbetreiberbedingungen für die PV-Anbindung liegen zwei Wochen vor dem Planungsabschluss noch nicht vor. Welche Massnahme passt? Die Schnittstelle wird als termin- und freigabekritisch markiert, die zuständige Person kontaktiert und der betroffene Planungsteil als vorläufig bezeichnet. Ein stilles Erfinden der Vorgaben wäre unzulässig. Die Musterlösung fordert, betroffene Dokumente und Entscheidungen zu benennen: Messkonzept, Wechselrichteranbindung und Übergabeumfang können davon abhängen.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Entwurfsauftrag: Neues Nutzungsprofil.
+Für das geplante Gewerbeobjekt wird zusätzlich eine Werkstattmaschine mit drei Kilowatt Wirkleistung und unbekanntem Anlaufstrom angemeldet. Aktualisiere die Lastenliste und kennzeichne, welche der bisherigen Leistungs- und Gleichzeitigkeitsannahmen sich dadurch ändern könnten. Die reine arithmetische Summe der zuvor genannten 3,3 Kilowatt und der zusätzlichen drei Kilowatt beträgt 6,3 Kilowatt. Das ist noch keine Anschlussdimensionierung, denn der Leistungsfaktor und die Anlaufcharakteristik sind nicht bekannt. Prüfe ausserdem, ob ein zusätzlicher Datenanschluss, ein anderer Leitungsweg oder eine geänderte Gruppierung nötig werden könnte. Das Beispiel zeigt, dass eine Nutzungsänderung mehrere Fachgebiete berührt. Dokumentiere daher jede Entscheidung mitsamt dem benötigten Herstellerdatenblatt und dem zuständigen Klärungspartner.
+
+
+Lernabschluss.
+Vergleiche Raumbuch, Lastliste und Netzwerkplan mit dem gleichen Stand der Projektanforderungen. Eine Zahl oder Kennung, die in mehreren Dokumenten vorkommt, muss überall dieselbe Bedeutung haben. Die beste Planung wird nicht durch die grösste Anzahl Zeichnungen erreicht, sondern durch nachvollziehbare Informationen und rechtzeitig erkannte Schnittstellen. Benenne mindestens drei offene Daten, die vor einer realen Ausführung nachgeliefert werden müssen.
+
+Zusatzentscheidung zur Eigenverbrauchsbilanz. Ein Batteriespeicher wird als nachträgliche Option diskutiert. Die Planungsgruppe darf daraus nicht automatisch einen bestimmten Autarkiegrad ableiten. Benötigt werden mindestens zeitaufgelöste Verbrauchs- und PV-Erzeugungsdaten, Speichergrösse, Lade- und Entladeleistung sowie Wirkungsgradannahmen. Eine stündliche Mittelung kann kurze Leistungsspitzen verdecken. Die Übungsfrage lautet deshalb, welche zusätzliche Datenauflösung für eine belastbare Bewertung sinnvoll wäre und wie sich eine Speicherentscheidung auf das Mess- und Schutzkonzept auswirken könnte.

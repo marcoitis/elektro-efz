@@ -1,0 +1,105 @@
+PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom.
+
+Die maximale PV-Spannung liegt häufig nicht am heissesten, sondern an einem kalten, hellen Tag. Für die Auslegung von Wechselrichter und DC-Komponenten musst Du die temperaturabhängige Leerlaufspannung verstehen.
+
+Serie erhöht Spannung, Parallel erhöht Strom.
+
+Bei baugleichen Modulen addieren sich in Serie die Spannungen; der Strom bleibt näherungsweise der Modulstrom. Bei parallel geschalteten Strings addieren sich die Ströme. In der Praxis sind Modultoleranzen, Temperatur- und Einstrahlungsunterschiede sowie Wechselrichtergrenzen zu berücksichtigen.
+
+Temperaturkoeffizient korrekt verwenden.
+
+Das Datenblatt gibt häufig eine relative Veränderung der Leerlaufspannung pro Kelvin an. Ein negativer Koeffizient bedeutet: Wenn die Zellentemperatur sinkt, steigt die Leerlaufspannung. Wichtig ist der tatsächliche Bezugspunkt des Datenblatts, meist 25 °C Zelltemperatur.
+
+Sollwert und Messwert unterscheiden.
+
+Die berechnete Erwartung ist nicht automatisch das Messergebnis. Messungen sind von Bestrahlungsstärke, Modultemperatur, Geräten und Sicherheit abhängig. Abweichungen werden untersucht, statt Grenzwerte aus einer Beispielrechnung als allgemeine Norm zu missverstehen.
+
+Rechenbeispiel oder Denkmodell.
+
+Beispiel: 12 Module mit Uoc(STC) = 41,2 V und Temperaturkoeffizient −0,28 %/K. Bei angenommener Zelltemperatur −10 °C ist ΔT = −35 K. Je Modul: 41,2 × [1 + (−0,0028 × −35)] = 45,24 V. String: 12 × 45,24 = 542,9 V. Das ist ein didaktisches Rechenbeispiel, keine normgerechte Gesamtbemessung.
+
+Praxisfall.
+
+Ein Wechselrichter erlaubt laut Datenblatt maximal 550 V DC. Reicht die eben berechnete 542,9-V-Schätzung als alleiniger Zulassungsnachweis?
+
+Musterlösung.
+
+Nein. Sicherheitsreserven, anzusetzende örtliche Extremtemperaturen, Modultoleranzen, Normvorgaben, maximal zulässige Systemspannungen sowie Herstelleranweisungen sind vollständig zu prüfen. Das knappe Ergebnis ist ein Warnsignal für eine fachkundige detaillierte Auslegung.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Ein Wechselrichter erlaubt laut Datenblatt maximal 550 V DC. Reicht die eben berechnete 542,9-V-Schätzung als alleiniger Zulassungsnachweis?
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Nein. Sicherheitsreserven, anzusetzende örtliche Extremtemperaturen, Modultoleranzen, Normvorgaben, maximal zulässige Systemspannungen sowie Herstelleranweisungen sind vollständig zu prüfen. Das knappe Ergebnis ist ein Warnsignal für eine fachkundige detaillierte Auslegung.
+
+Möglicher sicherer Übungsauftrag: Berechne mit einem fiktiven Moduldatenblatt zwei Varianten mit 10 beziehungsweise 14 Modulen und dokumentiere alle Annahmen.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was passiert bei Reihenschaltung gleicher Module mit Uoc? Die richtige Antwort lautet: Sie addiert sich. Warum? Die Leerlaufspannungen in Serie addieren sich.
+
+Frage 2: Was bewirkt bei negativem Koeffizienten eine niedrigere Zelltemperatur? Die richtige Antwort lautet: Uoc steigt. Warum? Bei negativem Temperaturkoeffizienten erhöht Kälte die Leerlaufspannung.
+
+Frage 3: Welche Zahl ergibt das Beispiel ungefähr? Die richtige Antwort lautet: 543 V. Warum? 12 × 41,2 × 1,098 = ca. 543 V.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Unterschied zwischen Voc, Vmp, Isc und Imp.
+Auf Moduldatenblättern stehen mehrere Spannungen und Ströme, die verschiedene Betriebszustände bezeichnen. Voc ist die Leerlaufspannung bei offenem Stromkreis. Vmp ist die Spannung am Punkt maximaler Leistung. Isc bezeichnet den Kurzschlussstrom, Imp den Strom im maximalen Leistungspunkt. Werden Voc und Imp miteinander multipliziert, entsteht keine sinnvolle Nennleistung. Für ein Modul mit Vmp 34 Volt und Imp 12,2 Ampere beträgt die MPP-Leistung näherungsweise 414,8 Watt. Liegt zugleich Voc bei 41 Volt, ist das kein Widerspruch, sondern eine andere Stelle der Kennlinie. Die Formeln dienen hier der Datenblattinterpretation. Messungen an produktiven PV-Strängen, insbesondere Leerlauf- und Kurzschlussmessungen, sind keine Heimübungen; sie setzen qualifiziertes Personal, geeignete Instrumente und sichere Prüfverfahren voraus.
+
+Fachkapitel 2: Serienverschaltung am konkreten Beispiel.
+Bei zwölf identischen Modulen in Reihe werden die Spannungen für einen vergleichbaren Betriebspunkt addiert. Mit Voc von 41 Volt je Modul ergibt sich unter den Datenblattbedingungen eine String-Leerlaufspannung von 492 Volt. Der Stringstrom bleibt idealisiert so gross wie der Strom eines einzelnen Moduls. Wird aus den zwölf Modulen ein String mit 13 Modulen, steigt Voc um weitere 41 Volt auf 533 Volt. Die einfache Addition liefert jedoch erst den Referenzwert. Eine fachgerechte Auslegung muss die mögliche kalte Zelltemperatur, die Toleranzen und die zulässigen Grenzen sämtlicher DC-Betriebsmittel einbeziehen. Bei unterschiedlichen Modultypen oder unterschiedlicher Einstrahlung wird die Annahme gleicher Strom-Kennlinien zusätzlich problematisch. Darum ist eine Reihenverschaltung stets mit den tatsächlichen Datenblättern zu prüfen.
+
+Fachkapitel 3: Parallelverschaltung und Rückstromfragen.
+Werden zwei gleichartige Strings parallelgeschaltet, liegt an beiden dieselbe Spannung an; die Ströme addieren sich im gemeinsamen Leiter. Zwei Strings mit je 12 Ampere MPP-Strom liefern idealisiert zusammen 24 Ampere am gemeinsamen MPP-Arbeitspunkt. Die Strombelastbarkeit der Leitungen, Stecksysteme und Eingänge muss zu den möglichen maximalen Strömen passen. Ein Auslegungsfehler entsteht, wenn man einfach die Modulnennleistung durch 230 Volt teilt und diesen Wert als DC-Strom verwendet. In parallelen Anordnungen gehören auch mögliche Rückströme bei Fehlern zur Systembetrachtung. Ob zusätzlicher Strangschutz erforderlich ist, hängt von Anzahl und Verschaltung der Strings sowie den zulässigen Bauteilbeanspruchungen ab. Ein konkreter Schutzentscheid setzt die einschlägigen Hersteller- und Normdaten voraus.
+
+Fachkapitel 4: Temperaturkoeffizient verstehen.
+Ein negativer Temperaturkoeffizient der Leerlaufspannung bedeutet: Je kälter die Zellen, desto höher die Leerlaufspannung. Der Referenzzustand vieler Datenblätter beträgt 25 Grad Celsius Zelltemperatur. Nehmen wir beispielhaft minus 0,28 Prozent pro Kelvin. Fällt die Temperatur von 25 auf minus 15 Grad, beträgt die Differenz minus 40 Kelvin. Der relative Spannungsanstieg ist näherungsweise 11,2 Prozent. Das Modul mit 41 Volt Voc hätte damit rund 45,6 Volt. Für zwölf in Reihe geschaltete Module ergibt das circa 547 Volt. Diese lineare Rechnung ist ein didaktisches Modell und muss für eine reale Planung mit Herstellerangaben und anzusetzenden Temperaturgrenzen plausibilisiert werden. Entscheidend sind Vorzeichen, Einheit und die richtige Temperaturdifferenz; Celsius-Differenzen entsprechen Kelvin-Differenzen.
+
+Fachkapitel 5: Kaltgrenze und Gerätefestigkeit.
+Die kalte Leerlaufspannung wird nicht nur mit dem Eingang des Wechselrichters verglichen. Auch Steckverbinder, Kabel, Trenneinrichtungen, Schutzgeräte, Messgeräte und weitere DC-Komponenten müssen für die möglichen Betriebsbedingungen ausgelegt sein. Ein Wechselrichter, dessen maximal zulässige DC-Spannung niedriger als die plausible kalte Stringspannung ist, darf nicht mit dieser Auslegung als geeignet betrachtet werden. Der MPP-Arbeitspunkt liegt unterhalb der Leerlaufspannung, kann aber durch Temperatur und Einstrahlung ebenfalls wandern. Im Beispiel ist der zulässige Arbeitsbereich des MPP-Reglers deshalb zusätzlich zur absoluten Spannungsobergrenze zu prüfen. Eine Aussage wie „Im Sommer läuft die Anlage problemlos“ ist kein Ersatz für einen winterlichen Auslegungsnachweis. Die relevanten Grenzwerte müssen aus der aktuellen Gerätedokumentation entnommen werden.
+
+Fachkapitel 6: Warmgrenze des MPPT-Bereichs.
+Bei hohen Zelltemperaturen sinkt die MPP-Spannung in vielen Modultypen deutlich. Ein String kann daher im Sommer mit seiner Arbeitsspannung unter eine für den Wechselrichter notwendige MPPT-Untergrenze geraten, obwohl die kalte Leerlaufspannung zulässig ist. Angenommen, Vmp beträgt bei 25 Grad 34 Volt und der relative Koeffizient minus 0,32 Prozent pro Kelvin. Bei 65 Grad Zelle ergibt das näherungsweise 34 mal (1 minus 0,0032 mal 40) gleich 29,65 Volt je Modul. Zwölf Module liefern rund 356 Volt. Ist die MPP-Untergrenze 360 Volt, wäre diese Auslegung im Modell kritisch. Die konkrete Geräteprüfung berücksichtigt Startspannung, Arbeitsfenster und Leistungsderating getrennt. Die beiden Temperaturgrenzen dürfen nicht mit derselben Datenblattgrösse geprüft werden.
+
+Fachkapitel 7: Einstrahlung und Strom als variable Grössen.
+PV-Strom reagiert wesentlich stärker auf Einstrahlungsänderungen als die Leerlaufspannung. Wenn die Einstrahlung sich bei ansonsten vergleichbaren Bedingungen halbiert, ist ein näherungsweise proportionaler Rückgang des Photostroms zu erwarten; die tatsächliche Kennlinie hängt aber von Zelltemperatur und Modultechnik ab. Ein gemessener Stringstrom von sechs statt zwölf Ampere ist deshalb allein kein Beweis für einen Leitungsbruch, wenn eine Wolke oder eine grosse Verschattung vorliegt. Für einen Vergleich mehrerer Strings braucht es möglichst ähnliche Einstrahlungs- und Temperaturbedingungen. Auch die Ausrichtung der Felder und die Position am Dach müssen berücksichtigt werden. Wird an verschiedenen Zeitpunkten gemessen, sind zusätzliche Unsicherheiten zu dokumentieren, sonst erzeugt die Auswertung Scheingenauigkeit.
+
+Fachkapitel 8: Ungleiche Module und Bypassverhalten.
+Werden Module mit unterschiedlichen Strom-Kennlinien in Serie betrieben, begrenzt typischerweise das schwächere Glied den Stringstrom, bis Bypassdioden in bestimmten Betriebszuständen einen Teil der Zellen überbrücken. Dadurch verändert sich die Kennlinie, und der MPP kann mehrere lokale Maxima besitzen. Eine einfache Multiplikation von Modulnennleistungen sagt über das tatsächliche Verhalten bei Teilverschattung wenig aus. Ein typischer Diagnosefall ist ein verschatteter Modulteil, der die Kurve stufenförmig beeinflusst. Für die Dokumentation sind Modulzuordnung, Verschattungsannahmen und die tatsächlichen MPPT-Gruppen hilfreich. In der Lernsimulation lässt sich untersuchen, wie sich eine einzelne schwache Teilgruppe auf Gesamtleistung und Arbeitspunkt auswirkt. Das ist eine sichere Alternative zu Experimenten an aktiven Hochvolt-Strings.
+
+Fall 1: Fall 1 – Winterspannung.
+Ein Modul besitzt Voc von 44 Volt bei 25 Grad und einen Temperaturkoeffizienten von minus 0,30 Prozent pro Kelvin. Bei minus 10 Grad ergibt sich ein Anstieg von 10,5 Prozent, also ungefähr 48,62 Volt. Vierzehn Module in Serie ergeben circa 681 Volt. Die Aufgabe lautet: Vergleiche diesen Wert mit einer angenommenen Gerätegrenze von 650 Volt. Die technische Schlussfolgerung ist, dass die Variante bereits im vereinfachten Modell ungeeignet wäre.
+
+Fall 2: Fall 2 – Sommer-MPP.
+Ein Modul hat Vmp 35 Volt und einen Temperaturkoeffizienten von minus 0,32 Prozent pro Kelvin. Bei 60 Grad Zelltemperatur beträgt die angenäherte Spannung 31,08 Volt. Ein String mit elf Modulen erreicht rund 342 Volt. Liegt die MPP-Untergrenze des angenommenen Wechselrichters bei 350 Volt, muss die Auslegung neu bewertet werden. Das gilt unabhängig davon, ob die kalte Leerlaufspannung ausreichend niedrig bleibt.
+
+Fall 3: Fall 3 – Parallelstrom.
+Zwei gleichartige Strings liefern unter gleichen Bedingungen je 11,8 Ampere im Arbeitspunkt. Der gemeinsame Strom beträgt idealisiert 23,6 Ampere. Ein dritter String würde ihn auf 35,4 Ampere erhöhen. Wichtiger als die reine Addition ist die anschliessende Frage, ob Anschlussklemmen, Leitungen, Schutzgeräte und mögliche Rückstrombedingungen zur geplanten Verschaltung passen.
+
+Fall 4: Fall 4 – Falscher Datenblattwert.
+Ein Lernender verwendet den MPP-Strom für die Ermittlung der absoluten maximalen Strombeanspruchung. Das ist unvollständig, weil zulässige Auslegungsströme auf den relevanten Datenblatt- und Normannahmen beruhen können. Die Korrektur besteht darin, die verwendete Stromgrösse zu beschriften, den Zweck der Rechnung zu nennen und die konkrete Auswahlbedingung zu recherchieren. Ein einzelner Stromwert ist keine vollständige Bauteilfreigabe.
+
+Fall 5: Fall 5 – Kennlinie und Leistung.
+Ein PV-Modul erreicht seinen maximalen Arbeitspunkt bei 33 Volt und 12 Ampere. Die elektrische MPP-Leistung beträgt 396 Watt. Wenn die Leerlaufspannung 40 Volt beträgt, folgt daraus nicht, dass 40 mal 12 gleich 480 Watt verfügbar wären. Der Strom von zwölf Ampere gehört zu einem anderen Spannungspunkt. Zeichne die Kennlinie schematisch und markiere beide Betriebspunkte.
+
+Fall 6: Fall 6 – Temperaturvorzeichen.
+Ein Techniker setzt bei minus 15 Grad versehentlich den Faktor 0,888 statt 1,112 ein, obwohl der Voc-Koeffizient negativ ist. Dadurch unterschätzt er die mögliche maximale Spannung. Der Fehler lässt sich ohne Taschenrechner erkennen: Kühleres Silizium führt hier gemäss Datenblatt zu höherer Leerlaufspannung, also muss der Faktor bei der Kaltrechnung grösser eins sein. Eine solche Plausibilitätsprüfung gehört zum Rechenweg.
+
+Fall 7: Fall 7 – Verschattung.
+Zwei baugleiche Strings unterscheiden sich in der Leistung, und einer liegt teilweise im Schatten eines Kamins. Die Spannungen sind ähnlich, aber die Ströme weichen ab. Das kann aus dem Verschattungszustand entstehen und ist noch kein Defektnachweis. Eine fachliche Untersuchung dokumentiert Einstrahlung, Zeitpunkt, Temperatur, Stringzuordnung und Vergleichsbedingungen. Sie trennt sicher die Beobachtung von einer vermuteten Ursache.
+
+Fall 8: Fall 8 – Auslegungsprotokoll.
+Schreibe eine Tabelle mit Modul-ID, Voc bei Referenz, Temperaturkoeffizient, angenommener Kaltgrenze, Modulanzahl und berechneter Stringspannung. Ergänze den maximal zulässigen Geräteeingangswert und die geprüfte MPP-Untergrenze. Als Qualitätscheck muss die Tabelle einen nachrechenbaren Rechenweg sowie eine klare Aussage enthalten, für welche Betriebsannahmen die Variante beurteilt wurde.
+
+Vertiefung 9: Zusatzfall – maximale Spannung und MPPT-Fenster.
+Für ein angenommenes Moduldatenblatt sind zwei unabhängige Prüfungen erforderlich: Der String darf unter kalten Bedingungen die maximal zulässige Eingangsspannung der Komponenten nicht überschreiten, und sein MPP-Arbeitspunkt soll im vorgesehenen Betriebsfenster des Wechselrichters liegen. Eine Stringlänge kann die eine Bedingung erfüllen und an der anderen scheitern. Ein Beispiel mit elf Modulen zeigt bei kalter Voc-Betrachtung ausreichende Reserve, während die warme Vmp unter die vorgesehene MPP-Untergrenze rutschen kann. Eine längere Verschaltung könnte das zweite Problem reduzieren, aber die kalte Maximalspannung erhöhen. Damit wird deutlich, warum Auslegung kein einmaliges Multiplizieren der Modulnennspannung ist, sondern ein Abwägen mehrerer gleichzeitig geltender Geräte- und Temperaturbedingungen.
+
+Vertiefung 10: Zusatzfall – Dokumentation der Temperaturannahme.
+Ein Rechner liefert 695 Volt kalte String-Leerlaufspannung, ohne anzugeben, welche minimale Zelltemperatur angenommen wurde. Das Resultat ist nicht ausreichend nachvollziehbar. Der Auslegungsbericht muss mindestens Modulmodell, Voc bei Referenz, Temperaturkoeffizient, Referenztemperatur, Temperaturannahme, Modulzahl und berechneten Spannungsbereich ausweisen. Zusätzlich wird die Vergleichsgrösse des konkret vorgesehenen Geräts angegeben. Ausserdem ist zu vermerken, ob sich die Annahmen auf die technische Standortplanung beziehen oder nur auf ein Unterrichtsbeispiel. Bei einer späteren Moduländerung lässt sich dann beurteilen, welcher Rechenschritt erneut durchzuführen ist. Diese Dokumentationsdisziplin verhindert, dass ein an sich korrekter Zahlenwert ausserhalb seines ursprünglichen Geltungsbereichs verwendet wird.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

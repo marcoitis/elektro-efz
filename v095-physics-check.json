@@ -1,0 +1,270 @@
+{
+  "scope": "Selected ideal-physics equations only, NO normative review or safe-use certificate",
+  "chapter_count": 6,
+  "checks": [
+    {
+      "name": "1.09-A E: 10V/5mm",
+      "calculated": 2000.0,
+      "expected": 2000,
+      "pass": true
+    },
+    {
+      "name": "1.09-A charge 470uF 12V",
+      "calculated": 0.00564,
+      "expected": 0.00564,
+      "pass": true
+    },
+    {
+      "name": "1.09-A energy 470uF 12V",
+      "calculated": 0.03384,
+      "expected": 0.03384,
+      "pass": true
+    },
+    {
+      "name": "1.09-A energy 1000uF 10V",
+      "calculated": 0.05,
+      "expected": 0.05,
+      "pass": true
+    },
+    {
+      "name": "1.09-A series 100uF 100uF",
+      "calculated": 50.0,
+      "expected": 50,
+      "pass": true
+    },
+    {
+      "name": "1.09-A parallel 100uF 100uF",
+      "calculated": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "name": "1.09-A 5V 100uF charge",
+      "calculated": 0.0005,
+      "expected": 0.0005,
+      "pass": true
+    },
+    {
+      "name": "1.09-B Faraday flux",
+      "calculated": 10.0,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil 0.2H, current slope",
+      "calculated": 10.0,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil energy",
+      "calculated": 0.0125,
+      "expected": 0.0125,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil energy at 1A",
+      "calculated": 0.05,
+      "expected": 0.05,
+      "pass": true
+    },
+    {
+      "name": "1.09-B tau 120mH 24Ohm",
+      "calculated": 0.005,
+      "expected": 0.005,
+      "pass": true
+    },
+    {
+      "name": "1.09-B final RL current",
+      "calculated": 0.5,
+      "expected": 0.5,
+      "pass": true
+    },
+    {
+      "name": "1.09-B RL current after tau",
+      "calculated": 0.3160603,
+      "expected": 0.3160603,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil voltage 80mH, 0.4A/4ms",
+      "calculated": 8.0,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil energy initial",
+      "calculated": 0.0016,
+      "expected": 0.0016,
+      "pass": true
+    },
+    {
+      "name": "1.09-B coil energy final",
+      "calculated": 0.0144,
+      "expected": 0.0144,
+      "pass": true
+    },
+    {
+      "name": "1.09-C tau",
+      "calculated": 1.0,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "1.09-C charge after 1s",
+      "calculated": 7.5854467,
+      "expected": 7.585447,
+      "pass": true
+    },
+    {
+      "name": "1.09-C charge after 3s",
+      "calculated": 11.4025552,
+      "expected": 11.402555,
+      "pass": true
+    },
+    {
+      "name": "1.09-C discharge after 1s",
+      "calculated": 4.4145533,
+      "expected": 4.414553,
+      "pass": true
+    },
+    {
+      "name": "1.09-C RC cutoff 10k 100nF",
+      "calculated": 159.1549431,
+      "expected": 159.154943,
+      "pass": true
+    },
+    {
+      "name": "1.09-C 75% threshold time",
+      "calculated": 1.3862944,
+      "expected": 1.386294,
+      "pass": true
+    },
+    {
+      "name": "1.09-C tau 4k7 220uF",
+      "calculated": 1.034,
+      "expected": 1.034,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 50Hz period",
+      "calculated": 20.0,
+      "expected": 20,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 200Hz period",
+      "calculated": 5.0,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 50Hz omega",
+      "calculated": 314.1592654,
+      "expected": 314.159265,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 2.5ms sine",
+      "calculated": 7.0710678,
+      "expected": 7.071068,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 90degree at 50Hz",
+      "calculated": 5.0,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "name": "1.10-A 10Vpeak to peak",
+      "calculated": 20,
+      "expected": 20,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 100Vpeak rms",
+      "calculated": 70.7106781,
+      "expected": 70.710678,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 230Vrms peak",
+      "calculated": 325.2691193,
+      "expected": 325.269119,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 10Vpeak 20Ohm average power",
+      "calculated": 2.5,
+      "expected": 2.5,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 12Vrms 24Ohm power",
+      "calculated": 6.0,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 5V pulse at 25% rms",
+      "calculated": 2.5,
+      "expected": 2.5,
+      "pass": true
+    },
+    {
+      "name": "1.10-B DC+AC 5V+2Vpeak RMS",
+      "calculated": 5.1961524,
+      "expected": 5.196152422706632,
+      "pass": true
+    },
+    {
+      "name": "1.10-B 4 discrete sample RMS",
+      "calculated": 2.8284271,
+      "expected": 2.8284271247461903,
+      "pass": true
+    },
+    {
+      "name": "1.10-C daily energy",
+      "calculated": 114,
+      "expected": 114,
+      "pass": true
+    },
+    {
+      "name": "1.10-C average daily kW",
+      "calculated": 4.75,
+      "expected": 4.75,
+      "pass": true
+    },
+    {
+      "name": "1.10-C 3minutes at 12kW",
+      "calculated": 0.6,
+      "expected": 0.6,
+      "pass": true
+    },
+    {
+      "name": "1.10-C 90% times 80%",
+      "calculated": 0.72,
+      "expected": 0.72,
+      "pass": true
+    },
+    {
+      "name": "1.10-C 2kW output at 80% input",
+      "calculated": 2.5,
+      "expected": 2.5,
+      "pass": true
+    },
+    {
+      "name": "1.10-C illustrative cost",
+      "calculated": 22.8,
+      "expected": 22.8,
+      "pass": true
+    },
+    {
+      "name": "1.10-C storage supplied for 2kWh delivered",
+      "calculated": 2.5,
+      "expected": 2.5,
+      "pass": true
+    }
+  ]
+}

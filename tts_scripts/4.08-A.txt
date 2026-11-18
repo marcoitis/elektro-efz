@@ -1,1 +1,99 @@
-Lektion 4.08-A: PV-Dossier: Modul- und Stringdaten überprüfen. Eine PV-Dokumentation beginnt mit nachvollziehbaren Modul- und Wechselrichterdaten. Für die Stringplanung müssen Spannungsfenster, maximale DC-Spannung, Ströme und Temperaturbedingungen geprüft werden. Die Beurteilung ist anhand der Gerätespezifikationen und der einschlägigen N I N-Anforderungen durchzuführen. Ein plausibler Leistungswert allein weist keine sichere Auslegung nach. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein fiktiver String enthält zehn Module mit 42 Volt Leerlaufspannung unter Referenzbedingungen. Das ergibt zunächst 420 Volt. Ergänze den fehlenden Temperaturnachweis und die zulässige Gerätegrenze als offene Prüfpunkte. Entscheide nicht anhand der 420 Volt allein über die Zulässigkeit. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: PV-Nennwerte müssen auf ungünstige Betriebsbedingungen umgerechnet werden. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: PV-DC-Stringdaten und temperaturbedingte Maximalspannung; Schutz gegen elektrischen Schlag und thermische Risiken. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N 7.12; E S T I 220; SN EN 62446-1; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.08-A: PV-Dossier: Modul- und Stringdaten überprüfen. Eine PV-Dokumentation beginnt mit nachvollziehbaren Modul- und Wechselrichterdaten. Für die Stringplanung müssen Spannungsfenster, maximale DC-Spannung, Ströme und Temperaturbedingungen geprüft werden. Die Beurteilung ist anhand der Gerätespezifikationen und der einschlägigen NIN-Anforderungen durchzuführen. Ein plausibler Leistungswert allein weist keine sichere Auslegung nach. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein fiktiver String enthält zehn Module mit 42 Volt Leerlaufspannung unter Referenzbedingungen. Das ergibt zunächst 420 Volt. Ergänze den fehlenden Temperaturnachweis und die zulässige Gerätegrenze als offene Prüfpunkte. Entscheide nicht anhand der 420 Volt allein über die Zulässigkeit. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: PV-Nennwerte müssen auf ungünstige Betriebsbedingungen umgerechnet werden. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: PV-DC-Stringdaten und temperaturbedingte Maximalspannung; Schutz gegen elektrischen Schlag und thermische Risiken. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN 7.12; ESTI 220; SN EN 62446-1; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: PV-DC-Stringdaten und temperaturbedingte Maximalspannung; Schutz gegen elektrischen Schlag und thermische Risiken.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet PV-Generatordaten prüfen. Ein fiktives Modulfeld hat zehn Module à 390 Wp.
+
+Schritt 1. Nennleistung der Module multiplizieren: 10 · 390 Wp.
+
+Schritt 2. Ergebnis: 3 900 Wp = 3,9 kWp.
+
+Schritt 3. Dies ist keine Aussage zu maximaler Stringspannung oder zulässiger Verschaltung.
+
+Schritt 4. Für eine konkrete Prüfung werden Herstellerdaten und gültige Normen benötigt.
+
+Kontrolle des Ergebnisses: 3,9 kWp DC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Anonymisiertes, vorhandenes PV-Projekt nur auf Papier auditieren; keine Änderungen an Bestandsanlage. Halte zusätzlich die Antwort auf die Frage «Was fehlt bei einer Stringprüfung mit reiner STC-Spannung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was fehlt bei einer Stringprüfung mit reiner STC-Spannung? Die richtige Antwort lautet: Temperaturabhängige Maximalspannung. Warum? PV-Nennwerte müssen auf ungünstige Betriebsbedingungen umgerechnet werden.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: PV-Nennwerte müssen auf ungünstige Betriebsbedingungen umgerechnet werden.. Warum? Der Merksatz lautet: PV-Nennwerte müssen auf ungünstige Betriebsbedingungen umgerechnet werden.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Eine Stringliste braucht eine klare Identität.
+Im PV-Dossier steht nicht einfach „24 Module auf dem Dach“. Entscheidend sind Hersteller, Typ, elektrische Kenndaten, Modulanzahl pro String, Verschaltung, Orientierung, Wechselrichter-Eingang und Messpunkt. Jede Stringbezeichnung muss auf Dachplan, Schema und Prüfdokument wiederzufinden sein. Werden zwei Dachflächen mit unterschiedlicher Ausrichtung zusammengefasst, müssen auch die Auswirkungen auf Strom und Ertrag beurteilt werden. Ein typisches Tabellenblatt enthält String-ID, Modulmodell, Serienanzahl, Parallelschaltungen, berechnete Leerlaufspannung für die relevante tiefe Temperatur, MPP-Spannungsbereich und die dokumentierten Prüfwerte. Ohne diese Zuordnung kann später niemand sicher sagen, welcher Dachabschnitt hinter einer Messung oder einer Störungsmeldung steht.
+
+Fachkapitel 2: Leerlaufspannung bei niedriger Temperatur.
+Die Modul-Leerlaufspannung steigt bei üblichen kristallinen Siliziummodulen, wenn die Temperatur sinkt. Ein fiktives Datenblatt nennt 42 Volt Leerlaufspannung bei 25 Grad Celsius und einen Temperaturkoeffizienten von minus 0,28 Prozent pro Kelvin. Für minus zehn Grad beträgt die Temperaturänderung minus 35 Kelvin. Der relative Anstieg ist deshalb 9,8 Prozent. Die modellhafte Leerlaufspannung wird zu 42 mal 1,098 gleich 46,116 Volt pro Modul. Bei zehn in Serie geschalteten Modulen sind das rund 461 Volt. Diese Rechnung veranschaulicht die Richtung des Effekts; verbindliche Auslegungen verlangen tatsächliche Datenblattwerte, zulässige Toleranzen, Mindesttemperaturen und die Grenzwerte sämtlicher betroffener Geräte.
+
+Fachkapitel 3: MPP-Spannung ist nicht Leerlaufspannung.
+Bei der Arbeit am Maximum Power Point ist die Modulspannung typischerweise geringer als die Leerlaufspannung. Für einen Wechselrichter interessiert daher nicht nur die maximale DC-Spannung bei Kälte, sondern auch, ob die MPP-Spannung unter verschiedenen Betriebsbedingungen im zulässigen Fenster liegt. Ein String kann die maximale Eingangsspannung respektieren und dennoch bei hohen Temperaturen zu wenig Betriebsspannung liefern. In der Übung liegen zehn Module mit je 33 Volt MPP-Spannung bei Referenzbedingungen in Serie. Das ergibt zunächst 330 Volt, sagt ohne Temperatur- und Gerätespezifikationen aber noch nichts Endgültiges. Die sichere Auslegung untersucht beide Seiten des Betriebsbereichs getrennt.
+
+Fachkapitel 4: Serien- und Parallelschaltung unterscheiden.
+In einer idealisierten Serienschaltung addieren sich die Spannungen, während der Strom durch alle Module gleich fliesst. In einer Parallelschaltung werden bei vergleichbaren Spannungen die Ströme addiert. Zwei identische Strings mit je zehn Modulen liefern nicht automatisch die doppelte Spannung, sondern ungefähr den doppelten Strom am gemeinsamen Anschluss. Ein falscher Eintrag von Strom und Spannung kann die Auswahl von DC-Eingang, Leitungen oder Schutzgeräten verfälschen. Für ein einfaches Zahlenmodell haben zwei parallele Strings je 10 Ampere Betriebsstrom und etwa 330 Volt MPP-Spannung; gemeinsam sind ungefähr 20 Ampere bei 330 Volt zu erwarten, also 6,6 Kilowatt vor weiteren Verlusten.
+
+Fachkapitel 5: Stromgrenzen und Kurzschlussdaten.
+Zur Stringprüfung gehören nicht nur die MPP-Ströme, sondern auch die Kurzschlussstromdaten und deren für die Planung relevante Anpassungen. Der Anschluss eines zweiten parallelen Strings verändert den möglichen Rückstrom in einem Fehlerfall. Der zulässige Eingangsstrom des Wechselrichters, die Auslegung allfälliger Schutzeinrichtungen und die Belastbarkeit der Komponenten müssen daher gemeinsam beurteilt werden. Ein Lernender sollte die Kürzel Isc und Impp unterscheiden und niemals automatisch die kleinere Betriebsstromangabe für alle Schutzbetrachtungen verwenden. Die genaue Schutzkoordination ist ein Fall für die aktuelle Norm und die Herstellerdokumentation, nicht für eine pauschale Faustregel.
+
+Fachkapitel 6: Verschattung und verschiedene Dachflächen.
+Verschattung reduziert nicht nur den Ertrag, sondern kann die Kennlinie eines Strings verändern. Ein einzelnes verschattetes Modul beeinflusst in Serie den Strom des gesamten Strompfads; Bypassdioden verändern die resultierende Kennlinie. Unterschiedliche Ausrichtungen oder Modultypen an einem Eingang sollten daher nicht unkritisch kombiniert werden. Vergleiche zwei hypothetische Dachflächen: Ost hat morgens hohe Einstrahlung, West am Nachmittag. Ein Tagesmittel von beiden verdeckt, wie unterschiedlich die MPP-Betriebsbedingungen zeitweise sind. Die Planung betrachtet deshalb Stringzusammensetzung, Ausrichtung und den Aufbau der Wechselrichter-Tracker. Ein guter Dokumentationsplan hält diese Daten so fest, dass auch spätere Erweiterungen möglich sind.
+
+Fachkapitel 7: Vom Datenblatt zur plausiblen Modulauslegung.
+Übertrage die Kenndaten nicht durch blosses Abschreiben. Prüfe, ob Strom und Spannung aus derselben Datenblattzeile stammen und unter welchen Testbedingungen sie angegeben wurden. Achte auf STC, NOCT beziehungsweise NMOT, Temperaturkoeffizienten und die Bezugstemperatur. Wenn zwei Datenblätter unterschiedliche Modellvarianten mit nahezu gleicher Bezeichnung enthalten, kann eine Verwechslung die Berechnung unbrauchbar machen. Lege deshalb Typnummer und Dokumentrevision ab. Im Fachgespräch solltest Du erklären können, welche Zahl aus dem Datenblatt stammt, welche Berechnung Du daraus abgeleitet hast und welche Umgebungsannahmen Du zusätzlich getroffen hast.
+
+Fachkapitel 8: Dossierprüfung als Vier-Augen-Abgleich.
+Die Revisionsunterlagen sollten den realen Anlagenaufbau abbilden. Vergleiche Dachbelegungsplan, Stringliste, DC-Schema, Wechselrichterdaten, Prüfprotokoll und Beschriftung. Findest Du auf dem Dachplan elf Module, in der Liste aber zehn, ist die Abweichung zu klären und die Rechnung gegebenenfalls zu aktualisieren. Das Dossier ist erst brauchbar, wenn es in sich widerspruchsfrei ist. Bei der fachlichen Erstprüfung müssen zudem die vorgeschriebenen elektrischen Nachweise ausgeführt werden. Das Unterrichtsmodell bleibt bei Papierprüfung und Simulation; Arbeiten an PV-DC-Leitungen sind wegen anliegender Spannungen auch bei abgeschaltetem Wechselrichter besonders risikoreich.
+
+Fachkapitel 9: Änderungen und Rückverfolgbarkeit.
+Ein beschädigtes Modul wird durch ein anderes Fabrikat ersetzt. Die Nennleistung allein beweist nicht, dass die Kombination geeignet ist. Es sind elektrische Kennwerte, Steckerkompatibilität, mechanische Abmessungen, Herstellerfreigaben und Stringauslegung zu betrachten. Die neue Modulbezeichnung gehört in Revisionsplan und Dossier. Ohne Änderungsvermerk könnte eine spätere Kontrolle mit falschen Daten rechnen. Dokumentiere deshalb ersetzte Komponenten, Datum, Verantwortlichkeit und nötige erneute Prüfungen. Ein sauberer PV-Datensatz unterstützt langfristig Betrieb, Fehlersuche und sichere Erweiterung.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Spannung bei Kälte.
+Voc bei 25 Grad: 41 Volt, Koeffizient minus 0,30 Prozent pro Kelvin, angenommene Zelltemperatur minus fünf Grad. Temperaturänderung minus 30 Kelvin, Spannungsanstieg neun Prozent. Modellhaft ergibt sich 44,69 Volt je Modul; für zwölf in Reihe etwa 536,3 Volt. Geräte- und Normengrenzen bleiben separat zu prüfen.
+
+Aufgabe 2: Zwei parallele Strings.
+Jeder String hat modellhaft 32 Volt mal zehn Module gleich 320 Volt MPP-Spannung und 9 Ampere Strom. Gemeinsam: rund 320 Volt und 18 Ampere, also 5,76 Kilowatt vor Verlusten. Nicht 640 Volt annehmen.
+
+Aufgabe 3: Datenblattverwechslung.
+Ein Modul besitzt 47 Volt Voc, ein ähnliches Modell 44 Volt. Bei zwölf Modulen beträgt die Differenz 36 Volt allein unter Referenzbedingungen. Lösung: Die exakte Typnummer, Stückzahl und Temperaturkorrektur sind für die reale Berechnung notwendig.
+
+Aufgabe 4: Dachplan gegen Stringliste.
+Im Plan sind je String 11 Module gezeichnet, im Protokoll 10. Lösung: Die Stringidentität und real verbaute Stückzahl müssen fachgerecht geklärt werden. Der Widerspruch verhindert eine belastbare Papierfreigabe.
+
+Aufgabe 5: MPP-Fenster.
+Die berechnete Referenz-MPP-Spannung beträgt 270 Volt. Darf der Wechselrichter verwendet werden? Lösung: Ohne seine aktuelle MPP-Unter- und Obergrenze, die Temperaturbetrachtung und die Eingangsparameter ist keine finale Aussage möglich.
+
+Aufgabe 6: Modultausch.
+Ein 405-Watt-Modul soll durch ein 420-Watt-Modul ersetzt werden. Lösung: Leistung allein reicht nicht. Voc, Vmpp, Isc, Impp, zulässiger Anschluss, mechanischer Einbau, Steckertyp und Revisionsunterlagen müssen geprüft werden.
+
+Vertiefende Fallanalyse 1: Temperaturkorrigierte Maximalspannung.
+Setze eine Modul-Leerlaufspannung von 43 Volt bei 25 Grad Celsius und einen Temperaturkoeffizienten von minus 0,29 Prozent je Kelvin an. Die angenommene minimale Zelltemperatur ist minus 15 Grad, die Änderung beträgt also minus 40 Kelvin. Daraus ergibt sich ein Spannungsanstieg von 11,6 Prozent und modellhaft 43 mal 1,116 gleich 47,988 Volt. Bei 13 Modulen in Serie wären das rund 623,8 Volt. Diskutiere, welche Daten zu einem echten Auslegungsentscheid noch fehlen: reale Standorttemperatur, Hersteller-Toleranzen, höchstzulässige DC-Spannung der kompletten Komponenten und die einschlägigen Anforderungen.
+
+Vertiefende Fallanalyse 2: MPP bei hoher Zelltemperatur.
+Ein String besitzt bei Referenzbedingungen zehn Module mit je 34 Volt MPP-Spannung. Die Zelltemperatur steigt an einem sonnigen Tag deutlich über 25 Grad. Die MPP-Spannung fällt bei üblichen kristallinen Modulen mit steigender Temperatur. Für die Berechnung braucht man den passenden Herstellerkoeffizienten und den relevanten Temperaturfall. Stelle im Lernbericht deshalb die 340 Volt Referenz-MPP-Spannung neben einen noch zu berechnenden Warmwert. Damit wird sichtbar, warum ein Wechselrichter mit genügender maximaler Eingangsspannung dennoch wegen zu geringer Betriebsspannung ungeeignet sein könnte.
+
+Vertiefende Fallanalyse 3: Parallelstrings und Stromgrenzen.
+Zwei parallele Strings liefern unter gleichen Modellbedingungen je 9,5 Ampere bei einer MPP-Spannung von 310 Volt. Zusammen sind es ungefähr 19 Ampere bei derselben Spannung, also 5,89 Kilowatt. Die Leerlaufspannung wird durch die Parallelschaltung nicht verdoppelt. Erkläre nun, warum für den Inverter-Eingang nicht allein die Nennleistung der PV-Anlage zählt, sondern sowohl zulässiger Eingangsstrom als auch mögliche Kurzschlussströme und Rückströme betrachtet werden müssen. Die reale Auswahl erfolgt nach Datenblatt und normativen Voraussetzungen.
+
+Vertiefende Fallanalyse 4: Dokumentationsabgleich als Fehlerentdeckung.
+Eine Stringliste nennt zwölf Module des Typs A, während die Lieferliste zehn Stück des Typs A und zwei Stück des Typs B enthält. Es ist nicht zulässig, den String einfach mit den bisherigen Daten weiterzurechnen. Die physisch installierten Typen müssen geklärt und auf elektrische sowie mechanische Kompatibilität beurteilt werden. Die Lösung ist eine nachvollziehbare Änderung mit Datum, betroffener String-ID, aktualisiertem Datenblatt und gegebenenfalls neuer Berechnung oder Prüfung. Durch diesen Dokumentenabgleich wird ein potenziell sicherheitsrelevanter Unterschied erkannt, bevor er als vermeintlich harmloser Schreibfehler behandelt wird.
+
+Mündliche Abschlussaufgabe und Transfer.
+Für die abschliessende Plausibilitätskontrolle bekommst Du drei verschiedene Zahlen: 5,2 Kilowatt Modulleistung, 480 Volt rechnerische Leerlaufspannung bei einer angenommenen Temperatur und 12 Ampere maximalen Eingangsstrom eines Wechselrichters. Diese Angaben lassen sich nicht beliebig zu einem Zulässigkeitsurteil kombinieren. Prüfe zuerst, welche Strom- und Spannungspunkte derselben Betriebssituation entstammen. Die 5,2 Kilowatt sind eine Leistungsangabe, die 480 Volt ein temperaturabhängiger Stringwert und die 12 Ampere ein Gerätegrenzwert. Für die korrekte Geräteauswahl brauchst Du die tatsächliche Stringverschaltung, Betriebsströme, Kurzschlussstrombedingungen, MPP-Bereich und Herstellerdaten. Dokumentiere die offenen Fragen im Auslegungsblatt und erkläre, warum die Anlage nicht anhand einer einzigen schönen Kennzahl freigegeben werden darf.

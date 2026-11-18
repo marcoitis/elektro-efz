@@ -1,1 +1,110 @@
-Lektion 3.12-C: Projektprüfung und Sicherheits-Fachgespräch. Ein Systemprojekt wird erst überzeugend, wenn eine andere Fachperson Annahmen und Entscheidungen kritisch nachvollziehen kann. Ein Review prüft Plausibilität, Schutzkonzept, Kennzeichnung, Dokumentenstand und Zuständigkeiten. Sicherheitsfragen haben Vorrang vor Kostenoptimierung. Im Fachgespräch solltest Du jeden Teil des Schemas in einfachen, präzisen Worten erläutern können. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Führe ein simuliertes Fachgespräch mit fünfzehn Fragen durch: fünf zu Schutz und Normen, fünf zu PV und Netz, fünf zu Dokumentation und Kommunikation. Notiere unbeantwortete Fragen als Lernlücken. Reale Netzarbeiten werden ausdrücklich nicht ausgeführt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein Review soll Fehler finden, nicht eine fertige Lösung bestätigen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kostenschätzung/Materialliste; Fachgespräch mit 15 Fragen und Sicherheitsreview. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teile 4–7; N I V; E S T I 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.12-C: Projektprüfung und Sicherheits-Fachgespräch. Ein Systemprojekt wird erst überzeugend, wenn eine andere Fachperson Annahmen und Entscheidungen kritisch nachvollziehen kann. Ein Review prüft Plausibilität, Schutzkonzept, Kennzeichnung, Dokumentenstand und Zuständigkeiten. Sicherheitsfragen haben Vorrang vor Kostenoptimierung. Im Fachgespräch solltest Du jeden Teil des Schemas in einfachen, präzisen Worten erläutern können. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Führe ein simuliertes Fachgespräch mit fünfzehn Fragen durch: fünf zu Schutz und Normen, fünf zu PV und Netz, fünf zu Dokumentation und Kommunikation. Notiere unbeantwortete Fragen als Lernlücken. Reale Netzarbeiten werden ausdrücklich nicht ausgeführt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein Review soll Fehler finden, nicht eine fertige Lösung bestätigen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kostenschätzung/Materialliste; Fachgespräch mit 15 Fragen und Sicherheitsreview. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Kostenschätzung/Materialliste; Fachgespräch mit 15 Fragen und Sicherheitsreview.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Modulleistungen addieren. Acht PV-Module besitzen je 430 Wp Nennleistung.
+
+Schritt 1. Modulanzahl und Nennleistung multiplizieren.
+
+Schritt 2. 8 · 430 Wp = 3 440 Wp.
+
+Schritt 3. Umrechnung: 3 440 Wp = 3,44 kWp.
+
+Schritt 4. DC-Nennleistung ist nicht gleich momentaner AC-Einspeiseleistung.
+
+Kontrolle des Ergebnisses: 3,44 kWp DC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Reines Planungsprojekt, Messungen ggf. nur an zertifizierter Übungsanlage unter Leitung. Halte zusätzlich die Antwort auf die Frage «Was ist das Hauptziel eines unabhängigen Projekt-Reviews?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist das Hauptziel eines unabhängigen Projekt-Reviews? Die richtige Antwort lautet: Annahmen und Fehler kritisch aufdecken. Warum? Ein Review soll Fehler finden, nicht eine fertige Lösung bestätigen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein Review soll Fehler finden, nicht eine fertige Lösung bestätigen.. Warum? Der Merksatz lautet: Ein Review soll Fehler finden, nicht eine fertige Lösung bestätigen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Fachgespräch als Nachweis der eigenen Denkweise.
+In einer Projektprüfung zählt nicht nur, ob das Endergebnis plausibel aussieht. Der Lernende muss erklären können, welche Ausgangsdaten gesichert, welche Annahmen getroffen und welche Entscheidungen fachlich begründet wurden. Eine gute Antwort führt vom Auftrag über das Wirkmodell bis zum Nachweis. Bei einer Frage zum Leitungsschutz ist nicht der schnellste Gerätekatalogeintrag gefragt, sondern das Verständnis, weshalb Betriebsstrom, Verlegebedingungen und Fehlerabschaltung zusammen betrachtet werden. Das Fachgespräch verlangt deshalb mehr als die Wiedergabe eines fertigen Plans.
+
+
+Projektvorstellung in fünf Minuten.
+Die Ausgangslage wird knapp vorgestellt: Nutzungsart des Objekts, relevante Verbraucher, PV-Konzept, Datennetz und wichtige Sicherheitsanforderungen. Danach folgen zwei oder drei risikobestimmende Schnittstellen. Eine Folie mit sämtlichen Detailwerten überfordert; eine gute Übersicht enthält deshalb Systemgrenzen, Hauptfunktionen und Verweise auf Nachweise. Für das Ausbildungsprojekt lautet die Aufgabe, die Planung so zu erklären, dass auch jemand aus einem anderen Gewerk die Grundstruktur versteht. Detailfragen dürfen anschliessend in Dokumenten belegt werden. Mündliche Klarheit darf fehlende technische Nachweise aber nicht überdecken.
+
+
+Sicherheitsfrage: Was wurde wirklich geprüft?
+Die entscheidende Prüferfrage kann lauten: «Woran erkenne ich, dass der Personenschutz in diesem Stromkreis funktioniert?» Eine verantwortungsvolle Antwort benennt das Netzsystem, die vorgesehene Schutzmassnahme, die vorgesehenen Prüfungen und die zuständige fachkundige Stelle. Sie behauptet keine Freigabe ohne Messprotokoll. Für die Ausbildung trennen wir ausdrücklich vier Stufen: Berechnung, Simulation, dokumentierter Messwert und fachliche Bewertung. Wenn nur eine Simulation vorliegt, kann der Lernende deren Plausibilität erklären, aber nicht den Zustand einer realen Installation bestätigen.
+
+
+Abweichungen begründet behandeln.
+Bei der Projektprüfung stellt sich heraus, dass ein zusätzlicher Verbraucher geplant wurde. Die richtige Reaktion ist nicht, den alten Plan stillschweigend zu belassen. Zuerst wird die Mehrlast in der Liste erfasst, danach prüft man mögliche Auswirkungen auf Stromkreisaufteilung, Leitungen, Schutz, verfügbare Leistung und Dokumentation. Die zusätzliche Last kann auch die Eigenverbrauchsbilanz der PV-Anlage verändern. Der Lernende soll den Änderungspfad erklären und einen nachvollziehbaren Revisionsstand erstellen. Dieses Verhalten ist auch im realen Projektalltag eine Kernkompetenz.
+
+
+Berechnungen mit Rückprobe verteidigen.
+Eine prüfende Person nennt einen scheinbar überraschenden Zahlenwert, beispielsweise eine 40 Meter lange Leitung bei 16 Ampere. Der Lernende muss zunächst fragen, ob Einphasen- oder Drehstrommodell, Material, Temperatur und Querschnitt vorgegeben sind. Ohne diese Angaben ist kein eindeutiger Spannungsfall berechenbar. Danach wählt er eine passende Gleichung, setzt Einheiten korrekt ein und macht eine Grössenordnungsprüfung. Eine Rechnung, die zufällig den gesuchten Wert liefert, aber falsche Annahmen verwendet, ist fachlich ungenügend. Die Rückprobe zeigt, dass das Ergebnis verstanden wurde.
+
+
+PV-Frage mit Temperaturkorrektur.
+Im Fachgespräch wird ein Modulstrang mit zwölf Modulen vorgestellt. Die Nennleerlaufspannung eines Moduls wird mit 42 Volt angegeben. Daraus folgt bei Referenzbedingungen eine Strangleerlaufspannung von 504 Volt. Das genügt noch nicht zur Frage nach der maximalen Stringspannung. Die Temperaturabhängigkeit des konkret gewählten Moduls muss über den Datenblattkoeffizienten und eine nachvollziehbar festgelegte Mindesttemperatur betrachtet werden. Die Prüfaufgabe fordert, die fehlenden Daten zu benennen, statt einen scheinbar normgerechten Maximalwert zu erfinden. Genau das unterscheidet Verständnis von Zahlenauswendiglernen.
+
+
+Datenschutz und Netzwerkdokumentation.
+Auch eine technisch korrekte Datennetzplanung wirft organisatorische Fragen auf. Wer erhält Zugriff auf Portlisten, Gerätekonfigurationen oder Zugangsdaten? Das Fachgespräch soll erkennen lassen, dass Netzwerkdokumentation und Sicherheitsinformationen nicht wahllos verteilt werden. Ein Revisionsplan kann öffentlich innerhalb des Projektteams nützlich sein, während Passwörter getrennt und nach klaren Zuständigkeiten verwaltet werden. Der Lernende muss nicht zum IT-Sicherheitsingenieur werden, sollte aber vertrauliche Daten und technische Betriebsunterlagen unterscheiden können.
+
+
+Mängel bei der Übergabe priorisieren.
+Eine Mängelliste enthält nicht nur kosmetische Beobachtungen. Ein unleserliches Dosenetikett, ein fehlender Revisionsplan und ein ungeklärter Schutzleiterbefund haben unterschiedliche Dringlichkeit. Für die Ausbildung werden Mängel nach möglicher Gefährdung, Funktionswirkung und organisatorischer Folge eingestuft. Solange ein sicherheitskritischer Befund nicht geklärt ist, kann eine formelle Freigabe nicht allein mit dem Hinweis auf den Fertigstellungstermin gerechtfertigt werden. Die Lernfrage lautet daher: Welche Punkte müssen vor Freigabe geschlossen sein und wer darf darüber entscheiden?
+
+
+Bewertungsraster für die eigene Probeprüfung.
+Für eine Probeprüfung erhält jeder Bereich eine klare Frage: Ist die Systemübersicht verständlich? Stimmen Berechnungen und Einheiten? Sind Schutzannahmen dokumentiert? Sind PV-Unterlagen vollständig? Sind Versionsstände und Verantwortlichkeiten klar? Ein einfaches Raster mit «vollständig begründet», «teilweise begründet» und «noch offen» schafft Transparenz. Entscheidend ist die zusätzliche Begründung der Bewertung. Ein Häkchen allein zeigt nicht, weshalb eine Antwort fachlich trägt. Ein Peer-Review kann Wissenslücken aufdecken, die beim stillen Lesen unbemerkt bleiben.
+
+
+Abschluss: technisch begründen, nicht raten.
+Bei einer nicht beantwortbaren Normenfrage darf der Lernende sagen, welche gültige Normstelle und welche konkrete Produktdokumentation nachzuschlagen sind. Eine souveräne Fachperson erkennt die Grenzen ihrer Angaben und schlägt einen überprüfbaren Rechercheweg vor. Im Lernprojekt wird genau dieses Verhalten positiv bewertet: gesicherte Fakten nennen, Annahmen markieren, fehlende Daten erfragen und erst dann entscheiden. Das ist verantwortlicher als eine scheinbar schnelle Antwort mit frei erfundenem Grenzwert. Die Schlussfrage lautet: Was muss dokumentiert sein, damit eine andere Fachperson die Entscheidung nachvollziehen kann?
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Fünf-Minuten-Projektpräsentation.
+Erkläre das Gewerbeobjekt mit Verbrauchergruppen, PV und Datennetz in maximal fünf Minuten. Deine Musterstruktur lautet: Nutzung, Systemübersicht, zwei wichtige Lastannahmen, ein kritischer Schutzpunkt, ein offener Nachweis. Bewertet wird nicht die Menge aller Details, sondern der nachvollziehbare Übergang von Ausgangslage zu Entscheidung. Eine Folie mit vielen Zahlen ersetzt nicht die Fähigkeit, diese Zahlen fachlich einzuordnen.
+
+
+Fall 2: Prüfer fragt nach fehlendem Grenzwert.
+Die Frage lautet: «Wie gross darf die Fehlerschleifenimpedanz sein?» Die fachlich gute Antwort nennt zuerst das Netzsystem, das betroffene Schutzorgan, die geforderte Abschaltbedingung und die aktuelle Normstelle als notwendige Angaben. Ohne sie gibt es keinen allgemein gültigen Zahlenwert. Die Musterlösung zeigt, wie verantwortliches Nachfragen eine unzulässige Scheinsicherheit verhindert. Eine frei angenommene Grenze darf höchstens als ausdrücklich markierter Übungsparameter verwendet werden.
+
+
+Fall 3: Rechenweg vortragen.
+Ein Stromkreis hat im Modell 230 Volt, 10 Ampere, 20 Meter Leitungslänge und 2,5 Quadratmillimeter Kupfer. Der Lernende benennt die Formel für den einphasigen ohmschen Näherungs-Spannungsfall und erhält bei angenommener Leitfähigkeit 56 einen Wert von rund 2,86 Volt. Wichtig ist die Erklärung des Hin- und Rückwegs. Zusätzlich soll er sagen, welche Faktoren bei realer Dimensionierung fehlen. Eine nackte Zahl genügt nicht.
+
+
+Fall 4: Neues Gerät kurz vor Projektabgabe.
+Ein Kühlaggregat wird gegen ein Modell mit höherem Anlaufstrom getauscht. Welche Projektfolgen prüfst Du? Die Musterlösung nennt Lastdaten, Geräteanschluss, Schutzkonzept, Spannungsfall unter Anlaufbedingungen und Änderung der Dokumentation. Besonders wichtig ist, den ursprünglichen Entwurf nicht stillschweigend als endgültig zu präsentieren. Der Prüfende bewertet das Änderungsdenken: Datengrundlage aktualisieren, betroffene Schnittstellen finden, Entscheidung dokumentieren.
+
+
+Fall 5: Mängelrisiko bei der Übergabe.
+Drei Punkte bleiben offen: fehlendes Etikett, unvollständiger Revisionsplan und ungeklärter Schutzbefund. Ordne sie nach potenzieller Sicherheitsrelevanz. Der ungeklärte Schutzbefund hat Vorrang und verhindert eine unkritische Freigabe. Die anderen Punkte sind ebenfalls zu dokumentieren und im Kontext zu beheben. Der Prüfende erwartet nicht bloss eine Rangliste, sondern eine Erklärung, welche Entscheidung von einer fachlich zuständigen Person getroffen werden muss.
+
+
+Fall 6: Eigene Grenze professionell benennen.
+Ein Prüfer verlangt einen exakten Wert aus der NIN, den der Lernende nicht sicher kennt. Eine gute Antwort lautet nicht «ungefähr so viel», sondern beschreibt den korrekten Rechercheweg im gültigen Originaldokument und die dafür benötigten technischen Daten. Danach kann die Normstelle mit dem konkreten Projektfall abgeglichen werden. Diese Haltung zeigt fachliche Zuverlässigkeit. Auswendig gelernte Zahlen ohne Geltungsbereich können dagegen zu Fehlentscheiden führen.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefte Prüfungssimulation: Eine begründete Unsicherheit.
+Eine prüfende Person zeigt ein Schema und fragt, ob ein bestimmter RCD für die geplante Kombination aus Verbrauchern geeignet sei. Das Datenblatt nennt zwar den Bemessungsdifferenzstrom, aber nicht die relevante Fehlerstromform der angeschlossenen Geräte. Die fachlich angemessene Antwort ist, dass die Eignung aus den vorhandenen Angaben nicht abschliessend beurteilt werden kann. Du erläuterst, welche Geräteinformationen und Normenstellen noch zu prüfen sind, und wie das Ergebnis später dokumentiert wird. Das ist ausdrücklich besser, als allein aus der Zahl auf dem RCD eine allgemeine Eignung abzuleiten. Danach erklärst Du anhand einer zweiten Projektfrage den Unterschied zwischen einem theoretisch berechneten Wert und einem tatsächlich nachgewiesenen Prüfresultat.
+
+
+Lernabschluss.
+Halte im Selbstbewertungsbogen fest, bei welchen Themen Du ohne Unterlagen sicher erklären kannst, wie das System funktioniert, und wo Du Daten oder die Originalnorm benötigst. Eine gute Prüfung belohnt die nachvollziehbare Begründung. In der Praxis schützt dieses Vorgehen vor falschen Freigaben. Das Ziel ist nicht, Unsicherheiten sprachlich zu kaschieren, sondern sie schnell, klar und fachlich korrekt einzugrenzen.
+
+Zusätzliche Fragerunde. Der Prüfer zeigt einen unveränderten Elektroplan, während im Feld eine andere Verteilerposition gewählt wurde. Der Lernende nennt zunächst die Konsequenzen für Revisionsstand, Leitungsführung und die möglicherweise betroffenen Berechnungen. Dann erklärt er, wer die Abweichung fachlich prüfen und freigeben muss. Die Antwort «Das macht keinen Unterschied» wäre ohne Nachweis unzulässig. Entscheidend ist, eine technische Änderung als Prozess aus Bewertung, Dokumentation, Prüfung und Entscheidung zu behandeln. Ein gutes Schlussgespräch enthält zudem eine kleine Rückfrage an die prüfende Person, wenn eine Aufgabenstellung mehrdeutig ist. Welche Art von Leistung ist gemeint: Scheinleistung, Wirkleistung oder Anschlussnennleistung? Welche Zeitbasis besitzt ein Energievergleich? Welche Angaben stammen aus dem Datenblatt, welche aus einer eigenen Annahme? Mit solchen Klärungen entsteht eine prüfbare Aussage statt einer zufällig richtigen Zahl.

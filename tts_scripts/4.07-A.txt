@@ -1,1 +1,102 @@
-Lektion 4.07-A: Auftrag, Arbeitsvorbereitung und Schnittstellen. Ein Elektroauftrag beginnt mit einer klaren Leistungsbeschreibung, dem zulässigen Bewilligungsumfang und der Festlegung von Verantwortlichkeiten. Arbeitsvorbereitung umfasst Material, Werkzeug, Sicherheitsmassnahmen, Terminfolge und Schnittstellen zu anderen Gewerken. Bei komplexen Projekten helfen Meilensteine und ein Änderungsmanagement. Du kannst hier Deine Erfahrung aus dem Maschinenbau direkt übertragen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle einen fiktiven Projektauftrag für eine Sanierung mit Licht und Kommunikation. Definiere Leistungsgrenzen, Bauherrschaft, Elektroinstallationsbetrieb, Planer und Prüfstelle. Füge eine Risiko- und Terminliste hinzu. Es geht um Projektorganisation, nicht um eine eigene Installation. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Vor Projektstart müssen Leistungsgrenzen und Fachverantwortung klar sein. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Auftrag erfassen, Leistung abgrenzen, Zuständigkeiten klären; Ausführungsplan, Arbeitsablauf und Materialbestellung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; N I V Artikel 24, 37. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.07-A: Auftrag, Arbeitsvorbereitung und Schnittstellen. Ein Elektroauftrag beginnt mit einer klaren Leistungsbeschreibung, dem zulässigen Bewilligungsumfang und der Festlegung von Verantwortlichkeiten. Arbeitsvorbereitung umfasst Material, Werkzeug, Sicherheitsmassnahmen, Terminfolge und Schnittstellen zu anderen Gewerken. Bei komplexen Projekten helfen Meilensteine und ein Änderungsmanagement. Du kannst hier Deine Erfahrung aus dem Maschinenbau direkt übertragen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle einen fiktiven Projektauftrag für eine Sanierung mit Licht und Kommunikation. Definiere Leistungsgrenzen, Bauherrschaft, Elektroinstallationsbetrieb, Planer und Prüfstelle. Füge eine Risiko- und Terminliste hinzu. Es geht um Projektorganisation, nicht um eine eigene Installation. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Vor Projektstart müssen Leistungsgrenzen und Fachverantwortung klar sein. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Auftrag erfassen, Leistung abgrenzen, Zuständigkeiten klären; Ausführungsplan, Arbeitsablauf und Materialbestellung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; NIV Artikel 24, 37. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Auftrag erfassen, Leistung abgrenzen, Zuständigkeiten klären; Ausführungsplan, Arbeitsablauf und Materialbestellung.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Angebotsposition nachvollziehbar berechnen. Fiktives Material: 12 Stück zu CHF 8.50. Reine Rechenübung ohne Arbeitskosten.
+
+Schritt 1. Materialposition und Anzahl eindeutig festhalten.
+
+Schritt 2. 12 · CHF 8.50 = CHF 102.00.
+
+Schritt 3. Arbeitszeit, weitere Positionen, Zuschläge und MWST separat erfassen.
+
+Schritt 4. Angebotskalkulation darf nicht mit elektrotechnischer Freigabe verwechselt werden.
+
+Kontrolle des Ergebnisses: Materialsumme CHF 102.00 ohne weitere Kosten.
+
+Übungsauftrag zur Anwendung: Dokumentenfall für einen fiktiven Mehrraum-Umbau; keine reale Installation. Halte zusätzlich die Antwort auf die Frage «Was gehört zu einem sauberen Elektroauftrag?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört zu einem sauberen Elektroauftrag? Die richtige Antwort lautet: Leistungsumfang und Verantwortlichkeiten. Warum? Vor Projektstart müssen Leistungsgrenzen und Fachverantwortung klar sein.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Vor Projektstart müssen Leistungsgrenzen und Fachverantwortung klar sein.. Warum? Der Merksatz lautet: Vor Projektstart müssen Leistungsgrenzen und Fachverantwortung klar sein.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Der Auftrag ist die gemeinsame Arbeitsgrundlage.
+Ein Elektroprojekt scheitert häufig nicht an fehlenden Fachbegriffen, sondern an unklaren Leistungsgrenzen. Ein Kunde bestellt die „Erneuerung der Beleuchtung“; damit ist offen, ob nur Leuchten getauscht oder Leitungen, Schalter, Steuerung, Verteilerbeschriftung und Sicherheitsprüfungen angepasst werden sollen. Lege deshalb schriftlich fest, was im Auftrag enthalten ist, was ausdrücklich ausgeschlossen bleibt und welche Annahmen dem Angebot zugrunde liegen. Bei einem Umbau kann die bestehende Bausubstanz unbekannte Leitungswege oder Altmaterialien enthalten. Diese Risiken müssen in der Arbeitsvorbereitung sichtbar werden. Eine klare Leistungsbeschreibung schützt nicht vor jeder Abweichung, bietet aber eine überprüfbare Grundlage für Termine, Kosten und Verantwortlichkeiten.
+
+Fachkapitel 2: Bewilligung und Verantwortlichkeit früh klären.
+Bevor Termine festgelegt werden, muss feststehen, welche Arbeiten eine entsprechende Installationsbewilligung erfordern und welche Personen die Prüf- und Freigabefunktionen übernehmen. Das ESTI erläutert die Bewilligungssystematik nach NIV. Ein Projektleiter kann Material und Termine koordinieren, ohne deshalb persönlich für beliebige elektrische Installationsarbeiten berechtigt zu sein. Im Organigramm werden deshalb Auftraggeber, Projektleitung, ausführendes Installationsunternehmen, Kontrollorgan und gegebenenfalls Netzbetreiber getrennt geführt. Auf diese Weise vermeidest Du, dass am Ende eine Kontrollunterschrift verlangt wird, für die zu Beginn niemand verantwortlich war. Für jede Schnittstelle gehören eine Ansprechperson, eine Leistung und ein vereinbarter Übergabepunkt in die Planung.
+
+Fachkapitel 3: Bestandsaufnahme vor der Kostenschätzung.
+Im fiktiven Bürogebäude sollen zwölf Leuchten und sechs Datendosen erneuert werden. Vor der Detailplanung werden Räume vermessen, vorhandene Anschlussstellen erfasst, freie Verteilungsplätze geprüft und die Zugänglichkeit von Steigzonen beurteilt. Ein Foto der Verteilung beweist noch nicht, dass ein Stromkreis für zusätzliche Lasten geeignet ist. Halte den ungeprüften Zustand ausdrücklich als Annahme fest. Für einen vorläufigen Kostenvoranschlag kann mit Erfahrungswerten gerechnet werden; vor der Ausführung sind aber sämtliche sicherheitsrelevanten Daten fachgerecht zu ermitteln. Ein detaillierter Bestand reduziert Nachträge und sorgt für eine realistische Terminfolge.
+
+Fachkapitel 4: Arbeitspakete und Abhängigkeiten.
+Zerlege den Auftrag in freigabefähige Pakete: Bestandsaufnahme, Ausführungsplanung, Bestellung, allfällige bauliche Vorleistungen, Installation, Funktionsprüfung, vorgeschriebene elektrische Prüfungen und Übergabe. Zwischen den Paketen gibt es Abhängigkeiten. Eine Datenleitung lässt sich erst sinnvoll messen, wenn die Strecke vollständig konfektioniert und eindeutig beschriftet ist. Eine Verteilung darf nicht ohne geregelte Sicherheitsmassnahmen verändert werden. Und die Übergabe kann erst abgeschlossen werden, wenn die notwendigen Prüf- und Revisionsunterlagen vorliegen. Zeichne den Ablauf als Netzplan und kennzeichne diejenigen Aufgaben, deren Verzögerung den Endtermin verschiebt.
+
+Fachkapitel 5: Termin- und Ressourcenkalkulation.
+Ein kleines Projekt umfasst beispielsweise 12 Leuchten zu je 0,8 kalkulierten Arbeitsstunden und sechs Datendosen zu je 1,1 Stunden. Zusammen sind das 9,6 plus 6,6 gleich 16,2 Stunden für diese Montagepositionen. Hinzu kommen Planung, Materialhandling, Abstimmungen, Prüfung, Dokumentation sowie eine angemessene Reserve. Der Rechenweg ist keine zugesicherte Ausführungszeit. Er illustriert, wie eine Kalkulation transparent wird. Werden zwei Personen eingesetzt, darf die Gesamtarbeitszeit nicht automatisch halbiert werden: Zugang, Sicherheitsorganisation und gegenseitige Abhängigkeiten begrenzen die Parallelisierung.
+
+Fachkapitel 6: Schnittstelle zum Bau und zum Netzbetreiber.
+Im Umbau können Brandschutzabschottungen, Lüftungsanlagen, Malerarbeiten und IT-Rackmontage mit der Elektroinstallation kollidieren. Vereinbare deshalb vor Beginn die Freigabe der Wanddurchbrüche, Zugänglichkeit, Halterungsbereiche und die Ausführung der Abschottungen. Eine Netzbetreibermeldung oder ein Anschlussgesuch hängt vom konkreten Vorhaben und den geltenden Regeln ab. Plane diese Entscheidungen früh als Prüfpunkt und suche bei Unklarheit nach den aktuellen Vorgaben des zuständigen Netzbetreibers. Wird eine benötigte Freigabe erst beim geplanten Einschalten angefragt, entsteht vermeidbarer Zeitdruck und möglicherweise ein Sicherheitsrisiko.
+
+Fachkapitel 7: Risiko- und Änderungsregister.
+Eine einfache Risikomatrix enthält Ursache, Auswirkung, Eintrittswahrscheinlichkeit, Schwere und Massnahme. Beispiele sind fehlende Bestandspläne, lange Lieferfristen, nicht zugängliche Trassen, unerwartete Brandschutzauflagen oder eine vorgezogene Nutzungsaufnahme. Treten neue Wünsche auf, werden sie als Änderung mit Kosten-, Termin- und Sicherheitsfolgen bewertet. Ein mündlicher Wunsch des Bauherrn ist deshalb noch keine sauber beauftragte Leistungsänderung. Im Protokoll wird festgehalten, welche Variante geprüft, angeboten und freigegeben wurde. Der technische Nutzen der Dokumentation liegt darin, dass die Ausführung nicht auf widersprüchlichen Planständen basiert.
+
+Fachkapitel 8: Sicherheitsorganisation der Baustelle.
+Arbeitssicherheit beginnt bei der Terminplanung: Sind gefährliche Arbeiten voneinander getrennt, gibt es geregelte Zutritte und können Anlagen vor der Bearbeitung fachgerecht gesichert werden? Werden Sicherheitsregeln als letzter Tagesordnungspunkt behandelt, fehlt oft die notwendige Zeit für Absperrung, Kennzeichnung und Kontrolle. Das Lernmodell verlangt deshalb vor jedem Arbeitspaket eine Gefährdungsbetrachtung mit verantwortlicher Fachperson. Besonderes Augenmerk gilt Arbeiten im Bestand, unbekannten Leitungen und Tätigkeiten anderer Gewerke. Diese Lektion vermittelt Organisationslogik; konkrete Eingriffe an elektrischen Installationen sind keine eigenständige Selbstlernübung.
+
+Fachkapitel 9: Projektstartgespräch mit Ergebnisprotokoll.
+Ein gutes Kick-off erzeugt Entscheidungen statt nur Diskussion. Am Ende müssen Leistungsumfang, offener Bestand, Verantwortlichkeiten, Terminmeilensteine, Schnittstellen, Melde- und Prüfpflichten sowie die Form der späteren Übergabe dokumentiert sein. Eine Entscheidung wird mit Datum, Verantwortlichem und nächstem Schritt festgehalten. Falls zwei Gewerke denselben Schacht benötigen, wird die Konfliktfrage sofort an die zuständigen Planer gegeben. Übe den Abschluss eines Kick-offs, indem Du die wichtigsten Punkte in maximal zwei Minuten mündlich zusammenfasst und anschliessend eine kurze, widerspruchsfreie Entscheidungsnotiz erstellst.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Unklare „Leuchten-Erneuerung“.
+Eine Offerte erwähnt nur Leuchten, nicht Steuerung oder Prüfung. Lösung: Formuliere Umfang, ausgeschlossenes Material, vorhandene Anschlüsse, Anforderung an die Nutzung und Prüfverantwortung. Vor einer belastbaren Zusage müssen die offenen Bestandsdaten geklärt werden.
+
+Aufgabe 2: Ressourcenszenario.
+18,0 Montagearbeitsstunden sind kalkuliert, hinzu kommen 3,5 Stunden Dokumentation und 2,0 Stunden Abnahmeunterstützung. Summe 23,5 Stunden. Bei zwei Personen sind das theoretisch 11,75 Kalenderstunden, aber nur bei vollständiger Parallelisierbarkeit; diese Annahme ist offen.
+
+Aufgabe 3: Terminrisiko Lieferverzug.
+Die Leuchten sind vier Arbeitstage verspätet. Welche Arbeit kann dennoch starten? Lösung: Nur unabhängige vorbereitende Tätigkeiten wie freigegebene Trassenplanung, Dokumentation und Materialkontrolle. Die terminkritische Auswirkung muss im Ablaufplan neu bewertet werden.
+
+Aufgabe 4: Schachtkonflikt.
+IT und Lüftung beanspruchen dieselbe Schachtfläche. Lösung: Ein koordinierter Belegungsplan mit Bauleitung, Brandschutzvorgaben, Zugänglichkeit und Wartungsraum ist nötig. Kein Gewerk darf die andere Leistung eigenmächtig verdrängen.
+
+Aufgabe 5: Sicherheitsfunktion unklar.
+Die Bauherrschaft fordert eine „Not-Aus-Funktion“ für mehrere Geräte. Lösung: Zuerst Risikofunktion, relevante Sicherheitsanforderungen und Verantwortlichkeiten klären. Eine einfache Gebäudeautomationsszene ist kein Ersatz für eine nachgewiesene Sicherheitsfunktion.
+
+Aufgabe 6: Abschlussprotokoll.
+Entwirf einen Kick-off-Bericht mit fünf offenen Punkten und je einer verantwortlichen Person. Lösung: Jeder Punkt bekommt Datum, Entscheidung, Folgeauftrag und notwendige Freigabe. Ohne eindeutigen Eigentümer bleiben offene Fragen ein Terminrisiko.
+
+Vertiefende Fallanalyse 1: Variantenstudie im Bestandsgebäude.
+Bei einer Sanierung sind zwei Trassenvarianten möglich. Variante A führt durch eine bestehende, gut zugängliche Steigzone, benötigt aber eine Abstimmung mit der Brandschutzplanung. Variante B verläuft durch mehrere abgehängte Decken und ist länger, kollidiert aber weniger mit anderen Gewerken. Für einen technischen Variantenvergleich werden Leitungslänge, Brandschutzdurchdringungen, Montagezeit, Zugänglichkeit, spätere Wartung und Genehmigungsbedarf bewertet. Eine scheinbar kürzere Leitung ist nicht automatisch wirtschaftlicher. Erläutere im Fachgespräch, wie Du die Annahmen dokumentierst, wer die Variante freigibt und welche Angaben noch fehlen. Erst danach entsteht ein belastbarer Ausführungsauftrag.
+
+Vertiefende Fallanalyse 2: Stundenplan mit nicht parallelisierbaren Tätigkeiten.
+Ein Team plant acht Stunden Vorbereitungsarbeiten, zwölf Stunden Montage und vier Stunden Prüfung und Dokumentation. Die reine Summe beträgt 24 Personenstunden. Zwei Mitarbeitende können die acht Stunden Vorbereitung möglicherweise teilen, die Prüf- und Freigabefunktionen sind jedoch nicht beliebig parallelisierbar. Erstelle für das Lernmodell einen Ablauf mit vier Stunden gemeinsamer Vorbereitung, sechs Stunden gemeinsamer Montage und vier Stunden abschliessender Prüf- und Dokumentationsarbeit durch die zuständige Stelle. Das ergibt unter diesen Annahmen 14 Stunden Kalendardauer; die Personenstunden bleiben 24. Die Unterscheidung zwischen Personenstunden und Projektlaufzeit verhindert unrealistische Zusagen.
+
+Vertiefende Fallanalyse 3: Schnittstellenprotokoll Brandschutz und IT.
+Die Bauleitung erklärt, ein Durchbruch für Datenleitungen könne ohne weitere Abstimmung vergrössert werden. Die fachlich richtige Reaktion ist eine Klärung der betroffenen Bauteilfunktion, des Brandschutzkonzepts und der Zuständigkeit für die Abschottung. Der IT-Verantwortliche benötigt zugleich Informationen zu Mindestabständen, Zugänglichkeit und zukünftiger Erweiterbarkeit der Datenstrecke. Dokumentiere den Konflikt in einem Protokoll mit Ort, Planrevision, notwendiger Prüfung, Entscheidungsträger und Termin. Eine spontane Lösung direkt auf der Baustelle kann später mehr Kosten und rechtliche Probleme erzeugen als eine kurze koordinierte Planung.
+
+Vertiefende Fallanalyse 4: Änderung nach Materialbestellung.
+Die Bauherrschaft wünscht nach der Bestellung zusätzlich Präsenzsensoren. Prüfe zuerst, ob vorhandene Leuchten und Treiber überhaupt die vorgesehene Regelung unterstützen. Danach werden Sensoranzahl, Montageorte, mögliche zusätzliche Leitungen, Steuerungskompatibilität und Kosten bewertet. Der ursprüngliche Auftrag umfasst möglicherweise nur eine einfache Schaltung; die neue Komfortfunktion ist eine separate Änderung. Ein gutes Nachtragsangebot nennt deshalb den technischen Nutzen und die Auswirkungen auf Termin, Planung und Prüfung. Es darf nicht verschleiern, dass Änderungen an der Funktion wiederum die Revisionsunterlagen und die spätere Kundeninstruktion beeinflussen.
+
+Vertiefende Fallanalyse 5: Risiko-Review vor dem Arbeitsstart.
+Führe ein kurzes Arbeitspaket-Review anhand von vier Fragen durch: Ist der Planstand freigegeben? Sind erforderliche Meldungen und Bewilligungen geklärt? Sind Material, Personen und sicherer Anlagenzustand vorhanden? Sind Schnittstellen zu anderen Gewerken vereinbart? Wenn eine dieser Fragen nicht beantwortet ist, wird die betreffende Tätigkeit vorläufig zurückgestellt oder geklärt. Im Lernfall fehlt die Freigabe für einen Deckendurchbruch; die richtige Massnahme ist nicht, die Leitungen trotzdem zu ziehen. Stattdessen werden andere bereits freigegebene Pakete bearbeitet und das Hindernis mit Datum und Verantwortlichem gemeldet.
+
+Mündliche Abschlussaufgabe und Transfer.
+Für das abschliessende Projektgespräch erhältst Du einen Planstand mit ungeklärtem Deckendurchbruch, bestellten Leuchten und einem Kundentermin in drei Wochen. Erstelle ein priorisiertes Drei-Punkte-Protokoll. Zuerst muss der sicherheits- und brandschutzrelevante Durchbruch fachlich geklärt werden. Anschliessend werden die unabhängig ausführbaren Arbeitspakete und der Lieferstatus beurteilt. Zuletzt wird der Termin mit einer transparenten Prognose aktualisiert. Berechne nicht einfach die Reststunden durch die Zahl der Mitarbeiter: Wartezeiten, Prüfpflichten und parallele Zugänglichkeit begrenzen die tatsächliche Dauer. Formuliere eine Entscheidungsvorlage für die Bauleitung, die jeweils Alternative, Konsequenz, offenen Nachweis und Verantwortlichen enthält. Eine akzeptierte Änderung wird erst danach als aktualisierter Planstand in die Ausführung übernommen.

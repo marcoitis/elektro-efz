@@ -1,0 +1,152 @@
+﻿ID;Titel;Themenfeld;Ergänzung_Wörter;Sprechskript_Wörter;Sprechziel_erreicht
+1.01-A;Berufsbild, EFZ und Installationsbewilligung;Bewilligung und Verantwortung;1129;504;nein
+1.01-B;Elektrische Gefahren verstehen;Bewilligung und Verantwortung;1110;473;nein
+1.01-C;Sicherheitsregeln und Besonderheiten von PV-Anlagen;Bewilligung und Verantwortung;1147;468;nein
+1.02-A;SI-Einheiten und Zehnerpotenzen;Rechenmodell und Einheiten;1070;428;nein
+1.02-B;Formeln sicher umstellen;Rechenmodell und Einheiten;1051;429;nein
+1.02-C;Prozent, Wirkungsgrad und Energie;Rechenmodell und Einheiten;1071;420;nein
+1.11-A;Rechtsquellen, Normen und Verantwortlichkeit;Bewilligung und Verantwortung;1092;614;nein
+1.11-B;Basisschutz, Fehlerschutz und Zusatzschutz;Schutzkonzept und elektrische Sicherheit;1078;586;nein
+1.11-C;Kontrollen, Sicherheitsnachweis und Dokumentationspflicht;Messen, Prüfen und Fehlerdiagnose;1097;604;nein
+1.12-A;Anforderungskatalog für ein 12-V-Lichtmodell;Licht, Verbraucher und Effizienz;1071;565;nein
+1.12-B;Schaltmodell, Stückliste und Messplan;Messen, Prüfen und Fehlerdiagnose;1083;582;nein
+1.12-C;Fehlerszenarien und Jahresabschluss;Rechenmodell und Einheiten;1094;589;nein
+2.01-A;Zeigerbilder und Phasenverschiebung;Rechenmodell und Einheiten;1087;572;nein
+2.01-B;Impedanz und RLC-Schaltungen;Rechenmodell und Einheiten;1094;587;nein
+2.01-C;Wirk-, Blind- und Scheinleistung;Rechenmodell und Einheiten;1093;576;nein
+2.02-B;Dreieck, Leistung und Lastsymmetrie;Rechenmodell und Einheiten;1079;576;nein
+2.02-C;Neutralleiter, Unsymmetrie und Lastverteilung;Rechenmodell und Einheiten;1082;574;nein
+2.03-A;Faradaysches Induktionsgesetz;Schutzkonzept und elektrische Sicherheit;1063;577;nein
+2.03-B;Transformatorenübersetzung und Verluste;Schutzkonzept und elektrische Sicherheit;1082;592;nein
+2.03-C;Schutztrennung und Transformatoranwendung;Schutzkonzept und elektrische Sicherheit;1078;588;nein
+2.04-A;Dioden, Gleichrichter und Glättung;Rechenmodell und Einheiten;1092;567;nein
+2.04-B;Transistoren, Relais und Optokoppler;Steuerung und Signalverarbeitung;1117;583;nein
+2.04-C;Digitale Logik und Sensor-Aktor-Prinzip;Steuerung und Signalverarbeitung;1110;587;nein
+2.05-A;TN-, TT- und IT-Systeme;Schutzkonzept und elektrische Sicherheit;1112;591;nein
+2.05-B;RCD, Fehlerströme und Schutzpotenzialausgleich;Schutzkonzept und elektrische Sicherheit;1114;576;nein
+2.05-C;Schutzkonzepte anhand eines Fehlerfalls;Schutzkonzept und elektrische Sicherheit;1109;584;nein
+2.06-A;Überlast, Kurzschluss und Schutzgerät;Schutzkonzept und elektrische Sicherheit;1083;613;nein
+2.06-B;Leitungsdimensionierung und Spannungsfall;Planung und Dokumentation;1067;577;nein
+2.06-C;Schutzkoordination und Selektivität als Einstieg;Schutzkonzept und elektrische Sicherheit;1067;584;nein
+2.07-A;Lichtschaltungen im Funktionsschema;Planung und Dokumentation;1089;587;nein
+2.07-B;Anschlussplan, Aderliste und Betriebsmittelkennzeichen;Planung und Dokumentation;1100;593;nein
+2.07-C;Material- und Zeitkalkulation eines fiktiven Grundrisses;Planung und Dokumentation;1093;581;nein
+2.08-A;Lichtstrom, Beleuchtungsstärke und Lichtstärke;Rechenmodell und Einheiten;1093;577;nein
+2.08-B;LED-Treiber, Lichtqualität und Effizienz;Licht, Verbraucher und Effizienz;1088;582;nein
+2.08-C;Lichtsteuerung und Präsenzanwendungen;Steuerung und Signalverarbeitung;1092;578;nein
+2.09-A;Elektrische Wärme und Wärmemenge;Rechenmodell und Einheiten;1071;577;nein
+2.09-B;Haushaltsgeräte und Anschlussdaten;Rechenmodell und Einheiten;1051;555;nein
+2.09-C;Energieeffizienz und Kostenvergleich;Licht, Verbraucher und Effizienz;1066;577;nein
+2.10-A;Datenübertragung und Netzwerktopologien;Messen, Prüfen und Fehlerdiagnose;1057;547;nein
+2.10-B;Twisted Pair, Glasfaser und Übertragungswege;Messen, Prüfen und Fehlerdiagnose;1067;554;nein
+2.10-C;IP-Adressen, Geräte und Fehlersuche;Steuerung und Signalverarbeitung;1071;573;nein
+2.11-A;Sichtprüfung vor elektrischen Messungen;Planung und Dokumentation;1079;556;nein
+2.11-B;Schutzleiter- und Isolationsprüfung verstehen;Schutzkonzept und elektrische Sicherheit;1073;565;nein
+2.11-C;RCD-Prüfung, Schleifenimpedanz und Messprotokoll;Messen, Prüfen und Fehlerdiagnose;1081;573;nein
+2.12-A;Raumbuch und Lastenliste erstellen;Planung und Dokumentation;1075;568;nein
+2.12-B;Schutz- und Leitungsentwurf im Planungsfall;Planung und Dokumentation;1082;579;nein
+2.12-C;Dokumentation, Fehlerreview und Jahresprüfung;Planung und Dokumentation;1068;571;nein
+3.01-A;Rohbau-, Hohlwand- und Aufputzinstallation;Planung und Dokumentation;1095;598;nein
+3.01-B;Leitungstrassen, Schacht und Brandabschnitt;Planung und Dokumentation;1083;574;nein
+3.01-C;Schaltgerätekombinationen und Verteilerplanung;Planung und Dokumentation;1071;579;nein
+3.02-A;Leitungsschutz, RCD und Gerätefunktionen;Messen, Prüfen und Fehlerdiagnose;1076;578;nein
+3.02-B;Überspannungsschutz und Schutzgerätekoordination;Schutzkonzept und elektrische Sicherheit;1074;568;nein
+3.02-C;Schutzgeräteauswahl und thermische Betrachtung;Rechenmodell und Einheiten;1089;581;nein
+3.03-A;Erstprüfung als geplanter Prozess;Bewilligung und Verantwortung;1087;586;nein
+3.03-B;Schutzleiter, Isolation und Polarisierung;Schutzkonzept und elektrische Sicherheit;1080;595;nein
+3.03-C;RCD, Schleifenimpedanz und Prüfprotokoll;Messen, Prüfen und Fehlerdiagnose;1076;585;nein
+3.04-A;Drehstrom-Asynchronmotor und Schlupf;Rechenmodell und Einheiten;1084;568;nein
+3.04-B;Anlaufarten und Motorschutz;Rechenmodell und Einheiten;1071;565;nein
+3.04-C;Frequenzumrichter und EMV;Schutzkonzept und elektrische Sicherheit;1081;575;nein
+3.05-A;Selbsthaltung und Verriegelung mit Relais;Steuerung und Signalverarbeitung;1068;577;nein
+3.05-B;Zeitglieder, Signalfluss und Funktionsablauf;Steuerung und Signalverarbeitung;1069;583;nein
+3.05-C;KOP/FUP, Fehlerdiagnose und Not-Halt-Abgrenzung;Steuerung und Signalverarbeitung;1062;567;nein
+3.06-A;KNX-Bus, Topologie und Teilnehmer;Steuerung und Signalverarbeitung;1061;554;nein
+3.06-B;Sensorik, Szenen und Raumfunktionen;Steuerung und Signalverarbeitung;1060;552;nein
+3.06-C;Diagnose, Fernzugriff und Dokumentation;Steuerung und Signalverarbeitung;1060;545;nein
+3.07-A;PV-Kennlinie, MPP und Ertragsfaktoren;Rechenmodell und Einheiten;1078;570;nein
+3.07-C;DC-Sicherheit, Stecksysteme und PV-Dokumentation;Planung und Dokumentation;1091;577;nein
+3.08-A;NIV 14 und Abgrenzung der PV-Arbeiten;Bewilligung und Verantwortung;1112;612;nein
+3.08-B;Netzanmeldung, Bauverfahren und Messkonzept;Planung und Dokumentation;1084;563;nein
+3.08-C;PV-Prüfprotokoll, Dachschutz und Übergabe;Bewilligung und Verantwortung;1106;586;nein
+3.09-A;Bäder, Schutzbereiche und besondere Räume;Schutzkonzept und elektrische Sicherheit;1096;583;nein
+3.09-B;Aussenanlagen, Baustellen und Landwirtschaft;Material und technische Ausführung;1087;569;nein
+3.09-C;Blitz-, Überspannungs- und Brandschutzkonzepte;Schutzkonzept und elektrische Sicherheit;1094;583;nein
+3.10-A;Strukturierte Kupferverkabelung und Patchfelder;Messen, Prüfen und Fehlerdiagnose;1049;556;nein
+3.10-B;Glasfaser und optische Übertragung;Messen, Prüfen und Fehlerdiagnose;1052;556;nein
+3.10-C;Koaxialtechnik, Pegel und Messberichte;Messen, Prüfen und Fehlerdiagnose;1062;575;nein
+3.11-A;Fehlerbaum und sicherer Diagnoseprozess;Messen, Prüfen und Fehlerdiagnose;1067;577;nein
+3.11-B;Messstrategie, Gegenprüfung und Ursachenanalyse;Messen, Prüfen und Fehlerdiagnose;1066;586;nein
+3.11-C;Kundengespräch, Rapport und Übergabe;Messen, Prüfen und Fehlerdiagnose;1064;571;nein
+3.12-A;Gesamtplanung: Verbraucher, PV und Datensystem;Planung und Dokumentation;1078;560;nein
+3.12-B;Schutz-, Leitungs- und PV-Dokumentation;Planung und Dokumentation;1060;559;nein
+3.12-C;Projektprüfung und Sicherheits-Fachgespräch;Planung und Dokumentation;1084;570;nein
+4.01-A;Komplexe Impedanz und Wechselstromnetze;Rechenmodell und Einheiten;1096;608;nein
+4.01-B;Leistungsdreieck und Blindleistung;Rechenmodell und Einheiten;1085;588;nein
+4.01-C;Drehstromlasten und Plausibilitätsprüfung;Rechenmodell und Einheiten;1077;561;nein
+4.02-A;Fehlerschleifenimpedanz und Abschaltbedingungen;Schutzkonzept und elektrische Sicherheit;1102;587;nein
+4.02-B;Selektivität und Schutzgerätabstimmung;Schutzkonzept und elektrische Sicherheit;1082;562;nein
+4.02-C;Schutzfälle und sichere Freigabeentscheidungen;Schutzkonzept und elektrische Sicherheit;1098;589;nein
+4.03-A;Lastprofile, Eigenverbrauch und Energieflüsse;Photovoltaik und Energieversorgung;1087;581;nein
+4.03-B;Batteriespeicher und Wirkungsgradkette;Rechenmodell und Einheiten;1082;582;nein
+4.03-C;Elektromobilität und intelligentes Lastmanagement;Rechenmodell und Einheiten;1072;579;nein
+4.04-A;Ablauflogik und Zustandsautomaten;Steuerung und Signalverarbeitung;1057;558;nein
+4.04-B;Verriegelungen, Sensorik und Fehlertabelle;Steuerung und Signalverarbeitung;1075;583;nein
+4.04-C;Gebäudeautomation und Benutzerfunktionen;Steuerung und Signalverarbeitung;1059;553;nein
+4.05-A;Sichtprüfung, Prüfreihenfolge und Freigaben;Messen, Prüfen und Fehlerdiagnose;1066;570;nein
+4.05-B;Messunsicherheit, Grenzwerte und Bewertungslogik;Messen, Prüfen und Fehlerdiagnose;1075;571;nein
+4.05-C;Erstprüfungsdossier und Übergabe;Messen, Prüfen und Fehlerdiagnose;1068;561;nein
+4.06-A;Gesetze, Verordnungen und technische Regeln auseinanderhalten;Bewilligung und Verantwortung;1132;604;nein
+4.06-B;NIN-Systematik und gezielte Normrecherche;Schutzkonzept und elektrische Sicherheit;1111;609;nein
+4.06-C;Rechts- und Normfälle im Fachgespräch;Bewilligung und Verantwortung;1125;596;nein
+4.07-A;Auftrag, Arbeitsvorbereitung und Schnittstellen;Planung und Dokumentation;1078;569;nein
+4.07-B;Material, Arbeitsrapport und Nachträge;Planung und Dokumentation;1070;557;nein
+4.07-C;Revisionsunterlagen und Kundeninstruktion;Planung und Dokumentation;1070;563;nein
+4.08-A;PV-Dossier: Modul- und Stringdaten überprüfen;Rechenmodell und Einheiten;1078;583;nein
+4.08-B;Sicherheits-, Kennzeichnungs- und Prüfunterlagen;Planung und Dokumentation;1086;575;nein
+4.08-C;PV-Abschlussgespräch und Mängelmanagement;Planung und Dokumentation;1090;582;nein
+4.09-A;Übertragungsstrecken und Linkmessungen;Messen, Prüfen und Fehlerdiagnose;1058;547;nein
+4.09-B;Koaxialtechnik und Fehlersuche;Messen, Prüfen und Fehlerdiagnose;1073;575;nein
+4.09-C;Systematische Netzwerkdiagnose und Dokumentationsreview;Messen, Prüfen und Fehlerdiagnose;1078;576;nein
+4.10-A;Sicherheits- und Normen-Fachgespräch;Bewilligung und Verantwortung;1127;587;nein
+4.10-B;Elektrotechnik und Systemtechnik mündlich erklären;Rechenmodell und Einheiten;1105;580;nein
+4.10-C;Kommunikation, Steuerung und Prüfung unter Zeitdruck;Steuerung und Signalverarbeitung;1120;584;nein
+4.11-A;Schriftliche Prüfung: Mathematik und Elektrotechnik;Rechenmodell und Einheiten;1095;561;nein
+4.11-B;Schriftliche Prüfung: NIN, Pläne und Systemtechnik;Planung und Dokumentation;1101;548;nein
+4.11-C;Prüfungssimulation und Lernlückenanalyse;Planung und Dokumentation;1075;552;nein
+4.12-A;Praktisches QV: Auftrag und Arbeitsvorbereitung;Planung und Dokumentation;1107;585;nein
+4.12-B;Praktisches QV: Ausführung und Erstprüfung unter Aufsicht;Fachgespräch und Qualitätsbeurteilung;1110;587;nein
+4.12-C;Abschlussreview und individueller Weg zur Zulassung;Fachgespräch und Qualitätsbeurteilung;1103;609;nein
+N-S01;Wer trägt bei elektrischen Arbeiten welche Verantwortung?;Rechenmodell und Einheiten;1050;495;nein
+N-S02;Die fünf Sicherheitsregeln wirklich verstehen;Photovoltaik und Energieversorgung;1033;475;nein
+N-S03;Messen, Erproben, Besichtigen – drei verschiedene Tätigkeiten;Messen, Prüfen und Fehlerdiagnose;975;446;nein
+N-S04;Schweizer Recht und europäische Betriebsnorm richtig kombinieren;Bewilligung und Verantwortung;1052;444;nein
+N-W01;Vom Haus bis zum Netz: Wer ist für was zuständig?;Bewilligung und Verantwortung;1047;439;nein
+N-W02;Technisches Anschlussgesuch, Installationsanzeige und SiNa;Planung und Dokumentation;1016;447;nein
+N-W03;Zähler, Hauptanschluss und Messkonzepte verstehen;Rechenmodell und Einheiten;963;410;nein
+N-W04;Netzparallele PV: Phasen, Unsymmetrie und Inbetriebnahme;Photovoltaik und Energieversorgung;1056;435;nein
+N-W05;Batteriespeicher, USV und Rückspeisung beurteilen;Photovoltaik und Energieversorgung;966;431;nein
+N-P01;Eine PV-Anlage vollständig dokumentieren;Photovoltaik und Energieversorgung;1025;430;nein
+N-P02;PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom;Rechenmodell und Einheiten;1005;454;nein
+N-P03;PV-Sichtprüfung: Was muss vor jeder Messung stimmen?;Schutzkonzept und elektrische Sicherheit;977;408;nein
+N-P04;PV-Erstprüfung: Kategorie 1 systematisch lesen;Schutzkonzept und elektrische Sicherheit;961;402;nein
+N-P05;PV-Isolationsprüfung verstehen, ohne gefährlich zu messen;Schutzkonzept und elektrische Sicherheit;967;415;nein
+N-P06;PV-Fehlerdiagnose mit I-U-Kennlinie und Thermografie;Rechenmodell und Einheiten;976;409;nein
+N-P07;Der PV-Prüfbericht als belastbarer Qualitätsnachweis;Messen, Prüfen und Fehlerdiagnose;956;380;nein
+N-V01;Was ist eine Schaltgerätekombination – und welche Norm gilt?;Schutzkonzept und elektrische Sicherheit;1000;411;nein
+N-V02;Bemessungsdaten einer Verteilung richtig lesen;Rechenmodell und Einheiten;963;395;nein
+N-V03;Erwärmung verstehen: Strom, Übergangswiderstand und Gehäuse;Rechenmodell und Einheiten;972;439;nein
+N-V04;Schutz gegen elektrischen Schlag: Gehäuse ist nicht alles;Schutzkonzept und elektrische Sicherheit;977;381;nein
+N-V05;Kurzschlussbeanspruchung: Warum 16 A nicht die ganze Wahrheit ist;Schutzkonzept und elektrische Sicherheit;966;406;nein
+N-V06;Bauartnachweis und Stücknachweis sauber trennen;Schutzkonzept und elektrische Sicherheit;996;409;nein
+N-V07;Energieverteiler: Bedienung, Unterteilung und Wartbarkeit;Rechenmodell und Einheiten;975;394;nein
+N-V08;Baustromverteiler: temporär bedeutet nicht ungefährlich;Rechenmodell und Einheiten;986;378;nein
+N-E01;Erdung, Schutzpotentialausgleich und Blitzschutz unterscheiden;Schutzkonzept und elektrische Sicherheit;959;414;nein
+N-E02;Fundamenterder planen: Neubau, weisse Wanne, isolierte Fundamente;Schutzkonzept und elektrische Sicherheit;1018;409;nein
+N-E03;Korrosion, Verbindungsqualität und Erder-Abnahme;Planung und Dokumentation;963;384;nein
+N-B01;Blitzschutz als System statt einzelner Fangstange;Schutzkonzept und elektrische Sicherheit;944;371;nein
+N-B02;Trennungsabstand, Potentialausgleich und Überspannungsschutz;Schutzkonzept und elektrische Sicherheit;955;375;nein
+N-B03;Blitzschutz nach Änderungen inspizieren und dokumentieren;Schutzkonzept und elektrische Sicherheit;980;388;nein
+N-I01;Gesamtfall: Aufdach-PV vom Entwurf bis zur Übergabe;Planung und Dokumentation;996;413;nein
+N-I02;Gesamtfall: Einen Maschinenverteiler fachlich beurteilen;Rechenmodell und Einheiten;1006;396;nein
+N-I03;Quellenkritik: Was wir wirklich wissen – und was noch fehlt;Schutzkonzept und elektrische Sicherheit;1042;452;nein

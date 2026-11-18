@@ -1,0 +1,128 @@
+Einführung und Lernziele.
+Lektion 2.11-A: Sichtprüfung vor elektrischen Messungen. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Prüfen beginnt vor dem Messgerät.
+Vor elektrischen Messungen steht die Sichtprüfung. Sie sucht erkennbare Mängel wie Beschädigungen, ungeeignete Betriebsmittel, fehlende Beschriftung oder offensichtlich fehlerhafte Führung. Nicht jeder Fehler ist sichtbar, aber eine beschädigte Leitung muss nicht erst unter Spannung gemessen werden, um als problematisch erkannt zu werden. Die Sichtprüfung lässt sich anhand einer strukturierten Checkliste nachvollziehbar dokumentieren. Sie muss von einer dafür fachlich befugten Person im richtigen Arbeits- und Sicherheitskontext ausgeführt werden.
+
+Prüfumfang festlegen.
+Bevor eine Kontrolle beginnt, ist zu definieren, welche Anlagenteile betroffen sind, welche Unterlagen zur Verfügung stehen und welche Prüfschritte vorgesehen sind. Ein Schema, eine Stückliste und Angaben zu den Schutzorganen helfen, Fehlinterpretationen zu vermeiden. Die Reihenfolge von Besichtigen, Erproben und Messen darf nicht zufällig sein. Aus der Gefährdungsbeurteilung folgen unter anderem Zuständigkeiten, sichere Arbeitsbedingungen und die Wahl geeigneter Prüfmittel. Diese Lektion vermittelt die Logik des Prüfkonzepts, keine Berechtigung zur eigenständigen Inbetriebnahme.
+
+Betriebsmittel und Kennzeichnung.
+Ein Stromkreis sollte eindeutig zu identifizieren sein. Fehlende oder widersprüchliche Bezeichnungen an Verteilungen, Kabeln und Plänen erschweren nicht nur die Wartung, sondern können zu gefährlichen Verwechslungen führen. Die Sichtprüfung betrachtet deshalb auch Dokumentation und Kennzeichnung. Die Beschriftung eines Schutzgeräts muss zu seinem realen Zuständigkeitsbereich passen. Ein sorgfältig beschriftetes Prüfprotokoll ermöglicht später, den Befund einer konkreten Stelle zuzuordnen, statt bloss pauschal anzugeben, dass alles geprüft worden sei.
+
+Schutzleiter und Potenzialausgleich.
+Die Sichtprüfung kann zeigen, ob ein Schutzleiter offensichtlich fehlt oder ein Anschluss mechanisch beschädigt ist. Sie kann jedoch nicht die elektrische Durchgängigkeit beweisen. Dazu sind geeignete Messungen nötig. Dieser Unterschied zwischen visueller Feststellung und messtechnischem Nachweis gehört zu den wichtigsten Grundlagen der Qualitätskontrolle. Auch der Schutzpotenzialausgleich muss als Teil des Gesamtfehlerschutzkonzepts erkannt werden. Die blosse Anwesenheit eines grün-gelben Leiters ist noch kein Nachweis für wirksame Schutzmassnahmen.
+
+Isolationszustand als Prüfziel.
+Beschädigte oder falsch geführte Leiter können unzulässige Verbindungen zwischen aktiven Teilen und anderen leitfähigen Teilen erzeugen. Eine Isolationsprüfung soll solche Fehler anhand eines geeigneten Messverfahrens erkennen. Die Wahl der Prüfbedingungen hängt von der Anlage und den angeschlossenen Betriebsmitteln ab. Empfindliche Elektronik kann durch unpassende Prüfverfahren beeinträchtigt werden. Deshalb ist die Messplanung mit Herstellerunterlagen und gültigen Normen abzugleichen. Lernende sollen das Prüfziel verstehen, aber keine Messspannung eigenmächtig an eine reale Installation anlegen.
+
+Fehlerschleife und Abschaltbedingung.
+Die Fehlerschleifenimpedanz beeinflusst, wie gross ein Fehlerstrom in bestimmten Netzsystemen werden kann. Ein hoher Schleifenwiderstand kann dazu führen, dass ein Überstromschutzorgan nicht in der erforderlichen Weise reagiert. Die Messung hat deshalb eine klare Schutzfunktion. Allerdings sind Netzsystem, Schutzorgan und tatsächliche Messbedingungen zu berücksichtigen. Aus einem isolierten Messwert lässt sich ohne weitere Angaben keine vollständige Freigabe ableiten. Die Beurteilung benötigt das gültige Regelwerk und eine fachkundige Interpretation.
+
+Messgerät und Messkategorie.
+Ein Messgerät muss zur Messaufgabe und zur möglichen elektrischen Beanspruchung passen. Dazu gehören Messbereich, zulässige Messkategorie, Zustand von Leitungen und Messspitzen sowie erforderliche Kalibrier- oder Prüfnachweise. Ein preiswertes Gerät mit grossem Zahlenbereich ist nicht automatisch sicher für jede Messstelle. Auch die persönliche Schutzausrüstung und die sichere Arbeitsorganisation können wesentlich sein. Im theoretischen Unterricht wird diese Auswahl anhand von Datenblättern besprochen, nicht an offenen spannungsführenden Verteilungen experimentiert.
+
+Mangelbewertung.
+Eine Sichtprüfung ist kein Schönheitswettbewerb. Entscheidend ist die technische Wirkung eines Mangels. Eine schlecht lesbare Beschriftung, eine mechanisch beschädigte Isolation und ein fehlender Schutzleiter haben unterschiedliche Auswirkungen. Ein Protokoll sollte Befund, Ort, mögliche Konsequenz und erforderliche weitere Abklärung sauber trennen. Wo akute Gefährdung besteht, darf der Befund nicht als normale Restarbeit behandelt werden. Konkrete Sofortmassnahmen sind betrieblich und fachlich geregelt.
+
+Übungsprotokoll.
+Erstelle auf Papier eine Sichtprüfliste für eine fiktive kleine Unterverteilung. Verwende die Rubriken Unterlagen, Kennzeichnung, zugängliche Betriebsmittel, mechanischer Zustand, Leitungsführung, Schutzorgane und offene Prüfpunkte. Markiere drei beispielhafte Mängel und begründe, welche weiteren Fachprüfungen daraus folgen würden. Nutze nur Fotos oder ein didaktisches Planschema. Eine reale Verteilung wird für diese Selbstlernaufgabe weder geöffnet noch unter Spannung geprüft.
+
+Abgrenzung Sichtprüfung und Messung.
+Ein beschädigter Kabelmantel ist bei ausreichender Zugänglichkeit häufig visuell erkennbar. Ob ein Schutzleiter elektrisch durchgängig ist, lässt sich dagegen nicht allein durch Anschauen bestätigen. Diese unterschiedlichen Erkenntniswege dürfen im Protokoll nicht vermischt werden. Wenn eine Sichtprüfung keinen Mangel zeigt, bleiben die vorgesehenen elektrischen Nachweise dennoch relevant. Die richtige Schlussfolgerung lautet daher nicht Anlage sicher, sondern Sichtprüfung im definierten Umfang ohne festgestellten sichtbaren Mangel. Die weitere Beurteilung erfolgt nach dem vollständigen Prüfkonzept.
+
+Prüffolge als Qualitätskette.
+Eine fachlich sinnvolle Prüfplanung beginnt mit der Klärung der Zuständigkeit und dem sicheren Anlagenzustand. Danach folgen je nach Anwendungsfall Unterlagenprüfung, Besichtigung und passende Erprobungs- oder Messschritte. Welche Reihenfolge und welcher genaue Umfang vorgeschrieben sind, richtet sich nach den gültigen Regeln und betrieblichen Vorgaben. In dieser Lektion wird nur die Logik vermittelt: Ein Ergebnis ist dann belastbar, wenn die Identität des Prüfobjekts, die gewählte Methode, das verwendete Gerät und der Befund dokumentiert sind. Eine Checkliste ohne klare Zuordnung kann keine vollständige Nachvollziehbarkeit herstellen.
+
+Fehlerbild Kennzeichnung.
+Zwei Stromkreise sind auf dem Plan als K1 und K2 bezeichnet, während die Verteilung nur unlesbare handschriftliche Etiketten aufweist. Selbst wenn die Leitungen augenscheinlich ordentlich geführt sind, entsteht eine Verwechslungsgefahr bei Wartung und Störung. Das ist ein relevanter Sichtbefund. Im Unterricht wird dieser Fehler an einem Foto oder einer Zeichnung beschrieben. Der nächste Schritt ist die Dokumentation der Abweichung und die fachliche Klärung der richtigen Zuordnung. Eigenmächtiges Umschalten oder Öffnen einer Verteilung gehört nicht zur sicheren Selbstlernübung.
+
+Messgerätewahl als Vorprüfung.
+Vor einer geplanten Messung ist zu klären, welche elektrische Beanspruchung am Messort auftreten kann und ob das Instrument dafür geeignet ist. Messkategorie, Spannungsfestigkeit, Messleitung und Zustand des Geräts sind wichtige Kriterien. Ein Multimeter mit scheinbar ausreichend hohem Spannungsbereich ist nicht automatisch an jeder Verteilung geeignet. In einer Lernaufgabe lässt sich ein Datenblatt mit einem theoretischen Messauftrag vergleichen. Die Auswertung soll begründen, weshalb ein Instrument geeignet oder ungeeignet wäre, ohne tatsächlich eine potenziell gefährliche Messung durchzuführen.
+
+Befundformulierung.
+Vermeide im Protokoll unpräzise Bewertungen wie Kabel schlecht oder alles okay. Besser ist eine Beschreibung, die den Ort und den beobachtbaren Sachverhalt nennt: Am Bauteil X ist der Leitungsmantel im sichtbaren Bereich beschädigt; weitere fachliche Abklärung erforderlich. Eine solche Formulierung unterscheidet Befund, Interpretation und Massnahme. Für jede offene Abweichung ist festzuhalten, wer die Nachbearbeitung verantwortet. Im Lernmodell können die Teilnehmenden drei Beispielbefunde aus einer Bildvorlage formulieren und gegenseitig auf Eindeutigkeit prüfen.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Prüfprotokoll enthält die Aussage "Sichtprüfung bestanden". Gleichzeitig fehlt die Zuordnung zwischen Stromkreisen und Sicherungsbezeichnungen. Was ist fachlich problematisch? Lösung und Rückprobe: Die Dokumentation ist für eindeutige Identifikation und spätere Prüfungen unzureichend. Ein pauschaler Bestanden-Vermerk widerspricht dem dokumentierten offenen Punkt. Mangel, Ort, Auswirkung und erforderliche Nacharbeit müssen separat festgehalten werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.11-A: Sichtprüfung vor elektrischen Messungen. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Prüfen beginnt vor dem Messgerät.
+Vor elektrischen Messungen steht die Sichtprüfung. Sie sucht erkennbare Mängel wie Beschädigungen, ungeeignete Betriebsmittel, fehlende Beschriftung oder offensichtlich fehlerhafte Führung. Nicht jeder Fehler ist sichtbar, aber eine beschädigte Leitung muss nicht erst unter Spannung gemessen werden, um als problematisch erkannt zu werden. Die Sichtprüfung lässt sich anhand einer strukturierten Checkliste nachvollziehbar dokumentieren. Sie muss von einer dafür fachlich befugten Person im richtigen Arbeits- und Sicherheitskontext ausgeführt werden.
+
+Prüfumfang festlegen.
+Bevor eine Kontrolle beginnt, ist zu definieren, welche Anlagenteile betroffen sind, welche Unterlagen zur Verfügung stehen und welche Prüfschritte vorgesehen sind. Ein Schema, eine Stückliste und Angaben zu den Schutzorganen helfen, Fehlinterpretationen zu vermeiden. Die Reihenfolge von Besichtigen, Erproben und Messen darf nicht zufällig sein. Aus der Gefährdungsbeurteilung folgen unter anderem Zuständigkeiten, sichere Arbeitsbedingungen und die Wahl geeigneter Prüfmittel. Diese Lektion vermittelt die Logik des Prüfkonzepts, keine Berechtigung zur eigenständigen Inbetriebnahme.
+
+Betriebsmittel und Kennzeichnung.
+Ein Stromkreis sollte eindeutig zu identifizieren sein. Fehlende oder widersprüchliche Bezeichnungen an Verteilungen, Kabeln und Plänen erschweren nicht nur die Wartung, sondern können zu gefährlichen Verwechslungen führen. Die Sichtprüfung betrachtet deshalb auch Dokumentation und Kennzeichnung. Die Beschriftung eines Schutzgeräts muss zu seinem realen Zuständigkeitsbereich passen. Ein sorgfältig beschriftetes Prüfprotokoll ermöglicht später, den Befund einer konkreten Stelle zuzuordnen, statt bloss pauschal anzugeben, dass alles geprüft worden sei.
+
+Schutzleiter und Potenzialausgleich.
+Die Sichtprüfung kann zeigen, ob ein Schutzleiter offensichtlich fehlt oder ein Anschluss mechanisch beschädigt ist. Sie kann jedoch nicht die elektrische Durchgängigkeit beweisen. Dazu sind geeignete Messungen nötig. Dieser Unterschied zwischen visueller Feststellung und messtechnischem Nachweis gehört zu den wichtigsten Grundlagen der Qualitätskontrolle. Auch der Schutzpotenzialausgleich muss als Teil des Gesamtfehlerschutzkonzepts erkannt werden. Die blosse Anwesenheit eines grün-gelben Leiters ist noch kein Nachweis für wirksame Schutzmassnahmen.
+
+Isolationszustand als Prüfziel.
+Beschädigte oder falsch geführte Leiter können unzulässige Verbindungen zwischen aktiven Teilen und anderen leitfähigen Teilen erzeugen. Eine Isolationsprüfung soll solche Fehler anhand eines geeigneten Messverfahrens erkennen. Die Wahl der Prüfbedingungen hängt von der Anlage und den angeschlossenen Betriebsmitteln ab. Empfindliche Elektronik kann durch unpassende Prüfverfahren beeinträchtigt werden. Deshalb ist die Messplanung mit Herstellerunterlagen und gültigen Normen abzugleichen. Lernende sollen das Prüfziel verstehen, aber keine Messspannung eigenmächtig an eine reale Installation anlegen.
+
+Fehlerschleife und Abschaltbedingung.
+Die Fehlerschleifenimpedanz beeinflusst, wie gross ein Fehlerstrom in bestimmten Netzsystemen werden kann. Ein hoher Schleifenwiderstand kann dazu führen, dass ein Überstromschutzorgan nicht in der erforderlichen Weise reagiert. Die Messung hat deshalb eine klare Schutzfunktion. Allerdings sind Netzsystem, Schutzorgan und tatsächliche Messbedingungen zu berücksichtigen. Aus einem isolierten Messwert lässt sich ohne weitere Angaben keine vollständige Freigabe ableiten. Die Beurteilung benötigt das gültige Regelwerk und eine fachkundige Interpretation.
+
+Messgerät und Messkategorie.
+Ein Messgerät muss zur Messaufgabe und zur möglichen elektrischen Beanspruchung passen. Dazu gehören Messbereich, zulässige Messkategorie, Zustand von Leitungen und Messspitzen sowie erforderliche Kalibrier- oder Prüfnachweise. Ein preiswertes Gerät mit grossem Zahlenbereich ist nicht automatisch sicher für jede Messstelle. Auch die persönliche Schutzausrüstung und die sichere Arbeitsorganisation können wesentlich sein. Im theoretischen Unterricht wird diese Auswahl anhand von Datenblättern besprochen, nicht an offenen spannungsführenden Verteilungen experimentiert.
+
+Mangelbewertung.
+Eine Sichtprüfung ist kein Schönheitswettbewerb. Entscheidend ist die technische Wirkung eines Mangels. Eine schlecht lesbare Beschriftung, eine mechanisch beschädigte Isolation und ein fehlender Schutzleiter haben unterschiedliche Auswirkungen. Ein Protokoll sollte Befund, Ort, mögliche Konsequenz und erforderliche weitere Abklärung sauber trennen. Wo akute Gefährdung besteht, darf der Befund nicht als normale Restarbeit behandelt werden. Konkrete Sofortmassnahmen sind betrieblich und fachlich geregelt.
+
+Übungsprotokoll.
+Erstelle auf Papier eine Sichtprüfliste für eine fiktive kleine Unterverteilung. Verwende die Rubriken Unterlagen, Kennzeichnung, zugängliche Betriebsmittel, mechanischer Zustand, Leitungsführung, Schutzorgane und offene Prüfpunkte. Markiere drei beispielhafte Mängel und begründe, welche weiteren Fachprüfungen daraus folgen würden. Nutze nur Fotos oder ein didaktisches Planschema. Eine reale Verteilung wird für diese Selbstlernaufgabe weder geöffnet noch unter Spannung geprüft.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Prüfprotokoll enthält die Aussage "Sichtprüfung bestanden". Gleichzeitig fehlt die Zuordnung zwischen Stromkreisen und Sicherungsbezeichnungen. Was ist fachlich problematisch? Lösung und Rückprobe: Die Dokumentation ist für eindeutige Identifikation und spätere Prüfungen unzureichend. Ein pauschaler Bestanden-Vermerk widerspricht dem dokumentierten offenen Punkt. Mangel, Ort, Auswirkung und erforderliche Nacharbeit müssen separat festgehalten werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.11-A: Sichtprüfung vor elektrischen Messungen. Die baubegleitende Erstprüfung beginnt nicht einfach mit dem Druck auf eine Messtaste. Sichtprüfung klärt, ob die Anlage ihrer Planung entspricht, geeignete Betriebsmittel verwendet und Schutz- sowie Kennzeichnungsanforderungen beachtet wurden. Prüfungen müssen geplant, dokumentiert und von dazu befähigten Personen durchgeführt werden. Der folgende Unterricht beschreibt die Logik, nicht die Erlaubnis zur Messung an Hausinstallationen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle anhand eines fiktiven Fotos einer Verteileranlage eine Sichtprüfliste: Dokumentation, Beschriftung, Schutzleiterkonzept, Leitungseinführungen und Zugänglichkeit. Ergänze, welche Informationen erst durch geeignete fachkundige Messung ermittelt werden können. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Sichtprüfung und Messtechnik ergänzen einander. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Sichtprüfung, Schutzleiter-/Potenzialausgleichsprüfung; Isolationsmessung, Schleifenimpedanz/Kurzschlussstrom. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teil 6; N I V Artikel 24; E S T I zu Erstprüfungen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Sichtprüfung, Schutzleiter-/Potenzialausgleichsprüfung; Isolationsmessung, Schleifenimpedanz/Kurzschlussstrom.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was kommt vor einer begründeten Messstrategie?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Sichtprüfung und Messtechnik ergänzen einander.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Theoretische Messprotokolle auswerten; reale Installationsmessungen nur im beaufsichtigten Ausbildungslabor. Halte zusätzlich die Antwort auf die Frage «Was kommt vor einer begründeten Messstrategie?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was kommt vor einer begründeten Messstrategie? Die richtige Antwort lautet: Sichtprüfung und Prüfplanung. Warum? Sichtprüfung und Messtechnik ergänzen einander.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Sichtprüfung und Messtechnik ergänzen einander.. Warum? Der Merksatz lautet: Sichtprüfung und Messtechnik ergänzen einander.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

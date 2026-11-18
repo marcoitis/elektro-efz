@@ -1,4 +1,4 @@
-Was ist eine Schaltgerätekombination – und welche Norm gilt?.
+Was ist eine Schaltgerätekombination – und welche Norm gilt?
 
 Eine Verteilung besteht nicht einfach aus einem Gehäuse, ein paar Sicherungen und Drähten. Als Schaltgerätekombination ist sie ein technisches Gesamtsystem mit definierten Bemessungen, Schutzmassnahmen und Nachweisen.
 
@@ -25,3 +25,84 @@ Ein Lieferant schickt für einen Wohnungsverteiler lediglich das Datenblatt eine
 Musterlösung.
 
 Das Datenblatt eines Einzelgeräts ist kein Nachweis für die gesamte Schaltgerätekombination. Verlange die zur konkreten Verteilerbauart passenden Produkt- und Nachweisinformationen.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Ein Lieferant schickt für einen Wohnungsverteiler lediglich das Datenblatt eines LS-Schalters.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Das Datenblatt eines Einzelgeräts ist kein Nachweis für die gesamte Schaltgerätekombination. Verlange die zur konkreten Verteilerbauart passenden Produkt- und Nachweisinformationen.
+
+Möglicher sicherer Übungsauftrag: Unterscheide fünf gezeichnete Fälle: Wohnungsverteiler, Industrieverteilung, Baustromverteiler, Netzverteiler und Ladeinfrastruktur.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Deckt die Gerätekonformität automatisch die komplette Kombination ab? Die richtige Antwort lautet: Nein. Warum? Die zusammengebaute Einheit besitzt eigene Anforderungen.
+
+Frage 2: Wofür ist Teil 2 besonders relevant? Die richtige Antwort lautet: Energie-Schaltgerätekombinationen. Warum? Teil 2 behandelt Energie-Schaltgerätekombinationen.
+
+Frage 3: Hat die hochgeladene 61439-3 den vollständigen technischen Inhalt? Die richtige Antwort lautet: Nein, nur Einführung. Warum? Die bereitgestellte Kurzdatei enthält nicht den technischen Volltext.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Von der Einzelkomponente zum geprüften System.
+Ein Leitungsschutzschalter, eine Klemme und eine Sammelschiene können für sich jeweils geeignet sein. Aus ihnen entsteht jedoch erst durch Zusammenbau eine konkrete Schaltgerätekombination. In diesem Gesamtsystem beeinflussen sich die Teile gegenseitig. Die Anordnung verändert die Wärmeabfuhr, die Verdrahtung bestimmt Stromwege, und das Gehäuse beeinflusst Zugang und Berührschutz. Ein Produktdatenblatt für eine Sicherung kann daher nicht den Nachweis einer vollständig bestückten Verteilung ersetzen. Die Planung beginnt mit der Funktion des gesamten Systems: Energieverteilung, Steuerung, Bedienung, Umgebung und Wartung. Erst danach werden geeignete Einzelgeräte ausgewählt. Für die Ausbildung ist wichtig, dass Konformität kein Merkmal allein der teuersten Komponente ist, sondern das Ergebnis eines überprüften Gesamtkonzepts. Eine Herstellerkennzeichnung beantwortet nicht sämtliche Fragen zur konkreten Montage im Gebäude.
+
+Fachkapitel 2: Aufbau der Normenreihe 61439.
+Die SN EN IEC 61439 ist in mehrere Teile gegliedert. Teil 1 enthält allgemeine Festlegungen, die zusammen mit dem für die konkrete Produktart anwendbaren weiteren Teil zu verwenden sind. Teil 2 wird beispielsweise für Energie-Schaltgerätekombinationen herangezogen. Andere Teile sind für bestimmte Nutzergruppen oder Bauarten vorgesehen, etwa Installationsverteiler zur Bedienung durch Laien oder Baustromverteiler. Die genaue Zuordnung wird anhand Zweck, Bemessung, Bedienungsbedingungen und Bauart ermittelt. Ein Beispiel: Ein kleiner Verteiler in einer Wohnung und ein industrieller Hauptverteiler mit hohen Stromstärken sehen beide wie Kästen mit Schutzgeräten aus, können aber unterschiedlichen Anwendungsteilen unterliegen. Die Ausbildung vermittelt das Prinzip dieser Zuordnung; die verbindlichen Anforderungen müssen aus den für die konkrete Bauart gültigen Originalausgaben entnommen werden.
+
+Fachkapitel 3: Wer legt Bemessungsdaten fest?
+Vor der Fertigung müssen wesentliche Einsatzbedingungen zwischen Auftraggeber, Planer und Hersteller geklärt sein. Dazu gehören Spannungs- und Strombemessungen, Kurzschlussbedingungen, Umgebungstemperatur, Aufstellungsort, Schutzart, Bedienergruppe und geplante Erweiterungen. Wenn der Auftraggeber lediglich „Verteiler mit 125 Ampere“ bestellt, fehlen Angaben, die für Auslegung und Nachweis entscheidend sind. Ein technisches Pflichtenheft nennt die Einspeiseart, die geplanten Abgänge und deren gleichzeitig zu erwartende Belastung. Der Hersteller muss anschliessend eine Konstruktion bereitstellen, deren nachgewiesener Anwendungsbereich dazu passt. Spätere Änderungen können den ursprünglich geprüften Bereich verlassen. Darum werden Annahmen und Vereinbarungen schriftlich festgehalten. Ein klarer Auftrag spart nicht nur Nacharbeit, sondern verhindert unbemerkte technische Risiken.
+
+Fachkapitel 4: Bauartnachweis erläutern.
+Der Bauartnachweis betrifft die vorgesehene Konstruktion der Schaltgerätekombination. Er belegt, dass die Bauart innerhalb ihrer festgelegten Bedingungen die Anforderungen erfüllt. Je nach konkretem Nachweispunkt und den normativ vorgesehenen Verfahren können Prüfungen, Berechnungen oder anerkannte Konstruktionsregeln relevant sein. Es wäre unzutreffend, jede selbst gebaute Variante allein durch einen Blick auf ein Referenzgehäuse freizugeben. Wichtig ist, ob die tatsächliche Konfiguration noch innerhalb des nachgewiesenen Systems liegt. Für eine Ausbildungssimulation vergleichen wir zwei Aufbauvarianten. Bei Variante A bleibt die Bestückung innerhalb der dokumentierten Herstellergrenzen; bei Variante B werden zusätzliche Wärmequellen eingebaut. Die korrekte Frage lautet, welche Bauartnachweise damit betroffen sind und ob ein erneuter Nachweis oder eine andere Auslegung erforderlich wird.
+
+Fachkapitel 5: Stücknachweis als Prüfung der gefertigten Einheit.
+Der Stücknachweis betrachtet das tatsächlich hergestellte Exemplar. Er soll unter anderem Montagefehler, ungeeignete Verbindungen, fehlende Kennzeichnung oder Funktionsprobleme aufdecken. Ein erfolgreiches Bauartkonzept verhindert nicht, dass beim Zusammenbau eine Klemme lose bleibt oder ein Anschluss vertauscht wird. Deshalb gehört der Stücknachweis neben den Bauartnachweis. Beide Begriffe sind nicht austauschbar und beantworten unterschiedliche Fragen. Für die Lernenden wird eine Prüfmatrix erstellt: „Ist die Bauart geeignet?“ gehört zum ersten Nachweis, „Ist dieses Exemplar korrekt aufgebaut?“ zum zweiten. In beiden Fällen müssen die nachgewiesenen Merkmale zum tatsächlichen System passen. Ein praktischer Nachweis an spannungsführenden Schaltgerätekombinationen gehört ausschliesslich in die dafür vorgesehene Fachorganisation.
+
+Fachkapitel 6: Konformität und Verantwortung.
+Die Verantwortung für eine Schaltgerätekombination lässt sich nicht beliebig auf die Einzelgerätehersteller abschieben. Wer die Kombination als Gesamtsystem herstellt oder wesentlich verändert, muss die zugehörige Verantwortung und Nachweisdokumentation klären. Die Unterlagen können Datenblätter, Stromlaufpläne, Bemessungskennzeichnung, Bauartnachweisbezüge, Stücknachweis und erforderliche Konformitätsunterlagen umfassen. Die genaue Rechtsgrundlage hängt von Art und Verwendung des Produktes ab. Für das Ausbildungsprojekt wird daher bewusst die Frage gestellt: Wer ist der Hersteller der konkreten Kombination, wer plant die Schnittstelle, wer montiert und wer beurteilt das fertige Exemplar? Eine Unterschrift unter einen Prüfplan ohne die zugehörigen fachlichen Voraussetzungen ist keine tragfähige Freigabe.
+
+Fachkapitel 7: Abgrenzung zur Gebäudeinstallation.
+Die Schaltgerätekombination wird als Produkt beziehungsweise zusammengebautes System beurteilt. Ihre Einbindung in die Gebäudeinstallation bringt zusätzlich Installationsanforderungen mit sich. Ein geeignet geprüfter Verteiler kann falsch angeschlossen oder in einer ungeeigneten Umgebung montiert werden. Umgekehrt macht eine formal kontrollierte Zuleitung die innere Kombination nicht automatisch konform. Für den Lernfall wird die Systemgrenze im Schaltbild markiert: Netzeinspeisung, Einspeiseklemmen, interne Stromkreise, Abgangsklemmen und weiterführende Installation. Für jeden Bereich wird eine zuständige Fachrolle und der relevante Nachweis benannt. Wer diese Trennung beherrscht, versteht besser, warum Projektierung, Fertigung, Anschluss und Kontrolle zusammenarbeiten müssen.
+
+Fachkapitel 8: Normzuordnung als Entscheidungsbaum.
+Eine zuverlässige Normrecherche beginnt nicht beim ersten Google-Treffer, sondern bei der technischen Beschreibung des Produkts. Ist die Kombination fest installiert oder mobil? Wird sie von Laien oder elektrotechnisch unterwiesenen Personen bedient? Ist sie für eine Baustelle, ein Wohngebäude oder eine Industrieanlage gedacht? Welche Bemessungsgrenzen gelten? Anschliessend werden die zutreffenden Anwendungsteile und nationalen Ergänzungen in aktueller Ausgabe bestimmt. Eine Tabelle dokumentiert Ausgangsannahmen, gefundene Quellen und offene Fragen. Der Lerneffekt besteht darin, die Norm nicht als Zahl auswendig zu können, sondern die richtige Fassung dem richtigen System zuzuordnen. Bei einer Normänderung muss auch der verwendete Dokumentstand nachgeführt werden.
+
+Fall 1: Fall 1 – Einzelgeräte mit CE-Zeichen.
+Ein Hersteller verwendet ausschliesslich Komponenten mit eigener Konformitätskennzeichnung und schliesst daraus, dass auch der gesamte Verteiler ohne weitere Prüfung konform sei. Diese Schlussfolgerung ist falsch. Der Zusammenbau kann neue Risiken durch Erwärmung, Verbindungen, Kurzschlusskräfte und Berührbarkeit erzeugen. Fachlich erforderlich ist die Beurteilung der Kombination mit den zutreffenden Systemnachweisen.
+
+Fall 2: Fall 2 – Unklare Bedienergruppe.
+Ein Verteiler wird in einem allgemein zugänglichen Korridor montiert. Im Pflichtenheft ist nicht angegeben, wer ihn bedienen darf. Diese Lücke ist relevant, weil Bedienergruppe und Zugänglichkeit die konstruktive Beurteilung beeinflussen können. Der Planer muss die Nutzung klären, bevor ein Anwendungsteil und ein geeignetes Gehäusekonzept verbindlich festgelegt werden.
+
+Fall 3: Fall 3 – Nachträglicher Abgang.
+Ein bereits nachgewiesener Verteiler soll um zwei zusätzliche stromstarke Abgänge ergänzt werden. Die Bauartannahmen können dadurch thermisch und hinsichtlich Strombelastung verändert werden. Eine unkritische Aussage „noch zwei freie Plätze vorhanden“ reicht nicht. Die erforderliche Prüfung betrachtet Gesamtstrom, gleichzeitig belastete Stromkreise und den nachgewiesenen Bereich der verwendeten Konstruktion.
+
+Fall 4: Fall 4 – Bauart oder Stück?
+Ein Prüfbericht zeigt, dass die gewählte Gehäusekonstruktion unter vorgesehenen Bedingungen thermisch geeignet ist. Das ist ein Beispiel für einen Bauartnachweis. Eine getrennte Prüfung entdeckt am gefertigten Exemplar eine unzureichend befestigte Leitung. Dies ist ein Stückthema. Beide Ergebnisse gehören zum Gesamtnachweis, aber sie dürfen nicht in einem unklaren Sammelfeld verschwinden.
+
+Fall 5: Fall 5 – Verantwortlichkeit.
+Ein Installationsbetrieb kauft eine unvollständige Kombination und rüstet darin weitere Geräte nach. Jetzt muss geklärt werden, wer die Verantwortung für die veränderte Kombination und ihre Nachweise übernimmt. Eine Rechnung für die zusätzlichen Komponenten beantwortet diese Frage nicht. Die Projektorganisation muss die Herstellerrolle und die erforderlichen Dokumente ausdrücklich festlegen.
+
+Fall 6: Fall 6 – Produkt versus Installation.
+Die Schaltgerätekombination wurde ordnungsgemäss nachgewiesen, aber ihr Anschlussleiter hat eine ungeeignete Schutzkoordination. Daraus folgt, dass die Kombination selbst und ihre Integration getrennt zu beurteilen sind. Eine positive Produktaussage deckt keinen fachlich falschen Installationsanschluss ab. Das Übergabeprotokoll muss diese Systemgrenzen erkennen lassen.
+
+Fall 7: Fall 7 – Dossieraufbau.
+Erstelle für eine beispielhafte industrielle Verteilung ein Inhaltsverzeichnis mit Pflichtenheft, Revisionsschemata, Geräteliste, Bemessungsdaten, Bauartnachweisbezug, Stücknachweis, Kennzeichnung und Übergabe. Beschreibe jeweils in einem Satz, welche Frage das Dokument beantwortet. So werden fehlende Nachweise schneller sichtbar als in einem unsortierten Dateiordner.
+
+Fall 8: Fall 8 – Normenrecherche.
+Du erhältst nur ein Foto eines Verteilers. Eine sichere Normzuordnung ist damit nicht vollständig möglich. Formuliere Rückfragen zu Verwendungszweck, Bedienung, Aufstellungsort, Bemessungsdaten und Hersteller. Erst danach kann die konkrete zutreffende Normenreihe und ihr Anwendungsteil in gültiger Originalausgabe bestimmt werden.
+
+Vertiefung 9: Zusatzfall – Vergleich zweier Bauarten.
+Ein Wohnungsverteiler und ein industrieller Energieverteiler enthalten ähnliche Schutzgeräte, werden aber unterschiedlich bedient und können verschiedene Anforderungen an Zugang, Bemessung, Kurzschlussfestigkeit und Wartung haben. In einer Vergleichstabelle werden Bedienergruppe, Einsatzort, typische Abgänge, Umgebung und mögliche Systemnormen gegenübergestellt. Die Musterlösung lautet nicht, dass die eine Bauart generell sicherer sei. Vielmehr muss jede konkrete Kombination für ihren vorgesehenen Zweck geeignet ausgelegt und nachgewiesen sein. Die gültige Normzuordnung wird nicht allein aus der Gehäusegrösse abgeleitet. Diese Übung verhindert, dass aus einem vertrauten Symbol auf dem Stromlaufplan vorschnell auf das vollständige Produktregelwerk geschlossen wird.
+
+Vertiefung 10: Zusatzfall – Herstellerwechsel bei einem Gerät.
+In einer bewährten Verteilung wird ein Leistungsschalter durch das Modell eines anderen Herstellers ersetzt. Sein aufgedruckter Nennstrom ist gleich. Dennoch können Bauform, Verlustleistung, Anschlussklemmen, Kurzschlussverhalten und zulässige Kombinationen anders sein. Der Bauartnachweis der bisherigen Konstruktion lässt sich deshalb nicht ohne weitere Prüfung als vollständig übertragbar behandeln. Die technische Änderung muss mit dem nachgewiesenen System, den Herstellerangaben und den relevanten Schnittstellen abgeglichen werden. Im Änderungsbericht werden die betroffenen Nachweise ausdrücklich genannt. Ein Bestand aus ausschliesslich einzeln gekennzeichneten Qualitätsprodukten ist noch keine automatisch geeignete Gesamtkombination.
+
+Vertiefung 11: Zusatzfall – Übergabedossier.
+Ein Schaltanlagenbauer liefert ein fertig bestücktes Gehäuse mit einem sauberen Stromlaufplan, aber ohne klare Angaben zum Stücknachweis. Die Installation kann damit nicht allein aufgrund ihrer optischen Qualität als vollständig nachgewiesen gelten. Der Auftraggeber fordert eine eindeutige Hersteller- und Geräteidentität, Bemessungsangaben, dokumentierte Prüfungen und die für den Anwendungsfall erforderlichen Nachweise. Auf der anderen Seite benötigt der Hersteller vom Planer den vorgesehenen Netzanschluss und die Betriebsbedingungen. Die Zusammenarbeit funktioniert nur, wenn Informationen in beide Richtungen fliessen. Der Lernfall verdeutlicht, dass gute Schnittstellenbeschreibung Teil der elektrischen Sicherheit ist.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

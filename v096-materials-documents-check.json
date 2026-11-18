@@ -1,0 +1,123 @@
+{
+  "version": "0.9.6",
+  "status": "limited automated tests; NO normative release",
+  "new_lessons": [
+    "1.05-A",
+    "1.05-B",
+    "1.05-C",
+    "1.06-A",
+    "1.06-B",
+    "1.06-C"
+  ],
+  "arithmetic_checks": [
+    {
+      "name": "Cu 20 m / 2.5 mm²",
+      "calculated": 0.13792,
+      "expected": 0.13792
+    },
+    {
+      "name": "Al 20 m / 2.5 mm²",
+      "calculated": 0.22608,
+      "expected": 0.22608
+    },
+    {
+      "name": "Al/Cu resistivity ratio",
+      "calculated": 1.63921114,
+      "expected": 1.63921
+    },
+    {
+      "name": "Cu 40 m / 2.5 mm²",
+      "calculated": 0.27584,
+      "expected": 0.27584
+    },
+    {
+      "name": "Cu 40 m / 5 mm²",
+      "calculated": 0.13792,
+      "expected": 0.13792
+    },
+    {
+      "name": "Cu 4 A voltage drop",
+      "calculated": 1.10336,
+      "expected": 1.10336
+    },
+    {
+      "name": "Cu 4 A line loss",
+      "calculated": 4.41344,
+      "expected": 4.41344
+    },
+    {
+      "name": "Cu 8 A line loss",
+      "calculated": 17.65376,
+      "expected": 17.65376
+    },
+    {
+      "name": "Cu 50K temperature change 20C to 70C",
+      "calculated": 0.11965,
+      "expected": 0.11965
+    },
+    {
+      "name": "Cu example 30 m return loop 1.5 mm²",
+      "calculated": 0.3448,
+      "expected": 0.3448
+    },
+    {
+      "name": "Cu example 30m 2A voltage drop",
+      "calculated": 0.6896,
+      "expected": 0.6896
+    },
+    {
+      "name": "Cu example 30m 2A line loss",
+      "calculated": 1.3792,
+      "expected": 1.3792
+    },
+    {
+      "name": "example Cu 100m 1 mm²",
+      "calculated": 1.724,
+      "expected": 1.724
+    },
+    {
+      "name": "8.4cm 1:50 real meters",
+      "calculated": 4.2,
+      "expected": 4.2
+    },
+    {
+      "name": "8.4cm at 70% print size",
+      "calculated": 5.88,
+      "expected": 5.88
+    },
+    {
+      "name": "wrong length after resized print, 1:50",
+      "calculated": 2.94,
+      "expected": 2.94
+    },
+    {
+      "name": "12V 24ohm current",
+      "calculated": 0.5,
+      "expected": 0.5
+    },
+    {
+      "name": "12V 24ohm power",
+      "calculated": 6.0,
+      "expected": 6
+    },
+    {
+      "name": "two 24-ohm parallel at 12V current",
+      "calculated": 1.0,
+      "expected": 1
+    },
+    {
+      "name": "two 24-ohm parallel at 12V power",
+      "calculated": 12,
+      "expected": 12
+    }
+  ],
+  "total_lecture_minutes": {
+    "1.05-A": 18.7,
+    "1.05-B": 16.9,
+    "1.05-C": 16.9,
+    "1.06-A": 16.3,
+    "1.06-B": 16.9,
+    "1.06-C": 18.1
+  },
+  "normative_approval": false
+}

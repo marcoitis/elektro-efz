@@ -1,4 +1,4 @@
-Wer trägt bei elektrischen Arbeiten welche Verantwortung?.
+Wer trägt bei elektrischen Arbeiten welche Verantwortung?
 
 Ein Elektroschema beschreibt den Stromkreis; ein sicherer Arbeitsauftrag beschreibt zusätzlich Menschen, Verantwortlichkeiten und Freigaben. In der Praxis scheitert Sicherheit oft nicht am fehlenden Messgerät, sondern an ungeklärter Zuständigkeit.
 
@@ -25,3 +25,85 @@ Du sollst ein Maschinenfeld nachrüsten. Ein Kollege sagt: „Die Sicherung habe
 Musterlösung.
 
 Ohne definierte verantwortliche Person und nachgewiesene sichere Arbeitsbedingungen beginnt die Arbeit nicht. Die Aussage „gestern“ liefert keinen verlässlichen aktuellen Schaltzustand. Erforderlich sind aktueller Anlagenzustand, eindeutige Trennstellen, mögliche Fremdversorgung und die geregelte Arbeitsfreigabe.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Du sollst ein Maschinenfeld nachrüsten. Ein Kollege sagt: „Die Sicherung habe ich gestern ausgeschaltet.“ Wer darf den Beginn freigeben und welche Informationen fehlen?
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Ohne definierte verantwortliche Person und nachgewiesene sichere Arbeitsbedingungen beginnt die Arbeit nicht. Die Aussage „gestern“ liefert keinen verlässlichen aktuellen Schaltzustand. Erforderlich sind aktueller Anlagenzustand, eindeutige Trennstellen, mögliche Fremdversorgung und die geregelte Arbeitsfreigabe.
+
+Möglicher sicherer Übungsauftrag: Übe das an einer Papier-Gefährdungsbeurteilung; keine Schalthandlungen an realen Anlagen.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ersetzt die klare Zuordnung der Arbeitsverantwortung? Die richtige Antwort lautet: Nichts – die Rollen müssen festgelegt sein. Warum? Eine Qualifikation ersetzt keine organisatorische Arbeitsfreigabe.
+
+Frage 2: Ein ungekennzeichneter Einspeisepunkt wird entdeckt. Was ist richtig? Die richtige Antwort lautet: Arbeit stoppen und klären. Warum? Unklare Energiequellen erfordern Unterbrechung und erneute Klärung.
+
+Frage 3: Wofür ist die Übergabe eines aktuellen Schaltzustands wichtig? Die richtige Antwort lautet: Für sichere Kommunikation und Arbeitsfreigabe. Warum? Die Information muss für alle Beteiligten eindeutig sein.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Zuständigkeit ist eine Sicherheitsmassnahme.
+Ein Auftrag kann technisch einfach wirken und trotzdem gefährlich sein, wenn niemand die Verantwortung für das Schalten, die Arbeitsstelle oder die anschliessende Freigabe übernimmt. Ein sicherer Arbeitsplan beginnt daher mit den Rollen: Wer verantwortet die Anlage im Betrieb, wer koordiniert die konkrete Arbeit, wer führt die Tätigkeit aus, und wer dokumentiert die Prüfung? Die Benennungen hängen vom jeweils geltenden Regelwerk ab; entscheidend ist ihre klare Zuordnung zu Personen und Tätigkeiten. Eine Teamsitzung ohne Aufgabenprotokoll ist kein genügender Nachweis. Für eine fiktive Reparatur werden die Rollennamen deshalb auf die Einsatzplanung geschrieben, mit Stellvertretung und erreichbarer Kontaktperson. Das Ziel ist nicht Bürokratie, sondern die Vermeidung gefährlicher Annahmen zwischen zwei Teams.
+
+Fachkapitel 2: Fachkunde und gesetzliche Bewilligung.
+Technisches Können und gesetzliche Berechtigung sind verschiedene Voraussetzungen. Eine Person kann eine elektrische Schaltung erklären, ohne die Voraussetzungen zu erfüllen, um Installationsarbeiten eigenverantwortlich auszuführen. In der Schweiz sind für das Erstellen, Ändern, Instandstellen und Kontrollieren von Niederspannungsinstallationen die anwendbaren NIV-Bestimmungen und die jeweilige Bewilligungssituation massgebend. Zudem kommt es auf konkrete Tätigkeit und Verantwortungsbereich an. Das Modell lautet: erst Arbeit beschreiben, dann Gefährdung beurteilen, dann benötigte Qualifikation und Bewilligung feststellen, zuletzt die organisatorische Freigabe dokumentieren. Wer diesen Ablauf umdreht und aus dem Berufstitel pauschal jede Aufgabe freigibt, verwechselt persönliche Erfahrung mit rechtsverbindlicher Zuständigkeit.
+
+Fachkapitel 3: Anlagenverantwortung und Arbeitsverantwortung.
+Bei einem Standort mit laufender Produktion entscheidet eine Person über die betrieblichen Rahmenbedingungen der elektrischen Anlage, während eine andere die Durchführung einer konkreten Arbeit koordiniert. Beide Blickwinkel müssen zusammenkommen. Der Anlagenbetrieb weiss beispielsweise, welche Produktionslinie unterbrechungsfrei bleiben muss, welche Notversorgung vorhanden ist und welche Rückspeisungen auftreten können. Die Arbeitskoordination braucht dagegen konkrete Angaben zu Arbeitsbereich, Beteiligten, Werkzeugen und dem herzustellenden sicheren Zustand. Ohne Übergabe kann ein formal korrekt freigegebener Arbeitsauftrag in einer tatsächlich veränderten Anlage landen. Die Lektion trainiert deshalb die Übergabefrage: Welche betrieblichen Zustände und Änderungen muss die Arbeitsleitung vor Beginn kennen?
+
+Fachkapitel 4: Auftrag und Arbeitsgrenze.
+Eine gute Arbeitsanweisung beschreibt eindeutig, welche Teile bearbeitet werden und welche unverändert bleiben. Nimm als Lernmodell eine Maschine mit zwei elektrischen Einspeisungen, einer separaten Steuerstromversorgung und einem angeschlossenen Datensystem. Der Satz „Schaltschrank prüfen“ ist unzureichend, weil er keine Grenze definiert. Präziser ist: Dokumentation und Sichtzustand des bezeichneten 24-Volt-Steuerkreises beurteilen; Arbeiten an der Hauptverteilung sind nicht Teil dieses Auftrags. Diese Begrenzung vermeidet unbeabsichtigte Eingriffe und erleichtert die Wahl geeigneter Schutzmassnahmen. Wenn die tatsächliche Anlage vom Plan abweicht, wird die Arbeit neu beurteilt und nicht improvisierend ausgeweitet.
+
+Fachkapitel 5: Schnittstelle zwischen Gewerken.
+An einer PV-Anlage können Dachbau, Elektroinstallation, Gerüstbau, Wechselrichtermontage und Netzanschluss voneinander abhängen. Ein Team kann mechanisch fertig sein, während die elektrische Schutzbewertung noch offen ist. Damit niemand von einem unzulässigen Zustand ausgeht, wird jede Übergabe mit Zustand, offenen Punkten und Freigabeberechtigung dokumentiert. Ein fehlendes Prüfprotokoll wird nicht durch die Aussage „die Kollegen haben es angeschaut“ ersetzt. Dieselbe Regel gilt in Industrieanlagen, wenn Mechanik und Elektrik parallel arbeiten. Besonders wichtig ist, die Freigabe zum Betreten einer Baustelle nicht mit der Freigabe zum Arbeiten an elektrischen Einrichtungen zu verwechseln.
+
+Fachkapitel 6: Änderungen während der Arbeit.
+Wenn während der Durchführung ein unbekanntes Kabel gefunden wird, ein Plan nicht stimmt oder ein zusätzlicher Einspeisepfad auftaucht, ändert sich die Gefährdungsbeurteilung. Die sichere Reaktion ist eine Unterbrechung der betroffenen Tätigkeit und eine erneute fachkundige Klärung, nicht das blosse Ergänzen einer Notiz am Feierabend. Erst wenn Zuständigkeit, Zustand und neuer Umfang geklärt sind, kann die verantwortliche Stelle eine angepasste Freigabe erteilen. Diese Fähigkeit ist auch für Führungsaufgaben wichtig: Ein Projektleiter darf Termindruck nicht als sachliche Begründung verwenden, Sicherheitsrollen zu überspringen. Führe dafür ein einfaches Änderungsprotokoll mit Anlass, Risiko, Entscheid und Unterschrift.
+
+Fachkapitel 7: Kontrolle und Unabhängigkeit.
+Die Erstellung einer Installation und deren kontrollierende Bewertung sind nicht immer dieselbe Aufgabe derselben Person. Die NIV regelt für bestimmte Fälle die erforderliche Kontrollberechtigung und Unabhängigkeit. In der Unterrichtssimulation muss deshalb zwischen Eigenkontrolle, Schlusskontrolle, Abnahmekontrolle und periodischer Kontrolle unterschieden werden, ohne diese Begriffe als beliebig austauschbar zu verwenden. Wer eine Installation vorbereitet, darf nicht allein aus persönlichem Vertrauen auf den Kollegen schliessen, dass alle rechtlichen Prüfschritte erfüllt seien. Das Projekt prüft die konkrete Kontrollart anhand offizieller ESTI- und Verordnungstexte und dokumentiert, wer die jeweilige Bescheinigung ausstellen darf.
+
+Fachkapitel 8: Freigabe und Rückgabe an den Betrieb.
+Nach Arbeiten ist der technische Zustand zu erfassen und die Anlage geordnet an die Betriebsverantwortlichen zurückzugeben. Dazu gehören offene Mängel, bereits erledigte Arbeiten, Änderungen an Dokumentation und die Ergebnisse der vorgesehenen Prüfungen. Die Aussage „läuft wieder“ beschreibt lediglich eine Beobachtung, keine vollständige Sicherheitsfreigabe. Im Lernmodell wird vor einer Rückgabe ein Bericht mit Gerätenummer, Arbeitsumfang, Sicherheitsmassnahmen, Prüfergebnissen, Abweichungen und zuständiger Freigabeperson erstellt. Die spätere Betriebsschicht kann sich so auf eindeutige Informationen stützen. Das reduziert Fehler durch mündliche Überlieferung und verhindert, dass ein unvollständig geprüfter Zustand stillschweigend zum Normalbetrieb wird.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Zwei Teams, keine Leitung.
+Ein Elektrikerteam und eine mechanische Instandhaltung arbeiten gleichzeitig an derselben Anlage. Beide glauben, das andere Team habe die Gesamtkoordination. Als Lösung wird vor Beginn eine klare Anlagen- und Arbeitskoordination festgelegt, mit dokumentierter Sperr- und Rückgabeorganisation. Ohne diese Klärung bleibt die Arbeit am betroffenen Anlagenteil ausgesetzt.
+
+Fall 2: Titel statt Bewilligung.
+Eine erfahrene Ingenieurin soll eine Gebäudeinstallation ändern. Begründe, weshalb technische Erfahrung und Hochschulabschluss die NIV-Bewilligung nicht automatisch ersetzen. Die entsprechende Tätigkeit und die betrieblichen beziehungsweise persönlichen Bewilligungsvoraussetzungen sind konkret beim zuständigen Regelwerk zu klären; bis dahin keine eigenverantwortliche Ausführung.
+
+Fall 3: Unbekannte Rückspeisung.
+Beim Öffnen eines Planordners wird eine neue PV-Rückspeisung entdeckt, die im Arbeitsauftrag fehlt. Dokumentiere die Änderung und veranlasse eine erneute Prüfung der Energiequellen. Der ursprüngliche Auftrag ist nicht unverändert weiterzuführen. Die Lösung bewertet besonders, ob die Rollen neu informiert und die Arbeitsgrenzen angepasst wurden.
+
+Fall 4: Anlagenübergabe ohne Protokoll.
+Nach einem Umbau wird telefonisch mitgeteilt, die Anlage sei bereit. Frage nach Prüf- und Revisionsunterlagen, offenen Mängeln, tatsächlich freigegebenen Teilanlagen und der zuständigen Person. Ein Telefonat allein ist keine belastbare technische Zustandsbeschreibung. Formuliere eine kurze schriftliche Rückfrage, die ohne Vorwurf die nötigen Nachweise einfordert.
+
+Fall 5: Beaufsichtigte Lernübung.
+Eine Lernende soll im Ausbildungsraum an einem ungefährlichen Kleinspannungsmodell eine Funktion prüfen. Beschreibe Aufgabenbegrenzung, Aufsicht, freigegebene Spannungsversorgung, Prüfziel und Dokumentation. Erkläre, warum das erfolgreiche Modellversuchsergebnis weder eine allgemeine Installationsbewilligung noch eine Freigabe für 230-Volt-Arbeiten bedeutet.
+
+Fall 6: Termindruck nach Planänderung.
+Der Projektleiter verlangt, die Arbeit trotz unklarer Schaltplanrevision fortzusetzen. Formuliere einen fachlichen Entscheid: Arbeitsbereich unverändert gesichert lassen, Planabweichung dokumentieren, zuständige Arbeits- und Anlagenverantwortliche einbeziehen und erst nach Klärung weiterarbeiten. Ein Terminverlust ist zu begründen, aber kein Ersatz für Sicherheit.
+
+Fall 7: Koordination im Schichtbetrieb.
+Eine Produktionsanlage wird morgens von Team A und abends von Team B betreut. Während der ersten Schicht ist ein Arbeitsbereich gesichert; nachmittags ändert sich der Produktionsplan. Wer darf über die betroffenen Sicherheitsmassnahmen entscheiden? Die Lernantwort verlangt eine dokumentierte Übergabe der Rollen und Zustände. Es reicht nicht, dass Schicht B den Auftrag im Kalender sieht. Vermerke Anlagenteil, Arbeit, beteiligte Personen, noch bestehende Sicherungen, ausstehende Kontrollen und die zuständige Freigabeperson. So lässt sich verhindern, dass der neue Schichtleiter aus einer fehlenden Warnung fälschlich auf einen freigegebenen Zustand schliesst. Der Fall ist bewusst organisatorisch und beschreibt keine praktische Schalthandlung.
+
+Fall 8: Externer Dienstleister.
+Ein externer Monteur soll eine Produktionsmaschine prüfen. Der Betreiber kennt seine Ausbildung, hat aber noch keine Dokumentation seiner aktuellen Aufgabenberechtigung und der betrieblichen Koordination. Entwirf einen Freigabeprozess: konkrete Arbeit und Anlage festlegen, Qualifikation und erforderliche Bewilligung klären, Ansprechpartner beider Betriebe benennen und die Gefährdungssituation gemeinsam beurteilen. Aus einem guten Ruf oder einer früheren Zusammenarbeit folgt keine pauschale aktuelle Berechtigung. Prüfe, ob zusätzlich Maschinenrecht oder Bedingungen für den Netzanschluss betroffen sind. Das Ergebnis ist eine eindeutig abgegrenzte, nachvollziehbar zugeordnete Tätigkeit.
+
+Fall 9: Änderung auf dem Bauplatz.
+Während der Rohbauphase werden Kabeltrassen wegen eines Lüftungskanals versetzt. Dadurch liegt eine Leitung in der Nähe eines anderen Gewerks. Analysiere, wer die neue Führung beurteilen muss und welche Unterlagen anzupassen sind. Die Arbeitskoordination betrifft nicht nur Elektrofachpersonen, sondern auch bauleitende und ausführende Teams. Eine Planrevision muss den realen Zustand abbilden; offene Schutz- und Brandschutzfragen müssen vor der entsprechenden Verdeckung geklärt sein. Eine informelle Absprache beim Mittagessen liefert dafür keinen ausreichenden Nachweis.
+
+Fall 10: Rückgabe nach Teilreparatur.
+Ein elektrischer Defekt konnte an einer Maschine nur teilweise behoben werden. Einzelne Funktionen sind wieder nutzbar, andere bleiben gesperrt. Welche Rückgabeform ist fachlich angemessen? Der Prüfbericht trennt die freigegebenen Funktionen von den weiterhin gesperrten Bereichen. Es werden verbleibende Risiken, notwendige Nacharbeiten, zuständige Person und nächste Prüfschritte dokumentiert. Der Betreiber erhält keine pauschale Aussage „Maschine wieder gut“. Die Musterlösung bewertet, ob das Team einen Teilzustand ehrlich und für die Nachtschicht verständlich beschreibt.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

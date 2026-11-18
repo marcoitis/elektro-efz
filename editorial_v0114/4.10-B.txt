@@ -1,0 +1,98 @@
+Lektion 4.10-B: Elektrotechnik und Systemtechnik mündlich erklären. Bei mündlichen Aufgaben ist die fachlich saubere Sprache wichtig. Strom, Spannung, Leistung, Energie und Leistungsfaktor dürfen nicht vermischt werden. Eine Skizze kann beispielsweise den Unterschied zwischen Serien- und Parallelschaltung oder zwischen Stern- und Dreieckschaltung verdeutlichen. Auch ein unerwarteter Zahlenwert muss auf Plausibilität geprüft werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Wähle zufällig drei Themen aus Ohmschem Gesetz, RLC, Drehstrom, Transformator und PV-Stringplanung. Erkläre jedes Thema fünf Minuten lang mit einer Formel und einem Praxisbeispiel. Nenne abschliessend eine typische Fehlerannahme. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein verständlicher Aufbau zeigt, ob ein Konzept wirklich verstanden wurde. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Anlagedokumentation und Installationspläne; Elektrotechnik und Elektronik. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: BiVo2015 Wegleitung QV BK Pos. 1,2,6; EIT Musterserien. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Anlagedokumentation und Installationspläne; Elektrotechnik und Elektronik.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was gehört zu einer überzeugenden technischen Erklärung?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Ein verständlicher Aufbau zeigt, ob ein Konzept wirklich verstanden wurde.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Mindestens vier simulierte mündliche Prüfungsgespräche; 20 Minuten je Session mit fachkundiger Person. Halte zusätzlich die Antwort auf die Frage «Was gehört zu einer überzeugenden technischen Erklärung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört zu einer überzeugenden technischen Erklärung? Die richtige Antwort lautet: Begriff, Zusammenhang, Beispiel und Grenzen. Warum? Ein verständlicher Aufbau zeigt, ob ein Konzept wirklich verstanden wurde.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein verständlicher Aufbau zeigt, ob ein Konzept wirklich verstanden wurde.. Warum? Der Merksatz lautet: Ein verständlicher Aufbau zeigt, ob ein Konzept wirklich verstanden wurde.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Komplexe Technik in verständliche Sprache übersetzen.
+Im mündlichen Fachgespräch reicht das Nennen einer Formel nicht aus. Du musst die physikalische Bedeutung der Grössen, die Annahmen und die Grenzen erläutern. Bei U gleich R mal I solltest Du beispielsweise erklären, weshalb für einen ohmschen Widerstand bei gleichbleibendem R die Stromstärke mit der Spannung zunimmt. Diese Aussage ist von einer allgemeinen Regel für alle elektronischen Bauteile zu unterscheiden. Formuliere zu jeder Formel einen Satz in Alltagssprache, ein Symbolbild und ein Zahlenbeispiel. Wer zwischen Definition, Wirkung und Beispiel wechseln kann, zeigt belastbares Verständnis statt mechanisches Auswendiglernen.
+
+Fachkapitel 2: Leistung und Energie sauber trennen.
+Leistung wird in Watt, Energie in Wattstunden beziehungsweise Kilowattstunden angegeben. Ein 2-Kilowatt-Heizgerät, das drei Stunden mit konstanter Leistung betrieben wird, benötigt im Modell sechs Kilowattstunden elektrische Energie. Wenn der Strompreis angenommene 0,30 Franken je Kilowattstunde beträgt, belaufen sich die reinen Energiekosten auf 1,80 Franken. Die tatsächliche Rechnung kann Netzentgelte, Grundgebühren und zeitabhängige Tarife enthalten. Im Fachgespräch zeigst Du zuerst die Einheit und die Zeitabhängigkeit. Ein häufiger Fehler ist, aus 2 Kilowatt Leistung direkt 2 Kilowattstunden Verbrauch abzuleiten, ohne den betrachteten Zeitraum zu nennen.
+
+Fachkapitel 3: Wechselstrom und komplexe Impedanz.
+Bei einer rein ohmschen Last sind Spannung und Strom idealerweise in Phase. Bei idealen Induktivitäten und Kapazitäten treten Phasenverschiebungen auf; in realen Anlagen überlagern sich diese Effekte. Die Impedanz lässt sich in einem einfachen Serien-RLC-Modell über den Wirk- und Blindanteil darstellen. Nehmen wir 20 Ohm Widerstand und plus 15 Ohm induktive Reaktanz, beträgt der Betrag der Impedanz nach Pythagoras 25 Ohm. Bei 100 Volt Effektivspannung fliesst modellhaft ein Strom von vier Ampere. Erkläre, warum 20 plus 15 gleich 35 Ohm hier nicht der richtige Betrag ist. Phasoren und komplexe Zahlen sind die passende Sprache.
+
+Fachkapitel 4: Drehstromleistung und Voraussetzungen.
+Für symmetrische sinusförmige Drehstromlasten lässt sich die Wirkleistung unter passenden Annahmen als Wurzel aus drei mal Leiterspannung mal Leiterstrom mal Leistungsfaktor berechnen. Setzen wir 400 Volt, 8 Ampere und cos φ gleich 0,85 an, ergibt sich rund 4,71 Kilowatt. Die Formel darf nicht ohne zusätzliche Überlegungen auf stark unsymmetrische oder verzerrte Betriebszustände übertragen werden. Erkläre die Unterschiede zwischen Stern- und Dreieckschaltung und halte fest, wann Leiterspannung beziehungsweise Strangspannung gemeint ist. Eine präzise Bezeichnung der Grössen verhindert die meisten Fehler bei mündlich vorgerechneten Drehstromaufgaben.
+
+Fachkapitel 5: Transformator und Wirkungsgrad.
+Ein idealer Transformator verändert Wechselspannungen entsprechend dem Windungsverhältnis. Eine Primärspannung von 230 Volt an einer Wicklung mit 1’000 Windungen und einer Sekundärwicklung mit 200 Windungen ergibt idealisiert 46 Volt sekundär. Die elektrische Leistung bleibt im verlustfreien Modell erhalten. Ein realer Transformator hat jedoch Kupfer-, Eisen- und andere Verluste. Wenn seine Eingangsleistung 500 Watt und seine Ausgangsleistung 450 Watt beträgt, ist der Wirkungsgrad 90 Prozent. Erkläre die Richtung des Energieflusses und warum der Wirkungsgrad nicht grösser als eins sein kann. Nenne zugleich die Grenzen eines reinen Spannungsübersetzungsmodells.
+
+Fachkapitel 6: Fehlerstrompfad und Netzsystem.
+Ein gezeichnetes Metallgehäuse mit Schutzleiter erklärt erst dann ein Schutzkonzept, wenn der Rückweg des Fehlerstroms erkennbar ist. Im TN-System kann ein niederohmiger metallischer Rückweg entstehen, während im TT-System Erdungswiderstände eine grössere Rolle spielen. Im IT-System muss der erste Fehler anders betrachtet werden. Das Fachgespräch verlangt keine eigenmächtige Messung, sondern die Fähigkeit, aus einer Skizze die erwartete Fehlerwirkung abzuleiten. Gehe systematisch von Quelle, Fehlerstelle, Rückweg, Schutzorgan und Prüfung aus. So bleibt die Darstellung trotz anspruchsvoller Normenfragen nachvollziehbar.
+
+Fachkapitel 7: Photovoltaik als Anwendung bekannter Formeln.
+Ein PV-Modul liefert elektrische Gleichstromleistung aus Spannung mal Strom an seinem Arbeitspunkt. Wenn im Modell ein String 320 Volt bei 10 Ampere liefert, ergibt das 3,2 Kilowatt DC-Leistung. Ein Wechselrichter mit angenommener momentaner Umwandlungseffizienz von 96 Prozent könnte daraus modellhaft etwa 3,07 Kilowatt AC-Leistung bereitstellen. Das ist keine Ertragsgarantie, weil Einstrahlung, Temperatur, Betriebsgrenzen und weitere Verluste berücksichtigt werden müssen. Im Fachgespräch kannst Du anhand dieses Beispiels zeigen, dass dieselben Grundlagen zu Leistung und Wirkungsgrad auch in einem komplexeren Energiesystem gelten.
+
+Fachkapitel 8: Messwertplausibilität demonstrieren.
+Angenommen, ein Lernender rechnet für einen 12-Volt-Verbraucher mit 24 Watt Leistung einen Strom von 0,2 Ampere aus. Die Grössenordnung ist falsch, denn 24 geteilt durch 12 ergibt 2 Ampere. Eine kurze Rückprobe über U mal I hätte den Fehler erkannt. Nutze diese Methode bei jedem Rechenbeispiel: Einheiten prüfen, Ergebnis einsetzen, physikalische Grenzen betrachten und auf eine zweite Weise abschätzen. Gerade im mündlichen Fachgespräch wirkt ein nachvollziehbarer Kontrollschritt überzeugender als eine hektisch vorgerechnete Zahl ohne Erklärung.
+
+Fachkapitel 9: Vom Fachtext zum Dreiminutenvortrag.
+Bereite zu einem Thema eine Miniaturlektion vor: eine Definition, ein Schema, eine Formel, ein Zahlenbeispiel, eine Grenzannahme und eine Kontrollfrage. Übe dies mit einem Timer und zeichne den Zusammenhang während des Sprechens auf Papier. Beim Thema Induktion wäre die Wirkungskette zeitliche Flussänderung, induzierte Spannung und mögliche Anwendung in Transformator oder Generator. Beim Thema RCD wäre es die Summenstrombildung, die Differenz und die auszulösende Schutzfunktion. Eine bewusst einfache Erklärung ohne falsche Vereinfachung ist das Ziel. Überlasse sicherheitsrelevante Freigabewerte der aktuellen Originalnorm und fachkundigen Prüfung.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Spannung und Strom.
+Ein ohmscher 40-Ohm-Widerstand liegt am 12-Volt-Modell. Strom 12 durch 40 gleich 0,3 Ampere; Leistung 12 mal 0,3 gleich 3,6 Watt. Rückprobe über I²R ergibt 0,09 mal 40 = 3,6 Watt.
+
+Aufgabe 2: RLC-Impedanz.
+R gleich 12 Ohm und XL gleich 16 Ohm, ohne Kapazitätsanteil. Impedanzbetrag Wurzel aus 144 plus 256 gleich 20 Ohm. Bei 100 Volt folgen fünf Ampere im Modell.
+
+Aufgabe 3: Drehstromrechnung.
+400 Volt, 10 Ampere, cos φ gleich 0,9. P rund 6,24 Kilowatt bei symmetrischer Sinuslast. Voraussetzung ausdrücklich nennen.
+
+Aufgabe 4: Trafo.
+230 Volt primär, Verhältnis N1 zu N2 gleich 5:1. Ideal ergibt sich sekundär 46 Volt. Verluste und Belastung sind nicht Teil dieser einfachen Rechnung.
+
+Aufgabe 5: PV-Wirkungsgrad.
+Vier Kilowatt DC und angenommene 95 Prozent Umwandlungseffizienz ergeben 3,8 Kilowatt AC. Differenz 0,2 Kilowatt als modellhafte Verlustleistung in diesem Betriebspunkt.
+
+Aufgabe 6: Fehler im Ergebnis.
+Eine Rechnung ergibt 0,4 Ampere für 120 Watt an 12 Volt. Lösung: P gleich U mal I verlangt 10 Ampere. Einheiten und Rückprobe zeigen den Zehnerfehler.
+
+Vertiefende Fallanalyse 1: Mündliche Erklärung zur Wechselstromleistung.
+Ein Prüfer legt eine Wechselstromlast mit 230 Volt Effektivspannung, vier Ampere und einem Leistungsfaktor von 0,8 vor. Die Scheinleistung beträgt 920 VA, die Wirkleistung im sinusförmigen Modell 736 Watt. Die Blindleistungsgrösse ergibt sich aus dem Leistungsdreieck zu 552 var, sofern die genannten Modellannahmen gelten. Erkläre den Unterschied zwischen den drei Einheiten und zeige, warum 920 VA nicht automatisch als 920 Watt bezahlt beziehungsweise umgesetzt werden. Die konkrete Energiemessung kann weitere Eigenschaften der realen Last berücksichtigen. Diese verständliche Abgrenzung ist in Prüfungsgesprächen häufig wichtiger als die reine Zahlenoperation.
+
+Vertiefende Fallanalyse 2: Kurzvortrag Transformator.
+Erkläre einem fachfremden Kunden, warum ein Transformator aus 230 Volt 24 Volt machen kann, ohne gleichzeitig neue Energie zu erzeugen. Im idealen Modell sinkt die Spannung entsprechend dem Übersetzungsverhältnis, während der verfügbare Strom bei gleicher Leistung entsprechend anders ausfällt. Real entstehen Verluste und Erwärmung. Nenne als Beispiel einen Transformator mit 240 VA Nennleistung und 24 Volt sekundär: Die nominelle Sekundärstromgrösse ist zehn Ampere, sofern die relevanten Betriebsbedingungen erfüllt sind. Die eigentliche Geräteauswahl folgt Datenblatt, Einschaltdauer und geeigneten Schutzmassnahmen.
+
+Vertiefende Fallanalyse 3: Drehstrom mit Einheitenkontrolle.
+Ein symmetrischer Drehstromverbraucher wird mit 400 Volt Leiterspannung, sechs Ampere Leiterstrom und Leistungsfaktor 0,9 angegeben. Die Modellwirkleistung beträgt Wurzel aus drei mal 400 mal 6 mal 0,9, also ungefähr 3,74 Kilowatt. Verwechsle bei der Erläuterung nicht die Strangspannung mit der Leiterspannung. Die Antwort soll einen kleinen Stern- oder Dreieckskontext benennen und die Annahme einer symmetrischen sinusförmigen Last ausdrücklich ausweisen. Ein Ergebnis ohne diese Begriffe wäre zwar möglicherweise numerisch richtig, aber fachlich unvollständig.
+
+Vertiefende Fallanalyse 4: Systemtechnik als Ursache-Wirkungs-Modell.
+Eine Gebäudeautomation schaltet eine Leuchte trotz erkannter Bewegung nicht ein. Erkläre die Fehlersuche als Signalweg: Sensorzustand, Buskommunikation, logische Sperre, Aktorbefehl, Rückmeldung und tatsächlicher Ausgang. Der Fehler kann an jedem dieser Punkte liegen. Eine reine Aussage „Sensor defekt“ wäre unbelegt. Schreibe zu jedem Schritt, welche sichere Beobachtung oder vorhandene Dokumentation den Zustand belegen könnte. So wird aus einem vermeintlich kleinen Funktionsproblem ein nachvollziehbarer systemtechnischer Diagnoseprozess. Schutzrelevante Funktionen müssen dabei gesondert betrachtet werden.
+
+Vertiefende Fallanalyse 5: Technisches Fachgespräch über mehrere Disziplinen.
+Verknüpfe abschliessend drei Beispiele: Ein PV-String erzeugt Gleichstromleistung, der Wechselrichter wandelt sie in Wechselstrom um und die Gebäudeautomation entscheidet über einen Teil der Verbrauchersteuerung. Erkläre, dass Energieumwandlung, elektrische Schutzmassnahmen und logische Betriebsentscheidungen unterschiedliche Aufgaben darstellen. Eine hohe PV-Leistung garantiert weder die Eignung der elektrischen Schutzorgane noch die Korrektheit der Steuerungslogik. Der Systemblick verbindet diese Ebenen, ohne sie zu vermischen. Diese Fähigkeit ist im Fachgespräch wertvoll, weil komplexe Anlagen nicht mehr aus einer einzigen Gerätetechnologie bestehen.
+
+Mündliche Abschlussaufgabe und Transfer.
+Beende die Lektion mit einem vollständigen Mini-Fachgespräch über eine 12-Volt-Lernleuchte mit 24 Watt Aufnahmeleistung. Berechne den idealisierten Strom mit 24 geteilt durch 12 gleich zwei Ampere. Angenommen, ein vorgeschalteter Wandler hat einen Wirkungsgrad von 90 Prozent, dann beträgt die Eingangsleistung für diese Abgabe etwa 26,7 Watt. Erkläre, warum die Eingangsleistung höher als die Ausgangsleistung ist und welche Annahmen Du getroffen hast. Zeichne anschliessend ein Blockbild aus Energiequelle, Wandler und Last und nenne je einen möglichen Messpunkt. Die mündliche Antwort muss aus verständlicher Beschreibung, Formel, Rückprobe und Grenzen bestehen; reale Installationsfreigaben folgen nicht aus diesem Modell allein.

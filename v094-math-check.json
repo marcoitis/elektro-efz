@@ -1,0 +1,126 @@
+{
+  "count": 20,
+  "scope": "Rechenmodelle und exemplarische arithmetische Werte, nicht Normenkonformität",
+  "tests": [
+    {
+      "proof": "1.03-A: 5 V / 1000 Ohm = 5 mA",
+      "calculated": 0.005,
+      "expected": 0.005,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-A: 5 mA * 20 s = 0.1 C",
+      "calculated": 0.1,
+      "expected": 0.1,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-C: 12 V / 24 Ohm = 0.5 A",
+      "calculated": 0.5,
+      "expected": 0.5,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-C: 6 W / 6 = 1 Wh",
+      "calculated": 1.0,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-C: 12 V at 6.3 Ohm = 1.90476 A",
+      "calculated": 1.904762,
+      "expected": 1.904762,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-C: line loss = 1.088W",
+      "calculated": 1.088435,
+      "expected": 1.088435,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-D: 1M parallel 10M = 0.909 MOhm",
+      "calculated": 0.909091,
+      "expected": 0.9090909,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-D: loaded divider = 4.7619 V",
+      "calculated": 4.761905,
+      "expected": 4.76190476,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.03-D: 12V/121 Ohm = 99.17 mA",
+      "calculated": 0.099174,
+      "expected": 0.09917355,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-A: series 100+200 = 300 Ohm",
+      "calculated": 300,
+      "expected": 300,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-A: 9V parallel 100||200 = 135 mA",
+      "calculated": 0.135,
+      "expected": 0.135,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-A: 6||3 = 2 Ohm",
+      "calculated": 2.0,
+      "expected": 2,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-B: unloaded divider (12V 2k+1k) = 4 V",
+      "calculated": 4.0,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-B: loaded divider (1k||1k) = 2.4 V",
+      "calculated": 2.4,
+      "expected": 2.4,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-B: 10 V loaded (1k||2k) = 4 V",
+      "calculated": 4.0,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-C: copper 20m at 1.5mm² = 0.23733 Ohm",
+      "calculated": 0.237333,
+      "expected": 0.2373333,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-C: 2A line drop = .47467 V",
+      "calculated": 0.474667,
+      "expected": 0.4746667,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-C: 2A line loss = .9493 W",
+      "calculated": 0.949333,
+      "expected": 0.9493333,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-C: 12/6.3 Ohm model = 1.90476 A",
+      "calculated": 1.904762,
+      "expected": 1.9047619,
+      "status": "PASS"
+    },
+    {
+      "proof": "1.04-C: copper at 60C from 20C = 0.23144 Ohm",
+      "calculated": 0.23144,
+      "expected": 0.23144,
+      "status": "PASS"
+    }
+  ]
+}

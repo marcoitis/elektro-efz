@@ -1,1 +1,95 @@
-Lektion 4.03-A: Lastprofile, Eigenverbrauch und Energieflüsse. Ein Haus mit PV-Anlage bezieht und liefert Energie je nach Tageszeit. Die Jahresbilanz allein erklärt nicht, wie viel eigener Solarstrom direkt verbraucht wird. Dazu müssen Erzeugungs- und Verbrauchsprofile zeitgleich betrachtet werden. Batterien verschieben Energie, erzeugen sie aber nicht und verursachen Umwandlungs- sowie Speicherverluste. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle eine 24-Stunden-Tabelle mit stündlicher PV-Produktion und Haushaltslast. Berechne pro Stunde Direktverbrauch als kleineren Wert von Erzeugung und Verbrauch und summiere anschliessend Netzbezug und Überschuss. Vergleiche mit einer einfachen Tagesenergiesumme. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Zeitgleiche Leistung ist für Eigenverbrauch wichtiger als die reine Jahresbilanz. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Lastprofile und Energiefluss über 24 Stunden; PV-Eigenverbrauch, Batteriespeicher und Wechselrichterkopplung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; E S T I 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.03-A: Lastprofile, Eigenverbrauch und Energieflüsse. Ein Haus mit PV-Anlage bezieht und liefert Energie je nach Tageszeit. Die Jahresbilanz allein erklärt nicht, wie viel eigener Solarstrom direkt verbraucht wird. Dazu müssen Erzeugungs- und Verbrauchsprofile zeitgleich betrachtet werden. Batterien verschieben Energie, erzeugen sie aber nicht und verursachen Umwandlungs- sowie Speicherverluste. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle eine 24-Stunden-Tabelle mit stündlicher PV-Produktion und Haushaltslast. Berechne pro Stunde Direktverbrauch als kleineren Wert von Erzeugung und Verbrauch und summiere anschliessend Netzbezug und Überschuss. Vergleiche mit einer einfachen Tagesenergiesumme. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Zeitgleiche Leistung ist für Eigenverbrauch wichtiger als die reine Jahresbilanz. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Lastprofile und Energiefluss über 24 Stunden; PV-Eigenverbrauch, Batteriespeicher und Wechselrichterkopplung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; ESTI 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Lastprofile und Energiefluss über 24 Stunden; PV-Eigenverbrauch, Batteriespeicher und Wechselrichterkopplung.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Ideale Ladezeit. Ein Speicher benötigt 44 kWh; die konstante Ladeleistung sei 11 kW.
+
+Schritt 1. Ideale Zeit: t = E / P.
+
+Schritt 2. Einsetzen: 44 kWh / 11 kW = 4 h.
+
+Schritt 3. Reale Ladeleistungen können sich ändern; Ladeverluste kommen hinzu.
+
+Schritt 4. Damit ist die Rechnung nur eine theoretische Untergrenze.
+
+Kontrolle des Ergebnisses: 4 h im idealisierten Modell.
+
+Übungsauftrag zur Anwendung: Energiemanagement-Simulation für Haus/PV/Ladestation; keine reale Anbindung. Halte zusätzlich die Antwort auf die Frage «Wann entsteht direkter PV-Eigenverbrauch?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wann entsteht direkter PV-Eigenverbrauch? Die richtige Antwort lautet: Wenn Erzeugung und Verbraucher zeitgleich aktiv sind. Warum? Zeitgleiche Leistung ist für Eigenverbrauch wichtiger als die reine Jahresbilanz.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Zeitgleiche Leistung ist für Eigenverbrauch wichtiger als die reine Jahresbilanz.. Warum? Der Merksatz lautet: Zeitgleiche Leistung ist für Eigenverbrauch wichtiger als die reine Jahresbilanz.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigiertes Unterrichtsmanuskript.
+
+
+Fachkapitel 1: Ein Tag ist keine Jahresbilanz.
+Ein Gebäude kann über das Jahr gleich viel PV-Strom erzeugen wie es verbraucht und trotzdem beträchtliche Mengen aus dem Netz beziehen. Entscheidend ist die zeitliche Überlagerung von Erzeugung und Last. Ein sonniger Mittag mit 8 Kilowatt PV-Leistung und 2 Kilowatt Hauslast erzeugt einen Überschuss; ein Winterabend mit null PV-Leistung und 5 Kilowatt Hauslast erzeugt einen Netzbezug. Wir unterscheiden daher Leistung in Kilowatt und Energiemenge in Kilowattstunden sowie Eigenverbrauchsanteil und Autarkiegrad. Die Kennzahlen müssen jeweils mit einer definierten Bilanzgrenze und Zeitperiode angegeben werden.
+
+Fachkapitel 2: Zeitauflösung bestimmt den Befund.
+Für eine einfache Übung genügt eine Tabelle mit stündlichen Werten. Im realen Energiemanagement können Viertelstunden oder kürzere Intervalle relevant sein, weil Lastspitzen innerhalb einer Stunde verborgen bleiben. Ein Elektroauto kann beispielsweise während zwanzig Minuten mit 11 Kilowatt laden, obwohl die stündliche Energiemenge nur rund 3,67 Kilowattstunden beträgt. Wer aus dieser Energiemenge eine stetige Belastung von 3,67 Kilowatt ableitet, unterschätzt den kurzzeitigen Anschlussstrom. Wir zeichnen deshalb eine Leistungskurve und berechnen daraus die zugehörige Energie als Fläche unter der Kurve.
+
+Fachkapitel 3: Vier Energieflüsse getrennt erfassen.
+Im PV-Gebäude betrachten wir Erzeugung, direkten Eigenverbrauch, Netzbezug und Einspeisung. Eine momentane Bilanz ohne Speicher lautet: PV plus Netzbezug gleich Hauslast plus Einspeisung; gleichzeitig positiv werden Netzbezug und Einspeisung im einfachen Modell nicht angesetzt. Bei 6 Kilowatt Erzeugung und 4 Kilowatt Verbrauch sind zwei Kilowatt Einspeisung plausibel. Steigt die Last bei gleicher PV-Leistung auf 9 Kilowatt, müssen drei Kilowatt aus dem Netz kommen. Diese Bilanz kann jede Tabellenzeile auf Plausibilität prüfen.
+
+Fachkapitel 4: Eigenverbrauchsanteil versus Autarkie.
+Der Eigenverbrauchsanteil beschreibt, welcher Anteil der erzeugten PV-Energie selbst genutzt wird. Der Autarkiegrad beschreibt dagegen, welcher Anteil des Gesamtverbrauchs durch eigene Erzeugung und gegebenenfalls Speicher gedeckt wird. Angenommen, im Betrachtungsjahr erzeugt eine Anlage 8'000 Kilowattstunden und davon werden 3'200 selbst genutzt; der Eigenverbrauchsanteil beträgt vierzig Prozent. Braucht das Gebäude insgesamt 10'000 Kilowattstunden, beträgt der direkt gedeckte Anteil am Verbrauch nur zweiunddreissig Prozent. Diese beiden Werte dürfen nicht miteinander verwechselt werden.
+
+Fachkapitel 5: Lastverschiebung als erste Optimierung.
+Viele Effizienzgewinne verlangen keinen zusätzlichen Speicher. Eine Warmwasserbereitung, ein geeigneter thermischer Prozess oder das Laden eines Fahrzeugs kann unter bestimmten Bedingungen zeitlich in die PV-Erzeugungsphase verschoben werden. Die Voraussetzung ist, dass Komfort, Hygiene, Sicherheit und technische Freigaben eingehalten bleiben. Ein Beispiel: Wird eine flexible Last mit 2 Kilowatt während zwei Stunden in die Mittagszeit verlegt, können vier Kilowattstunden mehr direkt verbraucht werden. Ein gutes Energiemanagement misst diesen Effekt und bilanziert, ob dadurch woanders zusätzlicher Verbrauch entsteht.
+
+Fachkapitel 6: Batterie als verschobener Energiefluss.
+Mit einem Speicher kommen Laden, Entladen und Verluste hinzu. In der Bilanz unterscheiden wir AC- und DC-Seite, damit ein Wirkungsgrad nicht doppelt angerechnet wird. Eine Batterie, die mittags fünf Kilowattstunden aufnimmt, liefert abends wegen Umwandlungs- und Speicherverlusten weniger als fünf Kilowattstunden nutzbare AC-Energie. Die zusätzliche Eigenverbrauchsmenge ist nicht gleichbedeutend mit neu produzierter Energie. Die PV-Anlage produziert weiterhin dieselbe Energiemenge; lediglich Zeitpunkt und Pfad des Verbrauchs verändern sich. Jede Aussage über Rentabilität benötigt daher Tarife und eine vollständige Kostenbetrachtung.
+
+Fachkapitel 7: Lastprofil als Tabelle lesen.
+Wir nehmen vier Modellstunden an: morgens zwei Kilowatt Last und null PV, mittags drei Kilowatt Last bei sieben Kilowatt PV, nachmittags vier Kilowatt Last bei zwei Kilowatt PV und abends fünf Kilowatt Last ohne PV. Bei je einer Stunde ergeben sich vierzehn Kilowattstunden Verbrauch, neun Kilowattstunden Erzeugung, fünf Kilowattstunden direkte PV-Nutzung, neun Kilowattstunden Netzbezug und vier Kilowattstunden Einspeisung. Die Summe Netzbezug plus direkt genutzter PV stimmt mit dem Verbrauch überein. Das ist die wichtigste Rückprobe.
+
+Fachkapitel 8: Tarife und Lastspitzen auseinanderhalten.
+Eine Wirtschaftlichkeitsanalyse darf nicht nur mit einem einzelnen Strompreis arbeiten. Je nach Tarifmodell spielen Bezugspreis, Vergütung für Einspeisung, mögliche Leistungskomponenten und zeitabhängige Tarife eine Rolle. Ein Batteriespeicher kann Eigenverbrauch erhöhen, ohne dass er unter den konkreten Kosten automatisch wirtschaftlich ist. Ebenso kann das gleichzeitige Laden mehrerer Fahrzeuge eine hohe Leistungsspitze verursachen, obwohl der Energiebedarf pro Tag moderat bleibt. Für die Grundausbildung genügt es, Energie- und Leistungskennzahlen getrennt zu erfassen und Rechenannahmen sichtbar zu halten.
+
+Fachkapitel 9: Abschluss mit Datenqualität.
+Ein Energiemonitoring verwendet Sensoren, Zähler, Wechselrichterwerte und Software. Wenn deren Zeitstempel oder Bilanzgrenzen nicht übereinstimmen, entstehen scheinbare Energieverluste oder unmögliche Vorzeichen. Lernende prüfen, ob alle Energieflüsse im selben Zeitraum und mit derselben Vorzeichenkonvention erfasst wurden. Ein Diagramm mit Erzeugung über Null und Verbrauch unter Null ist zulässig, wenn die Definition klar dokumentiert ist. Aus Datenfehlern dürfen weder Geräteausfälle noch Sparpotenziale voreilig abgeleitet werden. Erst die bereinigte Bilanz trägt eine verlässliche Massnahmenentscheidung.
+
+Praxisfälle mit Lösungen und fachlicher Begründung.
+
+
+Aufgabe 1: Mittagsüberschuss.
+Eine PV-Anlage erzeugt 7 Kilowatt, das Gebäude benötigt 2,5 Kilowatt. Ohne Speicher beträgt die Einspeiseleistung 4,5 Kilowatt. Über zwei identische Stunden wären dies neun Kilowattstunden Einspeisung. Der Unterschied zwischen Leistung und Energie ist sichtbar.
+
+Aufgabe 2: Nachtverbrauch.
+Vier Stunden lang nimmt das Gebäude 1,2 Kilowatt auf, die PV-Erzeugung ist null. Der Netzbezug beträgt 4,8 Kilowattstunden. Ein positiver jährlicher PV-Saldo ersetzt diese vier Stunden nicht ohne geeignete Speicher- oder Bilanzmechanismen.
+
+Aufgabe 3: Zwei Kennzahlen.
+PV-Erzeugung 9000 Kilowattstunden, direkt genutzt 3600, Gebäudejahresverbrauch 12000. Eigenverbrauchsanteil 40 Prozent; direkt gedeckter Anteil des Gesamtverbrauchs 30 Prozent. Dokumentiere die jeweilige Bezugsgrösse.
+
+Aufgabe 4: Lastverschiebung.
+Ein steuerbarer Verbraucher benötigt 3 Kilowatt für eine Stunde. Er läuft bisher am Abend aus dem Netz. Bei genügend PV-Überschuss mittags kann seine zeitliche Verschiebung drei Kilowattstunden Netzbezug ersetzen; technische Betriebsbedingungen sind zusätzlich zu prüfen.
+
+Aufgabe 5: Lastspitze trotz kleiner Energie.
+Eine Ladestation liefert 11 Kilowatt für zehn Minuten. Energie: rund 1,83 Kilowattstunden. Die Leistung am Anschluss kann dennoch elf Kilowatt betragen. Eine Stundenmittelung verschleiert die Spitze.
+
+Aufgabe 6: Bilanzfehler erkennen.
+Die Aufzeichnung meldet acht Kilowattstunden PV-Erzeugung, drei Kilowattstunden Netzbezug, zehn Kilowattstunden Verbrauch und vier Kilowattstunden Einspeisung. Die Bilanz lautet 8+3=10+4 und ist falsch. Es fehlt eine Kilowattstunde beziehungsweise ein Messwert oder die Bilanzgrenze ist uneinheitlich.
+
+Abschlusskontrolle und Einordnung.
+Bearbeite abschliessend drei Fragen: Welche physikalischen oder logischen Annahmen lagen den Rechnungen und Beispielen dieser Lektion zugrunde? Welcher zweite Messpunkt, welche Quellenangabe oder welche unabhängige Kontrolle könnte das Ergebnis bestätigen? Was muss eine verantwortliche Fachperson vor einer realen Freigabe ergänzend prüfen? Halte Deine Antwort im Unterrichtsprotokoll fest. Die behandelten Beispiele sind bewusst Lernmodelle; ihre Plausibilität ersetzt weder Herstellerinformationen noch die geltenden Sicherheitsregeln oder einen fachgerechten Anlagenachweis.
+
+
+Vertiefende Fallanalyse: Stündliche Bilanz mit nachvollziehbaren Zwischenschritten.
+Wir legen sechs Stunden mit jeweils einer Stunde Dauer zugrunde. Die Hauslast beträgt nacheinander zwei, zwei, vier, drei, fünf und drei Kilowatt. Die PV liefert null, drei, acht, fünf, eins und null Kilowatt. Für jede Stunde wird das Minimum aus Last und PV als direkter Eigenverbrauch bestimmt. Das ergibt null, zwei, vier, drei, eins und null Kilowattstunden, zusammen zehn Kilowattstunden. Die gesamte PV-Erzeugung ist siebzehn Kilowattstunden. Somit werden sieben Kilowattstunden eingespeist. Die Hauslast summiert sich auf neunzehn Kilowattstunden; neun Kilowattstunden müssen aus dem Netz kommen. Jetzt die Rückprobe: Erzeugung siebzehn plus Bezug neun ist gleich Hausverbrauch neunzehn plus Einspeisung sieben. Beide Seiten ergeben sechsundzwanzig Kilowattstunden. Der Eigenverbrauchsanteil beträgt zehn durch siebzehn, also rund 58,8 Prozent. Der direkte Deckungsanteil der Hauslast beträgt zehn durch neunzehn, also rund 52,6 Prozent. Diese Zahlen haben nur für das modellierte Zeitfenster Bedeutung. Sie sind kein Jahresertrag einer Anlage und erlauben auch keine Aussage über einen konkreten Stromtarif.
+
+Vertiefende Fallanalyse: PV-Optimierung als messbares Experiment.
+Ein Energiemanagement verschiebt die zweistündige Ladung eines Verbrauchers von 2,5 Kilowatt vom Abend in einen Zeitraum mit PV-Überschuss. Wenn vorher in diesen beiden Stunden jeweils mindestens 2,5 Kilowatt eingespeist wurden und die Last tatsächlich vollständig verlagert werden kann, steigt der direkte Eigenverbrauch um fünf Kilowattstunden. Gleichzeitig sinkt der entsprechende Netzbezug am Abend um fünf Kilowattstunden. Die PV-Produktion selbst bleibt unverändert. Falls die Verschiebung eine zusätzliche Vorheizphase oder höheren Verlust verursacht, muss diese Energie in die Rechnung einbezogen werden. Das Ergebnis gilt ausserdem nur, solange im Zielzeitfenster ausreichend Überschuss vorhanden ist. Für eine echte Erfolgskontrolle wird ein Vorher-nachher-Vergleich mit gleicher Bilanzgrenze und vergleichbaren Betriebsbedingungen benötigt. Man könnte beispielsweise über mehrere Tage die zeitliche Übereinstimmung von PV-Leistung und verschobener Last dokumentieren. Ein gefühlter Effekt genügt nicht; der energetische Nachweis erfolgt über Messwerte und nachvollziehbare Summen.
+
+Mündliche Abschlussaufgabe.
+Zusätzliche Rückprobe zur Zählerzuordnung: In einem Gebäude zeigt der PV-Wechselrichter eine Tagesproduktion von 18 Kilowattstunden, der Zweirichtungszähler meldet fünf Kilowattstunden Einspeisung und neun Kilowattstunden Netzbezug. Ohne Speicherung und ohne weitere Erzeugung wurden folglich dreizehn Kilowattstunden PV direkt genutzt. Der Gesamtverbrauch beträgt danach 13 plus 9, also 22 Kilowattstunden. Die Plausibilität zeigt die Rechnung 18 plus 9 gleich 22 plus 5. Nun ändern wir die Annahme und fügen einen Speicher hinzu. Plötzlich dürfen diese Zahlen nicht mehr ohne Weiteres direkt gleichgesetzt werden, weil Speicherladeenergie, Entladeenergie und Verluste zu berücksichtigen sind. Die Aufgabe macht sichtbar, dass die Bilanzgrenze den Rechenweg bestimmt. Als Lernkontrolle soll zusätzlich erklärt werden, warum eine monatliche Energiesumme die maximale momentane Lastspitze nicht erkennen lässt. Eine technisch vollständige Auswertung braucht deshalb sowohl Leistungsprofile als auch Energieintegrale und eine einheitliche Zeitbasis.

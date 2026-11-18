@@ -1,1 +1,102 @@
-Lektion 4.07-B: Material, Arbeitsrapport und Nachträge. Eine wirtschaftliche Projektabwicklung dokumentiert Materialmengen, Arbeitszeiten und Änderungen gegenüber dem Auftrag. Ein sauberer Arbeitsrapport trennt geplante und tatsächlich erbrachte Leistungen. Nachträge werden begründet und freigegeben, statt erst auf der Schlussrechnung aufzutauchen. Die technische Dokumentation muss dabei mit dem ausgeführten Stand übereinstimmen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Berechne für ein fiktives Installationsprojekt Materialkosten und Arbeitsstunden. Erstelle einen Nachtrag für eine zusätzlich gewünschte Leuchte mit Auswirkung auf Planung, Material, Arbeit und Dokumentation. Kennzeichne notwendige Freigaben. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Transparenz bei Änderungen verhindert spätere technische und kaufmännische Unklarheit. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Arbeitsrapport, Ausmass, Stückliste, Nachtrag; Revisionsplan, Bedienungs-/Wartungsanleitung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; N I V Artikel 24, 37. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.07-B: Material, Arbeitsrapport und Nachträge. Eine wirtschaftliche Projektabwicklung dokumentiert Materialmengen, Arbeitszeiten und Änderungen gegenüber dem Auftrag. Ein sauberer Arbeitsrapport trennt geplante und tatsächlich erbrachte Leistungen. Nachträge werden begründet und freigegeben, statt erst auf der Schlussrechnung aufzutauchen. Die technische Dokumentation muss dabei mit dem ausgeführten Stand übereinstimmen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Berechne für ein fiktives Installationsprojekt Materialkosten und Arbeitsstunden. Erstelle einen Nachtrag für eine zusätzlich gewünschte Leuchte mit Auswirkung auf Planung, Material, Arbeit und Dokumentation. Kennzeichne notwendige Freigaben. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Transparenz bei Änderungen verhindert spätere technische und kaufmännische Unklarheit. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Arbeitsrapport, Ausmass, Stückliste, Nachtrag; Revisionsplan, Bedienungs-/Wartungsanleitung. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; NIV Artikel 24, 37. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Arbeitsrapport, Ausmass, Stückliste, Nachtrag; Revisionsplan, Bedienungs-/Wartungsanleitung.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Angebotsposition nachvollziehbar berechnen. Fiktives Material: 12 Stück zu CHF 8.50. Reine Rechenübung ohne Arbeitskosten.
+
+Schritt 1. Materialposition und Anzahl eindeutig festhalten.
+
+Schritt 2. 12 · CHF 8.50 = CHF 102.00.
+
+Schritt 3. Arbeitszeit, weitere Positionen, Zuschläge und MWST separat erfassen.
+
+Schritt 4. Angebotskalkulation darf nicht mit elektrotechnischer Freigabe verwechselt werden.
+
+Kontrolle des Ergebnisses: Materialsumme CHF 102.00 ohne weitere Kosten.
+
+Übungsauftrag zur Anwendung: Dokumentenfall für einen fiktiven Mehrraum-Umbau; keine reale Installation. Halte zusätzlich die Antwort auf die Frage «Was muss ein fachlicher Nachtrag enthalten?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was muss ein fachlicher Nachtrag enthalten? Die richtige Antwort lautet: Begründung, Leistung und Freigabe. Warum? Transparenz bei Änderungen verhindert spätere technische und kaufmännische Unklarheit.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Transparenz bei Änderungen verhindert spätere technische und kaufmännische Unklarheit.. Warum? Der Merksatz lautet: Transparenz bei Änderungen verhindert spätere technische und kaufmännische Unklarheit.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Materialliste aus dem Plan ableiten.
+Ein Materialauszug darf nicht nur auf groben Erfahrungswerten beruhen. Die Stückliste verbindet Planposition, Artikelbezeichnung, Menge, Einheit und eindeutigen Verwendungsort. Bei Leuchten sind zum Beispiel Montageart, erforderliches Zubehör, Treiber und allfällige Steuerungskomponenten zu prüfen. Bei Leitungen braucht es nicht nur Meter, sondern auch die dazugehörige Verlegeart, Reserve, Schnittverluste und Befestigungsmaterial. Wenn die Stückliste aus einer älteren Planrevision stammt, können Bestellung und Baustelle auseinanderlaufen. Die Qualität einer Materialliste misst sich deshalb daran, ob jede wesentliche Position dem freigegebenen Projektstand zugeordnet ist und ob Abweichungen nachvollziehbar bleiben.
+
+Fachkapitel 2: Mengen und Reserven rechnerisch trennen.
+Für einen fiktiven Raum werden fünf Leitungstrassenabschnitte mit zusammen 86 Metern geplant. Für Bögen, Schaltpunkte und Zuschnitt wird eine projektbezogene Reserve von acht Prozent angesetzt. Das ergibt 86 mal 1,08 gleich 92,88 Meter, also rund 93 Meter als Kalkulationswert. Diese Reserve ist keine normative Vorgabe und darf nicht als Ersatz für korrekte Längenaufnahme dienen. Im Beschaffungsblatt werden Planmenge, Zuschlag, Bestellung und tatsächlich eingesetzte Länge getrennt geführt. So ist später sichtbar, ob die Abweichung aus falscher Planung, unvermeidbarem Verschnitt oder einer geänderten Leitungsführung stammt.
+
+Fachkapitel 3: Kostenrechnung mit klaren Begriffen.
+Materialkosten, Arbeitskosten, Fremdleistungen, Gemeinkosten und Zuschläge gehören nicht ungeordnet in eine Summe. Nimm beispielsweise Material im Wert von 1’850 Franken und 32 kalkulierte Arbeitsstunden zu einem internen Kalkulationsansatz von 78 Franken. Die direkten kalkulierten Positionen ergeben 1’850 plus 2’496 gleich 4’346 Franken. Steuern, allgemeine Kosten, Fremdleistungen und Gewinn sind darin gegebenenfalls noch nicht enthalten. Die Zahlen sind ein didaktisches Angebotsschema, keine Marktpreisbehauptung. Wichtig ist die saubere Trennung zwischen Einkaufswert, internem Aufwand, Verkaufspreis und tatsächlichem Deckungsbeitrag.
+
+Fachkapitel 4: Arbeitsrapport als Nachweis.
+Im täglichen Rapport stehen Datum, Baustelle, Tätigkeitsbeschreibung, beteiligte Mitarbeitende, geleistete Stunden und allenfalls Materialbewegungen. Eine unklare Zeile „diverse Arbeiten“ ist für die technische Übergabe und für die Kostenkontrolle kaum verwertbar. Besser lautet eine Position: „Lichtinstallation Raum 2.14 gemäss Plan E-03 Rev. B vorbereitet; sechs Anschlusspunkte markiert; abschliessende Prüfung offen.“ Diese Formulierung enthält Ort, Planstand und Status. Der Rapport ist nicht automatisch ein elektrisches Prüfprotokoll; beide Dokumente erfüllen verschiedene Aufgaben und dürfen nicht verwechselt werden.
+
+Fachkapitel 5: Nachträge technisch begründen.
+Ein Nachtrag ist kein willkürlicher Preisaufschlag, sondern beschreibt eine veränderte Leistung gegenüber dem vereinbarten Auftrag. Wird nach Öffnen einer Wand eine ungeplante Leitungsumlegung nötig, dokumentierst Du Ausgangsplan, Befund, vorgeschlagene Lösung, Mengen, Stunden und allfällige Folgen für die Prüfung. Danach wird die notwendige Freigabe eingeholt. Eine Ausführung ohne dokumentierte Abstimmung kann wirtschaftlich und technisch problematisch werden. Im Fachgespräch muss klar werden, dass nicht jedes unerwartete Ereignis automatisch ein verrechenbarer Nachtrag ist; Vertrag, Risikoverteilung und Freigabeprozess entscheiden mit.
+
+Fachkapitel 6: Planrevision und Materialverfügbarkeit.
+Angenommen, ein bestimmter LED-Treiber ist nicht lieferbar. Ein Ersatzgerät darf nicht nur nach Preis oder mechanischer Grösse gewählt werden. Ausgangsspannung, Stromregelung, Dimmverfahren, Schutzklasse, Temperaturbereich und Eignung für die Anwendung müssen passen. Jede Änderung erfordert ein dokumentiertes Ersatzteil mit Prüfstatus, nicht bloss die Aussage „ist gleichwertig“. Die aktualisierte Stückliste verweist auf den neuen Artikel und die freigegebene Revision. So bleibt auch später nachvollziehbar, welches Gerät tatsächlich eingebaut wurde und welche Daten in der Revisionsmappe stehen müssen.
+
+Fachkapitel 7: Soll-Ist-Vergleich ohne falsche Präzision.
+Stelle zu einem Arbeitspaket Planstunden und Iststunden gegenüber. Sind 12 Stunden geplant und 15 gebraucht worden, beträgt die Abweichung drei Stunden beziehungsweise 25 Prozent gegenüber der Planung. Dieser Prozentwert sagt zunächst nichts über die Ursache. Vielleicht mussten unvorhergesehene Bestandsleitungen verfolgt, eine Freigabe abgewartet oder Nacharbeiten ausgeführt werden. Trenne deshalb Mengenänderung, Produktivitätsabweichung, Wartezeit und Störung. Nur dann liefert der Soll-Ist-Vergleich brauchbare Informationen für die nächste Kalkulation und für eine sachliche Projektsteuerung.
+
+Fachkapitel 8: Rückverfolgbarkeit bei Fehlern.
+Wird nach der Übergabe eine Leitung beschädigt aufgefunden, helfen ein genauer Planstand, das Materialchargenregister und nachvollziehbare Rapporte bei der Eingrenzung. Eine reine Endsumme sagt dagegen nichts über die verbaute Komponente. In kritischen Projekten können Hersteller, Seriennummern oder Prüfprotokolle Teil der Dokumentation sein. Überlege, welche Rückverfolgbarkeit für die konkrete Anlage erforderlich ist, und vermeide überflüssige Datensammlung. Der Zweck ist immer derselbe: Eine spätere Fachperson soll den ursprünglichen Zustand, die Änderung und die Verantwortlichkeit nachvollziehen können.
+
+Fachkapitel 9: Kundenkommunikation bei Mehrkosten.
+Wenn die Kostenprognose steigt, braucht der Kunde eine klare Beschreibung von Ursache, technischer Notwendigkeit, Alternativen, Kosten- und Terminwirkung. Eine gute Nachricht lautet nicht „Material ist teurer geworden“, sondern benennt die betroffene Position und ihre Auswirkung auf die Leistung. Im Gespräch sollte zwischen zwingendem Sicherheitsmangel und optionalem Komfortwunsch unterschieden werden. Eine Sicherheitsanforderung wird nicht aus Kostengründen ignoriert; eine Komfortoption kann hingegen als Entscheidungsvariante angeboten werden. Dokumentiere Zustimmung und allfällige Vorbehalte vor der Ausführung.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Längenreserve.
+Planlänge 125 Meter; angenommene, separat ausgewiesene Reserve sechs Prozent. Bestellkalkulation 125 mal 1,06 = 132,5 Meter. Mit realen Liefereinheiten und Verpackungsgrössen wird der Beschaffungswert festgelegt.
+
+Aufgabe 2: Abweichung Arbeitsstunden.
+Plan 24 Stunden, Ist 30 Stunden. Abweichung plus sechs Stunden oder plus 25 Prozent. Lösung: Ursache angeben; aus dieser Zahl allein folgt weder ein Nachtragsanspruch noch die Behauptung schlechter Produktivität.
+
+Aufgabe 3: Treiberersatz.
+Ein vorhandener Treiber liefert konstant 700 Milliampere; der vorgeschlagene Ersatz ist ein 24-Volt-Konstantspannungsgerät. Lösung: Ohne Last- und Datenblattabgleich nicht gleichwertig. Eine Bestellung darf nicht nur wegen der ähnlichen Leistungsangabe ausgelöst werden.
+
+Aufgabe 4: Rapporttext.
+Schreibe eine präzise Alternative für „Leitungen verlegt“. Lösung: Ort, Abschnitt, Planrevision, geschätzte und tatsächlich bearbeitete Menge, Arbeitsstatus und offene Prüfposition nennen.
+
+Aufgabe 5: Nachtrag Wandöffnung.
+Es werden unerwartet zusätzliche zwei Stunden und Material für 180 Franken benötigt. Lösung: Technischen Befund, Alternativen, Aufwand, Terminfolge und nötige Genehmigung aufzeichnen. Die wirtschaftliche Behandlung folgt dem Vertrag.
+
+Aufgabe 6: Bestellfehler.
+Drei Leuchten ohne passende Montagehalterung liegen auf der Baustelle. Lösung: Position gegen freigegebenen Stücklistestand prüfen, fehlendes Zubehör beschaffen und Beschaffungsprüfung künftig um Montagezubehör ergänzen.
+
+Vertiefende Fallanalyse 1: Angebotsrechnung mit mehreren Kostenarten.
+Die Materialbeschaffung kostet in einem Modell 2’400 Franken. Montage wird mit 28 Stunden zu 82 Franken kalkuliert, Planung mit sechs Stunden zu 95 Franken und eine Fremdleistung mit 320 Franken. Die Summe dieser ausgewählten Positionen beträgt 2’400 plus 2’296 plus 570 plus 320 gleich 5’586 Franken. Nicht enthaltene Gemeinkosten, Vertriebskosten, Reserven und Gewinn dürfen nicht stillschweigend als bereits berücksichtigt gelten. Lasse einen zweiten Lernenden die Rechnung aus den Einzelpositionen reproduzieren. Werden die Montagearbeitsstunden später auf 33 korrigiert, erhöht sich dieser Kalkulationsteil um fünf mal 82 gleich 410 Franken.
+
+Vertiefende Fallanalyse 2: Materialfluss von Bestellung bis Einbau.
+Eine Bestellung über zehn Leuchten sagt noch nicht, dass zehn Leuchten im Gebäude installiert wurden. Drei Schritte müssen getrennt dokumentiert werden: Bestellung, Wareneingang und Materialverbrauch. Wenn zehn bestellt, neun geliefert und acht verbaut wurden, bleibt ein Lieferrückstand von einer Leuchte und eine unmontierte Leuchte auf der Baustelle. Erst mit dieser Aufteilung sind die Mengen plausibel. Im Materialregister wird deshalb der Artikel anhand der Freigabe geprüft, die tatsächliche Lieferung bestätigt und der Verwendungsort erfasst. So lassen sich Rückstände erkennen, bevor die Bauleitung einen fertigen Raum erwartet.
+
+Vertiefende Fallanalyse 3: Nachtrag versus ursprüngliche Risikoannahme.
+Bei der Kalkulation eines Bestandsgebäudes wurden unbekannte Deckenkonstruktionen ausdrücklich als projektspezifisches Risiko festgehalten. Später erweist sich ein Leitungsweg tatsächlich als ungeeignet. Ob daraus ein Nachtrag entsteht, lässt sich nicht allein aus dem Überraschungseffekt ableiten: Der vertragliche Leistungsumfang und die dokumentierte Risikoübernahme sind entscheidend. Technisch kannst Du den Sachverhalt dennoch präzise beschreiben. Halte den Ausgangsplan, den tatsächlichen Befund, die notwendigen Umplanungen sowie Mengen- und Terminfolgen fest. Die kaufmännische Entscheidung erfolgt auf Grundlage dieser Fakten und des Vertrags.
+
+Vertiefende Fallanalyse 4: Produktivität ohne falsche Kennzahlen.
+Zwei Montagegruppen benötigen für vergleichbare Räume unterschiedlich lange. Eine Gruppe hat 14 Stunden, die andere 19 Stunden aufgeschrieben. Der Unterschied von fünf Stunden ist noch kein Beweis für schlechte Leistung. Vielleicht waren zusätzliche Brandabschottungen erforderlich, die Zugänglichkeit eingeschränkt oder während der Arbeit Wartezeiten entstanden. Analysiere deshalb die Stunden nach Tätigkeiten und Hindernissen. Entscheidend sind vergleichbare Voraussetzungen und sauber gebuchte Leistungen. Ein Rapport soll die spätere Kalkulation verbessern, nicht durch pauschale Vorwürfe einzelne Mitarbeitende bewerten. Übertrage die Erkenntnis in neue Planungsannahmen für ähnliche Räume.
+
+Vertiefende Fallanalyse 5: Abschlussrechnung mit Planstand.
+Nach Projektende werden drei Veränderungen sichtbar: vier zusätzliche Datendosen, eine gestrichene Leuchte und ein geänderter Leitungsweg. Die Endabrechnung muss diese Änderungen gegen den ursprünglichen Auftrag und die freigegebenen Nachträge abgleichen. Führe eine Tabelle mit Ausgangsposition, Änderung, genehmigtem Betrag, tatsächlich ausgeführter Menge und Dokumentreferenz. Eine neue Rechnung ohne Verknüpfung zum Planstand erschwert den Nachweis. Die Abschlussrechnung sollte nicht nur rechnerisch korrekt sein, sondern technisch erklären, wofür die Positionen stehen und ob die vereinbarten Leistungen vollständig abgeschlossen wurden.
+
+Mündliche Abschlussaufgabe und Transfer.
+Als Schlusskontrolle vergleichst Du das finanzielle und das technische Projektende. Die Schlussrechnung enthält einen freigegebenen Nachtrag über 360 Franken, die Materialliste wurde jedoch nicht aktualisiert. Ein Rechnungsbetrag allein beweist weder den tatsächlichen Einbau noch die Vollständigkeit der Dokumentation. Führe deshalb eine kleine Abgleichliste mit Artikel, ausgeführter Menge, Planrevision, freigegebener Änderung, Kosten und offenem Nachweis. Ist ein Ersatztreiber nur auf der Rechnung erwähnt, fehlen möglicherweise neue Datenblatt- und Revisionsangaben. Die kaufmännische Klärung erfolgt anhand des Vertrags, die technische anhand der real ausgeführten Arbeiten. Übe die Erklärung an eine Kundin ohne Abkürzungen: Was wurde geändert, warum, zu welchen Kosten und mit welchem Status?

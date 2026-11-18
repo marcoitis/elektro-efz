@@ -1,0 +1,95 @@
+Lektion 4.12-A: Praktisches QV: Auftrag und Arbeitsvorbereitung. Das bisherige QV umfasst eine umfangreiche praktische Arbeit in einer geeigneten Prüfungsumgebung. Dazu gehören Aufgabeninterpretation, Arbeitsvorbereitung, Materialbereitstellung, sicherer Arbeitsablauf und technische Dokumentation. Die genaue Gewichtung und die geltenden Prüfungsunterlagen bestimmt die offizielle Wegleitung. Ein Selbstlernprogramm darf nicht als Ersatz für das Üben unter fachkundiger Aufsicht verstanden werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Nimm eine offizielle Musteraufgabe, sofern rechtmässig zugänglich, und erarbeite zunächst auf Papier Zeitplan, Stückliste, Sicherheitsfragen, Dokumente und Prüfschritte. Keine Haus- oder Netzinstallation als privates Prüfungsprojekt verwenden. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Praktische QV-Reife entsteht durch betreutes Können, nicht allein durch Lesen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Arbeitsvorbereitung, Sicherheitsverhalten und Materialplanung; Technische Dokumentation. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: BiVo2015 Wegleitung QV; Musterserie PA; NIN; Suva. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Arbeitsvorbereitung, Sicherheitsverhalten und Materialplanung; Technische Dokumentation.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was gehört an den Beginn einer praktischen Prüfungsaufgabe?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Praktische QV-Reife entsteht durch betreutes Können, nicht allein durch Lesen.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Ausschliesslich in offiziell ausgerüsteter Übungswerkstatt mit fachkundiger Aufsicht und gültigen Berechtigungen; nicht als DIY-Hausprojekt. Halte zusätzlich die Antwort auf die Frage «Was gehört an den Beginn einer praktischen Prüfungsaufgabe?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört an den Beginn einer praktischen Prüfungsaufgabe? Die richtige Antwort lautet: Auftrag verstehen und Arbeitsvorbereitung. Warum? Praktische QV-Reife entsteht durch betreutes Können, nicht allein durch Lesen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Praktische QV-Reife entsteht durch betreutes Können, nicht allein durch Lesen.. Warum? Der Merksatz lautet: Praktische QV-Reife entsteht durch betreutes Können, nicht allein durch Lesen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung.
+
+
+Fachkapitel 1: Auftrag in prüfbare Arbeitspakete übersetzen.
+Ein praktischer Prüfungsauftrag kann mehrere Aufgaben miteinander verbinden: eine Installation planen, Komponenten montieren, eine Steuerung verständlich verdrahten und die erforderliche Prüfung dokumentieren. Bevor die Arbeit beginnt, wird der Auftrag in überprüfbare Teilaufgaben zerlegt. Dazu zählen Funktion, Ausführungsqualität, Sicherheitsanforderungen, Material, Werkzeuge und Abschlussnachweise. Schreibe zu jeder Teilaufgabe, woran ein fachkundiger Beobachter den erfolgreichen Abschluss erkennt. Beispiel: «Leuchte montiert» ist weniger präzise als «Leuchte mechanisch sicher befestigt, richtig beschriftet, schaltungstechnisch korrekt eingebunden und die erforderlichen Prüfungen geplant». Die tatsächlich verbindlichen Kriterien müssen aus der aktuellen Prüfungswegleitung stammen. Die Selbstlernplattform darf diese nicht eigenmächtig ersetzen.
+
+Fachkapitel 2: Dokumente vor der Materialentnahme lesen.
+Prüfe Stückliste, Stromlaufplan, Grundriss, Schaltzeichen, Montageort und Beschriftung. Widersprechen sich Plan und Stückliste, wird die Abweichung vor Beginn geklärt. Eine häufige Schwierigkeit liegt darin, dass ein Funktionsschema logische Zusammenhänge beschreibt, aber nicht jeden physischen Leitungsweg zeigt. Ein Anschlussplan ergänzt deshalb die nötigen Klemmen und Kennzeichen. Trenne geplante Werte von tatsächlich gemessenen Ergebnissen und vermerke den Revisionsstand. Wenn ein Hilfskontakt zu einem Schütz gehört, muss dessen Kennzeichnung in allen Unterlagen wiederzufinden sein. Ein gutes Planungspapier ist kein dekorativer Anhang: Es verhindert ungezielte Rückfragen während der Ausführung und macht spätere Prüfungen möglich.
+
+Fachkapitel 3: Zeitbudget mit technischen Puffern.
+Für eine frei erfundene Übungssequenz von 240 Minuten könnten beispielsweise 35 Minuten auf Unterlagen und Arbeitsvorbereitung, 140 Minuten auf den fachkundig beaufsichtigten Aufbau, 40 Minuten auf vorgesehene Prüfungen und 25 Minuten auf Dokumentation entfallen. Diese Aufteilung ist ausschliesslich ein Lernmodell und keine offizielle QV-Zeitvorgabe. Wichtig ist, Reserven nicht vollständig in den Montageblock zu verschieben. Bei unklarer Schutzleiterführung oder fehlerhafter Kennzeichnung braucht die Korrektur Zeit; unvollständige Abschlussunterlagen sind kein sinnvoller Kompromiss. Nach jedem Meilenstein wird geprüft, welche Teile fertig, welche offen und welche sicherheitsrelevant blockiert sind. Die verbleibende Zeit wird danach neu priorisiert.
+
+Fachkapitel 4: Materialkontrolle nach Funktion und Qualität.
+Kontrolliere, ob Schutzorgane, Schaltgeräte, Verbindungselemente, Leitungsquerschnitte, Klemmen, Beschriftungsmaterial und geeignetes Werkzeug zur Aufgabe passen. Eine Stückliste ist erst vollständig, wenn die Positionen eindeutig einem Plan und einer Funktion zugeordnet sind. Ungeeignete Klemmen oder fehlende Aderendbehandlung können die Montagequalität beeinträchtigen, selbst wenn die Steuerung beim ersten Versuch funktioniert. In einem papierbasierten Lernprojekt kann eine Prüftabelle für Stückzahl, Typ, technische Daten, Verwendung und Kontrollstatus erstellt werden. Die tatsächliche Geräteauswahl und Ausführung müssen unter fachkundiger Aufsicht gegen die geltenden Vorgaben geprüft werden. Eine fehlende Freigabe wird nicht durch improvisierte Ersatzbauteile kompensiert.
+
+Fachkapitel 5: Sicherheitsfreigabe vor Beginn der Ausführung.
+Ein Aufbau in der realen Elektroinstallation erfordert eine angemessene Sicherheitsorganisation. Lernende dürfen aus diesem Manuskript nicht ableiten, dass sie Arbeiten an Netzspannung eigenständig durchführen sollen. In einem beaufsichtigten Ausbildungs- oder Prüfungsszenario wird deshalb klar geregelt, wer die Anlage freigibt, die Spannungsfreiheit feststellt, Werkzeuge beurteilt, die Arbeit anweist und am Ende die Prüfungen verantwortet. Ein fiktiver Arbeitsablauf kann auf Papier geprüft werden: Zugang sichern, Unterlagen vergleichen, Gefährdungen ermitteln, Schutzmassnahmen planen und die zugelassene Fachperson zuordnen. Das didaktische Ziel ist das Verständnis der Rollen und nicht eine unbegleitete Arbeitsanleitung.
+
+Fachkapitel 6: Schnittstellen zwischen Werkbank und Dokumentation.
+Eine professionelle Arbeitsvorbereitung berücksichtigt, wie Beschriftungen, Stromkreisverzeichnis und spätere Messstellen zusammenhängen. Wird eine Klemme während des Aufbaus umnummeriert, muss diese Änderung im Anschlussplan nachvollziehbar sein. Sonst kann der nächste Prüfer den betroffenen Strompfad nur mit zusätzlichem Aufwand rekonstruieren. Der Revisionsprozess sollte deshalb schon im Zeitplan vorgesehen werden. Praktisch bedeutet das, relevante Änderungen nachzuführen, Belege zu sammeln und offene Abweichungen sichtbar zu markieren. In einer Übungsprüfung kann dies als separate Dokumentationsaufgabe bewertet werden. Eine Zeichnung mit der Aufschrift «wie gebaut» ist nur dann hilfreich, wenn sie tatsächlich dem erstellten Zustand entspricht.
+
+Fachkapitel 7: Vorabprüfung der Aufgabenrisiken.
+Erstelle vor Beginn eine Matrix mit den Spalten Arbeitsschritt, Risiko, benötigte Fachkenntnis, Schutzmassnahme, Prüfschritt und verantwortliche Person. Bei einer Abzweigdose können mechanische Zugbeanspruchung, falsche Leiterzuordnung und mangelnde Kennzeichnung relevant sein. Bei einer elektronischen Steuerung kommen unzulässige Spannungskopplung oder falsche Signalpegel hinzu. Für jede Gefahr wird eine überprüfbare Massnahme vorgesehen. Ein besonders wirksamer didaktischer Schritt besteht darin, bewusst einen Fehlerfall zu simulieren: Was passiert, wenn die Aderkennung nicht stimmt? Welche Kontrollstelle würde den Fehler vor der Inbetriebnahme aufdecken? Diese Vorbereitung verknüpft Montageplanung mit Fehlervorbeugung.
+
+Fachkapitel 8: Musterantwort zu einem unvollständigen Auftrag.
+Angenommen, eine Übungsaufgabe fordert eine Beleuchtungssteuerung, nennt aber nur die Schaltfunktion, nicht die Spannung der Steuerebene. Eine gute Reaktion ist keine spontane Verdrahtung. Notiere die fehlende Angabe, vergleiche vorhandene Gerätekennzeichnungen und verlange eine Klärung durch die zuständige Prüfungs- oder Fachperson. Ähnlich gilt bei fehlenden Befestigungsangaben oder widersprüchlichen Schaltsymbolen. Die Aufgabe kann bis dahin in den sicher planbaren Teilen weiterbearbeitet werden, sofern dies zulässig ist. Fachliches Verhalten besteht gerade darin, nicht durch eigenmächtige Annahmen neue Risiken zu erzeugen.
+
+Anwendungsfälle und ausführliche Musterbegründungen.
+
+
+Fall 1: Stückliste abgleichen.
+Der Anschlussplan nennt zwei Klemmenleisten, die Stückliste aber nur eine. Lösung: Den Widerspruch markieren, betroffene Klemmenpositionen identifizieren und die verbindliche Klärung vor der Ausführung einholen. Eine improvisierte Zusammenlegung ohne Planprüfung ist nicht zulässig.
+
+Fall 2: Zeitreserve berechnen.
+Ein Plan sieht 30 Minuten Vorbereitung, 130 Minuten Aufbau, 45 Minuten Prüfung und 25 Minuten Dokumentation vor. Die Summe beträgt 230 Minuten. Bei 240 Minuten Gesamtbudget verbleiben zehn Minuten Reserve. Entscheide, welcher Meilenstein bei Verzögerung priorisiert wird, ohne Prüf- und Sicherheitsaufgaben zu streichen.
+
+Fall 3: Planänderung.
+Im Aufbau wird ein anderer Schütztyp eingesetzt. Lösung: Datenblatt, Spulenspannung, Kontaktbelegung, Kennzeichnung und Auswirkungen auf den Plan neu prüfen. Erst nach der nötigen Freigabe wird die Änderung dokumentiert.
+
+Fall 4: Werkzeugkontrolle.
+Ein beschädigtes Werkzeug liegt bereit. Lösung: Nicht verwenden. Den Zustand melden und ein geeignetes geprüftes Ersatzwerkzeug unter den vorgesehenen Bedingungen beschaffen. Die Aufgabenuhr legitimiert kein Sicherheitsrisiko.
+
+Fall 5: Nachweisverzeichnis.
+Ein Lehrling legt eine fertige Montage vor, kann aber keine Prüfdokumente zuordnen. Lösung: Prüfstellen, Stromkreise, Instrumentendaten, verantwortliche Fachperson und Revisionsstand strukturieren. Funktionsfähigkeit alleine ist kein Abschlussnachweis.
+
+Fall 6: Unvollständiger Grundriss.
+Eine Leitung soll an einer Wand verlaufen, aber die erforderliche Durchbruchposition ist nicht definiert. Lösung: Bauliche Situation und andere Gewerke abklären, sicherheitsrelevante Anforderungen prüfen und den Verlauf erst nach Freigabe festlegen.
+
+Vertiefter Praxisfall 1: Auftrag mit Materialmangel.
+In einer fiktiven Prüfungsaufgabe soll eine Kleinspannungssteuerung aufgebaut werden. Ein notwendiger Taster fehlt im Materialkasten. Die fachlich richtige Reaktion ist, zunächst die Stückliste und das vorgegebene Gerät zu überprüfen. Eine eigenmächtige Überbrückung des Eingangs könnte die Funktion verfälschen. Dokumentiere den Mangel und kläre mit der zuständigen Aufsicht, ob ein gleichwertiges freigegebenes Bauteil bereitgestellt wird. Währenddessen können andere sichere Arbeitsschritte wie Schemaanalyse, Kennzeichnungsplanung und Dokumentationsvorbereitung erfolgen. Die Übung zeigt, dass Arbeitsvorbereitung nicht einfach das schnelle Auspacken von Material bedeutet, sondern das frühzeitige Erkennen von Blockaden vor der Ausführung.
+
+Vertiefter Praxisfall 2: Planung einer Klemmenliste.
+In einem Schema werden sechs Ein- und Ausgänge benötigt. Eine Klemmenliste soll jede Funktion eindeutig dem passenden Anschluss zuordnen. Schreibe zu jeder Position ein Kennzeichen, die Bezeichnung des Signals, die Spannungs- beziehungsweise Bezugsebene und eine Planreferenz. Wenn ein Kontakt als Öffner vorgesehen ist, muss diese Eigenschaft in der Dokumentation verständlich sein. Eine blosse Liste mit den Nummern 1 bis 6 ohne Funktion genügt nicht. Der Lernfall kann vollständig am Papier gelöst werden und bereitet das spätere Lesen einer realen, fachkundig geprüften Anlage vor. Bei Planänderungen wird auch die Klemmenliste revidiert.
+
+Vertiefter Praxisfall 3: Sicherheitsentscheid vor einer Montage.
+Eine Aufgabenstellung nennt eine Montage in einem bestehenden Gebäude, enthält aber keine Angaben zum Zustand der Anlage. Die Arbeitsvorbereitung muss deshalb den fehlenden Anlagenstatus als wesentlichen Punkt behandeln. Ein ungeklärter Stromkreis darf nicht durch Mut oder Zeitdruck als spannungsfrei angenommen werden. In einem offiziellen Ausbildungsrahmen liegt die Verantwortung für Sicherungsmassnahmen und Freigaben bei den entsprechend zuständigen Fachpersonen. Für eine private Lernübung wird statt einer praktischen Intervention eine Gefährdungsmatrix erstellt. Diese enthält den Arbeitsort, die möglichen Energiequellen, benötigte Unterlagen und die verantwortliche Klärung. Fachliches Arbeiten beginnt vor dem ersten Werkzeuggriff.
+
+Vertiefter Praxisfall 4: Zeitplan mit Meilensteinen.
+Eine frei erfundene 180-Minuten-Aufgabe kann in 25 Minuten Vorbereitung, 95 Minuten betreuten Aufbau, 35 Minuten Prüf- und Funktionsnachweise und 25 Minuten Dokumentation gegliedert werden. Die Summe entspricht 180 Minuten. In einer weiteren Variante verlängert sich die Vorbereitung um zehn Minuten, weil zwei Gerätepositionen unklar sind. Die Aufgabe lautet dann nicht automatisch, zehn Minuten der Prüfung wegzunehmen. Stattdessen werden die Prioritäten neu beurteilt, und der Aufsichtsrahmen bestimmt das zulässige Vorgehen. Die Übung zeigt, wie sich ein Zeitplan an technische Risiken anpasst und nicht bloss um jeden Preis eingehalten wird.
+
+Vertiefter Praxisfall 5: Abnahmecheckliste als Vorbereitung.
+Eine Checkliste für eine fiktive 12-Volt-Steuerung könnte die Punkte mechanische Befestigung, richtige Leiterbezeichnung, sichtbare Beschädigungen, Zuordnung der Klemmen, Logikzustände und Dokumentation umfassen. Für jeden Punkt ist angegeben, ob eine Sichtkontrolle, ein zulässiger Funktionstest oder eine zusätzliche fachliche Prüfung nötig wäre. So wird vermieden, aus einer erfolgreich leuchtenden LED auf die vollständige Qualität zu schliessen. Ergänze für jede Position ein Freigabefeld und einen Verantwortlichen. Im echten QV gelten ausschliesslich die offiziellen Vorgaben und der berechtigte Prüfungsrahmen. Die Übungscheckliste ist ein Lerninstrument.
+
+Abschluss und Rückprobe.
+Beantworte die Aufgaben der Lektion zuerst ohne Musterlösung. Prüfe danach bei jeder Antwort den konkreten Sachverhalt, die technischen Voraussetzungen, die Aussagekraft der vorhandenen Nachweise und die noch fehlende Information. Ordne jedes Resultat eindeutig als theoretische Rechnung, didaktische Simulation, Dokumentationsbewertung oder fachkundig zu prüfenden realen Installationsfall ein. Diese Unterscheidung ist wesentlich, weil ein korrekt berechnetes Lernbeispiel weder eine Installationsbewilligung noch eine fachliche Sicherheitsfreigabe ersetzt.

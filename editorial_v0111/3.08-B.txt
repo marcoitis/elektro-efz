@@ -1,0 +1,120 @@
+Lektion 3.08-B: Netzanmeldung, Bauverfahren und Messkonzept. PV-Projekte können baurechtliche, elektrische und netztechnische Verfahren auslösen. Baugesuch oder Meldung, technische Anschlussanfrage, Installationsanzeige, Zählerkonzept und Inbetriebsetzungsunterlagen sind nicht dasselbe. Welche Schritte erforderlich sind, hängt von Anlagengrösse, Netzbetreiber, Gebäude und geltender Regulierung ab. Ein sauberer Prozess legt die Zuständigkeiten früh fest. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Verwende Deine eigenen PV-Projekte von 2025 und 2026 als anonymisierte Fallstudien. Trenne in einer Zeitleiste das baurechtliche Verfahren, die elektrische Installationsanzeige, die technische Abnahme und die Netzintegration. Ergänze zu jedem Schritt die verantwortliche Partei und den Nachweis. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Eine Baubewilligung ersetzt keine elektrotechnische Installationsbewilligung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Melde-/Bewilligungsverfahren, Netzbetreiber TAB/Werkvorschriften; ZEV, Eigenverbrauch, Zähler-/Messkonzepte. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIV Artikel 14, 23/24; NIN 7.12; ESTI 220; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Melde-/Bewilligungsverfahren, Netzbetreiber TAB/Werkvorschriften; ZEV, Eigenverbrauch, Zähler-/Messkonzepte.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet PV-Nennleistung im Projektablauf. 24 Module mit je 430 Wp werden für eine Beispielanlage betrachtet.
+
+Schritt 1. DC-Modulleistung addieren: 24 × 430 Wp.
+
+Schritt 2. Ergebnis: 10 320 Wp = 10,32 kWp.
+
+Schritt 3. Die DC-Nennleistung ist nicht die garantierte AC-Einspeiseleistung.
+
+Schritt 4. Netz-, Bau- und Installationsverfahren müssen separat abgeklärt werden.
+
+Kontrolle des Ergebnisses: 10,32 kWp ist nur die DC-STC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Vorhandene private PV-Projekte als Planungs-Fallstudien anonymisieren; keine nachträglichen Eingriffe. Halte zusätzlich die Antwort auf die Frage «Welche Dokumente haben unterschiedliche Zwecke?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Dokumente haben unterschiedliche Zwecke? Die richtige Antwort lautet: Baurechtliche Zustimmung und elektrische Installationsanzeige. Warum? Eine Baubewilligung ersetzt keine elektrotechnische Installationsbewilligung.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Eine Baubewilligung ersetzt keine elektrotechnische Installationsbewilligung.. Warum? Der Merksatz lautet: Eine Baubewilligung ersetzt keine elektrotechnische Installationsbewilligung.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachvertiefung.
+
+Netzparallelbetrieb als Ausgangspunkt.
+Eine PV-Anlage, die elektrische Energie ins Verteilnetz abgeben kann, beeinflusst nicht nur das Gebäude, sondern auch die Betriebsbedingungen des Netzes. Deshalb gehört die Abstimmung mit der zuständigen Netzbetreiberin früh in den Projektablauf. Technische Unterlagen müssen beispielsweise Generatorleistung, Wechselrichter, Schutz- und Regelkonzept sowie Anschlussart beschreiben. Eine Meldung ist keine reine Formalität am Ende der Montage: Wenn ein technischer Grenzfall erst danach erkannt wird, können teure Anpassungen notwendig werden. Im Lernprojekt beginnt der Prozess daher mit einer klaren Netzanschlussanfrage und einem Dokumentenregister.
+
+
+Melden, prüfen, freigeben.
+Unterschiedliche Vorgänge werden im Alltag oft unter «Anmeldung» zusammengefasst: technische Anschlussanfrage, Installationsanzeige, Zählermanagement, gegebenenfalls Baugesuch, Inbetriebsetzungsanmeldung und anschliessende Prüfnachweise. Nicht alle Schritte haben dieselbe rechtliche Grundlage oder dieselbe Zuständigkeit. Für die Lektion wird deshalb ein Ablaufdiagramm mit separaten Kästen erstellt. An jedem Kasten stehen verantwortliche Organisation, notwendige Unterlagen und erwartetes Ergebnis. Ein eingereichter Antrag darf nicht mit einer bewilligten Ausführung gleichgesetzt werden.
+
+
+Baurecht ist nicht Elektrosicherheitsrecht.
+Eine PV-Anlage kann elektrisch korrekt konzipiert sein und trotzdem eine baurechtliche Abklärung benötigen. Umgekehrt ist eine baurechtliche Zulässigkeit keine elektrische Installationsbewilligung. Je nach Standort, Gebäudeschutz, Dachgestaltung, Ausführung und kantonaler oder kommunaler Regelung gelten unterschiedliche Verfahren. Im Unterricht soll deshalb nicht pauschal «PV ist immer bewilligungsfrei» behauptet werden. Stattdessen werden die Prüfstellen dokumentiert: Standortgemeinde, kantonale Vorgaben, Gebäudeversicherung, Netzbetreiberin und einschlägige elektrische Regeln. Erst die Summe ergibt eine verlässliche Planung.
+
+
+Eigenverbrauch und Einspeisung bilanzieren.
+Betrachte ein Haus mit momentan vier Kilowatt PV-Erzeugung und zwei Kilowatt Verbrauch. Ohne Speicher und unter idealisierter Betrachtung können zwei Kilowatt ins Netz eingespeist werden. Liegt der Verbrauch später bei sechs Kilowatt und die PV-Leistung bei einem Kilowatt, müssen fünf Kilowatt aus dem Netz bezogen werden. Diese Gleichung ist ein Leistungsmodell, keine Messkonzeption. Zähler müssen je nach Messkonzept die vorgesehenen Energieflüsse erfassen. Für die Abrechnung zählt die zeitlich aufsummierte Energie in Kilowattstunden und nicht die momentane Kilowattzahl.
+
+
+Produktions- und Verbrauchszähler unterscheiden.
+Ein Zweirichtungszähler am Netzanschlusspunkt erfasst üblicherweise Bezugs- und Rückspeiseenergie in getrennten Richtungen. Er misst damit nicht automatisch die vollständige PV-Erzeugung, denn ein Teil wird sofort im Gebäude verbraucht. Wer ausschliesslich den Rückspeisewert als gesamte Produktion interpretiert, unterschätzt die erzeugte Energie. Ein zusätzliches Erzeugungsmonitoring kann die PV-Produktion erfassen. Die genaue Messanordnung hängt jedoch vom Anschluss- und Abrechnungsmodell ab. Im Lernschema werden deshalb Netzanschlusspunkt, Lasten und PV-Generator mit drei klar benannten Energiepfaden dargestellt.
+
+
+Batteriespeicher verändern den Messfall.
+Wird ein Speicher ergänzt, entsteht ein weiterer Energiepfad. Die Batterie kann aus der PV geladen werden, sich entladen und unter bestimmten Systembedingungen weitere Betriebsarten aufweisen. Ein einfaches Zweipfeilschema reicht nicht mehr aus, um alle Energiemengen zu unterscheiden. Definiere daher im Plan Lade- und Entladefluss, Messpunkte und Steuerbedingungen. Prüfe ausserdem, ob die netzseitige Anmeldung und das Schutzkonzept angepasst werden müssen. Der technische Nutzen eines Speichers lässt sich erst mit einem zeitaufgelösten Lastprofil und einem realistischen Wirkungsgrad bewerten.
+
+
+Planungswerte und Typenschilder.
+Für die Netzanmeldung müssen wesentliche Kenndaten eindeutig aus Datenblättern stammen. Dazu können maximale AC-Leistung, Phasenanzahl, Wechselrichtertyp, Netzanschlussart, allfällige Speicherinformationen sowie vorgesehene Schutzeinrichtungen gehören. Die Summe der PV-Modulnennleistungen ist nicht dasselbe wie die maximale AC-Ausgangsleistung. Ein 8-kWp-Generator an einem 6-kW-Wechselrichter hat eben nicht automatisch acht Kilowatt maximale AC-Abgabe. Eine saubere Unterlage nennt beide Werte und erklärt ihren Zusammenhang.
+
+
+Beispiel zeitlicher Eigenverbrauch.
+In einem didaktischen Tagesmodell produziert die PV-Anlage 20 Kilowattstunden, während das Gebäude davon direkt 7 Kilowattstunden verbraucht. Dann werden unter den angenommenen Bedingungen 13 Kilowattstunden eingespeist. Der Eigenverbrauchsanteil bezogen auf die Produktion beträgt 7 geteilt durch 20, also 35 Prozent. Der Autarkiegrad wäre eine andere Kennzahl und bräuchte den Gesamtverbrauch des Gebäudes als Bezugsgrösse. Dieser Unterschied ist in Kundengesprächen wichtig: Zwei Prozentsätze können korrekt sein und dennoch verschiedene Fragen beantworten.
+
+
+Inbetriebnahme nicht mit Einspeisebeginn verwechseln.
+Eine PV-Anlage kann vor der endgültigen Übergabe Tests durchlaufen. Für die freigegebene Netzparallelfunktion sind jedoch alle geforderten technischen, organisatorischen und administrativen Schritte einzuhalten. Die tatsächliche Reihenfolge hängt von Anschlussbedingungen und Projekt ab. Im Unterricht sollen die Lernenden ein Inbetriebnahmeblatt ausfüllen: aktueller Genehmigungsstatus, fertiggestellte Installationsteile, offene Prüfungen, Zählerstatus, zuständige Fachperson und dokumentierter Freigabeentscheid. Eine blinkende grüne LED am Wechselrichter ersetzt keine solche Abnahme.
+
+
+Übergabe an Abrechnung und Betrieb.
+Die Netzbetreiberin benötigt die erforderlichen Unterlagen im vorgesehenen Format, während der Eigentümer Informationen zu Messung, Monitoring und Rechnungsdarstellung braucht. Wer erklärt den Unterschied zwischen eingespeister, bezogener und selbst verbrauchter Energie? Wer erhält Zugriff auf das Onlineportal und wie wird er bei Eigentümerwechsel übertragen? Das sind keine Nebenthemen, sondern bestimmen den späteren Betrieb. Ein sauberer Projektabschluss enthält daher sowohl elektrische Nachweise als auch eine verständliche Einführung in die Energieflüsse und die verwendeten Messwerte.
+
+Acht anwendungsorientierte Fallübungen mit Musterlösungen.
+
+Fall 1 – Generator- und AC-Leistung.
+Eine PV-Offerte nennt acht Kilowatt Peak Modulleistung und einen Wechselrichter mit sechs Kilowatt AC-Nennleistung. Welche Zahl gehört in welches Feld der Netzanschlussunterlagen? Die Musterlösung führt beide Werte separat auf. Die Generatorleistung ist nicht ohne Weiteres die maximal mögliche Netzeinspeiseleistung. Weitere Herstellerangaben und Anschlussbedingungen bleiben für die tatsächliche Anmeldung massgebend.
+
+
+Fall 2 – Mittagssituation.
+In einem Zeitfenster produziert die PV vier Kilowatt, das Haus verbraucht zwei Kilowatt. Im vereinfachten Modell werden zwei Kilowatt rückgespeist. Zehn Minuten später steigt der Verbrauch auf fünf Kilowatt, die Erzeugung bleibt bei vier Kilowatt. Nun wird ein Kilowatt bezogen. Die Aufgabe zeigt, weshalb Einspeise- und Bezugsrichtung zeitabhängig sind und nicht als eine einzige feste Jahreszahl dargestellt werden sollten.
+
+
+Fall 3 – Eigenverbrauchsquote.
+Ein Tagesmodell nennt 20 Kilowattstunden PV-Produktion und sieben Kilowattstunden direkt genutzte PV-Energie. Der Eigenverbrauchsanteil ist 35 Prozent. Diese Zahl ist nicht der Autarkiegrad, weil dafür die gesamte nachgefragte Energie benötigt würde. Ein Bericht muss die Bezugsgrösse jedes Prozentsatzes ausdrücklich nennen. Der Lernende ergänzt zur Lösung die fehlenden Daten für eine Autarkieberechnung.
+
+
+Fall 4 – Zähler mit zwei Registern.
+Ein Zweiwegzähler zeigt 1’200 Kilowattstunden Bezug und 900 Kilowattstunden Rücklieferung. Ein Kunde behauptet, die PV habe nur 900 Kilowattstunden erzeugt. Die Musterantwort erklärt: Die direkte Nutzung hinter dem Zähler fehlt in dieser Zahl. Für die Gesamtproduktion braucht es zusätzliche verlässliche Daten oder Messungen. Das ist eine grundlegende Unterscheidung zwischen Netzbilanz und Erzeugungsbilanz.
+
+
+Fall 5 – Baugesuch und Elektrofreigabe.
+Die Standortgemeinde bestätigt einen baurechtlichen Verfahrensschritt. Der Installateur leitet daraus ab, sämtliche elektrischen Arbeiten seien schon genehmigt. Die Musterlösung trennt die Rechtsbereiche und benennt die zusätzlichen Anforderungen der Netzbetreiberin und der NIV. Eine Bewilligung für ein Bauvorhaben beantwortet nicht automatisch die Frage, wer an der elektrischen Anlage arbeiten darf und welche Nachweise nötig sind.
+
+
+Fall 6 – Speicher erweitert das Schema.
+Eine ursprünglich reine PV-Anlage erhält eine Batterie. Die bisherige Skizze enthält nur Pfeile zwischen Dach, Haus und Netz. Ergänze den Speicher mit Lade- und Entladepfad. Danach prüfst Du, ob das Messkonzept noch alle relevanten Energieflüsse eindeutig abbildet. Die Musterlösung weist darauf hin, dass zusätzliche Betriebs- und Netzschutzfragen zu klären sind, statt einfach einen Batteriesymbolkasten ohne weitere Anpassung einzuzeichnen.
+
+
+Fall 7 – Formular veraltet.
+Ein Betrieb will eine vor zwei Jahren gespeicherte Vorlage zur Netzanmeldung verwenden. Die Aufgabenstellung verlangt den Abgleich mit dem aktuell geltenden Verfahren der zuständigen Netzbetreiberin. Die Musterlösung überprüft Pflichtfelder, Datenblätter, Anschlussbedingungen und Adressaten. Eine erfolgreiche frühere Nutzung beweist nicht, dass die Vorlage heute vollständig ist. Im Protokoll wird die verwendete Version festgehalten.
+
+
+Fall 8 – Portalzugang bei Übergabe.
+Der Eigentümer sieht im App-Portal seine PV-Produktion, weiss aber nicht, wie Rückspeisung auf der Stromrechnung erscheint. Die Musterlösung erklärt drei getrennte Grössen: Erzeugung, Bezug aus dem Netz und Rücklieferung. Sie dokumentiert Messorte und Datenquelle und nennt offene Informationen zur Abrechnung. Betreiberinformation gehört zum vollständigen Projektabschluss und nicht bloss zu einer beiläufigen Geräteeinweisung.
+
+Zusätzliche Rechen- und Dokumentationsvertiefung.
+
+Energiebilanz über vier Zeitfenster.
+Angenommen, ein Gebäude benötigt morgens drei Kilowattstunden, mittags vier, nachmittags zwei und abends fünf Kilowattstunden. Die PV-Erzeugung beträgt in den gleichen Zeitfenstern null, sechs, drei und null Kilowattstunden. Ohne Speicher und bei zeitlich gleichmässiger Leistung innerhalb jedes Fensters wären morgens drei und abends fünf Kilowattstunden Netzbezug nötig. Mittags könnten zwei, nachmittags eine Kilowattstunde eingespeist werden. Zusätzlich werden mittags vier und nachmittags zwei Kilowattstunden direkt genutzt. Die Tagesbilanz ist also sechs Kilowattstunden Eigenverbrauch, drei Kilowattstunden Einspeisung und acht Kilowattstunden Netzbezug. In der Realität kann die zeitliche Auflösung das Ergebnis verändern.
+
+
+Messkonzept kontrollieren.
+In einem einfachen Schema steht der Zweirichtungszähler am Übergang zum öffentlichen Netz. PV-Generator und Haushaltslasten liegen auf der Gebäudeseite. Damit kann der Zähler Netzbezug und Rückspeisung getrennt erfassen, nicht aber ohne weitere Daten den gesamten Eigenverbrauch. Markiere deshalb auch die Stelle des Erzeugungsmonitorings. Wenn später ein Speicher hinzukommt, muss die Zeichnung um Lade- und Entladewege ergänzt werden. Eine Messkonzeption ist kein blosses Abrechnungsformular, sondern bildet die physikalischen Energieflüsse ab. Die richtige Ausführung ist mit den gültigen Anschluss- und Abrechnungsregeln der Netzbetreiberin abzugleichen.
+
+Prüfungsgespräch und Lernabschluss.
+
+Lernkontrolle über Datenqualität. Ein Formular weist die Modulleistung in Kilowatt Peak aus, ein zweites verlangt Wechselrichterleistung und ein drittes zeigt Energiemengen in Kilowattstunden. Erkläre, weshalb diese Werte unterschiedliche technische Aussagen enthalten. Markiere anschliessend in einem einfachen Einlinienschema den Netzanschlusspunkt, die Hauslasten und den PV-Generator. Gib an, welche Messgrösse an welcher Stelle beobachtet werden könnte. Bei einem späteren Batteriespeicher ist zu prüfen, welche neuen Energieflüsse auftreten. Ein guter Bericht nennt ausserdem die Quelle jedes Messwerts, etwa Zweirichtungszähler oder Wechselrichtermonitoring, statt Zahlen aus verschiedenen Systemen ohne Bezugsangabe zu vermischen.

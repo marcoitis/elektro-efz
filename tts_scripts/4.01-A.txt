@@ -1,1 +1,108 @@
-Lektion 4.01-A: Komplexe Impedanz und Wechselstromnetze. In einem Wechselstromnetzwerk werden ohmscher Widerstand und Blindwiderstand in der komplexen Impedanz zusammengeführt. Für eine R-L-Reihenschaltung ist der Betrag der Impedanz gleich der Quadratwurzel aus R² + X_L². Der Phasenwinkel beschreibt den Bezug zwischen Strom und Spannung. Diese Methoden erlauben konsistente Rechnungen, wenn Sinusform und lineare Bauteile vorausgesetzt werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Gegeben seien R = 30 Ohm und X_L = 40 Ohm in Reihe. Dann ergibt sich die Impedanz Z = 30 + j40 Ohm und ihr Betrag 50 Ohm. Bei 100 Volt effektiv beträgt die idealisierte Stromstärke 2 Ampere. Zeichne das Impedanzdreieck. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein komplexer Widerstand besitzt Betrag und Winkel. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Zeigerrechnung mit R, L, C; Impedanz und Admittanz; Kirchhoffsche Regeln bei Wechselstrom. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.3; N I N Teil 3 (Lastdaten). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.01-A: Komplexe Impedanz und Wechselstromnetze. In einem Wechselstromnetzwerk werden ohmscher Widerstand und Blindwiderstand in der komplexen Impedanz zusammengeführt. Für eine R-L-Reihenschaltung ist der Betrag der Impedanz gleich der Quadratwurzel aus R² + X_L². Der Phasenwinkel beschreibt den Bezug zwischen Strom und Spannung. Diese Methoden erlauben konsistente Rechnungen, wenn Sinusform und lineare Bauteile vorausgesetzt werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Gegeben seien R = 30 Ohm und X_L = 40 Ohm in Reihe. Dann ergibt sich die Impedanz Z = 30 + j40 Ohm und ihr Betrag 50 Ohm. Bei 100 Volt effektiv beträgt die idealisierte Stromstärke 2 Ampere. Zeichne das Impedanzdreieck. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein komplexer Widerstand besitzt Betrag und Winkel. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Zeigerrechnung mit R, L, C; Impedanz und Admittanz; Kirchhoffsche Regeln bei Wechselstrom. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 5.3; NIN Teil 3 (Lastdaten). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Zeigerrechnung mit R, L, C; Impedanz und Admittanz; Kirchhoffsche Regeln bei Wechselstrom.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Wirkleistung im symmetrischen Drehstrom. UL-L = 400 V, I = 10 A, Leistungsfaktor cos φ = 0,8.
+
+Schritt 1. Für symmetrische Drehstromlasten: P = √3 · U · I · cos φ.
+
+Schritt 2. Einsetzen: √3 · 400 V · 10 A · 0,8.
+
+Schritt 3. Ergebnis: P ≈ 5,54 kW.
+
+Schritt 4. Bei unsymmetrischen Lasten sind die Stränge getrennt zu betrachten.
+
+Kontrolle des Ergebnisses: P ≈ 5,54 kW.
+
+Übungsauftrag zur Anwendung: Schaltungs-Simulation, Berechnung von 20 wechselstromtechnischen Aufgaben. Halte zusätzlich die Antwort auf die Frage «Wie gross ist der Betrag von Z bei R=30 Ω und XL=40 Ω in Reihe?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie gross ist der Betrag von Z bei R=30 Ω und XL=40 Ω in Reihe? Die richtige Antwort lautet: 50 Ω. Warum? Ein komplexer Widerstand besitzt Betrag und Winkel.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein komplexer Widerstand besitzt Betrag und Winkel.. Warum? Der Merksatz lautet: Ein komplexer Widerstand besitzt Betrag und Winkel.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Von Widerstand zur komplexen Impedanz.
+Bei Gleichstrom genügt für einen idealen Widerstand die Beziehung U gleich R mal I. Bei sinusförmigem Wechselstrom verändert eine Induktivität oder Kapazität zusätzlich die zeitliche Beziehung zwischen Spannung und Strom. Wir beschreiben dies mit der komplexen Impedanz Z gleich R plus jX. Der Realteil steht für den ohmschen Anteil; der Imaginärteil für den Blindanteil. Für eine Reihenschaltung mit R gleich 30 Ohm und X gleich 40 Ohm induktiv ergibt sich Z gleich 30 plus j40 Ohm. Der Betrag beträgt 50 Ohm. Damit wird der Blindanteil nicht mit dem Widerstand verwechselt, sondern als eigenständige Komponente behandelt.
+
+
+Zeigerrechnung und Referenzrichtung.
+Ein Spannungs- oder Stromzeiger stellt Betrag und Phase einer sinusförmigen Grösse dar. Als Referenz wählen wir im Lernbeispiel den Strom auf der positiven reellen Achse. Der Spannungsfall an R liegt in Phase mit diesem Strom; an einer idealen Induktivität eilt die Spannung um neunzig Grad voraus. Die Gesamtspannung ist die vektorielle Summe. Wenn R gleich 30 und X-L gleich 40 Ohm vorliegen, ist der Winkel arctan von 40 durch 30, also rund 53,1 Grad. Wer Winkel und Vorzeichen nicht dokumentiert, riskiert später eine falsche Aussage zur Blindleistung.
+
+
+RLC-Reihe mit zwei entgegengesetzten Blindanteilen.
+In einer idealisierten RLC-Reihenschaltung ergibt sich die gesamte Reaktanz aus X-L minus X-C. Nehmen wir einen ohmschen Anteil von 20 Ohm, einen induktiven Blindwiderstand von 50 Ohm und einen kapazitiven Blindwiderstand von 30 Ohm an. Dann folgt Z gleich 20 plus j20 Ohm, Betrag etwa 28,3 Ohm. Der Phasenwinkel beträgt rund 45 Grad induktiv. Wenn stattdessen X-C grösser wäre als X-L, würde das Vorzeichen des Imaginärteils wechseln. Damit ändert sich auch die Richtung der Phasenverschiebung. Der Betrag allein verrät diese Information nicht.
+
+
+Reaktanz hängt von Frequenz ab.
+Der induktive Blindwiderstand ergibt sich als X-L gleich zwei Pi mal Frequenz mal Induktivität. Für eine ideale Spule mit 0,1 Henry bei 50 Hertz resultieren etwa 31,4 Ohm. Verdoppelt sich die Frequenz, verdoppelt sich der Blindwiderstand. Für einen Kondensator lautet die entsprechende Beziehung X-C gleich eins durch zwei Pi mal Frequenz mal Kapazität. Sein Blindwiderstand wird bei höherer Frequenz kleiner. Dadurch ändert sich in einem Wechselstromnetz nicht nur der Strombetrag, sondern auch der Phasenwinkel. Das ist für Filter, Resonanz und das Verhalten elektronischer Geräte grundlegend.
+
+
+Effektivwerte und Phasenbezug sauber halten.
+In der Wechselstromrechnung werden Effektivwerte verwendet, solange nichts anderes angegeben ist. Für eine sinusförmige Spannung von 100 Volt effektiv an einer Impedanz mit Betrag 50 Ohm ergeben sich zwei Ampere effektiv. Die scheinbare Leistung beträgt 200 VA. Der ohmsche Leistungsanteil ist I im Quadrat mal R, also 4 mal 30 gleich 120 Watt. Der induktive Blindanteil beträgt I im Quadrat mal X, also 160 var. Die Beträge bilden ein rechtwinkliges Dreieck: Quadratwurzel aus 120² plus 160² ergibt 200 VA. Diese Rückprobe verbindet Impedanz- und Leistungsmodell.
+
+
+Komplexe Division und Stromzeiger.
+Wenn die Spannung als reeller Referenzzeiger U gleich 100 plus j0 Volt angegeben wird, ergibt sich für Z gleich 30 plus j40 Ohm der Strom I gleich U geteilt durch Z. Multiplizieren wir mit der konjugiert komplexen Zahl, folgt I gleich 1,2 minus j1,6 Ampere. Sein Betrag beträgt zwei Ampere, der Winkel ist minus 53,1 Grad. Der Strom eilt einer induktiven Last also nicht voraus, sondern hinkt der Spannung nach. Dieses Beispiel zeigt, warum eine reine Betragsdivision die Phaseninformation verlieren würde.
+
+
+Kirchhoffsche Regeln bleiben gültig.
+Auch in linearen Wechselstromnetzwerken gelten Knoten- und Maschenregeln. Der Unterschied besteht darin, dass Ströme und Spannungen als komplexe Zeiger addiert werden. Zwei Ströme gleicher Effektivhöhe können wegen ihrer Phasendifferenz einen anderen resultierenden Leiterstrom ergeben als ihre arithmetische Summe. Für einen Knoten mit I-eins gleich 3 plus j1 Ampere und I-zwei gleich 1 minus j2 Ampere ergibt sich I-gesamt gleich 4 minus j1 Ampere, Betrag etwa 4,12 Ampere. Das entspricht nicht fünf Ampere. Die Vektoraddition ist daher unverzichtbar.
+
+
+Admittanz als Kehrwert der Impedanz.
+Bei Parallelschaltungen ist die Admittanz Y, also der komplexe Kehrwert von Z, häufig besonders nützlich. Die Einheit ist Siemens. Wenn zwei parallele Zweige mit Admittanzen Y-eins und Y-zwei vorhanden sind, addiert sich die Gesamtadmittanz direkt. Dies ist das Wechselstrom-Gegenstück zur Addition von Leitwerten bei ohmschen Parallelschaltungen. Die Darstellung Y gleich G plus jB trennt Leitwert und Suszeptanz. In der Lernaufgabe soll die Bedeutung der Vorzeichen verständlich werden, bevor komplizierte Netze berechnet werden.
+
+
+Resonanz im Modell.
+Bei einer idealisierten RLC-Reihenschaltung heben sich induktive und kapazitive Reaktanz bei einer bestimmten Frequenz gegenseitig auf. Dann gilt X-L gleich X-C, die Impedanz ist im idealen Modell rein ohmsch. Der Strom kann gegenüber benachbarten Frequenzen besonders gross werden. Das ist eine wichtige Warnung gegen die Vorstellung, ein Kondensator könne eine Induktivität unter allen Bedingungen einfach ungefährlich kompensieren. Reale Bauteile besitzen Verluste und Belastungsgrenzen; auch Resonanz kann zu unerwartet hohen Spannungen an einzelnen Komponenten führen.
+
+
+Plausibilitätsprüfung am Ende der Rechnung.
+Jede komplexe Rechnung wird durch Grössenordnung, Einheit, Vorzeichen und Leistungsbilanz kontrolliert. Ist eine induktive Schaltung als kapazitiv ausgewiesen, liegt möglicherweise ein Vorzeichenfehler vor. Entsteht ein Betrag der Impedanz, der kleiner als ihr reeller Anteil ist, ist bei einer einfachen R-X-Reihe die Wurzelrechnung falsch. Ein Ergebnis in Watt statt Ohm deutet auf eine Einheitenverwechslung hin. Die Abschlussaufgabe verlangt deshalb nicht nur den numerischen Wert, sondern einen gesprochenen Satz zum physikalischen Verhalten der Schaltung. Damit wird aus der Rechenregel ein belastbares Verständnis.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Betrag und Winkel einer Impedanz.
+Gegeben sind R gleich 12 Ohm und X-L gleich 16 Ohm. Berechne Betrag und Winkel der komplexen Impedanz. Lösung: Z gleich 12 plus j16 Ohm, Betrag Wurzel aus 144 plus 256 gleich 20 Ohm. Der Winkel ist arctan von 16 durch 12, rund 53,1 Grad induktiv. Der Realteil ist kleiner als der Betrag, was als Plausibilitätskontrolle passt. Ein Ergebnis mit negativem Winkel wäre bei dieser Vorzeichenkonvention falsch.
+
+
+Fall 2: Stromzeiger an induktiver Last.
+Eine Spannung von 100 Volt effektiv liegt an Z gleich 30 plus j40 Ohm. Der komplexe Strom beträgt 100 geteilt durch 30 plus j40, also 1,2 minus j1,6 Ampere. Sein Betrag ist zwei Ampere. Die Musterlösung erläutert, warum der Strom der Spannung um rund 53,1 Grad nachläuft. Nur den Betrag zwei Ampere anzugeben, würde die Phaseninformation verlieren und spätere Leistungsberechnungen erschweren.
+
+
+Fall 3: Induktivität auf Frequenz übertragen.
+Eine ideale Induktivität von 0,2 Henry wird zunächst bei 50 Hertz betrachtet. X-L ist zwei Pi mal 50 mal 0,2, also rund 62,8 Ohm. Bei 100 Hertz wären es etwa 125,7 Ohm. Der Lernende erklärt die Verdopplung des Blindwiderstands. Gleichzeitig ist zu betonen, dass reale Spulen zusätzlich ohmsche Verluste und frequenzabhängige Nebeneffekte besitzen. Die Rechnung gilt für das idealisierte Bauteilmodell.
+
+
+Fall 4: Kapazität und Frequenz.
+Ein idealer Kondensator von 100 Mikrofarad hat bei 50 Hertz einen Blindwiderstand von ungefähr 31,8 Ohm. Bei 100 Hertz sinkt er auf rund 15,9 Ohm. Die Musterlösung verwendet X-C gleich eins geteilt durch zwei Pi f C. Der Lernende zeichnet die fallende Beziehung qualitativ. Eine verwirrende Vorzeichendarstellung wird vermieden, indem zwischen positivem Betrag X-C und negativem Imaginärteil der kapazitiven Impedanz unterschieden wird.
+
+
+Fall 5: Reaktanzen gegeneinander aufrechnen.
+R beträgt 20 Ohm, X-L 45 Ohm und X-C 30 Ohm. Die Netto-Reaktanz ist plus 15 Ohm; Z gleich 20 plus j15 Ohm, Betrag 25 Ohm. Der Phasenwinkel beträgt rund 36,9 Grad induktiv. Das Ergebnis ist nicht 95 Ohm, weil Blindwiderstände nicht als beliebige positive Beträge addiert werden dürfen. Diese Aufgabe prüft, ob Vorzeichen und physikalisches Verhalten zusammen verstanden wurden.
+
+
+Fall 6: Leistung als Kontrolle der Impedanz.
+An Z gleich 30 plus j40 Ohm liegen 100 Volt effektiv an. Der Strom beträgt zwei Ampere. Die Wirkleistung ist vier mal 30 gleich 120 Watt und die Blindleistung vier mal 40 gleich 160 var. Die Scheinleistung beträgt 200 VA. Die Rückprobe lautet Quadratwurzel aus 120² plus 160² gleich 200. Die Musterlösung macht sichtbar, dass der Phasenwinkel und die Leistungsbilanz dieselbe Physik beschreiben.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefte Berechnung: Von der Impedanz zum Leistungsdreieck.
+Betrachte die R-L-Reihenschaltung mit R gleich 18 Ohm und X-L gleich 24 Ohm. Der Betrag der Impedanz beträgt 30 Ohm, der Winkel rund 53,1 Grad. Bei 120 Volt effektiv fliessen vier Ampere. Die Wirkleistung ergibt sich als I² mal R, also 16 mal 18 gleich 288 Watt. Die Blindleistung beträgt 16 mal 24 gleich 384 var. Die Scheinleistung beträgt 120 mal vier gleich 480 VA. Die Rückprobe mit dem Leistungsdreieck liefert Quadratwurzel aus 288² plus 384² gleich 480 VA. Prüfe jetzt gedanklich, ob diese Ergebnisse bei einer Frequenzänderung gleich bleiben könnten. Die Antwort lautet nein, weil sich X-L mit der Frequenz ändert und dadurch sowohl Strom als auch Winkel beeinflusst werden.
+
+
+Lernabschluss.
+Stelle jede komplexe Rechnung in drei Darstellungen vor: als komplexe Zahl, als Betrag mit Winkel und als physikalische Aussage. So wird sofort sichtbar, ob Vorzeichen und Betrag zusammenpassen. Eine rein algebraisch richtige Zahl ohne korrekten elektrischen Bezug ist noch keine vollständige Lösung. Erkläre zum Schluss die Bedeutung des negativen Stromwinkels an einer induktiven Last, wenn die Spannung als Referenz gewählt wurde.

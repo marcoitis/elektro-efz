@@ -1,4 +1,4 @@
-PV-Sichtprüfung: Was muss vor jeder Messung stimmen?.
+PV-Sichtprüfung: Was muss vor jeder Messung stimmen?
 
 Die Sichtprüfung ist bei der Inbetriebnahme kein Spaziergang über das Dach. Sie ist eine strukturierte Kontrolle der elektrischen, mechanischen und dokumentarischen Voraussetzungen – insbesondere der DC-Risiken.
 
@@ -25,3 +25,84 @@ In einer Fotodokumentation findest Du unleserliche Stringetiketten und ungeschü
 Musterlösung.
 
 Mängel im Sichtprüfprotokoll erfassen, Anlage nicht unkritisch abnehmen und durch berechtigte Fachpersonen beurteilen und beheben lassen. Fotos sind kein Ersatz für Inspektion vor Ort.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: In einer Fotodokumentation findest Du unleserliche Stringetiketten und ungeschützte DC-Steckverbinder.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Mängel im Sichtprüfprotokoll erfassen, Anlage nicht unkritisch abnehmen und durch berechtigte Fachpersonen beurteilen und beheben lassen. Fotos sind kein Ersatz für Inspektion vor Ort.
+
+Möglicher sicherer Übungsauftrag: Erstelle eine eigene 20-Punkte-Sichtprüfliste zu Leitungsführung, Schutz, Warnungen, Dokumentation und mechanischen Teilen.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Ist laufende Einspeisung ein Beweis für fehlerfreie Montage? Die richtige Antwort lautet: Nein. Warum? Ein funktionierender Wechselrichter sagt wenig über Leitungsführung und Schutz aus.
+
+Frage 2: Wie werden nicht zugängliche Stellen dokumentiert? Die richtige Antwort lautet: Als ungeprüft. Warum? Nicht geprüfte Bereiche dürfen nicht als geprüft ausgewiesen werden.
+
+Frage 3: Was kann eine grosse DC-Leitungsschleife ungünstig beeinflussen? Die richtige Antwort lautet: Induzierte Überspannungen. Warum? Schleifenfläche ist bei Einkopplung von Stör- und Blitzimpulsen relevant.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Warum die Sichtprüfung vor den Messwerten kommt.
+Mit einer Sichtprüfung werden mögliche Fehler erkannt, die eine Messung gefährlich machen oder deren Ergebnis entwerten könnten. Ein beschädigter PV-Steckverbinder wird nicht dadurch unproblematisch, dass die Leerlaufspannung des Strings korrekt aussieht. Ebenso können lose Kabelwege, falsche Kennzeichnungen oder fehlende Durchführungsabdichtungen bestehen, obwohl der Wechselrichter Energie liefert. Für die Ausbildung wird eine Checkliste in die Bereiche Dachgenerator, DC-Leitungswege, Trenn- und Schutzgeräte, AC-Schnittstelle und Dokumentation gegliedert. Jedem Prüffeld ist eine konkrete Erwartung zugeordnet. Die Beobachtung wird danach als erfüllt, nicht erfüllt oder nicht prüfbar dokumentiert. Ein pauschaler Haken „Dach in Ordnung“ ist ein schlechter Prüfbeleg, weil er die später nachvollziehbare Bewertung verhindert.
+
+Fachkapitel 2: Dachbegehung und Absturzrisiko.
+Die erste Sicherheitsentscheidung betrifft oft nicht die elektrische Schaltung, sondern den Zugang zum Dach. Eine Sichtprüfung ist nur dann zulässig, wenn Zugang, Absturzsicherung, Wetter und Zuständigkeiten geklärt sind. PV-Module, Oberlichter und Dachkanten können die Begehung erschweren. Eine Dokumentation aus Drohnenfotos oder vom gesicherten Standort kann einen Teil der Sichtinformationen liefern; sie ersetzt nicht automatisch alle erforderlichen Nahkontrollen. Der Prüfplan beschreibt deshalb, welche Stellen zugänglich waren und welche nicht. Dies gehört ausdrücklich in den Bericht, statt den Befund mit „ohne Mängel“ zu schliessen. Didaktisch sollen Lernende erkennen: Eine Sicherheitsprüfung darf kein neues Sicherheitsproblem erzeugen. Ungesicherte Dachbegehungen und Arbeiten an aktiven PV-Leitungen sind keine selbstständigen Lernübungen.
+
+Fachkapitel 3: DC-Leitungswege und mechanischer Schutz.
+Die sichtbare Führung der DC-Leitungen wird hinsichtlich Scheuern, Quetschen, scharfer Kanten, Befestigung und Witterung beurteilt. Kabelschlaufen können durch Wind bewegen und an Blechkanten beschädigt werden. Eine optisch saubere Kabeltrasse kann dennoch unzulässig sein, wenn ihre Temperaturbedingungen oder die Herstelleranforderungen nicht passen. Bei Gebäudedurchführungen sind Dichtheit und gegebenenfalls brandschutzrelevante Ausführung getrennt zu kontrollieren. Zur guten Dokumentation gehören Lagefotos mit eindeutigem Bezug auf Dachplan oder String-ID. Ein Foto der ganzen Dachfläche zeigt zwar die Modulbelegung, aber oft nicht die kritische Steckverbindung hinter dem Randmodul. Deshalb werden Übersicht und Detailaufnahmen ergänzend verwendet, wenn dies sicher und fachlich sinnvoll möglich ist.
+
+Fachkapitel 4: Stecksysteme und Polung.
+PV-Steckverbinder müssen als zusammenpassendes System behandelt werden. Gleich aussehende Steckhälften unterschiedlicher Hersteller sind nicht automatisch für eine gemeinsame Steckverbindung freigegeben. Ein Kontrollpunkt ist deshalb die eindeutige Zuordnung der Steckkomponenten und der nachgewiesene Einsatzbereich. Zusätzlich werden Leitungseinführung, Verriegelung, Zugentlastung und Anzeichen von Überhitzung beurteilt. Die Polung eines DC-Anschlusses ist eine spätere Mess- und Prüfaufgabe, aber die Kennzeichnung und das geplante Schaltbild gehören bereits zur Sichtprüfung. Werden Verbindungspunkte unzugänglich hinter Modulen verlegt, müssen Wartbarkeit und Prüfstrategie berücksichtigt werden. Eine unauffällige Steckeroptik ersetzt keine Herstellerfreigabe und keinen elektrischen Nachweis. Besonders riskant ist es, aktiven PV-Strom unter Last durch ungeeignetes Ziehen einer Steckverbindung zu unterbrechen.
+
+Fachkapitel 5: Leitungsschleifen und Blitzbeeinflussung.
+Die Fläche von Stromschleifen beeinflusst die mögliche induktive Einkopplung bei elektromagnetischen Ereignissen. Deshalb wird beim Layout geprüft, ob Hin- und Rückleiter unnötig weit auseinander geführt werden. Das ist kein Versprechen, durch enges Zusammenlegen jeden Blitzschaden zu verhindern. Ein äusseres Blitzschutzsystem, Trennungsabstände, Überspannungsschutz und erforderlicher Potenzialausgleich sind eigene Themen, die anhand der konkreten Gebäude- und Anlagenlage zu beurteilen sind. In einem Lernbild können zwei DC-Leitungsführungen gegenübergestellt werden: Hin- und Rückleiter über getrennte Dachseiten ergeben eine grosse Schleife, parallel geführte Leiter eine kleinere. Die Zeichnung muss dabei zeigen, dass die Leitungsführung mit mechanischem Schutz und Wartbarkeit vereinbar bleibt.
+
+Fachkapitel 6: Schalt- und Warninformationen.
+Der Betreiber und die Einsatzkräfte müssen erkennen können, dass eine PV-Quelle vorhanden ist und wo sich die relevanten Schalt- beziehungsweise Trenneinrichtungen befinden. Die eindeutige Beschriftung von Wechselrichter, Verteiler, DC-Strings und allfälligen Zusatzkomponenten erleichtert auch die Instandhaltung. Ein Wechselrichter mit deaktiviertem AC-Ausgang bedeutet nicht zwingend, dass seine PV-Eingänge spannungsfrei wären. Die Unterlagen müssen diese physikalische Eigenschaft vermitteln. Die Sichtprüfung vergleicht daher Beschilderung, Stromlaufplan und tatsächliche Bauteile. Ein Fehler liegt vor, wenn die Schaltstelle in der Dokumentation vorhanden ist, vor Ort aber anders bezeichnet oder unzugänglich ist. Angaben zu besonderen Abschaltfunktionen dürfen nur so formuliert werden, wie sie das eingebaute System tatsächlich nachweislich erfüllt.
+
+Fachkapitel 7: Aufbau und Schutz der AC-Seite.
+Die PV-Anlage endet sicherheitstechnisch nicht beim Wechselrichter. Auch die Einspeisung in die Gebäudeinstallation, die Zuordnung der Schutzeinrichtungen, der Schutzleiter und allfällige Zähler- oder Kommunikationseinrichtungen werden in den Prüfumfang einbezogen. Dies ist jedoch nicht gleichbedeutend mit der Behauptung, dass jede Person jede Verteilung öffnen darf. Die Sichtprüfung an geschlossenen und geeigneten Anlagenteilen kann geplant werden; innere Inspektionen erfordern die festgelegten Zuständigkeiten und den sicheren Arbeitszustand. Als Lernauftrag wird die AC-Einbindung anhand eines freigegebenen Schemas beurteilt. Die Prüfperson soll notieren, welche Informationen für eine Bewertung fehlen und welche Messungen erst später durch berechtigte Fachpersonen erfolgen. So bleibt die Trennung zwischen Beobachten und aktiver Prüfung klar.
+
+Fachkapitel 8: Mängelbericht statt Bauchgefühl.
+Eine gute Mängelbeschreibung enthält Ort, Bauteil, beobachtete Abweichung, mögliche Auswirkung, erforderliche Klärung und den vereinbarten nächsten Schritt. Die Formulierung „schlechte Installation“ hilft niemandem. Besser: „DC-Leitung an Dachkante im Bereich Feld B ohne erkennbaren mechanischen Schutz; Nachweis der geeigneten Führung beziehungsweise Korrektur erforderlich.“ Die Bewertung muss angemessen bleiben. Ein nicht zugänglicher Bereich wird nicht stillschweigend als mängelfrei eingestuft, sondern als nicht geprüft vermerkt. Für die Übergabe ist ausserdem wichtig, ob ein Mangel vor der Inbetriebnahme behoben werden muss oder als dokumentierte Pendenz im freigegebenen Verfahren behandelt werden kann. Diese Entscheidung darf nicht durch den Wunsch nach einem schnellen Projektabschluss beeinflusst werden.
+
+Fall 1: Fall 1 – Gleiche Steckform.
+Am Dach sind zwei PV-Steckverbinder verschiedener Hersteller miteinander verbunden. Die Steckform wirkt identisch. Ohne Freigabe für diese konkrete Paarung ist das keine nachgewiesene geeignete Verbindung. Notiere Hersteller und Typ, dokumentiere die Lage sicher, und fordere den Kompatibilitätsnachweis oder eine fachgerechte Korrektur. Einfach am aktiven String einen Stecker zu ziehen wäre gerade nicht das sichere Vorgehen.
+
+Fall 2: Fall 2 – Abriebgefahr.
+Ein DC-Kabel liegt an einer scharfkantigen Metallhalterung an und kann sich bei Wind bewegen. Der Wechselrichter produziert volle Leistung. Das beweist nicht, dass die Isolation dauerhaft geschützt ist. Der Sichtbefund lautet mechanische Gefährdung der Leitungsisolation. Die Abhilfe muss geeignete Kabelführung, Abstand und Befestigung berücksichtigen und anschliessend dokumentiert werden.
+
+Fall 3: Fall 3 – Fehlende String-ID.
+Vier gleichartige DC-Leitungen kommen im Technikraum an, aber weder am Eingang noch im Plan sind die Strings eindeutig bezeichnet. Eine spätere Messung liesse sich nur unsicher zuordnen. Die Sichtprüfung verlangt deshalb ein widerspruchsfreies Kennzeichnungssystem. Zum Beispiel erhält jeder String eine eindeutige Nummer, die im Dachlayout, Anschlussplan und Prüfprotokoll gleich verwendet wird.
+
+Fall 4: Fall 4 – Nicht begehbare Dachfläche.
+Ein Dachteil ist wegen fehlender Absturzsicherung nicht zugänglich. Die fachlich korrekte Entscheidung lautet nicht, das Risiko einzugehen, sondern den Prüfumfang einzuschränken, die Einschränkung ausdrücklich zu protokollieren und einen sicheren Nachprüftermin festzulegen. Das Prüfprotokoll muss verhindern, dass aus einer blossen Terminlücke später eine unbegründete Freigabe abgeleitet wird.
+
+Fall 5: Fall 5 – Falsche Warninformation.
+Am Wechselrichter steht „Anlage vollständig spannungsfrei nach AC-Abschaltung“. Das kann bei beleuchteten PV-Modulen sachlich falsch sein. Die Prüfstelle muss die Kennzeichnung gegen tatsächliche Geräteeigenschaften und relevante Schaltfunktionen abgleichen. Eine irreführende Aussage wird als Mangel erfasst und nicht mit dem Argument akzeptiert, ein ähnliches Schild sei schon an anderen Anlagen verwendet worden.
+
+Fall 6: Fall 6 – Fehlende Durchführung.
+Ein Dachplan erwähnt den Leitungsweg durch eine Brandabschnittswand, aber die Ausführung ist im Revisionsplan nicht mehr auffindbar. Die Sichtprüfung dokumentiert die fehlende Zuordnung und fordert den baulichen beziehungsweise brandschutztechnischen Nachweis. Die elektrotechnische Funktion der Leitung sagt über die brandschutztechnische Zulässigkeit ihrer Durchführung noch nichts aus.
+
+Fall 7: Fall 7 – Strukturiertes Fotoprotokoll.
+Erstelle eine Liste mit mindestens fünf eindeutig bezeichneten Fotopunkten: Generatorfeld, kritische Leitungsführung, Stecksystem, Übergabestelle DC und Wechselrichter-AC-Anschluss. Für jeden Punkt wird notiert, was auf dem Bild nachgewiesen werden soll und welche Bereiche weiterhin unzugänglich sind. Die Bildnummer sollte mit der Mängelliste übereinstimmen.
+
+Fall 8: Fall 8 – Freigabeentscheidung.
+Ein Prüfbogen hat fast nur grüne Haken, aber die Herstellerfreigabe der verwendeten Stecksysteme fehlt. Das Ergebnis ist nicht automatisch „bestanden“. Die fehlende Information betrifft einen sicherheitsrelevanten Nachweis. Formuliere eine begründete Pendenz und erkläre, wer die Klärung fachlich verantwortet. Eine blosse Mehrheitswertung der Prüfpunkte ist keine Sicherheitsbewertung.
+
+Vertiefung 9: Zusatzfall – Leitungsführung unter Solarmodulen.
+Bei einer Dachkontrolle sind mehrere Kabelbinder gebrochen; die DC-Leitungen hängen unter den Modulen und berühren stellenweise die Dachhaut. Die Anlage produziert dennoch normal. Das ist kein Widerspruch, denn mechanische Schäden können sich über längere Zeit entwickeln, bevor ein elektrischer Fehler messbar wird. Der Prüfbericht bezeichnet die betroffenen Modulreihen, den Zustand der Befestigung und die möglichen Risiken durch Bewegung, Feuchtigkeit und Scheuern. Eine fachgerechte Korrektur muss das zugelassene Befestigungssystem und die thermischen Anforderungen berücksichtigen. Eine erneute Sichtprüfung bestätigt den geänderten Zustand. Das Beispiel zeigt, weshalb eine Ertragskurve allein keine ausreichende Aussage über die Dauerhaftigkeit von Kabelwegen liefert.
+
+Vertiefung 10: Zusatzfall – Abdeckung am Generatoranschlusskasten.
+Ein Generatoranschlusskasten besitzt eine beschädigte Abdeckung, wodurch die vorgesehene Umhüllung nicht mehr vollständig gewährleistet ist. Eine Person schlägt vor, vorerst nur ein Warnschild aufzuhängen. Das kann die technische Wiederherstellung des vorgesehenen Schutzes nicht ersetzen. Die verantwortliche Fachperson entscheidet über sichere Absicherung, Reparatur und Nachprüfung entsprechend der konkreten Anlage. Im Lernprotokoll werden beobachtete Beschädigung, möglicher Einfluss auf Berühr- und Feuchtigkeitsschutz sowie die erforderliche Folgemassnahme getrennt dokumentiert. Ausserdem ist zu prüfen, ob die Schädigung auf mechanische Beanspruchung, ungeeignete Montage oder Alterung zurückgeht. Nur so wird aus einer einzelnen Reparatur eine dauerhaft belastbare Lösung.
+
+Vertiefung 11: Zusatzfall – Abgleich von Plan und Realisierung.
+Im Dachlayout sind die Stringleitungen auf der linken Gebäudeseite geführt, auf dem gesicherten Übersichtsbild verlaufen sie rechts. Diese Abweichung ist zunächst ein Dokumentationsbefund. Die Prüfperson muss klären, ob der Plan veraltet oder die ausgeführte Trasse von den freigegebenen Annahmen abweicht. Für die endgültige Bewertung sind gegebenenfalls weitere mechanische, elektrische und brandschutztechnische Gesichtspunkte relevant. Der Revisionsplan wird nach überprüftem Ist-Zustand erstellt. Eine unbesehene Umzeichnung allein würde die Frage offenlassen, ob der tatsächliche Leitungsweg überhaupt geeignet ist. Für die Ausbildung ist genau diese Unterscheidung zwischen Bestandsaufnahme und technischer Freigabe zentral.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

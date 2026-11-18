@@ -1,1 +1,102 @@
-Lektion 4.08-B: Sicherheits-, Kennzeichnungs- und Prüfunterlagen. PV-Anlagen besitzen besondere DC- und AC-Gefährdungen. Fachlich zu prüfen sind unter anderem die eindeutige Kennzeichnung, das Trennstellenkonzept, die Leitungsführung, das Zusammenspiel der Schutzmassnahmen und die korrekte Prüf- und Übergabedokumentation. Die Abgrenzung zwischen einem Art.-14-Betrieb und einer allgemein bewilligten Installation ist gesondert zu dokumentieren. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Prüfe ein anonymisiertes fiktives PV-Dossier auf Vollständigkeit: Stringplan, Geräteauslegung, Kennzeichnung, Wechselrichterunterlagen, Mess- und Prüfbericht, Abnahme und Netzbetreiberfreigaben. Lege eine Mängelliste mit Zuständigkeit und Nachweisbedarf an. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Eine laufende PV-Anlage ist nicht automatisch eine nachgewiesen sichere PV-Anlage. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Wechselrichter, DC/AC-Trennstelle, Kennzeichnungen; Prüfprotokoll, Sichtprüfung und Dokumentationsnachweis. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N 7.12; E S T I 220; SN EN 62446-1; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.08-B: Sicherheits-, Kennzeichnungs- und Prüfunterlagen. PV-Anlagen besitzen besondere DC- und AC-Gefährdungen. Fachlich zu prüfen sind unter anderem die eindeutige Kennzeichnung, das Trennstellenkonzept, die Leitungsführung, das Zusammenspiel der Schutzmassnahmen und die korrekte Prüf- und Übergabedokumentation. Die Abgrenzung zwischen einem Art.-14-Betrieb und einer allgemein bewilligten Installation ist gesondert zu dokumentieren. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Prüfe ein anonymisiertes fiktives PV-Dossier auf Vollständigkeit: Stringplan, Geräteauslegung, Kennzeichnung, Wechselrichterunterlagen, Mess- und Prüfbericht, Abnahme und Netzbetreiberfreigaben. Lege eine Mängelliste mit Zuständigkeit und Nachweisbedarf an. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Eine laufende PV-Anlage ist nicht automatisch eine nachgewiesen sichere PV-Anlage. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Wechselrichter, DC/AC-Trennstelle, Kennzeichnungen; Prüfprotokoll, Sichtprüfung und Dokumentationsnachweis. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN 7.12; ESTI 220; SN EN 62446-1; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Wechselrichter, DC/AC-Trennstelle, Kennzeichnungen; Prüfprotokoll, Sichtprüfung und Dokumentationsnachweis.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet PV-Generatordaten prüfen. Ein fiktives Modulfeld hat zehn Module à 390 Wp.
+
+Schritt 1. Nennleistung der Module multiplizieren: 10 · 390 Wp.
+
+Schritt 2. Ergebnis: 3 900 Wp = 3,9 kWp.
+
+Schritt 3. Dies ist keine Aussage zu maximaler Stringspannung oder zulässiger Verschaltung.
+
+Schritt 4. Für eine konkrete Prüfung werden Herstellerdaten und gültige Normen benötigt.
+
+Kontrolle des Ergebnisses: 3,9 kWp DC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Anonymisiertes, vorhandenes PV-Projekt nur auf Papier auditieren; keine Änderungen an Bestandsanlage. Halte zusätzlich die Antwort auf die Frage «Was gehört in die Sicherheitsdokumentation einer PV-Anlage?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört in die Sicherheitsdokumentation einer PV-Anlage? Die richtige Antwort lautet: Schutzkonzept, Prüfunterlagen und klare Zuständigkeiten. Warum? Eine laufende PV-Anlage ist nicht automatisch eine nachgewiesen sichere PV-Anlage.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Eine laufende PV-Anlage ist nicht automatisch eine nachgewiesen sichere PV-Anlage.. Warum? Der Merksatz lautet: Eine laufende PV-Anlage ist nicht automatisch eine nachgewiesen sichere PV-Anlage.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Das Sicherheitsdossier muss sich selbst erklären.
+Bei einer PV-Anlage bilden Kennzeichnung, Plan, Prüfunterlagen und Betriebsinformation ein zusammenhängendes Sicherheitssystem. Ein unverstandener Ordner mit vielen Einzeldateien ist keine vollständige Übergabe. Beginne deshalb mit einem Anlagensteckbrief: Standort, Eigentümer, beteiligte Fachfirmen, Wechselrichter, Netzanschlusspunkt, Dachbelegung und Dokumentenstand. Daran hängen Stringplan, Leitungsführung, wesentliche Schutzeinrichtungen, erforderliche Sicherheitsnachweise und Betriebsanleitungen. Jedes Dokument sollte eine eindeutige Bezeichnung und ein Datum besitzen. So kann eine spätere Fachperson die Anlage identifizieren, ohne unsichere Annahmen über DC-Leitungen oder Einspeisestellen zu treffen.
+
+Fachkapitel 2: DC-Spannung auch bei abgeschalteter AC-Seite.
+Solarmodule erzeugen bei Lichteinfall elektrische Spannung. Wird lediglich der AC-Anschluss des Wechselrichters ausgeschaltet, ist die PV-Generatorseite damit nicht zwangsläufig spannungsfrei. Genau dieser Zusammenhang gehört in jedes Sicherheitsgespräch und in die Planung der Kennzeichnung. Lernende sollen nicht selbst Steckverbinder trennen oder Spannungsfreiheit prüfen, sondern auf einem Schema nachvollziehen, welche Teilanlagen von einer Trennstelle erfasst werden und welche nicht. Die konkrete Auswahl und Platzierung von Schalt- und Trenneinrichtungen muss durch Berechtigte nach den gültigen Anforderungen erfolgen. Eine vereinfachte Zeichnung ersetzt kein geprüftes DC-Sicherheitskonzept.
+
+Fachkapitel 3: Kennzeichnung nach Funktion und Ort.
+Beschriftungen dienen der schnellen Orientierung im Normalbetrieb und im Fehlerfall. Wesentliche Elemente können Generator, DC-Leitungen, Wechselrichter, Einspeisepunkt, Speicher und allfällige weitere Versorgungen sein. Der Inhalt und die genaue Position von Sicherheitskennzeichnungen hängen von den geltenden Normen und vom Aufbau ab. Für die Lernaufgabe wird eine Kennzeichnungsmatrix erstellt: Element, Ort, Zweck, betroffener Plan und Quelle der Anforderung. Ein Aufkleber „Achtung Solar“ ist kein Ersatz für die vollständige technische Dokumentation. Umgekehrt nützt ein perfekt gezeichneter Plan wenig, wenn die vor Ort erforderliche Identifikation fehlt.
+
+Fachkapitel 4: Mess- und Prüfprotokolle fachlich einordnen.
+Das ESTI verweist für PV-Anlagen auf spezifische Mess- und Prüfprotokolle in Verbindung mit den Anforderungen an die PV-Systemdokumentation. Daraus folgt für den Unterricht: Messungen sind nicht willkürliche Zahlenlisten. Es muss erkennbar sein, welcher String, welcher Prüfgegenstand, welches Messverfahren und welches Ergebnis dokumentiert wird. Achte auf Datum, Anlagenzustand, Messgerät beziehungsweise notwendige Prüfmittelangaben, verantwortliche Person und Beurteilung. Eine normale Betriebsanzeige des Wechselrichters beweist keine vollständige Erstprüfung. Auch ein Ertragsdiagramm kann Isolations- oder Schutzfragen nicht beantworten. Die konkrete Prüfung bleibt entsprechend qualifizierten Fachpersonen vorbehalten.
+
+Fachkapitel 5: Trennung von DC- und AC-Unterlagen.
+Die DC-Seite enthält andere Gefährdungen, Geräte und Prüfaufgaben als die AC-Anbindung an das Niederspannungsnetz. In einer Dokumentenmatrix werden diese Bereiche deshalb klar getrennt, auch wenn die Gesamtsicherheit zusammen beurteilt werden muss. Zum DC-Teil gehören beispielweise Stringliste, Modul-/Wechselrichterkennwerte und die Leitungsführung. Zum AC-Teil gehören die Integration in die Verteilung, Netzanbindung und dort massgebliche Schutz- und Prüfunterlagen. Besondere Betriebsarten wie Ersatzstrom oder Speicher erweitern das Schema. Die Verantwortung für einzelne Abschnitte darf aus dem Dateinamen nicht nur erraten werden müssen, sondern ist schriftlich zuzuordnen.
+
+Fachkapitel 6: Mehrere Energiequellen und Rettungsorganisation.
+Eine PV-Anlage mit Speicher und Ersatzstromfunktion kann mehrere mögliche Versorgungszustände besitzen. Für Einsatzkräfte und Servicepersonal ist wichtig zu wissen, ob Teile der elektrischen Anlage auch bei Ausfall des öffentlichen Netzes versorgt bleiben können. Zeichne deshalb ein Blockdiagramm mit den Energiequellen und den relevanten Übergängen zwischen Normal- und Ersatzstrombetrieb. Diese Zeichnung darf nicht zu einer allgemeinen Ein- und Ausschaltanleitung für Laien werden. Entscheidend ist eine klare, geprüfte Anlageninformation: Welche Energiequellen gibt es, welche Zustände sind möglich und welche Fachstelle ist bei einem Schaden zuständig?
+
+Fachkapitel 7: Mängel in Dokumenten sind reale Projektmängel.
+Fehlt die Messung einer Stringgruppe, darf ihr Status nicht aus einem benachbarten, ähnlich aufgebauten String abgeleitet werden. Ebenso wenig kann die Freigabe einer Verteileränderung aus einer älteren Messung automatisch übertragen werden. Führe deshalb eine Prüfliste mit den Zuständen „vorhanden und nachvollziehbar“, „fehlt“ und „widersprüchlich“. Für jeden fehlenden Nachweis werden Verantwortlichkeit, Massnahme und Termin festgelegt. Ein Projekt kann technisch bereits Strom liefern und trotzdem eine unvollständige Dokumentation besitzen. Dieser Unterschied zwischen Funktion und formeller Übergabereife ist ein zentrales Lernziel.
+
+Fachkapitel 8: Anlagendaten und Datenschutz.
+Bei Fernüberwachung, Betreiberkonten und Netzbetreiberportalen entstehen zusätzlich digitale Unterlagen. Zugangsdaten gehören nicht ungeschützt in die allgemeine Revisionsmappe. Für Betreiber und Servicedienstleister sollten Benutzerrollen, Rücksetzverfahren und Kontaktadressen nachvollziehbar, aber angemessen geschützt sein. Ein Screenshot aus dem Portal ist keine zuverlässige Ersatzdokumentation für den realen Stromlaufplan. Unterscheide deshalb technische Anlagendaten, personenbezogene Betriebsdaten und vertrauliche Zugangsdaten. Gerade bei späterem Eigentümerwechsel muss geklärt sein, wer welche Rechte kontrolliert und wie die digitale Dokumentation übergeben wird.
+
+Fachkapitel 9: Abnahme als dokumentierter Entscheid.
+Die Schlussfrage lautet nicht allein, ob die PV-Anlage Energie liefert. Entscheidend ist, ob erforderliche Prüfungen, Unterlagen und Zuständigkeiten nachgewiesen sind. Erstelle für jede Dokumentenposition eine Abnahmezeile mit Quelle, Prüfergebnis und offenem Punkt. Sicherheitstechnische Abweichungen dürfen nicht durch einen pauschalen Vermerk „Restarbeiten“ verharmlost werden. Wo die normative Anforderung von der Anlagenausführung abhängt, muss die verantwortliche Fachperson die aktuelle Originalregel prüfen. Das Lernbeispiel trainiert deshalb sorgfältige Entscheidungen, nicht eigenständige Arbeiten an aktiven DC-Anlagen.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Fehlender Stringbericht.
+Acht Strings sind dokumentiert, einer davon ohne Prüfzuordnung. Lösung: Fehlende Messzuordnung und den verantwortlichen Nachtrag festhalten; Ergebnisse anderer Strings dürfen nicht als Ersatz gelten.
+
+Aufgabe 2: Mehrere Quellen.
+Die Anlage besitzt PV, Batteriespeicher und Netz. Lösung: In einem Funktionsschema drei Quellen, deren Betriebszustände und die zuständigen Schalt- und Prüffunktionen abbilden; keine Laien-Schaltanweisung erstellen.
+
+Aufgabe 3: Kennzeichnungsmatrix.
+Ein Wechselrichter ist eindeutig beschriftet, die zugehörige Stringliste aber nicht. Lösung: String-ID, Anschluss-ID und Plan müssen konsistent sein; das blosse Gerätelabel genügt nicht.
+
+Aufgabe 4: Portal statt Protokoll.
+Der Betreiber zeigt 5,2 MWh Jahresertrag. Lösung: Ertragsanzeige sagt nichts über Erstprüfungen, Isolationszustand oder Schutzleiterprüfung. Benötigte Sicherheitsdokumente gesondert prüfen.
+
+Aufgabe 5: Widersprüchlicher Planstand.
+Der DC-Plan ist Rev. C, die Prüfung wurde mit Rev. B abgelegt. Lösung: Änderungen zwischen B und C identifizieren und beurteilen, ob Prüfpunkte fehlen oder erneut dokumentiert werden müssen.
+
+Aufgabe 6: Zugangsdaten im Dossier.
+Ein Inverterpasswort steht auf der allgemein zugänglichen Übergabeseite. Lösung: Zugriff rollenbasiert und sicher übergeben, nicht in ungeschützten Unterlagen verbreiten.
+
+Vertiefende Fallanalyse 1: Checkliste zur DC-AC-Grenze.
+Erstelle zwei Dokumentenspalten: Für die DC-Seite benötigst Du unter anderem belegte String- und Modulzuordnung, Wechselrichtereingänge, Leitungswege und die dafür geforderten Prüfungen. Für die AC-Seite sind die tatsächliche Anbindung der Anlage, der veränderte Verteilungsstand, Schutzorgane und die zugehörigen Nachweise zu dokumentieren. In einer dritten Spalte steht, welche Angaben beide Seiten verbinden. Dazu können ein Gesamtanlagenschema und die Verantwortlichen gehören. Eine so gegliederte Übergabe zeigt deutlich, wo ein Dokument fehlt, statt die Lücke in einem grossen gemeinsamen Ordner zu verstecken.
+
+Vertiefende Fallanalyse 2: Prüffall mit mehreren Energiequellen.
+Eine Anlage versorgt im Normalbetrieb das Gebäude aus Netz und PV; zusätzlich ist ein Speicher mit Ersatzstromfunktion vorhanden. Ein Blockdiagramm muss zeigen, wo elektrische Energie auch bei Netzausfall verfügbar sein kann. Der Lernende soll daraus keine detaillierte Schaltanweisung ableiten, sondern erforderliche Kennzeichnungen, Gefährdungsinformationen und zu prüfende Übergabedokumente identifizieren. Ein fehlender Hinweis auf eine zusätzliche Quelle kann für spätere Arbeiten problematisch sein. Die verbindliche Ausführung ist von der zuständigen Fachperson und den konkret geltenden Regeln nachzuweisen.
+
+Vertiefende Fallanalyse 3: Abweichende Prüfumfänge.
+Ein Prüfbericht deckt nur die drei Strings am ersten Wechselrichter ab, während auf dem Dach sechs Strings vorhanden sind. Das bedeutet nicht automatisch, dass die anderen drei fehlerhaft sind; es bedeutet zunächst, dass der Bericht nicht die gesamte betrachtete Anlage belegt. Führe für jede String-ID eine eigene Prüfstatuszeile und verknüpfe sie mit den passenden Dokumenten. So ist klar, welche Nachweise noch fehlen. Nach einer zulässigen fachgerechten Nachprüfung kann die Lücke geschlossen werden; eine Hochrechnung aus drei geprüften Strings wäre kein belastbarer Ersatz.
+
+Vertiefende Fallanalyse 4: Sichere Übergabe digitaler Daten.
+Das Monitoringportal enthält Betriebsdaten, Benutzerkonten und unter Umständen Standortinformationen. Für die Kundendokumentation sind Kontonamen, Rollen und Supportwege relevant, aber nicht alle Passwörter in einem ungeschützten Ordner. Im Lernfall soll ein Eigentümerwechsel vorbereitet werden: Welche technischen Dokumente müssen übergeben werden, wer verwaltet die Administratorrechte und wie wird der Zugriff des bisherigen Dienstleisters geregelt? Diese Fragen ergänzen den elektrischen Sicherheitsnachweis um eine zeitgemässe Betriebsorganisation. Sie dürfen nicht mit einer Prüfung der Schutzmassnahmen verwechselt werden.
+
+Vertiefende Fallanalyse 5: Priorisierung offener Unterlagen.
+Bei Projektende fehlen ein aktualisierter Dachplan, eine Anlagenübersicht und ein Nachweis für eine relevante Prüfstelle. Ordne diese Punkte nicht ausschliesslich nach Beschaffungskosten. Für den Sicherheitsstatus ist entscheidend, welche offene Position eine zuverlässige Anlagenbeurteilung verhindert. Die zuständige Fachperson legt fest, welche Teile allenfalls nicht freigegeben werden können. Der Projektleiter dokumentiert Verantwortlichkeit und Termin. Eine überzeugende Dokumentenübergabe enthält daher neben der Liste vorhandener Dateien immer einen sichtbaren Status der noch offenen Nachweise.
+
+Mündliche Abschlussaufgabe und Transfer.
+Im Schlussfall liefert ein Installateur ein Dossier mit Dachplan, Wechselrichterdaten und einem PDF namens „Prüfung“, dessen Messstellen nicht eindeutig bezeichnet sind. Eine gute Beurteilung akzeptiert den Dateinamen nicht als Nachweis. Stelle die betroffenen String-IDs und AC-Stromkreise den tatsächlich dokumentierten Prüfpositionen gegenüber. Markiere fehlende Zuordnungen und ordne ihnen die zuständige Fachperson zu. Erkläre ausserdem, welche Informationen ein späterer Servicetechniker bei einer Störung benötigt und warum die PV-Seite trotz ausgeschalteter AC-Versorgung gefährliche Spannungen führen kann. Der sichere Lernschritt besteht in Dokumentation und Schemaanalyse; eine reale elektrische Nachprüfung darf nur durch entsprechend befugte Personen erfolgen.

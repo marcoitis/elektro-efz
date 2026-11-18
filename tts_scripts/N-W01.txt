@@ -1,4 +1,4 @@
-Vom Haus bis zum Netz: Wer ist für was zuständig?.
+Vom Haus bis zum Netz: Wer ist für was zuständig?
 
 Die Niederspannungsanlage im Gebäude ist Teil eines Gesamtsystems. Am Netzanschlusspunkt endet nicht nur ein Kabel, sondern es treffen die Verantwortlichkeiten des Verteilnetzbetreibers (VNB) und des Installationsbetriebs aufeinander.
 
@@ -25,3 +25,91 @@ Ein Haus soll eine PV-Anlage und einen Speicher erhalten. Der Wechselrichter ist
 Musterlösung.
 
 Das Projekt ist aus Sicht der Netzschnittstelle unvollständig. Vor der Installation sind die vorgesehenen Melde- und Anschlussverfahren, die zulässigen Betriebsarten, die Messung und die lokalen Vorgaben zu klären.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Ein Haus soll eine PV-Anlage und einen Speicher erhalten. Der Wechselrichter ist bereits bestellt, aber der Netzbetreiber noch nicht kontaktiert.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Das Projekt ist aus Sicht der Netzschnittstelle unvollständig. Vor der Installation sind die vorgesehenen Melde- und Anschlussverfahren, die zulässigen Betriebsarten, die Messung und die lokalen Vorgaben zu klären.
+
+Möglicher sicherer Übungsauftrag: Erstelle ein einseitiges Blockdiagramm mit Eigentums-/Verantwortungsgrenzen; keine Installationsanweisung.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Ersetzen die Werkvorschriften CH die NIN? Die richtige Antwort lautet: Nein, sie ergänzen sie. Warum? Netzanschlussbedingungen sind nicht die vollständige Installationsnorm.
+
+Frage 2: Wer legt lokale Anschlussbedingungen fest? Die richtige Antwort lautet: Der zuständige VNB im geltenden Rahmen. Warum? Der Netzbetreiber ist an der Netzschnittstelle massgeblich beteiligt.
+
+Frage 3: Was ist zu Beginn eines PV-Projekts sinnvoll? Die richtige Antwort lautet: Meldepflicht und Netzschnittstelle klären. Warum? Das Anmeldeverfahren beeinflusst Technik und Ablauf.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Warum Netzgrenzen wichtig sind.
+Vom öffentlichen Verteilnetz bis zur Steckdose eines Hauses liegen mehrere technische und organisatorische Verantwortungsbereiche. Der Anschluss selbst, die Hausinstallation und die mess- beziehungsweise schutztechnischen Einrichtungen sind nicht einfach ein einheitlicher Stromkreis mit einer einzigen zuständigen Person. Deshalb beginnt die Planung mit einer Grenzskizze. Auf ihr werden Netzbetreiber, Anschlusspunkt, Hauptverteilung, Zählerplatz und zusätzliche Erzeugungsanlagen eingezeichnet. Danach erhält jede Grenze eine Zuständigkeitsbeschreibung: Wer plant, wer schaltet, wer ist Eigentümer, wer prüft, und wer erhält die Unterlagen? Eine physische Leitungslage ist nicht zwangsläufig dieselbe Grenze wie die vertraglich oder technisch definierte Übergabestelle. Die korrekte Begrifflichkeit verhindert Fehlmeldungen und falsche Annahmen zur Schutzverantwortung.
+
+Fachkapitel 2: Netzanschluss und Verknüpfungspunkt.
+Der Netzanschluss bezeichnet die Verbindung einer Anlage zum Verteilnetz; der für technische Bewertungen relevante Verknüpfungspunkt kann je nach Fragestellung anders definiert sein. Bei einer PV-Anlage interessiert beispielsweise, wie der Wechselrichter das Netz am massgebenden Punkt beeinflusst. Bei der inneren Installation interessieren dagegen Leitungsführung, Schutzgeräte und deren Koordination. Ein Lageplan sollte daher nicht nur eine Leitung zeichnen, sondern die relevanten Punkte mit eindeutigem Namen versehen. In einer fiktiven Siedlung sind Hausanschlusskasten, Zähler und gemeinsame Tiefgarage räumlich getrennt. Die Lernaufgabe verlangt, den Unterschied zwischen Eigentum, Zugang, Schaltberechtigung und rechnerischem Bewertungsort ausdrücklich zu erklären.
+
+Fachkapitel 3: Netzbetreiber und Installationsbetrieb.
+Der Verteilnetzbetreiber verantwortet innerhalb seiner Rolle den Netzanschluss und die Einhaltung seiner Anschlussbedingungen. Der bewilligte Installationsbetrieb erstellt beziehungsweise ändert die ihm zugeordneten Niederspannungsinstallationen und trägt die entsprechenden fachlichen Nachweisaufgaben. Beide Seiten brauchen Informationen voneinander: Anschlussleistung, Erzeugungsleistung, besondere Betriebsarten, Zählerplatz und geplante Schaltgerätekombination. Die Zustimmung des VNB zu einem Anschlussgesuch ist jedoch keine automatische Freigabe der inneren Verdrahtung. Ebenso kann der Installationsbetrieb nicht allein aufgrund eigener Planung garantieren, dass eine Einspeisung netzverträglich ist. Die Trennung dieser Perspektiven ist die Kernleistung der Lektion.
+
+Fachkapitel 4: Anschlussleistung und Betriebsprofil.
+Eine Gebäudeinstallation weist beispielsweise drei Ladepunkte mit jeweils 11 Kilowatt Anschlussmöglichkeit auf. Die einfache Summe ist 33 Kilowatt, doch die tatsächliche zeitgleiche Belastung kann durch ein Lastmanagement begrenzt werden. Die Netzbetreiberfrage betrifft deshalb nicht nur die Typenschilder, sondern auch die Betriebsstrategie. Wird für drei Fahrzeuge eine Gesamtobergrenze von 22 Kilowatt vorgesehen, muss nachgewiesen werden, dass diese Begrenzung zuverlässig wirkt und auch in Fehlerzuständen fachlich angemessen behandelt wird. Das ist eine Planungsannahme, kein genereller Anschlussfreibrief. In einer formellen Anfrage sind die vom zuständigen VNB verlangten Angaben und Nachweise massgebend.
+
+Fachkapitel 5: PV-Einspeisung im Bestand.
+Ein Haus mit bestehender Wärmepumpe erhält später eine PV-Anlage. Vorher wurde elektrische Energie nur bezogen; danach kann sie je nach Lastsituation auch zurück ins Netz fliessen. Dies beeinflusst das Messkonzept und die Beurteilung der Netzschnittstelle. Eine schematische Energiebilanz lautet: PV-Erzeugung minus zeitgleiche Verbraucher ergibt den Überschuss vor Batterie und weiteren Verlusten. Der Netzbetreiber benötigt gegebenenfalls Informationen über Leistung, Anschlussart und Wechselrichterverhalten. Gleichzeitig muss die bestehende Hausinstallation auf ihre Eignung geprüft werden. Ein vermeintlich kleiner Zusatzgenerator kann an einer veralteten Verteilung umfangreiche Abklärungen auslösen.
+
+Fachkapitel 6: Netzqualität und Unsymmetrie.
+Einphasige grosse Lasten oder Einspeiser können die drei Aussenleiter ungleich belasten. Im vereinfachten Modell entnehmen die drei Phasen 5, 1 und 1 Kilowatt. Der Summenwert ist 7 Kilowatt, doch das Netz sieht eine deutliche Phasenunsymmetrie. Für technische Anschlussbedingungen reicht deshalb die Gesamtleistung allein nicht. Es muss geprüft werden, welche Phase welche Verbraucher und Erzeuger trägt. Die Werkvorschriften CH 2025 und lokale VNB-Regeln enthalten hierzu anwendungsabhängige Vorgaben. Lernende sollen keine Zahlenpauschale aus einer fremden Netzregion übernehmen, sondern die konkrete Anschlussart und die aktuelle Regelstelle im Original prüfen.
+
+Fachkapitel 7: Zugänglichkeit und Betrieb.
+Ein Netzanschluss kann technisch korrekt dimensioniert sein und trotzdem praktisch schlecht betreibbar sein, wenn Schaltstellen verstellt, Zählerbereiche unzugänglich oder Unterlagen unlesbar sind. Im Neubauprojekt werden deshalb Zugang, Kennzeichnung, Austausch von Messmitteln und sichere Betriebsorganisation früh geplant. Bei vermieteten Objekten können mehrere Beteiligte unterschiedliche Rechte zum Betreten bestimmter Räume haben. Eine verständliche Betreiberinformation unterscheidet die zugängliche Hausverteilung von Bereichen, die ausschliesslich dem Netzbetreiber oder fachkundigen Personen vorbehalten sind. Das Beispiel zeigt, dass technische Planung und spätere Betriebsorganisation zusammengehören.
+
+Fachkapitel 8: Verantwortungsmatrix für eine Gesamtsiedlung.
+Eine Siedlung besitzt gemeinschaftliche PV, mehrere Wohneinheiten und eine zentrale Tiefgarage. Wer ist Ansprechpartner für Zählung, Einspeisung, innere Installation und spätere Erweiterungen? Lege eine Matrix an mit Projektgegenstand, Eigentümer, zuständiger Fachperson, Netzbetreiberkontakt, erforderlichem Dokument und Zeitpunkt. Markiere offene Abgrenzungen deutlich. Diese Methode verhindert, dass eine technische Unsicherheit als „gehört wohl dem Elektriker“ weitergereicht wird. Erst wenn alle Schnittstellen dokumentiert sind, können Dimensionierung, Meldungen und Inbetriebnahme als ein konsistenter Ablauf geplant werden.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Drei Ladepunkte.
+Drei Wallboxen besitzen jeweils 11 Kilowatt Nennleistung; ein Lastmanagement soll die Gesamtabnahme auf 22 Kilowatt begrenzen. Berechne die ungeführte Summe von 33 Kilowatt und den geplanten Grenzwert. Die Netzbeurteilung muss zusätzlich Zuverlässigkeit und Betriebsart des Lastmanagements berücksichtigen. Eine rein rechnerische Reduktion ersetzt kein abgestimmtes Anschlusskonzept.
+
+Fall 2: Einphasig hohe Last.
+Ein Gebäude weist im Modell Leistungen von 5, 1 und 1 Kilowatt auf die drei Phasen verteilt auf. Beschreibe die Unsymmetrie und begründe, warum die Gesamtleistung von 7 Kilowatt den Zustand nicht vollständig darstellt. Für zulässige Grenzen sind die aktuellen Werkvorschriften und die konkrete VNB-Regelstelle heranzuziehen.
+
+Fall 3: PV ohne Netzmeldung.
+Der Betreiber hat die Module bereits bestellt und möchte direkt mit der Montage beginnen. Formuliere die erforderliche Projektklärung: Anschlussbedingungen und Meldeprozess mit dem zuständigen VNB abstimmen, Bewilligungen prüfen, Installationsplanung und Sicherheitsnachweise organisieren. Die Beschaffung allein begründet keine Anschlussfreigabe.
+
+Fall 4: Zählerraum nicht zugänglich.
+Der Zähler ist in einem nur privat zugänglichen Kellerraum geplant. Analysiere die Betriebsrisiken: Zutritt für Messdienst, Wartung und Störungsbehebung muss verlässlich geklärt werden. Die konkrete Standortfreigabe erfolgt anhand der geltenden Netzbetreibervorgaben und des Bauprojekts.
+
+Fall 5: Gemeinschaftliche Tiefgarage.
+Die Garage erhält fünf zusätzliche Ladepunkte. Erstelle eine Schnittstellenliste für Eigentümerschaft, Installation, VNB, Messkonzept, Leistungsmanagement und spätere Erweiterungen. Eine gute Lösung enthält eindeutige Verantwortliche und Zeitpunkte, nicht nur technische Symbole.
+
+Fall 6: Streit um Leitungseigentum.
+Bei einer Störung ist unklar, ob das betroffene Kabel zum Netzbetreiber oder zum Gebäude gehört. Das Modell verlangt den Abgleich von Anschlussunterlagen, Plangrenzen und vertraglichen beziehungsweise technischen Übergabepunkten. Ohne diese Klärung werden weder unberechtigte Schalthandlungen vorgenommen noch eine falsche Zuständigkeit behauptet.
+
+Fall 7: Gemeinsame Netzschnittstelle.
+Ein Mehrfamilienhaus besitzt drei Wohnungen, eine Wärmepumpe und eine Gemeinschaftsgarage. Der Hauptanschluss wird von mehreren Gewerken genutzt. Die Lernaufgabe besteht darin, die Leistungs- und Messgrenzen zu zeichnen und die Zuständigkeiten zuzuordnen. Wer verantwortet die Anschlussleistung? Wer erstellt die inneren Stromkreise? Welche Rückfragen gehören an den VNB, welche an die Elektroplanung und welche an die Eigentümerschaft? Eine sinnvolle Schnittstellenliste unterscheidet Netzfrage, Installationsfrage und Betrieb. Damit lassen sich Planungsfehler erkennen, bevor die Anlage gebaut wird.
+
+Fall 8: Lastmanagement nachweisen.
+Vier Ladepunkte können jeweils 11 Kilowatt abgeben, das gemeinsame System soll auf maximal 22 Kilowatt begrenzt werden. Die reine Nennleistungssumme beträgt 44 Kilowatt. Die geplante Begrenzung halbiert diese theoretische Summe, muss aber im vorgesehenen Betrieb technisch verlässlich nachgewiesen werden. Beurteile zusätzlich, was bei Kommunikationsausfall, defektem Energiezähler oder zusätzlichem Verbraucher geschieht. Die konkrete Netzfreigabe hängt von VNB-Vorgaben und dem freigegebenen Schutz- und Steuerkonzept ab. Ein Werbeprospekt über dynamisches Laden ersetzt keinen projektbezogenen Nachweis.
+
+Fall 9: Netzpunkt ist nicht Messort.
+Eine Planerin trägt den für die technische Netzbewertung wichtigen Verknüpfungspunkt an derselben Stelle ein wie einen internen Verbrauchszähler. Frage, ob diese Gleichsetzung gerechtfertigt ist. Die Punkte können unterschiedliche Funktionen haben, auch wenn sie räumlich nahe liegen. Die Lösung verlangt zunächst Definition und Zuordnung aus den konkreten Anschlussunterlagen. Dann wird festgehalten, welche Messwerte an welchem Ort für welche Entscheidung verwendet werden dürfen. So wird verhindert, dass Spannungsqualität am falschen Punkt oder Energieabrechnung ausserhalb der vorgesehenen Messgrenze beurteilt wird.
+
+Fall 10: Dachsanierung und Netzänderung.
+Auf ein bereits elektrifiziertes Gebäude kommt eine neue PV-Anlage. Gleichzeitig werden Dachabdichtung, Hauptverteilung und Hausanschluss verändert. Erstelle eine koordinierte Projektabfolge mit Netzbetreiber, Elektroinstallateur, Bauleitung und Eigentümer. Die Änderungen dürfen nicht unabhängig voneinander geplant werden, weil Leitungswege, Messkonzept, Leistung und Prüfungen zusammenhängen. Eine gute Antwort legt fest, wer vor der Ausführung welche Unterlagen freigibt und wie ein späterer Austausch des Wechselrichters dokumentiert wird. Der Fall illustriert, dass technische Anschlussbedingungen Teil des Gesamtprojekts sind.
+
+Fall 11: Neues Quartier mit verschiedenen Eigentümern.
+In einem Quartierprojekt teilen sich drei Gebäude eine Erschliessung, haben jedoch separate Eigentümer und unterschiedliche PV-Anlagen. Eine zentrale Tiefgarage soll später Ladeinfrastruktur erhalten. Entwickle eine technische Grenz- und Zuständigkeitszeichnung mit den jeweiligen Anschlusspunkten, Hausverteilungen, Messstellen und geplanten Einspeisern. Wo ist die VNB-Abstimmung nötig? Wo liegen die Aufgaben der Elektroplanung? Welche Entscheidungen benötigt die Eigentümerschaft über die spätere Erweiterbarkeit? Beurteile anschliessend den Fehlerfall, dass ein Planer die gesamte PV-Leistung nur mit der Summe aller Zählertypenschilder vergleicht. Die Netzbewertung verlangt den tatsächlichen Anschlusspunkt und die jeweilige Anschlussart, die Messplanung wiederum eine zu den Verträgen passende Messgrenze. Die Musterlösung beschreibt einen gemeinsamen Projektplan mit Versionsstand und weist jedem offenen Punkt eine verantwortliche Person und eine zuständige Freigabestelle zu.
+
+Weiterführende Fachnotiz: Verantwortung in einem Störungsbericht.
+Ein Netzausfall betrifft nur ein Gebäude einer Siedlung. Der Bericht soll deshalb nicht pauschal „VNB-Störung“ lauten. Es ist zu klären, welche Anlagengrenze und welcher Versorgungsabschnitt betroffen sind. Dokumentiere beobachtete Symptome, mögliche Hypothesen und die zuständigen Ansprechpartner, ohne unberechtigte Schalthandlungen auszulösen. Zur weiteren Analyse werden Netzanschlussunterlagen und interne Verteilungspläne verglichen. Eine gute Zuständigkeitsklärung macht die Störungssuche schneller und verhindert, dass mehrere Teams denselben Bereich ohne Koordination prüfen.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

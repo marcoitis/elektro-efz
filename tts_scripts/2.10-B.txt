@@ -1,1 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.10-B: Twisted Pair, Glasfaser und Übertragungswege. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Kupferdoppelader verstehen.
+Twisted-Pair-Kabel enthalten paarweise verdrillte Leiter. Die Verdrillung unterstützt die Unterdrückung elektromagnetischer Störungen, weil beide Leiter eines differentiellen Signals ähnlichen Einflüssen ausgesetzt sind. Die Übertragung bewertet nicht nur einen einzelnen Leiter gegen Erde, sondern die Differenz zwischen den beiden Adern. Eine unsauber aufgelöste Verdrillung an der Anschlussstelle kann die Übertragungseigenschaften beeinträchtigen. Deshalb ist die Anschlussqualität genauso wichtig wie die aufgedruckte Kabelkategorie.
+
+Dämpfung, Übersprechen und Reflexionen.
+Mit steigender Leitungslänge werden elektrische Signale gedämpft. Parallele Leiterpaare können sich gegenseitig beeinflussen; dieses unerwünschte Übersprechen wird mit geeigneter Leitungsgeometrie, Verdrillung und Anschlusstechnik begrenzt. Impedanzsprünge an Steckverbindungen oder beschädigten Leitungen können Reflexionen erzeugen. Ein einfaches Durchgangsprüfgerät erkennt diese Probleme nicht vollständig. Das erklärt, weshalb die elektrische Eignung einer Datenstrecke mehr verlangt als die Feststellung, dass alle Adern miteinander verbunden sind.
+
+Kategorie und Übertragungsklasse.
+Kabelkategorie und Übertragungsklasse beschreiben nicht denselben Gegenstand. Eine Kategorie kann sich auf eine Komponente beziehen, während die Link- oder Channel-Klasse die Leistungsfähigkeit der gesamten installierten Strecke beschreibt. Eine hochwertige Leitung kann durch ungeeignete Buchsen, Stecker oder unsauberen Anschluss im Ergebnis schlechter abschneiden. Deshalb muss bei einer Abnahme immer das gesamte Übertragungssystem betrachtet werden. Die konkrete Klassifikation und Prüfnorm sind vor einer verbindlichen Planung an aktuellen Hersteller- und Standardunterlagen zu verifizieren.
+
+Schirmung und Potenzial.
+Schirmung soll elektromagnetische Einflüsse reduzieren und wird im Gesamtkonzept aus Kabel, Steckverbindung, Rack und Erdungs-/Potenzialausgleichsplanung beurteilt. Ein auf einer Seite angeschlossener oder falsch geführter Schirm kann die erwartete Schutzwirkung verändern. Auch Potentialunterschiede zwischen Gebäudeteilen können relevant sein. Der Unterricht behandelt diese Zusammenhänge theoretisch; konkrete Anschluss- und Erdungsarbeiten sind anhand der gültigen Vorgaben durch qualifizierte Fachpersonen zu planen. Schirmung ersetzt kein gutes Leitungsdesign.
+
+Glasfaserprinzip.
+In Lichtwellenleitern übertragen Lichtimpulse die Informationen. Der Lichtwellenleiter ist elektrisch nicht leitend und kann deshalb für galvanische Trennung zwischen Gebäudebereichen vorteilhaft sein. Unterschieden werden unter anderem Multimode- und Singlemode-Fasern, die verschiedene Übertragungseigenschaften und Optikmodule benötigen. Nicht jede Faser kann mit jedem Sendeempfänger kombiniert werden. Für einen Entwurf sind Fasertyp, Steckverbinder, Streckenlänge, optisches Leistungsbudget und spätere Wartbarkeit zu dokumentieren.
+
+Dämpfungsbudget als Rechnung.
+Ein optischer Sender liefert beispielsweise minus 3 dBm, ein Empfänger benötigt mindestens minus 15 dBm. Daraus ergibt sich idealisiert ein verfügbares Leistungsbudget von 12 dB. Werden für Faser, Spleisse und Steckverbindungen zusammen 7 dB angenommen, verbleiben 5 dB Reserve. Das ist eine vereinfachte Modellrechnung, aber sie erklärt, weshalb optische Verbindungen trotz korrekter Steckerkontakte ausfallen können. Für reale Systeme zählen die konkreten Datenblätter, Alterung und Messprotokolle.
+
+Kupfer oder Faser wählen.
+Kupferverbindungen sind für viele lokale Ethernet-Anschlüsse kostengünstig, ermöglichen unter passenden Voraussetzungen PoE und lassen sich einfach patchen. Glasfaser eignet sich oft für längere Strecken, höhere Datenraten und galvanisch getrennte Verbindungen. Die Wahl hängt jedoch nicht nur von Reichweite ab: Kosten, mechanischer Schutz, Verlegeumgebung, Kompatibilität und verfügbare Fachkenntnisse spielen mit. Ein technischer Variantenvergleich benennt deshalb zuerst die Anforderungen und erst danach die Technologie.
+
+Sauberkeit und Messpraxis.
+Bei Glasfaserverbindungen kann eine verschmutzte Stirnfläche beträchtliche Dämpfung verursachen. Unsachgemässes Reinigen oder Knicken kann die Verbindung beschädigen. Bei Kupferstrecken sind Aderzuordnung, Schirmanschluss und Anschlussgeometrie typische Fehlerquellen. Messungen unterscheiden sich deutlich: Bei Kupfer können unter anderem Dämpfung und Übersprechen relevant sein, bei Faser Einfügedämpfung und optischer Verlauf. Ein blosses Link-Signal ersetzt weder die Qualitätssicherung noch eine vereinbarte Zertifizierung.
+
+Fallentscheidung.
+Ein Datenanschluss im selben Raum soll ein IP-Telefon versorgen, eine Verbindung zwischen zwei Gebäudeteilen darf keine leitfähige Datenverbindung herstellen. Für den ersten Fall könnte eine passende Kupferlösung mit PoE sinnvoll sein, für den zweiten eine Glasfaserverbindung. Die Aufgabe besteht darin, die jeweiligen Auswahlgründe und Grenzen zu beschreiben. Nicht die Technologie an sich ist richtig oder falsch; die Entscheidung folgt aus Übertragungsaufgabe, Umgebungsbedingungen und Sicherheitskonzept.
+
+Differenzielles Signal als Modell.
+Ein symmetrisches Aderpaar überträgt ein Nutzsignal als Spannungsdifferenz zwischen zwei Leitern. Eine gleichermassen eingekoppelte Störung kann der Empfänger bei geeignetem Aufbau teilweise unterdrücken. In einem idealen Zahlenmodell liegt Leiter A bei plus 0,5 Volt und Leiter B bei minus 0,5 Volt: die Differenz beträgt 1 Volt. Wird eine gemeinsame Störung von plus 0,2 Volt überlagert, ergeben sich plus 0,7 und minus 0,3 Volt, während die Differenz weiterhin 1 Volt bleibt. Reale Systeme zeigen jedoch Grenzen durch Unsymmetrie und Bauteileigenschaften.
+
+Anschlussqualität.
+Eine Leitung hoher Kategorie kann durch einen schlecht ausgeführten Anschluss an Leistungsfähigkeit verlieren. Werden Adern zu weit entdrillt, verschlechtert sich die Paargeometrie. Werden Schirme unpassend geführt, entstehen weitere Störeinflüsse. Der Installationskanal ist daher als vollständige Übertragungsstrecke zu betrachten. Die Frage Wie gut ist das Kabel? reicht nicht aus; geprüft werden muss die Qualität aller Komponenten und Übergänge. Im Unterricht lässt sich diese Aussage anhand zweier skizzierter Anschlussstellen erläutern, ohne an einer produktiven Dateninstallation zu arbeiten.
+
+Singlemode und Multimode.
+Multimode-Fasern können mehrere Lichtausbreitungsmoden führen, während Singlemode-Fasern für die Übertragung über eine andere Modencharakteristik ausgelegt sind. Daraus ergeben sich Unterschiede bei möglichen Strecken und passenden Transceivern. Ein vorhandener LC-Stecker allein garantiert keine technische Kompatibilität. Vor einer Beschaffung müssen Fasertyp, Wellenlänge, Schnittstellenstandard und optisches Leistungsbudget übereinstimmen. Bei einem unvollständigen Datenblatt wäre eine Freigabe unsachgemäss. Für die Lernkontrolle reicht eine Tabelle, die Kompatibilitätsmerkmale klar und getrennt aufführt.
+
+Optisches Budget und Reserve.
+Ein theoretischer optischer Kanal hat 10 dB zulässiges Verlustbudget. Für Faser werden 3,5 dB, für Steckverbindungen 1,5 dB und für Spleisse 0,8 dB angesetzt. Zusammen ergibt das 5,8 dB. Die verbleibende Reserve beträgt 4,2 dB. Wenn zusätzliche Steckverbindungen 2 dB verursachen, sinkt sie auf 2,2 dB. Solche Sensitivitätsrechnungen zeigen, warum ein Link mit knapper Reserve im Betrieb störanfällig sein kann. Reale Grenzwerte sind dem konkreten Sender-/Empfänger-Datenblatt und Prüfumfang zu entnehmen.
+
+Messung richtig interpretieren.
+Ein optischer Leistungsmesswert allein sagt nicht, an welcher Stelle einer Strecke ein Verlust entsteht. Eine geeignete Streckencharakterisierung kann zusätzliche Informationen über Verbindungen und Ereignisse liefern. Bei Kupfer gilt ähnlich: Ein Aderzuordnungstest zeigt nicht die gesamte Hochfrequenzqualität. In einem Prüfprotokoll ist daher das Verfahren mit seinem Aussagebereich anzugeben. Schreibe für eine fiktive Abnahme zwei getrennte Sätze: Einer bestätigt die physikalische Verbindung, der andere beschreibt den darüber hinaus benötigten Qualitätsnachweis. Damit bleibt die Aussage fachlich sauber begrenzt.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein optisches Budget beträgt 11 dB. Die angenommene Faserdämpfung liegt bei 3,2 dB, die Steck- und Spleissverluste bei 2,6 dB. Wie gross bleibt die rechnerische Reserve? Lösung und Rückprobe: Gesamtdämpfung 5,8 dB. Die rechnerische Reserve beträgt 11 minus 5,8 gleich 5,2 dB. Das Budget ist eine Vereinfachung; Sende- und Empfangsparameter müssen im realen Entwurf überprüft werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.10-B: Twisted Pair, Glasfaser und Übertragungswege. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Kupferdoppelader verstehen.
+Twisted-Pair-Kabel enthalten paarweise verdrillte Leiter. Die Verdrillung unterstützt die Unterdrückung elektromagnetischer Störungen, weil beide Leiter eines differentiellen Signals ähnlichen Einflüssen ausgesetzt sind. Die Übertragung bewertet nicht nur einen einzelnen Leiter gegen Erde, sondern die Differenz zwischen den beiden Adern. Eine unsauber aufgelöste Verdrillung an der Anschlussstelle kann die Übertragungseigenschaften beeinträchtigen. Deshalb ist die Anschlussqualität genauso wichtig wie die aufgedruckte Kabelkategorie.
+
+Dämpfung, Übersprechen und Reflexionen.
+Mit steigender Leitungslänge werden elektrische Signale gedämpft. Parallele Leiterpaare können sich gegenseitig beeinflussen; dieses unerwünschte Übersprechen wird mit geeigneter Leitungsgeometrie, Verdrillung und Anschlusstechnik begrenzt. Impedanzsprünge an Steckverbindungen oder beschädigten Leitungen können Reflexionen erzeugen. Ein einfaches Durchgangsprüfgerät erkennt diese Probleme nicht vollständig. Das erklärt, weshalb die elektrische Eignung einer Datenstrecke mehr verlangt als die Feststellung, dass alle Adern miteinander verbunden sind.
+
+Kategorie und Übertragungsklasse.
+Kabelkategorie und Übertragungsklasse beschreiben nicht denselben Gegenstand. Eine Kategorie kann sich auf eine Komponente beziehen, während die Link- oder Channel-Klasse die Leistungsfähigkeit der gesamten installierten Strecke beschreibt. Eine hochwertige Leitung kann durch ungeeignete Buchsen, Stecker oder unsauberen Anschluss im Ergebnis schlechter abschneiden. Deshalb muss bei einer Abnahme immer das gesamte Übertragungssystem betrachtet werden. Die konkrete Klassifikation und Prüfnorm sind vor einer verbindlichen Planung an aktuellen Hersteller- und Standardunterlagen zu verifizieren.
+
+Schirmung und Potenzial.
+Schirmung soll elektromagnetische Einflüsse reduzieren und wird im Gesamtkonzept aus Kabel, Steckverbindung, Rack und Erdungs-/Potenzialausgleichsplanung beurteilt. Ein auf einer Seite angeschlossener oder falsch geführter Schirm kann die erwartete Schutzwirkung verändern. Auch Potentialunterschiede zwischen Gebäudeteilen können relevant sein. Der Unterricht behandelt diese Zusammenhänge theoretisch; konkrete Anschluss- und Erdungsarbeiten sind anhand der gültigen Vorgaben durch qualifizierte Fachpersonen zu planen. Schirmung ersetzt kein gutes Leitungsdesign.
+
+Glasfaserprinzip.
+In Lichtwellenleitern übertragen Lichtimpulse die Informationen. Der Lichtwellenleiter ist elektrisch nicht leitend und kann deshalb für galvanische Trennung zwischen Gebäudebereichen vorteilhaft sein. Unterschieden werden unter anderem Multimode- und Singlemode-Fasern, die verschiedene Übertragungseigenschaften und Optikmodule benötigen. Nicht jede Faser kann mit jedem Sendeempfänger kombiniert werden. Für einen Entwurf sind Fasertyp, Steckverbinder, Streckenlänge, optisches Leistungsbudget und spätere Wartbarkeit zu dokumentieren.
+
+Dämpfungsbudget als Rechnung.
+Ein optischer Sender liefert beispielsweise minus 3 dBm, ein Empfänger benötigt mindestens minus 15 dBm. Daraus ergibt sich idealisiert ein verfügbares Leistungsbudget von 12 dB. Werden für Faser, Spleisse und Steckverbindungen zusammen 7 dB angenommen, verbleiben 5 dB Reserve. Das ist eine vereinfachte Modellrechnung, aber sie erklärt, weshalb optische Verbindungen trotz korrekter Steckerkontakte ausfallen können. Für reale Systeme zählen die konkreten Datenblätter, Alterung und Messprotokolle.
+
+Kupfer oder Faser wählen.
+Kupferverbindungen sind für viele lokale Ethernet-Anschlüsse kostengünstig, ermöglichen unter passenden Voraussetzungen PoE und lassen sich einfach patchen. Glasfaser eignet sich oft für längere Strecken, höhere Datenraten und galvanisch getrennte Verbindungen. Die Wahl hängt jedoch nicht nur von Reichweite ab: Kosten, mechanischer Schutz, Verlegeumgebung, Kompatibilität und verfügbare Fachkenntnisse spielen mit. Ein technischer Variantenvergleich benennt deshalb zuerst die Anforderungen und erst danach die Technologie.
+
+Sauberkeit und Messpraxis.
+Bei Glasfaserverbindungen kann eine verschmutzte Stirnfläche beträchtliche Dämpfung verursachen. Unsachgemässes Reinigen oder Knicken kann die Verbindung beschädigen. Bei Kupferstrecken sind Aderzuordnung, Schirmanschluss und Anschlussgeometrie typische Fehlerquellen. Messungen unterscheiden sich deutlich: Bei Kupfer können unter anderem Dämpfung und Übersprechen relevant sein, bei Faser Einfügedämpfung und optischer Verlauf. Ein blosses Link-Signal ersetzt weder die Qualitätssicherung noch eine vereinbarte Zertifizierung.
+
+Fallentscheidung.
+Ein Datenanschluss im selben Raum soll ein IP-Telefon versorgen, eine Verbindung zwischen zwei Gebäudeteilen darf keine leitfähige Datenverbindung herstellen. Für den ersten Fall könnte eine passende Kupferlösung mit PoE sinnvoll sein, für den zweiten eine Glasfaserverbindung. Die Aufgabe besteht darin, die jeweiligen Auswahlgründe und Grenzen zu beschreiben. Nicht die Technologie an sich ist richtig oder falsch; die Entscheidung folgt aus Übertragungsaufgabe, Umgebungsbedingungen und Sicherheitskonzept.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein optisches Budget beträgt 11 dB. Die angenommene Faserdämpfung liegt bei 3,2 dB, die Steck- und Spleissverluste bei 2,6 dB. Wie gross bleibt die rechnerische Reserve? Lösung und Rückprobe: Gesamtdämpfung 5,8 dB. Die rechnerische Reserve beträgt 11 minus 5,8 gleich 5,2 dB. Das Budget ist eine Vereinfachung; Sende- und Empfangsparameter müssen im realen Entwurf überprüft werden. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
 Lektion 2.10-B: Twisted Pair, Glasfaser und Übertragungswege. Verdrillte Kupferadern reduzieren bestimmte Störeinflüsse und ermöglichen symmetrische Übertragung. Glasfasern übertragen Licht statt elektrischer Signale und haben andere Anforderungen an Biegeradius, Steckverbinder und Sauberkeit. Die mögliche Übertragungsstrecke hängt von Kabelkategorie, Klasse, Steckern und Übertragungssystem ab. Die Auswahl muss das System und seine Umgebung berücksichtigen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche für einen fiktiven Gebäudetrakt eine Kupfer- und eine Glasfaserstrecke. Erfasse Distanz, mögliche elektromagnetische Einflüsse, notwendige aktive Komponenten und Prüfverfahren. Berechne keine pauschale Grenzlänge ohne Kenntnis der konkret gewählten Übertragungsklasse. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Übertragungstechnik wird als ganze Strecke dimensioniert. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Twisted Pair, Schirmung, Kategorie und Klasse; Glasfaser und Koaxialtechnik Grundlagen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Twisted Pair, Schirmung, Kategorie und Klasse; Glasfaser und Koaxialtechnik Grundlagen.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Datenübertragungszeit. 100 MB Nutzdaten werden idealisiert über eine Verbindung mit 100 Mbit/s übertragen.
+
+Schritt 1. Im Dezimalmodell gelten 100 MB = 800 Mbit.
+
+Schritt 2. Zeit = Datenmenge / Datenrate.
+
+Schritt 3. 800 Mbit / (100 Mbit/s) = 8 s.
+
+Schritt 4. Protokolloverhead und Übertragungsbedingungen verlängern die reale Zeit.
+
+Kontrolle des Ergebnisses: Idealisierte Übertragungszeit: 8 Sekunden.
+
+Übungsauftrag zur Anwendung: Ethernet-Patchkabel an Lernmaterial herstellen und mittels einfacher Prüfgeräte prüfen. Halte zusätzlich die Antwort auf die Frage «Welcher Übertragungsweg verwendet Licht als Signal?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welcher Übertragungsweg verwendet Licht als Signal? Die richtige Antwort lautet: Glasfaser. Warum? Übertragungstechnik wird als ganze Strecke dimensioniert.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Übertragungstechnik wird als ganze Strecke dimensioniert.. Warum? Der Merksatz lautet: Übertragungstechnik wird als ganze Strecke dimensioniert.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

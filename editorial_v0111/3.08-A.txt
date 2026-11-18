@@ -1,0 +1,120 @@
+Lektion 3.08-A: NIV 14 und Abgrenzung der PV-Arbeiten. Die eingeschränkte Installationsbewilligung nach Artikel 14 NIV betrifft bestimmte Anlagen und den festgelegten Bewilligungsumfang. Sie ersetzt keine allgemeine Installationsbewilligung für beliebige Gebäudeinstallationen. Der genaue Übergang zwischen PV-seitiger Installation, Anlageschalter, Hausverteilung und Netzanschluss ist anhand der jeweils geltenden ESTI-Weisung 220 zu prüfen. Betrieb, Qualifikation und Prüfpflichten bleiben getrennte Voraussetzungen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle für ein fiktives Einfamilienhaus ein Blockschema vom PV-Modul bis zum Netzanschlusspunkt. Kennzeichne deutlich alle Stellen, an denen sich Zuständigkeiten ändern könnten. Gleiche den Sachverhalt mit der aktuellen ESTI-Weisung ab, bevor daraus irgendein Arbeitsumfang abgeleitet wird. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Eine Art.-14-Bewilligung ist keine Generalvollmacht für Hausinstallationen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Grenzen Artikel 14 und allgemeine Installationsbewilligung; ESTI 220 Abgrenzung DC/AC und Netzparallelbetrieb. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIV Artikel 14, 23/24; NIN 7.12; ESTI 220; Swissolar. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Grenzen Art. 14 und allgemeine Installationsbewilligung; ESTI 220 Abgrenzung DC/AC und Netzparallelbetrieb.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet PV-Nennleistung im Projektablauf. 24 Module mit je 430 Wp werden für eine Beispielanlage betrachtet.
+
+Schritt 1. DC-Modulleistung addieren: 24 × 430 Wp.
+
+Schritt 2. Ergebnis: 10 320 Wp = 10,32 kWp.
+
+Schritt 3. Die DC-Nennleistung ist nicht die garantierte AC-Einspeiseleistung.
+
+Schritt 4. Netz-, Bau- und Installationsverfahren müssen separat abgeklärt werden.
+
+Kontrolle des Ergebnisses: 10,32 kWp ist nur die DC-STC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Vorhandene private PV-Projekte als Planungs-Fallstudien anonymisieren; keine nachträglichen Eingriffe. Halte zusätzlich die Antwort auf die Frage «Welche Aussage zu NIV Art. 14 ist richtig?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Aussage zu NIV Art. 14 ist richtig? Die richtige Antwort lautet: Die Bewilligung ist auf bestimmte Anlagen und den erteilten Umfang begrenzt. Warum? Eine Art.-14-Bewilligung ist keine Generalvollmacht für Hausinstallationen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Eine Art.-14-Bewilligung ist keine Generalvollmacht für Hausinstallationen.. Warum? Der Merksatz lautet: Eine Art.-14-Bewilligung ist keine Generalvollmacht für Hausinstallationen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachvertiefung.
+
+Zwei Bewilligungsarten sauber auseinanderhalten.
+Die NIV regelt die Voraussetzungen für Installationsarbeiten und Kontrollen in der Schweiz. Eine allgemeine Installationsbewilligung und eine eingeschränkte Bewilligung nach Artikel 14 NIV sind nicht gleichbedeutend. Art. 14 betrifft besondere Anlagen und ist an bestimmte Voraussetzungen sowie den konkret erteilten Bewilligungsumfang gebunden. Dass ein Betrieb PV-Module montiert, sagt daher noch nicht, welche elektrischen Arbeiten er selbst vornehmen darf. Im Ausbildungsmodell wird immer zuerst die Bewilligung des ausführenden Betriebs und die vorgesehene Tätigkeit dokumentiert, bevor Arbeitspakete zugeordnet werden.
+
+
+PV-Projekt in Gewerke aufteilen.
+Ein typisches Projekt umfasst Dachkonstruktion, Unterkonstruktion, Modulmontage, DC-Leitungen, Wechselrichter, allfällige Anlageschalter, AC-Anbindung, Zählerumgebung und Netzanschluss. Das ist eine technische Gliederung, noch keine juristische Erlaubnisliste. Für jedes Paket sollten Auftraggeber, ausführender Betrieb, verantwortliche Person, vorgesehene Nachweise und Schnittstellen festgehalten werden. Gerade zwischen Wechselrichter und bestehender Hausinstallation treten häufig Missverständnisse auf. Dort ist eine verbindliche Abklärung anhand der aktuellen ESTI-Weisungen, der erteilten Bewilligungen und des realen Ausführungsumfangs erforderlich.
+
+
+Grenzen statt vermeintlicher Generalvollmacht.
+In einer Fallstudie behauptet ein Monteur: «Wir besitzen Art. 14, also dürfen wir sämtliche Arbeiten bis zum Hausanschluss ausführen.» Diese Aussage ist als pauschale Schlussfolgerung unhaltbar. Eine Bewilligung nennt einen geregelten Bereich und kann nicht allein aus der Berufsbezeichnung oder dem Anlagentyp abgeleitet werden. Auch Mitarbeitende ohne die nötige Qualifikation erhalten nicht automatisch dieselben Berechtigungen wie die bewilligte Organisation. Fachlich sauber ist die Frage: Welche konkrete Tätigkeit steht an, welcher Betrieb trägt die Verantwortung und welche aktuelle Vorschrift regelt die Abgrenzung?
+
+
+Verantwortlichkeiten im Projektablauf.
+Der Projektverantwortliche muss nicht selbst jede Installation ausführen, aber er muss wissen, wer sie ausführt, kontrolliert und dokumentiert. Ein Arbeitspaket kann mechanisch beginnen und elektrisch enden; dadurch entstehen Übergabepunkte. Eine einfache Verantwortlichkeitsmatrix enthält Planung, Ausführung, Erstprüfung, allfällige zusätzliche Kontrolle, Meldung an die Netzbetreiberin und Dokumentenübergabe. Ohne diese Aufteilung drohen Lücken: Ein Betrieb nimmt an, der andere werde die Prüfung übernehmen, und am Ende fehlen Nachweise. Zuständigkeiten sind daher nicht nur ein juristisches, sondern auch ein Qualitätsthema.
+
+
+Erstprüfung und Sicherheitsnachweis unterscheiden.
+Für PV-Anlagen gibt es unterschiedliche Nachweispfade, die auch von der Art der Installationsbewilligung abhängen. ESTI und Swissolar weisen darauf hin, dass Inhaber einer eingeschränkten Bewilligung nicht einfach anstelle der vorgesehenen Kontroll- und Nachweisprozesse einen beliebigen Sicherheitsnachweis ausstellen. Eine Unterrichtsübung sollte deshalb die Dokumenttypen vergleichen: Protokoll der ausgeführten Arbeiten, Mess- und Prüfprotokoll, gegebenenfalls Abnahmekontrolle und Sicherheitsnachweis. Welche Dokumente tatsächlich erforderlich sind, wird anhand der aktuell geltenden Anforderungen und des konkreten Projektes entschieden.
+
+
+Schnittstelle DC- zu AC-Seite.
+Ein Wechselrichter bildet elektrotechnisch den Übergang zwischen Generator und Wechselstromnetz. Bewilligungsrechtlich darf diese physikalische Trennlinie nicht ohne Prüfung als einzige Zuständigkeitsgrenze interpretiert werden. Die aktuelle ESTI-Weisung über Energieerzeugungsanlagen und die Unterlagen der Netzbetreiberin sind dafür wichtige Primärquellen. Zeichne im Lernmodell eine PV-Anlage vom Modul bis zum Netzanschlusspunkt. Markiere DC-Stränge, Wechselrichter, allfällige Trenn- und Schutzgeräte, Zähler sowie Verbindung zum Gebäudenetz. Trage neben jede Schnittstelle ein Fragezeichen für die erforderliche verbindliche Zuständigkeitsprüfung ein.
+
+
+Änderung des Projektes als Prüfpunkt.
+Angenommen, nach Auftragserteilung kommt ein Batteriespeicher hinzu. Aus einem ursprünglich einfachen PV-Projekt wird eine Anlage mit neuen Energieflüssen, Betriebszuständen und möglicherweise anderen bewilligungsrechtlichen Anforderungen. Eine alte Verantwortlichkeitsmatrix bleibt dann nicht automatisch gültig. Prüfe, ob Elektroplanung, Schutzkonzept, Anmeldung, Steuerung, Dokumentation und Kontrollen angepasst werden müssen. Gleiches gilt, wenn der Wechselrichter ersetzt, ein neuer AC-Abgang gelegt oder die bestehende Verteilung verändert wird. Änderungen müssen vor der Ausführung fachlich neu eingeordnet werden.
+
+
+Unterweisung und Arbeitsschutz.
+Eine formale Bewilligung ersetzt keine Arbeitsvorbereitung. Arbeiten auf Dächern bringen Absturzgefahren mit sich, PV-Gleichstrom zusätzlich besondere elektrische Gefahren. Für alle Beteiligten müssen Unterweisung, Schutzmassnahmen, Verantwortlichkeit und sichere Arbeitsverfahren geplant sein. Eine Person kann für einen bestimmten Handgriff mechanisch qualifiziert sein und dennoch nicht berechtigt sein, elektrische Verbindungen auszuführen. Im Unterricht sollen diese Ebenen getrennt diskutiert werden. Dadurch wird vermieden, dass ein Zertifikat fälschlicherweise als umfassende Arbeitserlaubnis verstanden wird.
+
+
+Dokumentenkette statt Einzelpapier.
+Ein vollständiger Projektordner verknüpft Bewilligungsstatus, Planstand, Arbeitszuteilung, Herstellernachweise, Meldungen, Messungen, Kontrollberichte und Übergabe. Jedes Dokument braucht eine identifizierbare Version und einen Bezug zur konkreten Anlage. Wenn zwei Betriebe nacheinander an derselben PV-Anlage arbeiten, ist nachvollziehbar festzuhalten, welche Arbeiten jeweils übernommen und abgeschlossen wurden. Die gleiche Logik gilt für Beanstandungen: Ein offener Mangel muss einen Verantwortlichen, eine Frist und eine bestätigte Nachprüfung erhalten. Eine Mappe voller PDFs ohne Zuordnung ist keine belastbare Dokumentation.
+
+
+Lernkontrolle zum Bewilligungsumfang.
+Fasse auf einer Seite zusammen, was die eingeschränkte Bewilligung nach Artikel 14 NIV grundsätzlich kennzeichnet, weshalb der exakte Arbeitsumfang nicht pauschal behauptet werden darf und wie sich Verantwortlichkeiten an DC-, AC- und Gebäudeschnittstellen prüfen lassen. Nenne dazu die Quellenkategorien: Gesetzes- beziehungsweise Verordnungstext, aktuelle ESTI-Weisung, Bescheid des bewilligten Betriebs, Vorgaben der Netzbetreiberin und einschlägige Originalnorm. Eine fachlich gute Lösung nennt neben der bekannten Grundstruktur auch ausdrücklich die noch offenen Rechts- und Projektdetails.
+
+Acht anwendungsorientierte Fallübungen mit Musterlösungen.
+
+Fall 1 – Firma mit Art.-14-Bewilligung.
+Ein Unternehmen legt eine eingeschränkte Installationsbewilligung für besondere Anlagen vor. In einem Auftrag wird zusätzlich die komplette Hausverteilung umgebaut. Die Musterantwort lautet: Diese Tätigkeit darf nicht automatisch aus der eingeschränkten Bewilligung abgeleitet werden. Vor der Aufteilung sind Dokument, konkrete Arbeit und heutige ESTI-Auslegung abzugleichen. Die rechtliche Prüfung findet vor der Ausführung statt.
+
+
+Fall 2 – Mechanik und Elektrik.
+Ein Dachteam montiert Unterkonstruktion und PV-Module, soll aber zusätzlich DC-Steckverbindungen herstellen. Die Tätigkeit wechselt damit von reiner mechanischer Montage zu einer elektrotechnisch relevanten Arbeit. Die Lernlösung fordert die Prüfung von Bewilligung, Qualifikation, Aufsicht und vorgesehenen Arbeitsverfahren. Der Begriff «Dachmonteur» allein sagt nichts über die rechtliche Befugnis zu elektrischen Verbindungen aus.
+
+
+Fall 3 – AC-Schnittstelle streitig.
+Zwei Betriebe sind sich uneinig, wer das Kabel vom Wechselrichter zum Anlageschalter ausführt. Ein Planungsblatt mit der Regel «bis Wechselrichter macht PV-Team» ist nicht ausreichend. Die Musterlösung verlangt die aktuell geltende ESTI-Weisung, konkrete Anordnung der Anlage und den tatsächlichen Bewilligungsumfang. Der Übergabepunkt wird schriftlich festgelegt, statt durch spontane Interpretation auf der Baustelle.
+
+
+Fall 4 – Neue Batterie bestellt.
+Nach Unterzeichnung des Auftrags wünscht der Eigentümer einen stationären Speicher. Damit ändert sich das ursprüngliche technische System. Zu überprüfen sind unter anderem zusätzliche Energiepfade, Schutzkonzept, zuständige Unternehmen, rechtliche Bewilligung und Prüfunterlagen. Die Musterlösung sieht eine dokumentierte Projektänderung vor. Die Annahme «wir haben PV bewilligt, also ist jede Batterie automatisch mitenthalten» ist fachlich unzureichend.
+
+
+Fall 5 – Prüfprotokoll oder SiNa.
+Eine eingeschränkt bewilligte Firma fragt, ob sie einfach einen Sicherheitsnachweis wie eine allgemein bewilligte Firma ausstellen könne. Die korrekte Antwort lautet: Dokumentarten und Abnahmewege hängen von der Bewilligung und geltenden Anforderungen ab. Als Ausbildungsquelle werden ESTI, aktuelle Weisung und PV-Prüfformulare ausgewertet. Ein frei beschriftetes Formular ersetzt keinen geregelten Nachweisprozess.
+
+
+Fall 6 – Unterauftragnehmer unklar.
+Drei Firmen sind an einer PV-Anlage beteiligt, aber auf dem Übergabeblatt steht nur «Elektro erledigt». Formuliere eine bessere Verantwortlichkeitsmatrix. Für DC-Arbeiten, AC-Anbindung, Prüfungen, gegebenenfalls Abnahmekontrolle und Meldungen werden jeweils konkrete Organisation und Zuständigkeit eingetragen. Ungeklärte Übergabepunkte gelten als offene Projektpunkte, nicht als automatisch durch den nächsten Auftragnehmer erledigt.
+
+
+Fall 7 – Arbeiten am bestehenden Verteiler.
+Für die Einspeisung müsste eine neue Leitung in der Gebäudeverteilung angeschlossen werden. Der Auftragnehmer beruft sich auf seine Erfahrung mit vielen PV-Projekten. Erfahrung allein ersetzt jedoch keine zutreffende Installationsbewilligung. Die Musterlösung benennt den Arbeitsschritt präzise und fordert die Freigabe durch die entsprechend berechtigte Stelle nach aktueller Rechtslage. Ein scheinbar kleiner Eingriff kann rechtlich eine andere Tätigkeit sein.
+
+
+Fall 8 – Projektfreigabe vor Arbeitsbeginn.
+Ein Bauleiter will wegen gutem Wetter morgen mit allen Elektroarbeiten beginnen. Die Bewilligungslage ist noch nicht abschliessend dokumentiert. Die verantwortungsbewusste Projektentscheidung lautet, nur zulässige und sicher vorbereitete Arbeiten freizugeben, nicht offene Rechtsfragen durch Zeitdruck zu überspringen. Der Lernende erstellt dazu eine Stop-and-Go-Liste mit bewilligtem Betrieb, Arbeitsumfang, offenen Abklärungen und zuständiger Freigabestelle.
+
+Zusätzliche Rechen- und Dokumentationsvertiefung.
+
+Rollenübung mit drei Unternehmen.
+Ein Projekt wird in Modulmontage, DC-Anschluss und AC-Integration aufgeteilt. Unternehmen A liefert die Dacharbeiten, Unternehmen B besitzt eine eingeschränkte Art.-14-Bewilligung und Unternehmen C ist für allgemeine Elektroinstallationen bewilligt. Erstelle eine Matrix für jede Tätigkeit und frage nach dem tatsächlich erteilten Bewilligungsumfang. Die Musterlösung darf nicht allein aus den Firmennamen eine pauschale Zuordnung ableiten. Zusätzlich sind verantwortliche Fachpersonen, Erstprüfungen, erforderliche Kontrollen und Dokumentenübergaben festzulegen. Besonders wichtig ist, dass auch klein wirkende Anschlussarbeiten nicht nach Bequemlichkeit zugeordnet werden. Für strittige Grenzen wird die aktuelle ESTI-Weisung als Primärquelle beigezogen.
+
+
+Bewilligung ist nicht identisch mit Kompetenznachweis.
+Ein einzelner Mitarbeitender hat einen technischen Kurs absolviert. Daraus folgt nicht automatisch, dass der Betrieb eine passende Installationsbewilligung besitzt oder dass diese Person sämtliche Installationsarbeiten eigenständig ausführen darf. Beurteile den Unterschied zwischen Ausbildung, persönlicher Fachkunde, betrieblicher Bewilligung und konkreter Arbeitseinteilung. Die Musterantwort benennt alle vier Aspekte getrennt. Ein verantwortlicher Betrieb muss ausserdem die sicheren Arbeitsverfahren organisieren und die vorgesehenen Kontrollen durchführen oder veranlassen. Genau diese Struktur gehört in das Projektblatt, bevor der erste elektrische Arbeitsschritt begonnen wird.
+
+Prüfungsgespräch und Lernabschluss.
+
+Lernkontrolle zur Zuständigkeit. Formuliere drei Fragen, die vor der Zuteilung einer PV-Elektroarbeit beantwortet sein müssen: Welche konkrete Tätigkeit liegt vor? Welche Bewilligung besitzt der ausführende Betrieb für diesen Umfang? Wer ist für Prüfung und Dokumentation verantwortlich? Lege danach den Übergabepunkt zwischen zwei Firmen anhand des tatsächlichen Systems fest, nicht aufgrund einer freien Vermutung über die Bedeutung von DC oder AC. Nenne die aktuelle ESTI-Weisung und den erteilten Bewilligungsumfang als notwendige Prüfgrundlagen. Eine richtige Antwort darf offene Rechtsfragen sichtbar lassen; eine ungesicherte «Freigabe» wäre keine Fachkompetenz.

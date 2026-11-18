@@ -1,0 +1,179 @@
+﻿Lektion;Titel;Skript-Wörter;Dauer bei 130 W/min;Ziel 15–30 Min;Quellen-PDF vorhanden;PDF Auszug;Noch offene Quellen;Fachprüfung;Grafik
+1.01-A;Berufsbild, EFZ und Installationsbewilligung;2026;15.6;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren;OFFEN;visuals/1.01-A.svg
+1.01-B;Elektrische Gefahren verstehen;1991;15.3;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.01-B.svg
+1.01-C;Sicherheitsregeln und Besonderheiten von PV-Anlagen;1988;15.3;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen;OFFEN;visuals/1.01-C.svg
+1.02-A;SI-Einheiten und Zehnerpotenzen;2010;15.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.02-A.svg
+1.02-B;Formeln sicher umstellen;2208;17.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.02-B.svg
+1.02-C;Prozent, Wirkungsgrad und Energie;2802;21.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.02-C.svg
+1.03-A;Spannung, Strom, Ladung und Widerstand;2081;16.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.03-A.svg
+1.03-B;Ohmsches Gesetz – der zentrale Zusammenhang;2419;18.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.03-B.svg
+1.03-C;Leistung, Verlustwärme und Energie;2073;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.03-C.svg
+1.03-D;Messgrundlagen am Schutzkleinspannungsmodell;2017;15.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.03-D.svg
+1.04-A;Serien- und Parallelschaltung;2046;15.7;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.04-A.svg
+1.04-B;Kirchhoffsche Regeln und Spannungsteiler;2063;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären;OFFEN;visuals/1.04-B.svg
+1.04-C;Leitungswiderstand, Länge und Querschnitt;2050;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.04-C.svg
+1.05-A;Leiterwerkstoffe und spezifischer Widerstand;2432;18.7;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.05-A.svg
+1.05-B;Kabelaufbau, Isolierung und Leiterkennzeichnung;2199;16.9;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.05-B.svg
+1.05-C;IP-Schutz, Umwelteinflüsse und Materialverträglichkeit;2203;16.9;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.05-C.svg
+1.06-A;Planarten und ihre jeweiligen Aufgaben;2116;16.3;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.06-A.svg
+1.06-B;Schaltzeichen, Referenzkennzeichen und Klemmen;2198;16.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.06-B.svg
+1.06-C;Revision, Massstab und digitale Dokumentation;2354;18.1;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.06-C.svg
+1.07-A;Werkzeugwahl, Befestigung und mechanische Qualität;2037;15.7;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.07-A.svg
+1.07-B;Trassenplanung, Leitungsführung und Reserve;1955;15.0;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.07-B.svg
+1.07-C;Arbeitssicherheit auf Baustellen und Brandabschottung;1975;15.2;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.07-C.svg
+1.08-A;Multimeter, Messbuchsen und Messkategorien;2030;15.6;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.08-A.svg
+1.08-B;Messabweichung, Innenwiderstand und Protokolle;1991;15.3;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.08-B.svg
+1.08-C;Systematische Fehlersuche am Kleinspannungsmodell;1987;15.3;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.08-C.svg
+1.09-A;Elektrische Felder und Kondensatoren;1994;15.3;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.09-A.svg
+1.09-B;Magnetfelder, Spulen und Induktion;1970;15.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.09-B.svg
+1.09-C;RC-Zeitkonstante und reale Bauteile;2036;15.7;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.09-C.svg
+1.10-A;Periodendauer, Frequenz und Sinussignal;2082;16.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.10-A.svg
+1.10-B;Effektivwert und Spitzenwert;2055;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.10-B.svg
+1.10-C;Energiewandlung, Wirkungsgrad und Lastprofil;2000;15.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.10-C.svg
+1.11-A;Rechtsquellen, Normen und Verantwortlichkeit;2793;21.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.11-A.svg
+1.11-B;Basisschutz, Fehlerschutz und Zusatzschutz;2013;15.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.11-B.svg
+1.11-C;Kontrollen, Sicherheitsnachweis und Dokumentationspflicht;2014;15.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.11-C.svg
+1.12-A;Anforderungskatalog für ein 12-V-Lichtmodell;2379;18.3;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.12-A.svg
+1.12-B;Schaltmodell, Stückliste und Messplan;2344;18.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.12-B.svg
+1.12-C;Fehlerszenarien und Jahresabschluss;2171;16.7;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/1.12-C.svg
+2.01-A;Zeigerbilder und Phasenverschiebung;2152;16.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.01-A.svg
+2.01-B;Impedanz und RLC-Schaltungen;2194;16.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.01-B.svg
+2.01-C;Wirk-, Blind- und Scheinleistung;2145;16.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.01-C.svg
+2.02-A;Drei Phasen und Sternschaltung;2143;16.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.02-A.svg
+2.02-B;Dreieck, Leistung und Lastsymmetrie;2033;15.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.02-B.svg
+2.02-C;Neutralleiter, Unsymmetrie und Lastverteilung;1973;15.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.02-C.svg
+2.03-A;Faradaysches Induktionsgesetz;1993;15.3;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.03-A.svg
+2.03-B;Transformatorenübersetzung und Verluste;1998;15.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.03-B.svg
+2.03-C;Schutztrennung und Transformatoranwendung;2083;16.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.03-C.svg
+2.04-A;Dioden, Gleichrichter und Glättung;1952;15.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.04-A.svg
+2.04-B;Transistoren, Relais und Optokoppler;2101;16.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.04-B.svg
+2.04-C;Digitale Logik und Sensor-Aktor-Prinzip;2064;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.04-C.svg
+2.05-A;TN-, TT- und IT-Systeme;1963;15.1;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.05-A.svg
+2.05-B;RCD, Fehlerströme und Schutzpotenzialausgleich;2005;15.4;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.05-B.svg
+2.05-C;Schutzkonzepte anhand eines Fehlerfalls;2006;15.4;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.05-C.svg
+2.06-A;Überlast, Kurzschluss und Schutzgerät;1983;15.3;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.06-A.svg
+2.06-B;Leitungsdimensionierung und Spannungsfall;2032;15.6;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.06-B.svg
+2.06-C;Schutzkoordination und Selektivität als Einstieg;2015;15.5;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.06-C.svg
+2.07-A;Lichtschaltungen im Funktionsschema;2103;16.2;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.07-A.svg
+2.07-B;Anschlussplan, Aderliste und Betriebsmittelkennzeichen;2023;15.6;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.07-B.svg
+2.07-C;Material- und Zeitkalkulation eines fiktiven Grundrisses;2081;16.0;ja;;;Genannte externe Fachnorm nicht im PDF-Bestand, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.07-C.svg
+2.08-A;Lichtstrom, Beleuchtungsstärke und Lichtstärke;1980;15.2;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.08-A.svg
+2.08-B;LED-Treiber, Lichtqualität und Effizienz;1972;15.2;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.08-B.svg
+2.08-C;Lichtsteuerung und Präsenzanwendungen;1971;15.2;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.08-C.svg
+2.09-A;Elektrische Wärme und Wärmemenge;3199;24.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.09-A.svg
+2.09-B;Haushaltsgeräte und Anschlussdaten;2962;22.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.09-B.svg
+2.09-C;Energieeffizienz und Kostenvergleich;2965;22.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.09-C.svg
+2.10-A;Datenübertragung und Netzwerktopologien;2787;21.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.10-A.svg
+2.10-B;Twisted Pair, Glasfaser und Übertragungswege;2729;21.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.10-B.svg
+2.10-C;IP-Adressen, Geräte und Fehlersuche;2814;21.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.10-C.svg
+2.11-A;Sichtprüfung vor elektrischen Messungen;2789;21.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.11-A.svg
+2.11-B;Schutzleiter- und Isolationsprüfung verstehen;2784;21.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.11-B.svg
+2.11-C;RCD-Prüfung, Schleifenimpedanz und Messprotokoll;2158;16.6;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.11-C.svg
+2.12-A;Raumbuch und Lastenliste erstellen;2082;16.0;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.12-A.svg
+2.12-B;Schutz- und Leitungsentwurf im Planungsfall;2012;15.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.12-B.svg
+2.12-C;Dokumentation, Fehlerreview und Jahresprüfung;2019;15.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/2.12-C.svg
+3.01-A;Rohbau-, Hohlwand- und Aufputzinstallation;1974;15.2;ja;;;Konkreter Teil der SN EN IEC 61439-Reihe klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.01-A.svg
+3.01-B;Leitungstrassen, Schacht und Brandabschnitt;1975;15.2;ja;;;Konkreter Teil der SN EN IEC 61439-Reihe klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.01-B.svg
+3.01-C;Schaltgerätekombinationen und Verteilerplanung;1972;15.2;ja;;;Konkreter Teil der SN EN IEC 61439-Reihe klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.01-C.svg
+3.02-A;Leitungsschutz, RCD und Gerätefunktionen;1973;15.2;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.02-A.svg
+3.02-B;Überspannungsschutz und Schutzgerätekoordination;2308;17.8;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.02-B.svg
+3.02-C;Schutzgeräteauswahl und thermische Betrachtung;2144;16.5;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.02-C.svg
+3.03-A;Erstprüfung als geplanter Prozess;2128;16.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.03-A.svg
+3.03-B;Schutzleiter, Isolation und Polarisierung;2048;15.8;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.03-B.svg
+3.03-C;RCD, Schleifenimpedanz und Prüfprotokoll;2120;16.3;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.03-C.svg
+3.04-A;Drehstrom-Asynchronmotor und Schlupf;2164;16.6;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.04-A.svg
+3.04-B;Anlaufarten und Motorschutz;2019;15.5;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.04-B.svg
+3.04-C;Frequenzumrichter und EMV;2066;15.9;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.04-C.svg
+3.05-A;Selbsthaltung und Verriegelung mit Relais;2052;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.05-A.svg
+3.05-B;Zeitglieder, Signalfluss und Funktionsablauf;2095;16.1;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.05-B.svg
+3.05-C;KOP/FUP, Fehlerdiagnose und Not-Halt-Abgrenzung;2058;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.05-C.svg
+3.06-A;KNX-Bus, Topologie und Teilnehmer;2027;15.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.06-A.svg
+3.06-B;Sensorik, Szenen und Raumfunktionen;2092;16.1;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.06-B.svg
+3.06-C;Diagnose, Fernzugriff und Dokumentation;2006;15.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.06-C.svg
+3.07-A;PV-Kennlinie, MPP und Ertragsfaktoren;2124;16.3;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.07-A.svg
+3.07-B;Stringplanung, Temperatur und Wechselrichtergrenzen;1978;15.2;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.07-B.svg
+3.07-C;DC-Sicherheit, Stecksysteme und PV-Dokumentation;1972;15.2;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.07-C.svg
+3.08-A;NIV 14 und Abgrenzung der PV-Arbeiten;2080;16.0;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.08-A.svg
+3.08-B;Netzanmeldung, Bauverfahren und Messkonzept;2037;15.7;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.08-B.svg
+3.08-C;PV-Prüfprotokoll, Dachschutz und Übergabe;2001;15.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.08-C.svg
+3.09-A;Bäder, Schutzbereiche und besondere Räume;2024;15.6;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.09-A.svg
+3.09-B;Aussenanlagen, Baustellen und Landwirtschaft;2029;15.6;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.09-B.svg
+3.09-C;Blitz-, Überspannungs- und Brandschutzkonzepte;2017;15.5;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.09-C.svg
+3.10-A;Strukturierte Kupferverkabelung und Patchfelder;1970;15.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.10-A.svg
+3.10-B;Glasfaser und optische Übertragung;1984;15.3;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.10-B.svg
+3.10-C;Koaxialtechnik, Pegel und Messberichte;2028;15.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.10-C.svg
+3.11-A;Fehlerbaum und sicherer Diagnoseprozess;2002;15.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.11-A.svg
+3.11-B;Messstrategie, Gegenprüfung und Ursachenanalyse;1995;15.3;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.11-B.svg
+3.11-C;Kundengespräch, Rapport und Übergabe;1976;15.2;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.11-C.svg
+3.12-A;Gesamtplanung: Verbraucher, PV und Datensystem;1987;15.3;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.12-A.svg
+3.12-B;Schutz-, Leitungs- und PV-Dokumentation;2007;15.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.12-B.svg
+3.12-C;Projektprüfung und Sicherheits-Fachgespräch;2011;15.5;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/3.12-C.svg
+4.01-A;Komplexe Impedanz und Wechselstromnetze;2067;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.01-A.svg
+4.01-B;Leistungsdreieck und Blindleistung;1999;15.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.01-B.svg
+4.01-C;Drehstromlasten und Plausibilitätsprüfung;1959;15.1;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.01-C.svg
+4.02-A;Fehlerschleifenimpedanz und Abschaltbedingungen;1999;15.4;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.02-A.svg
+4.02-B;Selektivität und Schutzgerätabstimmung;2002;15.4;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.02-B.svg
+4.02-C;Schutzfälle und sichere Freigabeentscheidungen;2064;15.9;ja;;;NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.02-C.svg
+4.03-A;Lastprofile, Eigenverbrauch und Energieflüsse;2016;15.5;ja;;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.03-A.svg
+4.03-B;Batteriespeicher und Wirkungsgradkette;1984;15.3;ja;;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.03-B.svg
+4.03-C;Elektromobilität und intelligentes Lastmanagement;1998;15.4;ja;;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.03-C.svg
+4.04-A;Ablauflogik und Zustandsautomaten;2010;15.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.04-A.svg
+4.04-B;Verriegelungen, Sensorik und Fehlertabelle;1978;15.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.04-B.svg
+4.04-C;Gebäudeautomation und Benutzerfunktionen;1976;15.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.04-C.svg
+4.05-A;Sichtprüfung, Prüfreihenfolge und Freigaben;1954;15.0;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.05-A.svg
+4.05-B;Messunsicherheit, Grenzwerte und Bewertungslogik;2003;15.4;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.05-B.svg
+4.05-C;Erstprüfungsdossier und Übergabe;1982;15.2;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.05-C.svg
+4.06-A;Gesetze, Verordnungen und technische Regeln auseinanderhalten;1965;15.1;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.06-A.svg
+4.06-B;NIN-Systematik und gezielte Normrecherche;1988;15.3;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.06-B.svg
+4.06-C;Rechts- und Normfälle im Fachgespräch;2160;16.6;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.06-C.svg
+4.07-A;Auftrag, Arbeitsvorbereitung und Schnittstellen;2096;16.1;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.07-A.svg
+4.07-B;Material, Arbeitsrapport und Nachträge;2023;15.6;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.07-B.svg
+4.07-C;Revisionsunterlagen und Kundeninstruktion;2093;16.1;ja;;;Aktuellen amtlichen Fedlex-Stand/Artikel prüfen, BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.07-C.svg
+4.08-A;PV-Dossier: Modul- und Stringdaten überprüfen;2076;16.0;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.08-A.svg
+4.08-B;Sicherheits-, Kennzeichnungs- und Prüfunterlagen;2008;15.4;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.08-B.svg
+4.08-C;PV-Abschlussgespräch und Mängelmanagement;2019;15.5;ja;SN EN 62446-1:2016+A1:2018;;ESTI-Weisung in aktueller amtlicher Fassung verifizieren, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.08-C.svg
+4.09-A;Übertragungsstrecken und Linkmessungen;2038;15.7;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.09-A.svg
+4.09-B;Koaxialtechnik und Fehlersuche;2051;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.09-B.svg
+4.09-C;Systematische Netzwerkdiagnose und Dokumentationsreview;2022;15.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.09-C.svg
+4.10-A;Sicherheits- und Normen-Fachgespräch;2015;15.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.10-A.svg
+4.10-B;Elektrotechnik und Systemtechnik mündlich erklären;2071;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.10-B.svg
+4.10-C;Kommunikation, Steuerung und Prüfung unter Zeitdruck;2233;17.2;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.10-C.svg
+4.11-A;Schriftliche Prüfung: Mathematik und Elektrotechnik;2162;16.6;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.11-A.svg
+4.11-B;Schriftliche Prüfung: NIN, Pläne und Systemtechnik;1999;15.4;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.11-B.svg
+4.11-C;Prüfungssimulation und Lernlückenanalyse;2066;15.9;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.11-C.svg
+4.12-A;Praktisches QV: Auftrag und Arbeitsvorbereitung;2077;16.0;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.12-A.svg
+4.12-B;Praktisches QV: Ausführung und Erstprüfung unter Aufsicht;2014;15.5;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.12-B.svg
+4.12-C;Abschlussreview und individueller Weg zur Zulassung;2048;15.8;ja;;;BiVo 2015/2026: zutreffenden QV-Zweig mit Kanton klären, NIN SN 411000:2025 Volltext + Corrigendum;OFFEN;visuals/4.12-C.svg
+N-S01;Wer trägt bei elektrischen Arbeiten welche Verantwortung?;1958;15.1;ja;SN EN 50110-1:2023;;;OFFEN;visuals/N-S01.svg
+N-S02;Die fünf Sicherheitsregeln wirklich verstehen;2006;15.4;ja;SN EN 50110-1:2023;;;OFFEN;visuals/N-S02.svg
+N-S03;Messen, Erproben, Besichtigen – drei verschiedene Tätigkeiten;1968;15.1;ja;SN EN 50110-1:2023;;;OFFEN;visuals/N-S03.svg
+N-S04;Schweizer Recht und europäische Betriebsnorm richtig kombinieren;2000;15.4;ja;SN EN 50110-2:2023;;;OFFEN;visuals/N-S04.svg
+N-W01;Vom Haus bis zum Netz: Wer ist für was zuständig?;2000;15.4;ja;Werkvorschriften CH 2025;;;OFFEN;visuals/N-W01.svg
+N-W02;Technisches Anschlussgesuch, Installationsanzeige und SiNa;1986;15.3;ja;Werkvorschriften CH 2025;;;OFFEN;visuals/N-W02.svg
+N-W03;Zähler, Hauptanschluss und Messkonzepte verstehen;1962;15.1;ja;Werkvorschriften CH 2025;;;OFFEN;visuals/N-W03.svg
+N-W04;Netzparallele PV: Phasen, Unsymmetrie und Inbetriebnahme;1970;15.2;ja;Werkvorschriften CH 2025;;;OFFEN;visuals/N-W04.svg
+N-W05;Batteriespeicher, USV und Rückspeisung beurteilen;2014;15.5;ja;Werkvorschriften CH 2025;;;OFFEN;visuals/N-W05.svg
+N-P01;Eine PV-Anlage vollständig dokumentieren;2047;15.7;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P01.svg
+N-P02;PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom;2082;16.0;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P02.svg
+N-P03;PV-Sichtprüfung: Was muss vor jeder Messung stimmen?;2039;15.7;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P03.svg
+N-P04;PV-Erstprüfung: Kategorie 1 systematisch lesen;2053;15.8;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P04.svg
+N-P05;PV-Isolationsprüfung verstehen, ohne gefährlich zu messen;2082;16.0;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P05.svg
+N-P06;PV-Fehlerdiagnose mit I-U-Kennlinie und Thermografie;2074;16.0;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P06.svg
+N-P07;Der PV-Prüfbericht als belastbarer Qualitätsnachweis;2052;15.8;ja;SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-P07.svg
+N-V01;Was ist eine Schaltgerätekombination – und welche Norm gilt?;2002;15.4;ja;SN EN IEC 61439-1:2021, SN EN IEC 61439-2:2021;;;OFFEN;visuals/N-V01.svg
+N-V02;Bemessungsdaten einer Verteilung richtig lesen;2047;15.7;ja;SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-V02.svg
+N-V03;Erwärmung verstehen: Strom, Übergangswiderstand und Gehäuse;2047;15.7;ja;SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-V03.svg
+N-V04;Schutz gegen elektrischen Schlag: Gehäuse ist nicht alles;2012;15.5;ja;SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-V04.svg
+N-V05;Kurzschlussbeanspruchung: Warum 16 A nicht die ganze Wahrheit ist;1971;15.2;ja;SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-V05.svg
+N-V06;Bauartnachweis und Stücknachweis sauber trennen;1966;15.1;ja;SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-V06.svg
+N-V07;Energieverteiler: Bedienung, Unterteilung und Wartbarkeit;1962;15.1;ja;SN EN IEC 61439-2:2021;;;OFFEN;visuals/N-V07.svg
+N-V08;Baustromverteiler: temporär bedeutet nicht ungefährlich;1979;15.2;ja;SN EN 61439-4:2013;;;OFFEN;visuals/N-V08.svg
+N-E01;Erdung, Schutzpotentialausgleich und Blitzschutz unterscheiden;2097;16.1;ja;SN 414022:2024, SN 414113:2024-12;;;OFFEN;visuals/N-E01.svg
+N-E02;Fundamenterder planen: Neubau, weisse Wanne, isolierte Fundamente;2049;15.8;ja;SN 414113:2024-12;;;OFFEN;visuals/N-E02.svg
+N-E03;Korrosion, Verbindungsqualität und Erder-Abnahme;2040;15.7;ja;SN 414113:2024-12;;;OFFEN;visuals/N-E03.svg
+N-B01;Blitzschutz als System statt einzelner Fangstange;2004;15.4;ja;SN 414022:2024;;;OFFEN;visuals/N-B01.svg
+N-B02;Trennungsabstand, Potentialausgleich und Überspannungsschutz;1975;15.2;ja;SN 414022:2024, SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-B02.svg
+N-B03;Blitzschutz nach Änderungen inspizieren und dokumentieren;2008;15.4;ja;SN 414022:2024;;;OFFEN;visuals/N-B03.svg
+N-I01;Gesamtfall: Aufdach-PV vom Entwurf bis zur Übergabe;2027;15.6;ja;Werkvorschriften CH 2025, SN 414022:2024, SN EN 62446-1:2016+A1:2018;;;OFFEN;visuals/N-I01.svg
+N-I02;Gesamtfall: Einen Maschinenverteiler fachlich beurteilen;1998;15.4;ja;SN EN 50110-1:2023, SN EN IEC 61439-1:2021;;;OFFEN;visuals/N-I02.svg
+N-I03;Quellenkritik: Was wir wirklich wissen – und was noch fehlt;2061;15.9;ja;;;Quellenzuordnung nicht eindeutig aus vorhandenem PDF-Bestand;OFFEN;visuals/N-I03.svg

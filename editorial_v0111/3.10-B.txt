@@ -1,0 +1,120 @@
+Lektion 3.10-B: Glasfaser und optische Übertragung. Glasfaser nutzt Licht als Übertragungsträger und ist gegen viele elektromagnetische Störfelder unempfindlich. Optische Stecker, Faserarten und Biegeradien sind jedoch empfindliche Systemelemente. Schlechte Sauberkeit oder unpassende Kontaktflächen verursachen Dämpfung und Reflexionen. Fachgerechte Verarbeitung und Messung erfordern spezielle Geräte und Schulung. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche zwei Glasfaser-Datenblätter und erstelle eine Checkliste zu Faserart, Steckertyp, Dämpfung und Biegeradius. Berechne auf Papier ein einfaches Dämpfungsbudget aus angenommenen Strecken- und Steckerverlusten. Führe keine eigenen Fasertrenn- oder Laserexperimente durch. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Optische Übertragung braucht saubere Stecker und passende Messverfahren. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Glasfaserstecker, Biegeradius und Hygiene; Koaxialverteilung, Dämpfung und Pegel. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Glasfaserstecker, Biegeradius und Hygiene; Koaxialverteilung, Dämpfung und Pegel.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Optische Leistungsdämpfung. Eine optische Verbindung weist im vereinfachten Leistungsmodell eine Dämpfung von 3 dB auf.
+
+Schritt 1. Leistungsverhältnis: P₂/P₁ = 10^(−3/10).
+
+Schritt 2. 10^(−0,3) ≈ 0,501.
+
+Schritt 3. Am Ausgang verbleiben idealisiert rund 50 % der Eingangsleistung.
+
+Schritt 4. Eine reale Abnahme verlangt gerätespezifische Messung und Grenzwerte.
+
+Kontrolle des Ergebnisses: −3 dB bedeutet ungefähr halbe optische Leistung.
+
+Übungsauftrag zur Anwendung: RJ45-Patch-/Installationskabel ausschließlich an spannungsfreier Dateninstallation/Trainingsmaterial; LWL nur Fachkurs. Halte zusätzlich die Antwort auf die Frage «Was kann die Dämpfung einer Glasfaserstrecke erhöhen?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was kann die Dämpfung einer Glasfaserstrecke erhöhen? Die richtige Antwort lautet: Verschmutzte Steckflächen und ungünstige Biegeradien. Warum? Optische Übertragung braucht saubere Stecker und passende Messverfahren.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Optische Übertragung braucht saubere Stecker und passende Messverfahren.. Warum? Der Merksatz lautet: Optische Übertragung braucht saubere Stecker und passende Messverfahren.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachvertiefung.
+
+Licht als Informationsüberträger.
+In Glasfasern werden Informationen als modulierte Lichtsignale übertragen. Der optische Kern und die umgebende Struktur ermöglichen die Führung des Lichts. Anders als bei Kupferleitungen wird das Nutzsignal nicht über elektrische Leitfähigkeit im Kabel transportiert. Das kann Vorteile hinsichtlich elektromagnetischer Kopplung und galvanischer Trennung bringen. Dennoch ist Glasfaser keine beliebige Wunderleitung: Reichweite, Datenrate und Dämpfung hängen von Fasertyp, Optik, Steckverbindungen und der jeweiligen Systemauslegung ab. Im Unterricht wird zuerst zwischen physikalischem Faserweg und elektrischem Anschluss der aktiven Geräte unterschieden.
+
+
+Singlemode und Multimode.
+Singlemode-Fasern und Multimode-Fasern unterscheiden sich unter anderem im geführten Modenverhalten, in typischen Anwendungen und in den zugehörigen optischen Komponenten. Es genügt nicht, nur die Fasermarkierung zu kennen. Auch Sender, Empfänger, verwendete Wellenlänge und Anschlusskomponenten müssen zusammenpassen. Eine rein mechanisch passende Steckverbindung garantiert noch keine erfolgreiche optische Übertragung. Für die Lernaufgabe werden zwei Datenblätter verglichen und diejenigen Parameter markiert, die vor einer Verbindung zwingend abgeglichen werden müssen.
+
+
+Dämpfung in Dezibel rechnen.
+Die optische Dämpfung wird häufig in Dezibel angegeben. Für ein Leistungsverhältnis gilt L = 10 mal log10 von Eingangsleistung geteilt durch Ausgangsleistung. Ein Verlust von drei Dezibel entspricht ungefähr einer Halbierung der optischen Leistung. Das heisst nicht, dass sich die maximale Datenrate exakt halbiert. Die dB-Angabe ist eine logarithmische Verhältnisgrösse und muss von der reinen Leistung in Milliwatt unterschieden werden. Für eine Systembilanz werden Faserabschnitt, Steckverbinder und Spleisse als Beiträge zur Gesamtdämpfung betrachtet.
+
+
+Optisches Budget als Rechenmodell.
+Angenommen, ein Sender stellt ein zulässiges optisches Budget von acht Dezibel bereit. Die geplante Strecke verursacht rechnerisch vier Dezibel Faserdämpfung, eineinhalb Dezibel an Steckverbindungen und ein halbes Dezibel an Spleissen. Zusammen sind das sechs Dezibel, sodass im vereinfachten Modell zwei Dezibel Reserve verbleiben. Diese Reserve kann durch Alterung, Verschmutzung oder Messunsicherheiten kleiner werden. Entscheidend ist, dass die verwendeten Budgetwerte aus zum System passenden Herstellerunterlagen stammen. Der reine Zahlenvergleich ersetzt keine praktische Abnahme.
+
+
+Steckgesicht und Sauberkeit.
+Optische Steckverbindungen reagieren empfindlich auf Schmutz und beschädigte Stirnflächen. Eine kaum sichtbare Verunreinigung kann zusätzliche Dämpfung oder Reflexion verursachen. Deshalb gehören geeignete Reinigungs- und Inspektionsverfahren zur Fachpraxis. Der Blick direkt in einen aktiven optischen Port ist keine sichere Prüfung; manche Sender arbeiten mit unsichtbaren Wellenlängen. Für Lernzwecke werden daher Fotos, Datenblätter und bereits aufgenommene Messberichte verwendet. Sicherheitsanweisungen des Herstellers und der verantwortlichen Fachperson sind bei realen Arbeiten verbindlich.
+
+
+Spleiss und Steckverbinder.
+Ein Spleiss verbindet Fasern dauerhaft oder langfristig, während Steckverbinder lösbare Übergänge ermöglichen. Beide Übergangsformen können zur Dämpfung beitragen. In einem grossen Verteilsystem muss nachvollziehbar sein, an welchen Stellen Spleisse liegen und welche Ports miteinander verbunden sind. Eine einzige Nummer an einem Glasfaserkabel reicht oft nicht aus, weil ein Kabel viele Einzelfasern enthalten kann. Der Dokumentationsplan benennt deshalb Kabel, Faser, Spleissposition, Patchfeldport und angeschlossene aktive Schnittstelle separat.
+
+
+OTDR als Ortsinformation.
+Ein optisches Zeitbereichsreflektometer, OTDR, kann Ereignisse und Streckenverhalten entlang einer Faser sichtbar machen. Die Messung benötigt geeignete Einstellungen und die Interpretation von Laufzeit, Dämpfung und reflektierenden Ereignissen. Ein sichtbarer Peak im Messbild ist nicht automatisch eine gebrochene Faser; beispielsweise können Steckverbinder reflektierende Ereignisse verursachen. Für die Ausbildung wird eine vereinfachte OTDR-Kurve mit drei Ereignissen analysiert. Der Kern ist, die gemessene Position, die Ereignisart und ihre Unsicherheit auseinanderzuhalten.
+
+
+Dämpfungsmessung und OTDR nicht verwechseln.
+Eine Ende-zu-Ende-Dämpfungsmessung und eine OTDR-Aufnahme beantworten unterschiedliche Fragen. Die eine zeigt, wie viel optische Leistung über die definierte Strecke verloren geht; die andere unterstützt die räumliche Lokalisation von Ereignissen. Ein vollständiger Abnahmenachweis kann je nach geforderter Anwendung beide Sichtweisen enthalten. Für die Praxis ist zudem die Referenzierung wichtig: Falsche Referenzbedingungen können Messergebnisse verfälschen. Im Lernprojekt werden zuerst der Prüfauftrag und dann das geeignete Messverfahren festgelegt, nicht umgekehrt.
+
+
+Umgebungs- und Biegebelastung.
+Glasfasern können bei zu engem Biegeradius zusätzliche Dämpfung entwickeln oder mechanisch beschädigt werden. Auch Zugbelastung, Knickstellen und ungeeignete Kabelwege sind relevant. Die zulässigen Radien und Zugkräfte hängen vom konkreten Kabeltyp ab und müssen dem Datenblatt entnommen werden. Eine fiktive Trasse führt um zwei enge Ecken: Die Lernaufgabe besteht darin, die Herstellerangabe zum minimalen Biegeradius zu suchen und den Plan entsprechend anzupassen. Ein vorsichtiges «es lässt sich noch biegen» ist kein technischer Eignungsnachweis.
+
+
+Störungssuche an einer Faserstrecke.
+Ein Switch meldet bei einem Glasfaserlink keinen Link, obwohl beide Geräte Strom haben. Mögliche Ursachen sind falscher Transceiver, unpassende Wellenlänge, vertauschte Tx-/Rx-Zuordnung, beschädigte Faser oder eine Dämpfung oberhalb des optischen Budgets. Die Diagnose beginnt mit System- und Dokumentenprüfung, nicht mit dem Blick in den aktiven Port. Anschliessend werden sichere Prüfverfahren durch befugte Personen geplant. Das Lernziel ist, eine Ursachenliste mit passenden Nachweisen zu erstellen und zwischen elektrischer Gerätefunktion und optischem Übertragungsweg zu unterscheiden.
+
+Acht anwendungsorientierte Fallübungen mit Musterlösungen.
+
+Fall 1 – Drei Dezibel.
+Ein optisches Signal verliert auf einer Strecke ungefähr drei Dezibel. Die Lernlösung erklärt, dass sich die Leistung näherungsweise halbiert, nicht aber die Datenrate automatisch halbiert. Dezibel beschreibt ein logarithmisches Leistungsverhältnis. Die Übertragungsfähigkeit hängt zusätzlich von Sender, Empfänger, Wellenlänge und verfügbarem Budget ab. Ein direktes Umrechnen in Bandbreite wäre falsch.
+
+
+Fall 2 – Optisches Budget.
+Das verfügbare Budget beträgt im Beispiel acht Dezibel. Vier Dezibel entfallen auf die Faser, eineinhalb auf Steckverbinder und ein halbes auf Spleisse. Insgesamt sind sechs Dezibel belegt, zwei Dezibel verbleiben als Modellreserve. Die Musterlösung nennt zudem Alterung, Verschmutzung und Messunsicherheit als mögliche Einflussgrössen. Für die reale Auslegung gelten die Daten des konkreten Systems.
+
+
+Fall 3 – Stecker passt mechanisch.
+Zwei Glasfasertransceiver lassen sich mit passenden Steckern verbinden, unterstützen aber unterschiedliche Wellenlängen oder Fasertypen. Die Musterlösung trennt mechanische Passung von optischer Systemkompatibilität. Vor der Verbindung müssen Sender-, Empfänger- und Faserparameter verglichen werden. Das Einstecken allein ist kein geeigneter Funktionstest und sagt nichts über die zulässige optische Leistung am Empfänger aus.
+
+
+Fall 4 – Verschmutztes Steckgesicht.
+Nach mehreren Umsteckvorgängen steigt die Dämpfung einer Verbindung. Die Lernlösung nennt ein verschmutztes oder beschädigtes Steckgesicht als mögliche Ursache. Geeignete Inspektion und Reinigung sind mit passenden Verfahren von unterwiesenen Personen durchzuführen. Niemals soll direkt in einen möglicherweise aktiven optischen Port geschaut werden. Einige optische Sender arbeiten mit für das Auge unsichtbarer Strahlung.
+
+
+Fall 5 – OTDR-Ereignis.
+Eine OTDR-Kurve zeigt an einer bekannten Verteilerstelle ein reflektierendes Ereignis. Die Musterlösung warnt davor, daraus unmittelbar «Faserbruch» abzuleiten. Ein Steckverbinder kann ebenfalls eine Reflexion erzeugen. Erst Ortsinformation, Ereignisform, Messbedingungen und Vergleich mit der Dokumentation erlauben eine sachliche Bewertung. Die Ende-zu-Ende-Dämpfung beantwortet eine andere Frage.
+
+
+Fall 6 – Biegeradius zu klein.
+Eine Glasfaser soll in einer engen Kabelwanne umgelenkt werden. Die zulässigen Biegeradien fehlen im Plan. Die Musterlösung fordert die Herstellerangaben und eine Anpassung der Trasse, falls die Geometrie nicht passt. Ein Kabel darf nicht allein danach beurteilt werden, ob es sich mit der Hand noch um die Ecke legen lässt. Mechanische Grenzwerte sind technische Kenndaten.
+
+
+Fall 7 – Mehrere Fasern im Kabel.
+Ein Kabel enthält zwölf Einzelfasern, die im Verteiler nur mit einer einzigen Kabelnummer erfasst werden. Für die Fehlerdiagnose ist das zu ungenau. Die Musterlösung fordert Faserkennzeichnung, Spleiss- und Patchfeldzuordnung sowie Messresultate je relevanter Strecke. Ein einziger Portfehler kann dann gezielt lokalisiert werden, ohne die gesamte Kabelanlage als Störung zu behandeln.
+
+
+Fall 8 – Link bleibt dunkel.
+Beide Switches sind eingeschaltet, aber es entsteht kein Glasfaserlink. Die Lernlösung prüft zuerst anhand der Unterlagen, ob Wellenlänge, Transceiver, Faserart und Tx-/Rx-Zuordnung übereinstimmen. Anschliessend werden geeignete optische Messverfahren eingeplant. Die Geräteversorgung ist ein wichtiger Befund, aber kein Nachweis für einen funktionsfähigen optischen Übertragungsweg.
+
+Zusätzliche Rechen- und Dokumentationsvertiefung.
+
+Rechenübung mit Leistungspegeln.
+Ein optischer Sender liefert ein Signal mit minus drei dBm. Nach einer modellhaften Gesamtdämpfung von vier Dezibel liegt der Empfangspegel bei minus sieben dBm. Die Rechenoperation ist eine Subtraktion logarithmischer Pegel und Verluste. Ob minus sieben dBm im vorgesehenen Empfängerbereich liegt, kann nur mit dessen Datenblatt beurteilt werden. Die Musterlösung weist zusätzlich darauf hin, dass ein zu hoher Eingangspegel je nach System ebenfalls unzulässig sein kann. Deshalb werden Mindest- und Maximalbedingungen gemeinsam geprüft und nicht nur ein beliebig hoher Sendewert angestrebt.
+
+
+OTDR und End-to-End gemeinsam betrachten.
+Ein optischer Streckenbericht enthält einen Gesamtdämpfungswert und eine OTDR-Kurve mit einem reflektierenden Ereignis. Aus der Kombination lässt sich die Situation besser eingrenzen als aus nur einer Zahl. Das OTDR liefert Ortsinformation, während der End-to-End-Wert den Gesamtverlust unter der jeweiligen Messkonfiguration beschreibt. Die Musterlösung fordert, dass Referenzierung, Messwellenlänge und zugeordnete Faser klar dokumentiert sind. Ein Ereignis an einem bekannten Patchfeld kann anders zu beurteilen sein als ein unerwartetes Ereignis mitten in einer unzugänglichen Kabeltrasse.
+
+Prüfungsgespräch und Lernabschluss.
+
+Lernkontrolle über optische Messwerte. Aus einem Sendewert in dBm und einer Strecke mit definierter dB-Dämpfung lässt sich ein Empfangspegel modellhaft berechnen. Die tatsächliche Eignung ist jedoch mit Mindest- und Höchstgrenzen aus dem Datenblatt abzugleichen. Erkläre zusätzlich den Unterschied zwischen einer Ende-zu-Ende-Dämpfungsmessung und einer OTDR-Aufnahme mit räumlichen Ereignissen. Nenne schliesslich, warum Verschmutzung und Biegeradius optische Verluste verursachen können. Bei allen Antworten ist zu beachten, dass ein sichtbarer Stecker noch keine ausreichende Aussage über optische Kompatibilität und Betriebssicherheit liefert.

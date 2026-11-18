@@ -25,3 +25,88 @@ Ein Online-Text behauptet einen bestimmten RCD-Grenzwert und führt eine NIN-Tab
 Musterlösung.
 
 Die Aussage wird nicht als normverifiziert übernommen. Eine berechtigte Fachperson muss anhand der gültigen NIN und des konkreten Anwendungsfalls prüfen. Bis dahin wird die Quelle als fehlend markiert.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Ein Online-Text behauptet einen bestimmten RCD-Grenzwert und führt eine NIN-Tabelle an, die Du nicht öffnen kannst.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Die Aussage wird nicht als normverifiziert übernommen. Eine berechtigte Fachperson muss anhand der gültigen NIN und des konkreten Anwendungsfalls prüfen. Bis dahin wird die Quelle als fehlend markiert.
+
+Möglicher sicherer Übungsauftrag: Kennzeichne zehn technische Aussagen als geprüft, Übungsannahme oder offene Normfrage.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Darf aus einem fünfseitigen nationalen Vorwort der komplette technische Norminhalt abgeleitet werden? Die richtige Antwort lautet: Nein. Warum? Ohne technischen Volltext ist eine Detailprüfung nicht möglich.
+
+Frage 2: Welche wichtige Installationsnorm fehlt weiterhin? Die richtige Antwort lautet: SN 411000:2025 (NIN). Warum? Die NIN wurde nicht hochgeladen.
+
+Frage 3: Was gehört auf eine gute Quellenkarte? Die richtige Antwort lautet: Normnummer, Ausgabe, Abschnitt, Prüfstatus. Warum? Rückverfolgbarkeit ist wesentlich.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Die drei Ebenen einer Aussage.
+In technischen Diskussionen werden Rechtsvorschrift, technische Norm und praktische Erfahrung oft in einem Satz vermischt. Für eine belastbare Beurteilung trenne drei Ebenen: Erstens, was eine verbindliche Rechtsgrundlage tatsächlich fordert. Zweitens, welche technische Regel im konkreten Anwendungsfall einschlägig ist. Drittens, welches Ergebnis ein überprüftes Projekt oder eine Messung liefert. Ein Herstellerdatenblatt kann technische Geräteeigenschaften belegen, nicht aber die Bewilligung eines ausführenden Betriebs. Eine Norm kann ein Prüfverfahren beschreiben, ersetzt aber nicht die projektspezifische Messung. Eine frühere Erfahrung wiederum ist kein sicherer Beweis, dass die aktuelle Ausgabe unverändert geblieben ist. Die Lernaufgabe beginnt mit der eindeutigen Kennzeichnung dieser drei Ebenen für jede sicherheitsrelevante Behauptung.
+
+Fachkapitel 2: Volltext, Inhaltsverzeichnis und Auszug.
+Ein PDF mit gleichem Titel wie die gesuchte Norm muss nicht den vollständigen Inhalt enthalten. Häufig liegen nur nationale Vorworte, Berichtigungen, Katalogauszüge oder Inhaltsverzeichnisse vor. Die Länge einer Datei ist ein Indiz, kein hinreichender Beweis. Prüfe deshalb Herausgeber, Ausgabe, Sprachfassung, Inhaltsverzeichnis, Kennzeichnung von Anhängen und Seitenfolge. Ein fünfseitiger Auszug kann eine wichtige Änderung enthalten, jedoch die Detailanforderungen einer hundertseitigen Fachnorm nicht ersetzen. Fehlen entscheidende Abschnitte, wird der Befund als offen dokumentiert. Es wäre gefährlich, aus einem kurzen Text eine vollständige normative Freigabe abzuleiten. Genau diese Quellenkritik ist ein wesentlicher Teil moderner technischer Kompetenz.
+
+Fachkapitel 3: Aktualität und Corrigenda.
+Technische Regeln entwickeln sich weiter; es gibt Neuauflagen, Berichtigungen und gegebenenfalls Übergangsbestimmungen. Eine Fundstelle im älteren Dokument kann deshalb zum falschen Ergebnis führen, wenn aktuelle Änderungen unberücksichtigt bleiben. Ein sauberer Quellenvermerk nennt die konkrete Ausgabe und den Stand der nachträglichen Korrekturen. Die Aufgabe ist besonders relevant bei der NIN, bei europäischen Produktstandards und bei Werkvorschriften des Netzbetreibers. Es reicht nicht, dass ein automatisches Suchsystem eine passende Textstelle ausgibt. Die Stelle muss in der gültigen und anwendbaren Originalfassung kontrolliert werden. Erst danach darf eine konkrete Grenzwert- oder Freigabeaussage entstehen.
+
+Fachkapitel 4: Einzelfall vor Normnummer.
+Die korrekte Norm lässt sich nur auswählen, wenn das zu beurteilende Objekt genau beschrieben ist. Handelt es sich um die innere Gebäudeinstallation, die Schaltgerätekombination, ein elektrisches Betriebsmittel, eine PV-Anlage oder eine Maschinensteuerung? Diese Objekte überschneiden sich, aber ihre Nachweisstrukturen sind nicht identisch. Zudem kann eine Anlage im Grenzbereich mehrerer Regelwerke liegen. Ein guter Rechercheauftrag nennt deshalb Gegenstand, Spannungsbereich, Betriebsart, Einbauort, nationale Zuständigkeit und Zweck der Aussage. Wird stattdessen nur nach „Sicherung 16 Ampere Norm“ gesucht, ist die Trefferliste fachlich zu unspezifisch. Das Problem ist nicht Suchgeschwindigkeit, sondern fehlende Beschreibung der Frage.
+
+Fachkapitel 5: Beweislast bei Grenzwerten.
+Nehmen wir an, eine technische Diskussion behauptet, eine Erdungsverbindung müsse immer einen festen Widerstandswert unterschreiten. Diese Aussage kann falsch verallgemeinert sein: Massgebend sind Funktion, Netzsystem, Schutzkonzept, Messverfahren und anwendbare Originalbestimmungen. Ohne Kontext muss der Status „nicht geprüft“ lauten. Der Quellennachweis hat vier Bestandteile: Originalquelle mit Ausgabe, präzise Fundstelle, Anwendungsbegründung und prüfbarer Projektnachweis. Wird eines davon vergessen, lässt sich die Freigabe später nur schwer verteidigen. Diese Struktur eignet sich nicht nur für Erdung, sondern ebenso für PV-Strings, RCD-Auswahl, Maschinenverteiler oder die Qualifikationsprüfung.
+
+Fachkapitel 6: Zuverlässigkeit von KI-Antworten.
+Eine KI kann technische Sachverhalte didaktisch gut erklären, sie kann aber auch mit hoher sprachlicher Sicherheit einen falschen Grenzwert nennen, eine Normnummer verwechseln oder einen veralteten Stand zitieren. Darum dürfen ihre Antworten zunächst nur als Arbeitsentwurf gelten. Besonders verdächtig sind sehr genaue Zahlen ohne Fundstelle, verallgemeinerte Aussagen wie „immer“ und „nie“ sowie scheinbar präzise Zitate aus nicht zugänglichen Originalausgaben. Das angemessene Vorgehen ist ein Quellenprotokoll: Was wurde behauptet, woher stammt es, wer hat es wann gegengeprüft und welche Entscheidung wurde daraus abgeleitet? Damit wird KI zur Recherchehilfe, nicht zur Freigabeinstanz.
+
+Fachkapitel 7: Quellenkonflikte auflösen.
+Zwei Dokumente können unterschiedliche Aussagen enthalten, ohne dass eines davon zwingend fehlerhaft ist. Vielleicht gelten sie für verschiedene Ausgaben, Gerätekategorien, Betriebsbedingungen oder Länder. Ein Konflikt kann auch entstehen, weil eine Herstelleranweisung strenger formuliert ist als eine allgemeine Lehrbuchregel. Statt den günstigeren Wert auszuwählen, sind Geltungsbereich, Rang, Ausgabe und konkrete Installationsbedingungen zu vergleichen. Gegebenenfalls muss die Entscheidung einer zuständigen Fachperson oder der anerkannten Aufsicht vorgelegt werden. Die Dokumentation hält den Konflikt und dessen Auflösung fest. So entsteht später nachvollziehbares Wissen und keine Sammlung isolierter Textstellen.
+
+Fachkapitel 8: Ein Quellenregister als Teil des Projekts.
+Baue für ein fiktives PV- und Verteilungsprojekt ein Quellenregister. Für jede Aussage erhält es Spalten zu Thema, Dokument, Ausgabe, Kapitel, Zugriff, wörtlich geprüfter Kernaussage, Anwendung auf das Projekt, Prüfer und Freigabestatus. Verweise nach Möglichkeit direkt auf das lizensierte Originaldokument innerhalb des Unternehmens, aber respektiere Zugriffs- und Urheberrechtsregeln. Bei fehlendem Original bleibt die Zeile offen. Der Nutzen eines solchen Registers liegt nicht in seiner Länge, sondern in der Wiederholbarkeit: Ein Kollege kann Monate später erkennen, warum ein Schutzkonzept gewählt wurde und was für eine Revision noch zu prüfen ist.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Fünfseitiges Vorwort.
+Ein zugesandtes PDF trägt den Titel einer Produktnorm, hat aber nur fünf Seiten. Der Projektleiter verlangt eine Freigabe. Schreibe eine fachliche Antwort: Die Datei ist als Auszug nutzbar, nicht als vollständige Prüfbasis. Erforderlich sind das anwendbare Vollwerk, dessen Ausgabe und die relevante Fundstelle. Bis dahin bleibt die konkrete Konformitätsbehauptung offen.
+
+Fall 2: Veraltete Tabellenzeile.
+Eine Tabellenzeile wurde aus einer Norm von 2020 übernommen, während im Projekt eine spätere Ausgabe gilt. Welche Kontrollen sind nötig? Verifiziere Änderungsstand, Corrigenda, Übergangsregeln und Anwendungsbereich. Schreibe die Referenz auf die gültige Originalfassung um und dokumentiere, ob der technische Entscheid dadurch verändert wird.
+
+Fall 3: Herstellerwert und Norm.
+Ein Wechselrichterdatenblatt nennt eine maximale DC-Eingangsspannung; ein Lehrtext behauptet einen anderen Grenzwert. Benenne beide Aussagearten. Der Herstellerwert ist eine Geräteeigenschaft, der normative Grenzwert eine Systemregel; zulässig ist nur ein Design, das alle tatsächlich anwendbaren Grenzen erfüllt. Ohne vollständiges Datenblatt und Regelkontext darf keine Freigabe erfolgen.
+
+Fall 4: KI zitiert erfundene Ziffer.
+Ein KI-Text enthält eine präzise NIN-Klausel, die in der zugänglichen Quelle nicht auftaucht. Die passende Reaktion besteht darin, die Behauptung zu streichen oder als ungeprüft zu markieren und eine Originalprüfung zu beauftragen. Erfinde weder Normstelle noch Begründung. Die Lernkontrolle bewertet die Ehrlichkeit über fehlende Evidenz ausdrücklich positiv.
+
+Fall 5: Zwei Regeln scheinbar widersprüchlich.
+Ein VNB verlangt ein anderes Meldeformular als ein früheres Projekthandbuch. Prüfe zuerst, ob es um dieselbe Netzregion und denselben Projektstand geht. Werkvorschriften können durch örtliche Umsetzung ergänzt werden. Kläre die aktuelle Vorgabe mit dem zuständigen Netzbetreiber, statt aus der alten Vorlage ein allgemeingültiges Recht abzuleiten.
+
+Fall 6: Auditfähig entscheiden.
+Stelle für den Umbau einer Maschinenverteilung einen kurzen Nachweistext zusammen. Er soll Objekt und Version, geprüfte Datenblätter, Normquelle, konkrete Prüfresultate, verbleibende Unsicherheiten und Entscheidung der verantwortlichen Fachperson enthalten. Das Ergebnis soll für einen fremden Prüfer ohne mündliche Zusatzinformation nachvollziehbar sein.
+
+Fall 7: Aussage mit genauem Wortlaut.
+Ein Lerntext behauptet: „In jedem TT-System ist immer genau derselbe RCD vorgeschrieben.“ Beurteile die Aussage. Sie ist als universelle Regel zu pauschal. Die konkrete Schutzmassnahme hängt von System, Installation, Fehlerstromform, Nutzungsbedingungen und den geltenden Originalanforderungen ab. Stelle die Aussage daher als offene Prüffrage neu: Welche Schutzorgane sind für diese bestimmte Anlage erforderlich, und mit welcher Fundstelle und Messung wird die Wirksamkeit nachgewiesen? Trenne physikalische Erklärung, normative Begründung und praktischen Nachweis. Eine fachlich saubere Antwort kann zunächst ohne genaue Geräteauswahl auskommen, solange die Entscheidungskriterien korrekt festgehalten werden.
+
+Fall 8: Unterschriebene, aber falsche Version.
+Ein Projektteam hat einen Prüfbericht unterschrieben, der eine alte Geräteversion aufführt. Die aktuelle Anlage wurde nach dem Bericht verändert. Eine Unterschrift beweist, dass jemand das Dokument bestätigt hat, aber nicht, dass es noch den realen Zustand beschreibt. Entwickle den Korrekturprozess: Gerätebestand erfassen, Änderungen und deren Auswirkungen auf Nachweise vergleichen, erforderliche Kontrollen durch berechtigte Personen wiederholen und den Bericht mit Revision aktualisieren. Lösche das alte Dokument nicht spurlos; die Änderungshistorie muss erkennbar bleiben. Der Fall trainiert die Verbindung von Dokumentenqualität und technischer Verantwortung.
+
+Fall 9: Widersprüchliche Grenzwertangaben.
+Ein Hersteller nennt im Datenblatt eine maximale DC-Spannung von 1’000 Volt. Eine Projektfolie behauptet, ein bestimmter String sei „bis 1’100 Volt normgerecht“. Die richtige Analyse beginnt nicht mit dem Vergleichen zweier grosser Zahlen, sondern mit der Herkunft: Das Herstellerlimit ist eine zulässige Geräteeigenschaft, die konkrete Normregel ist separat zu prüfen. Eine Anlage, die ein Herstellerlimit überschreitet, kann durch eine vermeintliche höhere Normzahl nicht automatisch legitimiert werden. Verlange daher vollständige Gerätedaten, projektspezifische Temperaturrechnung und Originalnorm. Bis dahin bleibt die Auslegung ungeprüft.
+
+Fall 10: Quellenregister am Jahresende.
+Ein Projektteam hat im Laufe eines Jahres zehn technische Entscheidungen getroffen. Fünf sind mit gültigen Originalquellen belegt, zwei nur durch veraltete Screenshots und drei durch mündliche Aussagen. Bewerte die Qualität des Entscheidungsregisters. Die fünf belegten Punkte sind nicht automatisch in jeder Hinsicht korrekt, aber nachprüfbar. Die übrigen fünf benötigen eine Quellenrecherche oder eine dokumentierte Rückfrage bei einer zuständigen Stelle. Erstelle eine Priorisierung nach Sicherheitsrelevanz, Änderungsrisiko und bevorstehender Freigabe. So wird Quellenpflege zu einem konkreten Qualitätsprozess und nicht zu einer bürokratischen Abschlussübung.
+
+Fall 11: Freigabeprotokoll einer kritischen Aussage.
+Ein Ingenieur schreibt in einem Konzept: „Unser System erfüllt alle aktuellen Elektroinstallationsnormen.“ Die Unterlagen umfassen lediglich Geräteprospekte, zwei Normen-Vorworte und ein internes Testvideo. Prüfe die Aussage. Zuerst wird das betrachtete System in Teile gegliedert: elektrische Installation, Schaltgerätekombination, angeschlossene Erzeuger und Betriebsorganisation. Anschliessend wird je Teil nach geltender Originalnorm, Ausgabe, dokumentierter Prüfung und verantwortlicher Fachperson gefragt. Das interne Testvideo kann eine Funktion illustrieren, aber keine umfassende Konformität beweisen. Die Vorworte zeigen gegebenenfalls nationale Besonderheiten, nicht alle Detailanforderungen. Formuliere stattdessen einen belastbaren Satz: Für definierte Teilbereiche liegen einzelne Funktions- und Herstellerunterlagen vor; die vollständige Normen- und Installationsfreigabe ist noch offen. Erstelle ein Register mit offenen Nachweisen. Das Ziel ist eine Aussage, die ein externer Auditor ohne mündliche Zusatzinformationen prüfen kann.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

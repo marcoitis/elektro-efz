@@ -1,0 +1,110 @@
+Lektion 4.02-B: Selektivität und Schutzgerätabstimmung. Selektivität bedeutet, dass bei einem Fehler möglichst nur das dem Fehler zugeordnete Schutzorgan auslöst. Bei Überlast und Kurzschluss können unterschiedliche Bereiche relevant sein. Hersteller-Selektivitätstabellen, Ausschaltvermögen, Vorsicherungen und Einbaubedingungen sind gemeinsam zu lesen. Die blosse Differenz der Bemessungsströme beweist keine vollständige Selektivität. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche an einem frei verfügbaren Produktdatenblatt zwei hintereinandergeschaltete Schutzgeräte. Dokumentiere den Bereich, für den Selektivität laut Hersteller angegeben ist, und kennzeichne Bereiche ohne Nachweis. Setze kein reales Schutzorgan eigenmächtig anders ein. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Selektivität ist ein nachgewiesener Geräteverbund, keine Bauchregel. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Koordination LS/R C D/SPD und Vorsicherung; Fehlerfallanalyse und Freigabekriterien. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Koordination LS/RCD/SPD und Vorsicherung; Fehlerfallanalyse und Freigabekriterien.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Erwärmung bei höherem Strom. An einem unveränderten ohmschen Widerstand wird der Strom theoretisch verdoppelt.
+
+Schritt 1. Verlustleistung: P = I² · R.
+
+Schritt 2. Wird I verdoppelt, dann wird I² zu (2I)² = 4I².
+
+Schritt 3. Die ohmsche Verlustleistung steigt damit auf das Vierfache.
+
+Schritt 4. Das ist keine Selektivitätsbeurteilung; dafür werden Geräteeigenschaften und Kennlinien benötigt.
+
+Kontrolle des Ergebnisses: Strom verdoppeln → vierfache ohmsche Verlustleistung.
+
+Übungsauftrag zur Anwendung: Reine Rechen- und Tabellenstudien; jede reale Schutzprüfung nur unter fachkundiger Leitung. Halte zusätzlich die Antwort auf die Frage «Wodurch wird eine Selektivitätsaussage belastbar?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wodurch wird eine Selektivitätsaussage belastbar? Die richtige Antwort lautet: Durch geeignete Herstellerdaten und Anlagenprüfung. Warum? Selektivität ist ein nachgewiesener Geräteverbund, keine Bauchregel.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Selektivität ist ein nachgewiesener Geräteverbund, keine Bauchregel.. Warum? Der Merksatz lautet: Selektivität ist ein nachgewiesener Geräteverbund, keine Bauchregel.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Selektivität als gezielte Eingrenzung einer Störung.
+In einer gestuften elektrischen Verteilung sollen nach Möglichkeit nur diejenigen Stromkreise abgeschaltet werden, die von einer Störung betroffen sind. Wird bei einem Kurzschluss an einer Steckdose gleichzeitig die Hauptsicherung ausgelöst, kann ein viel grösserer Bereich ausfallen als nötig. Das Selektivitätskonzept versucht, solche Auswirkungen zu begrenzen. Es ist jedoch keine automatische Eigenschaft, die durch unterschiedliche Nennstromzahlen garantiert wäre. Entscheidend sind die Kennlinien, die Fehlerstromhöhe, die Gerätefamilie und die Abstimmung der Schutzelemente.
+
+
+Zeit-Strom-Kennlinien lesen.
+Auf einer typischen Kennliniengrafik steht der Strom meist auf der horizontalen und die Auslösezeit auf der vertikalen Achse, häufig mit logarithmischer Teilung. Die Kennlinie ist oft ein Band statt einer einzigen Linie. Zwei Schutzgeräte sind dann im relevanten Bereich selektiv, wenn ihre Auslösecharakteristik und die Energiedurchlasswerte ausreichend abgestimmt sind. Für Lernende ist der erste Schritt, den betrachteten Strombereich auf der Grafik zu lokalisieren. Danach kann man die Reihenfolge der Auslösung beurteilen. Eine pauschale Aussage über sämtliche Kurzschlussströme wäre unzulässig, wenn nur ein Teilbereich untersucht wurde.
+
+
+Überlastbereich und Kurzschlussbereich unterscheiden.
+Im Überlastbereich können thermische Auslöser durch unterschiedliche Zeit-Strom-Charakteristiken abgestimmt werden. Im hohen Kurzschlussbereich können magnetische Schnellauslöser oder strombegrenzende Schmelzsicherungen das Verhalten verändern. Deshalb kann eine Kombination bei kleinen Fehlerströmen selektiv sein und bei sehr hohen Kurzschlussströmen ihre Selektivität verlieren. In der Dokumentation wird deshalb nicht nur «selektiv» oder «nicht selektiv» notiert, sondern der betrachtete Bereich beziehungsweise eine durch Herstellerdaten belegte Selektivitätsgrenze. Das ist für den späteren Betrieb wesentlich präziser.
+
+
+Beispiel einer gestuften Verteilung.
+Eine Verteilung enthält einen vorgeschalteten Schutz mit einem angenommenen Nennstrom von 63 Ampere und nachgeschaltete Stromkreise mit 16 Ampere. Die Zahlen allein beweisen keine vollständige Selektivität. Im Unterricht wählen wir zwei hypothetische Kennlinien und markieren einen Überlaststrom von 25 Ampere sowie einen Kurzschlussstrom von 800 Ampere. Die Aufgabe lautet, aus den Kennlinien zu vergleichen, welches Gerät zuerst auslöst und ob sich deren Toleranzbereiche überschneiden. Für die reale Auswahl müssen aktuelle Hersteller-Selektivitätstabellen und die geltenden Anforderungen herangezogen werden.
+
+
+Backup-Schutz ist nicht das Gleiche wie Selektivität.
+Bei manchen Gerätekombinationen unterstützt ein vorgeschaltetes Schutzorgan das sichere Abschalten eines nachgeschalteten Geräts bei hohen Fehlerströmen. Dies wird oft als Backup- beziehungsweise Kaskadierungskonzept beschrieben. Der Nutzen liegt in der abgesicherten Ausschaltfähigkeit, nicht notwendigerweise darin, dass immer nur das untere Gerät auslöst. Beides darf nicht verwechselt werden. Die Ausbildungsübung fordert, für eine Schutzgerätekombination getrennt zu fragen: Ist die Ausschaltfähigkeit ausreichend? Und ist der Ausfallbereich bei unterschiedlichen Fehlerströmen begrenzt? Ein Ergebnis kann für die beiden Fragen unterschiedlich ausfallen.
+
+
+Energiebegrenzung und I²t.
+Bei Kurzschlüssen kann die durchgelassene Energie eines Schutzgeräts für Leitungen und Betriebsmittel entscheidend sein. Ein gebräuchlicher Kennwert ist das Joule-Integral I²t. Hohe Ströme über kurze Zeiten können thermisch stark beanspruchen. Ein stark vereinfachtes Rechteckmodell mit 1000 Ampere für 0,01 Sekunden ergäbe I²t von 10’000 Amperequadratsekunden. Reale Abschaltvorgänge sind nicht rechteckig; für die Beurteilung sind die Herstellerdaten und die thermischen Grenzen der Leitung relevant. Die Modellrechnung soll nur die quadratische Stromabhängigkeit verdeutlichen.
+
+
+RCD-Selektivität als eigener Themenbereich.
+Bei Fehlerstrom-Schutzeinrichtungen spielen Bemessungsdifferenzströme, Bauarten und zeitliche Abstimmungen eine Rolle. Zwei identische RCDs in Reihe sind nicht automatisch selektiv. Ein nachgeschaltetes Schutzorgan soll möglichst gezielt den betroffenen Teil abschalten, während das vorgeschaltete die übrigen Stromkreise verfügbar lässt. Gleichzeitig müssen alle Personenschutz- und Abschaltanforderungen eingehalten werden. Der Unterricht behandelt hier nur das Prinzip; konkrete Geräteauswahl, Zeitbedingungen und Einbauvorgaben werden anhand der gültigen Originalnormen und Herstellerunterlagen beurteilt.
+
+
+Warum Hersteller-Tabellen unverzichtbar sind.
+Kennlinien aus unterschiedlichen Datenblättern können auf anderen Prüfbedingungen beruhen. Zudem hängt die Selektivität strombegrenzender Geräte bei hohen Fehlerströmen oft von ihrer tatsächlichen Kombination ab. Deshalb stellen Hersteller spezifische Selektivitäts- und Backup-Tabellen bereit. Ein Lernender kann ein Beispiel analysieren: Welche Artikelnummer ist tatsächlich vorgesehen? Welche Kombination hat der Hersteller geprüft? Bis zu welchem Fehlerstrom gilt die Aussage? Sind die Tabellen aktuell? Ohne diese Angaben ist ein scheinbar exaktes Selektivitätsversprechen nicht belastbar.
+
+
+Projektfall mit Verfügbarkeitsanforderung.
+In einem kleinen Betrieb sollen Bürobeleuchtung, Kühlanlage und IT-Verteiler möglichst unabhängig auf Störungen reagieren. Das allein lässt sich nicht durch Selektivität lösen. Auch Stromkreisaufteilung, Versorgungsstruktur und mögliche Wiederanlaufbedingungen gehören dazu. Im Lernmodell wird ein Kurzschluss an einem Werkstattverbraucher betrachtet. Welche Schutzorgane sollen auslösen, welche Betriebsmittel bleiben versorgt, und welche Folgen hat das für den Prozess? Der Vorteil des projektorientierten Vorgehens liegt darin, Schutz und Verfügbarkeit gemeinsam zu denken, ohne den Personenschutz zu relativieren.
+
+
+Nachweis und dokumentierte Einschränkung.
+Ein vollständiger Schutzgeräteabgleich enthält Stromkreiskennzeichen, Hersteller und Typ, Nennströme, Kurzschlussstrom am Einbauort, betrachtete Kennlinien beziehungsweise Tabellen und gegebenenfalls die nachgewiesene Selektivitätsgrenze. Die Schlussaussage sollte den Umfang korrekt benennen. Statt «Selektivität überall gewährleistet» lautet sie beispielsweise «Laut Herstellerkombination im dokumentierten Fehlerstrombereich bis zur angegebenen Grenze selektiv; übrige Bereiche gesondert zu beurteilen». Die Lektion schliesst mit der Frage, welche Konsequenzen sich aus einer nicht vollständigen Selektivität für den Anlagenbetrieb ergeben.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Unterschiedliche Nennströme reichen nicht.
+Ein Hauptschutz ist mit 63 Ampere, ein nachgeschalteter Schutz mit 16 Ampere beschriftet. Kann man daraus vollständige Selektivität ableiten? Nein. Kennlinien, Fehlerstrombereich und die herstellerbestätigte Gerätekombination fehlen. Die Musterlösung erklärt, warum eine grössere Zahl allein weder die Reihenfolge der magnetischen Auslösung noch die strombegrenzende Wirkung festlegt. Eine fachliche Aussage benötigt die passenden Datenblätter und gegebenenfalls Selektivitätstabellen.
+
+
+Fall 2: Überlast und Kurzschluss vergleichen.
+Bei 25 Ampere Überlast in einem 16-Ampere-Abgang kann ein thermischer Auslöser zeitverzögert reagieren. Bei einem hypothetischen Kurzschlussstrom von 1500 Ampere kann zusätzlich der Schnellauslöser angesprochen werden. Die Musterlösung verlangt eine getrennte Betrachtung der beiden Strombereiche. Ein Schutzgerätepaar könnte bei moderater Überlast selektiv sein, bei sehr hohem Kurzschluss jedoch nicht. Eine pauschale Aussage für beide Fälle wäre ungenügend.
+
+
+Fall 3: I²t als mathematisches Modell.
+Ein vereinfachter rechteckiger Stromimpuls von 500 Ampere dauert 0,02 Sekunden. Das Modellintegral I²t beträgt 500² mal 0,02 gleich 5000 Amperequadratsekunden. Verdoppelt sich der Strom bei gleicher Dauer, steigt dieser Wert auf 20’000. Diese quadratische Wirkung erklärt den thermischen Einfluss hoher Ströme. In realen Schutzgeräteberechnungen sind die tatsächlichen Herstellerdaten statt des Rechteckmodells erforderlich.
+
+
+Fall 4: Backup versus Selektivität.
+Eine Kombination wird vom Hersteller als Backup-Kombination ausgewiesen. Darf daraus geschlossen werden, dass nur der nachgeschaltete Schalter auslöst? Nein. Backup beschreibt in diesem Zusammenhang die abgestimmte Ausschaltfähigkeit bei hohen Fehlerströmen. Selektivität beantwortet die andere Frage, welche Schutzorgane tatsächlich abschalten. Die Musterlösung verlangt für beide Aussagen getrennte Nachweise. Die Begriffe dürfen nicht allein wegen einer gemeinsamen Herstellerangabe vermischt werden.
+
+
+Fall 5: RCDs in Reihe.
+Zwei Fehlerstrom-Schutzeinrichtungen mit identischen Eckdaten liegen hintereinander. Eine Störung im unteren Stromkreis löst beide aus. Ist das automatisch ein Bauteilfehler? Nein. Ohne abgestimmte Selektivität kann dieses Verhalten erklärbar sein. Die Musterlösung fordert die Prüfung der RCD-Typen, Auslösecharakteristiken und normativen Anforderungen durch Fachpersonen. Ein beliebiger Austausch zur Unterdrückung der Auslösung wäre kein fachgerechter Lösungsweg.
+
+
+Fall 6: Teilselektivität korrekt dokumentieren.
+Eine Herstellerunterlage bestätigt die Selektivität einer konkreten Gerätekombination bis zu einem bestimmten prospektiven Kurzschlussstrom. Welche Formulierung ist geeignet? «Für die dokumentierte Kombination im genannten Bereich nach Herstellerunterlage selektiv; oberhalb der angegebenen Grenze nicht durch diese Angabe nachgewiesen.» Die Musterlösung zeigt, dass der Geltungsbereich selbst Teil des technischen Ergebnisses ist. Vollständige Selektivität darf nicht aus einer begrenzten Tabelle abgeleitet werden.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Auswahlauftrag: Gestufte Schutzgeräte.
+Eine Anlage hat einen Hauptabgang mit vorgeschaltetem Schutzgerät und drei nachgeschaltete Stromkreise. Der grösste angenommene Kurzschlussstrom am Verteilereingang beträgt 4 Kiloampere, am entferntesten Stromkreis 900 Ampere. Diese Werte reichen noch nicht für eine vollständige Selektivitätszusage. Du benötigst Herstellerangaben zur konkreten Gerätekombination über den gesamten relevanten Bereich und die erforderlichen Ausschaltbedingungen. Die Musterlösung fordert eine Tabelle mit Stromkreis, vorgeschaltetem und nachgeschaltetem Gerät, erwartetem Fehlerstrom und nachgewiesenem Selektivitätsbereich. Wo kein Nachweis vorliegt, wird dies als offen gekennzeichnet. So entsteht eine ehrliche Dokumentation, die Verfügbarkeit berücksichtigt, ohne die Schutzaufgabe zu verwässern.
+
+
+Lernabschluss.
+Unterscheide drei Begriffe mündlich: Überlastschutz, Ausschaltvermögen und Selektivität. Sie beantworten verschiedene technische Fragen. Schlage nicht einfach einen grösseren vorgeschalteten Nennstrom vor, wenn ein Selektivitätsproblem erscheint; der Schutz der Leitungen und die gesamte Gerätekombination müssen weiterhin fachlich stimmen. Der Abschluss besteht darin, die Grenzen der verwendeten Herstellerunterlage exakt zu benennen.
+
+Zusätzliche Kennlinienübung. Zwei Strom-Zeit-Bänder überlappen sich bei einem Teil der betrachteten Kurzschlussströme. Der Lernende soll erklären, weshalb aus dieser Überlappung keine gesicherte zeitliche Selektivität für den gesamten Bereich behauptet werden kann. Anschliessend sucht er in einer fiktiven Herstellerübersicht nach Angaben zur konkret geprüften Kombination und notiert den Geltungsbereich. Eine durch das Datenblatt bestätigte Teilselektivität kann im Projekt dokumentiert werden, solange offen bleibt, was oberhalb ihrer Grenze passiert. Die Übung verbindet grafische Interpretation, Gerätekombination und transparente Risikoaussage. Ein zusätzlicher Vergleich zweier Kennlinien muss ausserdem die Toleranzbänder berücksichtigen. Schneiden sich die Bänder, darf eine eindeutige Auslösereihenfolge nicht ohne weitere Herstellerangaben behauptet werden. Im Abschlussgespräch erläutert der Lernende anhand eines angenommenen Ausfalls, welche Betriebsbereiche von der Abschaltung betroffen wären. Erst dadurch wird der Nutzen der Selektivitätsplanung für den Betreiber konkret: Eine Werkstattstörung soll nach Möglichkeit nicht die gesamte Büro-IT lahmlegen. Die Grenze der Verfügbarkeit wird aber nie höher gewichtet als die erforderliche elektrische Schutzwirkung. Beide Anforderungen müssen gemeinsam nachgewiesen werden.

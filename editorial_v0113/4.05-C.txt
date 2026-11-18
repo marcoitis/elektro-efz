@@ -1,0 +1,91 @@
+Lektion 4.05-C: Erstprüfungsdossier und Übergabe. Ein Prüfdossier verbindet Anlagenbeschreibung, Stromkreisverzeichnis, angewendete Regeln, Mess- und Prüfprotokolle sowie die erforderlichen Verantwortlichkeiten. Erstprüfung, Schlusskontrolle und Sicherheitsnachweis dürfen dabei nicht verwechselt werden. Die abschliessende Bewertung enthält gegebenenfalls Mängel, Massnahmen und eine fachgerechte Nachkontrolle. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Entwerfe eine Mappe für eine fiktive Wohnungssanierung. Lege ein Deckblatt mit Prüfobjekt und Umfang, eine Stromkreisliste, ein Prüfblatt und eine Mängelliste an. Markiere Felder, die nur die entsprechend berechtigte prüfende Person ausfüllen darf. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein Prüfdossier ist nachvollziehbare technische Evidenz. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Vollständige Dokumentation und Interpretation; Abgrenzung Erstprüfung, Schlusskontrolle und Sicherheitsnachweis. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teil 6; NIV Artikel 24, 37; ESTI Weisung 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Vollständige Dokumentation und Interpretation; Abgrenzung Erstprüfung, Schlusskontrolle und Sicherheitsnachweis.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was gehört in ein vollständiges Prüfdossier?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Ein Prüfdossier ist nachvollziehbare technische Evidenz.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Fachgeleitete praktische Messübung an geeigneter, freigegebener Trainingsinstallation; keine eigenen Netztests. Halte zusätzlich die Antwort auf die Frage «Was gehört in ein vollständiges Prüfdossier?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört in ein vollständiges Prüfdossier? Die richtige Antwort lautet: Anlagenumfang, Prüfergebnisse und Verantwortlichkeiten. Warum? Ein Prüfdossier ist nachvollziehbare technische Evidenz.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein Prüfdossier ist nachvollziehbare technische Evidenz.. Warum? Der Merksatz lautet: Ein Prüfdossier ist nachvollziehbare technische Evidenz.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigiertes Unterrichtsmanuskript.
+
+
+Fachkapitel 1: Ein Dossier verbindet technische Wahrheit und Verantwortung.
+Das Erstprüfungsdossier ist keine Sammlung zufälliger PDF-Dateien, sondern eine nachvollziehbare Beschreibung dessen, was installiert, geprüft und übergeben wurde. Der Umfang hängt von Objekt, Tätigkeit und geltenden Vorschriften ab. Im Lernmodell arbeiten wir mit Anlagedaten, Ausführungs- und Revisionsplänen, Stromkreisliste, Messprotokollen, Mängelverzeichnis, Zuständigkeiten und Übergabenachweisen. Ein Dossier muss erkennen lassen, welchen Teil der Anlage ein Prüfergebnis betrifft. Ohne eindeutige Zuordnung kann selbst ein korrekt gemessener Wert bei einer späteren Kontrolle wenig nützen. Die Freigabe erfolgt nur im Rahmen der gesetzlich vorgesehenen Rollen.
+
+Fachkapitel 2: Prüfdokumentation benötigt eine eindeutige Struktur.
+Ein Protokoll enthält Objektkennung, Anlagenbereich, Stromkreis, Datum, Prüfer, Verfahren, Ergebnisse und Beurteilung. Werden verschiedene Gebäude oder Unterverteilungen zusammengefasst, ist eine hierarchische Kennzeichnung hilfreich. Bei einer Verteilung A mit Stromkreis 05 kann ein Kennzeichen A-05 verwendet werden, solange es im gesamten Dossier eindeutig bleibt. Die Kennzeichen sollen auch auf dem Plan und dem Verteilerverzeichnis auftauchen. Lernende prüfen, ob jeder Messwert einem konkreten Stromkreis zugeordnet werden kann. Ein scheinbar vollständiges Dokument mit mehrfach verwendeten Kennzeichen ist für spätere Wartungsarbeiten riskant.
+
+Fachkapitel 3: Pläne und Realität müssen zusammenpassen.
+Revisionsunterlagen sollen die tatsächlich ausgeführte Installation abbilden. Wenn ein Kabelweg geändert oder ein zusätzlicher Abzweig eingebaut wurde, ist der Planstand zu aktualisieren. Eine geänderte Stromkreiszuordnung kann zudem Einfluss auf Beschriftung und Prüfprotokoll haben. Der Begriff Revisionsplan ist deshalb mehr als eine korrigierte Skizze: Er soll anerkannte Kennzeichnungen, Endausführung und relevante technische Besonderheiten zusammenführen. Im Unterricht vergleichen wir Soll- und Ist-Plan, markieren Abweichungen und definieren, welche Dokumente mitgeändert werden müssen. Dies verhindert Widersprüche zwischen Betrieb und Unterlagen.
+
+Fachkapitel 4: Erstprüfung und Schlusskontrolle unterscheiden.
+In der schweizerischen Niederspannungsinstallation haben Prüfung während der Erstellung, Schlusskontrolle, Sicherheitsnachweis und gegebenenfalls unabhängige Abnahmekontrollen unterschiedliche Aufgaben und rechtliche Zuständigkeiten. Die NIV legt den organisatorischen Rahmen fest, die relevanten technischen Regeln präzisieren die Durchführung. Ein Lernender soll die Begriffe nicht als austauschbare Synonyme verwenden. Bei der Planung eines Dossiers wird deshalb für jeden Nachweis festgehalten, durch welche zuständige Rolle er erstellt oder geprüft wird. Konkrete Fristen und Ausnahmen sind stets in der aktuellen gesetzlichen Grundlage nachzuschlagen, nicht aus einem alten Musterprotokoll abzuleiten.
+
+Fachkapitel 5: Sicherheitsnachweis nicht mit Checkliste verwechseln.
+Ein Sicherheitsnachweis ist ein formell vorgesehenes Dokument mit bestimmtem Zweck. Eine interne Checkliste kann dessen Erstellung unterstützen, ersetzt ihn aber nicht automatisch. Umgekehrt sagt ein ausgefülltes Formular ohne tatsächliche Durchführung der verlangten Kontrollen wenig aus. Wir erklären deshalb drei Ebenen: technische Ausführung, erforderliche Prüfung und formelle Dokumentation. Fehlt eine Ebene, ist der Abschluss nicht automatisch vollständig. Die Übung ordnet Dokumente nach ihrer Funktion und zeigt, wo noch Unterschrift, Anlagenbezug oder Prüfergebnis fehlen. Die zuständige Fachperson entscheidet über den gültigen Abschluss.
+
+Fachkapitel 6: Mängelliste als Steuerinstrument.
+Nicht jeder Mangel ist gleich zu behandeln. Ein fehlender Dokumententitel unterscheidet sich von einer nicht nachgewiesenen Schutzmassnahme. Die fachliche Bewertung entscheidet über die Dringlichkeit und den sicheren Anlagenzustand. In einem Mängelregister stehen Beschreibung, Ort, Risikobeurteilung soweit erforderlich, Massnahme, verantwortliche Person, Frist und Nachweis der Erledigung. Die Lernenden üben, einen Mangel eindeutig zu formulieren: Nicht Abdeckung schlecht, sondern Abdeckung an Verteiler A, Feld 3, mechanisch beschädigt; fachgerechte Instandsetzung und Kontrolle ausstehend. So wird aus einer Beobachtung eine bearbeitbare Aufgabe.
+
+Fachkapitel 7: Betriebsanleitung und Kundeninformation.
+Bei der Übergabe braucht der Betreiber verständliche Informationen über Bedienung, Abschaltung, Wartung, Warnhinweise und Ansprechpartner. Eine Speicher- oder PV-Anlage verlangt andere Hinweise als eine einzelne Steckdosenerweiterung. Gute Kundeninstruktion ist technisch richtig, aber auf die tatsächlich relevanten Handlungen reduziert. Wer etwa eine Störmeldung am Wechselrichter erklärt, soll klar zwischen einer zulässigen Nutzerreaktion und einer Arbeit für Fachpersonen trennen. Übergabeprotokoll und Bedienunterlagen gehören zum nachvollziehbaren Abschluss, sofern sie für die Anlage vorgesehen sind. Lernende üben eine kurze Instruktion in eigenen Worten.
+
+Fachkapitel 8: Digitale Ablage und Versionierung.
+Bei digitalen Dokumenten sind unveränderbare Freigabestände, Datum, Version und eindeutige Dateinamen besonders wichtig. Wird ein aktualisierter Plan kommentarlos über einen älteren geschrieben, kann niemand mehr erkennen, welche Unterlagen bei einer früheren Prüfung gültig waren. Ein einfaches System verwendet beispielsweise Objekt, Dokumenttyp, Datum und Versionsstand. Persönliche Daten werden nach den geltenden Vorgaben geschützt. Lernende sollen ausserdem unterscheiden, ob eine Messdatei Rohdaten, einen vorläufigen Entwurf oder einen fachlich freigegebenen Bericht enthält. Ein digital signierter Abschluss kann spezielle organisatorische Anforderungen haben.
+
+Fachkapitel 9: Dossier-Audit als letzter Unterrichtsschritt.
+Vor der Übergabe prüfen wir die Konsistenz an einem fiktiven Beispiel. Stimmen Stromkreisliste, Revisionsplan, Schutzeinrichtungen und Prüfwerte überein? Sind alle relevanten Punkte geprüft oder begründet als nicht anwendbar gekennzeichnet? Sind Mängel dokumentiert und deren Status ersichtlich? Wurden Verantwortlichkeiten, Datum und Freigabestand klar angegeben? Das Audit endet mit einer ausdrücklichen Liste offener Punkte. Gerade wenn einige Nachweise fehlen, ist eine klare Übergabe über den unfertigen Zustand wertvoller als ein scheinbar vollständiges Dossier. Die finale Anlagefreigabe bleibt dem zuständigen Verfahren vorbehalten.
+
+Praxisfälle mit Lösungen und fachlicher Begründung.
+
+
+Aufgabe 1: Falsche Stromkreiskennung.
+Der Prüfwert ist als UV2-07 geführt, der Revisionsplan kennt nur UV2-70. Es ist keine eindeutige Zuordnung möglich. Der Wert wird erst nach Klärung als Nachweis verwendet; alle betroffenen Dokumente sind zu korrigieren.
+
+Aufgabe 2: Offener Schutzleiter-Nachweis.
+Der Protokollpunkt Durchgängigkeit fehlt. Ein funktionsfähiger Verbraucher schliesst diese Lücke nicht. Das Dossier führt den Punkt als offen; die fachgerechte Prüfung wird vor Gesamtfreigabe veranlasst.
+
+Aufgabe 3: Mängel mit Zuständigkeit.
+An einem Verteiler fehlt eine Abdeckung. Der Eintrag erhält Ort, Beschreibung, vorläufige Sicherheitsmassnahme, zuständige Stelle und Nachprüfbedarf. Der Mangel darf nicht unter allgemeine Bemerkungen verschwinden.
+
+Aufgabe 4: Sicherheitsnachweis vs interne Liste.
+Die Montagefirma hat ihre interne Checkliste ausgefüllt. Für die rechtlich erforderlichen Abschlussdokumente ist zusätzlich zu prüfen, ob der Sicherheitsnachweis und die entsprechenden Kontrollen nach NIV vorliegen. Eine interne Liste ist nicht automatisch gleichwertig.
+
+Aufgabe 5: Kundeninstruktion Speicher.
+Ein Betreiber fragt, ob er bei einer Batteriestörung das Gehäuse öffnen darf. Die Instruktion grenzt zulässige Bedienhandlungen klar von fachpflichtigen Eingriffen ab und verweist auf Herstellerunterlagen und Kontaktstelle.
+
+Aufgabe 6: Versionierungsproblem.
+Im Ordner liegen zwei Pläne mit gleichem Namen und unterschiedlichen Stromkreisnummern. Vor Übergabe wird eindeutig festgelegt, welcher Stand freigegeben und welche ältere Version archiviert ist. Die Messprotokolle müssen zum freigegebenen Stand passen.
+
+Abschlusskontrolle und Einordnung.
+Bearbeite abschliessend drei Fragen: Welche physikalischen oder logischen Annahmen lagen den Rechnungen und Beispielen dieser Lektion zugrunde? Welcher zweite Messpunkt, welche Quellenangabe oder welche unabhängige Kontrolle könnte das Ergebnis bestätigen? Was muss eine verantwortliche Fachperson vor einer realen Freigabe ergänzend prüfen? Halte Deine Antwort im Unterrichtsprotokoll fest. Die behandelten Beispiele sind bewusst Lernmodelle; ihre Plausibilität ersetzt weder Herstellerinformationen noch die geltenden Sicherheitsregeln oder einen fachgerechten Anlagenachweis.
+
+
+Vertiefende Fallanalyse: Lückenanalyse eines unvollständigen Abschlussdossiers.
+Ein imaginärer Installationsbetrieb übergibt dem Eigentümer eine neue Unterverteilung. Vorhanden sind ein Foto der Front, eine Stückliste und ein Prüfprotokoll mit mehreren Zahlen. Es fehlen jedoch eine eindeutige Stromkreiszuordnung, der aktuelle Revisionsplan und ein nachvollziehbares Feld für den Prüfstatus. Die korrekte Reaktion ist nicht, die fehlenden Angaben aus den Fotos zu erraten. Wir erstellen eine Lückenliste mit Dokument, konkreter fehlender Information, zuständiger Stelle und erforderlichem Nachweis. Im nächsten Schritt wird entschieden, welche Angaben nur administrativ nachgeführt werden müssen und welche eine weitere technische Prüfung durch Berechtigte erfordern. Diese Unterscheidung ist wesentlich: Ein Mangel der Dokumentation kann die Zuordnung einer bereits durchgeführten Messung unklar machen, während eine fehlende Messung tatsächlich einen offenen technischen Nachweis darstellt. Die Lernenden führen danach einen Revisionsvergleich durch und dokumentieren den neuen Freigabestand. So bleibt auch für eine spätere Prüfung nachvollziehbar, was wann ergänzt wurde.
+
+Vertiefende Fallanalyse: Übergabegespräch mit klaren Zuständigkeiten.
+Der Betreiber einer Anlage fragt bei der Übergabe, welche Bedienhandlungen er selbst durchführen darf, wie er eine Störung erkennt und wann er den Installationsbetrieb kontaktieren muss. Eine gute Antwort nennt die freigegebenen Bedienfunktionen, dokumentierte Wartungsintervalle soweit relevant und die Grenzen eigener Eingriffe. Bei einer PV-Anlage betrifft dies beispielsweise die Beobachtung der Ertragsanzeige und die Meldung ungewöhnlicher Warnungen; das Öffnen von DC-Verbindungen gehört nicht in die allgemeine Nutzerinstruktion. Bei einer Unterverteilung werden Stromkreisbezeichnungen und der sichere Meldeweg bei Auffälligkeiten erklärt. Das Übergabeprotokoll unterscheidet dokumentierte Informationen von noch offenen Mängeln und nennt eine Ansprechperson. Der fachlich verpflichtende Sicherheitsnachweis muss unabhängig davon in der gesetzlich vorgesehenen Form erstellt werden. Lernende formulieren schliesslich einen kurzen mündlichen Überblick, der für Nichtfachpersonen verständlich ist und trotzdem keine unzulässige Sicherheitszusage enthält.
+
+Mündliche Abschlussaufgabe.
+Eine letzte Dossierkontrolle erfolgt aus Sicht einer späteren Wartungsfachperson. Kann sie den Stromkreis eindeutig identifizieren? Findet sie die relevanten Schutzorgane, die Messwerte und den zugehörigen Planstand? Sieht sie, welche Mängel behoben und welche noch offen sind? Kann sie erkennen, wer die Prüfung verantwortet hat und ob der rechtlich vorgesehene Abschluss tatsächlich vorliegt? Wenn eine dieser Fragen ungeklärt bleibt, wird der Dokumentationsmangel präzise aufgenommen. Lernende führen zusätzlich einen kurzen simulierten Übergabetermin durch. Der Betreiber stellt zwei Fragen zur Bedienung und eine zur Störung. Die Antwort soll in verständlicher Alltagssprache erfolgen, ohne die Grenzen eigener Eingriffe zu verwischen. So verbindet die Lektion technische Vollständigkeit mit nachvollziehbarer Kommunikation und einer klaren Verantwortungskette.

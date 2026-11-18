@@ -1,0 +1,106 @@
+Lektion 3.11-A: Fehlerbaum und sicherer Diagnoseprozess. Professionelle Fehlerdiagnose beginnt mit sicherheitsrelevanten Fragen: Welche Energiequellen sind vorhanden, welche Symptome sind reproduzierbar und welche Arbeiten darf die Person ausführen? Danach wird der Fehlerbaum nach Versorgung, Schutzorgan, Leitungsweg, Steuerung und Verbraucher gegliedert. Ein unkontrollierter Austausch von Teilen kann Hinweise zerstören und neue Risiken schaffen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein 24-Volt-Lehrmodell schaltet einen Verbraucher nicht ein. Entwerfe einen Fehlerbaum mit vier Hauptästen und jeweils zwei Unterursachen. Priorisiere Hypothesen anhand ungefährlicher Beobachtungen und dokumentierter Messwerte, nicht anhand von Vermutungen. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Diagnose ist eine nachvollziehbare Abfolge von Hypothesen und Belegen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Störungen kategorisieren: Versorgung, Schutzorgan, Verbraucher, Steuerung; Sicherheitsfreigaben und Dokumente vor Messungen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIV Artikel 24; NIN Teil 6; Suva 84042.D. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Störungen kategorisieren: Versorgung, Schutzorgan, Verbraucher, Steuerung; Sicherheitsfreigaben und Dokumente vor Messungen.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Womit beginnt die strukturierte Fehlersuche?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Diagnose ist eine nachvollziehbare Abfolge von Hypothesen und Belegen.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Fehlersuche an 24-V-Board mit verdeckten Fehlern und Logbuch. Halte zusätzlich die Antwort auf die Frage «Womit beginnt die strukturierte Fehlersuche?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Womit beginnt die strukturierte Fehlersuche? Die richtige Antwort lautet: Sicherheitsbeurteilung und Symptomaufnahme. Warum? Diagnose ist eine nachvollziehbare Abfolge von Hypothesen und Belegen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Diagnose ist eine nachvollziehbare Abfolge von Hypothesen und Belegen.. Warum? Der Merksatz lautet: Diagnose ist eine nachvollziehbare Abfolge von Hypothesen und Belegen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Fehlerdiagnose beginnt mit dem sicheren Zustand.
+Bevor ein technischer Fehler untersucht wird, wird der Arbeitsplatz beurteilt: Gibt es Anzeichen von Überhitzung, Rauch, beschädigter Isolation, Feuchtigkeit oder unzulässigen Berührungsmöglichkeiten? Die Diagnose darf keinen neuen Gefährdungszustand erzeugen. Für die Ausbildung arbeiten wir deshalb zunächst mit spannungsfreien Unterlagen, Fehlersimulationen und Kleinspannungsmodellen. Bei realen Netzinstallationen entscheiden entsprechend berechtigte Fachpersonen über Freischalten, Prüfung, Arbeitsverfahren und Wiederinbetriebnahme. Das mag formell erscheinen, ist aber logisch: Eine messbare Ursache hilft nichts, wenn die Fehlersuche selbst Menschen gefährdet.
+
+
+Symptom ist noch keine Ursache.
+Die Aussage «Der Motor läuft nicht» beschreibt eine Beobachtung. Mögliche Ursachen reichen von fehlender Freigabe über einen ausgelösten Schutz bis zu einem mechanisch blockierten Antrieb. Der Fehlerbaum zwingt dazu, alternative Ursachen systematisch zu sammeln und ihre Beziehungen zu verstehen. Das Top-Ereignis steht oben, darunter liegen Zwischenereignisse und Basisereignisse. Ein Fehlerbaum muss nicht jeden denkbaren Defekt enthalten; entscheidend sind nachvollziehbare, prüfbare Hypothesen. Aus dem Symptom wird damit ein strukturiertes Untersuchungsprogramm statt eine Liste zufälliger Ersatzteile.
+
+
+UND- und ODER-Verknüpfungen im Fehlerbaum.
+Wenn eine Leuchte nur dann ausfällt, wenn gleichzeitig Versorgung fehlt und eine interne Notversorgung versagt, kann die kombinierte Störung als UND-Bedingung modelliert werden. Wenn sie bereits wegen defekter Lampe oder offenem Schalter nicht leuchtet, genügt eine ODER-Verknüpfung. Solche Gatter gehören nicht nur zur mathematischen Theorie; sie zeigen, ob ein einzelner Defekt das Symptom erklären kann. Der Fehlerbaum ist eine logische Argumentationshilfe, keine automatisierte Garantie, dass sämtliche Ursachen erfasst sind. Jede Verknüpfung muss zur Funktion passen und anhand von Plan oder Beobachtung begründet werden.
+
+
+Beispiel einer Steuerversorgung.
+Ein Kleinspannungsmodell mit 24 Volt versorgt eine Relaissteuerung. Der Taster wird gedrückt, doch das Relais zieht nicht an. Als erste Hauptäste stehen Versorgung, Freigabekette, Ansteuerung und Relaisspule im Fehlerbaum. Für die Versorgung lautet ein überprüfbarer Test: Ist am vorgesehenen Messpunkt die Sollspannung unter den dokumentierten Bedingungen vorhanden? Ein plausibles Ergebnis an diesem Punkt schliesst nur einen Teilast aus, nicht sämtliche Versorgungsprobleme. Beispielsweise kann eine Spannung ohne Last vorhanden sein und unter Last einbrechen. Gute Diagnose muss Messbedingungen mitdenken.
+
+
+Messungen nach Informationswert priorisieren.
+Nicht jede Messung liefert gleich viel neue Information. Wenn eine ganze Schaltungsgruppe ausgefallen ist, ist es sinnvoll, zuerst einen gemeinsamen Versorgungspfad anhand des Plans zu prüfen, statt zehn einzelne Verbraucher zu öffnen. Eine Messung unmittelbar am gemeinsamen Ausgang trennt zahlreiche Hypothesen gleichzeitig. Im Modell kann man die Fehlersuche als sukzessive Halbierung eines möglichen Fehlerpfads betrachten. Das ist kein starres Schema: Ein sichtbarer beschädigter Stecker kann eine gezielte Sichtprüfung sinnvoller machen. Die Wahl eines Prüfschritts soll begründbar sein, nicht bloss Gewohnheit.
+
+
+Wahrscheinlichkeit und Schwere getrennt betrachten.
+Ein Fehler kann häufig auftreten, aber wenig Schaden verursachen. Ein anderer ist selten, hat jedoch eine hohe Gefährdung. Deshalb darf die Reihenfolge der Diagnose nicht ausschliesslich nach Eintrittswahrscheinlichkeit gewählt werden. Sicherheitlich kritische Ursachen müssen zuerst ausgeschlossen oder organisatorisch abgesichert werden. In der Ausbildung kann man eine Matrix aus beobachteter Wahrscheinlichkeit, Auswirkung und Prüfmöglichkeit erstellen. Die Matrix ersetzt keine Risikobeurteilung durch Fachpersonen, vermittelt aber eine wichtige Haltung: Fehlerbehebung und sichere Fehlerbehebung sind unterschiedliche Qualitätsanforderungen.
+
+
+Dokumentierter Fehlerbaum.
+Eine nützliche Fehlerbaumzeichnung enthält das Top-Ereignis, logisch verknüpfte Äste, konkrete Mess- beziehungsweise Sichtprüfpunkte und den Status jedes Prüfschritts. «Kontrolliert» ohne Angabe des Ergebnisses ist zu wenig. Besser: «24-V-Ausgang am Netzteil bei angeforderter Funktion 24,2 V; Freigabekontakt an Punkt X offen». Der zweite Befund kann die Hypothese einer fehlenden Freigabe stützen. Wichtig bleibt, die Messwerte mit Schaltungsbedingungen und Messgerät zu erfassen. So kann eine zweite Person die Diagnose nachvollziehen oder einen Fehlschluss erkennen.
+
+
+Falsche Gewissheit vermeiden.
+Wenn ein Relaistausch den Betrieb vorübergehend wieder ermöglicht, ist damit die Ursache nicht automatisch bewiesen. Vielleicht hatte die alte Spule einen Defekt; vielleicht sitzt der Kontakt im Sockel nur lose, und das Aus- und Einstecken hat ihn kurzzeitig verbessert. Der Fehlerbaum fordert deshalb Gegenprüfungen. Eine plausible Reparatur muss zum ursprünglichen Fehlerbild passen und nach der Massnahme unter reproduzierbaren Bedingungen erfolgreich getestet werden. Für die Schlussdokumentation werden Ursache, Reparatur und Wiederholprüfung getrennt erfasst.
+
+
+Diagnose im Kundenbetrieb.
+Wenn eine Störung nur sporadisch auftritt, sind Zeitpunkt, Betriebszustand, Umgebung und Zusammenhang mit anderen Ereignissen wichtig. Eine Auswertung von Meldungen oder eine kontrollierte Testserie kann Hinweise liefern, die eine einmalige Messung nicht liefert. Eigenmächtige Änderungen am Sicherheitskonzept oder das Überbrücken von Schutzeinrichtungen sind dagegen keine zulässige Diagnosestrategie. Bei ungeklärter Gefahr wird der betroffene Teil in einen sicheren Zustand überführt und an zuständige Fachpersonen eskaliert. Das ist keine Schwäche der Fehlersuche, sondern Teil ihrer Professionalität.
+
+
+Abschlussbeispiel: Pumpensteuerung.
+Eine Pumpe startet nicht. Die Steuerung zeigt keine Störmeldung. Der Fehlerbaum trennt Versorgung, Startfreigabe, Steuersignal, Schaltelement, Motor und Hydraulik. Die erste Beobachtung lautet: Ist die Startanforderung im Steuerungsbild überhaupt aktiv? Wenn nein, liegt der Suchraum vor dem Motor. Wenn ja, folgt die Prüfung der nächsten dokumentierten Signalstufe durch berechtigtes Personal. So lässt sich der Fehlerbaum entlang echter Systemgrenzen führen. Eine gute Abschlussfrage lautet: Welche Hypothese ist widerlegt, welche bestätigt und welche bleibt offen?
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Drei mögliche Ursachen einer dunklen Modellleuchte.
+Eine 24-Volt-Leuchte bleibt dunkel. Erstelle drei unabhängige Hypothesen. Musterlösung: Die Versorgung ist unterbrochen, die Freigabekette ist offen oder die Leuchte selbst ist defekt. Diese Hypothesen gehören zunächst unter ein ODER-Gatter, weil jede einzeln die Störung erklären könnte. Eine anschliessende Messstrategie überprüft die gemeinsame Versorgung und den Schaltzustand zuerst. Eine Diagnose ohne Fehlerbaum könnte dazu verleiten, nur die Leuchte auszutauschen.
+
+
+Fall 2: Kombination zweier Ausfälle.
+Eine Anlage fällt nur aus, wenn die normale Steuerung versagt und zugleich die Ersatzsteuerung nicht verfügbar ist. Welches Gatter passt? Das Top-Ereignis kann durch ein UND-Gatter beschrieben werden, sofern die beiden Zweige tatsächlich unabhängige Voraussetzungen des Ausfalls sind. Die Musterlösung nennt auch die Modellgrenze: Gemeinsame Versorgungen oder gemeinsame Softwarefehler können eine scheinbare Unabhängigkeit zunichtemachen. Der Fehlerbaum muss solche gemeinsamen Ursachen gegebenenfalls als zusätzlichen Ast berücksichtigen.
+
+
+Fall 3: Leerlaufspannung führt in die Irre.
+Am unbeschalteten Ausgang einer Kleinspannungsversorgung werden 24 Volt gemessen. Beim Anstecken einer Testlast sinkt die Spannung auf 12 Volt. Welche Hypothese wird dadurch gestützt? Eine hohe innere oder zusätzliche Serienimpedanz beziehungsweise eine Überlast sind plausibel. Die Messung beweist nicht, welches Bauteil defekt ist. Die Musterlösung fordert, die Quelle, Kontaktstellen und Lastanforderungen getrennt zu bewerten und den Spannungsabfall entlang des dokumentierten Pfads einzugrenzen.
+
+
+Fall 4: Störung nach Wartung.
+Nach einem Filterwechsel startet eine Pumpe nicht mehr. Die zeitliche Nähe lässt einen Montagefehler vermuten. Nenne eine alternative Hypothese. Beispielsweise könnte eine externe Startfreigabe fehlen oder der Prozesssensor einen Grenzzustand melden. Ein guter Fehlerbaum enthält sowohl wartungsnahe Ursachen als auch unabhängige Systemzustände. Die Musterlösung erklärt, dass eine chronologische Beziehung allein noch keinen Beweis darstellt. Die Prüfung erfolgt entlang des Funktionsablaufs, nicht entlang persönlicher Schuldvermutungen.
+
+
+Fall 5: Sicherheit zuerst priorisieren.
+Eine Maschine zeigt einen kleinen Fehler im Display, zugleich riecht ein Gehäuse nach verschmortem Material. Welche Untersuchung hat Priorität? Nicht zuerst die Softwaremeldung auslesen, sondern den gefährdungsverdächtigen Zustand sichern und entsprechend der Zuständigkeit Fachpersonen beiziehen. Die Fehlerbaumlogik kann danach verwendet werden. Die Musterlösung trennt zwei Ebenen: Gefährdungsmanagement und technische Ursachenanalyse. Eine technisch schnelle Diagnose ist kein Erfolg, wenn ein unsicherer Zustand währenddessen weiterbesteht.
+
+
+Fall 6: Wiederholfehler nach Bauteiltausch.
+Ein ausgetauschtes Relais funktioniert zwei Tage, danach bleibt die Anlage erneut stehen. Welche Schlussfolgerung ist zulässig? Der Austausch hat das Symptom vorübergehend beeinflusst, aber die ursprüngliche Ursache ist nicht ausreichend geklärt. Prüfe im Lernfall beispielsweise Sockelkontakt, Spulenansteuerung und Umgebung. Dokumentiere ursprünglichen Befund, getauschte Komponente und die Bedingungen des Rückfalls. Die Musterlösung zeigt, warum die Gegenprüfung nach einer Massnahme Teil des Diagnoseprozesses sein muss.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Diagnoseauftrag: Zwei unterschiedliche Ursachenketten.
+Ein Lüfter springt sporadisch nicht an. Das Modell enthält eine Startfreigabe vom Temperatursensor, einen Betriebsartenwahlschalter, einen Relaisausgang und den Antrieb. Erstelle zuerst einen Fehlerbaum für «Lüfter bleibt aus», in dem Sensorfreigabe, Steuerpfad und Antrieb als alternative Äste auftreten. Überlege danach, welche gemeinsamen Ursachen mehrere Äste gleichzeitig beeinflussen können. Ein instabiles 24-Volt-Netzteil könnte zum Beispiel sowohl Sensor als auch Steuerrelais beeinträchtigen. Markiere eine Prüfung, die diesen gemeinsamen Faktor erkennt, bevor Einzelbauteile ausgetauscht werden. Dokumentiere auch, welches Ergebnis den Versorgungsast widerlegen würde und warum ein blosser Leerlaufwert dazu nicht ausreicht. Dieses Denken reduziert unnötige Eingriffe und hilft, Ursache und Symptom auseinanderzuhalten.
+
+
+Lernabschluss.
+Erkläre, woran Du erkennst, ob ein Fehlerbaum eine sinnvolle Diagnosehilfe ist: Die Äste sind logisch korrekt, die Hypothesen prüfbar und Sicherheitsrisiken früh adressiert. Ein Baum, dessen Zweige nur «irgendetwas kaputt» enthalten, ist wenig wert. Formuliere einen konkreten nächsten Prüfschritt für das Kleinspannungsmodell sowie eine eindeutige Bedingung, unter der Du den Befund als bestätigt oder noch offen einstufst. Jede weitere Massnahme braucht dieselbe saubere Begründung.
+
+ Prüfe ausserdem, ob ein einziger gemeinsamer Versorgungsausfall mehrere scheinbar voneinander unabhängige Störungsmeldungen erklären kann. Falls ja, ist die Reihenfolge der Diagnose neu zu ordnen: zuerst gemeinsame Ursache eingrenzen, erst danach einzelne Verbraucher untersuchen. Diese Umstellung ist gerade bei vielen gleichzeitig ausgefallenen Geräten eine wichtige Zeitersparnis und verhindert unnötige Austauschaktionen.

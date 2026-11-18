@@ -1,0 +1,95 @@
+Lektion 4.11-B: Schriftliche Prüfung: NIN, Pläne und Systemtechnik. Normenwissen wird besonders belastbar, wenn Du die passende Regelstelle zu einem technischen Sachverhalt findest. Der alte Bildungsplan enthält Fachthemen aus Installationstechnik, Schutz, Kommunikation und Dokumentation. Aufgabenformate können Pläne, Fallbeispiele und technische Kurzantworten verbinden. Exakte Normwerte dürfen erst mit zugänglicher Originalnorm geprüft werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle eine Übungsprüfung mit zehn Fällen: Badezimmer, Leitungsschutz, Erstprüfung, PV, Verteilung, Schaltzeichen, Steuerung, Kommunikation, Messprotokoll und Anschlussbedingungen. Trenne die Musterlösungen von den Aufgaben und notiere die verwendeten Quellen. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Normennachschlagen ist eine methodische Fähigkeit. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Elektrische Berechnungen RLC und Drehstrom; Installations-/Systemtechnik. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Elektrische Berechnungen RLC und Drehstrom; Installations-/Systemtechnik.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was braucht eine normbezogene Musterlösung?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Normennachschlagen ist eine methodische Fähigkeit.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Eine beaufsichtigte 6-stündige Eigenprüfung in zwei Blöcken; Hilfsmittel wie im aktuellen QV-Aufgebot. Halte zusätzlich die Antwort auf die Frage «Was braucht eine normbezogene Musterlösung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was braucht eine normbezogene Musterlösung? Die richtige Antwort lautet: Konkrete Situation, Fundstelle und begründete Anwendung. Warum? Normennachschlagen ist eine methodische Fähigkeit.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Normennachschlagen ist eine methodische Fähigkeit.. Warum? Der Merksatz lautet: Normennachschlagen ist eine methodische Fähigkeit.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung.
+
+
+Fachkapitel 1: Normenrecherche ist keine Zahlensammlung.
+Eine schriftliche Normaufgabe beginnt mit einer Situation, nicht mit einer Normnummer. Beispiel: In einem Bad soll eine zusätzliche Steckdose eingebaut werden. Der Plan zeigt nur einen Abstand zur Dusche. Für eine rechtlich und technisch richtige Beurteilung fehlen gegebenenfalls Raumgeometrie, Bezugspunkte, Abtrennungen, Betriebsmittel, Leitungsführung und der anzuwendende Normstand. Der Kandidat sollte zunächst die entscheidungsrelevanten Tatsachen auflisten und dann die passende aktuelle NIN-Fundstelle suchen. Ein Merkblatt aus einem älteren Ausbildungsjahr kann als Orientierung dienen, ersetzt aber nicht die Originalnorm. Schreibe am Ende nicht nur «erlaubt» oder «verboten», sondern die geprüften Voraussetzungen und offenen Punkte auf.
+
+Fachkapitel 2: Planlesen beginnt beim Legendenabgleich.
+Schalt- und Installationspläne verwenden Symbole und Betriebsmittelkennzeichen. Vor der Berechnung muss geklärt sein, ob ein Plan ein Funktionsschema, Anschlussplan, Stromlaufplan oder eine räumliche Installationsdarstellung ist. Ein Schütz, dessen Spule im Steuerstromkreis gezeichnet ist, besitzt zugehörige Leistungskontakte, die an anderer Stelle liegen können. Missverständnisse entstehen, wenn ein Leser die räumliche Nähe auf dem Papier mit einer elektrischen Verbindung verwechselt. Vergleiche Kennzeichen, Klemmen, Leitungspfade, Querverweise und Revisionen. Bei einer Frage zum Schutzleiter ist der Plan allein kein Beweis für dessen reale Durchgängigkeit. Das tatsächliche Prüfergebnis bleibt ein eigenständiger Nachweis.
+
+Fachkapitel 3: Schutzfunktion und Funktionsnachweis trennen.
+Eine Lampe leuchtet, obwohl ihr Schutzkonzept mangelhaft sein könnte. Gleiches gilt für einen Motor, der startet, aber dessen Überstromschutz falsch dimensioniert ist. In einer schriftlichen Fallaufgabe sollte daher zwischen Funktionsnachweis und Sicherheitsnachweis unterschieden werden. Dokumentiere, welche Aussage durch eine Sichtprüfung, einen elektrischen Messwert, einen Herstellerdatensatz oder eine Planrevision gestützt wird. Für eine RCD-Aufgabe sind beispielsweise Netzsystem, Fehlerstromform, Auswahl des Geräts, ordentliche Leiterzuordnung und die vorgesehenen Prüfungen relevant. Die reine Aussage «ein RCD ist vorhanden» ist ungenügend. Vermeide konkrete Prüfsollwerte ohne aktuelle Fundstelle und passenden Anwendungsfall.
+
+Fachkapitel 4: Leitungsschutz im Planungsfall.
+Ein Stromkreis soll einen Verbraucher mit 12 Ampere Betriebsstrom speisen. Die Frage «Welche Sicherung?» ist ohne Angaben zu Leitungsquerschnitt, Länge, Verlegeart, Häufung, Umgebungstemperatur, Kurzschlussniveau, Anschlussbedingungen und Lastcharakteristik noch nicht entscheidbar. Eine systematische Musterlösung nennt zuerst diese fehlenden Parameter. Danach werden Herstellerkennlinie, thermische Strombelastbarkeit, Kurzschlussschutz und Abschaltbedingungen geprüft. Für eine Lernrechnung darf man einen modellhaften Spannungsfall berechnen, doch dieser allein gibt keine reale Installation frei. Das Ziel einer schriftlichen Prüfung ist eine nachvollziehbare Entscheidungslogik und nicht das Erraten eines Standardwerts.
+
+Fachkapitel 5: PV- und DC-Seite richtig verorten.
+Eine PV-Anlage besteht aus DC-Generator, Wechselrichter, AC-Netzanschluss, Schutzorganen und zugehörigen Prüf- und Dokumentationspflichten. Bei hoher Sonneneinstrahlung können DC-Leitungen auch dann unter Spannung stehen, wenn der AC-Trennschalter ausgeschaltet ist. In einer Planungsfrage sind deshalb getrennte Schaltbilder und Sicherheitsbetrachtungen für DC und AC erforderlich. Moduldatenblätter liefern Kennwerte bei definierten Bedingungen, nicht bei jeder Temperatur automatisch dieselbe Spannung. Der Begriff Leerlaufspannung ist von der MPP-Spannung zu unterscheiden. Wer die beiden verwechselt, kann eine Stringauslegung falsch beurteilen. Die rechtlich nötigen Tätigkeiten und Kontrollen gehören in ein separates Zuständigkeitsdiagramm.
+
+Fachkapitel 6: Kommunikationsanlage aus zwei Perspektiven.
+Eine Datenverbindung lässt sich elektrisch und logisch beurteilen. Ein einwandfreies Twisted-Pair-Kabel garantiert noch keine korrekte IP-Konfiguration; eine gültige IP-Adresse beweist umgekehrt nicht, dass alle Übertragungsparameter einer Strecke erfüllt sind. Eine schriftliche Aufgabe kann ein Wiremap-Ergebnis und ein Netzwerkproblem kombinieren. Beschreibe zuerst, welche Aussage die Linkzertifizierung liefert und was ein Switch oder Router zusätzlich prüft. Für Glasfaser kommen Steckertyp, Dämpfung, optische Leistung und Endflächenzustand als andere technische Parameter hinzu. Ein sinnvoller Diagnoseplan beginnt mit der untersten passenden Schicht und dokumentiert die genauen Messpunkte.
+
+Fachkapitel 7: Dokumentation und Revision als Prüfungsstoff.
+Ein Revisionsplan wird mit dem tatsächlichen Zustand verglichen. Sind nach einer Änderung Stromkreise zusammengelegt oder Betriebsmittel ersetzt worden, müssen Beschriftung, Verteilerplan, Messprotokolle und Bedienungsunterlagen gegebenenfalls angepasst werden. Die Lektionsfrage kann lauten, ob ein altes Protokoll noch zur neuen Installation passt. Die Antwort ist nur möglich, wenn der geänderte Umfang identifiziert wurde. Unterschriften zeigen Verantwortung und Zeitpunkt, ersetzen aber keine fachlichen Befunde. Vermerke offene Mängel, zuständige Personen und Nachprüfungen getrennt von bereits abgeschlossenen Punkten. Gute Dokumentation unterstützt sicheren Betrieb und spätere Wartung.
+
+Fachkapitel 8: Korrekt formulierte Normantwort.
+Verwende vier Spalten: Gegebener Sachverhalt, fehlende Informationen, einschlägige Quelle, benötigter Nachweis. Auf diese Weise werden unzulässige Gewissheiten sichtbar. Beispiel: «Eine neue Steckdose befindet sich im Aussenbereich.» Die genaue Einbausituation und die Schutzausrüstung sind unbekannt. Eine NIN-Recherche muss die passende Ausgabe und die konkreten Umgebungsbedingungen berücksichtigen. Als Nachweis können Unterlagen und Prüfungen erforderlich sein. Solange diese fehlen, lautet die fachliche Aussage nicht automatisch «illegal», sondern «der Fall ist nicht abschliessend beurteilbar». Bei einer realen Gefährdung ist die Anlage angemessen zu sichern und fachkundig zu prüfen.
+
+Anwendungsfälle und ausführliche Musterbegründungen.
+
+
+Fall 1: Badezimmerplan.
+Eine Skizze zeigt die Dusche und eine Steckdose, aber keine Masskette. Lösung: Exakte Geometrie, Grenzen der Bereiche, feste Abtrennungen und aktuelle Fundstelle nachtragen. Die Position auf einer unmassstäblichen Zeichnung erlaubt keinen verbindlichen Entscheid.
+
+Fall 2: Überstromschutz.
+Ein 16-A-Schutzorgan ist für eine Leitung eingezeichnet. Die Leitungslänge und Verlegeart fehlen. Lösung: Schutzorgan allein beweist weder ausreichende Strombelastbarkeit noch die Einhaltung der Abschaltbedingungen. Für den Nachweis werden zusätzliche Parameter benötigt.
+
+Fall 3: Verteilerrevision.
+Ein Verteiler wurde erweitert. Im alten Plan fehlt der neue Abgang. Lösung: Ist-Beschriftung, Stromkreisverzeichnis, gegebenenfalls Prüfprotokolle und Revisionsunterlagen auf Gleichstand bringen; die fachliche Freigabe nicht aus dem alten Plan ableiten.
+
+Fall 4: Glasfaserfrage.
+Die Lichtleistung ist am Ende einer Verbindung deutlich niedriger als erwartet. Lösung: Vor dem Austausch des Transceivers Steckertypen, Dämpfungsbudget, Anschlussstellen und Endflächenzustand als mögliche Ursachen auflisten. Keine Netzspannungsarbeiten für diesen Lernfall nötig.
+
+Fall 5: PV-String.
+Ein Wechselrichter ist mit maximaler Eingangsspannung angegeben. Die Stringauslegung nutzt nur die MPP-Spannung bei 25 °C. Lösung: Die maximale Leerlaufspannung bei den anzunehmenden tiefsten Modultemperaturen sowie die Herstellervorgaben müssen berücksichtigt werden.
+
+Fall 6: Nachweis unterscheiden.
+Auf dem Prüfblatt steht «Lampe funktioniert». Welcher Sicherheitsnachweis fehlt? Lösung: Je nach Anlagenteil etwa die dokumentierte Schutzleiterverbindung, geeignete Schutzprüfung und die Bestätigung durch die berechtigte Person. Funktion und Schutz sind zu unterscheiden.
+
+Vertiefter Praxisfall 1: RCD ohne pauschale Produktwahl.
+Ein Stromkreis enthält elektronische Betriebsmittel und ein gezeichnetes RCD-Gerät. Der Lehrende fragt, ob der Gerätetyp geeignet ist. Eine fachliche Antwort muss zunächst die zu erwartenden Fehlerstromformen betrachten. Je nach Geräten und Schaltung können unterschiedliche RCD-Eigenschaften erforderlich sein. Ein universeller Gerätetyp darf nicht aus einem unvollständigen Symbol abgeleitet werden. Prüfe Datenblätter der angeschlossenen Betriebsmittel und das gültige Schutzkonzept. Ebenso wird die korrekte Leiterzuordnung dokumentiert. Ein RCD bildet einen Baustein des Schutzkonzepts, ersetzt aber nicht geeigneten Überstromschutz und Potenzialausgleich. Der Prüfungswert dieser Frage liegt in der begründeten Eingrenzung, nicht im Raten eines Produktnamens.
+
+Vertiefter Praxisfall 2: Ein Schema mit offenen Klemmen.
+In einem Stromlaufplan ist die Spule K1 dargestellt, aber der Plan enthält keinen Querverweis auf die Leistungskontakte. Die Musterantwort beginnt damit, die unvollständige Dokumentation festzustellen. Ein Kandidat könnte die Steuerlogik zwar abstrakt erklären, aber nicht sicher bestimmen, welcher Verbraucher durch K1 geschaltet wird. Benötigt werden Betriebsmittelkennzeichen, Kontaktbezeichnung, Klemmennummer und gegebenenfalls ein zugehöriger Anschlussplan. Erst mit dieser Ergänzung ist eine eindeutige Montage- und Prüfdokumentation möglich. Die Aufgabe trainiert die wichtige Einsicht, dass fehlende Informationen nicht durch spontane Annahmen über die üblichen Kontaktpositionen ersetzt werden dürfen.
+
+Vertiefter Praxisfall 3: Schutz im Aussenbereich.
+Ein Plan zeigt einen Aussenanschluss, nennt aber keine Schutzart des Gehäuses und keine Informationen zu Regen, mechanischer Beanspruchung oder Nutzung. Aus einem blossen Steckdosensymbol lässt sich die fachliche Eignung nicht ableiten. Der Kandidat sammelt die nötigen Umgebungsdaten, Herstellerangaben und die im konkreten Fall zutreffenden Schutzvorgaben. Auch der Schutz gegen elektrischen Schlag und die erforderlichen Nachweise sind separat zu betrachten. Als Musterlösung eignet sich ein tabellarischer Kriterienkatalog. Die wesentliche Kompetenz besteht darin, die richtigen Fragen zu stellen, bevor ein Bauteil bestellt oder ein Installationsplan freigegeben wird.
+
+Vertiefter Praxisfall 4: Messwert ohne Referenz.
+Ein Formular nennt «Schleife 1,2 Ohm», ohne Netzsystem und Schutzorgan anzugeben. Dieser Wert ist nicht automatisch gut oder schlecht. Im Lernmodell kann der mögliche Fehlerstrom unter einer angenommenen Spannung abgeschätzt werden; die reale Beurteilung erfordert aber Schleifenbedingungen, Herstellerkennlinie, Schutzorgan, Anwendungsbereich und aktuelle Normwerte. Ein guter Lösungsweg unterscheidet deshalb Rechnen von Bewerten. Die Rechenformel stellt einen Zusammenhang dar, aber die Abschaltbedingung ist ein anlagenbezogener Nachweis. Wird im Prüfungsblatt nur nach dem mathematischen Modell gefragt, sollte die Annahme ausdrücklich auf dem Papier stehen.
+
+Vertiefter Praxisfall 5: Netzwerk und Energieversorgung zusammen lesen.
+Ein PoE-Kameraanschluss ist im Plan eingezeichnet. Der physische Link ist nach einer Prüfung funktionsfähig, die Kamera startet aber nicht. Es kann ein Problem mit der PoE-Versorgung, der Leistungszuordnung oder den Geräteeigenschaften vorliegen. Ein Messprotokoll für die Datenstrecke bestätigt nicht zwingend die bereitgestellte Leistung im Betrieb. Die Musterantwort trennt deshalb Linkparameter, Speisefähigkeit, Versorgung am Endgerät und logische Netzwerkkonfiguration. So wird ein fachübergreifender Fall strukturiert bearbeitet. Ein unzulässiges Öffnen elektrischer Verteiler ist für diese Übung weder nötig noch vorgesehen.
+
+Abschluss und Rückprobe.
+Beantworte die Aufgaben der Lektion zuerst ohne Musterlösung. Prüfe danach bei jeder Antwort den konkreten Sachverhalt, die technischen Voraussetzungen, die Aussagekraft der vorhandenen Nachweise und die noch fehlende Information. Ordne jedes Resultat eindeutig als theoretische Rechnung, didaktische Simulation, Dokumentationsbewertung oder fachkundig zu prüfenden realen Installationsfall ein. Diese Unterscheidung ist wesentlich, weil ein korrekt berechnetes Lernbeispiel weder eine Installationsbewilligung noch eine fachliche Sicherheitsfreigabe ersetzt.

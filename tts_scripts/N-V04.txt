@@ -25,3 +25,87 @@ Eine Nachrüstkomponente verändert die mechanische Schutzabdeckung des Verteile
 Musterlösung.
 
 Änderung durch qualifizierten Planer/Hersteller beurteilen lassen: Die ursprünglichen Nachweise und Schutzarten könnten betroffen sein. Nicht auf die Geräte-Einzelzertifikate verlassen.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Eine Nachrüstkomponente verändert die mechanische Schutzabdeckung des Verteilers.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Änderung durch qualifizierten Planer/Hersteller beurteilen lassen: Die ursprünglichen Nachweise und Schutzarten könnten betroffen sein. Nicht auf die Geräte-Einzelzertifikate verlassen.
+
+Möglicher sicherer Übungsauftrag: Erstelle ein Bauteilbild mit markierten aktiven Teilen, berührbaren leitfähigen Teilen und Schutzbarrieren.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Ist ein Schutzleiteranschluss allein ein vollständiger Schutz-Nachweis? Die richtige Antwort lautet: Nein. Warum? Schutz umfasst auch Abdeckungen, Bauart und Prüfungen.
+
+Frage 2: Was kann eine Nachrüstung beeinflussen? Die richtige Antwort lautet: Schutzkonzept der Kombination. Warum? Mechanische und elektrische Änderungen können Nachweise betreffen.
+
+Frage 3: Was prüft ein Stücknachweis? Die richtige Antwort lautet: Die gefertigte konkrete Einheit. Warum? Der Stücknachweis bezieht sich auf die hergestellte Kombination.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Schutz gegen direktes Berühren und Fehlerfall.
+Der Schutz gegen elektrischen Schlag umfasst unterschiedliche technische Mechanismen. In einer Schaltgerätekombination sollen aktive gefährliche Teile im vorgesehenen Betrieb nicht unbeabsichtigt berührbar sein. Abdeckungen, feste Umhüllungen und geeignete Isolationskonzepte tragen dazu bei. Für den Fehlerfall sind andere Eigenschaften relevant, etwa die Wirksamkeit von Schutzleiterverbindungen und das Zusammenspiel mit der angeschlossenen Anlage. Es wäre falsch zu sagen, ein metallisches Gehäuse mache den Verteiler automatisch sicher. Entscheidend ist, wie es in das Schutzkonzept eingebunden und wie diese Wirkung nachgewiesen ist. Im Unterricht zeichnen wir deshalb zwei Ebenen: eine Barriere gegen Berührung aktiver Teile und einen Schutzpfad für berührbare leitfähige Teile. Die unterschiedlichen Funktionen werden ausdrücklich benannt.
+
+Fachkapitel 2: Umhüllung, Abdeckung und Zugang.
+Die Bauart muss für den vorgesehenen Bediener- und Wartungskreis geeignet sein. Ein Gehäuse, das nur mit Werkzeug geöffnet werden kann, erfüllt nicht automatisch jede erforderliche Zugangsschutzbedingung; auch Öffnungen, abnehmbare Teile und innen liegende Betriebsbereiche sind zu berücksichtigen. Ebenso kann die Eignung davon abhängen, ob Laien oder Fachpersonen die Kombination bedienen. Bei einem Wartungsauftrag ist festzulegen, welche Abdeckungen unter welchen sicheren Arbeitsbedingungen entfernt werden dürfen. Die Ausbildung betrachtet das als Konstruktions- und Organisationsfrage. Der Wechsel zwischen geschlossenem Normalbetrieb und geöffneter Wartungssituation verändert die Gefährdung. Ein Schema der Zugangszustände hilft, falsche Sicherheitsannahmen zu erkennen, ohne dass ein unter Spannung stehender Verteiler zu Übungszwecken geöffnet werden muss.
+
+Fachkapitel 3: Leitfähige Teile und Schutzleiterpfad.
+Metallische Gehäuseteile, Türen und Montageplatten können Teil des Schutzkonzepts sein. Ob eine Verbindung zum Schutzleitersystem erforderlich ist und wie diese ausgeführt werden muss, hängt von der konkreten Bauart und den vorgesehenen Schutzmassnahmen ab. Ein Verbindungselement kann mechanisch fest sitzen und dennoch keine dauerhaft nachgewiesene elektrische Verbindung gewährleisten. Auch Gelenke und bewegliche Teile müssen im Entwurf angemessen berücksichtigt werden. Für das Lernmodell zeichnen wir den Weg vom berührbaren Teil über die vorgesehenen Schutzverbindungen zum Schutzleiteranschluss. Der Nachweis betrifft nicht die Farbe des Drahts, sondern seine elektrische und mechanische Wirksamkeit. Ein vermeintlich vorhandener Schutzpfad darf nach einer konstruktiven Änderung nicht ungeprüft als weiterhin gegeben angenommen werden.
+
+Fachkapitel 4: Schutzgeräte und Systemgrenzen.
+Ein vorgelagertes Überstromschutzgerät oder ein RCD kann Teil des elektrischen Schutzkonzepts sein. Seine Wirksamkeit hängt aber vom Netzsystem, Fehlerstrompfad und der Auslegung der angeschlossenen Installation ab. Die Kombination selbst kann Schutzleiteranschlüsse und interne Verbindungen bereitstellen, während andere Schutzbedingungen erst im Gesamtsystem der Installation nachgewiesen werden. Darum wird die Systemgrenze eindeutig gezeichnet. Ein Prüfer darf nicht allein aufgrund eines eingebauten RCD behaupten, jeder Berührungsfehler sei sicher abgedeckt. Auch die Auswahl des RCD-Typs und die möglichen Fehlerstromformen müssen zum konkreten Einsatzfall passen. Das Lernziel ist das Verständnis des funktionalen Zusammenwirkens und nicht eine pauschale Gerätefreigabe.
+
+Fachkapitel 5: Zusätzliche Isolierung und getrennte Stromkreise.
+Nicht jede Kombination verwendet exakt dasselbe Schutzkonzept. Neben Schutzleiterverbindungen können je nach Bauart geeignete Isolations- und Trennungskonzepte eine Rolle spielen. Steuer- und Leistungsstromkreise können unterschiedliche elektrische Potenziale und Anforderungen haben. Ein kleiner Steuerstromkreis mit einer sicheren Kleinspannung darf nicht ohne Beachtung der erforderlichen Trennung mit einem aktiven Leistungskreis verbunden werden. Bei der Projektierung müssen Klemmenanordnung, Leitungsführung und das verwendete Gerätekonzept dazu passen. Im Unterricht werden zwei Stromkreise in getrennten Funktionsblöcken gezeichnet. Die Aufgabe lautet, welche unbeabsichtigten Verbindungen das Schutzprinzip aufheben würden. Die zutreffenden Isolations- und Trennanforderungen stammen aus den relevanten Originalnormen, nicht aus einer frei erfundenen Zeichnungsregel.
+
+Fachkapitel 6: Stücknachweis für die tatsächliche Einheit.
+Eine formal geeignete Konstruktion kann bei der Fertigung Fehler erhalten. Beispielsweise kann eine Schutzleiterverbindung vergessen werden oder eine Abdeckung nicht korrekt montiert sein. Deshalb gehört die Prüfung des hergestellten Exemplars zur Nachweisführung. Dazu zählen je nach anwendbaren Anforderungen geeignete Sicht-, Verbindungs- und Funktionsprüfungen. Die tatsächliche Prüfsequenz und etwaige Messwerte werden aus den für die konkrete Bauart geltenden Unterlagen abgeleitet. Ein Stücknachweis muss die eindeutige Identität der geprüften Kombination enthalten, damit das Ergebnis nicht versehentlich auf eine andere Einheit übertragen wird. Bei einem nachträglich geänderten Exemplar ist zu prüfen, welche Nachweise erneut erforderlich sind. Ein altes grünes Prüffeld ist keine dauerhafte Freigabe für jede spätere Umbauvariante.
+
+Fachkapitel 7: Fehleranalyse Tür und Montageplatte.
+Stell Dir eine Verteilung mit leitfähigem Gehäuse und einer abnehmbaren Metalltür vor. Bei einer Wartung wurde die Tür ersetzt. Die alte Tür hatte eine vorgesehene Schutzleiterverbindung, die neue ist anders montiert. Die Bewertung kann nicht allein über den mechanisch geschlossenen Zustand erfolgen. Es muss geprüft werden, ob das zugrunde liegende Schutzkonzept weiterhin erfüllt wird. Dazu gehören relevante Herstelleranweisungen und die fachgerechte Prüfung der tatsächlichen Verbindung. Ausserdem können durch neue Ausschnitte weitere Zugangsmöglichkeiten zu aktiven Teilen entstehen. Der Fall zeigt, wie bereits eine vermeintlich kleine mechanische Änderung mehrere elektrische Schutzaspekte betrifft.
+
+Fachkapitel 8: Dokumentation im Wartungsfall.
+Für eine spätere Instandhaltung werden Stromlaufplan, Klemmen- und Schutzleiterzuordnung, Zugangsbedingungen, Geräteidentität und Nachweisstand benötigt. Eine brauchbare Dokumentation erläutert, welche Teile im normalen Betrieb bedienbar sind und welche Arbeiten einen festgelegten sicheren Arbeitszustand erfordern. Die zuständige Fachperson prüft vor einer Tätigkeit die möglichen Einspeisequellen, besonders wenn PV, Batteriespeicher oder USV beteiligt sind. Die Warninformation „Hauptschalter aus“ genügt nicht, wenn weitere Quellen Teile der Kombination unter Spannung halten können. Das Thema verbindet Schutz gegen elektrischen Schlag mit betrieblichen Sicherheitsregeln und einer eindeutigen Dokumentation der Systemgrenzen.
+
+Fall 1: Fall 1 – Tür ohne Verbindung.
+Bei einem Austausch wird eine leitfähige Verteilertür montiert, ohne das bisherige Schutzkonzept zu prüfen. Ob und wie eine Schutzleiterverbindung erforderlich ist, muss für die konkrete Bauart geklärt werden. Die Tatsache, dass die Tür mechanisch schliesst, beweist nicht die elektrische Schutzwirkung. Ein Auftrag zur fachkundigen Überprüfung wird dokumentiert.
+
+Fall 2: Fall 2 – Fehlende Abdeckung.
+Eine Schutzabdeckung fehlt, während die Schaltgerätekombination von Laien bedient werden soll. Das ist ein sicherheitsrelevanter Befund. Die Inbetriebnahmebewertung muss die fehlende Barriere berücksichtigen und eine fachgerechte Korrektur verlangen. Ein vorhandener RCD ist kein Ersatz dafür, dass aktive Teile im Normalbetrieb geeignet unzugänglich sein müssen.
+
+Fall 3: Fall 3 – Fremde Einspeisung.
+Eine Kombination wird normalerweise vom Netz versorgt, besitzt aber zusätzlich einen USV- oder Batteriepfad. Eine blosse Betätigung des Netzhauptschalters kann daher nicht alle Stromkreise sicher abschalten. Der Arbeitsplan muss sämtliche möglichen Einspeisungen identifizieren und die Schutzmassnahmen daran ausrichten. Für Lernende genügt die Ermittlung der Energiepfade an einem Funktionsplan.
+
+Fall 4: Fall 4 – Farbcode ohne Nachweis.
+Ein grün-gelber Leiter ist sichtbar an der Gehäusewand befestigt. Daraus folgt nicht automatisch, dass alle berührbaren leitfähigen Teile zuverlässig verbunden sind. Die Beurteilung erfordert die zugehörige Schutzleiterführung, die tatsächliche Konstruktion und den geeigneten Nachweis. Eine rein optische Feststellung ersetzt eine nötige Verbindungsprüfung nicht.
+
+Fall 5: Fall 5 – Nachgerüsteter Stromkreis.
+Ein zusätzlicher Steuerstromkreis wird nachträglich eingebaut. Bei der Planung wird nicht geprüft, ob die bisherige Trennung zu Leistungskreisen erhalten bleibt. Die Änderung kann dadurch das Isolationskonzept beeinflussen. Eine fachgerechte Revision vergleicht die neue Leitungsführung, Klemmenanordnung und die Freigabe des Gesamtsystems mit dem bestehenden Nachweisbereich.
+
+Fall 6: Fall 6 – RCD allein?
+Ein Kunde fragt, ob mit einem eingebauten RCD alle Anforderungen an den Berührschutz erfüllt seien. Die korrekte Antwort lautet nein. RCD, Isolierung, Zugangsschutz, Schutzleiterverbindungen und Installation greifen je nach Schutzkonzept unterschiedlich zusammen. Die konkrete Wirksamkeit ist im vorgesehenen Netz- und Fehlerfall zu bewerten, nicht über den blossen Gerätenamen.
+
+Fall 7: Fall 7 – Prüfbericht.
+Ein Stücknachweisprotokoll trägt keine Seriennummer und keinen eindeutigen Bezug zur gefertigten Kombination. Damit ist die Rückverfolgbarkeit eingeschränkt. Die Korrektur betrifft die Zuordnung von Identität, Prüfdatum, verantwortlicher Fachperson und tatsächlich angewandtem Prüfumfang. Die gleiche Tabelle ohne eindeutige Prüflingsidentität wäre für einen späteren Nachweis wenig belastbar.
+
+Fall 8: Fall 8 – Sicherheitsgrenze erläutern.
+Zeichne ein Blockbild mit Netzeinspeisung, innerer Verteilung, Schutzleiteranschluss und abgehenden Leitungen. Markiere die Grenzen von Bauartnachweis, Stücknachweis und Installationsprüfung. Die Musterantwort muss zeigen, dass ein korrekt gebautes Produkt und eine korrekt ausgeführte Installation zwar zusammengehören, aber unterschiedliche Nachweisfragen beantworten.
+
+Vertiefung 9: Zusatzfall – Zugänglichkeit nach einer Revision.
+Nach dem Einbau eines zusätzlichen Messgeräts wird eine Abdeckung so ausgeschnitten, dass ein Teil der dahinterliegenden Verdrahtung erreichbar werden könnte. Der Verteiler funktioniert weiterhin, aber die Änderung kann den bisherigen Berührschutz beeinflussen. Die sachliche Beurteilung verlangt die Prüfung der tatsächlichen Zugänglichkeit und der für die Bauart vorgesehenen Schutzmassnahmen. Ein zusätzlich angebrachter Aufkleber ist kein allgemeiner Ersatz für eine geeignete Umhüllung. Im Bericht werden Änderungsanlass, betroffene Abdeckung, Konstruktionsfreigabe und notwendiger Nachweis dokumentiert. Das Beispiel verbindet mechanische Nacharbeit mit elektrischer Sicherheitsverantwortung.
+
+Vertiefung 10: Zusatzfall – Störungen im Steuerstromkreis.
+Ein Steuerstromkreis soll mit sicherer Kleinspannung betrieben werden. Bei einer Revision werden Leitungen so umgelegt, dass die bisher vorgesehene Trennung von einem leistungsführenden Bereich unklar wird. Es reicht nicht, auf die nominell geringe Steuerspannung zu verweisen. Die Sicherheit hängt auch von der tatsächlichen Trennung und der zulässigen Schaltungsausführung ab. Der Fachverantwortliche prüft daher Kabelwege, Klemmenanordnung, Bauteile und die relevanten Isolationsbedingungen. Für Lernende ist die zentrale Erkenntnis, dass ein kleiner Spannungswert nur innerhalb eines korrekt aufgebauten Schutzsystems eine entsprechende Aussage erlaubt.
+
+Vertiefung 11: Zusatzfall – Schutzleiter nach Gehäusewechsel.
+Ein metallischer Schaltschrank wird gegen ein anderes Gehäuse mit geänderter Tür und Montageplatte ausgetauscht. Die früheren Schutzleiteranschlüsse können nicht automatisch als gleichwertig betrachtet werden. Die neue Konstruktion muss im vorgesehenen Schutzkonzept erneut beurteilt und nachgewiesen werden. Gleichzeitig sind Dichtungen, Abdeckungen und mechanische Zugangsbedingungen zu kontrollieren. Der Lernauftrag besteht darin, eine Checkliste der potenziell betroffenen Schutzfunktionen zu schreiben: Berührungsschutz, Schutzleiterführung, Trennung von Stromkreisen, Kennzeichnung und Dokumentation. Die fertige Liste ist kein Freigabeprotokoll, sondern bereitet die fachliche Prüfung vor.
+
+Vertiefung 12: Fall 12 – Funktionstest ist kein Berührschutznachweis.
+Eine neu montierte Schaltgerätekombination schaltet alle Abgänge beim Funktionstest korrekt. Danach wird ein fehlender Schutzleiteranschluss an einem berührbaren leitfähigen Teil festgestellt. Das positive Funktionsresultat kann diese Schutzabweichung nicht kompensieren. Der Abschluss erfordert die geeignete fachliche Korrektur und die vorgesehene Prüfung des betroffenen Schutzkonzepts. In der Lernakte werden die beiden Ergebnisse separat geführt: Die Betriebsfunktion wurde beobachtet, die Schutzwirkung ist bis zum Nachweis offen. Diese Trennung verhindert die weitverbreitete, aber fachlich falsche Gleichsetzung von funktionsfähig und sicher.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

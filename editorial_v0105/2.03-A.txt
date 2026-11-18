@@ -1,0 +1,85 @@
+Lektion 2.03-A: Faradaysches Induktionsgesetz. Eine zeitliche Änderung des magnetischen Flusses kann eine elektrische Spannung erzeugen. Dieser Zusammenhang erklärt Generatoren, Transformatoren und viele Sensoren. Die Höhe der Induktionsspannung hängt vereinfacht unter anderem von Windungszahl und Flussänderungsgeschwindigkeit ab. Die Richtung folgt der Lenzschen Regel. Ohne Flussänderung gibt es in diesem vereinfachten Modell keine Induktion. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Stelle Dir eine Spule mit mehr Windungen und dieselbe zeitliche Flussänderung vor. In einer idealisierten Betrachtung steigt die induzierte Spannung mit der Windungszahl. Zeichne den zeitlichen Flussverlauf und markiere Phasen mit grösserer Änderungsrate, ohne mit Netzspulen zu experimentieren. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Induktion verlangt eine Änderung des magnetischen Flusses. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Magnetisches Feld und Induktionsgesetz; Selbstinduktion, Gegeninduktion, Lenzsche Regel. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.2/5.1; N I N Teil 4 (Schutztrennung). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Magnetisches Feld und Induktionsgesetz; Selbstinduktion, Gegeninduktion, Lenzsche Regel.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Idealer Transformator. N₁ = 1 000 Windungen, N₂ = 100 Windungen, U₁ = 230 V.
+
+Schritt 1. Ideales Übersetzungsverhältnis: U₂ / U₁ = N₂ / N₁.
+
+Schritt 2. N₂ / N₁ = 100 / 1 000 = 0,1.
+
+Schritt 3. U₂ = 230 V · 0,1 = 23 V.
+
+Schritt 4. In der Praxis gibt es Verluste und zusätzliche Sicherheitsanforderungen.
+
+Kontrolle des Ergebnisses: U₂ = 23 V im idealen Modell.
+
+Übungsauftrag zur Anwendung: Unbedenklichen 12-V-AC-Schultransformator ohne Anschlussarbeiten charakterisieren, nur beaufsichtigt. Halte zusätzlich die Antwort auf die Frage «Wodurch entsteht in einer Spule Induktionsspannung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wodurch entsteht in einer Spule Induktionsspannung? Die richtige Antwort lautet: Zeitliche Flussänderung. Warum? Induktion verlangt eine Änderung des magnetischen Flusses.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Induktion verlangt eine Änderung des magnetischen Flusses.. Warum? Der Merksatz lautet: Induktion verlangt eine Änderung des magnetischen Flusses.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+---
+
+Fachlich individuell vertiefte Unterrichtseinheit.
+
+Magnetischer Fluss als Ausgangsgrösse.
+
+Induktion beschreibt die elektrische Wirkung einer Änderung des magnetischen Flusses durch eine umschlossene Fläche. Die magnetische Flussdichte B wird in Tesla angegeben; der magnetische Fluss Phi in Weber. In einem homogenen Feld kann man bei geeigneter Geometrie Phi gleich B mal A mal Kosinus des Winkels zwischen Feldrichtung und Flächennormale schreiben. Die Flächenorientierung zählt also ebenso wie Feldstärke und Fläche. Eine Spule mit mehreren Windungen verknüpft den Fluss mehrfach. Das Modell erklärt, weshalb beim Drehen einer Leiterschleife in einem Magnetfeld eine periodisch veränderliche Spannung auftreten kann. Nicht jede Bewegung relativ zu einem Magneten erzeugt jedoch dieselbe Spannung: Wichtig ist die zeitliche Änderung der Flussverkettung. Zeichne zwei gleich grosse Schleifen mit unterschiedlichem Winkel und kennzeichne die Flächennormale.
+
+Das Minuszeichen ist eine Richtungsaussage.
+
+Das Faradaysche Induktionsgesetz lautet in einfacher Spulenform: induzierte Spannung gleich minus Windungszahl mal zeitliche Änderung des magnetischen Flusses. Das Minuszeichen ist Ausdruck der Lenzschen Regel. Die induzierte Wirkung richtet sich so aus, dass sie der verursachenden Flussänderung entgegenwirkt. Es bedeutet nicht, dass der Betrag einer Spannung immer negativ wäre. Wenn sich der magnetische Fluss einer Spule mit hundert Windungen gleichmässig um 0,02 Weber in 0,1 Sekunden ändert, beträgt der Spannungsbetrag zwanzig Volt. Der genaue Vorzeichensinn ergibt sich aus der festgelegten Umlaufrichtung und Flussorientierung. Bei Rechnungen wird zuerst die Bezugsrichtung gezeichnet. Erst danach wird das Vorzeichen interpretiert. So verhindert man eine Mischung aus physikalischer Richtung und blossen Zahlenbeträgen.
+
+Ein nachvollziehbarer Zahlenfall.
+
+Eine fiktive Spule hat zweihundert Windungen. Die Flussverkettung je Windung nimmt innerhalb von fünfzig Millisekunden von 0,003 Weber auf 0,001 Weber ab. Die Flussänderung beträgt minus 0,002 Weber, die Zeitspanne 0,05 Sekunden. Der zeitliche Änderungsquotient ist minus 0,04 Weber pro Sekunde. Multipliziert mit zweihundert Windungen erhält man einen Spannungsbetrag von acht Volt. Die Einheit passt, denn Weber pro Sekunde entspricht Volt. Wichtig: Diese Rechnung liefert bei linearer Änderung eine mittlere induzierte Spannung im betrachteten Intervall. Für eine nichtlineare Flusskurve unterscheidet sich der Momentanwert. Zeichne deshalb ein Diagramm Phi gegen Zeit und eine zweite Kurve für den abgeleiteten Spannungsverlauf. Ein besonders steiler Abschnitt der Flusskurve entspricht im Betrag einer besonders hohen induzierten Spannung.
+
+Bewegungsinduktion und Leiterlänge.
+
+Für einen geraden Leiter, der sich senkrecht zu einem homogenen Magnetfeld und seiner eigenen Längsachse bewegt, ergibt sich als einfaches Modell ein Spannungsbetrag von B mal Leiterlänge mal Geschwindigkeit. Bei 0,5 Tesla, 0,2 Meter wirksamer Leiterlänge und drei Meter pro Sekunde ergibt das 0,3 Volt. Diese Formel ist eine Sonderform unter geometrischen Voraussetzungen, nicht ein universelles Rezept für jeden bewegten Leiter. Ändert sich der Winkel, zählt die senkrechte Geschwindigkeitskomponente. Bei einem geschlossenen Kreis kann ein Strom entstehen, dessen Stärke zusätzlich vom Widerstand und anderen elektrischen Eigenschaften abhängt. Bewegung, Feld und Leitergeometrie müssen deshalb stets gemeinsam betrachtet werden. Kennzeichne in der Skizze die Bewegungsrichtung, die Magnetfeldrichtung und die resultierende Polarität anhand einer konsistenten Vorzeichenkonvention.
+
+Selbstinduktion als Gegenwirkung.
+
+Wenn der Strom durch eine Spule verändert wird, ändert sich ihr eigenes Magnetfeld. Dadurch entsteht eine Selbstinduktionsspannung. Für eine lineare Induktivität kann man sie in der gewählten passiven Vorzeichenkonvention mit der Beziehung u gleich L mal di nach dt beschreiben; in einer Quellenvorzeichenkonvention erscheint das Lenzsche Minuszeichen. Diese scheinbar unterschiedlichen Vorzeichen sind kein Widerspruch, wenn die Bezugspfeile klar bezeichnet sind. Für L gleich 0,1 Henry und einen Stromanstieg von null auf zwei Ampere in 0,02 Sekunden ergibt sich ein Spannungsbetrag von zehn Volt. Im realen Stromkreis begrenzen Widerstände, Spannungsquelle, Sättigung und Schaltverhalten den Verlauf. Beim Abschalten gespeicherter magnetischer Energie können hohe Überspannungen auftreten. Ein Freilaufpfad oder eine andere geeignete Beschaltung kann diese Wirkung bei dafür vorgesehenen Kleinspannungsmodellen begrenzen.
+
+Gespeicherte Energie und Energieerhaltung.
+
+Eine ideal lineare Induktivität speichert magnetische Energie nach der Formel ein Halb mal L mal I Quadrat. Bei einer Induktivität von 0,2 Henry und einem Strom von drei Ampere sind das 0,9 Joule. Verdoppelt sich der Strom, vervierfacht sich die gespeicherte Energie. Das Quadrat ist daher wichtig und darf beim Umstellen nicht vergessen werden. Die Energie verschwindet beim Ausschalten nicht schlagartig; sie muss in andere Formen übergehen, beispielsweise Wärme in einem Widerstand oder Energie in einem anderen Schaltungsteil. Genau dieser Zusammenhang erklärt unerwartete Spannungsspitzen. Die Berechnung ist ein idealisiertes Modell und ersetzt keine Schutzschaltungsdimensionierung. Als Kontrollrechnung ermittle die Energie bei einem Ampere: Es sind 0,1 Joule. Vergleiche dann die Faktoren zwischen den beiden Stromstärken und erläutere, warum sie neun zu eins betragen.
+
+Anwendungen ohne Netzexperiment.
+
+Induktion begegnet dir in Generatoren, Transformatoren, Sensoren, Drosseln und Motoren. Ein Generator nutzt eine veränderliche Flussverkettung zur Erzeugung elektrischer Spannung. Ein Transformator koppelt zeitlich veränderliche magnetische Flüsse zwischen Wicklungen. Ein induktiver Näherungssensor wertet elektromagnetische Wechselwirkungen aus, ohne dass sein innerer Aufbau mit einer beliebigen Spule gleichgesetzt werden darf. Ein Motor nutzt elektromagnetische Kräfte und kann in bestimmten Betriebszuständen auch generatorisch wirken. Für jeden Anwendungsfall zeichnest du ein Energieflussbild: mechanische, elektrische oder magnetische Energie hinein, welche Form hinaus? Induktion ist keine Energiequelle aus dem Nichts. Die Energieerhaltung verlangt immer eine Erklärung der zugeführten und abgegebenen Energie sowie der Verluste. In der Unterrichtspraxis bleiben alle Experimente auf geeignete getrennte Niedrigenergiequellen beschränkt.
+
+Kurven interpretieren und häufige Fehler.
+
+Die grosse Falle ist, einen konstanten Fluss mit einer hohen Induktionsspannung zu verwechseln. Ein noch so starker, aber zeitlich unveränderter magnetischer Fluss erzeugt nach dem betrachteten Transformationsmodell keine induzierte Spannung allein durch sein Vorhandensein. Entscheidend ist die Flussänderung pro Zeit. Eine zweite Falle ist die Verwechslung von Feldstärke und Fluss: Tesla und Weber sind unterschiedliche Einheiten. Drittens ist die Windungszahl kein frei erfundener Verstärker; Wicklungsgeometrie, Verluste und Kopplung beeinflussen reale Bauteile. Viertens muss die gewählte Polarität zum eingezeichneten Bezugspfeil passen. Prüfe eine fiktive Messkurve mit drei Abschnitten: Der Fluss steigt linear, bleibt konstant und fällt dann doppelt so steil. Die induzierte Spannung ist zunächst konstant, dann null und anschliessend betragsmässig doppelt so gross mit umgekehrter Orientierung.
+
+Aufgaben, Musterlösungen und Transfer.
+
+Aufgabe eins: Eine fünfzigwindige Spule erfährt eine lineare Flusszunahme von 0,004 Weber in 0,02 Sekunden. Der induzierte Spannungsbetrag ist zehn Volt. Aufgabe zwei: Ein Leiter mit 0,3 Meter Länge bewegt sich mit zwei Metern pro Sekunde senkrecht zu einem Feld von 0,4 Tesla. Der ideale Spannungsbetrag beträgt 0,24 Volt. Aufgabe drei: Eine Spule mit 0,05 Henry führt vier Ampere. Ihre gespeicherte Energie beträgt 0,4 Joule. Aufgabe vier: Ein Fluss ist über eine Sekunde konstant. Die nach diesem Gesetz induzierte Spannung ist null. Aufgabe fünf: Welche Information fehlt bei einem negativen Spannungswert? Die Definition der Bezugsrichtung und der Flussorientierung. Erstelle zum Abschluss einen einseitigen Vergleich von Generatorprinzip, Selbstinduktion und Transformatorinduktion. Halte fest, welche Grösse sich ändert, welcher Energiepfad besteht und welche Modellgrenzen gelten.
+
+Warum eine höhere Windungszahl nicht alles löst.
+
+Die Induktionsformel legt nahe, die Spannung einfach durch zusätzliche Windungen zu erhöhen. Tatsächlich verändert mehr Windungszahl in einem realen Bauteil auch den Drahtbedarf, den elektrischen Widerstand, die parasitären Eigenschaften und oft die magnetischen Betriebsbedingungen. Mehr Windungen bedeuten daher nicht automatisch einen effizienteren oder sicheren Aufbau. Wenn beispielsweise hundert statt fünfzig Windungen denselben Flussverlauf erfassen, verdoppelt sich der ideale Spannungsbetrag. Ob die Spule unter Last auch die doppelte Nutzleistung liefern kann, beantwortet diese Rechnung jedoch nicht. Dazu braucht es Strom- und Verlustbetrachtungen. Beschreibe in einer technischen Vergleichstabelle die idealisierte Formelwirkung und wenigstens drei reale Gegenfaktoren. Die Übung trainiert, aus einer korrekten Gleichung keine weitergehende unbelegte Aussage abzuleiten.
+
+Einheitliche Zeichen und Vorzeichen festlegen.
+
+Bei Induktionsaufgaben werden oft Spannungsrichtung, Stromrichtung und Flussrichtung durcheinandergebracht. Ein sauberer Lösungsweg beginnt mit drei Festlegungen: Pfeil der magnetischen Flächennormalen, Umlaufsinn der Leiterschleife und Bezugspolung der gemessenen Klemmenspannung. Wenn sich die Flussrichtung in der Zeichnung ändert, kann sich das algebraische Vorzeichen des Ergebnisses ändern, ohne dass sich die physikalische Energiemenge ändert. Betrachte einen zeitlichen Flussanstieg um 0,001 Weber in 0,01 Sekunden bei zwanzig Windungen. Der Spannungsbetrag beträgt zwei Volt. Kehrst du die Bezugsrichtung um, wird der algebraische Spannungswert im gleichen Modell negativ. Das ist kein zweiter physikalischer Effekt, sondern dieselbe Erscheinung mit anderer Zählrichtung. Erkläre diesen Unterschied mündlich, bevor du den nächsten Zahlenfall berechnest.
+
+Zeitverlauf aus Messpunkten ableiten.
+
+Du erhältst eine fiktive Datentabelle: Zum Zeitpunkt null Millisekunden beträgt der Fluss null Weber, bei zehn Millisekunden 0,002 Weber und bei zwanzig Millisekunden 0,003 Weber. Für eine Spule mit hundert Windungen beträgt die mittlere induzierte Spannung im ersten Intervall zwanzig Volt, im zweiten Intervall zehn Volt. Die Magnetflussänderung ist im zweiten Zeitraum kleiner, obwohl der absolute Fluss grösser ist. Das ist der entscheidende Lernpunkt. Füge nun einen dritten Abschnitt an, in dem der Fluss während zehn Millisekunden konstant bei 0,003 Weber bleibt. Der induzierte Spannungsbetrag beträgt dann null. Formuliere aus allen drei Abschnitten eine verbal erklärte Skizze des zeitlichen Spannungsverlaufs. Nenne auch die Einschränkung: Zwischen den Messpunkten sind die angegebenen Werte Intervallmittel und keine garantierten Momentanwerte.

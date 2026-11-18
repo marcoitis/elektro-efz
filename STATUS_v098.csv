@@ -1,0 +1,152 @@
+﻿id;title;minutes;workbook_words;audio_words;audio_15min_reached
+1.01-A;Berufsbild, EFZ und Installationsbewilligung;25;897;504;nein
+1.01-B;Elektrische Gefahren verstehen;25;953;473;nein
+1.01-C;Sicherheitsregeln und Besonderheiten von PV-Anlagen;25;911;468;nein
+1.02-A;SI-Einheiten und Zehnerpotenzen;25;833;428;nein
+1.02-B;Formeln sicher umstellen;25;775;429;nein
+1.02-C;Prozent, Wirkungsgrad und Energie;25;827;420;nein
+1.11-A;Rechtsquellen, Normen und Verantwortlichkeit;25;1051;614;nein
+1.11-B;Basisschutz, Fehlerschutz und Zusatzschutz;25;1038;586;nein
+1.11-C;Kontrollen, Sicherheitsnachweis und Dokumentationspflicht;25;1051;604;nein
+1.12-A;Anforderungskatalog für ein 12-V-Lichtmodell;25;1017;565;nein
+1.12-B;Schaltmodell, Stückliste und Messplan;25;1054;582;nein
+1.12-C;Fehlerszenarien und Jahresabschluss;25;1056;589;nein
+2.01-A;Zeigerbilder und Phasenverschiebung;25;1036;572;nein
+2.01-B;Impedanz und RLC-Schaltungen;25;1044;587;nein
+2.01-C;Wirk-, Blind- und Scheinleistung;25;1037;576;nein
+2.02-B;Dreieck, Leistung und Lastsymmetrie;25;1046;576;nein
+2.02-C;Neutralleiter, Unsymmetrie und Lastverteilung;25;1037;574;nein
+2.03-A;Faradaysches Induktionsgesetz;25;1009;577;nein
+2.03-B;Transformatorenübersetzung und Verluste;25;1046;592;nein
+2.03-C;Schutztrennung und Transformatoranwendung;25;1044;588;nein
+2.04-A;Dioden, Gleichrichter und Glättung;25;1006;567;nein
+2.04-B;Transistoren, Relais und Optokoppler;25;1030;583;nein
+2.04-C;Digitale Logik und Sensor-Aktor-Prinzip;25;1020;587;nein
+2.05-A;TN-, TT- und IT-Systeme;25;1057;591;nein
+2.05-B;RCD, Fehlerströme und Schutzpotenzialausgleich;25;1023;576;nein
+2.05-C;Schutzkonzepte anhand eines Fehlerfalls;25;1047;584;nein
+2.06-A;Überlast, Kurzschluss und Schutzgerät;25;1087;613;nein
+2.06-B;Leitungsdimensionierung und Spannungsfall;25;1020;577;nein
+2.06-C;Schutzkoordination und Selektivität als Einstieg;25;1038;584;nein
+2.07-A;Lichtschaltungen im Funktionsschema;25;1038;587;nein
+2.07-B;Anschlussplan, Aderliste und Betriebsmittelkennzeichen;25;1042;593;nein
+2.07-C;Material- und Zeitkalkulation eines fiktiven Grundrisses;25;1032;581;nein
+2.08-A;Lichtstrom, Beleuchtungsstärke und Lichtstärke;25;1014;577;nein
+2.08-B;LED-Treiber, Lichtqualität und Effizienz;25;1041;582;nein
+2.08-C;Lichtsteuerung und Präsenzanwendungen;25;1025;578;nein
+2.09-A;Elektrische Wärme und Wärmemenge;25;1032;577;nein
+2.09-B;Haushaltsgeräte und Anschlussdaten;25;1000;555;nein
+2.09-C;Energieeffizienz und Kostenvergleich;25;1034;577;nein
+2.10-A;Datenübertragung und Netzwerktopologien;25;1000;547;nein
+2.10-B;Twisted Pair, Glasfaser und Übertragungswege;25;1010;554;nein
+2.10-C;IP-Adressen, Geräte und Fehlersuche;25;1038;573;nein
+2.11-A;Sichtprüfung vor elektrischen Messungen;25;992;556;nein
+2.11-B;Schutzleiter- und Isolationsprüfung verstehen;25;1006;565;nein
+2.11-C;RCD-Prüfung, Schleifenimpedanz und Messprotokoll;25;1020;573;nein
+2.12-A;Raumbuch und Lastenliste erstellen;25;1001;568;nein
+2.12-B;Schutz- und Leitungsentwurf im Planungsfall;25;1016;579;nein
+2.12-C;Dokumentation, Fehlerreview und Jahresprüfung;25;996;571;nein
+3.01-A;Rohbau-, Hohlwand- und Aufputzinstallation;25;1068;598;nein
+3.01-B;Leitungstrassen, Schacht und Brandabschnitt;25;1011;574;nein
+3.01-C;Schaltgerätekombinationen und Verteilerplanung;25;1002;579;nein
+3.02-A;Leitungsschutz, RCD und Gerätefunktionen;25;983;578;nein
+3.02-B;Überspannungsschutz und Schutzgerätekoordination;25;994;568;nein
+3.02-C;Schutzgeräteauswahl und thermische Betrachtung;25;1013;581;nein
+3.03-A;Erstprüfung als geplanter Prozess;25;1033;586;nein
+3.03-B;Schutzleiter, Isolation und Polarisierung;25;1041;595;nein
+3.03-C;RCD, Schleifenimpedanz und Prüfprotokoll;25;1032;585;nein
+3.04-A;Drehstrom-Asynchronmotor und Schlupf;25;1017;568;nein
+3.04-B;Anlaufarten und Motorschutz;25;1014;565;nein
+3.04-C;Frequenzumrichter und EMV;25;1021;575;nein
+3.05-A;Selbsthaltung und Verriegelung mit Relais;25;1022;577;nein
+3.05-B;Zeitglieder, Signalfluss und Funktionsablauf;25;1027;583;nein
+3.05-C;KOP/FUP, Fehlerdiagnose und Not-Halt-Abgrenzung;25;1001;567;nein
+3.06-A;KNX-Bus, Topologie und Teilnehmer;25;1017;554;nein
+3.06-B;Sensorik, Szenen und Raumfunktionen;25;1014;552;nein
+3.06-C;Diagnose, Fernzugriff und Dokumentation;25;1006;545;nein
+3.07-A;PV-Kennlinie, MPP und Ertragsfaktoren;25;1014;570;nein
+3.07-C;DC-Sicherheit, Stecksysteme und PV-Dokumentation;25;1038;577;nein
+3.08-A;NIV 14 und Abgrenzung der PV-Arbeiten;25;1078;612;nein
+3.08-B;Netzanmeldung, Bauverfahren und Messkonzept;25;1012;563;nein
+3.08-C;PV-Prüfprotokoll, Dachschutz und Übergabe;25;1043;586;nein
+3.09-A;Bäder, Schutzbereiche und besondere Räume;25;1043;583;nein
+3.09-B;Aussenanlagen, Baustellen und Landwirtschaft;25;1021;569;nein
+3.09-C;Blitz-, Überspannungs- und Brandschutzkonzepte;25;1046;583;nein
+3.10-A;Strukturierte Kupferverkabelung und Patchfelder;25;1011;556;nein
+3.10-B;Glasfaser und optische Übertragung;25;1002;556;nein
+3.10-C;Koaxialtechnik, Pegel und Messberichte;25;1030;575;nein
+3.11-A;Fehlerbaum und sicherer Diagnoseprozess;25;1031;577;nein
+3.11-B;Messstrategie, Gegenprüfung und Ursachenanalyse;25;1046;586;nein
+3.11-C;Kundengespräch, Rapport und Übergabe;25;1020;571;nein
+3.12-A;Gesamtplanung: Verbraucher, PV und Datensystem;25;1013;560;nein
+3.12-B;Schutz-, Leitungs- und PV-Dokumentation;25;1003;559;nein
+3.12-C;Projektprüfung und Sicherheits-Fachgespräch;25;1023;570;nein
+4.01-A;Komplexe Impedanz und Wechselstromnetze;25;1068;608;nein
+4.01-B;Leistungsdreieck und Blindleistung;25;1040;588;nein
+4.01-C;Drehstromlasten und Plausibilitätsprüfung;25;1011;561;nein
+4.02-A;Fehlerschleifenimpedanz und Abschaltbedingungen;25;1038;587;nein
+4.02-B;Selektivität und Schutzgerätabstimmung;25;1001;562;nein
+4.02-C;Schutzfälle und sichere Freigabeentscheidungen;25;1038;589;nein
+4.03-A;Lastprofile, Eigenverbrauch und Energieflüsse;25;1035;581;nein
+4.03-B;Batteriespeicher und Wirkungsgradkette;25;1027;582;nein
+4.03-C;Elektromobilität und intelligentes Lastmanagement;25;1021;579;nein
+4.04-A;Ablauflogik und Zustandsautomaten;25;996;558;nein
+4.04-B;Verriegelungen, Sensorik und Fehlertabelle;25;1043;583;nein
+4.04-C;Gebäudeautomation und Benutzerfunktionen;25;984;553;nein
+4.05-A;Sichtprüfung, Prüfreihenfolge und Freigaben;25;1011;570;nein
+4.05-B;Messunsicherheit, Grenzwerte und Bewertungslogik;25;1013;571;nein
+4.05-C;Erstprüfungsdossier und Übergabe;25;994;561;nein
+4.06-A;Gesetze, Verordnungen und technische Regeln auseinanderhalten;25;1052;604;nein
+4.06-B;NIN-Systematik und gezielte Normrecherche;25;1071;609;nein
+4.06-C;Rechts- und Normfälle im Fachgespräch;25;1066;596;nein
+4.07-A;Auftrag, Arbeitsvorbereitung und Schnittstellen;25;1006;569;nein
+4.07-B;Material, Arbeitsrapport und Nachträge;25;1000;557;nein
+4.07-C;Revisionsunterlagen und Kundeninstruktion;25;999;563;nein
+4.08-A;PV-Dossier: Modul- und Stringdaten überprüfen;25;1034;583;nein
+4.08-B;Sicherheits-, Kennzeichnungs- und Prüfunterlagen;25;1038;575;nein
+4.08-C;PV-Abschlussgespräch und Mängelmanagement;25;1044;582;nein
+4.09-A;Übertragungsstrecken und Linkmessungen;25;980;547;nein
+4.09-B;Koaxialtechnik und Fehlersuche;25;1029;575;nein
+4.09-C;Systematische Netzwerkdiagnose und Dokumentationsreview;25;1036;576;nein
+4.10-A;Sicherheits- und Normen-Fachgespräch;25;1046;587;nein
+4.10-B;Elektrotechnik und Systemtechnik mündlich erklären;25;1060;580;nein
+4.10-C;Kommunikation, Steuerung und Prüfung unter Zeitdruck;25;1070;584;nein
+4.11-A;Schriftliche Prüfung: Mathematik und Elektrotechnik;25;1030;561;nein
+4.11-B;Schriftliche Prüfung: NIN, Pläne und Systemtechnik;25;1012;548;nein
+4.11-C;Prüfungssimulation und Lernlückenanalyse;25;1001;552;nein
+4.12-A;Praktisches QV: Auftrag und Arbeitsvorbereitung;25;1056;585;nein
+4.12-B;Praktisches QV: Ausführung und Erstprüfung unter Aufsicht;25;1058;587;nein
+4.12-C;Abschlussreview und individueller Weg zur Zulassung;25;1086;609;nein
+N-S01;Wer trägt bei elektrischen Arbeiten welche Verantwortung?;25;812;495;nein
+N-S02;Die fünf Sicherheitsregeln wirklich verstehen;25;790;475;nein
+N-S03;Messen, Erproben, Besichtigen – drei verschiedene Tätigkeiten;25;729;446;nein
+N-S04;Schweizer Recht und europäische Betriebsnorm richtig kombinieren;25;799;444;nein
+N-W01;Vom Haus bis zum Netz: Wer ist für was zuständig?;25;739;439;nein
+N-W02;Technisches Anschlussgesuch, Installationsanzeige und SiNa;25;745;447;nein
+N-W03;Zähler, Hauptanschluss und Messkonzepte verstehen;25;701;410;nein
+N-W04;Netzparallele PV: Phasen, Unsymmetrie und Inbetriebnahme;25;680;435;nein
+N-W05;Batteriespeicher, USV und Rückspeisung beurteilen;25;741;431;nein
+N-P01;Eine PV-Anlage vollständig dokumentieren;25;731;430;nein
+N-P02;PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom;25;738;454;nein
+N-P03;PV-Sichtprüfung: Was muss vor jeder Messung stimmen?;25;691;408;nein
+N-P04;PV-Erstprüfung: Kategorie 1 systematisch lesen;25;658;402;nein
+N-P05;PV-Isolationsprüfung verstehen, ohne gefährlich zu messen;25;714;415;nein
+N-P06;PV-Fehlerdiagnose mit I-U-Kennlinie und Thermografie;25;683;409;nein
+N-P07;Der PV-Prüfbericht als belastbarer Qualitätsnachweis;25;678;380;nein
+N-V01;Was ist eine Schaltgerätekombination – und welche Norm gilt?;25;745;411;nein
+N-V02;Bemessungsdaten einer Verteilung richtig lesen;25;671;395;nein
+N-V03;Erwärmung verstehen: Strom, Übergangswiderstand und Gehäuse;25;671;439;nein
+N-V04;Schutz gegen elektrischen Schlag: Gehäuse ist nicht alles;25;669;381;nein
+N-V05;Kurzschlussbeanspruchung: Warum 16 A nicht die ganze Wahrheit ist;25;660;406;nein
+N-V06;Bauartnachweis und Stücknachweis sauber trennen;25;744;409;nein
+N-V07;Energieverteiler: Bedienung, Unterteilung und Wartbarkeit;25;710;394;nein
+N-V08;Baustromverteiler: temporär bedeutet nicht ungefährlich;25;649;378;nein
+N-E01;Erdung, Schutzpotentialausgleich und Blitzschutz unterscheiden;25;685;414;nein
+N-E02;Fundamenterder planen: Neubau, weisse Wanne, isolierte Fundamente;25;715;409;nein
+N-E03;Korrosion, Verbindungsqualität und Erder-Abnahme;25;667;384;nein
+N-B01;Blitzschutz als System statt einzelner Fangstange;25;672;371;nein
+N-B02;Trennungsabstand, Potentialausgleich und Überspannungsschutz;25;678;375;nein
+N-B03;Blitzschutz nach Änderungen inspizieren und dokumentieren;25;692;388;nein
+N-I01;Gesamtfall: Aufdach-PV vom Entwurf bis zur Übergabe;25;682;413;nein
+N-I02;Gesamtfall: Einen Maschinenverteiler fachlich beurteilen;25;674;396;nein
+N-I03;Quellenkritik: Was wir wirklich wissen – und was noch fehlt;25;807;452;nein

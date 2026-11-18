@@ -1,0 +1,95 @@
+Lektion 4.06-C: Rechts- und Normfälle im Fachgespräch. Die Fähigkeit zur Normrecherche zeigt sich, wenn ein unvollständiger Sachverhalt erkannt wird. Ein Prüfer kann beispielsweise nach Badezimmerinstallation, Schutzmassnahme oder PV-Übergabepunkt fragen. Eine seriöse Antwort nennt den rechtlichen Rahmen, notwendige Zusatzangaben und die relevante technische Fundstelle. Präzision ist wichtiger als schnell erfundene Grenzwerte. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle zehn Fallkarten mit kurzer Situation, fehlenden Angaben, mutmasslich relevanter Normstelle und einer Frage an die fachkundige Person. Nimm Deine privaten PV-Projekte als anonymisierte Übungsbeispiele, aber keine konkreten eigenen Installationen in Betrieb. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: «Ich muss diese Bedingung zuerst prüfen» ist eine fachlich richtige Antwort. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Kontrollen, Verantwortlichkeiten, Dokumentation; Richtiges Zitieren: Ausgabe, Kapitel, Sachverhalt. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ElG SR 734.0; NIV SR 734.27; NIN SN 411000:2025; ESTI. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Kontrollen, Verantwortlichkeiten, Dokumentation; Richtiges Zitieren: Ausgabe, Kapitel, Sachverhalt.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was ist bei fehlenden Normbedingungen sinnvoll?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. «Ich muss diese Bedingung zuerst prüfen» ist eine fachlich richtige Antwort.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: 25 geschlossene Fallkarten mit jeweils gesuchter Normstelle und Entscheidung erstellen. Halte zusätzlich die Antwort auf die Frage «Was ist bei fehlenden Normbedingungen sinnvoll?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist bei fehlenden Normbedingungen sinnvoll? Die richtige Antwort lautet: Fehlende Angaben klären und Originalnorm nachschlagen. Warum? «Ich muss diese Bedingung zuerst prüfen» ist eine fachlich richtige Antwort.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: «Ich muss diese Bedingung zuerst prüfen» ist eine fachlich richtige Antwort.. Warum? Der Merksatz lautet: «Ich muss diese Bedingung zuerst prüfen» ist eine fachlich richtige Antwort.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+
+Fachkapitel 1: Ein Fachgespräch ist eine begründete Entscheidung.
+Im Fachgespräch zu einer Elektroinstallation wird nicht bloss geprüft, ob Du ein Normkürzel kennst. Eine überzeugende Antwort beginnt mit einem konkreten Sachverhalt: Was ist installiert, welche Netzform liegt vor, welche Personen dürfen arbeiten, welche Umgebungsbedingungen gelten und welche Nachweise sind vorhanden? Erst anschliessend suchst Du die rechtlichen und technischen Anforderungen. Bei einer Frage zu einer Steckdose im Aussenbereich wäre es beispielsweise falsch, sofort einen Schutzwert zu nennen, solange Aufstellungsort, Feuchtigkeit, Leitungssystem und Nutzung ungeklärt sind. Begründe deshalb die Reihenfolge Deiner Antwort. Die gedankliche Struktur lautet Sachverhalt, Gefährdung, Rechtsgrundlage, technische Regel, Nachweis und verantwortliche Freigabe. Diese sechs Schritte sind aussagekräftiger als eine auswendig gelernte Einzelzahl.
+
+Fachkapitel 2: Unterschied zwischen Gesetz, Verordnung und Norm.
+Das schweizerische Elektrizitätsgesetz definiert einen übergeordneten gesetzlichen Rahmen. Die Niederspannungs-Installationsverordnung regelt unter anderem Bewilligungen, Verantwortung und Kontrollen; technische Installationsregeln sind insbesondere Gegenstand der Niederspannungs-Installationsnorm. Dazu treten ESTI-Weisungen, Herstellervorgaben und gegebenenfalls Bedingungen von Netzbetreibern. Im Gespräch sollst Du diese Ebenen nicht vermischen: Ein Verordnungstext ist nicht automatisch identisch mit einer Detailzeichnung der NIN. Eine Herstellerempfehlung kann technisch wichtig sein, ersetzt aber nicht die übrigen Pflichten. Gib bei jeder Fundstelle Ausgabe und Stand an. Wenn Dir der Originaltext fehlt, sagst Du genau das, statt eine vermeintliche Normziffer zu erfinden. Diese Disziplin ist eine fachliche Kompetenz.
+
+Fachkapitel 3: Sachverhalt eines Badezimmers strukturieren.
+Ein Prüfer beschreibt einen Waschtisch, eine Dusche und eine Steckdose, nennt aber keinen Grundriss. Deine erste Aufgabe ist, die fehlende Geometrie zu erkennen. Schutzbereiche ergeben sich nicht aus einer allgemeinen Intuition über Nassräume, sondern aus der konkret zutreffenden Regel und den Abständen beziehungsweise Bezugskanten im Raum. Stelle Fragen nach Bad- oder Duschentyp, festen Abtrennungen, genauer Steckdosenposition, Leitungsführung und eingesetzten Geräten. Zeichne zuerst einen massstäblich nachvollziehbaren Grundriss. Markiere offene Punkte sichtbar. Erst danach kann eine fachkundige Person mit der aktuellen Normausgabe feststellen, welche Anforderungen gelten. Ein vorschnelles Ja oder Nein wäre ohne diese Angaben unredlich.
+
+Fachkapitel 4: Normfall an einer PV-Anlage.
+Eine Dachanlage besitzt Module, einen Wechselrichter, DC-Leitungen und einen Netzanschluss. Auch hier reicht die Angabe der Anlagenleistung nicht aus. Für die Beurteilung interessieren die Bewilligung des ausführenden Unternehmens, die Zuständigkeiten der DC- und AC-Seite, die Dokumentation der Leitungsführung, Steckertypen, Überstromschutz, allfälliger Überspannungsschutz, Prüfprotokolle und der Zeitpunkt der Übergabe. Beginne mit dem Funktionsbild, nicht mit einer Behauptung zur Zulässigkeit. Welche Komponente erzeugt welche Spannung bei welcher Temperatur? Wer prüft die Verbindung zum Netz? Wer stellt den Sicherheitsnachweis aus? Die Antworten hängen vom tatsächlichen Fall und dem geltenden Rechtsrahmen ab.
+
+Fachkapitel 5: Behauptungen und Belege sauber auseinanderhalten.
+Formuliere eine Antwort möglichst in drei Spalten: Aussage, zugrunde liegende Quelle und offener Nachweis. Zum Beispiel: „Der Schutzleiter ist im Revisionsplan eingezeichnet.“ Das belegt nur die zeichnerische Planung, nicht seine elektrische Durchgängigkeit. „Die Anlage wurde geprüft“ ist ebenfalls unzureichend, wenn Protokoll, Datum, Messstellen und zuständige Person fehlen. Im Fachgespräch wird Deine Argumentationsqualität daran erkennbar, dass Du die Stärke der vorhandenen Belege richtig einschätzt. Ein fehlender Beleg ist keine automatische technische Beanstandung, aber eine offene Nachweisposition und damit ein Grund, eine uneingeschränkte Freigabe zu verweigern.
+
+Fachkapitel 6: Änderungsfall und neue Beurteilung.
+Angenommen, nach der Inbetriebnahme wird eine Wärmepumpe ergänzt und die vorgesehene Verteilung stärker belastet. Eine frühere Schutzbeurteilung beschreibt nicht zwingend die geänderte Anlage. Prüfe deshalb zuerst, welche Lasten, Schutzorgane, Leitungswege und Betriebsarten neu hinzukommen. Gilt das vorhandene Messprotokoll überhaupt für den betroffenen Anlagenteil? Sind Netzanmeldung und neue Unterlagen erforderlich? Ein fachlich guter Entscheid benennt die Änderung und deren Auswirkungen, bevor die konkrete Normenrecherche beginnt. So lässt sich erklären, warum scheinbar kleine Umbauten eine neue Dokumentation und unter Umständen weitere Prüfungen auslösen können.
+
+Fachkapitel 7: Prüfung unter Zeitdruck ohne Scheinsicherheit.
+Bei einer mündlichen Prüfung fehlt häufig Zeit, sämtliche Normtexte nachzulesen. Das ist kein Grund, Grenzwerte zu raten. Beginne mit einem klaren Einstiegssatz: „Ich kläre zuerst Netzsystem, Nutzung und Bewilligungsumfang.“ Beschreibe anschliessend die relevante Schutzidee und die notwendigen Nachweise. Kannst Du einen Normwert nicht sicher belegen, erkläre, wo und mit welcher Ausgabe Du ihn prüfen würdest. Diese strukturierte Unsicherheitskommunikation ist fachlich besser als eine falsche, aber selbstbewusst vorgetragene Zahl. Übe Antworten in zwei Minuten und ergänze danach eine schriftliche Quellenrecherche, damit aus der mündlichen Kurzantwort ein belastbarer Entscheid wird.
+
+Fachkapitel 8: Vom Fragebogen zur eigenen Fallsammlung.
+Lege zu jeder typischen Prüfungsfrage eine Karte mit fünf Elementen an: Anlagenfall, offen gebliebene Informationen, physikalische Schutzidee, potenziell einschlägige Originalquellen und der nötige Sicherheitsnachweis. Eine Karte könnte „RCD-Auslösung in der Werkstatt“ behandeln; die offene Frage lautet dann nicht sofort „Welchen RCD soll ich einbauen?“, sondern „Warum löste das vorhandene Gerät aus und welche Fehlerstromform ist zu erwarten?“ Eine zweite Karte könnte den Brandschutz einer Leitungsdurchführung betreffen. Solche Fälle schulen nicht bloss Gedächtnis, sondern die Fähigkeit, unvertraute Situationen methodisch zu erschliessen.
+
+Fachkapitel 9: Musterantwort mit dokumentierter Schlussfolgerung.
+Betrachte einen fiktiven Aussenstromkreis ohne aktuelles Messprotokoll. Eine zulässige Prüfungsaussage wäre: „Die gezeichnete Schutzeinrichtung ist plausibel, aber die Erfüllung der Abschaltbedingungen ist mangels verifizierter Messung und Herstellerkennlinie noch nicht nachgewiesen. Ich lasse den betroffenen Stromkreis von der berechtigten Fachperson nach dem passenden Verfahren prüfen und dokumentieren.“ Diese Antwort trennt Planung, Vermutung und Nachweis. In der tatsächlichen Installation sind Gefährdungen angemessen zu sichern. Im Lernmodell werden keine spannungsführenden Prüfungen selbst durchgeführt; gerechnet und dokumentiert wird auf Papier oder mit sicheren Simulationen.
+
+Sechs eigenständige Prüfungs- und Praxisfälle mit Musterlösungen.
+
+
+Aufgabe 1: Fallkarte Badezimmer.
+Ein Plan zeigt eine Steckdose 0,9 Meter von einer Duschabtrennung entfernt. Beurteile, welche Informationen noch fehlen. Lösung: Geometrie, massgebende Bezugskanten, Ausführung der Abtrennung, genaue Lage und die aktuelle Normfundstelle müssen geklärt werden. 0,9 Meter allein ergibt noch keine Freigabe.
+
+Aufgabe 2: Fallkarte Wärmepumpe.
+Ein bestehender Stromkreis soll eine neue Wärmepumpe speisen. Erstelle eine Liste aus Lastdaten, Betriebsstrom, Einschaltverhalten, Leitungslänge, Verlegebedingungen, Netzsystem und Schutzorgan. Lösung: Erst mit dieser Datenbasis wird die Auslegung nachvollziehbar; der blosse Nennstrom des Schutzschalters genügt nicht.
+
+Aufgabe 3: Fallkarte fehlendes Prüfprotokoll.
+Eine Installation funktioniert seit zwei Jahren, aber das Prüfprotokoll ist nicht auffindbar. Formuliere eine fachlich korrekte Aussage. Lösung: Funktionsfähigkeit beweist nicht die dokumentierte Sicherheit. Die verantwortliche Stelle muss die erforderlichen Unterlagen und allenfalls vorgeschriebene Kontrollen klären.
+
+Aufgabe 4: Fallkarte Normversion.
+Ein Kursblatt zitiert NIN 2020, das Projekt ist 2026 datiert. Was sagst Du? Lösung: Prüfe die für den Fall anzuwendende Normausgabe und deren Korrekturen. Die ältere Fundstelle ist eine Recherchehilfe, aber ohne Überprüfung kein normativer Endentscheid.
+
+Aufgabe 5: Fallkarte Eigentümer oder Installateur.
+Der Eigentümer bittet eine unberechtigte Person, eine Verteilung anzupassen. Trenne den technischen Wunsch von der Berechtigungsfrage. Lösung: Die Tätigkeiten müssen anhand NIV und konkretem Bewilligungsumfang beurteilt und einem berechtigten Unternehmen zugewiesen werden.
+
+Aufgabe 6: Fallkarte PV-Unterlagen.
+Ein PV-Dossier enthält ein Leistungsdiagramm, aber keine Stringliste. Lösung: Die Energieprognose ersetzt keine elektrische Auslegungs- und Prüfdokumentation. Modulbezeichnungen, Stringaufbau, Temperaturannahmen, Invertergrenzen und Abnahmeunterlagen sind nachzuführen.
+
+Vertiefende Fallanalyse 1: Antworttraining Normenkonflikt.
+Im ersten Trainingsfall steht auf einer alten Projektskizze „NIN 2020“, während der Auftrag im Herbst 2026 bearbeitet wird. Formuliere eine Antwort, die nicht automatisch die frühere Ausgabe für ungültig erklärt und dennoch keine veraltete Zahl ungeprüft übernimmt. Du klärst zunächst, welcher Zeitpunkt und welche Übergangsbestimmungen für den Sachverhalt relevant sind. Danach ermittelst Du anhand der offiziellen Originalfassung die tatsächlich anzuwendende Regel und etwaige Korrekturen. Für die Bewertung hältst Du fest, welche Behauptungen aus dem Plan stammen und welche erst nach der Recherche begründet werden können. Das Ergebnis wird mit Quelle und Entscheidungsdatum dokumentiert.
+
+Vertiefende Fallanalyse 2: Rollenfall Eigentümer und Kontrollorgan.
+Eine Eigentümerin fragt, wer den Sicherheitsnachweis erstellt, wer eine allfällige Abnahmekontrolle organisiert und ob der Installateur auch die unabhängige Kontrolle übernehmen darf. Eine gute Antwort muss die Aufgaben nicht aus Erinnerung pauschal verteilen. Sie benennt vielmehr, dass Art und Umfang der Kontrolle vom konkreten Anlagenfall, der Bewilligung und der Rechtsgrundlage abhängen. Im Lernspiel legst Du eine Verantwortungsmatrix mit Eigentümerin, ausführendem Betrieb, kontrollberechtigter Stelle und Netzbetreiber an. Danach prüfst Du die Rollen gegen die aktuellen amtlichen Angaben. Die eigentliche Freigabe bleibt Aufgabe der zuständigen Organisation.
+
+Vertiefende Fallanalyse 3: Begründung eines offenen Prüfergebnisses.
+Im Protokoll steht „Schutzleiter vorhanden“, doch es fehlen Messwert und Prüfverfahren. Erkläre dem Prüfer, warum eine Zeichnung oder ein sichtbarer Leiter nicht die elektrische Wirksamkeit nachweist. Im nächsten Schritt unterscheidest Du den sachlichen Befund „Prüfdokumentation unvollständig“ von der technischen Behauptung „Schutzleiter unterbrochen“. Beide Aussagen dürfen nicht verwechselt werden. Die Freigabe kann ohne den erforderlichen Nachweis offen bleiben, während die Ursache fachgerecht geklärt wird. Diese sprachliche Präzision ist zentral: Keine Gefährdung kleinreden, aber auch keinen unbelegten Fehler als erwiesen darstellen.
+
+Vertiefende Fallanalyse 4: Zwei-Minuten-Musterprüfung.
+Ein Prüfer nennt „neue Steckdose in einem feuchten Arbeitsraum“. Du antwortest geordnet: Zuerst werden Nutzung, Umgebung, Lage, bestehende Anlage und Bewilligungszuständigkeit geklärt. Danach skizzierst Du die möglichen Gefährdungen, etwa Feuchtigkeit und Berührspannung im Fehlerfall. Anschliessend nennst Du die nötige Normenrecherche sowie die Rolle der elektrischen Erstprüfung. Zum Schluss stellst Du ausdrücklich klar, dass ohne diese Daten und Prüfungen keine rechtssichere Ausführungsfreigabe möglich ist. Werde bei der Antwort konkret, ohne erfundene Installationsabstände oder Grenzwerte zu zitieren.
+
+Mündliche Abschlussaufgabe und Transfer.
+Übe als letzte Fachgesprächsaufgabe den Fall einer Erweiterung einer bestehenden Verteilung. Der Prüfer nennt nur das Baujahr des Gebäudes und den Wunsch nach einer zusätzlichen Steckdose. Frage gezielt nach dem betroffenen Stromkreis, dem Netzsystem, der geplanten Nutzung, dem Bewilligungsumfang und dem vorhandenen Sicherheitsnachweis. Begründe, warum die Aussage „Das Gebäude ist alt“ keine normativ ausreichende Einstufung ist. Fertige dazu eine Tabelle an, die jede ungesicherte Aussage einer möglichen Originalquelle oder einer erforderlichen Fachprüfung zuordnet. Am Ende sollst Du in höchstens zwei Minuten sagen können, welche Informationen bereits belastbar sind, welche offen bleiben und wer eine tatsächliche Ausführung freigeben darf. Verwende keine ausgedachten Abstände oder Abschaltzeiten. Wenn eine Prüfungsaussage ohne die vorliegende NIN-Ausgabe nicht verifiziert werden kann, kennzeichne diese ausdrücklich als offene Quellenfrage.

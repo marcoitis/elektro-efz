@@ -26,7 +26,8 @@ def main() -> None:
     parser.add_argument("--model", default=f".voice-cache/{VOICE}.onnx")
     parser.add_argument("--config", default=f".voice-cache/{VOICE}.onnx.json")
     parser.add_argument("--output", default=".audio-cache")
-    parser.add_argument("--mode", choices=["all", "probe"], default="all")
+    parser.add_argument("--mode", choices=["all", "probe"], default="probe")
+    parser.add_argument("--ids", default="", help="Comma-separated lesson IDs for a reviewed small batch")
     parser.add_argument("--piper", default="piper")
     parser.add_argument("--ffmpeg", default="ffmpeg")
     args = parser.parse_args()
@@ -37,7 +38,11 @@ def main() -> None:
     files = sorted(inp.glob("*.txt"))
     if len(files) != 178:
         raise SystemExit(f"178 Unterrichtsskripte erwartet, {len(files)} gefunden")
-    if args.mode == "probe":
+    if args.ids:
+        selected={x.strip() for x in args.ids.split(",") if x.strip()}
+        files=[f for f in files if f.stem in selected]
+        if len(files)!=len(selected):raise SystemExit("Unknown lesson IDs in --ids")
+    elif args.mode == "probe":
         files = [f for f in files if f.stem in PILOT]
         if len(files) != len(PILOT):
             raise SystemExit("Drei Pilotlektionen fehlen")

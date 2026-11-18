@@ -1,0 +1,15 @@
+Begriff;vorgeschlagene Aussprache;Status;Bemerkung
+NIN;noch zu prüfen;OFFEN;Entscheidung nach Schweizer Aussprachetest
+NIV;noch zu prüfen;OFFEN;Gesprochene Abkürzung im Test vergleichen
+SiNa;Sicherheitsnachweis;OFFEN;Vollform versus Abkürzung testen
+RCD;noch zu prüfen;OFFEN;Gerätebezeichnung auf Konsistenz prüfen
+PE;Schutzleiter;OFFEN;Einführung mit Begriff
+PV;Photovoltaik;OFFEN;Bei erster Nennung Vollform
+kW;Kilowatt;OFFEN;Einheiten konsequent ausschreiben
+kWh;Kilowattstunden;OFFEN;Singular/Plural prüfen
+kVA;Kilovoltampere;OFFEN;Auf Sprechtempo achten
+V;Volt;OFFEN;Bei Zahlen im Kontext
+A;Ampere;OFFEN;Bei Zahlen im Kontext
+Ω;Ohm;OFFEN;Symbol vor TTS normieren
+°C;Grad Celsius;OFFEN;Bei Temperaturberechnungen
+KNX;noch zu prüfen;OFFEN;Fachsprache festlegen

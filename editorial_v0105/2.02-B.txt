@@ -1,0 +1,85 @@
+Lektion 2.02-B: Dreieck, Leistung und Lastsymmetrie. Bei der Dreieckschaltung liegen die Stränge zwischen jeweils zwei Aussenleitern. Deshalb ist die Strangspannung gleich der Leiterspannung; die Beziehungen der Ströme unterscheiden sich von der Sternschaltung. Bei symmetrischer sinusförmiger Last lässt sich die Wirkleistung mit P = √3 mal U_L mal I_L mal cos φ bestimmen. Dieser Ausdruck ist nicht ohne Prüfung auf beliebig unsymmetrische Fälle übertragbar. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Eine symmetrische Drehstromlast mit 400 Volt Leiterspannung, 10 Ampere Leiterstrom und Leistungsfaktor 0,9 nimmt rechnerisch rund 6,24 Kilowatt Wirkleistung auf. Dokumentiere Deine Annahmen zur Symmetrie und zu sinusförmigen Betriebsbedingungen, bevor Du ein Ergebnis präsentierst. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Drehstromformeln gelten nur innerhalb ihrer Modellannahmen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Neutralleiter, Unsymmetrie und Oberschwingung (Einführung); Leistung bei symmetrischem Drehstrom. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.2/5.3; N I N Teil 3. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Neutralleiter, Unsymmetrie und Oberschwingung (Einführung); Leistung bei symmetrischem Drehstrom.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Symmetrisches Drehstromsystem. Ein symmetrisches Drehstromsystem hat 400 V zwischen den Aussenleitern.
+
+Schritt 1. Sternschaltung: Strangspannung Ustr = ULL / √3.
+
+Schritt 2. Einsetzen: 400 V / √3.
+
+Schritt 3. Ergebnis: Ustr ≈ 231 V.
+
+Schritt 4. Wichtig: Das gilt für die gezeigte symmetrische Sternbeziehung.
+
+Kontrolle des Ergebnisses: Ungefähr 230 V pro Strang in Stern.
+
+Übungsauftrag zur Anwendung: Drehstrom ausschließlich an Simulator/Schulungsmodell; rechnerische Lastbilanz eines Wohnhauses. Halte zusätzlich die Antwort auf die Frage «Welche Formel passt für symmetrische sinusförmige Drehstrom-Wirkleistung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Formel passt für symmetrische sinusförmige Drehstrom-Wirkleistung? Die richtige Antwort lautet: P = √3 · U_L · I_L · cos φ. Warum? Drehstromformeln gelten nur innerhalb ihrer Modellannahmen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Drehstromformeln gelten nur innerhalb ihrer Modellannahmen.. Warum? Der Merksatz lautet: Drehstromformeln gelten nur innerhalb ihrer Modellannahmen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+---
+
+Fachlich individuell vertiefte Unterrichtseinheit.
+
+Vom Stern zum Dreieck.
+
+In der Dreieckschaltung verbindet man drei Stränge zu einem geschlossenen Dreieck. Die drei Eckpunkte bilden die Anschlüsse an die drei Aussenleiter. Das ist ein anderes Schaltungsprinzip als die Sternschaltung, bei der jeweils ein Strang zwischen einem Aussenleiter und einem gemeinsamen Sternpunkt liegt. Im Dreieck ist die Spannung an jedem Strang gleich der Aussenleiterspannung. In einem idealen System mit 400 Volt Aussenleiterspannung liegen somit 400 Volt an jedem der drei Dreieckstränge an. Das bedeutet gerade nicht, dass jeder Strang für 400 Volt geeignet ist: Die Nennwerte des jeweiligen Betriebsmittels müssen bekannt sein. Unser Beispiel ist nur eine theoretische Schaltbildanalyse. Eine Stern-Dreieck-Umstellung an einer echten Maschine kann Strom, Drehmoment und Schutzbedingungen ändern und darf aus diesem Rechenmodell nicht praktisch abgeleitet werden.
+
+Strangstrom und Leiterstrom unterscheiden.
+
+Der Strangstrom fliesst durch einen einzelnen Schaltungszweig, während der Leiterstrom durch einen Aussenleiter zur Dreieckschaltung fliesst. An jedem Eckpunkt treffen zwei Stränge zusammen. Der Leiterstrom ist die vektorielle Differenz zweier um 120 Grad verschobener Strangströme. Für den symmetrischen sinusförmigen Fall gilt der Betrag I Leiter gleich Wurzel drei mal I Strang. Bei fünf Ampere Strangstrom sind das ungefähr 8,66 Ampere Leiterstrom. Wer einfach zwei Strangströme addiert, erhält fälschlich zehn Ampere, weil die Phasenverschiebung nicht berücksichtigt wird. Zeichne zur Kontrolle zwei gleich lange Zeiger mit dem Winkel von 120 Grad und bilde ihre Differenz. Im unsymmetrischen Fall darf der Wurzel-drei-Faktor nicht ohne Weiteres für jeden Leiter verwendet werden. Dann müssen die komplexen Strangströme einzeln bilanziert werden.
+
+Die Leistungsformel einordnen.
+
+Bei einem symmetrischen dreiphasigen sinusförmigen System kann die gesamte Wirkleistung als Wurzel drei mal Aussenleiterspannung mal Aussenleiterstrom mal Leistungsfaktor dargestellt werden. Die gleiche Grösse ergibt sich aus drei mal Strangspannung mal Strangstrom mal Leistungsfaktor. Beide Darstellungen sind konsistent, wenn Strang und Leiter korrekt zugeordnet werden. Rechne beispielsweise mit 400 Volt Aussenleiterspannung, 8,66 Ampere Leiterstrom und dem Leistungsfaktor 0,8. Es entstehen rund 4,80 Kilowatt Gesamtwirkleistung. Mit drei Strängen von je 400 Volt und fünf Ampere erhältst du ebenfalls 4,80 Kilowatt. Ein Zahlenwert ohne Kennzeichnung von Leiter oder Strang ist deshalb für eine technische Rechnung unvollständig. Die Formel setzt Symmetrie und eine sinusförmige Grundschwingungsbetrachtung voraus; verzerrte Verbraucher können zusätzliche Betrachtungen verlangen.
+
+Konkreter Widerstandsfall.
+
+Wir betrachten drei gleiche rein ohmsche Widerstände von jeweils achtzig Ohm im idealisierten Dreieck an 400 Volt Aussenleiterspannung. Pro Strang folgt aus dem Ohmschen Gesetz 400 Volt geteilt durch achtzig Ohm, also fünf Ampere. Die Leistung pro Strang beträgt 400 Volt mal fünf Ampere und damit zwei Kilowatt. Das Dreieck nimmt insgesamt sechs Kilowatt auf. Der ideale Leiterstrom hat den Betrag Wurzel drei mal fünf Ampere, also 8,66 Ampere. Nutzt man stattdessen drei gleiche achtzig-Ohm-Widerstände in Stern an 400 Volt Aussenleiterspannung, beträgt die Strangspannung nur ungefähr 230,94 Volt. Der Strom ist ungefähr 2,887 Ampere; die gesamte Leistung sinkt auf zwei Kilowatt. Bei unveränderten Widerständen wäre die Leistung im Dreieck also dreimal so hoch wie im Stern. Genau dieser Vergleich zeigt, warum eine Umverdrahtung nie beiläufig erfolgen darf.
+
+Was Symmetrie wirklich bedeutet.
+
+Symmetrie beschreibt, dass die drei Stränge gleiche elektrische Eigenschaften besitzen und bei gleicher symmetrischer Speisung gleichartige Ströme aufnehmen. Dabei geht es nicht nur um identische Strombeträge. Auch die Phasenwinkel der drei Stränge müssen zueinander passen. Drei Verbraucher mit gleicher Scheinleistung können unsymmetrisch sein, wenn ihre Leistungsfaktoren oder Kennlinien verschieden sind. Unterscheide in deiner Dokumentation daher Spannungssymmetrie, Impedanzsymmetrie und Stromsymmetrie. Eine asymmetrische Last lässt sich nicht mit der einen Dreiphasenleistungsformel beschreiben, wenn sie eine Gleichverteilung voraussetzt. Eine saubere Berechnung addiert die Wirkleistungen aller einzelnen Stränge. Markiere in einem Dreieck die Strangströme jeweils mit eigener Richtung. Beschrifte die Aussenleiterströme getrennt, weil die Messstellen nicht identisch sind. Dieser kleine Zeichenschritt verhindert viele spätere Denkfehler.
+
+Unsymmetrischer Rechenvergleich.
+
+Angenommen, drei rein ohmsche Dreieckstränge besitzen Widerstände von achtzig, hundert und zweihundert Ohm. Bei idealen 400 Volt zwischen den Leitern ergeben sich Strangströme von fünf, vier und zwei Ampere. Die Leistungen sind zweitausend, eintausendsechshundert und achthundert Watt; zusammen also 4,4 Kilowatt. Die einzelnen Leiterströme ergeben sich jetzt nicht durch Multiplikation eines beliebigen Strangstroms mit Wurzel drei. Man benötigt die Zeigerbeziehungen an den drei Knoten. Die Gesamtleistung kann dennoch für diese idealen Widerstände durch die Summe der drei Zweigleistungen verlässlich ermittelt werden. Erstelle eine Tabelle mit Strangname, Spannung, Widerstand, Strom und Wirkleistung. Kontrolliere das Ergebnis auch über die Summe U Quadrat geteilt durch R. Diese Rückprobe liefert die gleiche Gesamtwirkleistung und testet gleichzeitig deine Einheiten.
+
+Motoren und Typenschilder.
+
+Bei Dreiphasenmotoren erscheinen häufig zwei Nennspannungen mit einer Stern- und einer Dreieckzuordnung. Die Beschriftung beschreibt die vorgesehene Wicklungsspannung und zulässige Anschlussart unter bestimmten Betriebsbedingungen. Sie ist kein Auftrag, selbst eine Brückung vorzunehmen. Entscheidend sind das vollständige Typenschild, Anschlussplan, Frequenz, Betriebsart, Schutzorgane und der eingesetzte Antrieb. Ein Frequenzumrichter kann Spannungen, Frequenzen und Stromformen erzeugen, die mit einem einfachen Netzmodell nicht vollständig beschrieben werden. Auch der Einschaltstrom und das Drehmomentverhalten werden vom gewählten Startverfahren beeinflusst. Für die Theorie liest du drei fiktive Typenschilder und erklärst lediglich, welche Spannung jeweils als Strangspannung auftritt. Du zeichnest keine betriebsfertige Verbindung zu einer echten Netzversorgung. So übst du die Interpretation, ohne die Grenzen der Ausbildungsberechtigung zu verwischen.
+
+Systematischer Plausibilitätstest.
+
+Ein guter Plausibilitätstest beginnt vor dem Taschenrechner. Ist die angegebene Spannung eine Leiter- oder eine Strangspannung? Ist der Strom am Strang oder am Aussenleiter definiert? Ist der Verbraucher ohmsch, induktiv oder gemischt? Ist das Netz symmetrisch? Notiere diese vier Fragen auf deiner Arbeitskarte. Für einen symmetrischen rein ohmschen Dreieckfall gilt ein Leistungsfaktor von eins. Wenn das Ergebnis für 400 Volt und 8,66 Ampere Leiterstrom 3,46 Kilowatt lautet, fehlt vermutlich der Faktor Wurzel drei. Wenn daraus 10,39 Kilowatt werden, wurde der Faktor möglicherweise zweimal berücksichtigt. Der Vergleich mit drei mal 400 Volt mal fünf Ampere ergibt sechs Kilowatt und klärt die Rechnung. Die häufigste Fehlerquelle ist keine komplizierte Mathematik, sondern das ungenaue Benennen der betrachteten Grösse.
+
+Lerntransfer und Lösungen.
+
+Aufgabe eins: Drei gleiche Stränge haben je hundert Ohm und werden idealisiert mit 400 Volt im Dreieck betrieben. Der Strangstrom ist vier Ampere; der Leiterstrom beträgt 6,93 Ampere und die gesamte Wirkleistung 4,8 Kilowatt. Aufgabe zwei: Ein symmetrischer Verbraucher nimmt bei 400 Volt Leiter-Leiter und zehn Ampere Leiterstrom mit Leistungsfaktor 0,9 ungefähr 6,24 Kilowatt auf. Aufgabe drei: Ein Dreieckstrang ist ausgefallen. Ist die ursprüngliche Wurzel-drei-Beziehung für alle Leiterströme noch anwendbar? Nein, die Symmetrieannahme ist verletzt. Aufgabe vier: Wodurch unterscheidet sich die Sternspannung von der Dreieckstrangspannung? Im Stern liegt im symmetrischen Modell die um Wurzel drei kleinere Strangspannung an. Aufgabe fünf: Welche Aussage darfst du aus einer Unterrichtsrechnung nicht treffen? Dass eine reale Maschine ohne weitere Prüfungen entsprechend umgeschaltet werden darf. Begründe jede Antwort durch die Schaltstruktur.
+
+Fehleranalyse einer fiktiven Offerte.
+
+In einer Offerte steht «Dreiphasenheizung, vierhundert Volt, neun Ampere und neun Kilowatt». Prüfe diese Werte, bevor du sie in ein technisches Konzept übernimmst. Wenn die neun Ampere als Aussenleiterstrom und der Verbraucher als symmetrisch rein ohmsch gemeint sind, beträgt die errechnete Leistung Wurzel drei mal vierhundert mal neun, also rund 6,24 Kilowatt. Neun Kilowatt wären damit nicht plausibel. Wenn neun Ampere dagegen als Strangstrom einer Dreieckschaltung gemeint sind, ergeben drei mal vierhundert mal neun 10,8 Kilowatt. Auch dieser Wert passt nicht zu neun Kilowatt. Es fehlen also Bezeichnung und möglicherweise Leistungsfaktor oder Betriebszustand. Formuliere eine Rückfrage, die die zu messende Stromart, Betriebsart, Einschaltdauer, tatsächliche Spannung und den Leistungsfaktor klärt. Diese Übung verbindet die reine Formelkenntnis mit einer realistischen technischen Informationsprüfung.
+
+Erweiterte Rechenrückprobe mit Einheiten.
+
+Für drei gleiche Widerstände von hundertsechzig Ohm im Dreieck an vierhundert Volt beträgt die Spannung über jedem Zweig vierhundert Volt. Der Strangstrom ist 2,5 Ampere, der Leiterstrom rund 4,33 Ampere. Aus dem Einzelzweig erhältst du eine Leistung von tausend Watt, in der Summe also drei Kilowatt. Prüfe dieselbe Leistung mit der Dreiphasenformel: Wurzel drei mal vierhundert Volt mal 4,33 Ampere ist ungefähr dreitausend Watt. Die geringe Rundungsabweichung entsteht nur durch den gerundeten Leiterstrom. Schreibe ausdrücklich Watt als Einheit auf, nicht Voltampere, weil wir im rein ohmschen Modell den Leistungsfaktor eins annehmen. Erhöhe nun gedanklich den Widerstand jedes Zweigs auf dreihundertzwanzig Ohm. Der Strangstrom und die Leistung halbieren sich. Eine Verdopplung des Widerstands halbiert die Leistung bei konstanter Spannung; dies ist die zweite Rückprobe.
+
+Grenzen des symmetrischen Ersatzbilds.
+
+Ein symmetrisches Ersatzbild vereinfacht viele Rechnungen: Man kann einen Strang detailliert modellieren und daraus das Verhalten des Gesamtsystems ableiten. Das setzt voraus, dass die drei Lastzweige vergleichbar und die Speisespannungen symmetrisch sind. Treten in einer realen Maschine unterschiedlich belastete Heizzonen, verzerrte Stromformen oder steuerungsbedingt wechselnde Schaltzustände auf, kann dieses Ersatzbild unzureichend sein. Ein Stromzangenwert allein beschreibt dann weder alle Phasen noch die Gesamtwirkleistung. Zur Bewertung wären geeignete dreiphasige Leistungsmessung, Lastzustand und Messprotokoll nötig. Lege für deine theoretische Fallstudie deshalb zwei Spalten an: «im idealen Modell berechenbar» und «für den echten Betrieb noch nachzuweisen». Ordne Spannung, Anschlussart, Strangstrom, Leiterstrom, Leitungsquerschnitt und Schutzgerät der richtigen Spalte zu. Die ersten vier sind bei ausreichenden Angaben modellierbar; die beiden letzten sind nicht allein durch das Beispiel festgelegt.

@@ -25,3 +25,88 @@ Nach Inbetriebnahme soll ein zusätzlicher Frequenzumrichter eingebaut werden, o
 Musterlösung.
 
 Vor Änderung sind Wärme, EMV, Schutz, Leitungswege, der Nachweisumfang und die Dokumentation neu zu beurteilen. Eine mechanisch freie Hutschiene bedeutet nicht automatisch elektrische oder thermische Reserve.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Nach Inbetriebnahme soll ein zusätzlicher Frequenzumrichter eingebaut werden, ohne die Verteiler-Unterlagen anzupassen.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Vor Änderung sind Wärme, EMV, Schutz, Leitungswege, der Nachweisumfang und die Dokumentation neu zu beurteilen. Eine mechanisch freie Hutschiene bedeutet nicht automatisch elektrische oder thermische Reserve.
+
+Möglicher sicherer Übungsauftrag: Lege eine dreiteilige fiktive Projektmappe an: Lastenheft, Prüf-/Nachweisplan, Betriebshandbuch.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist kein ausreichender alleiniger Nachweis der Verteilereignung? Die richtige Antwort lautet: Mechanisch freie Hutschiene. Warum? Platzreserve ist nicht gleich elektrischer oder thermischer Nachweis.
+
+Frage 2: Was folgt auf einen Bauartnachweis bei einem gebauten Verteiler? Die richtige Antwort lautet: Stücknachweis. Warum? Das konkrete Exemplar wird geprüft.
+
+Frage 3: Welche Norm behandelt die sichere Arbeitsorganisation? Die richtige Antwort lautet: EN 50110-1. Warum? EN 50110-1 behandelt Betrieb und sicheres Arbeiten an elektrischen Anlagen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Verteilungsanforderungen messbar machen.
+Wir betrachten einen hypothetischen Maschinenverteiler mit 80 Ampere Einspeisung, mehreren Motorabgängen und einer 24-Volt-Steuerung. Ausgangspunkt ist ein Lastenheft: Versorgungsspannung, Frequenz, Anzahl und Charakteristik der Verbraucher, erwartete Kurzschlussbeanspruchung, Umgebungstemperatur, Aufstellhöhe, Verschmutzung, Wartungszugänge und Kommunikationsschnittstellen. Eine Angabe wie „für Produktion geeignet“ ist nicht prüfbar. Schreibe stattdessen die benötigten Funktionen und Randbedingungen nieder. Beispielsweise muss für jeden Motor bekannt sein, ob Direktanlauf, elektronischer Starter oder Frequenzumrichter vorgesehen ist. Das beeinflusst Bemessung, Erwärmung, EMV und Schutz. Das Lernziel liegt darin, die Verteilung als geprüftes Gesamtsystem und nicht als lose Sammlung von Schienen und Schutzschaltern zu verstehen.
+
+Fachkapitel 2: Bemessungsstrom ist nicht nur die Einspeisung.
+Die Zahl 80 Ampere gibt einen wichtigen Anhaltspunkt, sagt jedoch allein nichts über alle Betriebszustände aus. Die Summe der Motornennströme kann höher sein, wenn nicht alle Motoren gleichzeitig laufen. Gleichzeitig können Anlaufströme, Umrichter-Eingangsströme und Lastwechsel die Dimensionierung bestimmen. Im Modell laufen drei Motorabgänge zu 18, 12 und 9 Ampere gleichzeitig. Zusätzlich nimmt eine Steuerung 2 Ampere auf. Die einfache Summe ist 41 Ampere, noch ohne Leistungsfaktoren, Oberschwingungen oder Reserven. Diese Stromsumme ist keine vollständige Lastflussberechnung für eine mehrphasige Anlage. Dokumentiere daher, ob die Werte pro Phase gelten, ob Motoren symmetrisch speisen und welche Betriebsfälle gleichzeitig auftreten können.
+
+Fachkapitel 3: Kurzschlussfestigkeit und Einspeisepunkt.
+Eine Komponente mit 80 Ampere Nennstrom kann bei einem nahen Kurzschluss trotzdem zerstört werden, wenn ihre Kurzschlussfestigkeit oder das Abschaltvermögen nicht zum verfügbaren Fehlerstrom passen. Als Lernmodell liegt am Einspeisepunkt ein prospektiver Kurzschlussstrom von 10 Kiloampere vor. Der Schutzaufbau muss als Gesamtheit für die relevante Beanspruchung ausgelegt und nachgewiesen sein. Dabei können Herstellerkombinationen, vorgeschaltete Schutzeinrichtungen und deren Kennlinien relevant sein. Eine einzeln betrachtete Gerätemarkierung reicht nicht immer aus. Frage zudem nach dem Fehlerstrom an entfernten Abgängen, weil lange Leitungen einen niedrigeren Strom und damit andere Abschaltbedingungen ergeben können. Die tatsächliche Auswahl gehört in die Verantwortung eines berechtigten Fachbetriebs.
+
+Fachkapitel 4: Thermische Betrachtung im Gehäuse.
+Bei 80 Ampere entstehen in leitenden Komponenten Verluste. Das Modell P = I² mal R macht deutlich, warum Kontaktwiderstände und Stromverteilung relevant sind. Hat ein Übergang einen angenommenen Widerstand von 0,001 Ohm, entstehen bei 80 Ampere 6,4 Watt an diesem einen Punkt. In einem Gehäuse addieren sich zudem die Verluste von Schutzgeräten, Netzteilen und Umrichtern. Bei angenommener Gesamtverlustleistung von 250 Watt und einer modellhaften thermischen Gehäuse-Übergangszahl von 8 Watt pro Kelvin ergäbe sich ein Temperaturanstieg von rund 31 Kelvin. Das ist ein stark vereinfachtes Modell; reale Bauartnachweise, Einbauanweisungen und Herstellermethoden gehen vor. Die Zahl macht trotzdem anschaulich, weshalb „genügend Platz“ kein ausreichender Wärmenachweis ist.
+
+Fachkapitel 5: Trennung der Stromkreise.
+Leistungsabgänge, Steuerstromversorgung, Kommunikation und gegebenenfalls Sicherheitsfunktionen dürfen nicht ohne funktionelle Begründung nebeneinander geplant werden. Je nach Anlage geht es um elektrische Trennung, Störfestigkeit, Schutz gegen Berührung und erleichterte Wartung. Ein Frequenzumrichter erzeugt andere Störbedingungen als ein digitales Sensorsignal. Deshalb werden Kabelführung, Schirmanschlüsse, Erdung und Klemmenkonzept früh abgestimmt. In einem Lernplan sind getrennte Funktionsbereiche eingezeichnet, ohne daraus eine verbindliche Mindestabstandsregel abzuleiten. Die Normen für Schaltgerätekombinationen und die Herstellerunterlagen legen die konkret anwendbaren Nachweise fest. Eine übersichtliche Trennung erhöht darüber hinaus die Qualität der Fehlersuche.
+
+Fachkapitel 6: Bauartnachweis und Stücknachweis.
+Der Bauartnachweis beantwortet, ob eine konstruktive Lösung die relevanten Anforderungen grundsätzlich erfüllt. Der Stücknachweis oder Routine-Nachweis bezieht sich auf die tatsächlich gebaute Kombination. Beide sind nicht austauschbar. Wenn das Gehäusekonzept einmal geprüft wurde, folgt daraus nicht, dass jede spätere Montage automatisch fehlerfrei ist. Umgekehrt beweist eine Sichtprüfung des fertigen Schaltschrankes noch keine ausreichende Kurzschlussfestigkeit oder thermische Eignung des gewählten Designs. Erstelle eine Nachweismatrix mit Bemessungsdaten, Herstellerunterlagen, Verdrahtungsprüfung, Kennzeichnung, elektrischen Prüfungen und dokumentierten Abweichungen. Wichtig ist, dass die Verantwortlichkeiten zum jeweiligen System und zu den anzuwendenden Standards passen.
+
+Fachkapitel 7: Verriegelungen und Sicherheitsfunktionen.
+Ein Schaltplan zeigt möglicherweise einen Not-Halt-Taster, doch seine Existenz sagt nichts über den erreichten Sicherheitslevel der Gesamtfunktion. Funktionale Sicherheit verlangt eine gesonderte Risikobeurteilung, geeignete Architektur, Bauteilauswahl und Validierung. Das didaktische Beispiel unterscheidet daher eine Bedienverriegelung zum geordneten Starten zweier Motoren von einer sicherheitsgerichteten Abschaltung. Bei einer Bedienverriegelung genügt es, die logische Bedingung im KOP oder FUP nachzuvollziehen. Bei einer Sicherheitsfunktion sind dagegen Fehlerszenarien, Diagnosedeckung und Anforderungen aus den zutreffenden Maschinensicherheitsregeln zu prüfen. Der Unterschied ist für eine fachliche Bewertung zentral.
+
+Fachkapitel 8: Technische Übergabe und Änderungsmanagement.
+Zur Auslieferung eines Verteilers gehören revidierte Stromlaufpläne, Stückliste, Klemmenplan, Einstellungen, Herstellererklärungen, Prüf- und Testberichte sowie eine eindeutige Kennzeichnung. Der Betreiber muss erkennen können, welche Schalter welche Funktionen beeinflussen und wie ein Fehler sicher gemeldet wird. Änderungen nach der Abnahme sind besonders heikel: Ein neues Netzteil oder ein zusätzlicher Umrichter kann die Wärmebilanz, elektromagnetische Verträglichkeit oder Kurzschlusskoordination verändern. Die projektverantwortliche Fachperson muss daher die Nachweise auf ihre Fortgeltung überprüfen. Eine Versionsnummer auf dem Plan ist nur dann sinnvoll, wenn sie mit dem realen Gerätebestand und dem Softwarestand zusammenpasst.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Summenstrom sauber einordnen.
+Drei Motorabgänge führen 18, 12 und 9 Ampere; eine Steuerung 2 Ampere. Addiere im passenden vereinfachten Modell zu 41 Ampere. Erläutere, weshalb die Stromsumme nur bei klarer Phasen- und Betriebsannahme aussagekräftig ist. Prüfe anschliessend, ob die Motoren gleichzeitig laufen und ob Anlauf- oder Umrichtereffekte zusätzliche Anforderungen erzeugen.
+
+Fall 2: Warmer Klemmpunkt.
+Ein Messprotokoll zeigt eine auffällig warme Klemme. Bei hypothetisch 80 Ampere und 0,001 Ohm Übergangswiderstand entsteht eine Verlustleistung von 6,4 Watt. Berechne auch den vierfachen Verlust bei doppeltem Strom. Eine Temperaturaufnahme allein genügt nicht für eine Freigabe; Kontaktzustand, Last und Vergleichsstellen müssen fachkundig beurteilt werden.
+
+Fall 3: 10-kA-Fehlerstrom.
+Am Einspeisepunkt sind 10 Kiloampere prospektiver Kurzschlussstrom angegeben. Ein Schutzschalter trägt lediglich „80 A“ auf dem Typenschild. Begründe, weshalb diese Angabe für die Kurzschlussbeurteilung unzureichend ist. Benötigt werden Herstellerdaten zur Abschalt- und Bemessungsfähigkeit sowie eine Nachweisführung für die gesamte Schaltgerätekombination.
+
+Fall 4: Neuer Frequenzumrichter.
+Ein bislang direkt gestarteter Motor erhält einen Frequenzumrichter. Welche Dokumente müssen neu bewertet werden? Musterlösung: Lastprofil, Verlustleistung, EMV, Verdrahtung, thermische Bedingungen, Schutz- und Erdungskonzept, gegebenenfalls Herstellerkonformität und Revision des Stromlaufplans. Der Umbau ist nicht allein ein Austausch von zwei Komponenten.
+
+Fall 5: Bedienverriegelung oder Sicherheit.
+Eine Steuerungslogik verhindert, dass zwei Förderbänder gleichzeitig laufen. Der Betreiber bezeichnet sie deshalb als Sicherheitsfunktion. Hinterfrage diese Schlussfolgerung. Die reine gegenseitige Verriegelung kann eine Prozessfunktion sein; sicherheitsrelevante Aufgaben erfordern zusätzliche Risikoanalyse und geeigneten funktionalen Nachweis.
+
+Fall 6: Abnahme mit offenen Punkten.
+Bei der Abnahme fehlt der Nachweis für die Erwärmung im Gehäuse. Der Rest des Verteilers funktioniert. Entwirf eine Mängelliste mit Status, Verantwortlichkeit, Nachweisbedarf und Sperrvermerk für die abschliessende Freigabe. Funktionieren im Leerlauf ist kein Ersatz für den dokumentierten Bauart- und Stücknachweis.
+
+Fall 7: Gleichzeitigkeit statt Typenschildsumme.
+Eine Maschine besitzt fünf elektrische Verbraucher mit Nennströmen von 25, 20, 18, 12 und 5 Ampere. Die reine Summe beträgt 80 Ampere. Im dokumentierten Betriebszyklus laufen jedoch nicht alle Lasten gleichzeitig. Erstelle eine Betriebsfalltabelle, die Dauerbetrieb, Anlauf und Servicezustand unterscheidet. Die Einspeisung darf weder allein aus der grossen Summe noch aus einer optimistischen Gleichzeitigkeitsschätzung ausgewählt werden. Stelle fest, welche zusätzlichen Daten für eine realistische Bemessung nötig sind: Stromverlauf, Leistungsfaktor, Einphasigkeit oder Dreiphasigkeit, Einschaltströme, Umgebung und Herstellerbedingungen. Mit dieser Aufstellung kann die zuständige Fachplanung die Auslegung später nachvollziehbar nachweisen.
+
+Fall 8: Gehäusegrösse im Sommer.
+Die geplante Schaltgerätekombination soll in einem Produktionsraum stehen, der im Sommer 35 Grad Celsius erreichen kann. Die internen Verlustleistungen betragen im Beispiel 250 Watt. Diskutiere, warum die Wärmeabfuhr nicht nur vom Gehäusevolumen abhängt, sondern auch von Luftführung, Einbauart, Anordnung der Komponenten und den vom Hersteller zulässigen Temperaturen. Ein vereinfachter Temperaturanstieg von 31 Kelvin darf nicht ohne weiteres zu einer Freigabe führen. Die tatsächliche thermische Bewertung muss mit dem dafür vorgesehenen Nachweisverfahren erfolgen. Prüfe zudem, ob ein Klimagerät, ein zusätzlicher Umrichter oder eine geschlossene Schranktür die Randbedingungen des ursprünglichen Nachweises verändern würden.
+
+Fall 9: Steuerkreis nach Netzteiltausch.
+Nach dem Ausfall eines 24-Volt-Netzteils wird ein ähnliches Modell mit höherem Nennstrom eingebaut. Der Betreiber hält das für eine unkritische Verbesserung. Beurteile systematisch: Ausgangsspannung, Schutzverhalten bei Kurzschluss, Einschaltstrom, Verlustleistung, Einbauabstände, Verdrahtung und CE-/Normen-Kontext sind zu prüfen. Eine höhere Stromangabe kann die Auswahl nicht allein rechtfertigen. In den Revisionsunterlagen werden alte und neue Typenbezeichnung, Herstellerunterlagen und die fachkundige Änderungsbewertung dokumentiert. Das Beispiel zeigt, warum vermeintlich kleine Serviceänderungen die ursprünglichen Verteilungsnachweise berühren können.
+
+Fall 10: Kurzschlussnachweis nach Netzumbau.
+Ein Maschinenverteiler war für einen bekannten Einspeisepunkt ausgelegt. Nach einer Netzverstärkung steigt der zu erwartende prospektive Kurzschlussstrom. Der Betreiber möchte die Anlage unverändert weiterbenutzen. Formuliere den nächsten Prüfschritt: Die vorhandene Bauart- und Schutzgerätekoordination muss gegen die neue Fehlerstrombeanspruchung bewertet werden. Vorzulegen sind dokumentierte Netzbedingungen, Herstellerdaten und der Nachweis der Gesamtanordnung. Eine Kennzeichnung „80 A“ beantwortet diese Frage nicht. Die Lernantwort benennt den Anlass der Neubewertung und erklärt, warum die bisherige Freigabe nicht automatisch jedes spätere Netzszenario abdeckt.
+
+Fall 11: Mängelkonferenz mit drei Fachbereichen.
+Bei der Werkabnahme des Maschinenverteilers fallen drei Punkte auf: Die thermische Bewertung berücksichtigt einen später ergänzten Frequenzumrichter nicht, das Typenschild nennt einen alten Revisionsstand und die Dokumentation zur sicherheitsgerichteten Verriegelung ist unvollständig. Formuliere eine Mängelkonferenz mit Fachplanung, Hersteller und Betreiber. Ordne jeden Punkt nach Gegenstand, Risiko, betroffenem Nachweis, Verantwortlicher und erwarteter Massnahme. Für die Erwärmung ist der Nachweis anhand der tatsächlichen Komponenten zu aktualisieren. Für die Kennzeichnung braucht es eine Übereinstimmung mit dem gebautem Gerät. Für die Sicherheitsfunktion sind gesonderte Risiko- und Validierungsunterlagen relevant. Entscheide, ob eine vollständige Freigabe ohne diese Informationen möglich wäre, und begründe die Antwort mit der unvollständigen Nachweisführung. Die Lernaufgabe bewertet die Fähigkeit, mehrere Normbereiche auseinanderzuhalten und dennoch einen konsistenten Projektentscheid zu formulieren. Keine Komponente wird allein aufgrund äusserer Ähnlichkeit als gleichwertig erklärt.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

@@ -1,0 +1,115 @@
+Technisches Anschlussgesuch, Installationsanzeige und SiNa.
+
+Die drei Kürzel TAG, IA und SiNa meinen unterschiedliche Dokumente. Wer sie korrekt einordnet, kann ein PV-Projekt vom Vorprojekt bis zur Übergabe sauber strukturieren.
+
+TAG: Netzverträglichkeit vorab klären.
+
+Für verschiedene Anlagen, beispielsweise netzparallel betriebene Erzeuger und elektrische Speicher, ist ein technisches Anschlussgesuch vorgesehen. Es stellt der Netzbetreiberperspektive die geplante Leistung, Betriebsart und die technischen Kenndaten zur Verfügung. Das TAG ist kein Ersatz für eine Installationsbewilligung.
+
+IA: geplante elektrische Arbeiten anzeigen.
+
+Die Installationsanzeige beschreibt die geplanten Installationsarbeiten und beinhaltet je nach Projekt Schema, Leistungsangaben und Messeinrichtungen. Eine Bestätigung des VNB ist keine Aussage, dass jede Schraubverbindung, jeder Querschnitt und jeder Schutz korrekt ausgelegt wurde. Diese Verantwortung bleibt bei den berechtigten Fachpersonen.
+
+Nach Installation: Prüfung und Nachweise.
+
+Vor Inbetriebnahme sind die Voraussetzungen des VNB sowie die notwendigen Prüfungen und Messprotokolle zu erfüllen. Der Sicherheitsnachweis dokumentiert den geprüften Zustand im gesetzlichen Rahmen. Die normgerechte PV-Systemdokumentation nach SN EN 62446-1 kommt zusätzlich hinzu.
+
+Rechenbeispiel oder Denkmodell.
+
+Ein praktischer Zeitstrahl lautet: Idee → Netz-/Bewilligungsabklärung → TAG (falls nötig) → IA → geregelte Installation → Prüfung und VNB-Inbetriebnahme → SiNa und Anlagendokumentation.
+
+Praxisfall.
+
+Du erhältst eine Rechnung für einen fertig montierten Wechselrichter. Der Lieferant behauptet: „Wir haben doch das TAG, also kann die Anlage sofort ans Netz.“
+
+Musterlösung.
+
+Nein. Das TAG behandelt die technische Anschlussabklärung. Es ersetzt weder freigegebene Installation, noch Inbetriebnahmebedingungen und Nachweise. Prüfe die erforderlichen Dokumente und die VNB-Freigaben.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Du erhältst eine Rechnung für einen fertig montierten Wechselrichter. Der Lieferant behauptet: „Wir haben doch das TAG, also kann die Anlage sofort ans Netz.“
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Nein. Das TAG behandelt die technische Anschlussabklärung. Es ersetzt weder freigegebene Installation, noch Inbetriebnahmebedingungen und Nachweise. Prüfe die erforderlichen Dokumente und die VNB-Freigaben.
+
+Möglicher sicherer Übungsauftrag: Ordne acht fiktive Formulare dem richtigen Projektzeitpunkt zu. Arbeite ohne reale Meldung.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was klärt das TAG in erster Linie? Die richtige Antwort lautet: Technische Anschlussbedingungen. Warum? Es ist der technische Netzanschlussantrag.
+
+Frage 2: Was bedeutet eine genehmigte IA? Die richtige Antwort lautet: Die angemeldeten Arbeiten können nach Vorgaben begonnen werden, ohne die Installateurverantwortung zu ersetzen. Warum? Eine Freigabe ist kein pauschales Qualitätszertifikat.
+
+Frage 3: Welche Unterlage weist eine kontrollierte Elektroinstallation nach? Die richtige Antwort lautet: SiNa, soweit gesetzlich erforderlich. Warum? Der SiNa erfüllt eine andere Funktion als das Anschlussgesuch.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Drei Dokumente mit unterschiedlichen Aufgaben.
+Technisches Anschlussgesuch, Installationsanzeige und Sicherheitsnachweis werden im Projektalltag oft in einem Atemzug genannt, erfüllen aber verschiedene Funktionen. Das technische Anschlussgesuch dient der vorgängigen Prüfung der Netzverträglichkeit und Anschlussbedingungen für bestimmte Geräte oder Anlagen. Die Installationsanzeige meldet die geplanten Installationsarbeiten nach den einschlägigen Werkvorschriften. Der Sicherheitsnachweis gehört zur dokumentierten elektrischen Sicherheit der ausgeführten Installation und zu den gesetzlich vorgesehenen Kontrollen. Ein Formular kann das andere nicht stillschweigend ersetzen. Für einen vollständigen Projektablauf brauchst Du daher eine Dokumentenmatrix mit Zweck, Einreichungszeitpunkt, verantwortlicher Person, Empfänger und Bearbeitungsstand.
+
+Fachkapitel 2: Was in ein technisches Anschlussgesuch gehört.
+Bei einer PV-Anlage werden geplante Erzeugungsleistung, Wechselrichterdaten, Anschlussart und gegebenenfalls besondere Netz- oder Steuerfunktionen betrachtet. Bei Batteriespeichern ist die Betriebsart besonders wichtig: Wird Energie nur lokal gespeichert, kann die Anlage netzparallel arbeiten, oder sind Insel- beziehungsweise Ersatzstromfunktionen vorgesehen? Für Ladeinfrastruktur interessiert die mögliche Belastung und ihr Management. Das konkrete Formular und die Schwellenwerte ergeben sich aus aktuellen Werkvorschriften und den zuständigen VNB-Vorgaben. Die Lernaufgabe besteht nicht darin, willkürliche Pflichtfelder zu erfinden, sondern die aus Netzsicht erforderlichen technischen Informationen strukturiert zusammenzutragen und offene Daten ehrlich zu markieren.
+
+Fachkapitel 3: Installationsanzeige vor der Ausführung.
+Eine Installationsanzeige dokumentiert geplante elektrische Arbeiten im dafür vorgesehenen Verfahren. Sie ist nicht einfach der Projektname auf einem Blatt. Für die zu beurteilende Installation sind Umfang, Anschlussdaten, geplante Verteilung, wichtige Verbraucher beziehungsweise Erzeuger und verantwortlicher Installationsbetrieb relevant. Im Fall einer bestehenden Verteilung muss zudem ersichtlich sein, was neu, geändert oder unverändert ist. Eine nachträgliche Meldung kann einen versäumten vorgängigen Prozess nicht automatisch ersetzen. Im Unterricht wird deshalb ein Projektkalender erstellt: Vorprojekt, Netzabklärung, Installation, Kontrollen und Übergabe werden getrennt. Welche Unterlagen konkret verlangt sind, wird mit dem aktuellen Formular des örtlichen VNB verglichen.
+
+Fachkapitel 4: Sicherheitsnachweis als Ergebnis eines Prüfprozesses.
+Ein Sicherheitsnachweis soll nicht bloss das Vorhandensein einer Schaltanlage bestätigen, sondern die Einhaltung des vorgesehenen Kontroll- und Nachweisverfahrens dokumentieren. Je nach Installation können unterschiedliche Kontroll- und Unabhängigkeitsanforderungen gelten. Die verantwortlichen Fachpersonen bestimmen die nötigen Prüfungen anhand der anwendbaren Vorschriften. Im Lernmodell erhält das Projekt eine Prüfliste mit Sichtkontrolle, erforderlichen elektrischen Prüfungen, dokumentierten Ergebnissen, festgestellten Mängeln und der dafür zuständigen Person. Ein Eintrag „funktioniert“ ist kein Ersatz für den formalen Nachweis. Das Unterrichtsziel ist die sichere Unterscheidung von Installationserstellung, technischer Kontrolle und rechtlicher Bescheinigung.
+
+Fachkapitel 5: Batteriespeicher als Sonderfall.
+Ein Batteriespeicher kann je nach System Energie aus dem Netz aufnehmen, aus PV laden oder wieder ins Netz abgeben. Dadurch ändern sich Betriebszustände und gegebenenfalls die Relevanz für den Netzanschluss. Ein einfaches Einlinienschema muss deshalb den Energiefluss in beiden Richtungen darstellen. Zusätzlich sind Ersatzstromumschaltung, Messkonzept, Wechselrichtergrenzen und Schutzmassnahmen zu klären. Die Annahme „Batterie hinter dem Zähler ist intern und geht den VNB nichts an“ kann falsch sein. Entscheidend sind Anschlussart, Netzparallelbetrieb und die aktuellen VNB-Vorgaben. Das Lernprojekt verlangt eine klare technische Beschreibung statt eines Schlagworts wie „intelligent“ oder „autark“.
+
+Fachkapitel 6: Datenkonsistenz zwischen Dokumenten.
+Ein typischer Projektfehler entsteht, wenn im technischen Anschlussgesuch 10 Kilowatt Wechselrichterleistung, in der Installationsanzeige 12 Kilowatt und im Revisionsplan ein anderer Wert steht. Das muss nicht zwingend eine reale Fehlplanung bedeuten; es kann eine nachträgliche Geräteänderung sein. Ohne Abgleich bleibt aber unklar, auf welcher Grundlage die Netzfreigabe und die Prüfungen erfolgten. Die Projektleitung führt darum ein Änderungsregister. Jede relevante Anpassung enthält Datum, Ursache, betroffene Formulare und verantwortliche Freigabe. Diese Versionsdisziplin ist ebenso wichtig wie die physikalische Dimensionierung.
+
+Fachkapitel 7: Fristen und Empfänger.
+Unterlagen haben unterschiedliche Empfänger und Abgabezeitpunkte. Beispielsweise können Netzbetreiber, Eigentümerschaft, Kontrollorgane und Installationsbetrieb jeweils einen Teil des Dossiers benötigen. Die Unterrichtsmappe hält deshalb für jedes Dokument ein Abgabedatum, die verantwortliche Person und den bestätigten Empfang fest. Ein offener Rücklauf des Netzbetreibers wird nicht durch stillschweigende Annahme zur Genehmigung. Wo konkreten Fristen, Formularfassungen oder Prüfformen rechtlich relevante Bedeutung zukommt, sind die aktuelle Verordnung und das örtliche Verfahren ausschlaggebend. Das Lernziel ist, keine vereinfachte universelle Schweizer Frist zu erfinden.
+
+Fachkapitel 8: Übergabe ohne Lücken.
+Am Projektabschluss werden technische Dokumentation, Nachweise und Betreiberinformationen abgeglichen. Im PV-Beispiel gehören Stringplan, Wechselrichterunterlagen, Sicherheits- und Prüfberichte, Messkonzept, Installationsrevisionsplan sowie Nutzungs- und Wartungshinweise in die dafür vorgesehene Ablage. Die Dokumente müssen dieselbe Anlagenversion beschreiben. Offen gebliebene Mängel werden nicht in einer allgemeinen Abnahmebemerkung versteckt, sondern mit Zuständigkeit und Frist geführt. Das Ergebnis ist ein auditfähiges Dossier: Ein Dritter kann nachvollziehen, welche Anlage geplant, gebaut und geprüft wurde und welche Vorgaben des Netzbetreibers berücksichtigt wurden.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: PV-Technikdaten nicht gleich.
+Im TAG stehen 10 Kilowatt Einspeiseleistung, in der IA 12 Kilowatt. Formuliere das Vorgehen: Geräte- und Planstand feststellen, die tatsächliche Änderung dokumentieren, Auswirkungen auf Netzfreigabe und Installation prüfen und die betroffenen Unterlagen vor der Freigabe angleichen. Keine der Zahlen wird ohne Beleg bevorzugt.
+
+Fall 2: Batterie erst später erwähnt.
+Nach Freigabe der PV-Anlage plant der Kunde eine Batteriespeicher-Erweiterung mit Ersatzstromfunktion. Erstelle eine erneute Abklärungsliste zu Anschlussgesuch, Mess- und Schutzkonzept, Umschaltung und Bewilligungen. Die vorhandene PV-Freigabe ist nicht automatisch eine Genehmigung für die Erweiterung.
+
+Fall 3: SiNa aus Funktionstest.
+Ein Projektmitarbeiter meint, das erfolgreiche Einschalten der Anlage genüge als Sicherheitsnachweis. Erkläre den Fehler: Funktionsprüfung und formales, gesetzlich vorgesehenes Kontrollverfahren haben unterschiedliche Zwecke. Die zuständige Fachperson muss die geforderten Prüfungen und Dokumente prüfen und unterschreiben.
+
+Fall 4: Formular fehlt am Stichtag.
+Der geplante Inbetriebnahmetermin steht fest, das technische Anschlussgesuch ist aber noch nicht beantwortet. Beschreibe den sachgerechten Projektentscheid: Genehmigungs- und Freigabestatus prüfen, nötige Terminänderung festhalten und keine Netzfreigabe fingieren. Die Ausführung bleibt vom tatsächlich zulässigen Umfang abhängig.
+
+Fall 5: Zwei Eigentümer.
+Ein Mehrfamilienhaus hat eine gemeinschaftliche PV-Anlage, unterschiedliche Mietparteien und einzelne Ladepunkte. Wer erhält die Unterlagen? Stelle eine Empfängermatrix mit Netzbetreiber, zuständigem Kontrollorgan, Eigentümergemeinschaft und Installationsbetrieb auf. Weise darauf hin, dass Betriebsdatenzugriff und rechtliche Prüfdokumente auseinanderzuhalten sind.
+
+Fall 6: Wechselrichter getauscht.
+Nach der technischen Freigabe wird das Wechselrichtermodell geändert. Welche Daten sind erneut abzugleichen? AC-Leistung, Anschlussart, Netzfunktionen, Schutzkonzept, Messung, Dokumentation und allenfalls Meldungen. Ein Austausch, der mechanisch passt, ist nicht automatisch netz- und installativ gleichwertig.
+
+Fall 7: Formularfolge für PV plus Ladestation.
+Ein Einfamilienhaus erhält gleichzeitig eine PV-Anlage und zwei Ladepunkte. Welche Abklärungen sind vor dem Baubeginn nötig? Auf Grundlage der aktuellen VNB-Werkvorschriften wird geprüft, ob für die geplanten technischen Geräte Anschlussgesuche erforderlich sind. Unabhängig davon ist die Installationsanzeige für die zu meldenden Arbeiten zu betrachten. Nach Ausführung folgen die dafür vorgesehenen Prüf- und Nachweisdokumente. Das Lernziel ist die zeitliche Abfolge, nicht die Erfindung allgemeingültiger Fristen. Das Dossier nennt für jedes Formular den zuständigen Bearbeiter und den aktuellen Rückmeldestatus.
+
+Fall 8: Gerätetausch nach TAG.
+Ein Netzbetreiber hat einen bestimmten Wechselrichtertyp beurteilt. Vor Einbau liefert der Händler ein anderes, angeblich gleichwertiges Gerät. Prüfe die Aussage. Typenschild und Leistungsbereich reichen nicht immer zur Gleichwertigkeit: Betriebsart, Netzfunktionen, Konfiguration und Schutzkonzept können abweichen. Die technischen und administrativen Unterlagen müssen auf den neuen Typ abgestimmt werden; falls nötig, ist die Zustimmung neu einzuholen. Der Vorgang wird als Änderungsentscheidung dokumentiert, damit beim späteren Prüfen klar bleibt, welches Gerät tatsächlich installiert wurde.
+
+Fall 9: SiNa und offene Mängel.
+Die Schlusskontrolle zeigt eine nicht abgeschlossene Dokumentation. Der Projektleiter möchte dennoch den Sicherheitsnachweis ausstellen, weil die Anlage im Test läuft. Begründe die Unzulänglichkeit: Ein funktionierendes Gerät ist keine vollständige Aussage über die Sicherheit der Installation. Der aktuelle rechtliche und technische Nachweisumfang muss geprüft werden. Offene Mängel sind klar zu benennen und entsprechend ihrer Bedeutung durch zuständige Fachpersonen zu behandeln. Ein leeres Protokollfeld darf nicht mit einem angenommenen Messwert gefüllt werden. Verantwortlichkeiten und Folgetermine gehören ins Dossier.
+
+Fall 10: Formularpflicht falsch pauschalisiert.
+In einem internen Schulungsblatt steht, dass ein bestimmtes Formular in der ganzen Schweiz ab exakt derselben Leistung erforderlich sei. Formuliere eine fachlich robustere Aussage: Die anwendbaren Werkvorschriften CH und die örtliche Umsetzung des zuständigen Verteilnetzbetreibers sind für den konkreten Gerätetyp und die geplante Betriebsweise zu prüfen. Nur eine belegte aktuelle Fundstelle erlaubt einen festen Schwellenwert im Einzelfall. Eine generische Schulungszahl ohne Quelle ist als Lernhinweis, nicht als Freigabekriterium zu behandeln.
+
+Fall 11: Unvollständiges Dossier vor der Netzanmeldung.
+Für eine PV-Anlage sind Modullisten, ein Wechselrichterprospekt und ein Prinzipschema vorhanden. Der Antragsteller möchte daraus sofort das technische Anschlussgesuch, die Installationsanzeige und den Sicherheitsnachweis gleichzeitig ausstellen. Erkläre die sachliche Unmöglichkeit eines solchen Schritts. Das technische Anschlussgesuch und die Installationsanzeige gehören grundsätzlich zur vorgängigen Planung und benötigen die dafür erforderlichen Kenndaten. Der Sicherheitsnachweis setzt dagegen den gesetzlich vorgesehenen installativen Prüf- und Kontrollprozess voraus. Prüfe, welche Unterlagen noch fehlen: Betriebsart, AC-Leistung, Schutzkonzept, Messkonzept, verantwortlicher Installationsbetrieb und später tatsächliche Prüfberichte. Entwirf eine Zeitachse mit jeweils einem Dokumentenverantwortlichen. Der Musterentscheid ist eine strukturierte Nachforderung, keine fingierte Abgabe. Damit wird klar, dass die Formularlogik auch eine Sicherheits- und Qualitätslogik ist.
+
+Weiterführende Fachnotiz: Freigabestatus sichtbar halten.
+In der Projektübersicht erhält jedes Formular einen eindeutig benannten Zustand: in Vorbereitung, eingereicht, Rückfrage offen, bestätigt oder revisionsbedürftig. Ein Datum der Einreichung ist nicht dasselbe wie eine bestätigte Zustimmung. Zusätzlich wird aufgeführt, auf welche Geräteversion und Betriebsart sich der jeweilige Status bezieht. Diese kleine organisatorische Massnahme verhindert, dass Änderungen am Wechselrichter oder Speicher mit einem älteren Formularstand unbemerkt in die Ausführung gelangen. Bei rechtlich entscheidenden Schritten erfolgt die Freigabe durch die zuständigen Stellen.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

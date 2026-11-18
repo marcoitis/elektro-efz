@@ -1,1 +1,106 @@
-Lektion 3.11-B: Messstrategie, Gegenprüfung und Ursachenanalyse. Eine Diagnose gewinnt an Qualität, wenn für jede Hypothese eine erwartete Beobachtung definiert wird. Ein Messwert allein beweist selten eine Ursache. Erst eine unabhängige Gegenprüfung, ein Vergleich mit dem Sollzustand und eine abschliessende Funktionsprüfung machen den Befund belastbar. Änderungen sind zurückverfolgbar zu dokumentieren. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein simulierter Taster scheint defekt. Vergleiche die erwartete und tatsächliche Signallogik im 24-Volt-Modell. Prüfe, ob das beobachtete Verhalten auch durch eine falsche Parametrierung oder eine unterbrochene Leitung erklärbar ist. Formuliere eine zweite Prüfung, die diese Ursachen trennt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Fehlerbaum, Hypothesen und Priorisierung; Mess-/Prüfentscheid und Fachkompetenzgrenzen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I V Artikel 24; N I N Teil 6; Suva 84042.D. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.11-B: Messstrategie, Gegenprüfung und Ursachenanalyse. Eine Diagnose gewinnt an Qualität, wenn für jede Hypothese eine erwartete Beobachtung definiert wird. Ein Messwert allein beweist selten eine Ursache. Erst eine unabhängige Gegenprüfung, ein Vergleich mit dem Sollzustand und eine abschliessende Funktionsprüfung machen den Befund belastbar. Änderungen sind zurückverfolgbar zu dokumentieren. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein simulierter Taster scheint defekt. Vergleiche die erwartete und tatsächliche Signallogik im 24-Volt-Modell. Prüfe, ob das beobachtete Verhalten auch durch eine falsche Parametrierung oder eine unterbrochene Leitung erklärbar ist. Formuliere eine zweite Prüfung, die diese Ursachen trennt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Fehlerbaum, Hypothesen und Priorisierung; Mess-/Prüfentscheid und Fachkompetenzgrenzen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIV Artikel 24; NIN Teil 6; Suva 84042.D. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Fehlerbaum, Hypothesen und Priorisierung; Mess-/Prüfentscheid und Fachkompetenzgrenzen.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was dient zur Unterscheidung mehrerer möglicher Ursachen?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Fehlersuche an 24-V-Board mit verdeckten Fehlern und Logbuch. Halte zusätzlich die Antwort auf die Frage «Was dient zur Unterscheidung mehrerer möglicher Ursachen?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was dient zur Unterscheidung mehrerer möglicher Ursachen? Die richtige Antwort lautet: Eine passende Gegenprüfung. Warum? Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler.. Warum? Der Merksatz lautet: Ein reproduzierbarer Befund ist besser als ein zufällig verschwundener Fehler.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Die Messfrage vor das Messgerät stellen.
+Eine professionelle Messstrategie beginnt mit der Formulierung einer Frage. «Liegt an der Modelllast unter Betrieb die erforderliche Spannung an?» ist präziser als «Spannung messen». Die erste Frage bestimmt Messpunkte, Betriebszustand, Messgrösse und zulässige Toleranz. Erst danach wird das geeignete Messverfahren gewählt. Für reale elektrische Installationen sind entsprechende Berechtigungen, sichere Arbeitsverfahren und normgerechte Instrumente erforderlich. Im Selbststudium beschränken wir die praktische Durchführung auf Kleinspannungsaufbauten, Simulationen und die Auswertung vorhandener Messprotokolle.
+
+
+Messung unter Last statt nur im Leerlauf.
+Ein Netzgerät zeigt ohne Last 24,1 Volt. Wird die Modelllast eingeschaltet, sinkt die Spannung auf 18,5 Volt. Der Leerlaufwert allein hätte suggeriert, die Versorgung funktioniere einwandfrei. Der Lastfall deutet dagegen auf zu hohen Innenwiderstand, überlastete Versorgung oder eine schlechte Verbindung hin. Bei einem angenommenen Strom von zwei Ampere lässt sich ein zusätzlicher Spannungsabfall von 5,6 Volt durch rund 2,8 Ohm erklären. Die Rechnung ist kein vollständiger Beweis; sie zeigt aber, wie eine Messdifferenz zu einer prüfbaren Hypothese führt.
+
+
+Gegenprüfung mit zweiter Messgrösse.
+Eine Spannungsmessung kann durch eine Strommessung, eine Widerstandsmessung am spannungsfreien Prüfstück oder einen Vergleich an einem zweiten Punkt ergänzt werden. Diese Kombination reduziert Fehlinterpretationen. Wenn eine Leitung unter Last auffällig viel Spannung verliert, wäre ein zusätzlicher Vergleich der Leitungsenden hilfreich. Auch Sichtbefunde zu Steckkontakten können die Hypothese unterstützen. Wichtig: Eine Gegenprüfung darf nicht bloss die gleiche Messung unter anderem Namen wiederholen. Sie muss eine alternative Erklärung unterscheiden können.
+
+
+Messgeräte als Teil des Systems.
+Das Messgerät beeinflusst das Ergebnis durch Eingangswiderstand, Bandbreite, Genauigkeitsklasse und Anschlussart. Ein hochohmiges Multimeter kann an unterbrochenen Leitungen scheinbare Spannungen anzeigen, die unter Last zusammenbrechen. Ein Messgerät mit ungeeigneter Bandbreite bildet schnelle Vorgänge nicht korrekt ab. Bei Oszilloskopen können Masseverbindungen Potenziale ungewollt koppeln. Daraus folgt: Eine Messzahl ist nur in Verbindung mit Messgerät, Schaltung und Verfahren interpretierbar. Eine Einheit ohne Kontext kann fachlich irreführender sein als gar kein Wert.
+
+
+Messunsicherheit praktisch verstehen.
+Ein digitales Messgerät zeigt 12,03 Volt. Das bedeutet nicht, dass die wahre Spannung genau 12,03 Volt beträgt. Datenblätter definieren eine Messunsicherheit, oft in einer Kombination aus Prozent des Messwerts und Anzeigeziffern. Im Unterricht rechnen wir beispielhaft mit ±(0,5 Prozent des Messwerts plus 2 Digits) bei 0,01-Volt-Auflösung. Bei 12,03 Volt ergeben 0,5 Prozent rund 0,060 Volt; zwei Digits sind 0,02 Volt. Insgesamt beträgt die vereinfachte Grenze etwa ±0,08 Volt. Der Messwert darf also nicht als hundertstelgenaue Wahrheit interpretiert werden.
+
+
+Hypothese, Test und Entscheidung.
+Eine gute Diagnose formuliert drei getrennte Sätze: Hypothese: Der Kontaktwiderstand ist erhöht. Test: Wir vergleichen die Spannungen vor und nach dem Steckkontakt bei definiertem Laststrom. Entscheidung: Bei deutlich höherem Spannungsabfall am Kontakt als im Referenzzustand wird die Verbindung durch eine Fachperson geprüft. Diese Struktur verhindert, dass ein Messwert ohne Deutung im Protokoll steht. Die Entscheidung muss auf den zuvor festgelegten Kriterien beruhen; nachträgliches Anpassen der Kriterien kann einen Fehlschluss verdecken.
+
+
+Reproduzierbarkeit bei intermittierenden Fehlern.
+Bei einem Wackelkontakt kann ein einzelner Messwert zufällig unauffällig sein. Deshalb dokumentiert man den Betriebszustand, wiederholt den Test und vergleicht mit früheren Beobachtungen. Für ein Kleinspannungsmodell darf eine definierte Bewegung an einem gefahrlosen Steckkontakt Bestandteil des Tests sein. Bei realen Stromkreisen gelten die entsprechenden sicheren Arbeitsverfahren; absichtliches Hervorrufen gefährlicher Fehler ist ausgeschlossen. Reproduzierbarkeit ist wichtig, weil nur so zwischen Zufall und ursächlichem Zusammenhang unterschieden werden kann.
+
+
+Wenn zwei Messwerte widersprechen.
+Ein Multimeter zeigt eine Spannung, ein zweites nicht. Mögliche Gründe sind unterschiedliche Eingangswiderstände, Messbereiche, Kontaktierungen, Kalibrierzustände oder wechselnde Betriebsbedingungen. Statt ein Gerät als richtig zu erklären, wird zuerst die Vergleichbarkeit hergestellt. Beispiel: Beide Geräte am selben Referenzpunkt, gleicher Messbereich und gleicher Betriebszustand. Anschliessend folgt die Prüfung eines bekannten Messsignals. Erst wenn der Unterschied weiterhin besteht, ist eine gerätespezifische Abklärung sinnvoll. Der Konflikt selbst liefert diagnostische Information.
+
+
+Ursache oder nur Korrelation?
+Die Pumpe fällt jeweils beim Einschalten eines zweiten Verbrauchers aus. Das kann auf Spannungseinbruch hindeuten; es kann aber auch mit einer Steuerungslogik zusammenhängen. Eine Gegenprüfung am vorgesehenen Kleinspannungs-Messpunkt während des Schaltvorgangs kann die Hypothesen unterscheiden. Die blosse zeitliche Nähe ist noch kein Beweis. Für die Fachsprache lernen wir deshalb, zwischen Beobachtung, Vermutung, Messung, Befund und gesicherter Ursache zu trennen. Das schützt vor teuren Fehlmassnahmen.
+
+
+Messprotokoll als Argumentationskette.
+Ein gutes Protokoll enthält Messaufgabe, erwarteten Bereich aus Datenblatt oder Plan, Messmittel, Datum, Messpunkt, Betriebszustand, Ergebnis, Messunsicherheit soweit relevant und Bewertung. Fehlt die Bewertung, bleibt die Tabelle bedeutungslos. Fehlt die Erwartung, lässt sich das Ergebnis nicht einordnen. Und fehlt der Betriebszustand, kann eine spätere Person den Vergleich oft nicht wiederholen. Die Struktur macht eine Diagnose verständlich, selbst wenn die untersuchende Person nicht mehr anwesend ist.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Spannungseinbruch beziffern.
+Ein 24-Volt-Modellnetz liefert im Leerlauf 24,2 Volt und unter 1,5 Ampere Last 21,2 Volt. Berechne den vereinfachten zusätzlichen Gesamtwiderstand. Der Spannungsabfall beträgt 3,0 Volt; dividiert durch 1,5 Ampere ergibt das 2,0 Ohm. Das ist ein rechnerischer Ersatzwert des betrachteten Abschnitts, kein Nachweis eines einzelnen defekten Bauteils. Um eine Kontaktstelle zu lokalisieren, müssen weitere Messpunkte verglichen werden. Die Aufgabe schult die Differenzierung zwischen Messwert, Modell und Ursache.
+
+
+Fall 2: Genauigkeit einer Anzeige.
+Ein Messgerät zeigt 10,00 Volt und besitzt in diesem Bereich eine angenommene Grenze von ±(1 Prozent des Werts plus 2 Digits), wobei die Auflösung 0,01 Volt beträgt. Berechne den möglichen Bereich. Ein Prozent sind 0,10 Volt, zwei Digits entsprechen 0,02 Volt; als vereinfachte Grenze resultiert ±0,12 Volt. Das Intervall reicht damit von 9,88 bis 10,12 Volt. Ein Unterschied von 0,05 Volt zwischen zwei Messgeräten wäre allein dadurch noch kein Beweis für einen Defekt.
+
+
+Fall 3: Messpunkt bewusst auswählen.
+Ein Relais zieht nicht an. Die Versorgung am Netzteil ist vorhanden, aber der Eingang der Relaisspule bleibt ohne Spannung. Wo liegt der sinnvolle nächste Prüfschritt? In einem sicheren Kleinspannungsmodell wird der dokumentierte Freigabepfad zwischen Netzteil und Spule in geeignete Abschnitte gegliedert. Die Musterlösung beschreibt eine Messung an einem Zwischenpunkt, um den fehlerhaften Abschnitt einzugrenzen. Es wäre wenig sinnvoll, ohne weitere Information ein zweites Mal den Netzteilausgang zu messen.
+
+
+Fall 4: Phantomspannung erkennen.
+Ein hochohmiges Messgerät zeigt an einem abgetrennten, langen Modellleiter eine kleine Spannung an. Welche zwei Erklärungen sind plausibel? Kapazitive Einkopplung und die hohe Eingangsimpedanz des Messgeräts. Die Musterlösung fordert, die Anzeige unter definierten Bedingungen mit einer dafür zulässigen Messmethode zu beurteilen. Es darf daraus weder automatisch eine belastbare Versorgung noch eine ungefährliche Anlage abgeleitet werden. Bei realen Netzarbeiten haben vorgeschriebene Spannungsprüfverfahren Vorrang.
+
+
+Fall 5: Widerspruch zwischen Geräten.
+Zwei Messgeräte zeigen am gleichen Messpunkt 12,10 und 11,95 Volt an. Welche Reihenfolge schlägst Du vor? Zuerst vergleichen wir Betriebszustand und Anschluss, danach Messbereich, Datenblattgenauigkeit und Prüfnachweis der Geräte. Anschliessend wäre ein bekannter Referenzwert hilfreich. Eine sofortige Mittelwertbildung zu 12,025 Volt wäre methodisch nicht gerechtfertigt, solange ein systematischer Fehler möglich ist. Die Übung trainiert die Einsicht, dass mehr Messwerte nicht automatisch mehr Wahrheit bedeuten.
+
+
+Fall 6: Messbericht für die Gegenprüfung.
+Ein Protokoll enthält nur den Satz «Versorgung 24 Volt». Ergänze mindestens fünf fehlende Angaben. Musterlösung: Messpunkt, Betriebszustand, Messgerät, Einheit und Auflösung, Sollbereich, Datum sowie verantwortliche Person sind mögliche Angaben. Zusätzlich gehört eine Bewertung dazu, ob der gemessene Wert das ursprüngliche Problem erklärt. Ein Bericht soll den Test später reproduzierbar machen. Darum ist die Beschreibung der Randbedingungen keine unnötige Büroarbeit, sondern Teil der fachlichen Aussage.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Diagnoseauftrag: Vergleich zweier Messpunkte.
+In einem Kleinspannungsmodell misst Du 24,0 Volt direkt am Netzgerät und 21,0 Volt an einer Last, während 1,5 Ampere fliessen. Die Differenz beträgt drei Volt. In einem vereinfachten Serienmodell entsprechen diese drei Volt einem zusätzlichen Widerstand von zwei Ohm. Jetzt wird die Spannung an einem dritten Punkt in der Mitte des Leitungspfads mit 23,8 Volt gemessen. Damit liegt nur ein kleiner Anteil des Spannungsabfalls zwischen Quelle und Zwischenpunkt; der grosse Anteil liegt danach. Formuliere aus diesem Vergleich eine neue Hypothese und einen geplanten Kontrollschritt am spannungsfreien Lernaufbau. Betrachte danach, ob der Wert bei gleicher Last nach einer korrekt ausgeführten Instandsetzung wieder im vorgesehenen Bereich liegt. Ohne denselben Betriebszustand wäre ein Vergleich irreführend.
+
+
+Lernabschluss.
+Prüfe Deine Diagnose mit vier Wörtern: Frage, Messung, Gegenprüfung, Entscheidung. Die Frage definiert den Zweck; die Messung liefert einen Befund; die Gegenprüfung kontrolliert eine alternative Erklärung; die Entscheidung beschreibt den nächsten fachlich zulässigen Schritt. Vermeide es, die Auflösung der Anzeige mit tatsächlicher Genauigkeit zu verwechseln. Dokumentiere bei jedem Beispiel den Betriebszustand und sage offen, welche Ursache noch nicht bewiesen ist.
+
+Zusatzaufgabe zur Bewertung. Bei einer Messung wird als Sollwert 12,0 Volt angegeben, aber weder Toleranz noch Betriebszustand sind bekannt. Ein Messwert von 11,9 Volt ist damit weder automatisch gut noch schlecht. Die fachlich korrekte Reaktion besteht darin, die Bedingungen aus dem Datenblatt oder dem Prüfplan zu erfragen und die Messunsicherheit des Instruments einzubeziehen. Die Übung endet erst, wenn ein begründetes Bewertungskriterium vorliegt.

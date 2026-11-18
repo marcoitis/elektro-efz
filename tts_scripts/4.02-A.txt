@@ -1,1 +1,110 @@
-Lektion 4.02-A: Fehlerschleifenimpedanz und Abschaltbedingungen. Im Fehlerfall hängt der mögliche Strom unter anderem von Quellimpedanz und Rückweg ab. Eine hohe Fehlerschleifenimpedanz kann den Fehlerstrom begrenzen und damit eine geforderte Abschaltung erschweren. Abschaltzeiten, Schutzgeräte und Netzsystem müssen zusammen betrachtet werden. Die entscheidenden Werte und Prüfverfahren sind in der gültigen N I N und den Gerätedaten nachzuweisen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein stark vereinfachtes Rechenmodell mit zweihundertdreissig Voltolt und insgesamt 1 Ohm Fehlerschleifenimpedanz ergibt rechnerisch 230 Ampere. Das ist noch keine Freigabe einer konkreten Anlage: Impedanzverhältnisse, Messfehler, Schutzgerät und geforderte Abschaltbedingungen müssen nachgewiesen werden. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein hoher rechnerischer Fehlerstrom ist kein Ersatz für den normativen Schutzbeweis. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Schleifenimpedanz und prospektiver Kurzschlussstrom; Auslösecharakteristik und Abschaltzeit. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teil 4/5/6; Hersteller-Selektivitätstabellen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 4.02-A: Fehlerschleifenimpedanz und Abschaltbedingungen. Im Fehlerfall hängt der mögliche Strom unter anderem von Quellimpedanz und Rückweg ab. Eine hohe Fehlerschleifenimpedanz kann den Fehlerstrom begrenzen und damit eine geforderte Abschaltung erschweren. Abschaltzeiten, Schutzgeräte und Netzsystem müssen zusammen betrachtet werden. Die entscheidenden Werte und Prüfverfahren sind in der gültigen NIN und den Gerätedaten nachzuweisen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein stark vereinfachtes Rechenmodell mit zweihundertdreissig Volt und insgesamt 1 Ohm Fehlerschleifenimpedanz ergibt rechnerisch 230 Ampere. Das ist noch keine Freigabe einer konkreten Anlage: Impedanzverhältnisse, Messfehler, Schutzgerät und geforderte Abschaltbedingungen müssen nachgewiesen werden. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Ein hoher rechnerischer Fehlerstrom ist kein Ersatz für den normativen Schutzbeweis. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Schleifenimpedanz und prospektiver Kurzschlussstrom; Auslösecharakteristik und Abschaltzeit. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Schleifenimpedanz und prospektiver Kurzschlussstrom; Auslösecharakteristik und Abschaltzeit.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Erwärmung bei höherem Strom. An einem unveränderten ohmschen Widerstand wird der Strom theoretisch verdoppelt.
+
+Schritt 1. Verlustleistung: P = I² · R.
+
+Schritt 2. Wird I verdoppelt, dann wird I² zu (2I)² = 4I².
+
+Schritt 3. Die ohmsche Verlustleistung steigt damit auf das Vierfache.
+
+Schritt 4. Das ist keine Selektivitätsbeurteilung; dafür werden Geräteeigenschaften und Kennlinien benötigt.
+
+Kontrolle des Ergebnisses: Strom verdoppeln → vierfache ohmsche Verlustleistung.
+
+Übungsauftrag zur Anwendung: Reine Rechen- und Tabellenstudien; jede reale Schutzprüfung nur unter fachkundiger Leitung. Halte zusätzlich die Antwort auf die Frage «Welche Grösse beeinflusst den prospektiven Fehlerstrom wesentlich?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Grösse beeinflusst den prospektiven Fehlerstrom wesentlich? Die richtige Antwort lautet: Fehlerschleifenimpedanz. Warum? Ein hoher rechnerischer Fehlerstrom ist kein Ersatz für den normativen Schutzbeweis.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Ein hoher rechnerischer Fehlerstrom ist kein Ersatz für den normativen Schutzbeweis.. Warum? Der Merksatz lautet: Ein hoher rechnerischer Fehlerstrom ist kein Ersatz für den normativen Schutzbeweis.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Fehlerschleife als geschlossener Stromkreis.
+Beim Körperschluss im TN-Modell entsteht ein Fehlerstrompfad vom aktiven Leiter über die Fehlerstelle und den Schutzleiter zurück zur Quelle. Die Fehlerschleifenimpedanz umfasst die Widerstands- und gegebenenfalls Blindanteile dieses gesamten Wegs. Ein Schutzgerät soll den Fehler so abschalten, dass die einschlägigen Schutzbedingungen erfüllt sind. Für die Schulrechnung wird häufig die Beziehung I-f gleich U-null geteilt durch Z-s verwendet. Das ist nur ein vereinfachtes Modell; reale Messmethoden, Spannungsfaktoren und die anzuwendenden normativen Vorgaben müssen zusätzlich geprüft werden.
+
+
+Rechenbeispiel mit klaren Annahmen.
+Nehmen wir eine einphasige Nennspannung gegen Erde von 230 Volt und eine angenommene Fehlerschleifenimpedanz von 0,8 Ohm. Der vereinfachte Fehlerstrom liegt bei 287,5 Ampere. Daraus allein folgt noch nicht, dass der Schutz normgerecht wirkt. Es muss geprüft werden, welche Auslösekennlinie vorliegt, bei welchem Strom die erforderliche Auslösezeit erreicht wird und welche Anwendungsbedingungen gelten. Die Formel ist der Einstieg in den Nachweis, nicht dessen Ende. Eine pauschale Freigabe anhand eines selbst gewählten Kennlinienwerts wäre fachlich unzulässig.
+
+
+Schutzeinrichtung und Auslösezeit zusammenführen.
+Ein Leitungsschutzschalter besitzt ein zeit-stromabhängiges Auslöseverhalten. Die Bezeichnung auf dem Gehäuse beschreibt nicht alle Details der zulässigen Auslösebedingungen. Für eine fachliche Beurteilung werden geeignete Herstellerkennlinien und einschlägige Normvorgaben herangezogen. Im Lernmodell kann man beispielsweise zwei Schalter mit identischem Nennstrom, aber unterschiedlichen magnetischen Auslösebereichen vergleichen. Bei demselben Fehlerstrom könnten sie unterschiedlich schnell reagieren. Die Schlussfrage lautet daher nicht «Ist der Kurzschlussstrom gross?», sondern «Ist der erforderliche Abschaltnachweis für dieses konkrete System erbracht?»
+
+
+Netzsystem beeinflusst den Fehlerstrompfad.
+Im TT-System fliesst ein Körperschlussstrom typischerweise über Erdungsanlagen und Erde zurück zur Quelle. Die gesamte Schleifenimpedanz kann deutlich höher ausfallen als bei einem direkten metallischen Rückweg im TN-System. Deshalb können Fehlerstrom-Schutzeinrichtungen eine wesentliche Rolle spielen. Ein identischer Leitungsquerschnitt bedeutet in diesen beiden Systemen nicht zwangsläufig identisches Abschaltverhalten. Das Ausbildungsziel besteht darin, zuerst Netzsystem und Fehlerweg zu identifizieren. Erst danach werden die passenden Schutzbedingungen und Prüfverfahren aus den einschlägigen Normen abgeleitet.
+
+
+Messung versus Berechnung.
+Die Fehlerschleifenimpedanz kann aus bekannten Netz- und Leitungsdaten abgeschätzt oder an einer realen Installation mit geeigneten Geräten gemessen werden. Beide Wege haben Grenzen. Eine Berechnung ist nur so gut wie die Daten zu Netzimpedanz, Leitungslänge und Kontaktstellen. Eine Messung enthält Unsicherheit und muss bei passenden Betriebsbedingungen sowie mit geeignetem Verfahren durchgeführt werden. Man darf einen berechneten Wert nicht als gemessen deklarieren. Umgekehrt ist ein Messwert ohne Bewertung gegenüber Schutzorgan und Normvorgabe kein vollständiger Nachweis.
+
+
+Temperatur und Leitungswiderstand.
+Der Widerstand von Kupferleitern steigt mit der Temperatur. Ein bei kühlem Leiter ermittelter Wert kann sich im erwärmten Betriebszustand verändern. Für ein didaktisches Beispiel betrachten wir 0,60 Ohm bei 20 Grad Celsius und einen angenommenen Temperaturkoeffizienten von 0,0039 pro Kelvin. Bei 70 Grad Celsius ergibt sich 0,60 mal eins plus 0,0039 mal 50, also rund 0,717 Ohm. Diese Rechnung betrifft nur den betrachteten ohmschen Anteil und ersetzt keinen normativen Temperaturkorrekturansatz. Sie erklärt aber, weshalb ein scheinbar kleiner Sicherheitsabstand kritisch sein kann.
+
+
+Grenzwert aus einem Originaldokument ableiten.
+Wenn ein Lernender gefragt wird, welcher maximale Z-s-Wert in einer bestimmten realen Installation zulässig ist, braucht er mindestens Netzsystem, Schutzorgan, Kennlinie, relevante Spannung und die anzuwendende Normstelle. Ohne diese Angaben wäre ein pauschaler Maximalwert unseriös. In dieser Lektion wird bewusst kein frei erfundener Tabellenwert angegeben. Stattdessen üben wir den Rechercheweg: relevante Schutzbedingung identifizieren, Zeitvorgabe nachschlagen, aus der Kennlinie den erforderlichen Strom bestimmen und erst dann die Impedanzbewertung durchführen. Die Freigabe bleibt der qualifizierten Fachperson vorbehalten.
+
+
+Prüfprotokoll vollständig interpretieren.
+Ein Protokoll weist 0,92 Ohm Z-s aus. Für eine Bewertung fehlen die Angaben zum Stromkreis, Schutzgerät, Netzsystem und zur angewendeten Methode. Der Lernende soll diese Lücken markieren. Danach wird ein hypothetisches Auslösekriterium als ausdrücklich frei gewählte Übungsannahme ergänzt und die Bewertung rein mathematisch demonstriert. So wird die Grenze zwischen didaktischem Rechenmodell und realem Sicherheitsnachweis sichtbar. Ein gutes Protokoll dokumentiert ausserdem die verantwortliche Person, das Messmittel und den Prüfzeitpunkt.
+
+
+Fehlersuche bei ungewöhnlich hohem Messwert.
+Wenn die gemessene Schleifenimpedanz deutlich höher ist als die erwartete, können Netzbedingungen, Leiterlänge, Übergangswiderstände oder Messverfahren eine Rolle spielen. Die Untersuchung beginnt mit dem Vergleich der Dokumentation und der fachgerechten Bewertung durch entsprechend berechtigte Personen. Ein hoher Wert darf nicht dadurch «gelöst» werden, dass man eigenmächtig ein Schutzgerät mit anderer Kennlinie einsetzt oder eine andere Messung auswählt, bis das Ergebnis passt. Die Ursache muss gefunden und die Schutzwirkung nachgewiesen werden.
+
+
+Was diese Lektion leisten kann und was nicht.
+Die Lernenden sollen das Verhältnis zwischen Spannungsquelle, Fehlerschleife, Strom und Abschaltverhalten physikalisch erklären können. Sie sollen einen einfachen Modellfehlerstrom berechnen und sagen, welche Dokumente für eine reale Beurteilung fehlen. Die Lektion ist keine Anleitung für Messungen unter Netzspannung und keine Normenfreigabe. Das ist besonders wichtig, weil ein rechnerisch überzeugendes Ergebnis im Einzelfall trotzdem nicht allen Schutzanforderungen entsprechen muss. Die verantwortliche Fachperson benötigt stets die aktuelle Originalgrundlage und den tatsächlichen Anlagenzustand.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Fehlerstrom rein mathematisch.
+Für ein idealisiertes TN-Fehlerschleifenmodell werden 230 Volt und 0,5 Ohm angenommen. Berechne den Strom. Das Verhältnis ergibt 460 Ampere. Die Musterlösung betont, dass dieser Wert allein weder die Auslösezeit noch die Normerfüllung beweist. Es fehlen Schutzgerät, Kennlinie, Netzbedingungen und angewendete Schutzbestimmung. Die Rechnung kann helfen, die physikalische Grössenordnung zu verstehen; sie ist keine Freigabe einer Installation.
+
+
+Fall 2: Widerstand bei erhöhter Temperatur.
+Ein Kupferleitungsabschnitt habe modellhaft 0,40 Ohm bei 20 Grad Celsius. Mit einem angenommenen linearen Koeffizienten 0,0039 pro Kelvin ergibt sich bei 60 Grad ein Wert von 0,40 mal eins plus 0,156, also rund 0,462 Ohm. Die Änderung senkt bei gleicher Modellspannung den möglichen Fehlerstrom. Die Musterlösung unterscheidet diese vereinfachte Materialrechnung von einem tatsächlichen normativen Temperaturkorrekturverfahren.
+
+
+Fall 3: Messwert ohne Stromkreisangabe.
+Ein Auszug nennt Z-s gleich 1,1 Ohm, aber keine Stromkreisnummer und keinen Schutzgerätetyp. Kann der Wert freigegeben werden? Nein. Der Lernende listet notwendige Zusatzangaben auf: Netzsystem, Messstelle, Schutzorgan, Kennlinie, Methode und die geltende Schutzbedingung. Die Musterlösung zeigt, warum ein exakt aussehender Zahlenwert nicht automatisch eine ausreichende Dokumentation ist. Der Nachweis braucht einen klaren Bezug zur realen Anlage.
+
+
+Fall 4: Zwei Messstellen vergleichen.
+Am Anfang einer langen Modellleitung werden 0,3 Ohm, am Ende 0,9 Ohm Schleifenimpedanz angenommen. Der Unterschied beträgt 0,6 Ohm. Eine längere Leitung kann diesen Anstieg erklären, ebenso zusätzliche Übergangswiderstände. Die Musterlösung fordert, Dokumentation und Messbedingungen zuerst abzugleichen, bevor ein Defekt behauptet wird. Entscheidend ist, ob die tatsächliche Schutzbedingung am relevanten Endpunkt erfüllt ist, nicht ob der erste Messpunkt günstig aussieht.
+
+
+Fall 5: Unterschied TN und TT.
+Ein Lernender will die metallische TN-Fehlerschleife unverändert auf ein TT-System übertragen. Warum ist das unzulässig? Im TT-System kann der Erdpfad wesentlich zum Gesamtwiderstand beitragen, was den möglichen Fehlerstrom verändert. Die Auswahl und Bewertung von Schutzmassnahmen muss daher netzsystemspezifisch erfolgen. Die Musterlösung nennt ausserdem die Rolle des RCD in vielen TT-Schutzkonzepten, ohne einen allgemeingültigen Grenzwert zu erfinden.
+
+
+Fall 6: Rechnerischer Kurzschlussstrom genügt nicht.
+Ein Prüfbericht weist einen hohen prospektiven Fehlerstrom aus und markiert den Stromkreis als sicher. Welche Prüfung fehlt? Die passende Schutzgerätekennlinie und die erforderliche Abschaltbedingung müssen nachvollziehbar zugeordnet und bewertet werden. Zusätzlich sind weitere relevante Schutzprüfungen nicht durch diesen einen Zahlenwert ersetzt. Die Musterlösung fordert eine eindeutige Unterscheidung von Messwert, Normkriterium und fachlicher Schlussfolgerung.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Prüfauftrag: Vom Messwert zur Schutzbeurteilung.
+Ein Musterprotokoll zeigt für einen Endstromkreis eine Schleifenimpedanz von 0,95 Ohm. Angenommen, die relevante Modellspannung beträgt 230 Volt, dann ergäbe die einfache Rechnung rund 242 Ampere. Ein Lernender schliesst daraus, das Schutzgerät werde sicher rechtzeitig auslösen. Hinterfrage diese Aussage. Es fehlen der konkrete Gerätetyp, seine Kennlinie, die verlangte Abschaltbedingung, gegebenenfalls Korrekturen und weitere relevante Prüfungen. Der Zahlenwert kann eine erste Plausibilitätskontrolle stützen, aber keine vollständige Freigabe. Formuliere eine bessere Berichtsaussage: «Messwert dokumentiert; Schutzbewertung anhand der vorhandenen Gerätekennlinie und gültiger Normvorgabe noch zu führen.»
+
+
+Lernabschluss.
+Sage zuerst, welchen Fehlerstromweg das verwendete Netzsystem erzeugt. Danach erklärst Du, was die Schleifenimpedanz beschreibt und weshalb das Schutzgerät mit dem konkreten Fehlerstrom bewertet werden muss. Eine automatische Abschaltung ist eine Schutzfunktion, kein Ergebnis, das aus dem Wort «Leitungsschutzschalter» allein abgeleitet werden darf. Für reale Messungen und Freigaben braucht es berechtigte Fachpersonen.
+
+Zusätzliche Prüffrage. Eine Fachperson hat einen plausiblen Schleifenimpedanzwert dokumentiert, aber der Schutzleiter-Durchgängigkeitstest fehlt im Dossier. Der Lernende darf nicht argumentieren, die eine Messung ersetze grundsätzlich alle weiteren Schutzprüfungen. Vielmehr werden die vorgesehenen Prüfungen im Zusammenhang betrachtet, wobei jede ein anderes Merkmal der Installation bestätigt. Der Bericht muss erkennen lassen, welche Nachweise tatsächlich geführt wurden. Die Lektion verlangt abschliessend eine klare Aussage, warum ein Einzelwert ohne Prüfkontext keine Gesamtsicherheitsbewertung liefert. Eine weitere Grenze der Modellrechnung ist die Zeitabhängigkeit des Netzzustands. Die vorgelagerte Netzimpedanz kann sich mit der Betriebsweise und Versorgungssituation verändern. Die Planung muss geeignete Bemessungsfälle berücksichtigen, statt von einem einzigen zufällig günstigen Messwert auszugehen. Diese Tatsache wird im Schlussprotokoll ausdrücklich als offene technische Bewertungsfrage gekennzeichnet, wenn keine vollständige Berechnungs- und Nachweiskette vorliegt.

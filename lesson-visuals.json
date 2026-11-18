@@ -1,0 +1,2699 @@
+[
+  {
+    "id": "1.01-A",
+    "title": "Berufsbild, EFZ und Installationsbewilligung",
+    "visual_type": "safety",
+    "file": "visuals/1.01-A.svg",
+    "description": [
+      "Unterscheide Fachabschluss, Berufspraxis und Installationsbewilligung.",
+      "Erkläre, weshalb ein EFZ keine allgemeine Installationsbewilligung ersetzt.",
+      "Drei unterschiedliche Begriffe"
+    ],
+    "source": [
+      "NIV SR 734.27 Art. 6–16",
+      "ESTI – Bewilligungen NIV"
+    ]
+  },
+  {
+    "id": "1.01-B",
+    "title": "Elektrische Gefahren verstehen",
+    "visual_type": "process",
+    "file": "visuals/1.01-B.svg",
+    "description": [
+      "Erkläre die Wirkung von Körperstrom und Lichtbögen.",
+      "Erkenne Situationen, bei denen Arbeiten gestoppt werden müssen.",
+      "Warum Elektrizität gefährlich ist"
+    ],
+    "source": [
+      "Suva 5+5 lebenswichtige Regeln",
+      "NIN Teil 4 – Schutz gegen elektrischen Schlag (Normtext separat prüfen)"
+    ]
+  },
+  {
+    "id": "1.01-C",
+    "title": "Sicherheitsregeln und Besonderheiten von PV-Anlagen",
+    "visual_type": "pv",
+    "file": "visuals/1.01-C.svg",
+    "description": [
+      "Nenne die fünf Sicherheitsregeln in ihrer Reihenfolge.",
+      "Erkenne Mehrfacheinspeisungen und PV-DC-Gefahren.",
+      "Die fünf Sicherheitsregeln"
+    ],
+    "source": [
+      "Suva Publikation 84042.D",
+      "Suva Instruktionshilfe 88814.D",
+      "NIV SR 734.27"
+    ]
+  },
+  {
+    "id": "1.02-A",
+    "title": "SI-Einheiten und Zehnerpotenzen",
+    "visual_type": "formula",
+    "file": "visuals/1.02-A.svg",
+    "description": [
+      "Rechne mA, kA, mV, kW, Wh und kWh sicher um.",
+      "Erkenne Grössenordnungsfehler.",
+      "Einheiten sind die Sprache der Elektrotechnik"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Mathematik",
+      "SI-Einheitensystem"
+    ]
+  },
+  {
+    "id": "1.02-B",
+    "title": "Formeln sicher umstellen",
+    "visual_type": "formula",
+    "file": "visuals/1.02-B.svg",
+    "description": [
+      "Stelle U=R·I nach jeder Variablen um.",
+      "Löse mehrstufige Gleichungen mit Einheiten.",
+      "Rechnen ist ein Werkzeug"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Mathematik"
+    ]
+  },
+  {
+    "id": "1.02-C",
+    "title": "Prozent, Wirkungsgrad und Energie",
+    "visual_type": "ac",
+    "file": "visuals/1.02-C.svg",
+    "description": [
+      "Berechne Wirkungsgrade und Energieverbrauch.",
+      "Unterscheide Leistung und Energie.",
+      "Was ein Wirkungsgrad aussagt"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Mathematik und Elektrotechnik"
+    ]
+  },
+  {
+    "id": "1.03-A",
+    "title": "Spannung, Strom, Ladung und Widerstand",
+    "visual_type": "dc",
+    "file": "visuals/1.03-A.svg",
+    "description": [
+      "Definiere die elektrischen Grundgrössen.",
+      "Erkläre einen geschlossenen Stromkreis.",
+      "Wie entsteht ein Stromkreis?"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik"
+    ]
+  },
+  {
+    "id": "1.03-B",
+    "title": "Ohmsches Gesetz – der zentrale Zusammenhang",
+    "visual_type": "dc",
+    "file": "visuals/1.03-B.svg",
+    "description": [
+      "Rechne U, R und I sicher aus.",
+      "Erkenne die Grenzen ohmscher Modelle.",
+      "Der Kernzusammenhang"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik"
+    ]
+  },
+  {
+    "id": "1.03-C",
+    "title": "Leistung, Verlustwärme und Energie",
+    "visual_type": "dc",
+    "file": "visuals/1.03-C.svg",
+    "description": [
+      "Berechne P=U·I und P=I²R.",
+      "Erkläre, warum Leitungen bei hohem Strom warm werden.",
+      "Leistung bedeutet Energie pro Zeit"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik",
+      "NIN Teil 5 – Auswahl und Errichtung (Normtext prüfen)"
+    ]
+  },
+  {
+    "id": "1.03-D",
+    "title": "Messgrundlagen am Schutzkleinspannungsmodell",
+    "visual_type": "protection",
+    "file": "visuals/1.03-D.svg",
+    "description": [
+      "Unterscheide Spannungs-, Strom- und Widerstandsmessung.",
+      "Plane eine sichere Messung am strombegrenzten 12-V-Modell.",
+      "Messen beginnt mit einer Frage"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik und Messwesen"
+    ]
+  },
+  {
+    "id": "1.04-A",
+    "title": "Serien- und Parallelschaltung",
+    "visual_type": "process",
+    "file": "visuals/1.04-A.svg",
+    "description": [
+      "Berechne Ersatzwiderstände.",
+      "Erkläre Verteilung von Strom und Spannung.",
+      "Serienschaltung"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik"
+    ]
+  },
+  {
+    "id": "1.04-B",
+    "title": "Kirchhoffsche Regeln und Spannungsteiler",
+    "visual_type": "dc",
+    "file": "visuals/1.04-B.svg",
+    "description": [
+      "Wende Knoten- und Maschenregel an.",
+      "Berechne einen unbelasteten Spannungsteiler.",
+      "Die Knotenregel"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik"
+    ]
+  },
+  {
+    "id": "1.04-C",
+    "title": "Leitungswiderstand, Länge und Querschnitt",
+    "visual_type": "dc",
+    "file": "visuals/1.04-C.svg",
+    "description": [
+      "Berechne einen Leitungswiderstand aus Material, Länge und Querschnitt.",
+      "Berücksichtige Hin- und Rückleiter in DC-Modellen.",
+      "Worauf ein Leitungswiderstand beruht"
+    ],
+    "source": [
+      "Lehrplan Berufsfachschule 2015 – Elektrotechnik",
+      "NIN Teil 5 (Normtext prüfen)"
+    ]
+  },
+  {
+    "id": "1.05-A",
+    "title": "Leiterwerkstoffe und spezifischer Widerstand",
+    "visual_type": "dc",
+    "file": "visuals/1.05-A.svg",
+    "description": [
+      "Kupfer/Aluminium: elektrische und mechanische Eigenschaften",
+      "Isolierstoffe, thermische Klassen, UV- und Witterungsbeständigkeit",
+      "Dein Dozent erklärt: Leiterwerkstoffe und spezifischer Widerstand"
+    ],
+    "source": [
+      "2.1.1b–2.1.6b; 2.3.6b",
+      "Norm-/Regelwerk: NIN Teil 5 (Auswahl und Errichtung); SN EN 60529 (IP)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.05-B",
+    "title": "Kabelaufbau, Isolierung und Leiterkennzeichnung",
+    "visual_type": "process",
+    "file": "visuals/1.05-B.svg",
+    "description": [
+      "Aderkennzeichnung, PE/N/PEN und Leiteridentifikation",
+      "Leitungstypen, starre/flexible Leitungen, Aderendhülsen",
+      "Dein Dozent erklärt: Kabelaufbau, Isolierung und Leiterkennzeichnung"
+    ],
+    "source": [
+      "2.1.1b–2.1.6b; 2.3.6b",
+      "Norm-/Regelwerk: NIN Teil 5 (Auswahl und Errichtung); SN EN 60529 (IP)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.05-C",
+    "title": "IP-Schutz, Umwelteinflüsse und Materialverträglichkeit",
+    "visual_type": "protection",
+    "file": "visuals/1.05-C.svg",
+    "description": [
+      "IP-Schutzarten, IK-Schlagfestigkeit, Schutzzonen und Umwelteinflüsse",
+      "Korrosion, Materialverträglichkeit und Recycling",
+      "Dein Dozent erklärt: IP-Schutz, Umwelteinflüsse und Materialverträglichkeit"
+    ],
+    "source": [
+      "2.1.1b–2.1.6b; 2.3.6b",
+      "Norm-/Regelwerk: NIN Teil 5 (Auswahl und Errichtung); SN EN 60529 (IP)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.06-A",
+    "title": "Planarten und ihre jeweiligen Aufgaben",
+    "visual_type": "plan",
+    "file": "visuals/1.06-A.svg",
+    "description": [
+      "Lageplan, Installationsplan, Übersichtsschema und Stromlaufplan",
+      "Symbole und Referenzkennzeichnung, Klemmen/Anschlusskennzeichnung",
+      "Dein Dozent erklärt: Planarten und ihre jeweiligen Aufgaben"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.3b",
+      "Norm-/Regelwerk: SN EN IEC 60617 (Schaltzeichen, Zugang prüfen); Lehrplan 4.1/4.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.06-B",
+    "title": "Schaltzeichen, Referenzkennzeichen und Klemmen",
+    "visual_type": "process",
+    "file": "visuals/1.06-B.svg",
+    "description": [
+      "Grundrisse lesen, Massstäbe und Layer",
+      "Strompfade und Funktionsabläufe aus Schemata rekonstruieren",
+      "Dein Dozent erklärt: Schaltzeichen, Referenzkennzeichen und Klemmen"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.3b",
+      "Norm-/Regelwerk: SN EN IEC 60617 (Schaltzeichen, Zugang prüfen); Lehrplan 4.1/4.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.06-C",
+    "title": "Revision, Massstab und digitale Dokumentation",
+    "visual_type": "plan",
+    "file": "visuals/1.06-C.svg",
+    "description": [
+      "Verbindungstabellen, Materialauszug, Stücklisten",
+      "Dokumentenstand, Revision, Lesbarkeit und Nachvollziehbarkeit",
+      "Dein Dozent erklärt: Revision, Massstab und digitale Dokumentation"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.3b",
+      "Norm-/Regelwerk: SN EN IEC 60617 (Schaltzeichen, Zugang prüfen); Lehrplan 4.1/4.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.07-A",
+    "title": "Werkzeugwahl, Befestigung und mechanische Qualität",
+    "visual_type": "process",
+    "file": "visuals/1.07-A.svg",
+    "description": [
+      "Bohren, Sägen, Entgraten, Montage und Befestigungssysteme",
+      "Kabelkanal, Installationsrohr, Trasse, Biegeradien",
+      "Dein Dozent erklärt: Werkzeugwahl, Befestigung und mechanische Qualität"
+    ],
+    "source": [
+      "2.3.1a–2.3.7a; 2.2.2a–2.2.6a",
+      "Norm-/Regelwerk: NIN Teil 5 (Leitungsanlagen); BauAV; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.07-B",
+    "title": "Trassenplanung, Leitungsführung und Reserve",
+    "visual_type": "plan",
+    "file": "visuals/1.07-B.svg",
+    "description": [
+      "Brandabschnitte, Brandschottung und Leitungsführung",
+      "Baustellenkoordination, Fremdgewerke und Hindernisse",
+      "Dein Dozent erklärt: Trassenplanung, Leitungsführung und Reserve"
+    ],
+    "source": [
+      "2.3.1a–2.3.7a; 2.2.2a–2.2.6a",
+      "Norm-/Regelwerk: NIN Teil 5 (Leitungsanlagen); BauAV; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.07-C",
+    "title": "Arbeitssicherheit auf Baustellen und Brandabschottung",
+    "visual_type": "safety",
+    "file": "visuals/1.07-C.svg",
+    "description": [
+      "Abstände zu Wasser-/Heizungsanlagen, mechanischer Schutz",
+      "Ergonomie, Staubschutz und Umgang mit unbekannten Baustoffen",
+      "Dein Dozent erklärt: Arbeitssicherheit auf Baustellen und Brandabschottung"
+    ],
+    "source": [
+      "2.3.1a–2.3.7a; 2.2.2a–2.2.6a",
+      "Norm-/Regelwerk: NIN Teil 5 (Leitungsanlagen); BauAV; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.08-A",
+    "title": "Multimeter, Messbuchsen und Messkategorien",
+    "visual_type": "measurement",
+    "file": "visuals/1.08-A.svg",
+    "description": [
+      "Messkategorien und Messgeräte-Sicherheitskennzeichnung",
+      "Messaufbau für Strom, Spannung, Widerstand",
+      "Dein Dozent erklärt: Multimeter, Messbuchsen und Messkategorien"
+    ],
+    "source": [
+      "3.2.4b; 3.2.8b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: SN EN IEC 61010 (Messgeräte – Überblick); NIN Teil 6 (später)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.08-B",
+    "title": "Messabweichung, Innenwiderstand und Protokolle",
+    "visual_type": "dc",
+    "file": "visuals/1.08-B.svg",
+    "description": [
+      "Prüfspitzen, Eingangsbuchsen und Sicherungen des Multimeters",
+      "Messbereich, Innenwiderstand und Belastung des Messobjekts",
+      "Dein Dozent erklärt: Messabweichung, Innenwiderstand und Protokolle"
+    ],
+    "source": [
+      "3.2.4b; 3.2.8b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: SN EN IEC 61010 (Messgeräte – Überblick); NIN Teil 6 (später)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.08-C",
+    "title": "Systematische Fehlersuche am Kleinspannungsmodell",
+    "visual_type": "process",
+    "file": "visuals/1.08-C.svg",
+    "description": [
+      "Systematisches Fehlerbild, Hypothese, Messung, Gegenprüfung",
+      "Messprotokoll mit Soll-/Ist-Abgleich",
+      "Dein Dozent erklärt: Systematische Fehlersuche am Kleinspannungsmodell"
+    ],
+    "source": [
+      "3.2.4b; 3.2.8b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: SN EN IEC 61010 (Messgeräte – Überblick); NIN Teil 6 (später)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.09-A",
+    "title": "Elektrische Felder und Kondensatoren",
+    "visual_type": "rc",
+    "file": "visuals/1.09-A.svg",
+    "description": [
+      "Elektrische Feldgrössen, Ladung und Potential",
+      "Magnetfluss, magnetische Durchflutung und Induktion",
+      "Dein Dozent erklärt: Elektrische Felder und Kondensatoren"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.2, elektrotechnische Basiselemente",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.09-B",
+    "title": "Magnetfelder, Spulen und Induktion",
+    "visual_type": "rc",
+    "file": "visuals/1.09-B.svg",
+    "description": [
+      "Spule und Energie im Magnetfeld",
+      "Kondensator und Energie im elektrischen Feld",
+      "Dein Dozent erklärt: Magnetfelder, Spulen und Induktion"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.2, elektrotechnische Basiselemente",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.09-C",
+    "title": "RC-Zeitkonstante und reale Bauteile",
+    "visual_type": "rc",
+    "file": "visuals/1.09-C.svg",
+    "description": [
+      "Auf- und Entladevorgang, Zeitkonstante RC",
+      "R, L, C als reale Bauelemente; Grenzfrequenz als Ausblick",
+      "Dein Dozent erklärt: RC-Zeitkonstante und reale Bauteile"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.2, elektrotechnische Basiselemente",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.10-A",
+    "title": "Periodendauer, Frequenz und Sinussignal",
+    "visual_type": "ac",
+    "file": "visuals/1.10-A.svg",
+    "description": [
+      "Sinus als Zeitfunktion, Periodendauer und Frequenz",
+      "Momentanwert, Spitzenwert, Effektivwert",
+      "Dein Dozent erklärt: Periodendauer, Frequenz und Sinussignal"
+    ],
+    "source": [
+      "3.2.1b–3.2.8b; 3.5.1b–3.5.2b",
+      "Norm-/Regelwerk: Lehrplan 3.2/3.5; NIN Teil 3 (Anlagenmerkmale)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.10-B",
+    "title": "Effektivwert und Spitzenwert",
+    "visual_type": "ac",
+    "file": "visuals/1.10-B.svg",
+    "description": [
+      "Phasenverschiebung – anschauliche Einführung",
+      "Transformation von elektrischer Energie",
+      "Dein Dozent erklärt: Effektivwert und Spitzenwert"
+    ],
+    "source": [
+      "3.2.1b–3.2.8b; 3.5.1b–3.5.2b",
+      "Norm-/Regelwerk: Lehrplan 3.2/3.5; NIN Teil 3 (Anlagenmerkmale)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.10-C",
+    "title": "Energiewandlung, Wirkungsgrad und Lastprofil",
+    "visual_type": "ac",
+    "file": "visuals/1.10-C.svg",
+    "description": [
+      "Wirkungsgrad, Energieverluste und Lastprofile",
+      "Sichere Interpretation von Netzangaben 230/400 V ohne Netzexperimente",
+      "Dein Dozent erklärt: Energiewandlung, Wirkungsgrad und Lastprofil"
+    ],
+    "source": [
+      "3.2.1b–3.2.8b; 3.5.1b–3.5.2b",
+      "Norm-/Regelwerk: Lehrplan 3.2/3.5; NIN Teil 3 (Anlagenmerkmale)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.11-A",
+    "title": "Rechtsquellen, Normen und Verantwortlichkeit",
+    "visual_type": "safety",
+    "file": "visuals/1.11-A.svg",
+    "description": [
+      "Normen- und Rechtsquellenhierarchie ElG, NIV, NIN, ESTI",
+      "Personenschutz: Basisschutz, Fehlerschutz, zusätzlicher Schutz",
+      "Dein Dozent erklärt: Rechtsquellen, Normen und Verantwortlichkeit"
+    ],
+    "source": [
+      "4.3.1b–4.3.6b; 2.2.4b",
+      "Norm-/Regelwerk: NIV Art. 24, 35–37; NIN Teile 4/5/6; ESTI Weisungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.11-B",
+    "title": "Basisschutz, Fehlerschutz und Zusatzschutz",
+    "visual_type": "protection",
+    "file": "visuals/1.11-B.svg",
+    "description": [
+      "Schutzklassen I/II/III und SELV/PELV als Überblick",
+      "Überstrom, Kurzschluss, Überlast, thermische Wirkung",
+      "Dein Dozent erklärt: Basisschutz, Fehlerschutz und Zusatzschutz"
+    ],
+    "source": [
+      "4.3.1b–4.3.6b; 2.2.4b",
+      "Norm-/Regelwerk: NIV Art. 24, 35–37; NIN Teile 4/5/6; ESTI Weisungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.11-C",
+    "title": "Kontrollen, Sicherheitsnachweis und Dokumentationspflicht",
+    "visual_type": "plan",
+    "file": "visuals/1.11-C.svg",
+    "description": [
+      "Erdung und Potenzialausgleich als Grundverständnis",
+      "Dokumentations- und Meldepflichten, SiNa und Kontrollarten",
+      "Dein Dozent erklärt: Kontrollen, Sicherheitsnachweis und Dokumentationspflicht"
+    ],
+    "source": [
+      "4.3.1b–4.3.6b; 2.2.4b",
+      "Norm-/Regelwerk: NIV Art. 24, 35–37; NIN Teile 4/5/6; ESTI Weisungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.12-A",
+    "title": "Anforderungskatalog für ein 12-V-Lichtmodell",
+    "visual_type": "process",
+    "file": "visuals/1.12-A.svg",
+    "description": [
+      "Anforderungen an zwei Lichtschaltstellen erfassen",
+      "12-V-Schaltkonzept erstellen",
+      "Dein Dozent erklärt: Anforderungskatalog für ein 12-V-Lichtmodell"
+    ],
+    "source": [
+      "1/2/3/4 (Grundlagen, integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: Lehrplan 2015 Fächer 2–4; NIN nur als Referenz, nicht als Abnahme",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.12-B",
+    "title": "Schaltmodell, Stückliste und Messplan",
+    "visual_type": "plan",
+    "file": "visuals/1.12-B.svg",
+    "description": [
+      "Kabel- und Komponentenwahl für SELV prüfen",
+      "Mechanisch sauberen Aufbau und Klemmenbezeichnung herstellen",
+      "Dein Dozent erklärt: Schaltmodell, Stückliste und Messplan"
+    ],
+    "source": [
+      "1/2/3/4 (Grundlagen, integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: Lehrplan 2015 Fächer 2–4; NIN nur als Referenz, nicht als Abnahme",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "1.12-C",
+    "title": "Fehlerszenarien und Jahresabschluss",
+    "visual_type": "process",
+    "file": "visuals/1.12-C.svg",
+    "description": [
+      "Fehlersuche, Funktionsprüfung und Dokumentation",
+      "Sicherheitsgespräch und Wiederholung der Module 1–11",
+      "Dein Dozent erklärt: Fehlerszenarien und Jahresabschluss"
+    ],
+    "source": [
+      "1/2/3/4 (Grundlagen, integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: Lehrplan 2015 Fächer 2–4; NIN nur als Referenz, nicht als Abnahme",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.01-A",
+    "title": "Zeigerbilder und Phasenverschiebung",
+    "visual_type": "ac",
+    "file": "visuals/2.01-A.svg",
+    "description": [
+      "Sinusfunktion, Frequenz, Phasenlage und Verschiebungswinkel",
+      "Phasoren/Zeigerbilder und komplexe Widerstände",
+      "Dein Dozent erklärt: Zeigerbilder und Phasenverschiebung"
+    ],
+    "source": [
+      "3.2.6b–3.2.8b; 5.3.1b–5.3.3b (Vorgriff)",
+      "Norm-/Regelwerk: Lehrplan 3.2; 5.3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.01-B",
+    "title": "Impedanz und RLC-Schaltungen",
+    "visual_type": "rc",
+    "file": "visuals/2.01-B.svg",
+    "description": [
+      "R–L- und R–C-Serien- und Parallelschaltung",
+      "Wirk-, Blind- und Scheinleistung, cos φ",
+      "Dein Dozent erklärt: Impedanz und RLC-Schaltungen"
+    ],
+    "source": [
+      "3.2.6b–3.2.8b; 5.3.1b–5.3.3b (Vorgriff)",
+      "Norm-/Regelwerk: Lehrplan 3.2; 5.3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.01-C",
+    "title": "Wirk-, Blind- und Scheinleistung",
+    "visual_type": "power",
+    "file": "visuals/2.01-C.svg",
+    "description": [
+      "Leistungsfaktor und Blindleistungskompensation",
+      "Energie und Strom aus Lastdaten berechnen",
+      "Dein Dozent erklärt: Wirk-, Blind- und Scheinleistung"
+    ],
+    "source": [
+      "3.2.6b–3.2.8b; 5.3.1b–5.3.3b (Vorgriff)",
+      "Norm-/Regelwerk: Lehrplan 3.2; 5.3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.02-A",
+    "title": "Drei Phasen und Sternschaltung",
+    "visual_type": "three",
+    "file": "visuals/2.02-A.svg",
+    "description": [
+      "Drei Phasen, 120° Phasenverschiebung",
+      "Stern- und Dreieckschaltung, Leiter-/Stranggrössen",
+      "Dein Dozent erklärt: Drei Phasen und Sternschaltung"
+    ],
+    "source": [
+      "3.2.2b–3.2.4b; 5.3.4b (Vertiefung später)",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.3; NIN Teil 3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.02-B",
+    "title": "Dreieck, Leistung und Lastsymmetrie",
+    "visual_type": "three",
+    "file": "visuals/2.02-B.svg",
+    "description": [
+      "Neutralleiter, Unsymmetrie und Oberschwingung (Einführung)",
+      "Leistung bei symmetrischem Drehstrom",
+      "Dein Dozent erklärt: Dreieck, Leistung und Lastsymmetrie"
+    ],
+    "source": [
+      "3.2.2b–3.2.4b; 5.3.4b (Vertiefung später)",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.3; NIN Teil 3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.02-C",
+    "title": "Neutralleiter, Unsymmetrie und Lastverteilung",
+    "visual_type": "three",
+    "file": "visuals/2.02-C.svg",
+    "description": [
+      "Anwendungsbeispiele Motor, Herd und PV-Wechselrichter",
+      "Einphasige Belastung/Phasenaufteilung als Planungsaufgabe",
+      "Dein Dozent erklärt: Neutralleiter, Unsymmetrie und Lastverteilung"
+    ],
+    "source": [
+      "3.2.2b–3.2.4b; 5.3.4b (Vertiefung später)",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.3; NIN Teil 3",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.03-A",
+    "title": "Faradaysches Induktionsgesetz",
+    "visual_type": "transformer",
+    "file": "visuals/2.03-A.svg",
+    "description": [
+      "Magnetisches Feld und Induktionsgesetz",
+      "Selbstinduktion, Gegeninduktion, Lenzsche Regel",
+      "Dein Dozent erklärt: Faradaysches Induktionsgesetz"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b; 5.1.6b",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.1; NIN Teil 4 (Schutztrennung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.03-B",
+    "title": "Transformatorenübersetzung und Verluste",
+    "visual_type": "transformer",
+    "file": "visuals/2.03-B.svg",
+    "description": [
+      "Aufbau, Übersetzung und Wirkungsgrad eines Trafos",
+      "Einphasen-/Drehstromtransformatoren",
+      "Dein Dozent erklärt: Transformatorenübersetzung und Verluste"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b; 5.1.6b",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.1; NIN Teil 4 (Schutztrennung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.03-C",
+    "title": "Schutztrennung und Transformatoranwendung",
+    "visual_type": "transformer",
+    "file": "visuals/2.03-C.svg",
+    "description": [
+      "Trenntransformator und Schutztrennung als Konzept",
+      "Verluste, Erwärmung, Belastungskennlinie",
+      "Dein Dozent erklärt: Schutztrennung und Transformatoranwendung"
+    ],
+    "source": [
+      "3.2.5b–3.2.7b; 5.1.6b",
+      "Norm-/Regelwerk: Lehrplan 3.2/5.1; NIN Teil 4 (Schutztrennung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.04-A",
+    "title": "Dioden, Gleichrichter und Glättung",
+    "visual_type": "process",
+    "file": "visuals/2.04-A.svg",
+    "description": [
+      "Halbleiter, Dioden, Brückengleichrichter",
+      "Transistor/Relais, Schützschnittstelle",
+      "Dein Dozent erklärt: Dioden, Gleichrichter und Glättung"
+    ],
+    "source": [
+      "3.3.1b–3.3.4b",
+      "Norm-/Regelwerk: Lehrplan 3.3; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.04-B",
+    "title": "Transistoren, Relais und Optokoppler",
+    "visual_type": "logic",
+    "file": "visuals/2.04-B.svg",
+    "description": [
+      "Thyristor, Triac, Phasenanschnitt und Dimmer",
+      "Optokoppler, Entstörung, Überspannung",
+      "Dein Dozent erklärt: Transistoren, Relais und Optokoppler"
+    ],
+    "source": [
+      "3.3.1b–3.3.4b",
+      "Norm-/Regelwerk: Lehrplan 3.3; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.04-C",
+    "title": "Digitale Logik und Sensor-Aktor-Prinzip",
+    "visual_type": "logic",
+    "file": "visuals/2.04-C.svg",
+    "description": [
+      "Boolesche Logik, Schaltschwellen, Binärzahlen",
+      "Steuerung vs. Regelung, Sensor/Aktor",
+      "Dein Dozent erklärt: Digitale Logik und Sensor-Aktor-Prinzip"
+    ],
+    "source": [
+      "3.3.1b–3.3.4b",
+      "Norm-/Regelwerk: Lehrplan 3.3; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.05-A",
+    "title": "TN-, TT- und IT-Systeme",
+    "visual_type": "process",
+    "file": "visuals/2.05-A.svg",
+    "description": [
+      "Schutz durch automatische Abschaltung (ADS)",
+      "TN-, TT- und IT-Netzkonzepte, Trennung PE/N/PEN",
+      "Dein Dozent erklärt: TN-, TT- und IT-Systeme"
+    ],
+    "source": [
+      "4.3.3b–4.3.6b; 5.1.5b",
+      "Norm-/Regelwerk: NIN Teil 4 (insbes. 4.1 Schutz gegen elektrischen Schlag); Teil 5 Erdung",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.05-B",
+    "title": "RCD, Fehlerströme und Schutzpotenzialausgleich",
+    "visual_type": "protection",
+    "file": "visuals/2.05-B.svg",
+    "description": [
+      "Berührungsspannung und Fehlerstrompfade",
+      "Schutzpotentialausgleich, Haupterdungsschiene",
+      "Dein Dozent erklärt: RCD, Fehlerströme und Schutzpotenzialausgleich"
+    ],
+    "source": [
+      "4.3.3b–4.3.6b; 5.1.5b",
+      "Norm-/Regelwerk: NIN Teil 4 (insbes. 4.1 Schutz gegen elektrischen Schlag); Teil 5 Erdung",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.05-C",
+    "title": "Schutzkonzepte anhand eines Fehlerfalls",
+    "visual_type": "protection",
+    "file": "visuals/2.05-C.svg",
+    "description": [
+      "RCD-Typen und Auslösekonzepte",
+      "Schutzmassnahmen nach Umgebung und Anlage auswählen",
+      "Dein Dozent erklärt: Schutzkonzepte anhand eines Fehlerfalls"
+    ],
+    "source": [
+      "4.3.3b–4.3.6b; 5.1.5b",
+      "Norm-/Regelwerk: NIN Teil 4 (insbes. 4.1 Schutz gegen elektrischen Schlag); Teil 5 Erdung",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.06-A",
+    "title": "Überlast, Kurzschluss und Schutzgerät",
+    "visual_type": "protection",
+    "file": "visuals/2.06-A.svg",
+    "description": [
+      "Betriebsstrom, Bemessungsstrom, zulässige Strombelastbarkeit",
+      "Überlast- und Kurzschlussschutz, LS-Kennlinien",
+      "Dein Dozent erklärt: Überlast, Kurzschluss und Schutzgerät"
+    ],
+    "source": [
+      "4.3.4b–4.3.6b; 5.1.4b",
+      "Norm-/Regelwerk: NIN Teil 4 Überstromschutz; Teil 5 Leitungsanlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.06-B",
+    "title": "Leitungsdimensionierung und Spannungsfall",
+    "visual_type": "process",
+    "file": "visuals/2.06-B.svg",
+    "description": [
+      "Verlegearten, Häufung, Umgebungstemperatur",
+      "Spannungsfall, Leiterquerschnitt, Erwärmung",
+      "Dein Dozent erklärt: Leitungsdimensionierung und Spannungsfall"
+    ],
+    "source": [
+      "4.3.4b–4.3.6b; 5.1.4b",
+      "Norm-/Regelwerk: NIN Teil 4 Überstromschutz; Teil 5 Leitungsanlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.06-C",
+    "title": "Schutzkoordination und Selektivität als Einstieg",
+    "visual_type": "protection",
+    "file": "visuals/2.06-C.svg",
+    "description": [
+      "Kurzschlussstrom und Abschaltbedingung als Konzept",
+      "Selektivität und Kaskadierung als Ausblick",
+      "Dein Dozent erklärt: Schutzkoordination und Selektivität als Einstieg"
+    ],
+    "source": [
+      "4.3.4b–4.3.6b; 5.1.4b",
+      "Norm-/Regelwerk: NIN Teil 4 Überstromschutz; Teil 5 Leitungsanlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.07-A",
+    "title": "Lichtschaltungen im Funktionsschema",
+    "visual_type": "plan",
+    "file": "visuals/2.07-A.svg",
+    "description": [
+      "Wechsel-/Kreuz-/Taster-/Stromstossschaltung im Schema",
+      "Ausführungssymbole nach IEC, Klemmen- und Aderlisten",
+      "Dein Dozent erklärt: Lichtschaltungen im Funktionsschema"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.4b",
+      "Norm-/Regelwerk: NIN Teile 4/5; IEC 60617 (Zeichen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.07-B",
+    "title": "Anschlussplan, Aderliste und Betriebsmittelkennzeichen",
+    "visual_type": "plan",
+    "file": "visuals/2.07-B.svg",
+    "description": [
+      "Wohnungsgrundriss mit Licht und Steckdosen",
+      "Trasse, Leitungswege, Befestigungen, Verteilerplatz",
+      "Dein Dozent erklärt: Anschlussplan, Aderliste und Betriebsmittelkennzeichen"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.4b",
+      "Norm-/Regelwerk: NIN Teile 4/5; IEC 60617 (Zeichen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.07-C",
+    "title": "Material- und Zeitkalkulation eines fiktiven Grundrisses",
+    "visual_type": "plan",
+    "file": "visuals/2.07-C.svg",
+    "description": [
+      "Stückliste und Material-/Zeitkalkulation",
+      "Revisionsstand und Planvergleich zur Baustelle",
+      "Dein Dozent erklärt: Material- und Zeitkalkulation eines fiktiven Grundrisses"
+    ],
+    "source": [
+      "4.1.1b–4.1.3b; 4.2.1b–4.2.4b",
+      "Norm-/Regelwerk: NIN Teile 4/5; IEC 60617 (Zeichen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.08-A",
+    "title": "Lichtstrom, Beleuchtungsstärke und Lichtstärke",
+    "visual_type": "process",
+    "file": "visuals/2.08-A.svg",
+    "description": [
+      "Lichtstrom (lm), Beleuchtungsstärke (lx), Lichtstärke (cd)",
+      "LED, Vorschaltgerät/Treiber, Effizienz",
+      "Dein Dozent erklärt: Lichtstrom, Beleuchtungsstärke und Lichtstärke"
+    ],
+    "source": [
+      "3.5.1b; 5.2.1b–5.2.3b",
+      "Norm-/Regelwerk: NIN Teile 4/5; SN EN 12464-1 (Arbeitsstätten – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.08-B",
+    "title": "LED-Treiber, Lichtqualität und Effizienz",
+    "visual_type": "process",
+    "file": "visuals/2.08-B.svg",
+    "description": [
+      "Farbtemperatur, Farbwiedergabe, Blendung",
+      "Beleuchtungsberechnung und Wartungsfaktor",
+      "Dein Dozent erklärt: LED-Treiber, Lichtqualität und Effizienz"
+    ],
+    "source": [
+      "3.5.1b; 5.2.1b–5.2.3b",
+      "Norm-/Regelwerk: NIN Teile 4/5; SN EN 12464-1 (Arbeitsstätten – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.08-C",
+    "title": "Lichtsteuerung und Präsenzanwendungen",
+    "visual_type": "logic",
+    "file": "visuals/2.08-C.svg",
+    "description": [
+      "Präsenzmelder, Dämmerungsschalter, Zeitschaltuhr",
+      "Anwendungsfälle Treppenhaus, Aussenbereich, Arbeitsraum",
+      "Dein Dozent erklärt: Lichtsteuerung und Präsenzanwendungen"
+    ],
+    "source": [
+      "3.5.1b; 5.2.1b–5.2.3b",
+      "Norm-/Regelwerk: NIN Teile 4/5; SN EN 12464-1 (Arbeitsstätten – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.09-A",
+    "title": "Elektrische Wärme und Wärmemenge",
+    "visual_type": "process",
+    "file": "visuals/2.09-A.svg",
+    "description": [
+      "Ohmsche und induktive Wärmeverbraucher",
+      "Heizleistung und thermische Energie; Wärmekapazität",
+      "Dein Dozent erklärt: Elektrische Wärme und Wärmemenge"
+    ],
+    "source": [
+      "3.5.2b–3.5.8b; 5.2.3b–5.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; NIN Teil 5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.09-B",
+    "title": "Haushaltsgeräte und Anschlussdaten",
+    "visual_type": "process",
+    "file": "visuals/2.09-B.svg",
+    "description": [
+      "Motorische Lasten, Anlaufstrom (Grundlagen)",
+      "Energieverbrauch und Effizienzangaben",
+      "Dein Dozent erklärt: Haushaltsgeräte und Anschlussdaten"
+    ],
+    "source": [
+      "3.5.2b–3.5.8b; 5.2.3b–5.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; NIN Teil 5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.09-C",
+    "title": "Energieeffizienz und Kostenvergleich",
+    "visual_type": "ac",
+    "file": "visuals/2.09-C.svg",
+    "description": [
+      "Herstelleranschlussbilder lesen",
+      "Verbraucherwahl aus Nutzungsprofil und Schutzkonzept",
+      "Dein Dozent erklärt: Energieeffizienz und Kostenvergleich"
+    ],
+    "source": [
+      "3.5.2b–3.5.8b; 5.2.3b–5.2.7b",
+      "Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; NIN Teil 5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.10-A",
+    "title": "Datenübertragung und Netzwerktopologien",
+    "visual_type": "network",
+    "file": "visuals/2.10-A.svg",
+    "description": [
+      "Analoge und digitale Übertragung, Bandbreite",
+      "Strukturierte Verkabelung, Sternstruktur und Patchfelder",
+      "Dein Dozent erklärt: Datenübertragung und Netzwerktopologien"
+    ],
+    "source": [
+      "3.4.1b–3.4.4b; 6.1.1b",
+      "Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.10-B",
+    "title": "Twisted Pair, Glasfaser und Übertragungswege",
+    "visual_type": "network",
+    "file": "visuals/2.10-B.svg",
+    "description": [
+      "Twisted Pair, Schirmung, Kategorie und Klasse",
+      "Glasfaser und Koaxialtechnik Grundlagen",
+      "Dein Dozent erklärt: Twisted Pair, Glasfaser und Übertragungswege"
+    ],
+    "source": [
+      "3.4.1b–3.4.4b; 6.1.1b",
+      "Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.10-C",
+    "title": "IP-Adressen, Geräte und Fehlersuche",
+    "visual_type": "network",
+    "file": "visuals/2.10-C.svg",
+    "description": [
+      "IP-Adressen, Subnetze, VLAN und PoE als Praxisüberblick",
+      "Verkabelungstest, Link-Test vs. Zertifizierung",
+      "Dein Dozent erklärt: IP-Adressen, Geräte und Fehlersuche"
+    ],
+    "source": [
+      "3.4.1b–3.4.4b; 6.1.1b",
+      "Norm-/Regelwerk: Lehrplan 3.4/6.1; ISO/IEC 11801 (Gebäudeverkabelung – Überblick)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.11-A",
+    "title": "Sichtprüfung vor elektrischen Messungen",
+    "visual_type": "measurement",
+    "file": "visuals/2.11-A.svg",
+    "description": [
+      "Sichtprüfung, Schutzleiter-/Potenzialausgleichsprüfung",
+      "Isolationsmessung, Schleifenimpedanz/Kurzschlussstrom",
+      "Dein Dozent erklärt: Sichtprüfung vor elektrischen Messungen"
+    ],
+    "source": [
+      "4.3.6b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24; ESTI zu Erstprüfungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.11-B",
+    "title": "Schutzleiter- und Isolationsprüfung verstehen",
+    "visual_type": "protection",
+    "file": "visuals/2.11-B.svg",
+    "description": [
+      "RCD-Prüfung und Abschaltbedingungen",
+      "Polaritäts- und Funktionsprüfung",
+      "Dein Dozent erklärt: Schutzleiter- und Isolationsprüfung verstehen"
+    ],
+    "source": [
+      "4.3.6b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24; ESTI zu Erstprüfungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.11-C",
+    "title": "RCD-Prüfung, Schleifenimpedanz und Messprotokoll",
+    "visual_type": "rc",
+    "file": "visuals/2.11-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "4.3.6b; 5.1.7b (Vorgriff)",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24; ESTI zu Erstprüfungen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.12-A",
+    "title": "Raumbuch und Lastenliste erstellen",
+    "visual_type": "plan",
+    "file": "visuals/2.12-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "3/4/5 (integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: NIN Teile 3–7; NIV Art. 24",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.12-B",
+    "title": "Schutz- und Leitungsentwurf im Planungsfall",
+    "visual_type": "protection",
+    "file": "visuals/2.12-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "3/4/5 (integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: NIN Teile 3–7; NIV Art. 24",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "2.12-C",
+    "title": "Dokumentation, Fehlerreview und Jahresprüfung",
+    "visual_type": "measurement",
+    "file": "visuals/2.12-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "3/4/5 (integrierte Leistungskontrolle)",
+      "Norm-/Regelwerk: NIN Teile 3–7; NIV Art. 24",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.01-A",
+    "title": "Rohbau-, Hohlwand- und Aufputzinstallation",
+    "visual_type": "plan",
+    "file": "visuals/3.01-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "5.1.1a–5.1.5b; 2.3.1a–2.3.7a",
+      "Norm-/Regelwerk: NIN Teil 5; Normenreihe SN EN IEC 61439 (Schaltgerätekombinationen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.01-B",
+    "title": "Leitungstrassen, Schacht und Brandabschnitt",
+    "visual_type": "plan",
+    "file": "visuals/3.01-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "5.1.1a–5.1.5b; 2.3.1a–2.3.7a",
+      "Norm-/Regelwerk: NIN Teil 5; Normenreihe SN EN IEC 61439 (Schaltgerätekombinationen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.01-C",
+    "title": "Schaltgerätekombinationen und Verteilerplanung",
+    "visual_type": "plan",
+    "file": "visuals/3.01-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "5.1.1a–5.1.5b; 2.3.1a–2.3.7a",
+      "Norm-/Regelwerk: NIN Teil 5; Normenreihe SN EN IEC 61439 (Schaltgerätekombinationen)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.02-A",
+    "title": "Leitungsschutz, RCD und Gerätefunktionen",
+    "visual_type": "protection",
+    "file": "visuals/3.02-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Didaktisches Funktions- oder Bauteilmodell",
+      "Nicht als freigegebene Installationszeichnung verwenden"
+    ],
+    "source": [
+      "5.1.4b; 5.1.5b; 5.4.1b–5.4.2b",
+      "Norm-/Regelwerk: NIN Teil 4/5; SN EN 61439-Serie",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.02-B",
+    "title": "Überspannungsschutz und Schutzgerätekoordination",
+    "visual_type": "protection",
+    "file": "visuals/3.02-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.1.4b; 5.1.5b; 5.4.1b–5.4.2b",
+      "Norm-/Regelwerk: NIN Teil 4/5; SN EN 61439-Serie",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.02-C",
+    "title": "Schutzgeräteauswahl und thermische Betrachtung",
+    "visual_type": "protection",
+    "file": "visuals/3.02-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.1.4b; 5.1.5b; 5.4.1b–5.4.2b",
+      "Norm-/Regelwerk: NIN Teil 4/5; SN EN 61439-Serie",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.03-A",
+    "title": "Erstprüfung als geplanter Prozess",
+    "visual_type": "measurement",
+    "file": "visuals/3.03-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.1.7a–c; 4.3.6b; 2.2.4a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.03-B",
+    "title": "Schutzleiter, Isolation und Polarisierung",
+    "visual_type": "protection",
+    "file": "visuals/3.03-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.1.7a–c; 4.3.6b; 2.2.4a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.03-C",
+    "title": "RCD, Schleifenimpedanz und Prüfprotokoll",
+    "visual_type": "rc",
+    "file": "visuals/3.03-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.1.7a–c; 4.3.6b; 2.2.4a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.04-A",
+    "title": "Drehstrom-Asynchronmotor und Schlupf",
+    "visual_type": "motor",
+    "file": "visuals/3.04-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.2.4b–5.2.7b; 5.3.4b",
+      "Norm-/Regelwerk: NIN Teil 4/5; Herstellerunterlagen; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.04-B",
+    "title": "Anlaufarten und Motorschutz",
+    "visual_type": "motor",
+    "file": "visuals/3.04-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.2.4b–5.2.7b; 5.3.4b",
+      "Norm-/Regelwerk: NIN Teil 4/5; Herstellerunterlagen; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.04-C",
+    "title": "Frequenzumrichter und EMV",
+    "visual_type": "motor",
+    "file": "visuals/3.04-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.2.4b–5.2.7b; 5.3.4b",
+      "Norm-/Regelwerk: NIN Teil 4/5; Herstellerunterlagen; EMV-Grundlagen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.05-A",
+    "title": "Selbsthaltung und Verriegelung mit Relais",
+    "visual_type": "logic",
+    "file": "visuals/3.05-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.4.1a–5.4.4b",
+      "Norm-/Regelwerk: Lehrplan 5.4; SN EN 60204-1 (Maschinenelektrik – Abgrenzung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.05-B",
+    "title": "Zeitglieder, Signalfluss und Funktionsablauf",
+    "visual_type": "logic",
+    "file": "visuals/3.05-B.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.4.1a–5.4.4b",
+      "Norm-/Regelwerk: Lehrplan 5.4; SN EN 60204-1 (Maschinenelektrik – Abgrenzung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.05-C",
+    "title": "KOP/FUP, Fehlerdiagnose und Not-Halt-Abgrenzung",
+    "visual_type": "measurement",
+    "file": "visuals/3.05-C.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.4.1a–5.4.4b",
+      "Norm-/Regelwerk: Lehrplan 5.4; SN EN 60204-1 (Maschinenelektrik – Abgrenzung)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.06-A",
+    "title": "KNX-Bus, Topologie und Teilnehmer",
+    "visual_type": "logic",
+    "file": "visuals/3.06-A.svg",
+    "description": [
+      "Eigenständige themenbezogene technische Lernzeichnung",
+      "Vereinfachtes didaktisches Funktionsmodell",
+      "Keine Freigabe als Installationszeichnung"
+    ],
+    "source": [
+      "5.5.1b–5.5.3b; 3.3.2b",
+      "Norm-/Regelwerk: Lehrplan 5.5; KNX-Standard (Hersteller/KNX-Association)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.06-B",
+    "title": "Sensorik, Szenen und Raumfunktionen",
+    "visual_type": "logic",
+    "file": "visuals/3.06-B.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.5.1b–5.5.3b; 3.3.2b",
+      "Norm-/Regelwerk: Lehrplan 5.5; KNX-Standard (Hersteller/KNX-Association)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.06-C",
+    "title": "Diagnose, Fernzugriff und Dokumentation",
+    "visual_type": "measurement",
+    "file": "visuals/3.06-C.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.5.1b–5.5.3b; 3.3.2b",
+      "Norm-/Regelwerk: Lehrplan 5.5; KNX-Standard (Hersteller/KNX-Association)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.07-A",
+    "title": "PV-Kennlinie, MPP und Ertragsfaktoren",
+    "visual_type": "pv",
+    "file": "visuals/3.07-A.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 5.3.6b",
+      "Norm-/Regelwerk: NIN 2025 Abschnitt 7.12; ESTI 220; SN EN 62446-1",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.07-B",
+    "title": "Stringplanung, Temperatur und Wechselrichtergrenzen",
+    "visual_type": "pv",
+    "file": "visuals/3.07-B.svg",
+    "description": [
+      "Wechselrichter-Topologien, Ein-/Dreiphaseneinspeisung",
+      "DC-Seitensicherheit, Stecksysteme, Lichtbogenrisiko",
+      "Dein Dozent erklärt: Stringplanung, Temperatur und Wechselrichtergrenzen"
+    ],
+    "source": [
+      "5.2.8a–c; 5.3.6b",
+      "Norm-/Regelwerk: NIN 2025 Abschnitt 7.12; ESTI 220; SN EN 62446-1",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.07-C",
+    "title": "DC-Sicherheit, Stecksysteme und PV-Dokumentation",
+    "visual_type": "pv",
+    "file": "visuals/3.07-C.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 5.3.6b",
+      "Norm-/Regelwerk: NIN 2025 Abschnitt 7.12; ESTI 220; SN EN 62446-1",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.08-A",
+    "title": "NIV 14 und Abgrenzung der PV-Arbeiten",
+    "visual_type": "pv",
+    "file": "visuals/3.08-A.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: NIV Art. 14, 23/24; NIN 7.12; ESTI 220; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.08-B",
+    "title": "Netzanmeldung, Bauverfahren und Messkonzept",
+    "visual_type": "process",
+    "file": "visuals/3.08-B.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: NIV Art. 14, 23/24; NIN 7.12; ESTI 220; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.08-C",
+    "title": "PV-Prüfprotokoll, Dachschutz und Übergabe",
+    "visual_type": "pv",
+    "file": "visuals/3.08-C.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: NIV Art. 14, 23/24; NIN 7.12; ESTI 220; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.09-A",
+    "title": "Bäder, Schutzbereiche und besondere Räume",
+    "visual_type": "protection",
+    "file": "visuals/3.09-A.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "4.3.4b–4.3.7b; 5.1.8b",
+      "Norm-/Regelwerk: NIN Teil 7 (besondere Anlagen/Räume); Teil 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.09-B",
+    "title": "Aussenanlagen, Baustellen und Landwirtschaft",
+    "visual_type": "process",
+    "file": "visuals/3.09-B.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "4.3.4b–4.3.7b; 5.1.8b",
+      "Norm-/Regelwerk: NIN Teil 7 (besondere Anlagen/Räume); Teil 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.09-C",
+    "title": "Blitz-, Überspannungs- und Brandschutzkonzepte",
+    "visual_type": "protection",
+    "file": "visuals/3.09-C.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "4.3.4b–4.3.7b; 5.1.8b",
+      "Norm-/Regelwerk: NIN Teil 7 (besondere Anlagen/Räume); Teil 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.10-A",
+    "title": "Strukturierte Kupferverkabelung und Patchfelder",
+    "visual_type": "network",
+    "file": "visuals/3.10-A.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "6.1.1a–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.10-B",
+    "title": "Glasfaser und optische Übertragung",
+    "visual_type": "network",
+    "file": "visuals/3.10-B.svg",
+    "description": [
+      "Themenspezifisches Funktionsmodell",
+      "Didaktische Vereinfachung; keine Ausführungsfreigabe",
+      "Originalnormen und konkrete Datenblätter separat prüfen"
+    ],
+    "source": [
+      "6.1.1a–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.10-C",
+    "title": "Koaxialtechnik, Pegel und Messberichte",
+    "visual_type": "network",
+    "file": "visuals/3.10-C.svg",
+    "description": [
+      "Messreport und Pass/Fail-Interpretation",
+      "Dokumentation vom Providerpunkt bis Endgerät",
+      "Dein Dozent erklärt: Koaxialtechnik, Pegel und Messberichte"
+    ],
+    "source": [
+      "6.1.1a–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.11-A",
+    "title": "Fehlerbaum und sicherer Diagnoseprozess",
+    "visual_type": "measurement",
+    "file": "visuals/3.11-A.svg",
+    "description": [
+      "Störungen kategorisieren: Versorgung, Schutzorgan, Verbraucher, Steuerung",
+      "Sicherheitsfreigaben und Dokumente vor Messungen",
+      "Dein Dozent erklärt: Fehlerbaum und sicherer Diagnoseprozess"
+    ],
+    "source": [
+      "1.1.3a; 1.2.3a; 5.1.7a; 5.3.6a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6; Suva 84042.D",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.11-B",
+    "title": "Messstrategie, Gegenprüfung und Ursachenanalyse",
+    "visual_type": "measurement",
+    "file": "visuals/3.11-B.svg",
+    "description": [
+      "Fehlerbaum, Hypothesen und Priorisierung",
+      "Mess-/Prüfentscheid und Fachkompetenzgrenzen",
+      "Dein Dozent erklärt: Messstrategie, Gegenprüfung und Ursachenanalyse"
+    ],
+    "source": [
+      "1.1.3a; 1.2.3a; 5.1.7a; 5.3.6a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6; Suva 84042.D",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.11-C",
+    "title": "Kundengespräch, Rapport und Übergabe",
+    "visual_type": "process",
+    "file": "visuals/3.11-C.svg",
+    "description": [
+      "Rückmeldung an Kunden, Tätigkeitsnachweis",
+      "Erste Hilfe, Ereignisdokumentation und Eskalation",
+      "Dein Dozent erklärt: Kundengespräch, Rapport und Übergabe"
+    ],
+    "source": [
+      "1.1.3a; 1.2.3a; 5.1.7a; 5.3.6a",
+      "Norm-/Regelwerk: NIV Art. 24; NIN Teil 6; Suva 84042.D",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.12-A",
+    "title": "Gesamtplanung: Verbraucher, PV und Datensystem",
+    "visual_type": "plan",
+    "file": "visuals/3.12-A.svg",
+    "description": [
+      "Ein Gebäude: Verbraucher, Hausverteilung, PV, Daten und Automation",
+      "Stromlauf- und Übersichtsplan, Stringplan",
+      "Dein Dozent erklärt: Gesamtplanung: Verbraucher, PV und Datensystem"
+    ],
+    "source": [
+      "4.1–4.3; 5.1–5.5; 6.1–6.2",
+      "Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.12-B",
+    "title": "Schutz-, Leitungs- und PV-Dokumentation",
+    "visual_type": "pv",
+    "file": "visuals/3.12-B.svg",
+    "description": [
+      "Schutzkonzept, Leitungsauslegung, Netzvorgaben",
+      "Funktions-, Prüf- und Abnahmeplan",
+      "Dein Dozent erklärt: Schutz-, Leitungs- und PV-Dokumentation"
+    ],
+    "source": [
+      "4.1–4.3; 5.1–5.5; 6.1–6.2",
+      "Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "3.12-C",
+    "title": "Projektprüfung und Sicherheits-Fachgespräch",
+    "visual_type": "measurement",
+    "file": "visuals/3.12-C.svg",
+    "description": [
+      "Kostenschätzung/Materialliste",
+      "Fachgespräch mit 15 Fragen und Sicherheitsreview",
+      "Dein Dozent erklärt: Projektprüfung und Sicherheits-Fachgespräch"
+    ],
+    "source": [
+      "4.1–4.3; 5.1–5.5; 6.1–6.2",
+      "Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.01-A",
+    "title": "Komplexe Impedanz und Wechselstromnetze",
+    "visual_type": "rc",
+    "file": "visuals/4.01-A.svg",
+    "description": [
+      "Zeigerrechnung mit R, L, C; Impedanz und Admittanz",
+      "Kirchhoffsche Regeln bei Wechselstrom",
+      "Dein Dozent erklärt: Komplexe Impedanz und Wechselstromnetze"
+    ],
+    "source": [
+      "5.3.1b–5.3.4b",
+      "Norm-/Regelwerk: Lehrplan 5.3; NIN Teil 3 (Lastdaten)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.01-B",
+    "title": "Leistungsdreieck und Blindleistung",
+    "visual_type": "three",
+    "file": "visuals/4.01-B.svg",
+    "description": [
+      "P, Q, S, cos φ und Kompensation",
+      "Drehstrom-Wirkleistung, Symmetrie/Unsymmetrie",
+      "Dein Dozent erklärt: Leistungsdreieck und Blindleistung"
+    ],
+    "source": [
+      "5.3.1b–5.3.4b",
+      "Norm-/Regelwerk: Lehrplan 5.3; NIN Teil 3 (Lastdaten)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.01-C",
+    "title": "Drehstromlasten und Plausibilitätsprüfung",
+    "visual_type": "three",
+    "file": "visuals/4.01-C.svg",
+    "description": [
+      "Transformatoren/Leistungsübertragung",
+      "Formelwahl, Einheitenprüfung und Grenzfälle",
+      "Dein Dozent erklärt: Drehstromlasten und Plausibilitätsprüfung"
+    ],
+    "source": [
+      "5.3.1b–5.3.4b",
+      "Norm-/Regelwerk: Lehrplan 5.3; NIN Teil 3 (Lastdaten)",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.02-A",
+    "title": "Fehlerschleifenimpedanz und Abschaltbedingungen",
+    "visual_type": "rc",
+    "file": "visuals/4.02-A.svg",
+    "description": [
+      "Schleifenimpedanz und prospektiver Kurzschlussstrom",
+      "Auslösecharakteristik und Abschaltzeit",
+      "Dein Dozent erklärt: Fehlerschleifenimpedanz und Abschaltbedingungen"
+    ],
+    "source": [
+      "5.1.4b–5.1.7b; 5.3.6b",
+      "Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.02-B",
+    "title": "Selektivität und Schutzgerätabstimmung",
+    "visual_type": "protection",
+    "file": "visuals/4.02-B.svg",
+    "description": [
+      "Koordination LS/RCD/SPD und Vorsicherung",
+      "Fehlerfallanalyse und Freigabekriterien",
+      "Dein Dozent erklärt: Selektivität und Schutzgerätabstimmung"
+    ],
+    "source": [
+      "5.1.4b–5.1.7b; 5.3.6b",
+      "Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.02-C",
+    "title": "Schutzfälle und sichere Freigabeentscheidungen",
+    "visual_type": "protection",
+    "file": "visuals/4.02-C.svg",
+    "description": [
+      "Schutz in langen Leitungen und bei besonderen Netzen",
+      "Erdung/Potenzialausgleich in komplexen Anlagen",
+      "Dein Dozent erklärt: Schutzfälle und sichere Freigabeentscheidungen"
+    ],
+    "source": [
+      "5.1.4b–5.1.7b; 5.3.6b",
+      "Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.03-A",
+    "title": "Lastprofile, Eigenverbrauch und Energieflüsse",
+    "visual_type": "pv",
+    "file": "visuals/4.03-A.svg",
+    "description": [
+      "Lastprofile und Energiefluss über 24 Stunden",
+      "PV-Eigenverbrauch, Batteriespeicher und Wechselrichterkopplung",
+      "Dein Dozent erklärt: Lastprofile, Eigenverbrauch und Energieflüsse"
+    ],
+    "source": [
+      "3.5.1b–3.5.5b; 5.2.8b; 5.5.3b",
+      "Norm-/Regelwerk: NIN 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.03-B",
+    "title": "Batteriespeicher und Wirkungsgradkette",
+    "visual_type": "pv",
+    "file": "visuals/4.03-B.svg",
+    "description": [
+      "Ladeinfrastruktur und Lastmanagement",
+      "Netzanschluss, Meldung und Messkonzept",
+      "Dein Dozent erklärt: Batteriespeicher und Wirkungsgradkette"
+    ],
+    "source": [
+      "3.5.1b–3.5.5b; 5.2.8b; 5.5.3b",
+      "Norm-/Regelwerk: NIN 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.03-C",
+    "title": "Elektromobilität und intelligentes Lastmanagement",
+    "visual_type": "process",
+    "file": "visuals/4.03-C.svg",
+    "description": [
+      "Wirkungsgradketten, Rundsteuerung und Smart Meter",
+      "NIN 2025 neue Themen vs. BiVo2015-Prüfungsumfang getrennt halten",
+      "Dein Dozent erklärt: Elektromobilität und intelligentes Lastmanagement"
+    ],
+    "source": [
+      "3.5.1b–3.5.5b; 5.2.8b; 5.5.3b",
+      "Norm-/Regelwerk: NIN 2025 Teil 7.12 (PV), 7.22 (EV), Teil 8; ESTI 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.04-A",
+    "title": "Ablauflogik und Zustandsautomaten",
+    "visual_type": "logic",
+    "file": "visuals/4.04-A.svg",
+    "description": [
+      "Mehrfache Verriegelungen, Ablauf-/Zustandslogik",
+      "KOP/FUP und Fehlertabellen, Funktionsgraph",
+      "Dein Dozent erklärt: Ablauflogik und Zustandsautomaten"
+    ],
+    "source": [
+      "5.4.1b–5.4.4b; 5.5.1b–5.5.3b",
+      "Norm-/Regelwerk: Lehrplan 5.4/5.5; NIN Teile 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.04-B",
+    "title": "Verriegelungen, Sensorik und Fehlertabelle",
+    "visual_type": "logic",
+    "file": "visuals/4.04-B.svg",
+    "description": [
+      "Motorsteuerung und Schutz als System",
+      "KNX-Lastenlisten und Szenen",
+      "Dein Dozent erklärt: Verriegelungen, Sensorik und Fehlertabelle"
+    ],
+    "source": [
+      "5.4.1b–5.4.4b; 5.5.1b–5.5.3b",
+      "Norm-/Regelwerk: Lehrplan 5.4/5.5; NIN Teile 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.04-C",
+    "title": "Gebäudeautomation und Benutzerfunktionen",
+    "visual_type": "logic",
+    "file": "visuals/4.04-C.svg",
+    "description": [
+      "HMI, Benutzerfunktionen und Dokumentation",
+      "Analyse geplanter und tatsächlicher Funktion",
+      "Dein Dozent erklärt: Gebäudeautomation und Benutzerfunktionen"
+    ],
+    "source": [
+      "5.4.1b–5.4.4b; 5.5.1b–5.5.3b",
+      "Norm-/Regelwerk: Lehrplan 5.4/5.5; NIN Teile 4/5",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.05-A",
+    "title": "Sichtprüfung, Prüfreihenfolge und Freigaben",
+    "visual_type": "measurement",
+    "file": "visuals/4.05-A.svg",
+    "description": [
+      "Systematische Sichtprüfung und Prüfstrategie",
+      "Schutzleiterprüfung und Isolationswiderstand",
+      "Dein Dozent erklärt: Sichtprüfung, Prüfreihenfolge und Freigaben"
+    ],
+    "source": [
+      "5.1.7a–c; 5.3.6a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24, 37; ESTI Weisung 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.05-B",
+    "title": "Messunsicherheit, Grenzwerte und Bewertungslogik",
+    "visual_type": "logic",
+    "file": "visuals/4.05-B.svg",
+    "description": [
+      "Kurzschlussstrom, RCD, Schleifenimpedanz und Funktion",
+      "Prüfmittel und Messunsicherheit",
+      "Dein Dozent erklärt: Messunsicherheit, Grenzwerte und Bewertungslogik"
+    ],
+    "source": [
+      "5.1.7a–c; 5.3.6a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24, 37; ESTI Weisung 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.05-C",
+    "title": "Erstprüfungsdossier und Übergabe",
+    "visual_type": "measurement",
+    "file": "visuals/4.05-C.svg",
+    "description": [
+      "Vollständige Dokumentation und Interpretation",
+      "Abgrenzung Erstprüfung, Schlusskontrolle und Sicherheitsnachweis",
+      "Dein Dozent erklärt: Erstprüfungsdossier und Übergabe"
+    ],
+    "source": [
+      "5.1.7a–c; 5.3.6a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN Teil 6; NIV Art. 24, 37; ESTI Weisung 220",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.06-A",
+    "title": "Gesetze, Verordnungen und technische Regeln auseinanderhalten",
+    "visual_type": "process",
+    "file": "visuals/4.06-A.svg",
+    "description": [
+      "Normenkette: ElG, NIV, NIN, ESTI, Netzbetreiber",
+      "NIN systematisch nach Teilen 1–8 nachschlagen",
+      "Dein Dozent erklärt: Gesetze, Verordnungen und technische Regeln auseinanderhalten"
+    ],
+    "source": [
+      "4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: ElG SR 734.0; NIV SR 734.27; NIN SN 411000:2025; ESTI",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.06-B",
+    "title": "NIN-Systematik und gezielte Normrecherche",
+    "visual_type": "process",
+    "file": "visuals/4.06-B.svg",
+    "description": [
+      "Leiterwahl, Fehler-/Brandschutz, Schutz vor Überspannung",
+      "Besondere Räume und PV/EV-Anwendungsfälle",
+      "Dein Dozent erklärt: NIN-Systematik und gezielte Normrecherche"
+    ],
+    "source": [
+      "4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: ElG SR 734.0; NIV SR 734.27; NIN SN 411000:2025; ESTI",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.06-C",
+    "title": "Rechts- und Normfälle im Fachgespräch",
+    "visual_type": "safety",
+    "file": "visuals/4.06-C.svg",
+    "description": [
+      "Kontrollen, Verantwortlichkeiten, Dokumentation",
+      "Richtiges Zitieren: Ausgabe, Kapitel, Sachverhalt",
+      "Dein Dozent erklärt: Rechts- und Normfälle im Fachgespräch"
+    ],
+    "source": [
+      "4.3.1b–4.3.7b",
+      "Norm-/Regelwerk: ElG SR 734.0; NIV SR 734.27; NIN SN 411000:2025; ESTI",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.07-A",
+    "title": "Auftrag, Arbeitsvorbereitung und Schnittstellen",
+    "visual_type": "process",
+    "file": "visuals/4.07-A.svg",
+    "description": [
+      "Auftrag erfassen, Leistung abgrenzen, Zuständigkeiten klären",
+      "Ausführungsplan, Arbeitsablauf und Materialbestellung",
+      "Dein Dozent erklärt: Auftrag, Arbeitsvorbereitung und Schnittstellen"
+    ],
+    "source": [
+      "1.1.1a–1.3.2a; 4.1.1a–4.2.6a",
+      "Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; NIV Art. 24, 37",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.07-B",
+    "title": "Material, Arbeitsrapport und Nachträge",
+    "visual_type": "process",
+    "file": "visuals/4.07-B.svg",
+    "description": [
+      "Arbeitsrapport, Ausmass, Stückliste, Nachtrag",
+      "Revisionsplan, Bedienungs-/Wartungsanleitung",
+      "Dein Dozent erklärt: Material, Arbeitsrapport und Nachträge"
+    ],
+    "source": [
+      "1.1.1a–1.3.2a; 4.1.1a–4.2.6a",
+      "Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; NIV Art. 24, 37",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.07-C",
+    "title": "Revisionsunterlagen und Kundeninstruktion",
+    "visual_type": "process",
+    "file": "visuals/4.07-C.svg",
+    "description": [
+      "Abnahmeprotokoll, Anlagenübergabe",
+      "Kundeninstruktion mit Energieeffizienz und Sicherheit",
+      "Dein Dozent erklärt: Revisionsunterlagen und Kundeninstruktion"
+    ],
+    "source": [
+      "1.1.1a–1.3.2a; 4.1.1a–4.2.6a",
+      "Norm-/Regelwerk: Lehrplan 1.1–1.3/4.1–4.2; NIV Art. 24, 37",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.08-A",
+    "title": "PV-Dossier: Modul- und Stringdaten überprüfen",
+    "visual_type": "pv",
+    "file": "visuals/4.08-A.svg",
+    "description": [
+      "PV-DC-Stringdaten und temperaturbedingte Maximalspannung",
+      "Schutz gegen elektrischen Schlag und thermische Risiken",
+      "Dein Dozent erklärt: PV-Dossier: Modul- und Stringdaten überprüfen"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN 7.12; ESTI 220; SN EN 62446-1; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.08-B",
+    "title": "Sicherheits-, Kennzeichnungs- und Prüfunterlagen",
+    "visual_type": "measurement",
+    "file": "visuals/4.08-B.svg",
+    "description": [
+      "Wechselrichter, DC/AC-Trennstelle, Kennzeichnungen",
+      "Prüfprotokoll, Sichtprüfung und Dokumentationsnachweis",
+      "Dein Dozent erklärt: Sicherheits-, Kennzeichnungs- und Prüfunterlagen"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN 7.12; ESTI 220; SN EN 62446-1; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.08-C",
+    "title": "PV-Abschlussgespräch und Mängelmanagement",
+    "visual_type": "pv",
+    "file": "visuals/4.08-C.svg",
+    "description": [
+      "Schnittstelle NIV14/allgemeine Installationsbewilligung",
+      "Übergabe, Netzbetreiber, Abnahme und Wartung",
+      "Dein Dozent erklärt: PV-Abschlussgespräch und Mängelmanagement"
+    ],
+    "source": [
+      "5.2.8a–c; 4.3.6b",
+      "Norm-/Regelwerk: NIN 7.12; ESTI 220; SN EN 62446-1; Swissolar",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.09-A",
+    "title": "Übertragungsstrecken und Linkmessungen",
+    "visual_type": "measurement",
+    "file": "visuals/4.09-A.svg",
+    "description": [
+      "Strukturierte Gebäudeverkabelung und Schnittstellen",
+      "Dämpfung, NEXT und Messklasse als Konzept",
+      "Dein Dozent erklärt: Übertragungsstrecken und Linkmessungen"
+    ],
+    "source": [
+      "6.1.1b–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: Lehrplan 6; ISO/IEC 11801; RIT-Hinweise des Verbandes",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.09-B",
+    "title": "Koaxialtechnik und Fehlersuche",
+    "visual_type": "network",
+    "file": "visuals/4.09-B.svg",
+    "description": [
+      "Koaxial-Pegel, Dämpfungsbudget, Rückkanal",
+      "Router, Switch, Endgeräte, All-IP",
+      "Dein Dozent erklärt: Koaxialtechnik und Fehlersuche"
+    ],
+    "source": [
+      "6.1.1b–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: Lehrplan 6; ISO/IEC 11801; RIT-Hinweise des Verbandes",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.09-C",
+    "title": "Systematische Netzwerkdiagnose und Dokumentationsreview",
+    "visual_type": "network",
+    "file": "visuals/4.09-C.svg",
+    "description": [
+      "Fachbegriffe und Kurzfragen mündlich beantworten",
+      "Verdrahtungs- und Dokumentationsfehler identifizieren",
+      "Dein Dozent erklärt: Systematische Netzwerkdiagnose und Dokumentationsreview"
+    ],
+    "source": [
+      "6.1.1b–6.1.6b; 6.2.1b–6.2.2b",
+      "Norm-/Regelwerk: Lehrplan 6; ISO/IEC 11801; RIT-Hinweise des Verbandes",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.10-A",
+    "title": "Sicherheits- und Normen-Fachgespräch",
+    "visual_type": "process",
+    "file": "visuals/4.10-A.svg",
+    "description": [
+      "Sicherheitskultur und Werkstoffe",
+      "Regeln der Technik mit Quellenangaben",
+      "Dein Dozent erklärt: Sicherheits- und Normen-Fachgespräch"
+    ],
+    "source": [
+      "2–6 (gesamte BK und PA)",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV BK Pos. 1,2,6; EIT Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.10-B",
+    "title": "Elektrotechnik und Systemtechnik mündlich erklären",
+    "visual_type": "process",
+    "file": "visuals/4.10-B.svg",
+    "description": [
+      "Anlagedokumentation und Installationspläne",
+      "Elektrotechnik und Elektronik",
+      "Dein Dozent erklärt: Elektrotechnik und Systemtechnik mündlich erklären"
+    ],
+    "source": [
+      "2–6 (gesamte BK und PA)",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV BK Pos. 1,2,6; EIT Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.10-C",
+    "title": "Kommunikation, Steuerung und Prüfung unter Zeitdruck",
+    "visual_type": "measurement",
+    "file": "visuals/4.10-C.svg",
+    "description": [
+      "Elektrische Systemtechnik mit PV",
+      "Steuerung und Gebäudeautomation, Kommunikation",
+      "Dein Dozent erklärt: Kommunikation, Steuerung und Prüfung unter Zeitdruck"
+    ],
+    "source": [
+      "2–6 (gesamte BK und PA)",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV BK Pos. 1,2,6; EIT Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.11-A",
+    "title": "Schriftliche Prüfung: Mathematik und Elektrotechnik",
+    "visual_type": "measurement",
+    "file": "visuals/4.11-A.svg",
+    "description": [
+      "Normenkunde unter Zeitdruck",
+      "Schaltplan und Installationsplan",
+      "Dein Dozent erklärt: Schriftliche Prüfung: Mathematik und Elektrotechnik"
+    ],
+    "source": [
+      "3–6; QV BK Pos. 3,4,5,7,8",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.11-B",
+    "title": "Schriftliche Prüfung: NIN, Pläne und Systemtechnik",
+    "visual_type": "measurement",
+    "file": "visuals/4.11-B.svg",
+    "description": [
+      "Elektrische Berechnungen RLC und Drehstrom",
+      "Installations-/Systemtechnik",
+      "Dein Dozent erklärt: Schriftliche Prüfung: NIN, Pläne und Systemtechnik"
+    ],
+    "source": [
+      "3–6; QV BK Pos. 3,4,5,7,8",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.11-C",
+    "title": "Prüfungssimulation und Lernlückenanalyse",
+    "visual_type": "measurement",
+    "file": "visuals/4.11-C.svg",
+    "description": [
+      "Kommunikationstechnik",
+      "Fehleranalyse, Notenberechnung, Wiederholung schwacher Themen",
+      "Dein Dozent erklärt: Prüfungssimulation und Lernlückenanalyse"
+    ],
+    "source": [
+      "3–6; QV BK Pos. 3,4,5,7,8",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.12-A",
+    "title": "Praktisches QV: Auftrag und Arbeitsvorbereitung",
+    "visual_type": "process",
+    "file": "visuals/4.12-A.svg",
+    "description": [
+      "Arbeitsvorbereitung, Sicherheitsverhalten und Materialplanung",
+      "Technische Dokumentation",
+      "Dein Dozent erklärt: Praktisches QV: Auftrag und Arbeitsvorbereitung"
+    ],
+    "source": [
+      "Sämtliche betrieblichen/üK-Kompetenzen; QV PA Pos. 1–7",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV; Musterserie PA; NIN; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.12-B",
+    "title": "Praktisches QV: Ausführung und Erstprüfung unter Aufsicht",
+    "visual_type": "measurement",
+    "file": "visuals/4.12-B.svg",
+    "description": [
+      "Stark-/Schwachstrominstallationen",
+      "Schaltgerätekombination und Steuerungstechnik",
+      "Dein Dozent erklärt: Praktisches QV: Ausführung und Erstprüfung unter Aufsicht"
+    ],
+    "source": [
+      "Sämtliche betrieblichen/üK-Kompetenzen; QV PA Pos. 1–7",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV; Musterserie PA; NIN; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "4.12-C",
+    "title": "Abschlussreview und individueller Weg zur Zulassung",
+    "visual_type": "process",
+    "file": "visuals/4.12-C.svg",
+    "description": [
+      "Prüfung, Messung und Störungssuche",
+      "Kommunikationstechnik, Abschlussrapporte und mündliches Feedback",
+      "Dein Dozent erklärt: Abschlussreview und individueller Weg zur Zulassung"
+    ],
+    "source": [
+      "Sämtliche betrieblichen/üK-Kompetenzen; QV PA Pos. 1–7",
+      "Norm-/Regelwerk: BiVo2015 Wegleitung QV; Musterserie PA; NIN; Suva",
+      "NIN-Detailstellen erst nach Einsicht in Originalausgabe fachlich bestätigen"
+    ]
+  },
+  {
+    "id": "N-S01",
+    "title": "Wer trägt bei elektrischen Arbeiten welche Verantwortung?",
+    "visual_type": "process",
+    "file": "visuals/N-S01.svg",
+    "description": [
+      "Ein Elektroschema beschreibt den Stromkreis; ein sicherer Arbeitsauftrag beschreibt zusätzlich Menschen, Verantwortlichkeiten und Freigaben. In der Praxis scheitert Sicherheit oft nicht am fehlenden Messgerät, sondern an ungeklärter Zuständigkeit.",
+      "Vier Rollen bewusst auseinanderhalten",
+      "Sicherheitsinformation ist Teil der Technik"
+    ],
+    "source": "SN EN 50110-1:2023"
+  },
+  {
+    "id": "N-S02",
+    "title": "Die fünf Sicherheitsregeln wirklich verstehen",
+    "visual_type": "safety",
+    "file": "visuals/N-S02.svg",
+    "description": [
+      "Die fünf Sicherheitsregeln sind kein auswendig gelernter Spruch, sondern eine aufeinander abgestimmte Barrierenkette. Jede Regel verhindert einen anderen Fehler. Besonders bei PV, Batteriespeichern und USV ist das Denken in mehreren Energiequellen zentral.",
+      "Energiequellen vollständig identifizieren",
+      "Trennen, sichern und prüfen"
+    ],
+    "source": "SN EN 50110-1:2023"
+  },
+  {
+    "id": "N-S03",
+    "title": "Messen, Erproben, Besichtigen – drei verschiedene Tätigkeiten",
+    "visual_type": "measurement",
+    "file": "visuals/N-S03.svg",
+    "description": [
+      "In der Alltagssprache heisst vieles „messen“. Die Norm unterscheidet betriebliche Messungen, gezielte Erprobungen und Inspektionen. Diese Tätigkeiten können ganz unterschiedliche Gefährdungen auslösen.",
+      "Eine Messung kann die Situation verändern",
+      "Erprobung ist mehr als ein Zahlenwert"
+    ],
+    "source": "SN EN 50110-1:2023"
+  },
+  {
+    "id": "N-S04",
+    "title": "Schweizer Recht und europäische Betriebsnorm richtig kombinieren",
+    "visual_type": "process",
+    "file": "visuals/N-S04.svg",
+    "description": [
+      "Die EN 50110 beschreibt sichere betriebliche Abläufe. In der Schweiz treten daneben verbindliche Gesetze und Verordnungen, beispielsweise Starkstromverordnung und NIV. Du musst deshalb stets zwei Fragen auseinanderhalten: Wie arbeitet man fachlich sicher – und wer darf die Tätigkeit überhaupt ausführen?",
+      "Norm und Gesetz sind nicht dasselbe",
+      "Die NIN bleibt eine eigenständige Quelle"
+    ],
+    "source": "SN EN 50110-2:2023"
+  },
+  {
+    "id": "N-W01",
+    "title": "Vom Haus bis zum Netz: Wer ist für was zuständig?",
+    "visual_type": "process",
+    "file": "visuals/N-W01.svg",
+    "description": [
+      "Die Niederspannungsanlage im Gebäude ist Teil eines Gesamtsystems. Am Netzanschlusspunkt endet nicht nur ein Kabel, sondern es treffen die Verantwortlichkeiten des Verteilnetzbetreibers (VNB) und des Installationsbetriebs aufeinander.",
+      "Drei Grenzen unterscheiden",
+      "Werkvorschriften ergänzen Installationsnormen"
+    ],
+    "source": "WV-CH 2025"
+  },
+  {
+    "id": "N-W02",
+    "title": "Technisches Anschlussgesuch, Installationsanzeige und SiNa",
+    "visual_type": "plan",
+    "file": "visuals/N-W02.svg",
+    "description": [
+      "Die drei Kürzel TAG, IA und SiNa meinen unterschiedliche Dokumente. Wer sie korrekt einordnet, kann ein PV-Projekt vom Vorprojekt bis zur Übergabe sauber strukturieren.",
+      "TAG: Netzverträglichkeit vorab klären",
+      "IA: geplante elektrische Arbeiten anzeigen"
+    ],
+    "source": "WV-CH 2025"
+  },
+  {
+    "id": "N-W03",
+    "title": "Zähler, Hauptanschluss und Messkonzepte verstehen",
+    "visual_type": "process",
+    "file": "visuals/N-W03.svg",
+    "description": [
+      "Ein PV-System kann technisch Strom erzeugen und trotzdem falsch abgerechnet werden. Deshalb ist die Messeinrichtung kein nachträgliches Zubehör, sondern Bestandteil des gesamten Anlagenkonzepts.",
+      "Anschlussüberstromschutz und Hauptverteilung",
+      "Messkonzept vor Hardware"
+    ],
+    "source": "WV-CH 2025"
+  },
+  {
+    "id": "N-W04",
+    "title": "Netzparallele PV: Phasen, Unsymmetrie und Inbetriebnahme",
+    "visual_type": "ac",
+    "file": "visuals/N-W04.svg",
+    "description": [
+      "Bei einer PV-Anlage ist nicht nur die DC-Leistung wichtig. Für das Verteilnetz zählt die Wechselrichterleistung an den Aussenleitern und das Verhalten des Wechselrichters bei Netzstörungen.",
+      "Symmetrie und Anschlussart",
+      "Grenzwert nicht falsch interpretieren"
+    ],
+    "source": "WV-CH 2025"
+  },
+  {
+    "id": "N-W05",
+    "title": "Batteriespeicher, USV und Rückspeisung beurteilen",
+    "visual_type": "pv",
+    "file": "visuals/N-W05.svg",
+    "description": [
+      "Ein Batteriespeicher ist keine gewöhnliche Last. Er kann Energie beziehen, ins Haus liefern, ins Netz einspeisen oder im Ersatzstrombetrieb Versorgung bereitstellen. Jede Betriebsart hat andere Konsequenzen.",
+      "AC- und DC-gekoppelte Systeme unterscheiden",
+      "Ersatzstrom ist nicht identisch mit Eigenverbrauch"
+    ],
+    "source": "WV-CH 2025"
+  },
+  {
+    "id": "N-P01",
+    "title": "Eine PV-Anlage vollständig dokumentieren",
+    "visual_type": "pv",
+    "file": "visuals/N-P01.svg",
+    "description": [
+      "Eine PV-Anlage ist nur dann fachlich sauber übergeben, wenn eine andere Fachperson sie auch Jahre später verstehen, prüfen und sicher betreiben kann. Dazu braucht sie weit mehr als die Rechnung der Solarmodule.",
+      "Von Moduldaten zum Stringschema",
+      "Elektrische und mechanische Informationen gehören zusammen"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P02",
+    "title": "PV-Strings rechnen: Temperatur, Leerlaufspannung und Strom",
+    "visual_type": "pv",
+    "file": "visuals/N-P02.svg",
+    "description": [
+      "Die maximale PV-Spannung liegt häufig nicht am heissesten, sondern an einem kalten, hellen Tag. Für die Auslegung von Wechselrichter und DC-Komponenten musst Du die temperaturabhängige Leerlaufspannung verstehen.",
+      "Serie erhöht Spannung, Parallel erhöht Strom",
+      "Temperaturkoeffizient korrekt verwenden"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P03",
+    "title": "PV-Sichtprüfung: Was muss vor jeder Messung stimmen?",
+    "visual_type": "pv",
+    "file": "visuals/N-P03.svg",
+    "description": [
+      "Die Sichtprüfung ist bei der Inbetriebnahme kein Spaziergang über das Dach. Sie ist eine strukturierte Kontrolle der elektrischen, mechanischen und dokumentarischen Voraussetzungen – insbesondere der DC-Risiken.",
+      "DC-Leitungen und Verbindungen",
+      "Schutzeinrichtungen und Kennzeichnungen"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P04",
+    "title": "PV-Erstprüfung: Kategorie 1 systematisch lesen",
+    "visual_type": "pv",
+    "file": "visuals/N-P04.svg",
+    "description": [
+      "Die Prüfungen der Kategorie 1 bilden die grundlegende Inbetriebnahmeprüfung. Entscheidend ist nicht das Auswendiglernen einer Reihenfolge, sondern das Verständnis, welche Fehler jede Prüfung sichtbar machen soll.",
+      "Schutz- und Verbindungsprüfung",
+      "Elektrisches Verhalten prüfen"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P05",
+    "title": "PV-Isolationsprüfung verstehen, ohne gefährlich zu messen",
+    "visual_type": "pv",
+    "file": "visuals/N-P05.svg",
+    "description": [
+      "Fehlerhafte Isolation kann gefährliche Berührungsspannungen, Brände und Funktionsstörungen verursachen. Die Isolationsprüfung ist deshalb eine zentrale elektrische Sicherheitsprüfung, jedoch kein Experiment für zu Hause.",
+      "Was ein Isolationsmessgerät untersucht",
+      "Warum PV anders ist als eine harmlose 12-V-Schaltung"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P06",
+    "title": "PV-Fehlerdiagnose mit I-U-Kennlinie und Thermografie",
+    "visual_type": "pv",
+    "file": "visuals/N-P06.svg",
+    "description": [
+      "Eine PV-Anlage kann im Jahresertrag hinter der Erwartung zurückbleiben, ohne dass eine Sicherung ausgelöst hat. Erweiterte Prüfungen helfen, elektrische und thermische Auffälligkeiten systematisch zu lokalisieren.",
+      "Kennlinie statt einzelner Spannung",
+      "Thermografie ist eine Momentaufnahme"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-P07",
+    "title": "Der PV-Prüfbericht als belastbarer Qualitätsnachweis",
+    "visual_type": "pv",
+    "file": "visuals/N-P07.svg",
+    "description": [
+      "Der Kunde braucht keinen Ordner voller unverständlicher Zahlen. Er braucht einen prüfbaren Nachweis, welche Anlage in welchem Zustand übergeben wurde. Ein guter Bericht macht das Ergebnis nachvollziehbar.",
+      "Identität und Randbedingungen",
+      "Messung, Bewertung und Mangel trennen"
+    ],
+    "source": "SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-V01",
+    "title": "Was ist eine Schaltgerätekombination – und welche Norm gilt?",
+    "visual_type": "process",
+    "file": "visuals/N-V01.svg",
+    "description": [
+      "Eine Verteilung besteht nicht einfach aus einem Gehäuse, ein paar Sicherungen und Drähten. Als Schaltgerätekombination ist sie ein technisches Gesamtsystem mit definierten Bemessungen, Schutzmassnahmen und Nachweisen.",
+      "System und Einzelkomponenten trennen",
+      "Teil 1 wird mit passendem Anwendungsteil verwendet"
+    ],
+    "source": "SN EN IEC 61439-1:2021 / SN EN IEC 61439-2:2021"
+  },
+  {
+    "id": "N-V02",
+    "title": "Bemessungsdaten einer Verteilung richtig lesen",
+    "visual_type": "measurement",
+    "file": "visuals/N-V02.svg",
+    "description": [
+      "Bei einer Verteilung ist die Aufschrift „400 V, 125 A“ noch keine vollständige technische Beschreibung. Sie benötigen mehrere zusammenpassende Bemessungsgrössen und Einsatzbedingungen.",
+      "Spannungsgrössen unterscheiden",
+      "Stromgrössen gehören zum System"
+    ],
+    "source": "SN EN IEC 61439-1:2021"
+  },
+  {
+    "id": "N-V03",
+    "title": "Erwärmung verstehen: Strom, Übergangswiderstand und Gehäuse",
+    "visual_type": "dc",
+    "file": "visuals/N-V03.svg",
+    "description": [
+      "Ein Verteiler kann elektrisch funktionieren und trotzdem gefährlich warm werden. Das gilt besonders bei schlechten Verbindungen, hoher Packungsdichte oder ungeeigneter Belüftung.",
+      "Verlustleistung wächst quadratisch mit Strom",
+      "Von Verlustleistung zu Temperatur"
+    ],
+    "source": "SN EN IEC 61439-1:2021"
+  },
+  {
+    "id": "N-V04",
+    "title": "Schutz gegen elektrischen Schlag: Gehäuse ist nicht alles",
+    "visual_type": "protection",
+    "file": "visuals/N-V04.svg",
+    "description": [
+      "Eine gute Schaltgerätekombination trennt gefährliche Teile zuverlässig von Menschen und verbindet berührbare leitfähige Teile mit dem vorgesehenen Schutzsystem.",
+      "Direkter und indirekter Schutz",
+      "Schutzleiterkontinuität ist eine Systemaufgabe"
+    ],
+    "source": "SN EN IEC 61439-1:2021"
+  },
+  {
+    "id": "N-V05",
+    "title": "Kurzschlussbeanspruchung: Warum 16 A nicht die ganze Wahrheit ist",
+    "visual_type": "protection",
+    "file": "visuals/N-V05.svg",
+    "description": [
+      "Im Normalbetrieb führt ein Abgang vielleicht 16 A. Bei einem Fehler können kurzfristig wesentlich höhere Ströme auftreten. Das betrifft Schutzorgane, Sammelschienen, Halterungen und Anschlüsse.",
+      "Thermische und dynamische Wirkung unterscheiden",
+      "Netzseitige Fehlerstromdaten benötigt man vor der Auslegung"
+    ],
+    "source": "SN EN IEC 61439-1:2021"
+  },
+  {
+    "id": "N-V06",
+    "title": "Bauartnachweis und Stücknachweis sauber trennen",
+    "visual_type": "process",
+    "file": "visuals/N-V06.svg",
+    "description": [
+      "Dies ist eine der zentralsten Unterscheidungen in der Ausbildung. Der Bauartnachweis beantwortet: „Ist diese Konstruktion bei den vorgesehenen Bedingungen grundsätzlich geeignet?“ Der Stücknachweis beantwortet: „Wurde dieses konkrete Exemplar korrekt hergestellt?“",
+      "Bauartnachweis am System",
+      "Stücknachweis an jedem gefertigten Exemplar"
+    ],
+    "source": "SN EN IEC 61439-1:2021"
+  },
+  {
+    "id": "N-V07",
+    "title": "Energieverteiler: Bedienung, Unterteilung und Wartbarkeit",
+    "visual_type": "ac",
+    "file": "visuals/N-V07.svg",
+    "description": [
+      "In industriellen Energieverteilern ist nicht nur der elektrische Betrieb wichtig. Es muss auch geklärt sein, wie einzelne Stromkreise identifiziert, abgeschaltet, geprüft und gewartet werden können.",
+      "Innere Unterteilung ist eine funktionale Entscheidung",
+      "Anschlussräume und Leitungswege planen"
+    ],
+    "source": "SN EN IEC 61439-2:2021"
+  },
+  {
+    "id": "N-V08",
+    "title": "Baustromverteiler: temporär bedeutet nicht ungefährlich",
+    "visual_type": "safety",
+    "file": "visuals/N-V08.svg",
+    "description": [
+      "Ein Baustromverteiler wird oft mehrfach umgesetzt, Regen, Stossbelastung und Staub ausgesetzt und von wechselnden Personen bedient. Deshalb erfordert er ein passendes Gesamtkonzept.",
+      "Anwendungsteil erkennen",
+      "Umwelt und Nutzung realistisch bewerten"
+    ],
+    "source": "SN EN 61439-4:2013"
+  },
+  {
+    "id": "N-E01",
+    "title": "Erdung, Schutzpotentialausgleich und Blitzschutz unterscheiden",
+    "visual_type": "earthing",
+    "file": "visuals/N-E01.svg",
+    "description": [
+      "Die Wörter Erdung und Potentialausgleich werden oft synonym verwendet. Technisch haben sie unterschiedliche Aufgaben. Ein guter Elektroinstallateur muss verstehen, welche Verbindungen welchem Schutzkonzept dienen.",
+      "Erdungsanlage",
+      "Schutzpotentialausgleich"
+    ],
+    "source": "SN 414113:2024-12 / SN 414022:2024"
+  },
+  {
+    "id": "N-E02",
+    "title": "Fundamenterder planen: Neubau, weisse Wanne, isolierte Fundamente",
+    "visual_type": "earthing",
+    "file": "visuals/N-E02.svg",
+    "description": [
+      "Bei einem Fundamenterder entscheidet sich die Qualität häufig schon lange, bevor der Elektroinstallateur seinen letzten Anschluss setzt: beim Fundamentaufbau und beim Zusammenspiel mit Armierung und Abdichtung.",
+      "Der Baukörper ist Teil des Systems",
+      "Isolierte Fundamente und weisse Wanne"
+    ],
+    "source": "SN 414113:2024-12"
+  },
+  {
+    "id": "N-E03",
+    "title": "Korrosion, Verbindungsqualität und Erder-Abnahme",
+    "visual_type": "process",
+    "file": "visuals/N-E03.svg",
+    "description": [
+      "Erdungsanlagen müssen über Jahrzehnte funktionieren, obwohl Teile später nicht mehr zugänglich sind. Dauerhaftigkeit und Qualität der Verbindungen sind deshalb genauso wichtig wie die reine Leitfähigkeit zum Zeitpunkt der Montage.",
+      "Korrosion als schleichender Ausfall",
+      "Kontrollpunkte bewusst planen"
+    ],
+    "source": "SN 414113:2024-12"
+  },
+  {
+    "id": "N-B01",
+    "title": "Blitzschutz als System statt einzelner Fangstange",
+    "visual_type": "earthing",
+    "file": "visuals/N-B01.svg",
+    "description": [
+      "Bei Blitzschutz ist die Fangstange nur ein sichtbarer Teil. Ein Blitzschutzsystem muss einen Blitzstrom möglichst kontrolliert aufnehmen, ableiten und in das Erdungs- und Potentialausgleichssystem einbinden.",
+      "Äusserer und innerer Blitzschutz",
+      "Schutzklassen und Risiko"
+    ],
+    "source": "SN 414022:2024"
+  },
+  {
+    "id": "N-B02",
+    "title": "Trennungsabstand, Potentialausgleich und Überspannungsschutz",
+    "visual_type": "earthing",
+    "file": "visuals/N-B02.svg",
+    "description": [
+      "Blitzströme können grosse Potentialdifferenzen erzeugen. Daher ist nicht jede metallische Nähe unproblematisch; ebenso wenig ist die blosse Verbindung aller Teile in jeder Situation automatisch die richtige Lösung.",
+      "Trennungsabstand als Schutzprinzip",
+      "Potentialausgleich und SPD ergänzen sich"
+    ],
+    "source": "SN 414022:2024 / SN EN 62446-1:2016+A1:2018"
+  },
+  {
+    "id": "N-B03",
+    "title": "Blitzschutz nach Änderungen inspizieren und dokumentieren",
+    "visual_type": "earthing",
+    "file": "visuals/N-B03.svg",
+    "description": [
+      "Blitzschutz ist kein „einmal montiert und vergessen“-Bauteil. Ein Dachumbau, eine neue PV oder eine geänderte Gebäudenutzung können die Anlage verändern, ohne dass dies im Stromzähler sichtbar wird.",
+      "Vorher-Nachher-Zustand erfassen",
+      "Inspektion ist mehr als äusserer Anblick"
+    ],
+    "source": "SN 414022:2024"
+  },
+  {
+    "id": "N-I01",
+    "title": "Gesamtfall: Aufdach-PV vom Entwurf bis zur Übergabe",
+    "visual_type": "process",
+    "file": "visuals/N-I01.svg",
+    "description": [
+      "In dieser Fallstudie verknüpfst Du die zuvor getrennt gelernten Themen. Das Ziel ist, einen fachlichen Projektablauf zu begründen – nicht eine Netzanlage selbstständig zu installieren.",
+      "Projektannahmen und technische Daten",
+      "Netzanbindung und Dokumente"
+    ],
+    "source": "WV-CH 2025 / SN EN 62446-1:2016+A1:2018 / SN 414022:2024"
+  },
+  {
+    "id": "N-I02",
+    "title": "Gesamtfall: Einen Maschinenverteiler fachlich beurteilen",
+    "visual_type": "process",
+    "file": "visuals/N-I02.svg",
+    "description": [
+      "Hier kannst Du Dein Maschinenbauwissen direkt nutzen: Die elektrische Verteilung ist ein technisches System, das wie eine Maschine bemessen, dokumentiert, hergestellt und sicher betrieben werden muss.",
+      "Anforderungen aufnehmen",
+      "Nachweisstruktur erstellen"
+    ],
+    "source": "SN EN IEC 61439-1:2021 / -2:2021 / SN EN 50110-1:2023"
+  },
+  {
+    "id": "N-I03",
+    "title": "Quellenkritik: Was wir wirklich wissen – und was noch fehlt",
+    "visual_type": "process",
+    "file": "visuals/N-I03.svg",
+    "description": [
+      "Eine der wichtigsten beruflichen Fähigkeiten ist, zwischen nachgewiesenem Norminhalt, Fachwissen und ungeprüften Annahmen zu unterscheiden. Gerade bei elektrischer Sicherheit darf ein selbstbewusst klingender Text nie als Ersatz für eine verifizierte Quelle gelten.",
+      "Vollständige und unvollständige Dateien unterscheiden",
+      "NIN-Lücke bewusst sichtbar lassen"
+    ],
+    "source": "Quellenregister der 14 gelieferten Dateien"
+  }
+]

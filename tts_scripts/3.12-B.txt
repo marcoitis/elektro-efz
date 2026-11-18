@@ -1,1 +1,110 @@
-Lektion 3.12-B: Schutz-, Leitungs- und PV-Dokumentation. Aus einem Systemkonzept entsteht ein Satz fachlich zusammenhängender Unterlagen. Dazu zählen Übersichtsschema, Verbraucher- und Lastliste, Stromkreisplan, Stringplan, Netzwerkstruktur und ein vorläufiges Schutzkonzept. Der planerische Nachweis muss offene normative Punkte deutlich markieren. Ohne Einsicht in die komplette N I N werden keine fiktiven Bemessungen als ausführungsreif erklärt. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle ein Dokumentenverzeichnis mit Versionsnummern und Verantwortlichkeiten. Berechne für die PV-Anlage eine beispielhafte Modulleistung und einen theoretischen Jahresertrag, kennzeichne die Annahmen und dokumentiere die zusätzlich notwendigen Netzbetreiber- und N I N-Nachweise. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Vollständig dokumentiert bedeutet auch, Unsicherheiten sichtbar zu machen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Schutzkonzept, Leitungsauslegung, Netzvorgaben; Funktions-, Prüf- und Abnahmeplan. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teile 4–7; N I V; E S T I 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.12-B: Schutz-, Leitungs- und PV-Dokumentation. Aus einem Systemkonzept entsteht ein Satz fachlich zusammenhängender Unterlagen. Dazu zählen Übersichtsschema, Verbraucher- und Lastliste, Stromkreisplan, Stringplan, Netzwerkstruktur und ein vorläufiges Schutzkonzept. Der planerische Nachweis muss offene normative Punkte deutlich markieren. Ohne Einsicht in die komplette NIN werden keine fiktiven Bemessungen als ausführungsreif erklärt. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Erstelle ein Dokumentenverzeichnis mit Versionsnummern und Verantwortlichkeiten. Berechne für die PV-Anlage eine beispielhafte Modulleistung und einen theoretischen Jahresertrag, kennzeichne die Annahmen und dokumentiere die zusätzlich notwendigen Netzbetreiber- und NIN-Nachweise. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Vollständig dokumentiert bedeutet auch, Unsicherheiten sichtbar zu machen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Schutzkonzept, Leitungsauslegung, Netzvorgaben; Funktions-, Prüf- und Abnahmeplan. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teile 4–7; NIV; ESTI 220. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Schutzkonzept, Leitungsauslegung, Netzvorgaben; Funktions-, Prüf- und Abnahmeplan.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Modulleistungen addieren. Acht PV-Module besitzen je 430 Wp Nennleistung.
+
+Schritt 1. Modulanzahl und Nennleistung multiplizieren.
+
+Schritt 2. 8 · 430 Wp = 3 440 Wp.
+
+Schritt 3. Umrechnung: 3 440 Wp = 3,44 kWp.
+
+Schritt 4. DC-Nennleistung ist nicht gleich momentaner AC-Einspeiseleistung.
+
+Kontrolle des Ergebnisses: 3,44 kWp DC-Nennleistung.
+
+Übungsauftrag zur Anwendung: Reines Planungsprojekt, Messungen ggf. nur an zertifizierter Übungsanlage unter Leitung. Halte zusätzlich die Antwort auf die Frage «Welches Dokument gehört zu einer PV-Systemplanung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welches Dokument gehört zu einer PV-Systemplanung? Die richtige Antwort lautet: String- und Übersichtsschema. Warum? Vollständig dokumentiert bedeutet auch, Unsicherheiten sichtbar zu machen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Vollständig dokumentiert bedeutet auch, Unsicherheiten sichtbar zu machen.. Warum? Der Merksatz lautet: Vollständig dokumentiert bedeutet auch, Unsicherheiten sichtbar zu machen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Aus Planungsdaten wird ein prüfbarer Dokumentationssatz.
+Nach dem Konzept folgt die technische Dokumentation. Dazu gehören je nach Projekt ein Stromlauf- und Verteilerschema, Leitungs- und Stromkreisverzeichnis, Pläne der Betriebsmittel, PV-Unterlagen und Datenanschlusslisten. Die Dokumente müssen nicht alle dieselbe Information doppelt enthalten, aber eindeutige Querverweise besitzen. Beispiel: Der Stromkreis Q07 in der Lastenliste muss zu Q07 im Verteilerschema und zur passenden Leitung im Installationsplan führen. Eine inkonsistente Kennzeichnung erschwert nicht nur die Montage, sondern kann bei späteren Messungen und Störungen zu Verwechslungen führen.
+
+
+Schutzkonzept aus dem Netzsystem ableiten.
+Vor einer Schutzgerätewahl wird geklärt, welches Netzsystem vorliegt und welche Fehlerschleifen und Berührspannungen relevant sind. Ein Schutzkonzept ist keine Einkaufsliste mit einem Leitungsschutzschalter und irgendeinem RCD. Es beschreibt, welche Gefährdungen betrachtet werden, welche Schutzmassnahmen wirken und durch welche Prüfungen diese Wirkung nachzuweisen ist. Die konkreten Abschaltbedingungen, Gerätetypen und Bemessungswerte richten sich nach gültiger NIN, Herstellerdaten und Projektbedingungen. Im Lernprojekt dokumentieren wir daher zuerst die logische Zuordnung: Fehlerart, Schutzmechanismus, erwarteter Nachweis, noch offene Normstelle.
+
+
+Leitungsdimensionierung transparent herleiten.
+Ein vereinfachtes Rechenmodell betrachtet Betriebsstrom, Leitungsquerschnitt, Länge und Spannungsfall. Für eine einphasige ohmsche Modelllast von 10 Ampere an einer 30 Meter langen Kupferleitung mit 2,5 Quadratmillimetern Querschnitt und angenommener Leitfähigkeit von 56 Metern pro Ohm-Quadratmillimeter ergibt sich näherungsweise ein Spannungsabfall von 2 mal 30 mal 10 geteilt durch 56 mal 2,5, also 4,29 Volt. Der relative Fall bei 230 Volt beträgt rund 1,86 Prozent. Das ist eine Modellrechnung: Temperatur, Stromart, Verlegeart, Häufung und normatives Grenzkriterium müssen bei echter Planung zusätzlich geprüft werden.
+
+
+Schutzgeräte und Leitungen gemeinsam betrachten.
+Ein Schutzgerät wird nicht allein nach dem erwarteten Verbraucher-Betriebsstrom ausgewählt. Die Leitung muss die thermischen Bedingungen erfüllen, und das Schutzorgan muss bei relevanten Fehlern ausreichend reagieren. Auch Kurzschlussausschaltvermögen, Einschaltstrom und Selektivität können eine Rolle spielen. Für das Lernprojekt ist ein Auswahlblatt sinnvoll: berechneter Betriebsstrom, Kabeldaten, Verlegebedingungen, vorgesehenes Schutzorgan, Herstellerkennlinie und offene Prüfungen. Eine solche Tabelle fördert fachliches Denken. Sie ersetzt aber weder die vollständige Bemessung nach NIN noch eine fachkundige Freigabe.
+
+
+PV-Stringdaten und Wechselrichtergrenzen.
+Eine PV-Dokumentation enthält Modulzahl je String, Modultyp, relevante Spannungen und Ströme sowie Wechselrichterdaten. Die Leerlaufspannung steigt bei sinkender Zelltemperatur; deshalb darf die maximale DC-Spannung nicht nur aus den STC-Angaben ohne Temperaturbetrachtung abgeschätzt werden. In einem Rechenmodell mit 12 Modulen à 42 Volt Leerlaufspannung bei Referenzbedingungen ergibt sich 504 Volt. Wird ein angenommener Temperaturaufschlag von 12 Prozent verwendet, wären es rund 564 Volt. Der Prozentsatz ist ausschliesslich ein Übungsparameter; real wird aus dem Datenblatt und der zugrunde gelegten Mindesttemperatur gerechnet.
+
+
+AC- und DC-Dokumentation nicht vermischen.
+Auf der DC-Seite interessiert unter anderem die Stringverschaltung, Schutz- und Trennstellen und das Leitungsrouting. Auf der AC-Seite stehen Einbindung, Schutz, Messung und Netzanschluss im Vordergrund. Ein einziges übersichtliches Gesamtschema kann beides verknüpfen, die fachlichen Prüfungen bleiben aber unterschiedlich. Das Projekt soll zeigen, welche Dokumente für Betreiber, Instandhaltung und Prüfung jeweils erforderlich sind. Eine reine Modulbelegungszeichnung ohne elektrische Strangdaten ist für viele spätere Fragen unzureichend; umgekehrt ersetzen elektrische Daten keine Dach- und Leitungsführungspläne.
+
+
+Datenleitung mit eindeutigem Portbezug.
+Ein Netzanschluss kann beispielsweise die Kennung D-03-17 tragen: Datenverteiler 03, Port 17. Die gleiche Kennung erscheint im Raumplan, auf dem Patchfeld und im Messbericht. Für die Lernaufgabe wird eine Tabelle erstellt, die Raum, Anschlussdose, Patchfeldport, geplante Nutzung und Messstatus verbindet. Ein Kabel kann physikalisch funktionieren, aber organisatorisch wertlos sein, wenn es nicht identifizierbar ist. Gerade bei vielen ähnlichen Anschlüssen ist die Dokumentationsqualität ein zentraler Teil der Anlagenverfügbarkeit.
+
+
+Revisionen als kontrollierte Änderungen.
+Wenn während der Ausführung ein Verteiler verschoben oder ein PV-String geändert wird, darf nicht bloss eine handschriftliche Bemerkung auf irgendeinem alten Plan zurückbleiben. Der Revisionsprozess erfasst Änderung, Grund, Verantwortlichen, Datum, geprüfte Auswirkungen und neue Dokumentversion. Für das Ausbildungsprojekt genügt ein übersichtlicher Änderungsindex. Wichtig ist, dass nach der Revision keine widersprüchlichen Versionen im Umlauf bleiben. Die Dokumentation soll den tatsächlich gebauten Zustand abbilden, nicht nur die ursprüngliche Planungsabsicht.
+
+
+Übergabeprotokoll mit offenen Punkten.
+Ein Projekt kann funktional weit fortgeschritten sein und trotzdem offene Nachweise haben. Im Übergabeprotokoll werden deshalb ausführungsfertige Unterlagen, Prüfergebnisse, Restarbeiten und Mängel voneinander getrennt. Ein fehlendes Messprotokoll darf nicht als «geprüft» markiert werden. Bei Schutzthemen hat der sicherheitliche Status Vorrang. Der Lernende erstellt eine Tabelle mit Status «nachgewiesen», «offen» und «nicht anwendbar», jeweils mit Begründung. Erst eine qualifizierte Fachperson kann die formale Freigabe anhand der geltenden Voraussetzungen vornehmen.
+
+
+Qualität der Dokumentation gezielt testen.
+Zum Abschluss erhält eine zweite Person nur den Dokumentationssatz und folgende Aufgabe: Finde die Leitung zu Arbeitsplatz 4, die zugehörige Schutzgeräteposition, die PV-Wechselrichterkennung und die Portnummer des Datennetzanschlusses. Ist dies ohne Rückfrage möglich, ist die Kennzeichnung wahrscheinlich brauchbar. Danach wird geprüft, ob alle Planstände gleich datiert sind und die Berechnungsannahmen kenntlich bleiben. Dieser Peer-Review kann Verständlichkeit testen; er ersetzt keine fachliche oder normative Einzelprüfung.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Spannungsfall als Modellrechnung.
+Für eine einphasige Kupferleitung gelten rein didaktisch Länge 25 Meter, Strom 12 Ampere, Querschnitt 2,5 Quadratmillimeter und Leitfähigkeit 56. Berechne näherungsweise den Spannungsabfall mit dem Hin- und Rückweg. Es folgt 2 mal 25 mal 12 geteilt durch 56 mal 2,5, also rund 4,29 Volt. Relativ zu 230 Volt sind das 1,86 Prozent. Ohne weitere Daten zu Temperatur, Verlegeart und tatsächlichen Schutzbedingungen ist die Leitung dadurch nicht normativ dimensioniert.
+
+
+Fall 2: PV-Maximalspannung aus dem Datenblatt.
+Ein String enthält zehn Module à 45 Volt Leerlaufspannung bei Referenzbedingungen. Ein frei angenommener Kälteaufschlag von 15 Prozent wird für den Übungsfall vorgegeben. Die Modellspannung beträgt 10 mal 45 mal 1,15 gleich 517,5 Volt. Der Lernende muss erklären, dass der Aufschlag im realen Projekt nicht frei gewählt wird, sondern aus Temperaturkoeffizient und Standortbedingungen folgt. Das Ergebnis ist ein Planungsbeispiel, keine DC-Arbeitsanleitung.
+
+
+Fall 3: Nummerierung stimmt nicht überein.
+Im Stromlaufplan trägt der Anschluss die Kennung Q12, im Raumbuch Q21. Wie beurteilst Du die Abweichung? Die Musterlösung sieht zunächst einen Dokumentationsmangel, der durch Abgleich der tatsächlichen Zuweisung zu beheben ist. Eine stille Umbenennung nur in einem Dokument reicht nicht. Es muss geprüft werden, welche Pläne, Listen und Messprotokolle betroffen sind. Das Beispiel zeigt, weshalb eindeutige Kennzeichen für Sicherheit und Instandhaltung relevant sind.
+
+
+Fall 4: Gemessener und berechneter Wert verwechselt.
+Eine Tabelle enthält eine erwartete Kurzschlussstromgrösse aus einer Berechnung, daneben steht «gemessen». Wie muss der Fehler korrigiert werden? Die Spalte wird entsprechend ihrer Herkunft bezeichnet, und der Messstatus bleibt offen, solange keine echte Messung erfolgt ist. Eine rechnerische Plausibilität ist nicht gleich einem Sicherheitsnachweis. Die Lernfrage verlangt die eindeutige Zuordnung von Wert, Methode, Zeitpunkt und verantwortlicher Person.
+
+
+Fall 5: Datenport verwechselt.
+Port 17 des Patchfelds wird im Raumplan als Arbeitsplatz 2 dokumentiert, im Messbericht als Arbeitsplatz 6. Die Musterlösung verlangt die eindeutige Prüfung der Leitungsidentität und anschliessend die Korrektur sämtlicher betroffener Dokumente. Eine Vermutung aufgrund der räumlichen Nähe wäre unzureichend. Dies ist eine organisatorische Störung mit technischen Folgen: Im Fehlerfall könnte sonst der falsche Teilnehmer getrennt oder geprüft werden.
+
+
+Fall 6: Revision nach Gerätewechsel.
+Ein anderer Wechselrichter wird geliefert als ursprünglich geplant. Welche Unterlagen müssen überprüft werden? Datenblattliste, elektrische Anschlusswerte, DC-Eingangsgrenzen, AC-Anbindung, Schutzkonzept, Kommunikationsschnittstellen und Revisionspläne sind naheliegende Prüfpunkte. Ob eine konkrete Änderung erforderlich ist, hängt vom tatsächlichen Gerät ab. Die Musterlösung fordert einen nachvollziehbaren Änderungsprozess statt einer pauschalen Annahme, beide Modelle seien elektrisch austauschbar.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Dokumentationsauftrag: Eine kontrollierte Änderung.
+Im Projekt wird der Wechselrichter an eine andere Wand versetzt. Der neue Leitungsweg ist zwölf Meter länger. Die Änderung betrifft mindestens Lageplan, Leitungsliste, mechanische Führung und möglicherweise Spannungsfall beziehungsweise Schutzbetrachtung. Beginne mit einer Revisionsnotiz, die den ursprünglichen und den neuen Standort eindeutig benennt. Ergänze die neue Leitungslänge und markiere die davon abhängigen Berechnungen zur Nachprüfung. Erst nach fachlicher Bewertung dürfen daraus definitive Angaben werden. Prüfe ausserdem, ob sich die Beschriftung, die Zugänglichkeit und die Datenverbindung ändern. Die Musterlösung soll zeigen, wie ein einzelner geometrischer Entscheid durch mehrere Dokumente wandert und warum eine Revision konsequent durchgeführt werden muss.
+
+
+Lernabschluss.
+Lass eine andere Person anhand Deiner Unterlagen den Stromkreis zu einem Arbeitsplatz und den zugehörigen Port im Datennetz auffinden. Danach soll sie das PV-Modell bis zur dokumentierten Schnittstelle verfolgen können. Wenn dafür ungeschriebene Zusatzinformationen nötig sind, ist das Dossier noch nicht vollständig. Unterscheide in Deiner Schlusskontrolle zwischen «Plan plausibel», «Prüfung vorgesehen», «Messung durchgeführt» und «Anlage fachlich freigegeben».
+
+Zusätzliche Dokumentenprüfung. Der Installationsplan zeigt einen neuen Stromkreis, aber die Stromkreisliste und der Sicherheitsnachweisentwurf enthalten ihn noch nicht. Der Lernende erstellt eine Änderungsnotiz mit Nummer, betroffenen Dokumenten, Verantwortlichkeit und offenem Prüfstatus. Eine Anlage kann physisch erweitert sein, während ihre Dokumentation veraltet bleibt. Diese Abweichung muss vor einer formellen Übergabe erkannt und geschlossen werden. Insbesondere dürfen nicht vorhandene Messwerte für den neuen Stromkreis ergänzt werden, nur weil die anderen Stromkreise ähnliche Werte aufweisen. Ergänze im Revisionsregister auch den Prüfstatus der betroffenen Schutznachweise. Wenn nur die Leitungslänge geändert wurde, kann sich dennoch der Spannungsfall und gegebenenfalls die Beurteilung des Fehlerstrompfads ändern. Das neue Schema darf deshalb nicht ohne erneute fachliche Prüfung übernommen werden. Der Lernende nennt mindestens einen plausiblen Einfluss der Änderung und dokumentiert, welche verantwortliche Stelle die Nachrechnung sowie die Aktualisierung der betroffenen Mess- und Abnahmeunterlagen veranlasst.

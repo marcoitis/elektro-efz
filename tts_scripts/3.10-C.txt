@@ -1,1 +1,108 @@
-Lektion 3.10-C: Koaxialtechnik, Pegel und Messberichte. Bei koaxialen Kommunikationsanlagen werden Signale über einen definierten Wellenwiderstand transportiert. Kabeldämpfung, Verteiler, Steckverbindungen und Frequenzbereich beeinflussen den Pegel beim Endgerät. Eine Pegelangabe in Dezibel muss auf die korrekte Bezugsgrösse bezogen werden. Ein Messbericht dokumentiert deshalb nicht nur Zahlen, sondern auch Frequenz und Messbedingungen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein fiktiver Signalweg besitzt drei aufeinanderfolgende Dämpfungen von zwei, drei und vier Dezibel. Die Gesamtdämpfung beträgt neun Dezibel. Erkläre, warum die Beurteilung des Empfangspegelbereichs zusätzlich den Eingangspegel und die Gerätespezifikation benötigt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Dämpfungen in dB lassen sich bei derselben Bezugsdefinition addieren. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Messreport und Pass/Fail-Interpretation; Dokumentation vom Providerpunkt bis Endgerät. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.10-C: Koaxialtechnik, Pegel und Messberichte. Bei koaxialen Kommunikationsanlagen werden Signale über einen definierten Wellenwiderstand transportiert. Kabeldämpfung, Verteiler, Steckverbindungen und Frequenzbereich beeinflussen den Pegel beim Endgerät. Eine Pegelangabe in Dezibel muss auf die korrekte Bezugsgrösse bezogen werden. Ein Messbericht dokumentiert deshalb nicht nur Zahlen, sondern auch Frequenz und Messbedingungen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein fiktiver Signalweg besitzt drei aufeinanderfolgende Dämpfungen von zwei, drei und vier Dezibel. Die Gesamtdämpfung beträgt neun Dezibel. Erkläre, warum die Beurteilung des Empfangspegelbereichs zusätzlich den Eingangspegel und die Gerätespezifikation benötigt. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Dämpfungen in dB lassen sich bei derselben Bezugsdefinition addieren. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Messreport und Pass/Fail-Interpretation; Dokumentation vom Providerpunkt bis Endgerät. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: ISO/IEC 11801; Lehrplan 6.1/6.2. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Messreport und Pass/Fail-Interpretation; Dokumentation vom Providerpunkt bis Endgerät.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Optische Leistungsdämpfung. Eine optische Verbindung weist im vereinfachten Leistungsmodell eine Dämpfung von 3 dB auf.
+
+Schritt 1. Leistungsverhältnis: P₂/P₁ = 10^(−3/10).
+
+Schritt 2. 10^(−0,3) ≈ 0,501.
+
+Schritt 3. Am Ausgang verbleiben idealisiert rund 50 % der Eingangsleistung.
+
+Schritt 4. Eine reale Abnahme verlangt gerätespezifische Messung und Grenzwerte.
+
+Kontrolle des Ergebnisses: −3 dB bedeutet ungefähr halbe optische Leistung.
+
+Übungsauftrag zur Anwendung: RJ45-Patch-/Installationskabel ausschließlich an spannungsfreier Dateninstallation/Trainingsmaterial; LWL nur Fachkurs. Halte zusätzlich die Antwort auf die Frage «Wie gross ist die Gesamtdämpfung von 2 dB + 3 dB + 4 dB?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie gross ist die Gesamtdämpfung von 2 dB + 3 dB + 4 dB? Die richtige Antwort lautet: 9 dB. Warum? Dämpfungen in dB lassen sich bei derselben Bezugsdefinition addieren.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Dämpfungen in dB lassen sich bei derselben Bezugsdefinition addieren.. Warum? Der Merksatz lautet: Dämpfungen in dB lassen sich bei derselben Bezugsdefinition addieren.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachkapitel.
+
+Koaxiale Signalübertragung richtig verstehen.
+Ein Koaxialkabel führt das Hochfrequenzsignal zwischen Innenleiter und Schirm. Der Schirm bildet zugleich einen definierten Rückleiter und begrenzt die Einkopplung fremder Störfelder. Die charakteristische Impedanz einer typischen Breitband-Hausverteilungsstrecke beträgt 75 Ohm; das ist kein mit dem Multimeter messbarer Gleichstromwiderstand. Die Impedanz ergibt sich aus der verteilten Induktivität und Kapazität. Gerade bei höherer Frequenz führen ungeeignete Anschlüsse zu Reflexionen. Ein Kabel kann mechanisch ordentlich montiert aussehen und hochfrequenztechnisch trotzdem schlecht sein. Deshalb trennen wir optische Kontrolle, elektrische Durchgangsprüfung und HF-Messung.
+
+
+Dezibel als Verhältnis und dBµV als absoluter Pegel.
+Dämpfung in Dezibel ist ein logarithmisches Verhältnis. Bei Leistungen wird mit 10 mal dem Zehnerlogarithmus des Leistungsverhältnisses gerechnet; für Spannungspegel bei gleicher Bezugsimpedanz mit 20 mal dem Zehnerlogarithmus. Die Einheit dBµV beschreibt dagegen den absoluten Spannungspegel bezogen auf ein Mikrovolt. Ein Pegel von 60 dBµV entspricht 10 hoch drei Mikrovolt, also einem Millivolt effektiv. Wer 60 dBµV mit 60 Millivolt verwechselt, liegt um den Faktor sechzig daneben. Ein Messbericht muss deshalb die Pegel-Einheit explizit ausweisen.
+
+
+Dämpfungsbudget einer Hausverteilung.
+Nehmen wir rein rechnerisch am Verteilereingang 72 dBµV an. Die Leitung verursacht 7 dB Dämpfung, ein Abzweiger 10 dB und die Anschlussleitung nochmals 3 dB. Am Endpunkt bleiben im linearen dB-Budget 52 dBµV. Die einzelnen Verluste dürfen in Dezibel addiert werden, obwohl sich die zugrunde liegenden Spannungsverhältnisse multiplikativ verhalten. Wenn der Messwert stattdessen 43 dBµV beträgt, ist nicht zwingend der Eingangspegel falsch. Ebenso möglich sind schlechte Kontakte, ein beschädigter Abzweiger oder ein zusätzlicher nicht dokumentierter Leitungsweg.
+
+
+Frequenzabhängigkeit der Kabeldämpfung.
+Die Dämpfung eines Koaxialkabels hängt deutlich von der Frequenz ab. Ein Kabel, das tieffrequente Signale ausreichend überträgt, kann am oberen Ende des verwendeten Bandes bereits deutlich mehr Verlust aufweisen. Für ein Ausbildungsmodell kann man beispielsweise mit 6 dB pro hundert Meter bei einer tieferen Frequenz und 18 dB bei einer höheren Frequenz rechnen. Auf fünfzig Metern wären das 3 beziehungsweise 9 dB. Daraus folgt: Ein einzelner Pegelwert ohne Frequenzangabe ist für die Diagnose kaum ausreichend. Eine gute Messung betrachtet den relevanten Frequenzbereich.
+
+
+Reflexionen durch Fehlanpassung.
+Wenn Quelle, Kabel und Abschluss nicht zur vorgesehenen Wellenimpedanz passen, wird ein Teil der Signalenergie reflektiert. Sichtbar kann dies durch frequenzabhängige Einbrüche oder erhöhte Rückflussdämpfung werden. Eine offene Buchse am Ende einer Verteilung ist nicht gleichwertig mit einem passenden HF-Abschluss. Der handwerkliche Fehler einer unzureichend montierten Steckverbindung kann sowohl Dämpfung als auch Fehlanpassung verursachen. Deshalb gehören Steckertyp, Montageart, Anzugsmoment nach Herstellerangabe und die dokumentierte Terminierung zur Qualitätsbetrachtung. Ein normaler Durchgangspiepser erkennt diese Hochfrequenzeffekte nicht.
+
+
+Schirmung und Störfestigkeit.
+Bei Koaxialleitungen ist die Schirmungsqualität ein wesentlicher Teil der Übertragungssicherheit. Beschädigte Schirme, fehlende Kontaktierung oder sehr ungünstige Kabelführung können Einstrahlungen und Abstrahlungen verursachen. Ein Netzteil in unmittelbarer Nähe muss nicht automatisch stören, doch bei konkreten Messproblemen wird die Umgebung einbezogen. Der Schirm darf auch nicht einfach mit irgendeinem Schutzleiter improvisiert verbunden werden; Potenzialausgleich und Überspannungsschutz einer Kommunikationsanlage sind im Gesamtkonzept fachgerecht zu planen. Lernende sollen die Funktion unterscheiden: HF-Schirmung, Erdungs- und Schutzmassnahmen sowie mechanische Abschirmung sind nicht identisch.
+
+
+Messbericht mit Bezugspunkt.
+Ein brauchbarer Messbericht nennt Objekt, Leitung, Anschlussdose, Zeitpunkt, Messgerät, Kalibrierstatus soweit relevant, Frequenz oder Kanal, Signalpegel und gegebenenfalls Qualitätsparameter. Ein einzelner Satz wie «Empfang schwach» ist keine reproduzierbare Diagnose. Wird eine Messung vor einem Verteiler und eine zweite an einer Dose durchgeführt, müssen beide denselben Signaltyp und vergleichbare Betriebsbedingungen betreffen. Bei digitaler Übertragung kann ein ausreichend hoher Pegel mit schlechter Qualität zusammenfallen. Deshalb wird neben dem Pegel je nach System ein Modulations- oder Fehlerqualitätswert benötigt; die genaue Auswahl richtet sich nach dem eingesetzten Übertragungssystem.
+
+
+Praxisfall: plötzlich ausgefallene Wohnung.
+In einem Mehrfamilienhaus ist nur eine Wohnung betroffen. Der Eingangspegel des Hausverteilers ist unauffällig. Zunächst folgt die Dokumentation des betroffenen Strangs: Dose, Abzweiger, Kabelweg und zuletzt ausgeführte Arbeiten. Ein Messwert vor dem Abzweiger und einer nach dem Abzweiger erlaubt die Eingrenzung. Eine beschädigte Steckverbindung kann stärker auffallen als fünf zusätzliche Meter Kabel. Die Vorgehensweise ist nicht, sofort den Hausverstärker höher zu stellen. Damit könnten andere Anschlüsse übersteuert werden. Die Ursache muss am betroffenen Abschnitt nachgewiesen werden.
+
+
+Grenzen einer überschlägigen Pegelrechnung.
+Die Addition von dB-Verlusten ist eine nützliche Vorbemessung, ersetzt aber keine Messung. Verstärker können Eigenrauschen und Verzerrungen einbringen. Bei passiven Verteilern sind Durchgangsdämpfung und Abzweigdämpfung unterschiedlich. Zudem können Pegel in einem Frequenzband auseinanderlaufen. Für reale Planung sind Datenblätter, aktuelle Netzbetreibervorgaben und zulässige Pegelfenster erforderlich. Diese Lektion nennt bewusst keine allgemeingültigen Abnahmegrenzwerte. Entscheidend ist, dass die Lehrperson den Rechenweg veranschaulicht, während die Freigabe immer aus dem konkreten System und seinen Unterlagen abgeleitet wird.
+
+
+Kundenkommunikation und Massnahmenempfehlung.
+Nach einer Fehlersuche sollte die Rückmeldung an den Kunden Beobachtung, Ursache, vorgeschlagene Massnahme und offenen Nachweis trennen. Ein Beispielsatz lautet: «An der Enddose liegt im oberen Frequenzbereich ein deutlich geringerer Pegel als am Abzweiger an; die Steckverbindung wird durch den zuständigen Fachbetrieb überprüft und die Strecke anschliessend erneut gemessen.» Damit behauptet man weder einen sicher gefundenen Defekt noch ersetzt man die Prüfung durch eine Vermutung. Ein vollständiger Bericht zeigt auch, ob die übrigen Teilnehmer durch die Massnahme beeinflusst werden könnten. Das ist wesentlich, wenn Verstärker oder Verteilung geändert werden.
+
+Sechs eigenständige Lernfälle mit Lösungswegen.
+
+Fall 1: Pegel am Ende einer Koaxialstrecke.
+Am Eingang eines Verteilers werden 76 dBµV angenommen. Ein passives Element verursacht 12 dB, das Kabel 5 dB und die Enddose 4 dB. Berechne den rechnerischen Endpegel. Lösung: 76 minus 12 minus 5 minus 4 ergibt 55 dBµV. Entscheidend ist, dass alle Dämpfungen für denselben Signalweg und dieselbe Frequenz gelten. Ohne Kenntnis des zulässigen Pegelfensters ist das Ergebnis noch keine Abnahmeentscheidung. Eine weitere Messung kann zeigen, ob der Endpegel tatsächlich so ausfällt.
+
+
+Fall 2: Signalspannung aus dBµV.
+Ein Protokoll nennt 54 dBµV. Wie gross ist die Spannungsamplitude im zugrunde liegenden Effektivwertbezug? Lösung: U geteilt durch ein Mikrovolt ist zehn hoch 54 durch 20, also rund 501. Der Spannungswert beträgt ungefähr 501 Mikrovolt beziehungsweise 0,501 Millivolt. Der Wert ist nicht gleich einer Leistung in Milliwatt. Bei einer Leistungsberechnung wäre zusätzlich die Bezugsimpedanz nötig. Lerne die Bezugsgrösse zu benennen, bevor Du aus Dezibelangaben elektrische Grössen ableitest.
+
+
+Fall 3: Frequenzselektiver Fehler.
+Bei einem Kabel zeigen tiefe Kanäle ausreichenden Pegel, hohe Kanäle sind deutlich schwächer. Nenne zwei plausible Hypothesen und zwei sinnvolle Gegenprüfungen. Musterlösung: Eine zu lange oder ungeeignete Strecke sowie eine schlechte Steckverbindung sind mögliche Ursachen. Vergleiche die Pegel an zwei definierten Messpunkten jeweils auf denselben Frequenzen und prüfe die dokumentierten Kabeldaten. Ein pauschales Nachstellen des Verstärkers würde möglicherweise tiefe Kanäle übersteuern und den eigentlichen Fehler verdecken.
+
+
+Fall 4: Abzweiger nicht mit Durchgang verwechseln.
+Ein Bauteil hat laut Datenblatt eine Abzweigdämpfung von 14 dB und eine Durchgangsdämpfung von 2 dB. Eine Skizze setzt fälschlich 14 dB auf den Hauptstrang an. Die Musterlösung besteht darin, die beiden Signalwege zu identifizieren und für jeden den richtigen Parameter einzutragen. Bei einem Eingang von 70 dBµV ergäben sich idealisiert 56 dBµV am Abzweig, aber 68 dBµV am Durchgang. Diese Differenz ist keine Ungenauigkeit, sondern eine falsche Zuordnung des Bauteilwegs.
+
+
+Fall 5: Fehlende Terminierung.
+Eine nicht benutzte Verteilerausgangsbuchse ist offen. Jemand schlägt vor, die Leitung «einfach so» weiterzubetreiben, weil an einer anderen Dose noch Empfang besteht. Erläutere den Denkfehler. Lösung: Ein fehlender passender Abschluss kann Reflexionen verursachen, die frequenzabhängige Probleme erzeugen. Der ordnungsgemässe Aufbau richtet sich nach der System- und Gerätebeschreibung. Die Lernaufgabe besteht im Lesen von Datenblatt und Plan, nicht im eigenmächtigen Eingriff in den aktiven Hausanschluss.
+
+
+Fall 6: Rapport aus widersprüchlichen Messwerten.
+Ein Bericht zeigt 61 dBµV am Verteiler, 58 dBµV nach einem Abzweiger und 52 dBµV an der Dose. Der Plan weist für die letzten zwei Segmente 2 und 4 dB Verlust aus. Erkläre, was auffällt. Der gemessene Verlust von Verteiler zu Zwischenpunkt beträgt 3 dB, der letzte Abschnitt 6 dB. Die Dokumentation weicht also in beiden Abschnitten vom angenommenen Modell ab. Ein aussagekräftiger Rapport fordert den Abgleich von Frequenz, Messbedingungen und tatsächlich verbauten Komponenten.
+
+Vertiefender Abschluss und fachliche Rückprobe.
+
+Vertiefter Diagnoseauftrag: Ein Pegelbericht mit Lücken.
+Du erhältst ein anonymisiertes Musterblatt: 74 dBµV am Hausverteiler und 56 dBµV an einer Dose, aber ohne Frequenzangabe. Die Kabelstrecke ist nach Plan 40 Meter lang, während im Geräteblatt eine frequenzabhängige Dämpfung pro hundert Meter ausgewiesen wird. Arbeite zuerst heraus, was rechnerisch sicher ist: Der gesamte Pegelverlust beträgt 18 dB. Danach listest Du auf, warum sich diese 18 dB nicht einfach dem Kabel zuschreiben lassen. Es fehlen die wirklichen Abzweigerwerte, die Dosencharakteristik, die Frequenz und der Zustand der Steckkontakte. Erstelle abschliessend eine kurze Prüfstrategie mit zwei Vergleichspunkten und erläutere, welche Abweichung jeweils welchen Abschnitt verdächtig macht. Dieser Auftrag testet die Fähigkeit, Zahlen nicht ohne Systemgrenzen zu interpretieren.
+
+
+Lernabschluss.
+Sprich die wichtigsten Unterschiede laut aus: dB als Verhältnis, dBµV als Pegel, Kabeldämpfung als frequenzabhängiger Parameter und Signalqualität als zusätzliche Messgrösse. Versuche, einem Kunden zu erklären, warum ein stärkerer Hausverstärker die Fehlersuche nicht ersetzen kann. Im Schlussprotokoll kennzeichnest Du den errechneten Endpegel als Modellwert und einen tatsächlich aufgenommenen Pegel als Messwert. Genau diese sprachliche Trennung macht einen Messbericht nachvollziehbar.

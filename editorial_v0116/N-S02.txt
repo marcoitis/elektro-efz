@@ -1,0 +1,112 @@
+Die fünf Sicherheitsregeln wirklich verstehen.
+
+Die fünf Sicherheitsregeln sind kein auswendig gelernter Spruch, sondern eine aufeinander abgestimmte Barrierenkette. Jede Regel verhindert einen anderen Fehler. Besonders bei PV, Batteriespeichern und USV ist das Denken in mehreren Energiequellen zentral.
+
+Energiequellen vollständig identifizieren.
+
+Eine Anlage kann aus dem öffentlichen Netz, einer PV-Anlage, einem Speicher oder einem Kondensator Energie erhalten. Vor dem Freischalten werden die möglichen Quellen anhand aktueller Unterlagen und einer Begehung identifiziert. Ein einziger ausgeschalteter Leitungsschutzschalter beweist keine Spannungsfreiheit.
+
+Trennen, sichern und prüfen.
+
+Erstens vollständig freischalten, zweitens gegen Wiedereinschalten sichern, drittens Spannungsfreiheit mit geeignetem Prüfmittel feststellen. Eine Status-LED, eine App-Anzeige oder ein auf Null stehendes Display sind kein Ersatz für eine geeignete elektrische Prüfung. Prüfmittel und Verfahren müssen zur Anlage und zum zulässigen Arbeitsauftrag passen.
+
+Erden, kurzschliessen und Nachbarteile schützen.
+
+Viertens wird, wo erforderlich, geerdet und kurzgeschlossen; die konkreten Bedingungen unterscheiden sich nach Anlage und Gefährdung. Fünftens sind benachbarte, unter Spannung stehende Teile abzudecken oder abzuschranken. Keine dieser Massnahmen berechtigt Unqualifizierte zum Arbeiten an Netzspannung.
+
+Rechenbeispiel oder Denkmodell.
+
+Denkbild: Die fünf Regeln sind fünf hintereinander geschaltete Sicherheitsschleusen. Wenn eine Schleuse ausfällt, darf man nicht auf eine der späteren Schleusen vertrauen.
+
+Praxisfall.
+
+Die Stromversorgung eines Wechselrichters ist AC-seitig abgeschaltet, aber die PV-Module sind beleuchtet. Ist die Wechselrichtereinheit dadurch vollständig energiefrei?
+
+Musterlösung.
+
+Nein. Die DC-Seite bleibt unter Lichteinwirkung potenziell spannungsführend; zusätzlich können interne Energiespeicher vorhanden sein. Die relevanten Herstelleranweisungen, Trennstellen und Entladezeiten sind zu berücksichtigen. Die konkrete sichere Arbeitsmethode darf nur von berechtigten Fachpersonen bestimmt und ausgeführt werden.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Die Stromversorgung eines Wechselrichters ist AC-seitig abgeschaltet, aber die PV-Module sind beleuchtet. Ist die Wechselrichtereinheit dadurch vollständig energiefrei?
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Nein. Die DC-Seite bleibt unter Lichteinwirkung potenziell spannungsführend; zusätzlich können interne Energiespeicher vorhanden sein. Die relevanten Herstelleranweisungen, Trennstellen und Entladezeiten sind zu berücksichtigen. Die konkrete sichere Arbeitsmethode darf nur von berechtigten Fachpersonen bestimmt und ausgeführt werden.
+
+Möglicher sicherer Übungsauftrag: Erstelle auf Papier eine Checkliste für eine Anlage mit Netz, PV und Speicher; führe keine reale Prüfung aus.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Aussage belegt Spannungsfreiheit? Die richtige Antwort lautet: Geeignete, fachgerecht durchgeführte Spannungsprüfung. Warum? Eine Bedienanzeige oder Schalterstellung ist kein geeigneter alleiniger Nachweis.
+
+Frage 2: Was ist bei der PV-DC-Seite besonders zu berücksichtigen? Die richtige Antwort lautet: Beleuchtete Module können weiterhin Spannung liefern. Warum? Die PV-Energiequelle ist nicht durch die AC-Trennung beseitigt.
+
+Frage 3: Was ist der Zweck des Schutzes benachbarter Teile? Die richtige Antwort lautet: Berührungs- und Annäherungsgefahren vermeiden. Warum? Der fünfte Schritt grenzt benachbarte gefährliche Teile ab.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Die Sicherheitsregeln als Barrierenkette.
+Die fünf Sicherheitsregeln wirken nicht als lose Checkliste, sondern greifen ineinander. Ihr Zweck ist, vor Beginn der Arbeit einen sicheren, überprüften Zustand herzustellen und diesen während der gesamten Tätigkeit zu erhalten. Auf der ersten Ebene muss eindeutig bekannt sein, welches Anlagenteil betroffen ist. Auf der zweiten Ebene müssen sämtliche relevanten Einspeisungen berücksichtigt werden. Danach geht es um das Verhindern unbeabsichtigter Zustandsänderungen, um den fachkundigen Nachweis des spannungsfreien Zustands und um den Schutz gegenüber verbleibenden Gefahren der Umgebung. Dieser Unterricht behandelt die Logik der Regeln und die Anforderungen an Verantwortung und Nachweis, nicht die praktische Durchführung durch unberechtigte Personen. Die aktuelle ESTI-Weisung ist für die korrekte Fassung massgebend.
+
+Fachkapitel 2: Freischalten beginnt beim Energiequellenplan.
+Ein Industrieverteiler kann vom Netz, einer USV, einem Batteriespeicher oder über einen Wechselrichter gespeist werden. Auch Netzteile, Kondensatoren oder andere elektrische Energiespeicher können nach dem Trennen noch Energie enthalten. Daher ist es falsch, aus der Stellung eines einzigen Schalters automatisch Spannungsfreiheit abzuleiten. In einem Lernmodell zeichnest Du jede potenzielle Quelle mit der zugehörigen Energieflussrichtung ein. Dann markierst Du, welche Trenn- oder Verriegelungsstellen die verantwortliche Fachperson für die konkrete Arbeit beurteilen muss. Ziel ist das Erkennen von Rückspeisungen und gespeicherter Energie. Die eigentliche Schalthandlung und deren Absicherung ist keine private Übung.
+
+Fachkapitel 3: Sichern gegen Wiedereinschalten.
+Eine abgeschaltete Anlage kann durch Dritte, Fernsteuerung, automatische Umschaltung oder Fehlbedienung wieder eingeschaltet werden. Das erklärt, warum ein sicherer Arbeitszustand nicht nur aus einer Momentaufnahme bestehen darf. Die zuständige Person muss festlegen, wie die betroffenen Schaltstellen gegen unbeabsichtigte Veränderung gesichert und wie alle Beteiligten informiert werden. Bei komplexen Anlagen kommt eine koordinierte Kennzeichnung hinzu, damit Schalter und Arbeit eindeutig zusammengehören. Der Unterricht arbeitet mit einem fiktiven Sperrregister: Anlagenteil, Arbeit, zuständige Person, Zeitpunkt und geplante Aufhebung. Damit wird sichtbar, weshalb „ich habe es ausgeschaltet“ kein ausreichender Sicherheitsnachweis ist.
+
+Fachkapitel 4: Spannungsfreiheit fachkundig feststellen.
+Der Nachweis des spannungsfreien Zustands ist eine eigene Sicherheitsbarriere, keine beiläufige Messung. Messmittel, Spannungsbereich, Messkategorie, Zustand der Leitungen und die konkrete Prüfanordnung müssen zur Anlage passen. Auch die Verlässlichkeit des Prüfmittels vor und nach dem Einsatz ist von Bedeutung. Eine Anzeige von null Volt kann falsch interpretiert werden, beispielsweise bei ungeeignetem Gerät, falscher Messstelle oder gestörter Messleitung. Hier wird das Vorgehen nur als Entscheidungs- und Kontrollschema behandelt: Welche Frage soll die Messung beantworten und welche Fehlerquellen könnten eine falsche Aussage erzeugen? Das praktische Vorgehen bleibt qualifizierten, entsprechend berechtigten Personen vorbehalten.
+
+Fachkapitel 5: Erdung, Kurzschliessen und Nachbarteile.
+Die weiteren Sicherheitsbarrieren sind abhängig von Anlage und Gefährdung. Bei bestimmten Arbeiten muss gegen Spannungsübertragung oder Rückeinspeisung zusätzlich geerdet und kurzgeschlossen werden. Zugleich sind benachbarte, weiterhin aktive Teile zu erkennen und erforderlichenfalls abzudecken oder abzuschranken. Die Anwendung ist nicht für alle Niederspannungsfälle identisch; die gültige Weisung und die konkrete Gefährdungsbeurteilung bestimmen den Umfang. Im Unterricht wird deshalb eine Fallmatrix erstellt: Welche zusätzliche Quelle oder Nachbaranlage könnte das sichere Arbeiten gefährden, und welche fachlich zu prüfende Schutzbarriere wäre erforderlich? Diese konzeptionelle Betrachtung vermeidet gefährliche schematische Anleitungen.
+
+Fachkapitel 6: PV und Batterien.
+Besonders anschaulich sind PV-Strings: Bei Lichteinfall können Module Spannung erzeugen, obwohl auf der AC-Seite kein Netz mehr vorhanden ist. Ein Energiespeicher bringt zusätzlich Betriebsarten mit Rückspeisung oder Inselversorgung mit sich. Deshalb muss die Planung zwischen verschiedenen Stromkreisen und Systemteilen differenzieren. Ein AC-Hauptschalter beweist nicht ohne Weiteres den Zustand eines DC-Strings. Auch eine Anzeige in einer Monitoring-App ist kein normgerechter Nachweis der Spannungsfreiheit. Eine Lernaufgabe besteht darin, für ein PV-Batterie-System mögliche Stromflusswege bei Netzbetrieb, Netzausfall und Wartung zu zeichnen und die jeweils offenen Sicherheitsfragen zu benennen.
+
+Fachkapitel 7: Störungen der Barrierenkette erkennen.
+Angenommen, ein Schaltplan ist nicht aktuell, eine Verriegelung ist defekt oder ein anderer Auftrag wird während der Wartung eingeplant. Jede dieser Situationen kann eine Sicherheitsbarriere schwächen. Die sichere Organisation verlangt, den betroffenen Arbeitsprozess zu unterbrechen und den Zustand neu zu beurteilen. Eine wichtige Fachfrage lautet daher: Welches neue Ereignis könnte eine ursprünglich richtige Gefährdungsbeurteilung ungültig machen? Im Unterricht werden Ereignisse wie automatische Umschaltung, wechselnde Betriebsleitung und unerwartetes Messsignal bewertet. Der Schwerpunkt liegt auf konsequentem Stoppen und Neuplanen statt auf improvisierter Weiterarbeit.
+
+Fachkapitel 8: Rückgabe erst nach dokumentierter Prüfung.
+Die Sicherheitsregeln betreffen nicht nur den Beginn, sondern auch das sichere Ende einer Arbeit. Nach Abschluss müssen Werkzeuge und Hilfsmittel geprüft, Beteiligte informiert, Prüfergebnisse festgehalten und der Anlagenzustand geregelt an den Betrieb zurückgegeben werden. Wer selbst gesetzte Sperren nur mündlich als aufgehoben meldet, schafft neue Missverständnisse. Für die Fallstudie wird ein Rückgabeprotokoll mit Arbeitsumfang, verbliebenen Mängeln, dokumentierten Prüfungen und zuständiger Freigabe erstellt. So verbindet sich das Sicherheitsdenken mit der Betriebsorganisation. Die konkrete Aufhebung von Sicherheitsmassnahmen wird ausschliesslich nach fachkundigem Freigabeprozess durchgeführt.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: USV hinter dem Hauptschalter.
+Eine Anlage zeigt nach dem Abschalten des Hauptschalters weiterhin eine aktive Steuerung. Benenne die mögliche Ursache: Die USV oder eine andere Hilfsversorgung wird nicht über die betrachtete Schaltstelle getrennt. Im Lernmodell wird der Energiequellenplan ergänzt und die Arbeitsfreigabe zurückgestellt, bis der zuständige Fachbetrieb die Quellen geklärt hat.
+
+Fall 2: App meldet Null.
+Der PV-Wechselrichter zeigt in seiner App null Watt. Darf daraus abgeleitet werden, dass der DC-Eingang spannungsfrei ist? Nein. Leistung und Spannung sind unterschiedliche Grössen, und eine Kommunikationsanzeige ist kein geeigneter Sicherheitsnachweis. Die Antwort soll den Unterschied zwischen Betriebsdaten und normgerechter Zustandsprüfung erklären.
+
+Fall 3: Schalter mit identischer Beschriftung.
+Zwei benachbarte Schalter tragen fast dieselbe Kennzeichnung. Die Fachperson ist sich nicht sicher, welcher den Arbeitsbereich versorgt. Die korrekte Reaktion ist die Unterbrechung und eindeutige Identifikation anhand verifizierter Unterlagen, nicht eine Schaltung auf Verdacht. Eine bessere Kennzeichnung wird als Änderungsmassnahme aufgenommen.
+
+Fall 4: Fernsteuerung möglich.
+Ein Schaltschrank kann über ein Gebäudeleitsystem fernbedient werden. Welche organisatorische Zusatzfrage entsteht? Es muss geklärt werden, welche automatischen beziehungsweise entfernten Schalthandlungen einen gesicherten Zustand verändern könnten. Die zuständigen Stellen legen die konkrete Absicherung und Kommunikation fest.
+
+Fall 5: Unzuverlässiges Messgerät.
+Das Prüfgerät zeigt an mehreren Stellen unerwartete Nullwerte; sein Zustand ist nicht eindeutig. Die Lernlösung lautet, den Prüfprozess nicht einfach zu akzeptieren, sondern Messmittel und Verfahren durch berechtigte Fachpersonen klären zu lassen. Ein Messwert ohne sichergestellte Gerätefunktion ist kein Nachweis.
+
+Fall 6: Neuer Arbeitsauftrag während Wartung.
+Während einer geplanten Wartung soll ein zweites Team am Nachbarfeld arbeiten. Welche Fragen müssen geklärt werden? Neue Arbeitsgrenzen, verbleibende aktive Teile, gemeinsame Energiequellen, Anlagenverantwortung und gegenseitige Beeinflussung. Ohne abgestimmte Beurteilung dürfen die Arbeiten nicht einfach parallel begonnen werden.
+
+Fall 7: Fünfte Regel übersehen.
+Eine Lernskizze zeigt sämtliche Einspeisungen, beschreibt die Sicherung gegen Wiedereinschalten und eine vorgesehene Prüfung der Spannungsfreiheit. In unmittelbarer Nähe befinden sich aber weiterhin aktive Teile. Analysiere die verbleibende Gefährdung auf konzeptioneller Ebene. Die Barrierenkette ist nur vollständig, wenn auch die Gefahren aus dem Umfeld berücksichtigt und durch fachkundige Personen geeignete Massnahmen festgelegt werden. In der Fallantwort werden keine improvisierten Abdeckungen montiert; stattdessen wird eine offene Gefährdungsfrage mit der zuständigen Arbeitsverantwortung dokumentiert. Das Beispiel zeigt, warum eine teilweise ausgefüllte Checkliste keine Gesamtfreigabe ist.
+
+Fall 8: Mehrere Energiespeicher.
+Ein Schaltschrank enthält Kondensatoren und wird zusätzlich aus einer USV versorgt. Der Hauptschalter ist geöffnet; eine LED erlischt. Prüfe die Aussage „damit ist alles spannungsfrei“. Die Schlussfolgerung ist unzulässig: Das Erlöschen einer LED belegt nur deren Betriebszustand, nicht den sicheren Zustand sämtlicher Leiter. Mögliche Quellen, gespeicherte Energie und die relevanten Messstellen sind durch zuständige Fachpersonen zu bestimmen. Lernende skizzieren ausschliesslich die Energiequellen und halten fest, welche Fragen für eine normgerechte Freigabe noch offen sind.
+
+Fall 9: Dach-PV bei Regen.
+Ein Dachteam möchte eine mechanische Arbeit nahe Leitungswegen einer PV-Anlage durchführen. Das Wetter ist bewölkt, die App zeigt null Watt. Warum genügt das nicht? Lichtverhältnisse und Ertragsanzeige beweisen weder die Spannungsfreiheit von DC-Leitungen noch die Abwesenheit weiterer Energiequellen. Die zuständige Fachplanung muss den Arbeitsbereich und die elektrischen Gefährdungen beurteilen; das Dachteam darf keine eigene Sicherheitsannahme aus der App ableiten. Dokumentiere die organisatorische Schnittstelle zwischen Dach- und Elektroarbeit.
+
+Fall 10: Änderung der Einspeisung.
+Ein Betrieb ersetzt einen Wechselrichter und ergänzt eine Batterie. Die alte Sicherheitsanweisung nennt nur die Netzversorgung. Was ist zu tun? Das Quellenbild und die Gefährdungsbeurteilung müssen vor der nächsten betroffenen Arbeit angepasst werden. Neue Rückspeisepfade, automatische Umschaltung und gespeicherte Energie sind einzubeziehen. Bestehende Formulare bleiben als Historie erhalten, dürfen aber nicht ungeprüft den neuen Anlagenzustand beschreiben. Die neue Anweisung wird von der dafür verantwortlichen Fachperson freigegeben.
+
+Fall 11: Fehleranalyse einer unvollständigen Freigabe.
+Ein fiktiver Wartungsauftrag wurde zunächst korrekt geplant. Kurz vor Beginn wird eine Ersatzstromversorgung ergänzt; zudem ändert die Produktion die Betriebszeit. Die Sicherheitsfreigabe stammt vom Vortag und berücksichtigt beide Änderungen nicht. Formuliere einen fachlichen Entscheidungsweg. Zuerst wird festgehalten, was sich geändert hat, dann welche Energiequellen und organisatorischen Schutzbarrieren betroffen sind. Die zuständigen Anlagen- und Arbeitsverantwortlichen müssen die Beurteilung erneuern, bevor die Arbeit fortgesetzt wird. Ein bereits unterschriebenes Formular ist keine Garantie, dass ein neuer Zustand automatisch mitabgedeckt ist. Die Lernlösung unterscheidet ausdrücklich zwischen Quellenidentifikation, Sicherung des Arbeitszustands, fachkundiger Prüfung der Spannungsfreiheit und verbleibenden Gefahren benachbarter Teile. Nenne ausserdem die Rückgabeinformationen, die für die nächste Schicht benötigt werden. Die Aufgabe verlangt keine reale Schalthandlung, sondern überprüfbares sicherheitsorganisatorisches Denken.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

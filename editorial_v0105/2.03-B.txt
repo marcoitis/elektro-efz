@@ -1,0 +1,85 @@
+Lektion 2.03-B: Transformatorenübersetzung und Verluste. Ein Transformator überträgt Wechselstromenergie über magnetische Kopplung. Im idealen Modell ist das Verhältnis von Primär- und Sekundärspannung gleich dem Verhältnis der Windungszahlen. Reale Transformatoren besitzen Kupferverluste, Eisenverluste, Streufelder und Erwärmung. Ein Transformator ist deshalb weder ein Energieerzeuger noch ohne Weiteres ein geeigneter Schutztransformator. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein idealer Trafo mit 1000 Windungen primär und 100 Windungen sekundär besitzt das Übersetzungsverhältnis zehn zu eins. Bei zweihundertdreissig Voltolt primär wären sekundär ideal 23 Volt zu erwarten. In einer realen Anwendung sind Isolationsart, Schutzklasse, zulässige Last und Datenblatt wichtiger als diese reine Rechenzahl. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Das Übersetzungsverhältnis sagt nichts über alle sicherheitsrelevanten Eigenschaften aus. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Aufbau, Übersetzung und Wirkungsgrad eines Trafos; Einphasen-/Drehstromtransformatoren. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.2/5.1; N I N Teil 4 (Schutztrennung). Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Aufbau, Übersetzung und Wirkungsgrad eines Trafos; Einphasen-/Drehstromtransformatoren.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Idealer Transformator. N₁ = 1 000 Windungen, N₂ = 100 Windungen, U₁ = 230 V.
+
+Schritt 1. Ideales Übersetzungsverhältnis: U₂ / U₁ = N₂ / N₁.
+
+Schritt 2. N₂ / N₁ = 100 / 1 000 = 0,1.
+
+Schritt 3. U₂ = 230 V · 0,1 = 23 V.
+
+Schritt 4. In der Praxis gibt es Verluste und zusätzliche Sicherheitsanforderungen.
+
+Kontrolle des Ergebnisses: U₂ = 23 V im idealen Modell.
+
+Übungsauftrag zur Anwendung: Unbedenklichen 12-V-AC-Schultransformator ohne Anschlussarbeiten charakterisieren, nur beaufsichtigt. Halte zusätzlich die Antwort auf die Frage «Wie verhalten sich beim idealen Trafo U1/U2 und N1/N2?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie verhalten sich beim idealen Trafo U1/U2 und N1/N2? Die richtige Antwort lautet: Sie sind gleich. Warum? Das Übersetzungsverhältnis sagt nichts über alle sicherheitsrelevanten Eigenschaften aus.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Das Übersetzungsverhältnis sagt nichts über alle sicherheitsrelevanten Eigenschaften aus.. Warum? Der Merksatz lautet: Das Übersetzungsverhältnis sagt nichts über alle sicherheitsrelevanten Eigenschaften aus.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+---
+
+Fachlich individuell vertiefte Unterrichtseinheit.
+
+Transformator als gekoppeltes System.
+
+Ein Transformator besteht in seiner einfachsten Modellform aus zwei Wicklungen, die über einen gemeinsamen magnetischen Fluss gekoppelt sind. An der Primärwicklung liegt eine zeitlich veränderliche Spannung; der dadurch entstehende zeitlich veränderliche magnetische Fluss induziert in der Sekundärwicklung eine Spannung. Die primäre elektrische Energie wird über das magnetische Feld auf die Sekundärseite übertragen. Ein Transformator wandelt keine Energie aus dem Nichts und besitzt keine mechanisch bewegten Teile, die für dieses Grundprinzip notwendig wären. Die Gleichspannung einer ideal konstanten Quelle erzeugt im stationären Zustand keine ständig wechselnde Flussverkettung. Deshalb darf eine für Wechselspannung ausgelegte Wicklung nicht einfach an eine beliebige Gleichspannungsquelle angeschlossen werden. Wir betrachten alle Zusammenhänge an theoretischen oder ungefährlichen, dafür vorgesehenen Schulmodellen, nicht durch Versuch an Netztransformatoren.
+
+Windungszahl und Spannung.
+
+Bei einem idealen Transformator entspricht das Verhältnis von Primär- zu Sekundärspannung dem Verhältnis der zugehörigen Windungszahlen. Hat die Primärseite eintausend Windungen und die Sekundärseite hundert Windungen, ist das Verhältnis zehn zu eins. Bei 230 Volt sinusförmiger Primärspannung entstehen idealisiert 23 Volt auf der Sekundärseite. Das Spannungsverhältnis gilt unter den festgelegten Modellannahmen und nicht als exakte Garantie für eine reale Sekundärklemmenspannung unter beliebiger Last. In realen Geräten spielen Wicklungswiderstände, Streufluss, Kernverhalten und Betriebszustand eine Rolle. Die Frequenz wird durch den Transformator nicht einfach in eine andere Frequenz umgewandelt. Zeichne deshalb in deine Skizze die Windungszahlen, Spannungsrichtungen, die gemeinsame magnetische Kopplung sowie die identische Grundfrequenz. Erst wenn diese Grössen sauber bezeichnet sind, stellst du die Gleichung um.
+
+Stromübersetzung im Idealmodell.
+
+Ein idealer verlustloser Transformator nimmt die gleiche Wirkleistung auf, die er sekundär abgibt. Für die idealisierten Beträge gilt U eins mal I eins gleich U zwei mal I zwei, wenn die dargestellten Leistungen unter passenden Lastannahmen verglichen werden. Wird eine Spannung beispielsweise um den Faktor zehn herabgesetzt, kann der Sekundärstrom bei gleicher übertragenen Leistung um den Faktor zehn grösser sein als der Primärstrom. Bei 230 Volt und einem Primärstrom von einem Ampere wären 23 Volt und zehn Ampere auf der Sekundärseite ein konsistenter idealer Zahlenfall. In der Praxis sind jedoch Wirkungsgrad, Leistungsfaktor, Temperaturgrenzen und Nennleistungen zu beachten. Eine niedrigere Spannung bedeutet ausdrücklich nicht, dass eine Quelle ungefährlich ist. Hohe verfügbare Ströme können thermische und mechanische Gefahren verursachen.
+
+Reale Verluste unterscheiden.
+
+Reale Transformatoren besitzen Verluste. In den Wicklungen entstehen ohmsche Verluste, die näherungsweise mit dem Quadrat des Stroms wachsen. Im magnetischen Kern treten unter anderem Hysterese- und Wirbelstromverluste auf. Streufluss und andere Effekte beeinflussen zusätzlich Spannung und Wirkungsgrad. Deshalb ist es sinnvoll, zwischen Leerlaufverlusten und belastungsabhängigen Verlusten zu unterscheiden. Bei sehr kleiner Last können die festen Kernverluste einen grossen Teil der aufgenommenen Leistung ausmachen. Bei hoher Last steigen die Kupferverluste stark an. Eine pauschale Aussage wie jeder Transformator hat immer 95 Prozent Wirkungsgrad ist daher fachlich unzulässig. Der tatsächliche Wert hängt von Bauart, Last, Frequenz, Temperatur und Messdefinition ab. Für eine Ausbildungsrechnung müssen die betreffenden Annahmen vor Beginn bekannt sein.
+
+Wirkungsgrad richtig berechnen.
+
+Der Wirkungsgrad ist die abgegebene Wirkleistung geteilt durch die aufgenommene Wirkleistung. Liefert ein Gerät 900 Watt Nutzleistung bei einer Eingangsleistung von 1000 Watt, beträgt der Wirkungsgrad 90 Prozent. Die Differenz von hundert Watt sind Verluste im gewählten Systemgrenzschnitt. Prüfe sorgfältig, ob die verwendeten Angaben Wirkleistung in Watt oder Scheinleistung in Voltampere sind. Bei Wechselstromverbrauchern lassen sich diese Grössen ohne Leistungsfaktor nicht einfach gleichsetzen. Eine weitere Übung: Ein Transformator gibt 480 Watt ab und weist insgesamt 20 Watt Verluste auf. Dann beträgt seine Eingangsleistung 500 Watt und sein Wirkungsgrad 96 Prozent. Die richtige Rechnung ergibt sich nicht aus 480 geteilt durch 20, sondern aus 480 geteilt durch 500. Notiere deine Systemgrenze neben dem Ergebnis.
+
+Spannungsfall unter Last.
+
+Im Leerlauf fliesst auf der Sekundärseite kein Nutzlaststrom. Unter Belastung beeinflussen Wicklungswiderstand und Streureaktanzen den Spannungsabfall zwischen innerer induzierter Spannung und den Klemmen. Bei einem fiktiven Transformator misst man im Leerlauf idealisiert 24,0 Volt und unter einer bestimmten Last 22,8 Volt. Der Spannungsrückgang beträgt 1,2 Volt beziehungsweise fünf Prozent des Leerlaufwerts. Dieser einfache relative Vergleich ersetzt noch keine normgerechte Spannungsregelung oder Bauteilspezifikation. Die Richtung und Grösse der Abweichung können bei verschiedenen Lastarten unterschiedlich sein. In der Dokumentation gehören daher Belastungsstrom, Leistungsfaktor, Eingangsspannung, Temperatur und Messstelle zu jeder Angabe. Ein nackter Wert «Sekundärspannung 23 Volt» ist ohne Betriebszustand unvollständig. Die Aufgabe bleibt hier eine Auswertung bereitgestellter Messdaten.
+
+Leerlaufstrom und Kernsättigung.
+
+Auch bei offenem Sekundärkreis kann eine reale Primärwicklung Strom aufnehmen. Er dient unter anderem zur Magnetisierung des Kerns und zur Deckung von Verlusten. Der Leerlaufstrom ist damit nicht notwendigerweise null. Bei zu hoher Spannung oder ungeeigneter Frequenz kann ein magnetischer Kern in einen ungünstigen Sättigungsbereich geraten. Der erforderliche Magnetisierungsstrom kann stark ansteigen. Darum sind Nennspannung und Nennfrequenz keine unverbindlichen Dekorationsangaben auf dem Typenschild. Ein für eine bestimmte Wechselspannung ausgelegtes Gerät darf nicht aufgrund einer einfachen Windungszahlrechnung beliebig betrieben werden. Erkläre auf Papier, weshalb das Spannungs-Frequenz-Verhältnis für den Magnetisierungszustand relevant sein kann. Der Zusammenhang lässt sich aus der induzierten Spannung und der zeitlichen Flussänderung nachvollziehen. Er ist keine Anleitung zum Überspannungsversuch.
+
+Galvanische Trennung richtig einordnen.
+
+Zwei Wicklungen können elektrisch voneinander isoliert sein und dennoch magnetisch Energie übertragen. Das bezeichnet man als galvanische Trennung zwischen den betreffenden Stromkreisen. Aber nicht jeder Transformator und nicht jede Ausgangsspannung bietet automatisch ein bestimmtes, für jede Anwendung ausreichendes Schutzniveau. Isolation, Schutztrennung, Schutzkleinspannung und die zugehörigen Installationsanforderungen sind getrennt zu beurteilen. Ein Autotransformator beispielsweise kann Wicklungsteile elektrisch gemeinsam nutzen und stellt dadurch im allgemeinen Fall keine galvanische Trennung zwischen Eingang und Ausgang bereit. Die Eignung als Schutzmassnahme hängt von konkreter Bauart, Kennzeichnung, Aufbau und geltenden Regeln ab. Für die theoretische Aufgabe vergleichst du einen Zweiwicklungs-Transformator mit einem Autotransformator in zwei klar gezeichneten Energiepfaden. Anschliessen oder öffnen darfst du für diese Aufgabe kein reales Netzgerät.
+
+Rechenkontrollen und Fallanalyse.
+
+Aufgabe eins: Ein idealer Transformator besitzt primär 800 und sekundär 80 Windungen. Bei 240 Volt primär entstehen rechnerisch 24 Volt sekundär. Aufgabe zwei: Bei 24 Volt und 120 Watt Ausgangsleistung beträgt der ideale Sekundärstrom fünf Ampere. Aufgabe drei: Bei 120 Watt Abgabe und 15 Watt Verlusten nimmt der reale Transformator 135 Watt auf; sein Wirkungsgrad beträgt rund 88,9 Prozent. Aufgabe vier: Ein Transformator mit 100 Voltampere Nennscheinleistung ist nicht automatisch für 100 Watt bei jedem Leistungsfaktor geeignet. Aufgabe fünf: Weshalb kann ein scheinbar unbelastetes Gerät trotzdem Energie aufnehmen? Wegen Magnetisierung und Verlusten. Aufgabe sechs: Was fehlt, um aus der Windungszahl eine sichere Installationsfreigabe abzuleiten? Unter anderem geprüfte Geräteausführung, Isolation, Schutzmassnahmen, Betriebsdaten und anwendbare Regeln. Erläutere bei jeder Aufgabe die Annahmen vor der Rechnung.
+
+Dimensionierung ist mehr als das Windungsverhältnis.
+
+Ein einfacher Schultransformator soll rechnerisch von 230 Volt auf 23 Volt übersetzen. Das Windungsverhältnis zehn zu eins sagt jedoch noch nicht, wie viel Strom die Sekundärseite dauerhaft liefern darf. Dazu müssten Nennscheinleistung, thermische Auslegung, Isolationssystem, Umgebungstemperatur, Kühlung und Betriebsart festgelegt werden. Ein fiktiver Transformator mit 46 Voltampere Nennscheinleistung könnte bei 23 Volt unter passenden Bedingungen rechnerisch zwei Ampere Nennstrom bereitstellen. Ein ähnlich übersetzender Transformator mit 230 Voltampere hätte rechnerisch zehn Ampere. Beide besitzen dieselbe Spannungsübersetzung, aber unterschiedliche Leistungsgrenzen. Verwechsle diese Modellwerte nicht mit einer realen Freigabe. Unter Last müssen beispielsweise sekundäre Klemmenspannung und Temperaturentwicklung geprüft werden. Diese Übung lehrt, die Nennleistung nicht aus der Wicklungszahl zu erfinden.
+
+Verlustleistung über die Zeit.
+
+Ein Transformator kann selbst dann Energie verbrauchen, wenn die angeschlossene Last nicht aktiv ist. Angenommen, ein fiktives Gerät hat zwei Watt konstante Leerlaufverlustleistung. Läuft es während 24 Stunden ohne Last, ergibt das 48 Wattstunden beziehungsweise 0,048 Kilowattstunden. Über dreissig Tage sind es 1,44 Kilowattstunden. Bei einem angenommenen Arbeitspreis von 0,30 Franken pro Kilowattstunde entstehen rechnerisch 0,432 Franken Energiekosten in diesem Zeitraum. Das ist eine reine Modellrechnung und keine Behauptung über ein bestimmtes Produkt oder einen aktuellen Stromtarif. Bei realen Geräten können Leerlaufaufnahme und Lastverluste variieren. Der Vergleich zeigt aber, dass Effizienz nicht allein bei voller Leistung betrachtet werden sollte. Beschreibe deshalb zwei sinnvolle Messzustände, mit denen Herstellerangaben zur Energieeffizienz überprüft werden könnten, ohne selbst am Netzgerät zu messen.
+
+Systemgrenzen eines Wirkungsgradvergleichs.
+
+Die Aussage ein Transformator hat neunzig Prozent Wirkungsgrad ist ohne Lastpunkt nur begrenzt aussagekräftig. Vergleiche zwei fiktive Betriebspunkte: Im ersten nimmt das Gerät hundert Watt auf und gibt neunzig Watt ab. Der Wirkungsgrad beträgt neunzig Prozent, die Verlustleistung zehn Watt. Im zweiten nimmt es fünfhundert Watt auf und gibt vierhundertfünfzig Watt ab. Der Wirkungsgrad bleibt ebenfalls neunzig Prozent, aber die Verlustleistung beträgt nun fünfzig Watt. Gleicher Wirkungsgrad bedeutet also nicht gleiche Verlustwärme. Frage dich ausserdem, ob Hilfsgeräte, Kühlung und Leistungselektronik Teil der betrachteten Systemgrenze sind. Für einen Vergleich muss der Messaufbau dieselbe Grenze verwenden. Vermerke in einem Protokoll Eingangswirkleistung, Ausgangswirkleistung, Betriebszustand und Temperatur. Erst danach sind Aussagen über reale Effizienzunterschiede sinnvoll.

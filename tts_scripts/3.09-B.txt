@@ -1,1 +1,116 @@
-Lektion 3.09-B: Aussenanlagen, Baustellen und Landwirtschaft. Aussenanlagen, temporäre Baustelleninstallationen und landwirtschaftliche Bereiche unterscheiden sich erheblich bei Feuchtigkeit, mechanischer Beanspruchung, Staub, Tieren und Nutzung. Geeignete Schutzarten und Schutzmassnahmen hängen von der tatsächlich erwartbaren Umgebung ab. Die N I N behandelt dazu besondere Anlagen und Betriebsstätten; pauschale Standardlösungen können unzulässig sein. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche drei fiktive Einsatzorte: überdachter Balkon, Baustellencontainer und Stall. Erstelle für jeden eine Liste der Umwelteinflüsse und die erforderlichen normativen Recherchen. Notiere auch, welche zusätzlichen Fachstellen möglicherweise einzubeziehen sind. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Stromversorgung in medizinisch genutzten Räumen (Überblick); Brandschutz und Fluchtwege. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: N I N Teil 7 (besondere Anlagen/Räume); Teil 4/5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+Lektion 3.09-B: Aussenanlagen, Baustellen und Landwirtschaft. Aussenanlagen, temporäre Baustelleninstallationen und landwirtschaftliche Bereiche unterscheiden sich erheblich bei Feuchtigkeit, mechanischer Beanspruchung, Staub, Tieren und Nutzung. Geeignete Schutzarten und Schutzmassnahmen hängen von der tatsächlich erwartbaren Umgebung ab. Die NIN behandelt dazu besondere Anlagen und Betriebsstätten; pauschale Standardlösungen können unzulässig sein. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Vergleiche drei fiktive Einsatzorte: überdachter Balkon, Baustellencontainer und Stall. Erstelle für jeden eine Liste der Umwelteinflüsse und die erforderlichen normativen Recherchen. Notiere auch, welche zusätzlichen Fachstellen möglicherweise einzubeziehen sind. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Stromversorgung in medizinisch genutzten Räumen (Überblick); Brandschutz und Fluchtwege. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teil 7 (besondere Anlagen/Räume); Teil 4/5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Stromversorgung in medizinisch genutzten Räumen (Überblick); Brandschutz und Fluchtwege.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Welche Grösse spielt bei Aussenbetriebsmitteln eine besondere Rolle?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Normstellen anhand fiktiver Räume identifizieren; Planprüfung ohne Montage. Halte zusätzlich die Antwort auf die Frage «Welche Grösse spielt bei Aussenbetriebsmitteln eine besondere Rolle?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welche Grösse spielt bei Aussenbetriebsmitteln eine besondere Rolle? Die richtige Antwort lautet: Umwelteinflüsse wie Feuchtigkeit und UV. Warum? «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung.. Warum? Der Merksatz lautet: «Aussen» ist keine hinreichend präzise technische Umgebungsbeschreibung.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigierte Fachvertiefung.
+
+Aussenbereich ist nicht gleich Innenraum.
+Ausseninstallationen sind Witterungseinflüssen wie Regen, UV-Strahlung, Frost, Temperaturwechsel und mechanischer Belastung ausgesetzt. Ein Gehäuse, das in einem trockenen Keller gut funktioniert, kann im Aussenbereich vorzeitig ausfallen. Für die Planung werden deshalb nicht nur Nennspannung und Strom, sondern Umgebung, Montagehöhe, Exposition, Reinigung und mögliche Überflutung betrachtet. Die Schutzart ist wichtig, beschreibt aber nicht sämtliche Umwelteinflüsse. Auch UV-Beständigkeit, Korrosion und die vorgesehene Leitungseinführung sind nach Herstellerangaben zu prüfen. Ein IP-Code allein ersetzt keine Umweltanalyse.
+
+
+Baustellen verändern sich täglich.
+Eine Baustelle hat keine dauerhaft gleichbleibende Nutzung: Leitungen werden verlegt, Wege ändern sich und Betriebsmittel werden transportiert. Deshalb reichen die Schutzüberlegungen eines stationären Raums nicht aus. Mobile Verteiler, Verlängerungsleitungen, Steckverbindungen und Arbeitsgeräte müssen für diesen Einsatz geeignet sein. Für den Unterricht wird eine Baustellenübersicht gezeichnet, in der Verkehrswege, Wasserstellen und provisorische Speisepunkte eingetragen sind. Anschliessend wird analysiert, wo Quetsch-, Stolper-, Nässe- und mechanische Risiken entstehen. Die eigentliche Anlage und deren Schutz sind durch die zuständigen Fachpersonen auszuführen und zu prüfen.
+
+
+Baustromverteiler als Schnittstelle.
+Ein Baustromverteiler bündelt Einspeisung, Schutzgeräte und verschiedene Abgänge. Seine Eignung hängt von Ausführung, Schutzart, Bemessungsdaten und den für Baustellen geltenden Anforderungen ab. Die aufgedruckte Stromstärke sagt noch nichts darüber aus, ob Verlängerungsleitungen, Stecker und angeschlossene Geräte passend sind. Ein praktischer Planungsfall enthält drei Abgänge: ein handgeführtes Gerät, eine provisorische Beleuchtung und einen Baukran. Die unterschiedliche Nutzung zeigt, weshalb Schutz- und Lastkonzept nicht durch eine einzige allgemeine Sicherungsgrösse erklärt werden können.
+
+
+Landwirtschaftliche Betriebe.
+Ställe und landwirtschaftliche Arbeitsräume bringen besondere Einflüsse mit sich: Feuchtigkeit, Reinigungswasser, Staub, aggressive Atmosphäre, Nagetiere und grosse metallische Strukturen. Tiere können bei bestimmten Fehlersituationen ebenfalls gefährdet sein. Eine fachliche Planung muss deshalb Raum- und Nutzungsart genauer bestimmen. Eine Verteilung ausserhalb des Stalls und ein Betriebsmittel direkt im Tierbereich sind nicht automatisch gleich zu behandeln. In der Ausbildung wird mit einem Stallgrundriss gearbeitet, der Wasserstellen, Reinigungszonen, Futtereinrichtungen und Leitungswege zeigt. Die konkreten zusätzlichen Schutzanforderungen kommen aus der geltenden NIN.
+
+
+Leitungslänge und Spannungsfall.
+Lange Leitungen auf einem Hof oder einer Baustelle können erhebliche Spannungsfälle verursachen. In einem vereinfachten einphasigen Kupfermodell gilt ΔU ≈ 2 · Länge · Strom · spezifischer Widerstand geteilt durch Querschnitt. Angenommen, eine Leitung ist 50 Meter lang, führt 10 Ampere und hat 2,5 Quadratmillimeter Leiterquerschnitt. Mit 0,0175 Ohm-Quadratmillimeter pro Meter ergibt sich ungefähr sieben Volt Spannungsfall. Das entspricht rund drei Prozent von 230 Volt. Dieser Näherungswert ersetzt weder die normgerechte Auslegung noch eine Bewertung des Abschaltverhaltens.
+
+
+Fehlerstrompfad im feuchten Boden.
+Nässe kann Widerstände und Berührbedingungen verändern, aber ein nasser Boden allein beschreibt keinen konkreten Fehlerstrom. Für eine Schutzbeurteilung muss der tatsächliche Stromweg im Netzsystem bekannt sein. Ein beschädigtes Handgerät in einer Pfütze ist deshalb nicht nur ein «Wasserproblem», sondern verbindet beschädigte Isolation, Umgebung, Schutzleiter, RCD und Schutzorganisation. Der Unterrichtsfall wird als Gefährdungsanalyse auf Papier bearbeitet. Niemand soll einen solchen Fehler nachstellen. Gerade an temporären Installationen sind sichere Prüfung und regelmässige Zustandskontrolle besonders wichtig.
+
+
+Erdverlegte Leitungen und spätere Arbeiten.
+Bei Leitungen im Erdreich treten zusätzliche Risiken durch Aushub, Setzungen, Tiere und eindringende Feuchtigkeit auf. Eine schlechte Dokumentation kann Jahre später zu Beschädigungen bei Garten- oder Bauarbeiten führen. Deshalb gehören Leitungsweg, Tiefenlage, markante Bezugspunkte und gegebenenfalls Schutzmassnahmen in die Revisionsunterlagen. Die exakten Anforderungen an Verlegung und Kennzeichnung sind aus den gültigen Regeln abzuleiten. Eine grobe Skizze «unter dem Rasen» ist als dauerhaftes Revisionsdokument ungeeignet. Das ist ein Beispiel dafür, wie Dokumentationsqualität das spätere Sicherheitsniveau beeinflusst.
+
+
+Mechanische Beanspruchung und Stecker.
+Steckverbindungen können durch Zug, Schmutz, Wasser und häufiges Kuppeln beschädigt werden. Auch geeignete Aussenstecker bleiben nur innerhalb ihrer vorgesehenen Einsatzbedingungen sicher. Beispielsweise kann eine Steckverbindung mit geöffneter Schutzkappe eine andere Schutzwirkung haben als im vollständig geschlossenen Zustand. Im Lernprojekt sollen Herstellerinformationen zu Schutzart, Gebrauchslage und Leitungseinführung verglichen werden. Die Beurteilung muss den tatsächlich verwendeten Zustand berücksichtigen: Betrieb, Reinigung, Transport und Lagerung stellen unterschiedliche Belastungen dar.
+
+
+Arbeitsorganisation und Zustandskontrollen.
+Provisorische Installationen müssen nicht nur einmal bei der Errichtung betrachtet werden. Nach Umbauten, mechanischen Ereignissen oder neuen Lasten ist zu prüfen, ob der dokumentierte Zustand noch stimmt. Ein Baustellenleiter kann sichtbare Mängel melden, doch die erforderlichen elektrischen Kontrollen sind Aufgabe der entsprechend befugten Personen. Die Unterrichtsübung trennt Sichtkontrolle ohne Eingriff, Mängelmeldung, fachliche Prüfung und Freigabe. Ein fehlender Deckel, eine gequetschte Leitung oder eine durch Wasser geschädigte Steckdose wird nicht durch blosses Einschalten als funktionsfähig bestätigt.
+
+
+Planungsprojekt «Hofplatz».
+Auf einem Hofplatz sollen eine Aussenleuchte, eine Torsteuerung und gelegentlich ein Reinigungsgerät betrieben werden. Erstelle eine Tabelle mit Betriebsort, Umweltbedingungen, Anschlussart, mechanischen Risiken, Lastdaten und noch fehlenden Angaben. Für die Torsteuerung müssen auch bewegte Teile und sicherheitsrelevante Funktionen abgegrenzt werden. Ein einfaches Bewegungsdiagramm ist nicht automatisch ein freigegebenes Sicherheitskonzept. Die gute Lösung erklärt, welche Planungsinformationen fehlen und welche Fachpersonen beziehungsweise Normen für die endgültige Auslegung erforderlich sind.
+
+Acht anwendungsorientierte Fallübungen mit Musterlösungen.
+
+Fall 1 – Verlängerungsleitung auf Baustelle.
+Eine provisorische Leitung führt über einen Fahrweg und wird regelmässig von Transportwagen überrollt. Die elektrische Funktion ist derzeit unauffällig. Die Musterlösung beschreibt das mechanische Risiko und die Notwendigkeit einer geeigneten Trassen- beziehungsweise Schutzplanung. Eine funktionierende Bohrmaschine am Leitungsende ist kein Nachweis für die unbeschädigte Isolation der Leitung. Die erkannte Gefährdung ist fachgerecht zu melden und zu beheben.
+
+
+Fall 2 – 50 Meter Leitungslänge.
+Für einen einphasigen Kupferkreis werden 50 Meter Leiterlänge, zehn Ampere und 2,5 Quadratmillimeter angenommen. Mit einem spezifischen Widerstand von 0,0175 Ohm-Quadratmillimeter pro Meter ergibt das modellhaft rund sieben Volt Spannungsfall. Die Lösung erklärt die doppelte Leitungslänge für Hin- und Rückleiter. Ob die Installation insgesamt zulässig ist, lässt sich daraus allein nicht ableiten; weitere Schutz- und Umgebungsbedingungen sind nötig.
+
+
+Fall 3 – Hofsteckdose nach Reinigung.
+Nach einer Hochdruckreinigung steht Wasser an einer Aussensteckdose. Die Lernlösung vergleicht vorgesehene Gebrauchslage, Gehäuse, Dichtungen und Umwelteinflüsse. Die Schutzart kann nur innerhalb der vom Hersteller definierten Bedingungen bewertet werden. Eine hoch eingestufte IP-Kennzeichnung macht eine beschädigte Dichtung oder geöffnete Schutzabdeckung nicht automatisch unproblematisch.
+
+
+Fall 4 – Stall mit Metallkonstruktion.
+Im Stall befinden sich leitfähige Geländer, Wasserinstallationen und elektrische Verbraucher. Die Musterlösung identifiziert mögliche gleichzeitig berührbare leitfähige Teile und verweist auf die besondere Schutzbetrachtung für landwirtschaftliche Betriebsstätten. Das Netzsystem, der Potenzialausgleich und die vorgesehenen Schutzorgane gehören gemeinsam betrachtet. Eine pauschale Aussage «Stall gleich normale Garage» greift zu kurz.
+
+
+Fall 5 – Baustromverteiler wird umgestellt.
+Ein Verteiler wird wegen Baufortschritt auf eine andere Ebene verschoben. Dabei ändern sich Leitungslängen, Verkehrswege und Steckverbindungen. Die bisherige Planung kann nicht ohne Prüfung unverändert gelten. Die Musterlösung fordert einen Abgleich von Lasten, mechanischen Risiken und Schutzkonzept. Jede Verlagerung eines provisorischen Verteilers ist kein rein logistischer Schritt, wenn elektrische Betriebsbedingungen betroffen sind.
+
+
+Fall 6 – Erdleitung und spätere Grabung.
+Ein Landschaftsbauer findet im alten Plan nur den Hinweis «Kabel unter Rasen». Die Lage ist nicht eindeutig. Die Musterlösung beschreibt, warum eine solche Dokumentation für spätere Erdarbeiten unzureichend ist. Notwendig sind sichere Klärung des tatsächlichen Verlaufs sowie ein aktualisierter Revisionsplan. Eigenmächtige Grabungen nach Augenmass können gefährliche Beschädigungen auslösen.
+
+
+Fall 7 – Korrosionsschaden am Aussenkasten.
+Ein Gehäuse im Aussenbereich zeigt korrodierte Schrauben und Feuchtigkeitsspuren. Der Lernende soll nicht nur die IP-Kennzeichnung prüfen, sondern auch Werkstoff, Montage, Wartung und tatsächliche Exposition. Die Musterlösung trennt sichtbare Befunde von einer allfälligen elektrischen Sicherheitsbeurteilung. Die Anlage darf nicht allein deshalb als in Ordnung gelten, weil der Laststromkreis noch arbeitet.
+
+
+Fall 8 – Landwirtschaftliche Torsteuerung.
+Eine Torsteuerung wird in einem staubigen Aussenbereich eingesetzt. Neben der elektrotechnischen Eignung sind bewegte Teile und Sicherheitsfunktionen zu berücksichtigen. Die Musterlösung trennt Steuerfunktion, Schutz gegen elektrische Einwirkungen und die sicherheitsgerichtete Maschinenauslegung. Ein einfacher Endschalter im Lernschema beweist nicht automatisch das erforderliche Sicherheitsniveau einer realen Toranlage.
+
+Zusätzliche Rechen- und Dokumentationsvertiefung.
+
+Aussenanwendung mit drei Lasten.
+Eine Aussenanlage enthält einen Beleuchtungskreis, eine Torsteuerung und eine Servicesteckdose. Die Lasten unterscheiden sich in Betriebsdauer, Einschaltverhalten und Umwelteinfluss. Der Lernende erstellt deshalb getrennte Zeilen mit Geräteleistung, Versorgungsart, Schutzbedarf und möglicher mechanischer Beanspruchung. Der Schutz gegen elektrische Fehler ist vom sicheren Bewegungsablauf des Tores zu unterscheiden. Für jede Zeile gehört zusätzlich ein offener Prüfpunkt in die Tabelle, etwa Herstellerfreigabe für UV-Einfluss oder die notwendigen besonderen Schutzmassnahmen. So wird die Planung nachvollziehbarer als mit dem Sammelbegriff «Aussenstrom».
+
+
+Spannungsfall gegen Abschaltverhalten.
+Bei langen Leitungslängen ist der Spannungsfall nur ein Teil der elektrischen Beurteilung. Auch Impedanz, Kurzschlussstrom und die mögliche Wirksamkeit der vorgesehenen Schutzeinrichtungen können betroffen sein. Verwende die Modellrechnung mit 50 Metern, zehn Ampere und 2,5 Quadratmillimetern als Ausgangspunkt. Erkläre, weshalb die rechnerischen sieben Volt nicht genügen, um eine reale Installation freizugeben. Es fehlen unter anderem konkrete Verlegebedingungen, tatsächliche Netzsystemdaten, Betriebs- und Fehlerstromannahmen sowie die normativen Anforderungen. Diese Übung verhindert die verbreitete Verkürzung «Spannungsfall passt, also ist alles sicher».
+
+Prüfungsgespräch und Lernabschluss.
+
+Lernkontrolle über Umgebungseinflüsse. Stelle drei Einsatzorte gegenüber: geschützter Hauswirtschaftsraum, freier Hofplatz und provisorische Baustelle. Vergleiche mechanische Belastung, Wasser, Temperatur, mögliche Leitungsbeschädigung und veränderliche Nutzung. Leite daraus ab, weshalb ein gleiches Betriebsmittel an allen drei Orten nicht automatisch gleich geeignet ist. Ergänze am Beispiel einer langen Kupferleitung die Unterscheidung zwischen Spannungsfallberechnung und Schutzprüfung. Ein korrekter Spannungsfall allein bestätigt weder die sichere Leitungsführung noch ein ausreichendes Abschaltverhalten. Gerade diese Trennung ist bei Aussen- und Baustellenanlagen besonders wichtig.

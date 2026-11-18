@@ -25,3 +25,85 @@ Nach einem Neubau fehlen Fotos, Armierungspläne und die Dokumentation der Erdan
 Musterlösung.
 
 Das ist ein gravierender Dokumentationsmangel. Die verantwortlichen Fachpersonen müssen klären, welche Nachweise nachträglich noch möglich sind und was nicht verifiziert werden kann.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Nach einem Neubau fehlen Fotos, Armierungspläne und die Dokumentation der Erdanschlüsse.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Das ist ein gravierender Dokumentationsmangel. Die verantwortlichen Fachpersonen müssen klären, welche Nachweise nachträglich noch möglich sind und was nicht verifiziert werden kann.
+
+Möglicher sicherer Übungsauftrag: Schreibe eine Übergabekarte für eine fiktive Erdungsanlage: Material, Geometrie, Verbindungen, Prüfumfang, Abnahme.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Ersetzt ein guter Anfangsmesswert die Dauerhaftigkeitsprüfung? Die richtige Antwort lautet: Nein. Warum? Korrosion und mechanische Dauerhaftigkeit benötigen eigene Betrachtung.
+
+Frage 2: Warum ist die Vor-Betonage-Dokumentation wertvoll? Die richtige Antwort lautet: Verdeckte Arbeiten werden nachvollziehbar. Warum? Später verdeckte Details lassen sich nachweisen.
+
+Frage 3: Worauf zielt die Materialauswahl? Die richtige Antwort lautet: Dauerhaft geeignete Verbindungen. Warum? Werkstoffwahl ist Teil der Langzeitfunktion.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Erder als langfristiges Bauteil.
+Ein Erder lässt sich nach Fertigstellung oft nicht mehr ohne erhebliche Eingriffe sehen. Seine Aufgabe erschöpft sich deshalb nicht darin, bei einer kurzen Messung einen bestimmten Zahlenwert zu liefern. Planer und ausführende Fachpersonen müssen voraussehen, was mit Werkstoff, Kontaktstellen und umgebendem Erdreich in zwanzig oder dreissig Jahren geschieht. Zu einer Abnahme gehört zunächst ein klares Bestandsbild: Wo liegen die Elektroden, welche Werkstoffe wurden verwendet, wie sind Anschlusspunkte erreichbar, und welche Teile werden später überdeckt? Trenne hierbei die elektrische Funktion von der mechanischen Beständigkeit. Ein heute niederohmiger Kontakt kann morgen durch eine lockere Verschraubung, Schmutz oder Korrosionsprodukte problematisch werden. Umgekehrt beweist ein sauber gezeichneter Plan noch keine gute Verbindung. Der Lernauftrag besteht darin, beide Ebenen gemeinsam zu beurteilen.
+
+Fachkapitel 2: Galvanische Korrosion verständlich machen.
+Treffen unterschiedliche Metalle in einer feuchten, leitfähigen Umgebung zusammen, können elektrochemische Prozesse die weniger beständige Verbindung angreifen. Wie stark das geschieht, hängt nicht nur von der Metallpaarung, sondern auch von Feuchtigkeit, Salzgehalt, Sauerstoffangebot und geometrischer Anordnung ab. Gerade Übergänge zwischen im Beton liegenden Bauteilen, Erdreich und oberirdischen Anschlussstellen verdienen Aufmerksamkeit. Eine optisch silbrig glänzende Verbindung ist kein Materialnachweis. Im Planungsfall wird daher jede Werkstoffkombination mit der tatsächlichen Umgebung verglichen. Dokumentiere nicht bloss „korrosionsgeschützt“, sondern das konkrete Material, das Verbindungssystem und die Herstellerfreigabe für den Einsatzort. Normen und projektspezifische Korrosionsbedingungen sind im Original abzugleichen. Die Lektion liefert die physikalische Begründung, nicht eine pauschale Materialempfehlung für jede Baustelle.
+
+Fachkapitel 3: Kontaktwiderstand und Wärme.
+Jeder Übergang besitzt einen elektrischen Widerstand. Bei normalen Schutzleiterprüfungen können kleine Widerstände unspektakulär wirken; bei hohen Impuls- oder Fehlerströmen entstehen daraus jedoch zusätzliche Spannungsabfälle und thermische Beanspruchung. Das Modell U = I mal R zeigt den Zusammenhang. Bei einem angenommenen Übergangswiderstand von 0,02 Ohm und einem Prüfstrom von 10 Ampere ergibt sich ein Spannungsabfall von 0,2 Volt. Bei einem Fehlerstrom von 100 Ampere wären es rechnerisch 2 Volt. Diese einfache Hochrechnung ist keine reale Blitzstromsimulation: Impulsverhalten, Induktivität und Stromverteilung unterscheiden sich. Sie zeigt aber, warum Verbindungsgüte, Kontaktfläche und mechanische Sicherung bereits in der Montageplanung relevant sind. Ein einzelner Messwert ersetzt weder Sichtkontrolle noch Material- und Einbaunachweis.
+
+Fachkapitel 4: Verbindungen unter Beton und im Erdreich.
+Besonders kritisch sind Verbindungsstellen, die nach dem Betonieren oder Verfüllen nicht mehr sichtbar sind. Die spätere Kontrollperson kann nur die vorhandenen Unterlagen und zugänglichen Prüfpunkte beurteilen. Deshalb muss der Prüf- und Fotoplan zeitlich vor den verdeckenden Arbeiten festgelegt werden. Für jeden Abschnitt gehören eine eindeutige Ortsangabe, ein Foto mit erkennbarem Massstab, die Verbindungstype und die zugehörige Positionsnummer in die Unterlagen. Bei einem Erder im Fundament genügt eine Aufnahme des fertigen Betons nicht. Auf einer zweiten Baustelle mit einer wasserundurchlässigen Konstruktion kann ein anderes Konzept nötig sein als beim klassischen Fundamenterder. Die zuständige Elektroplanung muss deshalb früh mit Tragwerksplanung und Abdichtungsgewerk abgestimmt werden.
+
+Fachkapitel 5: Sichtprüfung vor Messung.
+Eine Messung beantwortet nur die Frage, die das Messverfahren tatsächlich abbildet. Eine Sichtprüfung kann dagegen Befestigungsfehler, falsche Werkstoffe, beschädigte Schutzhüllen, fehlende Kennzeichnungen oder nicht zugängliche Prüfklemmen aufdecken. Für die Abnahme lautet die sinnvolle Reihenfolge deshalb: zuerst die Unterlagen mit dem eingebauten Zustand vergleichen, die frei zugänglichen Teile besichtigen und Abweichungen erfassen; erst danach das Messkonzept mit einer dazu berechtigten Fachperson ausführen. Wurde ein Anschlusspunkt nachträglich versetzt, reicht es nicht, den alten Plan mit einem handschriftlichen Haken zu versehen. Der tatsächlich eingebaute Verlauf muss eindeutig nachgeführt werden. Der Sicherheitsnachweis ist nur so belastbar wie seine Zuordnung zur realen Ausführung.
+
+Fachkapitel 6: Warum ein einzelner Erdungswiderstand nicht genügt.
+Der gemessene Erdungswiderstand hängt vom Messverfahren, von der Netz- und Erdungsstruktur, von parallelen Verbindungen sowie vom Boden und dessen Feuchte ab. Ein niedriger Wert kann teilweise auf anderen metallischen Wegen beruhen. Das ist keine Aussage über die Qualität einer verdeckten Verbindung. Im Lernmodell werden deshalb drei Nachweisklassen unterschieden: Werkstoff- und Montagebelege, Prüfungen der elektrischen Durchgängigkeit sowie standortgerechte Messungen des Erdungssystems. Für jedes Verfahren ist zu dokumentieren, welches Objekt geprüft wurde und welche Grenzen das Verfahren hat. Die pauschale Aussage „Erde gut“ ist fachlich zu schwach. Ein professionelles Protokoll benennt Messaufbau, Randbedingungen, Messmittel, geprüfte Strecke und Unterschrift der verantwortlichen Person.
+
+Fachkapitel 7: Schnittstellen zwischen Gewerken.
+Ein Erder betrifft häufig mehrere Beteiligte: Elektroplanerin, Installationsbetrieb, Baumeister, Abdichtungsfirma, Metallbauer und gegebenenfalls Blitzschutzfachperson. Jede Schnittstelle erzeugt typische Informationsverluste. Wer überprüft beispielsweise, dass die bestellten Anschlussfahnen zur vorgesehenen Abdichtung passen? Wer gibt die Lage der Prüfstelle vor dem Betonieren frei? Wer dokumentiert die spätere Anbindung des Schutzpotenzialausgleichs? Die Lösung ist eine kleine Verantwortungsmatrix, nicht ein unverbindlicher Hinweis im Protokoll. Zu jedem Arbeitsschritt gehört eine zuständige Person, ein Zeitpunkt und ein ablieferbares Belegdokument. Damit wird aus einer abstrakten Normenforderung eine überprüfbare Projektleistung. Das Prinzip lässt sich auf jede verdeckte elektrische Bauleistung übertragen.
+
+Fachkapitel 8: Abweichung und Nachbesserung.
+In einem Beispiel fehlt die Fotodokumentation einer eingebetteten Verbindung. Daraus folgt nicht automatisch, dass die Verbindung mangelhaft ist; ebenso wenig darf ihre Qualität einfach als gesichert gelten. Zuerst wird festgestellt, welche anderen Unterlagen existieren, welche Prüfungen noch möglich sind und ob die geplanten Anforderungen dadurch ausreichend nachgewiesen werden können. Fehlende Informationen sind als offene Abweichung zu erfassen. Anschliessend entscheidet die fachlich verantwortliche Stelle, ob ergänzende Prüfungen, bauliche Freilegung oder eine andere Massnahme nötig sind. Wichtig ist die saubere Trennung zwischen festgestelltem Zustand und vorgeschlagener Lösung. Die Lernkontrolle verlangt ausdrücklich, einen nicht nachgewiesenen Punkt auch als nicht nachgewiesen zu bezeichnen.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Foto ohne Ortsbezug.
+Auf einer Baustelle liegen fünf Bilder von Erdungsverbindungen vor, doch keines zeigt Geschoss, Achse oder Anschlussnummer. Prüfe, ob diese Unterlage zur Abnahme genügt. Musterlösung: Die Bilder belegen zwar, dass Verbindungen fotografiert wurden, nicht aber ihre eindeutige Zuordnung. Verlange einen revidierten Lageplan und eine Zuordnung der Aufnahmen; falls diese nicht rekonstruiert werden kann, ist die fehlende Nachweisbarkeit als Abweichung zu behandeln.
+
+Fall 2: Zwei Werkstoffe.
+Ein im Beton verlaufendes Metallband geht an einer bodennahen Stelle in einen anderen Werkstoff über. Formuliere drei Prüffragen. Lösung: Sind beide Werkstoffe für die tatsächliche Umgebung geeignet? Ist die Verbindung als System dafür freigegeben? Wie wird die Kontaktstelle vor Korrosion geschützt und später kontrolliert? Ohne Materialdatenblatt und Einbauumgebung wäre eine konkrete Werkstofffreigabe nicht begründbar.
+
+Fall 3: Kontaktwiderstand vergleichen.
+Eine Verbindung A hat modellhaft 0,01 Ohm, Verbindung B 0,08 Ohm. Berechne für 5 Ampere die Spannungsabfälle: 0,05 Volt und 0,4 Volt. Die achtfache Differenz weist auf unterschiedliche Übergangsbedingungen hin, ist aber für sich noch kein normativer Bestehen/Nichtbestehen-Entscheid. Erkläre, welche Messunsicherheit, Leitungsanteile und Anschlussbedingungen für einen aussagekräftigen Vergleich dokumentiert sein müssten.
+
+Fall 4: Verdeckte Stelle vor Betonage.
+Der Bauleiter will in einer Stunde betonieren; die dokumentationspflichtigen Erdungsstellen sind noch nicht fotografiert. Entscheide das Vorgehen. Musterbegründung: Vor dem Verdecken braucht es die vereinbarte Kontrolle und Freigabe durch die zuständigen Stellen. Es ist organisatorisch unzulässig, fehlende Nachweise mit einem späteren allgemeinen Messwert zu ersetzen. Dokumentiere die Terminabweichung und stelle die erforderliche Besichtigung sicher.
+
+Fall 5: Messwert nach Trockenperiode.
+Zwei Messungen desselben Erders unterscheiden sich zu verschiedenen Jahreszeiten. Erkläre die möglichen Ursachen, ohne sofort einen Defekt zu behaupten. Lösung: Bodenfeuchte, Temperatur, Messanordnung, elektrische Parallelpfade und verwendetes Messverfahren sind zu vergleichen. Erst eine dokumentierte Wiederholungsmessung unter nachvollziehbaren Bedingungen und ein Vergleich mit den Originalanforderungen erlauben eine Bewertung.
+
+Fall 6: Bestandsdossier übergeben.
+Entwirf die Gliederung einer Übergabemappe: Lageplan mit Revisionsstand, Material- und Herstellerbelege, Verbindungsnachweise, Bauphasenfotos, Prüfprotokolle, offene Abweichungen und erreichbare Prüfpunkte. Begründe, warum es bei späteren Dachumbauten oder PV-Ergänzungen wichtig ist, die Erdungsanlage und den Blitzschutz nicht als isolierte Einzelgewerke zu betrachten.
+
+Fall 7: Materialbeleg trotz gutem Messwert.
+Die elektrische Durchgängigkeit einer neuen Erderverbindung ist im Übergabeprotokoll als gut beschrieben, aber die Materialwahl am Übergang von Beton zu Erdreich ist unbekannt. Entscheide, ob das allein genügt. Musterbegründung: Der elektrische Zustand zum Messzeitpunkt und die Dauerhaftigkeit der verwendeten Werkstoffe sind unterschiedliche Nachweise. Ein tiefer Übergangswiderstand sagt nicht aus, ob eine galvanisch ungünstige Materialpaarung in feuchtem Boden langfristig beständig bleibt. Fordere Werkstoffangaben und die Eignungsbestätigung des Verbindungssystems sowie eine eindeutige Einbauposition. Ohne diese Daten bleibt die Material- und Korrosionsbewertung offen. Die Messung darf als vorhandener Befund dokumentiert werden, aber nicht zur pauschalen Langzeitfreigabe umgedeutet werden.
+
+Fall 8: Sanierung einer Altanlage.
+In einem sechzig Jahre alten Gebäude werden eine neue Hauptverteilung und ein PV-Wechselrichter installiert. Der Verlauf des bestehenden Erders ist nur teilweise bekannt. Entwickle einen Abklärungsplan ohne unberechtigte Eingriffe: vorhandene Revisionspläne, zugängliche Anschlusspunkte, erkennbare Werkstoffübergänge, Schutzpotenzialausgleich und früher dokumentierte Prüfungen erfassen. Dann wird der Bedarf an ergänzenden fachkundigen Prüfungen und gegebenenfalls baulichen Massnahmen beurteilt. Ein Foto des sichtbaren Bandes beweist weder den ganzen Verlauf noch die Langzeitqualität. Begründe, weshalb die spätere PV-Anbindung nicht als eigenständige Erdungslösung geplant werden darf, ohne das gesamte Schutzkonzept zu bewerten. Halte die offenen Punkte in einer fachlichen Risikoliste fest.
+
+Fall 9: Abnahme nach Planänderung.
+Eine Anschlussfahne sollte laut Plan an einer Aussenwand liegen, wurde während des Rohbaus aber in einen Technikschacht verlegt. Prüfe die Folgen. Es geht um Zugänglichkeit, Korrosionsschutz, Anschlussmöglichkeit und eindeutige Wiederauffindbarkeit. Das Revisionsdokument muss die tatsächliche Lage mit Bezugsmassen angeben; zudem sind Fotos und die neue Anschlussbeschreibung zu ergänzen. Falls der neue Standort die vorgesehene Prüfbarkeit verschlechtert, ist eine fachliche Nachbeurteilung nötig. Die Lerneinheit bewertet nicht, ob die neue Position optisch besser aussieht, sondern ob der erforderliche spätere Betrieb und Nachweis erhalten bleiben. Eine undokumentierte Abweichung wäre in jedem Fall problematisch.
+
+Fall 10: Erder und Blitzschutz gemeinsam betrachten.
+Nach einer Dachsanierung erhält das Gebäude eine veränderte Fangeinrichtung. Die Erdungsunterlagen stammen noch aus dem Neubau. Welche Schnittstellen müssen erneut betrachtet werden? Das vorhandene Blitzschutzkonzept, Verbindungen zur Erdungsanlage, Schutzpotenzialausgleich, Überspannungsschutz, neue leitfähige Dachaufbauten und das aktuelle Revisionsdossier. Die Aussage „Erder wurde einmal geprüft“ reicht nicht für die Beurteilung einer geänderten Gesamtanlage. Formuliere drei Fragen für die zuständige Blitzschutzfachperson und eine Dokumentenanforderung an die ausführenden Unternehmen. Das Ergebnis soll eine nachvollziehbare Koordination ermöglichen, ohne konkrete Blitzschutzabstände oder Materialwerte ohne Originalnorm festzulegen.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

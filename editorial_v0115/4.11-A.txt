@@ -1,0 +1,95 @@
+Lektion 4.11-A: Schriftliche Prüfung: Mathematik und Elektrotechnik. Das schriftliche Qualifikationsverfahren verlangt neben Rechnen auch Fachbeurteilung und sichere Normenorientierung. Wer nur Formeln auswendig lernt, scheitert an veränderten Aufgabentexten. Die Prüfungsvorbereitung sollte daher Rechenweg, Einheitenkontrolle, Plausibilisierung und Fehleranalyse trainieren. Die genaue Struktur und Hilfsmittelregelung bestimmt das gültige QV-Aufgebot. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Stelle zwanzig eigene Aufgaben zusammen: Ohmsches Gesetz, Energie, Leistungsfaktor, RLC, Drehstrom, Transformator und Spannungsfallmodell. Begrenze die Bearbeitungszeit und kontrolliere nicht nur das Endresultat, sondern auch Zwischenschritte und Einheiten. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Die richtige Einheit ist Teil einer richtigen Berechnung. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Normenkunde unter Zeitdruck; Schaltplan und Installationsplan. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: BiVo2015 Wegleitung QV und EIT BK-Musterserien. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Normenkunde unter Zeitdruck; Schaltplan und Installationsplan.
+
+Wir gehen eine fachliche Entscheidung schrittweise durch. Ausgangsfrage: Was gehört zu einer belastbaren schriftlichen Rechnung?
+
+Erstens: Was ist sicher bekannt und was ist lediglich eine Annahme? Zweitens: Welche Begriffe oder Wirkzusammenhänge aus dieser Lektion helfen bei der Entscheidung?
+
+Drittens: Begründe Deine Antwort. Die richtige Einheit ist Teil einer richtigen Berechnung.
+
+Viertens: Wo sind die Grenzen dieses Lernbeispiels? Welche Herstellerangaben, aktuellen Fachregeln oder fachlichen Nachweise wären bei einem realen Auftrag zusätzlich nötig?
+
+Übungsauftrag zur Anwendung: Eine beaufsichtigte 6-stündige Eigenprüfung in zwei Blöcken; Hilfsmittel wie im aktuellen QV-Aufgebot. Halte zusätzlich die Antwort auf die Frage «Was gehört zu einer belastbaren schriftlichen Rechnung?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was gehört zu einer belastbaren schriftlichen Rechnung? Die richtige Antwort lautet: Rechenweg, Einheit und Plausibilitätsprüfung. Warum? Die richtige Einheit ist Teil einer richtigen Berechnung.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Die richtige Einheit ist Teil einer richtigen Berechnung.. Warum? Der Merksatz lautet: Die richtige Einheit ist Teil einer richtigen Berechnung.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung.
+
+
+Fachkapitel 1: Gleichungen sauber aus einem Text entwickeln.
+In schriftlichen Prüfungen wird die Schwierigkeit häufig nicht durch komplizierte Mathematik erzeugt, sondern durch fehlende Struktur. Markiere zuerst alle gegebenen Grössen, ihre Einheiten und die gesuchte Grösse. Schreibe die physikalisch passende Gleichung hin und stelle sie vor dem Einsetzen nach der Unbekannten um. Beispiel: Eine 24-Volt-Lampe nimmt 36 Watt auf. Der Strom ist I = P/U = 1,5 Ampere. Erst danach darf der Widerstand R = U/I = 16 Ohm als Modellgrösse berechnet werden. Bei temperaturabhängigen oder nichtohmschen Verbrauchern ist dieser Arbeitspunkt kein allgemein konstanter Materialwiderstand. Ein Prüfungsresultat wird stärker, wenn diese Annahme ausdrücklich genannt ist.
+
+Fachkapitel 2: Leistung und Energie nicht verwechseln.
+Ein Verbraucher mit 1,8 Kilowatt Leistung läuft täglich 35 Minuten. Der tägliche Energiebedarf beträgt 1,8 mal 35/60, also 1,05 Kilowattstunden. Bei 240 Betriebstagen ergibt das 252 Kilowattstunden pro Jahr. Bei einem angenommenen Tarif von 0,28 Franken je Kilowattstunde entstehen 70,56 Franken reine Energiebezugskosten ohne weitere Preisbestandteile. Typische Fehler sind die Angabe von Kilowatt statt Kilowattstunden oder die Verwendung von 35 statt 35/60 Stunden. In einer Prüfung sollte der Wechsel der Zeiteinheit vor der Multiplikation sichtbar sein. Vergleiche das Ergebnis mit einem alltäglichen Verbrauch, um die Grössenordnung zu prüfen.
+
+Fachkapitel 3: Wirkungsgrad mit einer Leistungskette.
+Ein Antrieb benötigt an der Welle 750 Watt mechanische Leistung. Angenommen, der Motor hat einen Wirkungsgrad von 80 Prozent und die speisende Elektronik weitere 95 Prozent. Dann sind am Motoreingang 750/0,8 = 937,5 Watt und vor der Elektronik 937,5/0,95 ≈ 986,8 Watt erforderlich. Der Gesamtwirkungsgrad ist 0,8 mal 0,95 = 0,76. Die Verluste verteilen sich auf verschiedene Bauteile und dürfen nicht pauschal als identischer Wert angesetzt werden. Diese Übung trainiert gleichzeitig eine Plausibilitätskontrolle: Die elektrische Eingangsleistung muss bei realen Verlusten grösser sein als die abgegebene mechanische Leistung. Ein Wert unterhalb der Ausgangsleistung wäre hier unphysikalisch.
+
+Fachkapitel 4: Sinusgrössen und komplexe Impedanzen.
+Bei Wechselstrom muss erkennbar sein, ob Effektivwert, Spitzenwert oder Momentanwert gemeint ist. Für eine reine sinusförmige Spannung gilt U-Spitze = √2 mal U-effektiv. Bei 24 Volt effektiv sind das ungefähr 33,94 Volt Spitze. Für einen Serien-RL-Zweig mit R = 30 Ohm und induktivem Blindwiderstand X_L = 40 Ohm beträgt der Betrag der Impedanz √(30² + 40²) = 50 Ohm. Bei 100 Volt effektiv ergibt sich ein Strombetrag von 2 Ampere. Der Leistungsfaktor ist 30/50 = 0,6. Diese drei Rechnungen hängen logisch zusammen und dürfen nicht mit Gleichstromformeln vermischt werden. Der Phasenwinkel und die Spannungslage sind für die vollständige Beschreibung ebenfalls relevant.
+
+Fachkapitel 5: Drehstrom und Modellannahmen.
+Eine symmetrische dreiphasige Last wird mit Leiterspannung 400 Volt, Leiterstrom 8 Ampere und Leistungsfaktor 0,85 angenommen. Dann beträgt die Wirkleistung P = √3 · 400 · 8 · 0,85 ≈ 4 711 Watt. Die Gleichung setzt ein symmetrisches und hinreichend sinusförmiges Modell voraus. Bei einphasigen oder stark unsymmetrischen Verbrauchern müssen die Strangleistungen einzeln untersucht werden. Schreibe diese Voraussetzung neben die Rechnung. Die Begriffe Strangspannung, Leiterspannung, Strangstrom und Leiterstrom sind bei Stern- und Dreieckschaltung nicht ohne Weiteres austauschbar. Eine kurze Skizze verhindert hier viele vermeidbare Punktverluste.
+
+Fachkapitel 6: Spannungsfall als offenes Rechenmodell.
+Für einen einfachen einphasigen Zweileiterkreis kann der ohmsche Spannungsfall im vereinfachten Gleichstrommodell mit ΔU = 2·L·I·ρ/A abgeschätzt werden. Bei L = 20 Meter einfacher Leitungslänge, 10 Ampere, Kupferwiderstandsbeiwert 0,0178 Ohm-Millimeterquadrat pro Meter und Querschnitt 2,5 Quadratmillimeter ergibt sich etwa 2,85 Volt. Bezogen auf 230 Volt sind das rund 1,24 Prozent. Für reale Wechselstromanlagen müssen Temperatur, Leitungsreaktanz, Verlegeart, Betriebsbedingungen und die massgebenden Anforderungen berücksichtigt werden. Das Rechenergebnis ist ein Lernmodell und kein freigegebener Kabelquerschnitt. In der Prüfung zählen die korrekte Formelzuordnung, die Distanzdefinition und die bewusste Grenze des Modells.
+
+Fachkapitel 7: Transformatorübersetzung und Belastung.
+Ein idealisiertes Transformatorbeispiel besitzt primär 1 000 Windungen, sekundär 100 Windungen und 230 Volt Eingangsspannung. Die Ausgangsspannung beträgt im idealen Leerlaufmodell 23 Volt. Nimmt die Sekundärlast 2 Ampere auf, sind das 46 VA Scheinleistung; primär wären ideal ungefähr 0,2 Ampere zu erwarten. Reale Verluste und Magnetisierungsstrom bleiben in dieser Skizze unberücksichtigt. Ein häufiger Rechenfehler ist, eine zehnfach tiefere Spannung mit zehnfach kleinerem Strom zu kombinieren: Dadurch würde ohne Grundlage Energie verschwinden. Die ideale Umwandlung erhält die Leistung näherungsweise. Ein guter Kandidat schreibt «ideales Modell» explizit über seine Berechnung.
+
+Fachkapitel 8: Plausibilisieren unter Prüfungsbedingungen.
+Verwende nach jeder Aufgabe drei kurze Kontrollen. Erstens die Dimension: Ergibt P = U·I tatsächlich Watt? Zweitens die Grössenordnung: Kann ein 12-Volt-LED-Verbraucher realistisch 2 000 Ampere ziehen, oder ist ein Dezimalfehler passiert? Drittens die Grenzbetrachtung: Wenn der Widerstand bei gleicher Spannung steigt, muss der Strom sinken. Diese Checks benötigen wenig Zeit und verhindern grobe Fehler. Rechne kritische Zwischenschritte notfalls auf zwei Wegen nach. Ein Taschenrechner ersetzt das Fachverständnis nicht; er zeigt nur das Ergebnis des eingegebenen Ausdrucks. Eine saubere Einheitenspalte ist deshalb wertvoller als zehn hastig eingegebene Dezimalstellen.
+
+Anwendungsfälle und ausführliche Musterbegründungen.
+
+
+Fall 1: Verbrauchskosten.
+Ein Heizgerät mit 1,2 Kilowatt läuft 45 Minuten pro Tag an 200 Tagen. Lösung: 0,75 Stunden mal 1,2 Kilowatt = 0,90 Kilowattstunden pro Tag und 180 Kilowattstunden pro Jahr. Bei angenommenen 0,30 Franken je Kilowattstunde entstehen 54 Franken Energiebezugskosten. Ergänze, dass Tarifbestandteile hier bewusst nicht modelliert wurden.
+
+Fall 2: RL-Dreieck.
+Ein RL-Zweig besitzt R = 12 Ohm und X_L = 16 Ohm. Betrag der Impedanz: √(144 + 256) = 20 Ohm. Bei 60 Volt effektiv fliesst ein Strom von 3 Ampere. Der Leistungsfaktor beträgt 12/20 = 0,6 und die Wirkleistung 60 · 3 · 0,6 = 108 Watt. Prüfe die Einheit jeder Stufe.
+
+Fall 3: Einheitenfehler entdecken.
+Ein Lehrling setzt für drei Viertelstunden den Zahlenwert 45 in E = P·t ein und nennt 90 Kilowattstunden für eine 2-Kilowatt-Last. Lösung: 45 Minuten entsprechen 0,75 Stunden. Die korrekte Energie ist 1,5 Kilowattstunden. Der Faktor 60 stammt ausschliesslich aus der Zeitumrechnung.
+
+Fall 4: Wirkungsgrad umkehren.
+Eine Maschine liefert 3 Kilowatt mechanisch bei 75 Prozent Wirkungsgrad. Gesucht ist die elektrische Eingangsleistung. Lösung: 3/0,75 = 4 Kilowatt. Vier Kilowatt mal 0,75 ergibt drei Kilowatt und ist somit die direkte Rückprobe.
+
+Fall 5: Drehstromformel hinterfragen.
+Eine dreiphasige Anlage besitzt auf L1, L2 und L3 sehr verschiedene Einzelverbraucher. Darf P = √3·U·I·cosφ mit einem einzigen Stromwert genutzt werden? Lösung: Nur unter passenden Annahmen. Für die unsymmetrische Last werden die Einzelströme, Leistungsfaktoren und Leistungen je Strang benötigt.
+
+Fall 6: Schriftliche Bewertung.
+Eine Berechnung enthält das richtige Resultat, aber keine Einheiten und keine Umformung. Ordne den Befund getrennt ein: fachlicher Endwert, Nachvollziehbarkeit und Prüfungsvorgaben. Lösung: Die Aufgabe ist nicht vollständig dokumentiert. Ein korrektes Resultat allein zeigt noch keinen sicheren Rechenweg.
+
+Vertiefter Praxisfall 1: Widerstand und Verlustleistung.
+Ein Kabel wird in einem Modell als Widerstand von 0,4 Ohm betrachtet. Fliessen zehn Ampere, entstehen P = I²R = 100 · 0,4 = 40 Watt Verlustleistung in der betrachteten Strecke. Wenn der Strom bei gleichem Widerstand auf fünf Ampere sinkt, beträgt die Verlustleistung nur noch zehn Watt. Der Zusammenhang ist quadratisch. Daraus darf allerdings keine reale Kabelerwärmung bestimmt werden, ohne Wärmeabfuhr, Umgebung und Verlegung zu berücksichtigen. Ein schriftliches Lösungsblatt zeigt zuerst die Gleichung, dann die Einsetzung und zuletzt den Vergleich. Die Rückprobe illustriert, warum der Strom eine zentrale Grösse für thermische Belastungen ist.
+
+Vertiefter Praxisfall 2: Kondensator im Wechselstrom.
+Für einen idealen Kondensator gilt X_C = 1/(2πfC). Ein Modellkondensator von 100 Mikrofarad an einer Frequenz von 50 Hertz besitzt einen kapazitiven Blindwiderstand von ungefähr 31,8 Ohm. Bei 20 Volt Effektivspannung beträgt der ideale Strombetrag etwa 0,63 Ampere. Diese Rechnung gilt nicht für eine beliebige Gleichspannungsversorgung, und reale Kondensatoren haben Verluste sowie Spannungs- und Stromgrenzen. Die Aufgabe verlangt die korrekte Umrechnung von Mikrofarad in Farad: 100 Mikrofarad sind 0,0001 Farad. Fehler an dieser Stelle verändern das Resultat um Grössenordnungen. Auch dies kann durch eine Einheitentabelle abgefangen werden.
+
+Vertiefter Praxisfall 3: Wirkleistung eines RL-Verbrauchers.
+Bei 230 Volt Effektivspannung und zwei Ampere Effektivstrom beträgt die Scheinleistung 460 Voltampere. Ist der Leistungsfaktor cosφ gleich 0,75, folgt eine Wirkleistung von 345 Watt. Die verbleibende Blindleistung beträgt im sinusförmigen Modell √(460² − 345²) ≈ 304 Var. Der Wert zeigt, dass die Scheinleistung nicht mit der Wirkleistung identisch ist. Für verzerrte Ströme sind die Verhältnisse komplexer und ein einfacher cosφ-Wert kann nicht sämtliche Erscheinungen erklären. Die schriftliche Aufgabe sollte deshalb ausdrücklich zwischen sinusförmigem Modell und realer Leistungselektronik unterscheiden. Die geometrische Rückprobe am Leistungsdreieck ist sehr hilfreich.
+
+Vertiefter Praxisfall 4: Fehler auf Papier finden.
+In einer Musterlösung steht für einen Verbraucher mit 24 Volt und 48 Watt der Strom 0,5 Ampere. Rechne nach: I = 48/24 = 2 Ampere. Der angegebene Wert ist also um den Faktor vier zu klein. Prüfe anschliessend, ob vielleicht ein falsches Einheitensystem oder die reziproke Formel verwendet wurde. Dieses Vorgehen ist wertvoll, weil in Prüfungen gelegentlich nicht das Berechnen, sondern das Bewerten einer fremden Lösung verlangt wird. Eine gute Korrektur benennt die fehlerhafte Zeile, liefert den richtigen Zusammenhang und führt eine Rückrechnung 24 · 2 = 48 Watt durch. Ein blosses Kreuz beim Ergebnis erklärt wenig.
+
+Vertiefter Praxisfall 5: Ein Rechenblatt dokumentieren.
+Für komplexere Aufgaben gliedere das Blatt in Ausgangsdaten, Gleichungen, Berechnung, Rückprobe und Interpretation. In einer PV-Ertragsrechnung könnten 6 Kilowatt installierte Nennleistung, 850 äquivalente Volllaststunden und ein vereinfachter Systemfaktor von 0,9 angenommen werden. Daraus folgen rechnerisch 4 590 Kilowattstunden. Ob diese Annahmen für einen konkreten Standort und eine konkrete Anlage zutreffen, ist damit nicht belegt. Gerade deshalb sollten alle angenommenen Faktoren offen auf dem Blatt stehen. Der schriftliche Fachnachweis besteht nicht nur aus der Zahl 4 590, sondern aus dem offen gelegten Modell und seiner Begrenzung.
+
+Abschluss und Rückprobe.
+Beantworte die Aufgaben der Lektion zuerst ohne Musterlösung. Prüfe danach bei jeder Antwort den konkreten Sachverhalt, die technischen Voraussetzungen, die Aussagekraft der vorhandenen Nachweise und die noch fehlende Information. Ordne jedes Resultat eindeutig als theoretische Rechnung, didaktische Simulation, Dokumentationsbewertung oder fachkundig zu prüfenden realen Installationsfall ein. Diese Unterscheidung ist wesentlich, weil ein korrekt berechnetes Lernbeispiel weder eine Installationsbewilligung noch eine fachliche Sicherheitsfreigabe ersetzt.

@@ -1,0 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.09-C: Energieeffizienz und Kostenvergleich. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Vergleiche brauchen eine Nutzungsbasis.
+Energieeffizienz ist keine isolierte Eigenschaft eines Preisschilds. Ein wirtschaftlich sinnvoller Vergleich muss definieren, welche Aufgabe beide Geräte erfüllen, wie häufig sie genutzt werden und über welchen Zeitraum die Kosten anfallen. Ein günstiger Kaufpreis kann bei hoher Nutzung durch höhere Energiekosten relativiert werden. Umgekehrt lohnt sich eine teurere Effizienzvariante bei sehr seltener Nutzung möglicherweise nicht. Zuerst sind daher Funktion, Leistungsfähigkeit, Anschaffungskosten, Energie je Nutzung und Lebensdauer als Vergleichskriterien festzulegen.
+
+Verbrauchsrechnung.
+Die grundlegende Rechnung lautet E = P mal t bei näherungsweise konstanter Leistung. Bei wechselnder Leistung wird die Energie über alle Betriebsphasen aufsummiert. Für einen hypothetischen Verbraucher, der täglich 20 Minuten lang 900 Watt aufnimmt, ergeben sich 0,9 Kilowatt mal ein Drittel Stunde mal 365 Tage, also 109,5 Kilowattstunden pro Jahr. Ein vergleichbares Gerät mit 600 Watt und gleicher Nutzungsdauer benötigt rechnerisch 73 Kilowattstunden. Die jährliche Differenz beträgt 36,5 Kilowattstunden. Ob beide Geräte die Aufgabe gleich gut erfüllen, muss zusätzlich geprüft werden.
+
+Kosten und Amortisation.
+Ein Gerät A kostet 200 Franken weniger als Gerät B. Gerät B spart laut belastbarer Verbrauchsrechnung jährlich 50 Kilowattstunden. Bei einem angenommenen Energiepreis von 0,30 Franken pro Kilowattstunde sind das 15 Franken pro Jahr. Die einfache Amortisationsdauer des Mehrpreises liegt damit bei 200 geteilt durch 15, also rund 13,3 Jahren. Das Modell berücksichtigt weder Zinsen noch Reparaturen, Restwert oder Preisänderungen. Trotzdem ist es als erster Filter wertvoll, weil es eine oberflächliche Behauptung über schnell amortisierte Einsparungen überprüfbar macht.
+
+Lebenszykluskosten.
+Neben Anschaffung und Energie können Wasserverbrauch, Wartung, Ersatzteile und Entsorgung eine Rolle spielen. Die Lebenszykluskosten sind deshalb nicht einfach der Kaufpreis plus eine Stromrechnung. Bei langlebigen Geräten kann die Verfügbarkeit von Ersatzteilen den wirtschaftlichen Vergleich stärker beeinflussen als kleine Energieunterschiede. Für eine gute Empfehlung müssen die Kostentreiber in der passenden Gewichtung betrachtet werden. Ausserdem ist zu markieren, welche Daten verlässlich und welche nur Szenarioannahmen sind. Ein plausibles Ergebnis entsteht nicht durch möglichst viele Dezimalstellen, sondern durch belastbare Eingangsgrössen.
+
+Lastprofil und Spitzenleistung.
+Zwei Geräte können im Jahr gleich viel Energie aufnehmen und trotzdem die Installation unterschiedlich belasten. Ein Gerät benötigt vielleicht kurzzeitig mehrere Kilowatt, während ein anderes über längere Zeit nur einige hundert Watt zieht. Für den Energiepreis kann die Summe entscheidend sein; für elektrische Anschluss- und Schutzüberlegungen spielen auch Stromspitzen und Gleichzeitigkeit eine Rolle. Ein Variantenvergleich sollte diese beiden Perspektiven getrennt ausweisen. Aus den jährlichen Kilowattstunden allein lässt sich nicht ableiten, welcher Anschluss geeignet ist.
+
+Nutzwert statt reiner Stromersparnis.
+Ein Gerät, das mehr elektrische Energie benötigt, kann eine Aufgabe schneller erledigen oder andere Betriebsmittel ersetzen. Der Nutzwert sollte daher in den Vergleich eingehen. Bei einem Trocknungsprozess könnten Zeitersparnis, Arbeitsergebnis, Bedienbarkeit und Schonung des Materials relevant sein. Für eine Entscheidung müssen die Alternativen auf derselben Leistungsaufgabe verglichen werden. Es wäre unfair, ein Gerät in einer sparsamen Betriebsart und das andere im Höchstleistungsmodus zu bewerten. Technische Gleichwertigkeit ist eine Voraussetzung für eine sinnvolle Wirtschaftlichkeitsrechnung.
+
+Szenario und Sensitivität.
+Eine einfache Sensitivitätsanalyse zeigt, wie stark das Ergebnis von unsicheren Annahmen abhängt. Liegt die Einsparung bei 50 Kilowattstunden pro Jahr, ergeben sich bei Strompreisen von 0,20, 0,30 und 0,40 Franken jährliche Einsparungen von 10, 15 und 20 Franken. Der Mehrpreis von 200 Franken amortisiert sich damit einfach gerechnet erst nach 20, 13,3 oder 10 Jahren. Das ist wesentlich aussagekräftiger als die scheinbar präzise Angabe einer einzigen Amortisationszeit.
+
+Entscheidungsvorlage.
+Formuliere für zwei hypothetische Geräte eine Entscheidungsvorlage mit Kosten, Nutzen, Energieverbrauch, Nutzungsdauer und drei Szenarien. Begründe, welche Variante Du wählen würdest und welche zusätzlichen Herstellerdaten die Unsicherheit am stärksten reduzieren könnten. Trenne ausdrücklich technische Eignung, elektrische Anschlussbedingungen und wirtschaftliche Attraktivität. Ein Gerät darf nicht allein aufgrund günstiger Betriebskosten als geeignet für eine vorhandene Installation erklärt werden. Eine solche Eignungsprüfung erfordert die gültigen Anschlussvorgaben und die Beurteilung durch zuständige Fachpersonen.
+
+Rückprobe.
+Wenn die jährliche Ersparnis sehr klein ist, prüfe die Rechnung durch Umstellen: Welche erforderliche Energieeinsparung müsste das teurere Gerät erzielen, um seinen Mehrpreis in fünf Jahren auszugleichen? Bei 200 Franken Mehrpreis und 0,30 Franken pro Kilowattstunde wären das 200 geteilt durch 5 geteilt durch 0,30, also rund 133,3 Kilowattstunden pro Jahr. Liegen die realistischen Vergleichswerte weit darunter, ist die Fünfjahresamortisation allein über Stromkosten ausgeschlossen. Das ist eine besonders nützliche Plausibilitätsprüfung.
+
+Rechnung bei wechselnden Tarifen.
+Ein Vergleich mit nur einem Strompreis kann bei unsicheren Tarifannahmen täuschen. Wenn ein Gerät 80 Kilowattstunden pro Jahr einspart, beträgt die Ersparnis bei 0,20 Franken 16 Franken und bei 0,35 Franken 28 Franken pro Jahr. Für einen Mehrpreis von 140 Franken ergeben sich einfache Amortisationszeiten von 8,75 beziehungsweise fünf Jahren. Schon diese Spannweite zeigt, wie wichtig die Preisannahme ist. Wer eine Empfehlung ausspricht, sollte daher nach Möglichkeit ein Basis-, ein günstiges und ein ungünstiges Szenario mit sauber bezeichneten Parametern dokumentieren.
+
+Grenzen der Amortisationszahl.
+Die einfache Amortisation vernachlässigt den Zeitpunkt zukünftiger Zahlungen. Bei grossen Investitionen können deshalb Zins, Kapitalbindung und Restwert eine wesentliche Rolle spielen. Auch Garantiebedingungen, erwartete Lebensdauer und Reparaturhäufigkeit beeinflussen die Entscheidung. Ein Gerät mit rechnerischer Amortisation nach zwölf Jahren kann ungeeignet sein, wenn es voraussichtlich nur acht Jahre genutzt wird. Umgekehrt kann ein Gerät wirtschaftlich vorteilhaft sein, obwohl allein die Stromersparnis keinen schnellen Rückfluss des Mehrpreises zeigt, etwa wenn es deutlich weniger Wartung benötigt.
+
+Prüfung der Gleichwertigkeit.
+Ein günstiges Gerät trocknet eine Ladung in 90 Minuten, ein sparsameres benötigt 150 Minuten. Beide können dieselbe Endqualität erreichen, unterscheiden sich aber in der Prozesszeit. Wenn die Nutzungskapazität kritisch ist, kann die längere Laufzeit Folgekosten verursachen. Der Vergleich darf die Nutzleistung deshalb nicht ignorieren. Formuliere vor dem Kostenvergleich messbare Kriterien für gleiche Aufgabe, gleiche Menge, gleiche Qualität und vergleichbare Umgebungsbedingungen. Ohne diese Kriterien wird eine scheinbar objektive Energieanalyse zum Vergleich unterschiedlicher Leistungen.
+
+Grafischer Jahresvergleich.
+Erstelle auf Papier für drei Geräte eine Balkengrafik mit jährlicher Energieaufnahme. Berechne zusätzlich für jedes Gerät die Stromkosten mit einheitlich angenommener Preisbasis. Trage Anschaffungspreis getrennt ein, damit einmalige Investition und laufende Kosten nicht verwechselt werden. Markiere bei jedem Wert, ob er gemessen, ein Herstellerprüfwert oder eine eigene Schätzung ist. Die grafische Darstellung soll Unterschiede erkennbar machen, darf aber keine unsicheren Daten als exakte Fakten darstellen. Erläutere in einem Satz, welche Annahme das Ergebnis am stärksten verändern könnte.
+
+Entscheidungsregel.
+Eine Empfehlung ist belastbar, wenn sie die Funktionserfüllung nachweist, die relevanten Kosten vollständig genug erfasst und eine Sensitivität für unsichere Angaben enthält. Formuliere als Schlussfolgerung nicht einfach Gerät B ist besser, sondern Gerät B ist unter den angegebenen Nutzungs- und Preisannahmen wirtschaftlicher, sofern die Nutzleistung gleichwertig ist. Diese Formulierung zeigt, dass technische Entscheidungen bedingt sind. Ergänze die Daten, die für eine endgültige Bestellung oder Installationsbeurteilung noch fehlen. So bleibt die Empfehlung fachlich nachvollziehbar und überprüfbar.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Variante A kostet 650 Franken und braucht 220 Kilowattstunden pro Jahr. Variante B kostet 770 Franken und braucht 160 Kilowattstunden. Vergleiche bei 0,30 Franken pro Kilowattstunde. Lösung und Rückprobe: B spart 60 Kilowattstunden und damit 18 Franken pro Jahr. Der Mehrpreis beträgt 120 Franken. Die einfache statische Amortisation beträgt 6,67 Jahre. Die Rechnung enthält weder Zins- noch Reparatur-, Wartungs- oder Entsorgungskosten. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.09-C: Energieeffizienz und Kostenvergleich. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Vergleiche brauchen eine Nutzungsbasis.
+Energieeffizienz ist keine isolierte Eigenschaft eines Preisschilds. Ein wirtschaftlich sinnvoller Vergleich muss definieren, welche Aufgabe beide Geräte erfüllen, wie häufig sie genutzt werden und über welchen Zeitraum die Kosten anfallen. Ein günstiger Kaufpreis kann bei hoher Nutzung durch höhere Energiekosten relativiert werden. Umgekehrt lohnt sich eine teurere Effizienzvariante bei sehr seltener Nutzung möglicherweise nicht. Zuerst sind daher Funktion, Leistungsfähigkeit, Anschaffungskosten, Energie je Nutzung und Lebensdauer als Vergleichskriterien festzulegen.
+
+Verbrauchsrechnung.
+Die grundlegende Rechnung lautet E = P mal t bei näherungsweise konstanter Leistung. Bei wechselnder Leistung wird die Energie über alle Betriebsphasen aufsummiert. Für einen hypothetischen Verbraucher, der täglich 20 Minuten lang 900 Watt aufnimmt, ergeben sich 0,9 Kilowatt mal ein Drittel Stunde mal 365 Tage, also 109,5 Kilowattstunden pro Jahr. Ein vergleichbares Gerät mit 600 Watt und gleicher Nutzungsdauer benötigt rechnerisch 73 Kilowattstunden. Die jährliche Differenz beträgt 36,5 Kilowattstunden. Ob beide Geräte die Aufgabe gleich gut erfüllen, muss zusätzlich geprüft werden.
+
+Kosten und Amortisation.
+Ein Gerät A kostet 200 Franken weniger als Gerät B. Gerät B spart laut belastbarer Verbrauchsrechnung jährlich 50 Kilowattstunden. Bei einem angenommenen Energiepreis von 0,30 Franken pro Kilowattstunde sind das 15 Franken pro Jahr. Die einfache Amortisationsdauer des Mehrpreises liegt damit bei 200 geteilt durch 15, also rund 13,3 Jahren. Das Modell berücksichtigt weder Zinsen noch Reparaturen, Restwert oder Preisänderungen. Trotzdem ist es als erster Filter wertvoll, weil es eine oberflächliche Behauptung über schnell amortisierte Einsparungen überprüfbar macht.
+
+Lebenszykluskosten.
+Neben Anschaffung und Energie können Wasserverbrauch, Wartung, Ersatzteile und Entsorgung eine Rolle spielen. Die Lebenszykluskosten sind deshalb nicht einfach der Kaufpreis plus eine Stromrechnung. Bei langlebigen Geräten kann die Verfügbarkeit von Ersatzteilen den wirtschaftlichen Vergleich stärker beeinflussen als kleine Energieunterschiede. Für eine gute Empfehlung müssen die Kostentreiber in der passenden Gewichtung betrachtet werden. Ausserdem ist zu markieren, welche Daten verlässlich und welche nur Szenarioannahmen sind. Ein plausibles Ergebnis entsteht nicht durch möglichst viele Dezimalstellen, sondern durch belastbare Eingangsgrössen.
+
+Lastprofil und Spitzenleistung.
+Zwei Geräte können im Jahr gleich viel Energie aufnehmen und trotzdem die Installation unterschiedlich belasten. Ein Gerät benötigt vielleicht kurzzeitig mehrere Kilowatt, während ein anderes über längere Zeit nur einige hundert Watt zieht. Für den Energiepreis kann die Summe entscheidend sein; für elektrische Anschluss- und Schutzüberlegungen spielen auch Stromspitzen und Gleichzeitigkeit eine Rolle. Ein Variantenvergleich sollte diese beiden Perspektiven getrennt ausweisen. Aus den jährlichen Kilowattstunden allein lässt sich nicht ableiten, welcher Anschluss geeignet ist.
+
+Nutzwert statt reiner Stromersparnis.
+Ein Gerät, das mehr elektrische Energie benötigt, kann eine Aufgabe schneller erledigen oder andere Betriebsmittel ersetzen. Der Nutzwert sollte daher in den Vergleich eingehen. Bei einem Trocknungsprozess könnten Zeitersparnis, Arbeitsergebnis, Bedienbarkeit und Schonung des Materials relevant sein. Für eine Entscheidung müssen die Alternativen auf derselben Leistungsaufgabe verglichen werden. Es wäre unfair, ein Gerät in einer sparsamen Betriebsart und das andere im Höchstleistungsmodus zu bewerten. Technische Gleichwertigkeit ist eine Voraussetzung für eine sinnvolle Wirtschaftlichkeitsrechnung.
+
+Szenario und Sensitivität.
+Eine einfache Sensitivitätsanalyse zeigt, wie stark das Ergebnis von unsicheren Annahmen abhängt. Liegt die Einsparung bei 50 Kilowattstunden pro Jahr, ergeben sich bei Strompreisen von 0,20, 0,30 und 0,40 Franken jährliche Einsparungen von 10, 15 und 20 Franken. Der Mehrpreis von 200 Franken amortisiert sich damit einfach gerechnet erst nach 20, 13,3 oder 10 Jahren. Das ist wesentlich aussagekräftiger als die scheinbar präzise Angabe einer einzigen Amortisationszeit.
+
+Entscheidungsvorlage.
+Formuliere für zwei hypothetische Geräte eine Entscheidungsvorlage mit Kosten, Nutzen, Energieverbrauch, Nutzungsdauer und drei Szenarien. Begründe, welche Variante Du wählen würdest und welche zusätzlichen Herstellerdaten die Unsicherheit am stärksten reduzieren könnten. Trenne ausdrücklich technische Eignung, elektrische Anschlussbedingungen und wirtschaftliche Attraktivität. Ein Gerät darf nicht allein aufgrund günstiger Betriebskosten als geeignet für eine vorhandene Installation erklärt werden. Eine solche Eignungsprüfung erfordert die gültigen Anschlussvorgaben und die Beurteilung durch zuständige Fachpersonen.
+
+Rückprobe.
+Wenn die jährliche Ersparnis sehr klein ist, prüfe die Rechnung durch Umstellen: Welche erforderliche Energieeinsparung müsste das teurere Gerät erzielen, um seinen Mehrpreis in fünf Jahren auszugleichen? Bei 200 Franken Mehrpreis und 0,30 Franken pro Kilowattstunde wären das 200 geteilt durch 5 geteilt durch 0,30, also rund 133,3 Kilowattstunden pro Jahr. Liegen die realistischen Vergleichswerte weit darunter, ist die Fünfjahresamortisation allein über Stromkosten ausgeschlossen. Das ist eine besonders nützliche Plausibilitätsprüfung.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Variante A kostet 650 Franken und braucht 220 Kilowattstunden pro Jahr. Variante B kostet 770 Franken und braucht 160 Kilowattstunden. Vergleiche bei 0,30 Franken pro Kilowattstunde. Lösung und Rückprobe: B spart 60 Kilowattstunden und damit 18 Franken pro Jahr. Der Mehrpreis beträgt 120 Franken. Die einfache statische Amortisation beträgt 6,67 Jahre. Die Rechnung enthält weder Zins- noch Reparatur-, Wartungs- oder Entsorgungskosten. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Lektion 2.09-C: Energieeffizienz und Kostenvergleich. Wirkungsgrad, Nutzungsdauer und Lastprofil helfen beim Vergleich elektrischer Verbraucher. Die Jahresenergie in Kilowattstunden ist das Integral beziehungsweise die Summe aus Leistung mal Zeit. Für wirtschaftliche Beurteilungen kommen Energiepreis, Anschaffung, Wartung und unterschiedliche Betriebsbedingungen hinzu. Energieeinsparung muss zur gleichen erbrachten Nutzfunktion verglichen werden. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Eine 20-Watt-Leuchte ist an 1000 Stunden pro Jahr eingeschaltet und verbraucht damit 20 Kilowattstunden. Eine 8-Watt-Alternative braucht bei gleicher Laufzeit 8 Kilowattstunden. Der rechnerische Unterschied beträgt 12 Kilowattstunden pro Jahr; gleiche Lichtqualität ist separat nachzuweisen. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Fair vergleichen heisst gleiche Funktion und gleiche Randbedingungen ansetzen. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Herstelleranschlussbilder lesen; Verbraucherwahl aus Nutzungsprofil und Schutzkonzept. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; N I N Teil 5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Herstelleranschlussbilder lesen; Verbraucherwahl aus Nutzungsprofil und Schutzkonzept.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Tagesenergie eines Geräts. Ein Gerät mit 2 kW läuft 30 Minuten pro Tag.
+
+Schritt 1. 30 Minuten entsprechen 0,5 Stunden.
+
+Schritt 2. E = P · t = 2 kW · 0,5 h.
+
+Schritt 3. Ergebnis E = 1 kWh pro Tag.
+
+Schritt 4. Jahreswerte erfordern ein realistisches Nutzungsprofil.
+
+Kontrolle des Ergebnisses: E = 1 kWh pro Tag.
+
+Übungsauftrag zur Anwendung: Rechenfälle einer Küche, einer Wärmepumpe und eines elektrischen Heizregisters; nur Planung. Halte zusätzlich die Antwort auf die Frage «Wie viel spart 20 W gegenüber 8 W bei 1000 Stunden?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie viel spart 20 W gegenüber 8 W bei 1000 Stunden? Die richtige Antwort lautet: 12 kWh. Warum? Fair vergleichen heisst gleiche Funktion und gleiche Randbedingungen ansetzen.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Fair vergleichen heisst gleiche Funktion und gleiche Randbedingungen ansetzen.. Warum? Der Merksatz lautet: Fair vergleichen heisst gleiche Funktion und gleiche Randbedingungen ansetzen.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

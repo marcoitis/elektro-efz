@@ -1,0 +1,85 @@
+Lektion 2.02-C: Neutralleiter, Unsymmetrie und Lastverteilung. Bei ungleichmässiger Belastung der drei Phasen gleichen sich die Ströme im Neutralleiter nicht vollständig aus. Auch Oberschwingungen elektronischer Lasten beeinflussen die Leiterströme. Für die Gebäudeplanung müssen Lasten, Gleichzeitigkeit und die Eigenschaften der Verbraucher bekannt sein. Einfach aus drei Einzelströmen einen arithmetischen Mittelwert zu bilden genügt nicht. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein fiktives Haus weist auf Phase eins deutlich mehr einphasige Verbraucher als auf Phase zwei und drei auf. Erstelle eine Lastliste mit installierter Leistung und typischer Nutzung. Schlage eine plausiblere Verteilung vor, ohne eine bestehende Verteilung zu verändern. Die Schutz- und Leiterbemessung bleibt eine normgebundene Aufgabe. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Symmetrie ist ein Planungsziel und kein unveränderlicher Naturzustand. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Anwendungsbeispiele Motor, Herd und PV-Wechselrichter; Einphasige Belastung/Phasenaufteilung als Planungsaufgabe. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.2/5.3; N I N Teil 3. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Anwendungsbeispiele Motor, Herd und PV-Wechselrichter; Einphasige Belastung/Phasenaufteilung als Planungsaufgabe.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Symmetrisches Drehstromsystem. Ein symmetrisches Drehstromsystem hat 400 V zwischen den Aussenleitern.
+
+Schritt 1. Sternschaltung: Strangspannung Ustr = ULL / √3.
+
+Schritt 2. Einsetzen: 400 V / √3.
+
+Schritt 3. Ergebnis: Ustr ≈ 231 V.
+
+Schritt 4. Wichtig: Das gilt für die gezeigte symmetrische Sternbeziehung.
+
+Kontrolle des Ergebnisses: Ungefähr 230 V pro Strang in Stern.
+
+Übungsauftrag zur Anwendung: Drehstrom ausschließlich an Simulator/Schulungsmodell; rechnerische Lastbilanz eines Wohnhauses. Halte zusätzlich die Antwort auf die Frage «Was kann bei unsymmetrischer Drehstrombelastung auftreten?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was kann bei unsymmetrischer Drehstrombelastung auftreten? Die richtige Antwort lautet: Neutralleiterstrom. Warum? Symmetrie ist ein Planungsziel und kein unveränderlicher Naturzustand.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Symmetrie ist ein Planungsziel und kein unveränderlicher Naturzustand.. Warum? Der Merksatz lautet: Symmetrie ist ein Planungsziel und kein unveränderlicher Naturzustand.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+---
+
+Fachlich individuell vertiefte Unterrichtseinheit.
+
+Die Rolle des Neutralleiters.
+
+In einem symmetrischen idealen Sternsystem mit drei gleichen sinusförmigen Strangströmen heben sich die drei um 120 Grad versetzten Stromzeiger vektoriell auf. Der Strom im Neutralleiter kann dann null sein. Diese Aussage betrifft die Summe der Ströme am Sternpunkt, nicht die einzelnen Ströme. Jeder Aussenleiter führt weiterhin den Strom seiner Last. Wenn ein einzelner Strang beispielsweise fünf Ampere führt, darfst du den Neutralleiterstrom nicht mit fünf Ampere gleichsetzen, sobald andere Stränge ebenfalls belastet sind. Bei einem unsymmetrischen Verbrauch ist die Vektorsumme neu zu bilden. Es reicht nicht, die Strombeträge arithmetisch zu addieren. Diese Unterscheidung erklärt, warum eine gleichmässige Lastverteilung technisch sinnvoll sein kann, aber keine pauschale Aussage über jede reale Neutralleiterbelastung liefert.
+
+Zeigeraddition Schritt für Schritt.
+
+Setze die drei idealen Strangspannungen in einem Zeigerdiagramm bei null, minus 120 und plus 120 Grad an. Für drei gleiche rein ohmsche Lasten zeigen die Strangströme in dieselben Richtungen wie die jeweiligen Spannungen. Drei Zeiger von je sechs Ampere ergeben zusammen null. Ändere nur den ersten Strangstrom auf neun Ampere, während die anderen beiden bei sechs Ampere bleiben. Die beiden sechs-Ampere-Zeiger ergeben zusammen einen Gegenzeiger von sechs Ampere; mit dem neun-Ampere-Zeiger bleibt ein Resultat von drei Ampere. Der Neutralleiter übernimmt betragsmässig diesen Rückstrom. Als Kontrollfrage: Wären die drei Strombeträge sechs, sechs und null Ampere, ergäbe sich der Neutralleiterstrom sechs Ampere, nicht zwölf Ampere. Beachte die Winkel und zeichne den resultierenden Zeiger.
+
+Einphasige Verbraucher verteilen.
+
+In einem fiktiven Gebäudemodell gibt es drei Gruppen von einphasigen Verbrauchern. Gruppe eins benötigt während der Nutzung zwei Kilowatt, Gruppe zwei ein Kilowatt und Gruppe drei drei Kilowatt. Eine Verteilung ausschliesslich nach Namen oder Räumen ist unzureichend, denn relevant sind gleichzeitige Leistungen, Leistungsfaktoren, Anlaufvorgänge und verfügbare Stromkreise. Für eine erste idealisierte Modellrechnung mit rein ohmschen Lasten und 230 Volt Strangspannung entstehen Strangströme von rund 8,70, 4,35 und 13,04 Ampere. Diese Werte sind ein Ausgangspunkt, nicht die reale Dimensionierung einer Installation. Berechne als Übung die Vektorsumme mit 120-Grad-Winkeln. Sie liegt bei rund 7,53 Ampere. Die Rechnung zeigt, dass die Neutralleiterbelastung nicht einfach dem grössten Aussenleiterstrom entspricht.
+
+Allgemeine Vektorformel.
+
+Für drei sinusförmige Ströme gleicher Frequenz gilt der Neutralleiterstrom als negativer Summenzeiger: I N gleich minus der Summe aus I eins, I zwei und I drei. Verwendest du Strombeträge a, b und c bei den Phasenwinkeln null, minus 120 und plus 120 Grad und rein ohmschen Lasten, ergibt sich für das Quadrat des Neutralleiterbetrags a Quadrat plus b Quadrat plus c Quadrat minus a mal b minus b mal c minus c mal a. Prüfe zunächst den symmetrischen Sonderfall a gleich b gleich c: Der Ausdruck wird null. Beim Beispiel neun, sechs und sechs Ampere wird das Quadrat neun und der Betrag drei Ampere. Diese Kurzformel ist kein Ersatz für komplexe Rechnung, wenn die Phasenwinkel durch verschiedene Lastarten abweichen oder die Stromformen verzerrt sind.
+
+Oberschwingungen als zusätzliche Betrachtung.
+
+Elektronische Verbraucher können Ströme aufnehmen, die nicht sinusförmig verlaufen. Solche Stromformen lassen sich mathematisch in Grundschwingung und Oberschwingungsanteile zerlegen. Bestimmte sogenannte dreifache Oberschwingungen können in einem vierleitigen Dreiphasensystem im Neutralleiter gleichphasig auftreten und sich dort addieren, statt sich aufzuheben. Darum reicht die Aussage gleiche Grundschwingungsströme gleich kein Neutralleiterstrom nicht aus, wenn stark nichtlineare Verbraucher betrachtet werden. Wie gross die tatsächliche Belastung ist, hängt von den konkreten Geräten und ihrer Gleichzeitigkeit ab. Verwechsle Oberschwingungen auch nicht mit dem Leistungsfaktor allein: Verzerrung und Phasenverschiebung sind unterschiedliche Effekte. In dieser Lektion genügt es, den Effekt zeichnerisch zu unterscheiden. Eine reale Messung und Bewertung erfordert geeignete Messmittel, Qualifikation und die einschlägigen Regeln.
+
+Unterbruch des Neutralleiters als Risiko.
+
+Ein unterbrochener Neutralleiter in einem mehrphasigen System mit unsymmetrischen Sternlasten kann die Potentialverhältnisse und damit die Spannungen an angeschlossenen Verbrauchern gravierend verändern. Das Verhalten lässt sich nicht mit der Annahme erklären, dass überall unverändert 230 Volt anliegen. Der Sternpunkt kann sich verschieben; einzelne Verbraucher erhalten dadurch eine höhere, andere eine niedrigere Spannung als im Normalzustand. Solche Situationen sind gefährlich und können zu Schäden führen. Deshalb ist die Lektion ausdrücklich kein Versuch, einen Neutralleiter aufzutrennen oder den Zustand an einer echten Anlage nachzustellen. Auf Papier zeichnest du stattdessen drei unterschiedlich grosse Widerstände und einen idealisierten Sternpunkt. Erkläre, weshalb die Spannungsteilung vom Lastzustand abhängt, sobald die feste Bezugverbindung fehlt. Das didaktische Ziel ist das Erkennen der Gefahrenursache und nicht die Fehlersuche am offenen Verteiler.
+
+Messwerte sorgfältig interpretieren.
+
+Nehmen wir eine Messwertliste aus einer rechnerischen Simulation: Aussenleiterströme von acht, acht und acht Ampere, Neutralleiterstrom nahe null, kaum Oberschwingungen. Dies passt zu einer symmetrischen sinusförmigen Grundschwingungsbelastung. Eine zweite Liste enthält acht, vier und zwölf Ampere und einen merklichen Neutralleiterstrom. Aus den Beträgen allein kann der exakte Neutralleiterstrom noch nicht sicher abgeleitet werden, wenn die Phasenlagen unbekannt sind. Eine dritte Liste enthält acht, acht und acht Ampere sowie hohen Neutralleiterstrom. Diese Beobachtung könnte auf nichtlineare Stromformen oder besondere Messbedingungen hinweisen, ist aber keine fertige Diagnose. Ein Messprotokoll braucht daher Zeitpunkt, Messstelle, Messgerät, Stromart, Belastungszustand und die verwendete Auswertemethode. Gute Facharbeit bedeutet auch, das Nichtwissen sichtbar zu machen.
+
+Planungsentscheidung und Grenzen.
+
+Bei einer theoretischen Lastverteilungsübung kannst du prüfen, ob ähnlich grosse einphasige Verbraucher über die drei Aussenleiter verteilt werden. Das ist jedoch nicht gleichbedeutend mit einer zulässigen Anschlussplanung. Leitungsschutz, Leiterquerschnitte, Netzform, Betriebsbedingungen, Oberschwingungsanteile und Normvorgaben sind zusätzliche Aspekte, die von dafür befähigten Fachpersonen beurteilt werden müssen. Eine Lastverteilung auf dem Papier kann sich im Tagesverlauf stark ändern: Beleuchtung, Küchengeräte, Heizprozesse oder Ladegeräte sind nicht ständig gleichzeitig in Betrieb. Ein Lastprofil ist oft hilfreicher als nur die Summe aller Nennleistungen. Erstelle drei Zeitfenster und trage die Leistung jeder Verbrauchergruppe ein. Begründe, welcher Zeitpunkt den grössten erwarteten Unsymmetrieeffekt zeigt und welche Angaben für eine belastbare Messung noch fehlen.
+
+Kontrollaufgaben mit Ergebnissen.
+
+Frage eins: Drei gleiche sinusförmige Strangströme von fünf Ampere bei 120 Grad Versatz. Der Neutralleiterstrom ist im Idealmodell null. Frage zwei: Drei rein ohmsche Strangströme von neun, sechs und sechs Ampere. Der Neutralleiterstrom beträgt drei Ampere. Frage drei: Weshalb können drei gleich grosse Aussenleiterströme trotzdem mit Neutralleiterstrom einhergehen? Weil nichtsinusförmige Stromanteile, insbesondere gewisse Oberschwingungen, sich anders überlagern. Frage vier: Ist die Messung nur eines Strombetrags für eine Unsymmetrieanalyse ausreichend? Nein, Zeitbezug und Phasenbeziehungen fehlen. Frage fünf: Dürfte man für einen Unterrichtsversuch den Neutralleiter einer realen Verteilung lösen? Nein. Frage sechs: Was ist die zentrale Dokumentationsregel? Zwischen Modellrechnung, Beobachtung, Messung und fachlicher Freigabe unterscheiden. Schreibe die Ergebnisse nicht nur ab, sondern erläutere jeweils, auf welche Annahme die Antwort angewiesen ist.
+
+Lastprofil statt Momentaufnahme.
+
+Eine Messung um zehn Uhr zeigt möglicherweise ganz andere Ströme als dieselbe Verteilung am Abend. Betrachte ein fiktives Gebäude mit drei einphasigen Verbrauchergruppen: Beleuchtung, Küchenmaschinen und Ladegeräte. Um acht Uhr ist die Beleuchtung stark, um zwölf Uhr die Küche und abends die Ladung. Deshalb kann die Summe der Nennleistungen eines Stromkreises zwar eine Information liefern, aber nicht automatisch die tatsächliche Gleichzeitigkeit beschreiben. Zeichne für drei Zeitfenster je drei Stromzeiger mit bekannten Modellwerten und vergleiche den resultierenden Neutralleiterstrom. Bei jeweils sechs Ampere in allen drei Strängen ist er null. Bei neun, sechs und sechs Ampere beträgt er drei Ampere. Beim dritten Zeitpunkt mit neun, null und null Ampere beträgt er neun Ampere. Diese Modellbeispiele zeigen, weshalb Lastverteilung dynamisch betrachtet werden sollte.
+
+Unterscheidung zwischen Verzerrung und Phasenverschiebung.
+
+Zwei Geräte können bei gleichem Effektivstrom sehr unterschiedliche Wirkungen auf das Stromnetz haben. Ein induktiver Motorstrom kann gegenüber der zugehörigen Spannungsgrundschwingung verschoben sein. Ein Gleichrichtereingang kann dagegen einen stark nichtsinusförmigen Strom mit impulsartigem Verlauf aufnehmen. Die Beschreibung mit genau einem Winkel ist dann für die Gesamtstromform unzureichend. Deshalb unterscheiden Fachleute den Verschiebungsanteil des Leistungsfaktors vom Einfluss der Verzerrung. Für unser Lernmodell stellst du drei Stromkurven skizzenhaft dar: rein sinusförmig und in Phase, sinusförmig phasenverschoben und nichtsinusförmig. Notiere für jede, welche vereinfachte Rechnung zulässig ist und wo zusätzliche Informationen nötig werden. Eine Behauptung über die Höhe der Neutralleiterbelastung erfordert eine Auswertung der konkreten Stromanteile, nicht nur die Angabe der Anzahl elektronischer Geräte.
+
+Dokumentation einer Störungsmeldung.
+
+Stell dir vor, eine Wartungsmeldung lautet: «Neutralleiter warm, drei Phasen ungefähr gleich belastet». Du darfst daraus nicht allein einen abgerissenen Neutralleiter, einen Messfehler oder eine bestimmte Oberschwingungsursache diagnostizieren. Die Beobachtung lässt mehrere Erklärungen zu und weist auf einen möglichen sicherheitsrelevanten Zustand hin. Die angemessene Entscheidung besteht darin, die Nutzung nach betrieblichen Vorgaben beurteilen und qualifizierte Fachpersonen hinzuziehen zu lassen. Für die Fallanalyse trägst du in getrennte Felder ein: gesicherte Beobachtung, fehlende Messdaten, mögliche Einflussgrössen und organisatorische Sofortentscheidung. Zu den fehlenden Daten zählen zum Beispiel Stromform, Messart, Temperaturbezug, Zeitverlauf, Anschlusszustand und Geräteausführung. Eine saubere Störungsmeldung ist sachlich und nennt keine frei erfundene Ursache. Genau diese Disziplin soll die Lektion vermitteln.

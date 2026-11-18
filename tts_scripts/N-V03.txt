@@ -25,3 +25,87 @@ Bei einer Verteilung wird eine Klemmstelle wärmer als baugleiche Nachbarstellen
 Musterlösung.
 
 Das wäre keine zulässige improvisierte Sofortmassnahme. Unter fachlicher Leitung sind zuerst Gefährdung, Abschaltung, Ursache und ein sicherer Prüf-/Instandhaltungsablauf zu klären. Thermografie ist ein Diagnosehinweis, kein Reparaturfreibrief.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Bei einer Verteilung wird eine Klemmstelle wärmer als baugleiche Nachbarstellen. Ein Kollege möchte die Schraube im laufenden Betrieb nachziehen.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Das wäre keine zulässige improvisierte Sofortmassnahme. Unter fachlicher Leitung sind zuerst Gefährdung, Abschaltung, Ursache und ein sicherer Prüf-/Instandhaltungsablauf zu klären. Thermografie ist ein Diagnosehinweis, kein Reparaturfreibrief.
+
+Möglicher sicherer Übungsauftrag: Rechne für 80, 125 und 160 A bei 1,5 mΩ die Verlustleistungen und stelle sie grafisch dar.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie verhält sich P bei doppeltem I und konstantem R? Die richtige Antwort lautet: Vierfach. Warum? P = I²R, daher Faktor vier.
+
+Frage 2: Wie gross ist P bei 125 A und 1,5 mΩ? Die richtige Antwort lautet: 23,44 W. Warum? 125² × 0,0015 = 23,4375 W.
+
+Frage 3: Ersetzt eine Temperaturaufnahme den Bauartnachweis? Die richtige Antwort lautet: Nein. Warum? Die normative Bewertung benötigt eine passende Nachweismethode.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Fachkapitel 1: Vom elektrischen Verlust zur Wärmequelle.
+Jeder stromführende Leiter besitzt einen Widerstand; ebenso entstehen Verluste in Schaltkontakten, Leistungsschaltern, Netzteilen und anderen Betriebsmitteln. Die Verluste werden überwiegend als Wärme an die Umgebung abgegeben. Ein Schaltgerätekombination kann bei normaler elektrischer Funktion thermisch ungeeignet sein, wenn die Summe der Wärmequellen zu gross ist oder die Wärmeabfuhr nicht ausreicht. Die erste didaktische Frage lautet daher nicht „Ist der Sicherungswert richtig?“, sondern „Wo entsteht Wärme, wie verteilt sie sich und unter welchen Bedingungen wurde diese Bauart nachgewiesen?“. Im Unterricht zeichnen wir Wärmequellen als Verlustleistung in Watt in einen Gehäusegrundriss ein. So lassen sich Häufung, ungünstige Platzierung und mögliche Wärmeinseln nachvollziehbar besprechen.
+
+Fachkapitel 2: Quadratisches Stromgesetz.
+Für einen vereinfachten ohmschen Widerstand gilt P = I²R. Bei 50 Ampere durch einen Übergangswiderstand von 2 Milliohm entstehen 50² mal 0,002 gleich 5 Watt Verlustleistung. Steigt der Strom auf 100 Ampere, sind es 20 Watt. Die Verdopplung des Stroms vervierfacht die Wärmeleistung im gleichen Widerstand. Das zeigt, warum selbst wenige Milliohm bei hohen Strömen relevant sind. Der Rechenwert allein beschreibt aber nicht die erreichbare Kontakttemperatur, denn Wärmewiderstände, Umgebung und Einbaudauer fehlen. Bei Bauteilen mit temperaturabhängigem Widerstand verändern sich die Verluste zudem mit der Erwärmung. Eine Fachperson darf deshalb aus einem einfachen I²R-Modell keine normative Temperaturfreigabe ableiten.
+
+Fachkapitel 3: Übergangswiderstände und Klemmenqualität.
+Anschlussstellen bilden elektrische und thermische Schnittstellen. Ist die Kontaktfläche gering oder die Klemmung ungeeignet, kann ein erhöhter Übergangswiderstand entstehen. Mechanische Lockerung, Korrosion, ungeeignete Leiterbehandlung und thermische Wechselbeanspruchung sind mögliche Einflussfaktoren. Im Lernbild werden zwei Klemmen mit je gleichem Strom, aber verschiedenen Modellwiderständen verglichen: 0,5 Milliohm und 3 Milliohm bei 80 Ampere. Die Verlustleistungen betragen 3,2 beziehungsweise 19,2 Watt. Das Sechsfache der Verlustleistung entsteht ohne Änderung des Laststroms. Die tatsächliche Verbindungsqualität wird jedoch durch die vorgesehenen Herstellervorgaben, Montageverfahren und Nachweise bestimmt, nicht durch eine frei erfundene universelle Drehmomentregel.
+
+Fachkapitel 4: Wärmewege und Gehäuse.
+Die Temperatur eines Betriebsmittels ergibt sich aus Verlustleistung und den verfügbaren Wärmewegen. Konvektion über Luft, Wärmeleitung durch Leiter und Schienen sowie Strahlung an Oberflächen können beteiligt sein. Ein geschlossenes Gehäuse kann Wärmeströme stark beeinflussen. Auch Einbauabstände, Luftzirkulation und die Lage benachbarter Wärmequellen sind relevant. Eine einfache Ersatzrechnung mit thermischem Widerstand kann qualitativ helfen: Bei 30 Watt Verlustleistung und angenommener thermischer Ersatzgrösse von 1 Kelvin pro Watt ergäbe sich ein Temperaturanstieg von 30 Kelvin. Dieser Rechenwert ist aber kein allgemeingültiges Gehäusemodell. Für die tatsächliche Bauart gilt der dokumentierte Nachweisbereich. Didaktisch lernen wir damit, warum eine Wärmequelle nicht unabhängig von ihrer Einbausituation bewertet werden kann.
+
+Fachkapitel 5: Gleichzeitigkeit und Lastprofil.
+Die maximale Temperatur einer Verteilung hängt von Dauer und Zusammensetzung der Belastung ab. Werden viele Abgänge gleichzeitig und über längere Zeit mit hohen Strömen betrieben, steigt die Gesamtverlustleistung gegenüber einer Lastsituation mit wechselnden Einzelverbrauchern. Deshalb sind die vorgesehenen Gleichzeitigkeitsbedingungen Teil der Bemessung. Ein Beispiel: Drei gleichartige Abgänge mit je 20 Watt Verlustleistung ergeben bei gleichzeitiger Belastung 60 Watt im Gehäuse. Wenn tatsächlich im vorgesehenen Betrieb immer nur einer belastet wird, ist die Wärmebilanz anders. Aus dieser Beobachtung dürfen jedoch keine unbelegten Annahmen über zulässige Dauerlasten abgeleitet werden. Der Lastfall muss dokumentiert und vom passenden Bauartnachweis gedeckt sein.
+
+Fachkapitel 6: Wärmebild als Diagnosewerkzeug.
+Die Thermografie kann lokale Auffälligkeiten sichtbar machen, etwa ungewöhnlich warme Klemmen oder eine starke Wärmeballung bei Geräten. Das Bild hängt aber von Oberflächeneigenschaften, Emissionsgrad, Reflektionen, Blickwinkel und tatsächlichem Lastzustand ab. Deshalb dürfen die Farben eines Wärmebilds nicht direkt als Grenzwertüberschreitung interpretiert werden. Eine belastbare Untersuchung erfasst den Betriebsstrom zum Aufnahmezeitpunkt, den Messort, die Umgebungstemperatur und die relevanten Kameradaten. Auch das sichere Zugangs- und Arbeitsverfahren ist entscheidend; das Öffnen einer unter Spannung stehenden Verteilung ist keine geeignete Selbstlernübung. Die Thermografie ersetzt nicht den Bauartnachweis oder die fachgerechte Kontrolle elektrischer Verbindungen. Sie unterstützt eine strukturierte Diagnose.
+
+Fachkapitel 7: Normative Erwärmungsgrenzen und Nachweise.
+Die Normenreihe für Schaltgerätekombinationen enthält Anforderungen und mögliche Verfahren zum Nachweis der Erwärmung. Je nach Bauart und Einsatzbedingungen kommen unterschiedliche normativ vorgesehene Nachweiswege in Betracht. Es ist unzulässig, aus einer Modellrechnung eine allgemein verbindliche Temperaturgrenze für sämtliche Gehäuse, Klemmen und Bedienoberflächen abzuleiten. Die jeweils zutreffenden Werte und Prüfbedingungen müssen der gültigen Originalnorm sowie den freigegebenen Herstellerunterlagen entnommen werden. In der Ausbildung wird daher der Nachweisgedanke geübt: Erstelle eine Liste der tatsächlichen Wärmequellen und der nachzuweisenden Bedingungen. Die Fachfreigabe erfolgt erst, wenn die reale Kombination innerhalb des gültigen Nachweisbereichs liegt.
+
+Fachkapitel 8: Änderungen und thermisches Re-Design.
+Wird ein zusätzlicher Umrichter, ein leistungsstärkeres Netzteil oder eine Abgangssicherung nachgerüstet, kann die bisherige Wärmebilanz ungültig werden. Auch das Umplatzieren vorhandener Geräte verändert möglicherweise die Luftzirkulation und Wärmeverteilung. Für jede konstruktive Änderung sollte deshalb geprüft werden, ob der ursprüngliche Bauartnachweis noch anwendbar ist. Der Änderungsnachweis nennt betroffene Komponenten, neu erwartete Verlustleistungen, deren Position im Gehäuse und die vorgesehenen Lastfälle. Die Antwort „Gehäuse hat noch Platz“ ist keine thermische Beurteilung. Ein sauberer Re-Design-Prozess trennt die geometrische Montagefähigkeit von der elektrischen und thermischen Eignung.
+
+Fall 1: Fall 1 – Stromverdopplung.
+Bei 40 Ampere führt ein Übergangswiderstand von 4 Milliohm zu 6,4 Watt Verlustleistung. Bei 80 Ampere wären es 25,6 Watt. Der Faktor vier folgt direkt aus dem quadratischen Zusammenhang. Eine Verdopplung des Stroms kann die Wärmebeanspruchung deshalb erheblich verändern, auch wenn die Spannungsversorgung unverändert bleibt.
+
+Fall 2: Fall 2 – Lose Verbindung.
+Im Prüfbericht steht eine lokal erhöhte Temperatur an einer Klemme. Der angezeigte Strom ist gleich wie an benachbarten Klemmen. Das macht einen erhöhten Kontaktwiderstand plausibel, beweist ihn aber nicht allein. Die fachkundige Abklärung berücksichtigt Montagezustand, Messbedingungen und mögliche Unterschiede der Lastpfade, bevor ein sicherer Fehlerbefund formuliert wird.
+
+Fall 3: Fall 3 – Zwei Gehäusekonzepte.
+Ein Projektteam vergleicht ein kleines geschlossenes Gehäuse mit einer grösseren, geeigneten Kombination. Die elektrischen Bauteile sind gleich. Trotzdem kann die Wärmeverteilung unterschiedlich sein. Der Auswahlentscheid benötigt einen zulässigen thermischen Nachweis unter den vorgesehenen Betriebsbedingungen; die äussere Gehäusefläche allein reicht nicht als Beurteilung.
+
+Fall 4: Fall 4 – Wärmequellenkarte.
+Zeichne einen Verteilerschrank mit Einspeisung, zwei Leistungsschaltern, Steuerungsnetzteil und drei belasteten Abgängen. Trage beispielhafte Verlustleistungen von 15, 12, 8, 5, 5 und 5 Watt ein. Die Summe beträgt 50 Watt. Anschliessend markierst Du mögliche Wärmeinseln und erklärst, warum die Summenleistung die lokale Temperatur noch nicht eindeutig bestimmt.
+
+Fall 5: Fall 5 – Temperaturanstieg.
+In einem vereinfachten thermischen Ersatzmodell führt eine Wärmeleistung von 40 Watt bei einer angenommenen Widerstandsgrösse von 0,8 Kelvin pro Watt zu 32 Kelvin Anstieg. Bei 30 Grad Umgebung wären modellhaft 62 Grad an einem betrachteten Punkt zu erwarten. Der Wert ist nur dann sinnvoll, wenn genau beschrieben wird, welche Temperatur der Ersatzwiderstand abbildet; er ist keine allgemeingültige Gehäusefreigabe.
+
+Fall 6: Fall 6 – Häufung.
+Ein bislang seltener belasteter Stromkreis wird künftig dauerhaft betrieben. Obwohl kein neues Bauteil eingebaut wird, verändern sich thermische Randbedingungen und gleichzeitig belastete Stromkreise. Die fachliche Aufgabe besteht darin, den neuen Lastfall mit dem ursprünglichen Bemessungs- und Nachweisbereich zu vergleichen und nötigenfalls eine neue Beurteilung einzuleiten.
+
+Fall 7: Fall 7 – Thermografiebefund.
+Ein Bild zeigt einen hellen Fleck auf einer glänzenden metallischen Oberfläche. Das kann eine Spiegelung sein. Der fachliche Bericht hält Aufnahmewinkel, Emissionsannahme, Laststrom und Vergleichsbilder fest. Ohne diese Angaben wäre die Aussage „Klemme überhitzt“ nicht belastbar, selbst wenn das Bild eindrucksvoll aussieht.
+
+Fall 8: Fall 8 – Erweiterungsantrag.
+Ein Kunde verlangt zwei zusätzliche Umrichter in einem bereits vollen Schrank. Als Planer erstellst Du eine Liste der nachzuprüfenden Punkte: Einbaufläche, Verlustleistung, Kabelwege, Kühlung, Strombemessung, Kurzschlussbeanspruchung und Fortgeltung des Bauartnachweises. Erst nach einer dokumentierten Prüfung kann eine geeignete Erweiterungsvariante ausgewählt werden.
+
+Vertiefung 9: Zusatzfall – Verlustleistung unterschiedlicher Geräte.
+Zwei Netzteile liefern jeweils 240 Watt an die Steuerung. Das erste besitzt bei diesem Betriebspunkt 90 Prozent Wirkungsgrad, das zweite 95 Prozent. Die Eingangsleistungen betragen näherungsweise 267 beziehungsweise 253 Watt. Die inneren Verluste sind somit etwa 27 beziehungsweise 13 Watt. Die Differenz von rund 14 Watt kann die Wärmebilanz eines dicht bestückten Gehäuses beeinflussen. Die Rechnung liefert noch keine genaue Temperatur, zeigt aber, wie sich die Komponentenwahl auswirken kann. In einer vollständigen Bewertung sind auch andere Betriebszustände, zulässige Umgebungstemperaturen und die freigegebene Einbausituation zu berücksichtigen.
+
+Vertiefung 10: Zusatzfall – thermischer Lastwechsel.
+Ein Stromkreis wird nur für fünf Minuten pro Stunde stark belastet, ein zweiter über Stunden mit mittlerem Strom. Die thermische Wirkung kann sich unterscheiden, weil die Bauteile und das Gehäuse Wärme zeitverzögert aufnehmen und abgeben. Der einfache I²R-Wert beschreibt die momentane Verlustleistung, nicht den vollständigen Temperaturverlauf. Für die Prüfung gehören daher Betriebsdauer und Lastprofil zu den Annahmen. In einer Lernsimulation lässt sich die Gehäusetemperatur mit einem thermischen Ersatzmodell verzögert ansteigen und abfallen. Ein solches Modell zeigt den Zusammenhang, ersetzt aber keinen normativ vorgesehenen Erwärmungsnachweis der realen Schaltgerätekombination.
+
+Vertiefung 11: Zusatzfall – Vergleich mit alter Bauart.
+Ein Verteilerschrank soll in einem Nachfolgeprojekt übernommen werden. Die Geräte sind grundsätzlich gleich, aber der neue Standort ist wärmer und die Einspeiseleitungen werden aus einer anderen Richtung eingeführt. Beide Änderungen können das thermische Verhalten beeinflussen. Die verantwortliche Fachperson muss klären, welche Annahmen des bisherigen Bauartnachweises weiterhin erfüllt sind. Eine reine Kopie der früheren Stückliste könnte den neuen Betriebsfall verschleiern. Im Änderungsbericht werden Umgebung, Geräteposition, Leitungsanschluss und Lastprofil mit dem bisherigen Stand verglichen. Nur eine nachvollziehbare Bewertung erlaubt eine technische Entscheidung über die weitere Verwendung.
+
+Vertiefung 12: Fall 12 – Verlustleistungsdaten prüfen.
+Für eine Schaltgerätekombination liegen zwei Herstellerdatenblätter eines Netzteils vor. Das eine nennt Wirkungsgrad bei Volllast, das andere bei 50 Prozent Last. Ein direkter Vergleich ohne Betriebspunkt ist methodisch ungeeignet. Für das Entwurfsschema werden zunächst dieselbe Lastleistung, Umgebungstemperatur und zulässige Einbaubedingung festgelegt. Erst dann kann der zugehörige Verlustwert sinnvoll in die Wärmebilanz eingehen. Der Lernfall illustriert, dass präzise Einzelzahlen aus Datenblättern nur dann zu einer belastbaren Systemrechnung werden, wenn ihre Bezugsbedingungen übereinstimmen.
+
+Fachliche Schlusskontrolle. Fasse die geprüften Aussagen, die zugrunde liegenden Annahmen und die für einen echten Anlagenfreigabeentscheid noch fehlenden Nachweise auseinander. Verwende für die Selbstkontrolle den dazugehörigen Fallbericht; die Übungen an elektrischen Anlagen dürfen nur unter den dafür vorgeschriebenen fachlichen und organisatorischen Voraussetzungen durchgeführt werden.

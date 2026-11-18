@@ -25,3 +25,88 @@ An einer Anlage wurde eine neue Verteilertür montiert. Welche drei unterschiedl
 Musterlösung.
 
 Sichtprüfung von Abdeckungen/Kennzeichnung und Schutzleiterverbindungen, geeignete Funktionsprüfung von Verriegelungen sowie nur durch Fachpersonen durchgeführte elektrische Prüfungen. Die konkrete Auswahl und Reihenfolge richtet sich nach Anlage, Norm und Hersteller.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: An einer Anlage wurde eine neue Verteilertür montiert. Welche drei unterschiedlichen Nachweise würdest Du in einer fiktiven Prüfplanung vorsehen?
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Sichtprüfung von Abdeckungen/Kennzeichnung und Schutzleiterverbindungen, geeignete Funktionsprüfung von Verriegelungen sowie nur durch Fachpersonen durchgeführte elektrische Prüfungen. Die konkrete Auswahl und Reihenfolge richtet sich nach Anlage, Norm und Hersteller.
+
+Möglicher sicherer Übungsauftrag: Erstelle für ein 12-V-Labormodell eine Beobachtungs-, Funktions- und Messliste; die Netzprüfung bleibt dem Fachbetrieb vorbehalten.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Welcher Punkt gehört primär zur Sichtprüfung? Die richtige Antwort lautet: Beschriftung und Gehäuseschäden. Warum? Kennzeichnung und sichtbare Mängel werden beim Besichtigen beurteilt.
+
+Frage 2: Was ist bei einer Funktionsprüfung zusätzlich zu bedenken? Die richtige Antwort lautet: Unerwartete Bewegungen und Wirkungen. Warum? Schalthandlungen können Motoren, Aggregate oder Schutzeinrichtungen auslösen.
+
+Frage 3: Sind die drei Prüfarten austauschbar? Die richtige Antwort lautet: Nein, sie ergänzen sich. Warum? Eine einzelne Prüfart deckt nicht alle Qualitäts- und Sicherheitsfragen ab.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Besichtigen ist ein Erkenntnisverfahren.
+Bei der Besichtigung wird der Zustand einer Installation ohne die gleiche Eingriffsart wie bei einer elektrischen Messung beurteilt. Sichtbar sind beispielsweise beschädigte Abdeckungen, ungenügende Kennzeichnung, lose Leitungseinführungen oder fehlende Unterlagen. Das Verfahren hat jedoch klare Grenzen: Eine optisch ordentliche Installation kann intern einen elektrischen Fehler haben. Deshalb darf die Besichtigung nicht als Ersatz für die erforderlichen Messungen gelten. Ein gutes Prüfkonzept hält bei jedem Punkt fest, was beobachtet und was damit nicht bewiesen wurde. Im Lernmodell gehört zu einer Aufnahme des Verteilers immer eine schriftliche Zustandsnotiz mit eindeutiger Zuordnung, statt nur „Foto gemacht“ auf der Checkliste.
+
+Fachkapitel 2: Messen verlangt ein definiertes Ziel.
+Eine Messung ist eine quantitative Beobachtung unter festgelegten Bedingungen. Vorab muss klar sein, welche physikalische Grösse erwartet wird und welche Entscheidung daraus folgen soll. Beispielsweise kann eine Spannungsmessung eine Versorgung beschreiben, aber nicht automatisch die Schutzleiterdurchgängigkeit. Ebenso ist eine Strommessung ohne Kenntnis des Lastzustands schwer einzuordnen. In der Unterrichtssimulation wird für jeden Messpunkt eine Messfrage, ein geeignetes Messprinzip, ein erwarteter Bereich und ein Protokollfeld definiert. Das reale Arbeiten an Netzspannung, insbesondere das Öffnen oder Umschalten von Messkreisen, erfordert fachkundige Durchführung und geeignete Messmittel.
+
+Fachkapitel 3: Erproben kann Bewegung auslösen.
+Bei einer Erprobung wird eine Funktion bewusst ausgelöst oder überprüft. Anders als bei einer reinen Beobachtung kann sich der Zustand der Anlage ändern: Ein Motor läuft an, ein Ventil fährt um, eine Brandfallsteuerung wird aktiviert oder eine Kommunikationsverbindung wechselt. Eine scheinbar kleine Funktionsprüfung kann dadurch mechanische und organisatorische Gefahren auslösen. Die Planung braucht deshalb eine Freigabe für den Testzeitpunkt, sichere Beobachtungsmöglichkeiten und eine klare Rückstellung in den normalen Zustand. Im Lernmodell wird der Unterschied mit einer Pumpe erklärt: Der gemessene Steuerpegel ist eine Messung; das bewusste Starten der Pumpe ist eine Erprobung mit zusätzlichen Risiken.
+
+Fachkapitel 4: Messgerät wird Teil der Schaltung.
+Messgeräte beeinflussen das gemessene System. Ein Voltmeter besitzt einen Eingangswiderstand; ein Amperemeter wird auf andere Weise eingebunden und weist einen eigenen Spannungsabfall auf. Gerade die unbedachte Strommessung kann bei falscher Anschlussart zum Kurzschluss führen. Auf einem sicheren 12-Volt-Lernmodell lässt sich der Einfluss des Messgerätes mit einem Widerstandsteiler veranschaulichen. Zwei Widerstände von jeweils 10 Kiloohm ergeben bei 12 Volt idealisiert 6 Volt am Mittelpunkt. Ein Messgerät mit sehr geringem Eingangswiderstand würde den Teiler stark belasten und die Anzeige verändern. Die Messanordnung gehört daher zur Aussage über das Ergebnis.
+
+Fachkapitel 5: Messabweichung und Unsicherheit.
+Ein Messwert ist nie exakt und bedarf einer fachgerechten Interpretation. Angenommen, ein Laborinstrument zeigt 12,06 Volt bei einer spezifizierten möglichen Abweichung von plus oder minus 0,10 Volt. Der wahre Wert könnte unter diesen Modellannahmen zwischen ungefähr 11,96 und 12,16 Volt liegen. Ein Grenzwert von 12,00 Volt liesse sich damit nicht eindeutig bewerten. Das Beispiel lehrt, Messunsicherheit nicht erst am Ende zu erwähnen. Messbereich, Geräteklasse, Kalibrierstand, Leitungswiderstände und Umgebungsbedingungen können die Aussage beeinflussen. Eine normativ tragfähige Entscheidung benötigt das passende Bewertungsverfahren und die dokumentierten Randbedingungen.
+
+Fachkapitel 6: Prüfstrategie statt Messwut.
+Viele Messungen sind nicht automatisch besser. Eine sinnvolle Strategie beginnt mit der Gefährdungsbeurteilung und dem erwarteten Fehlerbild. Wenn ein Verbraucher nicht funktioniert, werden zunächst Versorgungszustand, Schaltbefehl und Rückmeldung logisch getrennt. Erst daraus ergeben sich die entscheidenden Messfragen. Ohne dieses Raster kann eine grosse Zahl ungeordneter Werte entstehen, die das Problem verdecken. Die Schülerinnen und Schüler erstellen einen Prüfbaum: Welche Beobachtung würde welche Hypothese bestätigen oder widerlegen? Damit wird die Messung zum gezielten Test einer Annahme statt zum zufälligen Sammeln von Zahlen.
+
+Fachkapitel 7: Dokumentation unterschiedlicher Tätigkeiten.
+In einem Prüfprotokoll darf ein bestandener Funktionstest nicht als Isolationsmessung ausgegeben werden. Jeder Eintrag nennt Tätigkeitsart, Zeitpunkt, Prüfobjekt, verwendetes Verfahren, Geräteidentifikation, gemessene oder beobachtete Resultate und die fachliche Bewertung. Ein Schema hilft dabei, Bericht und Bewertung zu trennen: zuerst der beobachtete Zustand, dann die Interpretation anhand der geltenden Anforderungen. Wenn ein Messpunkt nicht zugänglich war, darf kein fiktiver Zahlenwert eingetragen werden. Es bleibt ein offener Prüfpunkt, dessen weitere Behandlung organisatorisch entschieden werden muss.
+
+Fachkapitel 8: Sichere Ausbildungsumgebung.
+Die Lektion kann mit einem Kleinspannungsmodell, einer Simulation oder einem vorgegebenen Prüfprotokoll geübt werden. Die Lernenden unterscheiden etwa eine LED, die nicht leuchtet, einen Sensor mit dauerhaftem Ausgang und einen beschädigten Anschluss. Für jeden Fall werden Besichtigung, Messung und Erprobung als unterschiedliche Erkenntnisquellen eingesetzt. Praktische Tätigkeiten an 230/400 Volt gehören nicht in selbständige private Übungen. Das Abschlussziel ist, dass eine Person sicher sagen kann, welcher Nachweis erforderlich ist, wo ein Messwert keine ausreichende Grundlage bietet und wann eine Fachperson beigezogen werden muss.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Sichtbar ohne Schutzleiterprüfung.
+Die Erdungsklemme eines Gehäuses ist sichtbar angeschlossen. Darf daraus die Durchgängigkeit des Schutzleiters als bewiesen gelten? Nein. Die Besichtigung erkennt den sichtbaren Anschlusszustand, die elektrische Kontinuität ist eine separate Prüffrage. Die Lösung verlangt die Unterscheidung beider Nachweiskategorien und den Hinweis auf ein geeignetes fachliches Prüfverfahren.
+
+Fall 2: Pumpe startet überraschend.
+Bei einer geplanten Erprobung läuft eine Pumpe unerwartet an. Benenne den Unterschied zwischen vorgängiger Messung des Steuersignals und dem aktiven Funktionstest. Vor der Erprobung müssen bewegte Teile, beteiligte Personen, Betriebszustand und Rückstellung berücksichtigt werden. Ein grösserer Funktionsumfang erfordert eine neue Freigabe.
+
+Fall 3: Unklare Anzeige bei 12 Volt.
+Ein Messgerät zeigt 12,06 Volt mit angenommener Unsicherheit plus oder minus 0,10 Volt. Entscheide, ob eine Grenze von 12,00 Volt zweifelsfrei unterschritten oder überschritten ist. Antwort: Nein, der mögliche Wertbereich schneidet die Grenze. Ein belastbarer Entscheid benötigt passende Messgenauigkeit und Bewertungsregel.
+
+Fall 4: Strommessung falsch geplant.
+Eine Person schlägt vor, ein unbekanntes Amperemeter direkt parallel an einen Versorgungsausgang anzuschliessen. Beurteile das Risiko nur auf konzeptioneller Ebene: Der geringe Innenwiderstand kann einen gefährlichen Kurzschluss erzeugen. Die praktische Durchführung wird unterlassen, bis das Verfahren fachkundig geklärt ist.
+
+Fall 5: Daten ohne Messbedingungen.
+Im Protokoll steht nur „PE: 0,12“. Welche Angaben fehlen? Einheit, Prüfstrecke, Verfahren, Messmittel, Umgebungsbedingungen, Bewertung und Zuordnung zum Objekt. Das Beispiel zeigt, dass ein Zahlenwert ohne Kontext nicht als Qualitätsnachweis taugt.
+
+Fall 6: Fehlender Prüfpunkt.
+Eine Messung war wegen einer nicht zugänglichen Klemme nicht möglich. Der Prüfer will das Feld leer lassen und das Projekt abschliessen. Korrekte Dokumentation: Status „nicht geprüft“, Begründung, zuständige Person und nächste Massnahme. Ein nicht nachgewiesener Sicherheitsaspekt darf nicht stillschweigend als bestanden gelten.
+
+Fall 7: Widerstandsteiler und Messgerät.
+Zwei Widerstände von je 10 Kiloohm bilden einen Teiler an 12 Volt. Ohne Messgerät ergibt sich idealerweise ein Mittelpunkt von 6 Volt. Wird der untere Widerstand durch ein Messgerät mit ebenfalls 10 Kiloohm Eingangswiderstand belastet, entsteht ein Parallelwiderstand von 5 Kiloohm. Dann zeigt der Teiler rechnerisch nur 12 mal 5 geteilt durch 15, also 4 Volt. Das illustriert anschaulich, dass eine Messung das System verändern kann. Der Lernversuch wird ausschliesslich am geeigneten Kleinspannungsmodell oder in einer Simulation durchgeführt. Eine Interpretation von Netzspannungsmessungen ist daraus nicht automatisch abzuleiten.
+
+Fall 8: Erprobung mit Personengefahr.
+Ein Wartungsteam möchte eine Türfreigabe an einer automatisierten Maschine testen. Der Test könnte einen Aktor bewegen. Die Lernaufgabe verlangt daher eine vorgängige Beurteilung von Gefährdung, betroffenen Personen, Testgrenze und geordneter Rückstellung. Ein beobachteter Kontaktwechsel ist noch keine vollständige Prüfung der sicherheitsgerichteten Funktion. Diese bedarf gegebenenfalls eines gesonderten Nachweis- und Validierungsverfahrens. Die Musterlösung unterscheidet den einfachen Signaltest von der systematischen Überprüfung einer Schutzfunktion und formuliert, welche kompetente Person vor der Erprobung beizuziehen ist.
+
+Fall 9: Messunsicherheit am Grenzwert.
+Zwei Messgeräte zeigen für dieselbe hypothetische Grösse 11,98 und 12,04 Einheiten. Beide haben eine mögliche Abweichung von plus oder minus 0,1. Entscheide, ob das eine Gerät den Grenzwert von 12 eindeutig unterschreitet und das andere ihn eindeutig überschreitet. Nein: Beide Unsicherheitsintervalle überdecken die Grenze. Zusätzlich können Referenzzustand, Geräteprüfung und Messaufbau die Aussage beeinflussen. Die Konsequenz ist eine dokumentierte Unsicherheitsbewertung, nicht das Auswählen des günstigeren Ergebnisses. Bei Sicherheitsnachweisen entscheidet das anzuwendende Originalverfahren über die korrekte Bewertung.
+
+Fall 10: Prüfbericht ohne Tätigkeitsart.
+Ein Protokoll enthält die Einträge „Kontrolle gut“, „Schaltung geprüft“ und „Isolation OK“. Entwickle eine Verbesserung, ohne Werte zu erfinden. Jedes Feld erhält eine konkrete Prüfart, das Objekt, die Prüfmethode und das tatsächlich vorliegende Resultat. Fehlt ein Messwert, wird der Punkt als nicht dokumentiert ausgewiesen. Besonders wichtig ist die Abgrenzung: Eine Sichtkontrolle beweist keine Isolationsmessung, eine Erprobung der Funktion beweist nicht alle Schutzbedingungen. Der Fall zeigt, warum präzise Sprache ein Bestandteil von Elektrosicherheit ist.
+
+Fall 11: Messplan für ein 12-Volt-Lernmodell.
+Im Labor soll ein 12-Volt-Modell mit zwei Widerständen, LED und Schalter untersucht werden. Erstelle einen Plan für drei Tätigkeitsarten. Bei der Besichtigung werden Bauteilwerte, Polung, Leitungszustand und Kennzeichnung geprüft. Bei einer quantitativen Messung werden Versorgungsspannung und Spannungsabfall über dem Lastwiderstand als getrennte Grössen dokumentiert. Eine Erprobung beobachtet, ob die LED beim Betätigen des Schalters erwartungsgemäss reagiert. Welche Fehlerhypothesen lassen sich aus jedem Ergebnis ableiten? Ein offener LED-Zweig kann eine funktionierende Versorgung bei fehlendem LED-Strom zeigen, während eine falsche LED-Polung trotz korrektem Versorgungspotenzial dunkel bleiben kann. Begründe, weshalb das Einschalten der Schaltung kein vollständiger Messnachweis ist. Halte Messgerät, Schaltungszustand und erwartete Werte fest. Der Versuch bleibt auf einem geeigneten Kleinspannungsmodell; eine Übertragung auf reale Niederspannungsinstallationen erfolgt nur im beaufsichtigten Fachrahmen.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.

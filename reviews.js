@@ -24,6 +24,22 @@ function merged(a,b){const newer=Date.parse(a?.updated||'')>=Date.parse(b?.updat
  for(const key of ['quizAnswers','notes','audioIndex','audioTime','reviews','exerciseProgress','quizAttemptDone','normNotes','normQuiz','normStudyNotes'])r[key]={...(older?.[key]||{}),...(newer?.[key]||{})};
  const events=[...(a?.attemptHistory||[]),...(b?.attemptHistory||[])];r.attemptHistory=[...new Map(events.map(x=>[x.id||`${x.lessonId}-${x.at}-${x.score}`,x])).values()].sort((x,y)=>String(x.at).localeCompare(String(y.at))).slice(-2000);
  r.adaptiveResults=[...new Map([...(a?.adaptiveResults||[]),...(b?.adaptiveResults||[])].map(x=>[`${x.at}-${x.level}-${x.kind}-${x.correct}`,x])).values()].sort((x,y)=>String(x.at).localeCompare(String(y.at))).slice(-500);
+ // v0.9: keep nested study-workshop data across optional cloud merges.
+ const acNew=newer?.academy||{}, acOld=older?.academy||{};
+ const ac={...acOld,...acNew};
+ for(const key of ['competence','confidence','projectNotes','projectChecks','docs','safety','lessonBookmarks','audioPos']){
+  ac[key]={...(acOld[key]||{}),...(acNew[key]||{})};
+ }
+ for(const key of ['portfolio','reports','exams']){
+  const seen=new Set(),items=[];
+  for(const item of [...(acOld[key]||[]),...(acNew[key]||[])]){
+   const id=JSON.stringify(item);if(seen.has(id))continue;seen.add(id);items.push(item)
+  }
+  ac[key]=items.slice(key==='exams'?-40:-250);
+ }
+ // Active timed exam from newer side only; never combine two running attempts.
+ ac.exam=acNew.exam||null;
+ r.academy=ac;
  r.updated=new Date().toISOString();return r;
 }
 window.ElektroReviews={review,due,stats,merged};

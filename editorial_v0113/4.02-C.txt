@@ -1,0 +1,95 @@
+Lektion 4.02-C: Schutzfälle und sichere Freigabeentscheidungen. Eine Anlage kann auf dem Papier elektrisch funktionieren und dennoch unzulässige Schutzbedingungen besitzen. Ein vertiefter Schutzreview prüft Netzsystem, mögliche Kurzschlussströme, Spannungsfall, Erwärmung, R C D-Konzept und besondere Umgebungen. Die Freigabe muss durch die zuständigen Fachpersonen erfolgen. Ein Selbstlernprogramm kann die Beurteilungslogik vermitteln, aber keine echte Prüfung ersetzen. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Du erhältst drei fiktive Fälle: lange Leitung, ungeeigneter R C D-Typ und fehlende Erdungsinformation. Weise für jeden Fall den fehlenden Nachweis zu und entscheide, ob die Planung vor einer Ausführung gestoppt werden muss. Begründe alle Entscheidungen schriftlich. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Bei unbekannten Schutzbedingungen lautet die Entscheidung: nicht freigeben. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Schutz in langen Leitungen und bei besonderen Netzen; Erdung/Potenzialausgleich in komplexen Anlagen. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Volt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: NIN Teil 4/5/6; Hersteller-Selektivitätstabellen. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim ESTI überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Schutz in langen Leitungen und bei besonderen Netzen; Erdung/Potenzialausgleich in komplexen Anlagen.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Erwärmung bei höherem Strom. An einem unveränderten ohmschen Widerstand wird der Strom theoretisch verdoppelt.
+
+Schritt 1. Verlustleistung: P = I² · R.
+
+Schritt 2. Wird I verdoppelt, dann wird I² zu (2I)² = 4I².
+
+Schritt 3. Die ohmsche Verlustleistung steigt damit auf das Vierfache.
+
+Schritt 4. Das ist keine Selektivitätsbeurteilung; dafür werden Geräteeigenschaften und Kennlinien benötigt.
+
+Kontrolle des Ergebnisses: Strom verdoppeln → vierfache ohmsche Verlustleistung.
+
+Übungsauftrag zur Anwendung: Reine Rechen- und Tabellenstudien; jede reale Schutzprüfung nur unter fachkundiger Leitung. Halte zusätzlich die Antwort auf die Frage «Was ist bei fehlendem Schutz-Nachweis angemessen?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist bei fehlendem Schutz-Nachweis angemessen? Die richtige Antwort lautet: Planung stoppen und fachlich klären. Warum? Bei unbekannten Schutzbedingungen lautet die Entscheidung: nicht freigeben.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Bei unbekannten Schutzbedingungen lautet die Entscheidung: nicht freigeben.. Warum? Der Merksatz lautet: Bei unbekannten Schutzbedingungen lautet die Entscheidung: nicht freigeben.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuell redigiertes Unterrichtsmanuskript.
+
+
+Fachkapitel 1: Schutzentscheidungen beginnen mit dem Fehlerbild.
+Ein Stromkreis darf nicht freigegeben werden, nur weil eine Leuchte einschaltet oder eine Steckdose Spannung führt. Wir müssen wissen, welcher Fehler angenommen wurde, welche Strom- und Berührungsspannungswege daraus entstehen und welches Schutzorgan die Gefährdung innerhalb der für diesen Fall geltenden Bedingungen beendet. Bei einer langen Zuleitung können ein niedriger prospektiver Fehlerstrom und eine lange Abschaltzeit zusammenkommen. Die fachliche Freigabe setzt deshalb ein nachvollziehbares Schutzkonzept voraus, nicht bloss den Aufdruck eines Leitungsschutzschalters. Als Lernziel erstellen wir eine Prüfkette aus Netzsystem, Fehlersituation, Schutzmassnahme, Messwert, anzuwendender Anforderung und Entscheidung.
+
+Fachkapitel 2: Lange Leitungen und Fehlerschleifen.
+Eine Leitung hat Widerstand; mit ihrer Länge wächst die Schleifenimpedanz. Für einen reinen Rechenfall setzen wir am Ende eines Stromkreises 0,92 Ohm und eine Modellspannung von 230 Volt an. Der vereinfachte Fehlerstrom beträgt rund 250 Ampere. Verdoppeln wir bei sonst gleicher Situation die Schleifenimpedanz auf 1,84 Ohm, bleiben rund 125 Ampere. Diese Zahlen sagen noch nicht, dass die Abschaltung ausreichend schnell erfolgt: Die konkrete Zeit-Strom-Kennlinie, Toleranzen, Netzbedingungen und die normative Zuordnung fehlen. Lernende müssen den Unterschied zwischen einer physikalischen Schätzung und einem rechtsgültigen Abschaltnachweis erklären.
+
+Fachkapitel 3: Schutzleiter und Potenzialausgleich sind unterschiedliche Ebenen.
+Beim Schutzleiter geht es unter anderem darum, einen definierten Fehlerstromweg und die Wirkung der Schutzmassnahmen zu ermöglichen. Der Schutzpotenzialausgleich verringert gefährliche Potenzialunterschiede zwischen gleichzeitig zugänglichen leitfähigen Teilen. Wird ein PE in einer Zeichnung nachgetragen, ist damit seine tatsächliche elektrische Durchgängigkeit nicht bewiesen. Ebenso darf ein fremdes leitfähiges Teil nicht ohne Prüfung als wirksamer Rückleiter betrachtet werden. Im Plan werden beide Funktionen ausdrücklich benannt. Die Lernenden erklären, welche Art von Messung für welche Behauptung nötig wäre, und vermeiden die Formulierung: grün-gelb vorhanden, also alles sicher.
+
+Fachkapitel 4: Andere Netze, andere Fehlerwege.
+Im TN-System kann ein Körperschluss einen vergleichsweise hohen Strom im metallischen Fehlerpfad erzeugen. Im TT-System beeinflussen Erdungswiderstände den Fehlerstrom stärker; RCDs spielen daher im Schutzkonzept oft eine wesentliche Rolle. Im IT-System verändert der erste Erdschluss die Situation, ohne zwingend eine sofortige Abschaltung auszulösen; eine entsprechende Fehlererkennung und die Behandlung eines zweiten Fehlers werden entscheidend. Deshalb führt eine einzige pauschale Aussage über den richtigen Leitungsschutzschalter in die Irre. Vor einer Freigabe wird das tatsächliche Netzsystem festgestellt und im Protokoll dokumentiert.
+
+Fachkapitel 5: Messergebnis gegen Soll-Anforderung stellen.
+Der Ablauf lautet nicht: Messgerät anschliessen, Zahl ablesen und grünes Häkchen vergeben. Zunächst wird das Prüfziel bestimmt, dann das Messverfahren samt sicherem Anlagenzustand, danach die erwartete Grösse und die anwendbare Beurteilungsregel. Ein Messwert von 0,48 Ohm kann in einer Konstellation plausibel und in einer anderen kritisch sein. Er allein enthält weder Netzsystem noch Schutzeinrichtung, Messstelle, Temperatur, Prüfmittelabweichung oder Abschaltanforderung. Im Unterricht werden diese fehlenden Daten bewusst als offene Felder geführt. Sie zeigen, warum reale Prüfungen qualifizierte Personen benötigen.
+
+Fachkapitel 6: Selektivität und Personenschutz nicht verwechseln.
+Eine selektive Anordnung strebt an, dass möglichst nur das dem Fehler nächstliegende Schutzorgan abschaltet. Der Schutz vor elektrischem Schlag hat hingegen verbindliche Priorität. Ein vorgeschlagenes Verzögern eines Schutzgeräts, um die Verfügbarkeit zu erhöhen, darf die erforderlichen Schutzbedingungen nicht unterlaufen. Man kann an einem Modell mit Hauptschutz und Endstromkreisschutz diskutieren, welcher Fehler welche Anlagenteile abschalten sollte; die exakte Abstimmung verlangt aber echte Herstellerkennlinien und gegebenenfalls Koordinationstabellen. Aus identischen Nennströmen kann man keine Selektivität ableiten.
+
+Fachkapitel 7: Freigabeentscheid als dokumentierte Begründung.
+Eine belastbare Dokumentation unterscheidet drei Ergebnisse: nachgewiesen, nicht nachgewiesen und abweichend. Wenn ein Wert fehlt, darf dies nicht als bestanden ausgelegt werden. Bei einer Abweichung wird die Ursache untersucht, der betroffene Anlagenteil gesichert und erst nach Massnahme und vorgeschriebener Wiederholprüfung erneut beurteilt. Das Protokoll hält Stromkreisbezeichnung, Schutzorgan, Messpunkt, Prüfergebnis, verwendetes Regelwerk und Verantwortlichkeit fest. Diese Struktur macht einen Freigabeentscheid für eine zweite Fachperson nachvollziehbar. Eine theoretische Lösung in der Lernplattform ist niemals selbst eine reale Anlagenfreigabe.
+
+Fachkapitel 8: Besondere Verbraucher verschieben die Randbedingungen.
+Ein Frequenzumrichter, eine PV-Einspeisung oder ein Ladepunkt kann die Form von Fehlerströmen und die Zuordnung der Schutzorgane beeinflussen. Auch Leitungslängen, Temperatur, Häufung und Betriebsarten müssen berücksichtigt werden. Lernende sollen deshalb zuerst nach veränderten Annahmen suchen, wenn ein Schutzkonzept aus einem Standardbeispiel auf eine komplexere Anlage übertragen wird. Welche Fehlerschaltung entsteht bei alternativer Versorgung? Welche Angaben liefert der Hersteller? Muss eine RCD-Art oder eine DC-Fehlerstromerkennung gesondert geprüft werden? Erst die Antworten erlauben eine fundierte Planung.
+
+Fachkapitel 9: Fachliche Rückprobe und Eskalation.
+Wir betrachten als Abschluss einen Stromkreis, dessen Messwert am langen Leitungsende deutlich schlechter ausfällt als nahe der Verteilung. Die erste fachliche Reaktion ist nicht, eine stärkere Sicherung einzubauen. Stattdessen werden Leitungslänge, Übergangswiderstände, Klemmen, Querschnitt, Schutzorgan und Messverfahren anhand der Unterlagen geprüft. Besteht ein sicherheitsrelevanter Zweifel, bleibt der betreffende Anlagenteil ausser Betrieb, bis die zuständige Fachperson den Schutz nachgewiesen hat. Das ist der Unterschied zwischen einer Fehlerbeobachtung und einer professionellen Freigabeentscheidung.
+
+Praxisfälle mit Lösungen und fachlicher Begründung.
+
+
+Aufgabe 1: Schleifenimpedanz am Leitungsende.
+230 Volt dividiert durch 1,15 Ohm ergeben modellhaft 200 Ampere. Rechne bei 0,75 Ohm erneut: rund 307 Ampere. Die höhere Stromstärke bei kleinerer Impedanz ist plausibel. Aus keinem der beiden Werte darf ohne Kennlinie und weitere Bedingungen eine normgerechte Abschaltzeit behauptet werden.
+
+Aufgabe 2: Fehlender Schutzleiterbefund.
+Ein vorhandener PE-Anschluss ist beschriftet, aber eine Durchgängigkeitsprüfung ist nicht dokumentiert. Die richtige Statusbezeichnung lautet nicht bestanden, sondern Nachweis offen. Der Prüfauftrag muss den Zustand und die zu veranlassende fachgerechte Prüfung ausweisen.
+
+Aufgabe 3: TT statt TN.
+Ein Projektdokument zeigt TT, die bisherige Berechnung setzt einen niederohmigen metallischen Rückweg zur Quelle voraus. Diese Annahme ist unzulässig. Formuliere das Prüfergebnis als offen und verlange eine neue Schutzbewertung mit dem korrekten Erdungs- und RCD-Konzept.
+
+Aufgabe 4: Überdimensionierter Leitungsschutz.
+Eine lange Leitung weist eine mögliche Überlast auf. Jemand schlägt einen grösseren Leitungsschutzschalter gegen unerwünschte Auslösung vor. Erkläre, warum vor einer Änderung Leiterbelastbarkeit, Verlegebedingungen, Strombedarf, Schutzkoordination und der tatsächliche Auslösegrund untersucht werden müssen.
+
+Aufgabe 5: Vergleich zweier Unterverteilungen.
+Zwei Unterverteilungen speisen ähnliche Lasten, aber nur eine enthält eine dokumentierte Ersatzstromversorgung. Erkläre, warum der Fehlerstrom im Inselbetrieb gesondert zu betrachten ist. Der Rückweg und die Schutzeinrichtung können sich mit der Betriebsart ändern.
+
+Aufgabe 6: Anlagenfreigabe als Entscheidungsmatrix.
+Notiere für Schutzleiterdurchgängigkeit, RCD-Funktion und Abschaltbedingung jeweils einen Status aus nachgewiesen, offen oder abweichend. Mindestens ein Punkt ist offen. Ergebnis: Keine uneingeschränkte Freigabe; Zuständigkeit, fehlenden Nachweis und erforderliche Nachprüfung festhalten.
+
+Abschlusskontrolle und Einordnung.
+Bearbeite abschliessend drei Fragen: Welche physikalischen oder logischen Annahmen lagen den Rechnungen und Beispielen dieser Lektion zugrunde? Welcher zweite Messpunkt, welche Quellenangabe oder welche unabhängige Kontrolle könnte das Ergebnis bestätigen? Was muss eine verantwortliche Fachperson vor einer realen Freigabe ergänzend prüfen? Halte Deine Antwort im Unterrichtsprotokoll fest. Die behandelten Beispiele sind bewusst Lernmodelle; ihre Plausibilität ersetzt weder Herstellerinformationen noch die geltenden Sicherheitsregeln oder einen fachgerechten Anlagenachweis.
+
+
+Vertiefende Fallanalyse: Entscheidungsmatrix für eine Leitung im Aussenbereich.
+Nehmen wir eine fiktive 38 Meter lange Verbindung zu einer Aussensteckdose. Dokumentiert sind der Anschlussort, ein Leitungsschutzschalter mit 16 Ampere Nennstrom und ein zweiter Leitungsabschnitt unbekannter Verlegeart. Die Frage lautet nicht: Ist sechzehn Ampere erlaubt? Wir zerlegen das Problem in Einzelprüfungen. Erstens braucht es den tatsächlichen Leiterquerschnitt und die Verlegebedingungen einschliesslich Umgebungseinflüssen. Zweitens muss die Zuordnung der Schutzeinrichtung zu dieser Leitung bekannt sein. Drittens werden Fehlerpfad und Abschaltbedingungen mit geeigneten Methoden nachgewiesen. Viertens sind für den Aussenbereich zusätzliche Schutz- und Umgebungsanforderungen zu recherchieren. Ein sorgfältiger Bearbeiter kann bei unbekannter Verlegeart bereits keinen abschliessenden Auslegungsentscheid treffen. Der Unterricht soll genau dieses bewusste Stoppen an einer fehlenden Eingangsgrösse trainieren. Wer stattdessen eine vertraute Tabellenzahl rät, übersieht möglicherweise den entscheidenden Einfluss der Wärmeabfuhr oder einer ungewöhnlichen Leitungsführung. Für die Protokollübung wird daher der Status Schutzbeurteilung offen ausgegeben, gefolgt von der Liste der fehlenden Angaben. Eine solche fachliche Offenheit ist ein Qualitätsmerkmal und keine unvollständige Lösung.
+
+Vertiefende Fallanalyse: Rückprobe zur Abschaltung und zum Nachweis.
+Wir analysieren zwei Datenblätter von fiktiven Schutzeinrichtungen, deren thermische und magnetische Auslösebereiche unterschiedlich sind. Obwohl beide denselben Nennstrom tragen, ist die für einen bestimmten Fehlerstrom zu erwartende Abschaltzeit nicht automatisch gleich. Im Lernprotokoll wird deshalb nicht nur der berechnete Strom notiert, sondern der Punkt auf der zugehörigen Zeit-Strom-Kurve markiert. Liegt die Kurve als Streubereich vor, ist nicht einfach die günstigste mögliche Auslösezeit zu wählen. Eine weitere Rückprobe fragt, ob die Messung am tatsächlich ungünstigsten Punkt stattgefunden hat und ob eine andere Versorgung das Fehlerbild verändert. Wenn diese Punkte nicht geklärt sind, darf der Befund nicht als nachgewiesene Schutzfunktion bezeichnet werden. Im echten Anlagenbetrieb können zudem RCDs und weitere Schutzorgane zusammenwirken. Die Fachperson muss deren Koordination anhand aktueller Geräteinformationen und des gültigen Regelwerks beurteilen. Ein einzelner beispielhafter Wert aus der Schulungssoftware genügt dafür ausdrücklich nicht.
+
+Mündliche Abschlussaufgabe.
+Abschliessende Prüfungsfrage: Ein Kunde möchte wissen, ob er einen neuen elektrischen Verbraucher einfach an einer vorhandenen langen Leitung betreiben darf. Die fachliche Antwort kann nicht aus einem einzigen Schutzschalternennstrom abgeleitet werden. Für eine begründete Bewertung werden Anschlussdaten des Verbrauchers, Leitungsart und -länge, Verlegeumgebung, Netzsystem und vorhandene Schutzmassnahmen dokumentiert. Es ist zudem zu klären, wer die Änderung ausführen und prüfen darf. Lernende sollen drei Kategorien bilden: bereits nachgewiesene Fakten, noch fehlende technische Daten und rechtlich relevante Freigabeschritte. Eine schriftliche Schlussfolgerung lautet nur dann geeignet, wenn tatsächlich alle für den Fall erforderlichen Nachweise vorliegen. Die Methode schützt davor, unter Zeitdruck eine unbegründete Zusage abzugeben.

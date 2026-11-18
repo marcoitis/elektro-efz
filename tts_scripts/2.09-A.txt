@@ -1,1 +1,132 @@
+Einführung und Lernziele.
+Lektion 2.09-A: Elektrische Wärme und Wärmemenge. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Elektrische Wärme als Energiewandlung.
+Ein Widerstandsheizer wandelt elektrische Energie vor allem in thermische Energie um. Für einen ohmschen Widerstand gilt P = U mal I, ausserdem P = I Quadrat mal R. Mit 230 Volt und einer Leistungsaufnahme von 920 Watt ergibt sich im idealisierten stationären Betrieb I = 920 geteilt durch 230 = 4 Ampere. Die Rechnung ist nur gültig, wenn diese Werte tatsächlich zur gleichen Betriebsbedingung gehören. Bei einem temperaturabhängigen Heizwiderstand kann der Einschaltstrom von der Stromaufnahme im warmen Zustand abweichen. Gerade bei Heizgeräten ist es deshalb wichtig, Nennwert und Momentanwert zu unterscheiden.
+
+Leistung und Energie dürfen nicht verwechselt werden.
+Leistung beschreibt die Geschwindigkeit der Energieübertragung, Energie die über eine Zeit übertragene Menge. Ein Gerät mit 2 Kilowatt, das 45 Minuten durchgehend läuft, nimmt 1,5 Kilowattstunden auf. Man rechnet 2 Kilowatt mal 0,75 Stunden. Werden 45 Minuten fälschlich als 45 Stunden eingesetzt, wird das Resultat um den Faktor 60 zu gross. Ein Thermostat kann dafür sorgen, dass die Leistung nur zeitweise bezogen wird. Auf der Rechnung steht dann nicht die maximale Anschlussleistung, sondern die tatsächlich über die Zeit bezogene elektrische Energie.
+
+Wärmekapazität und Temperaturänderung.
+Die sensible Wärmemenge lässt sich mit Q = m mal c mal Delta T abschätzen. Für Wasser gilt näherungsweise c = 4,18 Kilojoule pro Kilogramm und Kelvin. Zwei Kilogramm Wasser von 20 auf 60 Grad Celsius zu erwärmen benötigt idealisiert 2 mal 4,18 mal 40 = 334,4 Kilojoule, also rund 0,093 Kilowattstunden. Die Rechnung erfasst keine Verluste an Behälter, Luft oder Rohrleitungen. Die benötigte Strommenge ist somit nicht identisch mit der ideal berechneten Erwärmungsenergie. Das ist kein Rechenfehler, sondern der Unterschied zwischen Modell und realem System.
+
+Wirkungsgrad und Systemgrenze.
+Der Wirkungsgrad ist das Verhältnis einer festgelegten Nutzenergie zur zugeführten Energie. Bei direkter elektrischer Widerstandsheizung wird die elektrische Energie am Heizwiderstand praktisch vollständig zu Wärme. Dennoch kann ein System über Gehäuse, Leitungen oder ungewollte Wärmeabgabe Energie verlieren, wenn als Nutzwirkung nur die Erwärmung eines bestimmten Mediums gilt. Man muss deshalb vor jeder Wirkungsgradangabe fragen, wo die Systemgrenze liegt. Bei einer Wärmepumpe ist die Leistungszahl eine andere Kenngrösse: Sie kann grösser als eins sein, weil zusätzlich Umweltwärme transportiert wird. Sie ist nicht mit einem gewöhnlichen Wirkungsgrad gleichzusetzen.
+
+Thermostate und Regelverhalten.
+Ein Zweipunktthermostat schaltet eine Heizung bei einer unteren Temperaturschwelle ein und bei einer oberen wieder aus. Diese Schaltdifferenz heisst Hysterese. Ohne Hysterese könnte das Gerät wegen kleiner Messschwankungen ständig ein- und ausschalten. Eine Solltemperatur von 22 Grad bedeutet daher nicht, dass die tatsächliche Temperatur zu jedem Zeitpunkt genau 22 Grad beträgt. Für einen Energievergleich muss man das komplette Temperatur- und Nutzungsprofil betrachten. Eine höhere Anschlussleistung kann die gewünschte Temperatur schneller erreichen, muss aber bei gleichem Energiebedarf nicht zwingend mehr Strom verbrauchen.
+
+Wärmeverluste und stationäres Gleichgewicht.
+Die Wärmeleistung, die an die Umgebung abgegeben wird, hängt unter anderem vom Temperaturunterschied, von Wärmeübergängen und der Dämmung ab. Ein warmer Behälter verliert bei zunehmendem Temperaturunterschied typischerweise mehr Energie. Im stationären Zustand entspricht die zugeführte Wärmeleistung den laufenden Verlusten. Die Temperatur steigt dann nicht weiter, obwohl Strom fliesst. Diese Beobachtung erklärt, weshalb aus der aufgenommenen Kilowattstundenzahl nicht direkt die Temperaturerhöhung eines Geräts abgeleitet werden darf. Gerade bei langen Nutzungszeiten dominieren oft die Wärmeverluste und nicht die einmalige Aufheizenergie.
+
+Fehlersuche auf Datenblattniveau.
+Wenn eine Heizleistung angeblich 1,5 Kilowatt beträgt, kann man anhand der Nennspannung grob die erwartete Stromaufnahme berechnen. Bei 230 Volt wären es etwa 6,5 Ampere, sofern sich die Last hinreichend ohmsch verhält. Weicht eine veröffentlichte Angabe stark davon ab, prüft man zunächst, ob Spannung, Betriebsphase und Leistungsart wirklich zusammenpassen. Eine Motorheizung, eine Temperaturregelung mit Leistungselektronik und ein stufenweise betriebenes Gerät lassen sich nicht unkritisch mit einer einzigen Ohm-Rechnung beschreiben. Bei realen Installationen sind Messung und Anschlussbeurteilung Fachpersonen vorbehalten.
+
+Übungsfall und Lösung.
+Ein elektrischer Boiler erhitzt idealisiert 80 Kilogramm Wasser von 15 auf 55 Grad Celsius. Mit Q = m mal c mal Delta T ergibt sich 80 mal 4,18 mal 40 = 13 376 Kilojoule. Geteilt durch 3 600 sind das rund 3,72 Kilowattstunden. Bei einer tatsächlichen elektrischen Aufnahme von 4,5 Kilowattstunden entfallen im gewählten Betrachtungszeitraum rechnerisch rund 0,78 Kilowattstunden auf Speicher-, Leitungs- und weitere Verluste. Die Modell-Effizienz bezogen auf die Erwärmung des Wassers beträgt rund 82,6 Prozent. Eine echte Systembeurteilung muss Nutzungsprofil und Bilanzgrenze genauer definieren.
+
+Fehleranalyse und Transfer.
+Eine verbreitete Fehlannahme lautet: Ein 2-Kilowatt-Gerät benötigt immer doppelt so viel Energie wie ein 1-Kilowatt-Gerät. Das stimmt nur bei identischer Einschaltdauer. Läuft das stärkere Gerät halb so lange, kann die bezogene Energie gleich sein. Ein zweiter Fehler liegt darin, Watt und Kilowattstunden als dieselbe Grösse zu behandeln. Ordne in der Lernkontrolle folgende Begriffe: Leistung, Energie, Wärmemenge, Wirkungsgrad, Temperatur und Wärmekapazität. Jede Grösse benötigt eine eigene Einheit und eine nachvollziehbare Mess- oder Rechenmethode.
+
+Szenario Temperaturanstieg.
+Ein elektrisch beheizter Metallkörper nimmt zunächst rasch Wärme auf. Je wärmer er wird, desto grösser können die Verluste an die Umgebung sein. Deshalb lässt sich die anfängliche Aufheizgeschwindigkeit nicht linear bis zur Endtemperatur fortschreiben. Wenn ein Messprotokoll nach fünf Minuten zehn Grad Anstieg zeigt, ist die Schlussfolgerung von zwanzig Grad nach zehn Minuten nur unter besonderen Bedingungen zulässig. Ein verantwortlicher Rechenweg vergleicht die tatsächlich aufgenommene elektrische Energie mit gespeicherter Wärme und abgegebener Verlustwärme. Die richtige Antwort auf eine unvollständige Aufgabenstellung kann sein, dass eine zusätzliche Information fehlt.
+
+Wärmeenergie in verschiedenen Einheiten.
+Bei der Umrechnung von Joule in Kilowattstunden entstehen häufig erhebliche Fehler. Eine Kilowattstunde entspricht 3,6 Millionen Joule. Für 900 000 Joule ergibt sich damit 0,25 Kilowattstunden. In der entgegengesetzten Richtung entspricht eine elektrische Aufnahme von 0,4 Kilowattstunden 1,44 Megajoule. Solche Umrechnungen sind wichtig, wenn Wärmedaten als Kilojoule und elektrische Verbrauchswerte als Kilowattstunden vorliegen. Prüfe nach jedem Rechenschritt die Dimension: Leistung mal Zeit muss Energie ergeben, während Energie geteilt durch Zeit wieder eine Leistung ergibt. Diese Rückprüfung findet viele Fehler ohne zusätzliche Messgeräte.
+
+Vergleich zweier Heizsysteme.
+Ein Widerstandsheizgerät benötigt für eine definierte Aufgabe 2,0 Kilowattstunden elektrischer Energie. Ein anderes Gerät benötigt nur 1,3 Kilowattstunden und erfüllt unter den genannten Bedingungen dieselbe Aufgabe. Die Differenz beträgt 0,7 Kilowattstunden. Bei 0,28 Franken pro Kilowattstunde ergibt das rechnerisch 0,196 Franken pro Nutzung. Welche Technik dahintersteht, ist damit noch nicht erklärt. Im Bericht werden Wärmebedarf, Nutzungsdauer, Energiequelle, Randbedingungen und tatsächliches Lastprofil getrennt dargestellt. Ein Vergleich allein anhand der Nennleistung wäre unzureichend, weil die jeweiligen Betriebszeiten und Regelstrategien unterschiedlich sein können.
+
+Störbild und Diagnose.
+Eine Anlage erreicht die gewünschte Temperatur nicht mehr. Mögliche Erklärungen sind eine reduzierte elektrische Heizleistung, höhere Wärmeverluste, ungünstige Sensorposition oder ein fehlerhafter Regler. Aus dem Symptom allein folgt keine eindeutige Ursache. Ein sinnvolles Diagnosekonzept sammelt erst Sollwert, Istwert, Betriebsdauer und Energieverlauf; danach werden Hypothesen geprüft. Bei realen Geräten müssen elektrische Prüfungen von der berechtigten Fachperson durchgeführt werden. Für eine sichere Lernaufgabe genügen Datenblattangaben und ein simuliertes Zeitdiagramm. Das Ziel ist, Ursache und beobachtete Wirkung nicht miteinander zu verwechseln.
+
+Kontrollfragen mit Begründung.
+Warum erwärmt eine 500-Watt-Heizung einen Raum nicht zwangsläufig um einen festen Gradbetrag je Stunde? Weil Raumvolumen, Wärmekapazität, Anfangstemperatur und Verluste fehlen. Wann kann die Formel E = P mal t unmittelbar verwendet werden? Wenn P im betrachteten Zeitraum konstant ist oder ein geeigneter Mittelwert vorliegt. Warum ist eine elektrische Kilowattstunde nicht automatisch identisch mit einer Kilowattstunde nutzbarer Wärme im definierten Medium? Weil Energie auch in Gehäuse, Luft und Rohrsystem gelangen kann. Diese Fragen sollen mit einem beschrifteten Energieflussbild begründet werden, nicht nur mit Ja oder Nein.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Heizgerät nimmt 750 Watt auf und läuft 2 Stunden und 20 Minuten. Berechne die Energie und die Kosten bei 0,29 Franken je Kilowattstunde. Lösung und Rückprobe: 2 Stunden und 20 Minuten sind 2,333 Stunden. E = 0,75 Kilowatt mal 2,333 Stunden = 1,75 Kilowattstunden. Kosten = 1,75 mal 0,29 = rund 0,51 Franken. Die Rechnung setzt eine gleichbleibende elektrische Aufnahme während der gesamten Dauer voraus. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
+Einführung und Lernziele.
+Lektion 2.09-A: Elektrische Wärme und Wärmemenge. In dieser Fachlektion lernen wir den physikalischen oder technischen Zusammenhang, wenden ihn auf eine nachvollziehbare Aufgabe an und überprüfen die Aussagegrenzen. Die Fachbegriffe müssen nicht nur benannt, sondern anhand einer Ursache und einer beobachtbaren Wirkung erklärt werden können. Zahlenbeispiele gelten unter den jeweils genannten Modellannahmen. Bei normativen oder sicherheitsrelevanten Aussagen benötigen die tatsächliche Planung, Durchführung und Prüfung stets die gültigen Originalunterlagen und die erforderliche Fachberechtigung.
+
+
+
+Elektrische Wärme als Energiewandlung.
+Ein Widerstandsheizer wandelt elektrische Energie vor allem in thermische Energie um. Für einen ohmschen Widerstand gilt P = U mal I, ausserdem P = I Quadrat mal R. Mit 230 Volt und einer Leistungsaufnahme von 920 Watt ergibt sich im idealisierten stationären Betrieb I = 920 geteilt durch 230 = 4 Ampere. Die Rechnung ist nur gültig, wenn diese Werte tatsächlich zur gleichen Betriebsbedingung gehören. Bei einem temperaturabhängigen Heizwiderstand kann der Einschaltstrom von der Stromaufnahme im warmen Zustand abweichen. Gerade bei Heizgeräten ist es deshalb wichtig, Nennwert und Momentanwert zu unterscheiden.
+
+Leistung und Energie dürfen nicht verwechselt werden.
+Leistung beschreibt die Geschwindigkeit der Energieübertragung, Energie die über eine Zeit übertragene Menge. Ein Gerät mit 2 Kilowatt, das 45 Minuten durchgehend läuft, nimmt 1,5 Kilowattstunden auf. Man rechnet 2 Kilowatt mal 0,75 Stunden. Werden 45 Minuten fälschlich als 45 Stunden eingesetzt, wird das Resultat um den Faktor 60 zu gross. Ein Thermostat kann dafür sorgen, dass die Leistung nur zeitweise bezogen wird. Auf der Rechnung steht dann nicht die maximale Anschlussleistung, sondern die tatsächlich über die Zeit bezogene elektrische Energie.
+
+Wärmekapazität und Temperaturänderung.
+Die sensible Wärmemenge lässt sich mit Q = m mal c mal Delta T abschätzen. Für Wasser gilt näherungsweise c = 4,18 Kilojoule pro Kilogramm und Kelvin. Zwei Kilogramm Wasser von 20 auf 60 Grad Celsius zu erwärmen benötigt idealisiert 2 mal 4,18 mal 40 = 334,4 Kilojoule, also rund 0,093 Kilowattstunden. Die Rechnung erfasst keine Verluste an Behälter, Luft oder Rohrleitungen. Die benötigte Strommenge ist somit nicht identisch mit der ideal berechneten Erwärmungsenergie. Das ist kein Rechenfehler, sondern der Unterschied zwischen Modell und realem System.
+
+Wirkungsgrad und Systemgrenze.
+Der Wirkungsgrad ist das Verhältnis einer festgelegten Nutzenergie zur zugeführten Energie. Bei direkter elektrischer Widerstandsheizung wird die elektrische Energie am Heizwiderstand praktisch vollständig zu Wärme. Dennoch kann ein System über Gehäuse, Leitungen oder ungewollte Wärmeabgabe Energie verlieren, wenn als Nutzwirkung nur die Erwärmung eines bestimmten Mediums gilt. Man muss deshalb vor jeder Wirkungsgradangabe fragen, wo die Systemgrenze liegt. Bei einer Wärmepumpe ist die Leistungszahl eine andere Kenngrösse: Sie kann grösser als eins sein, weil zusätzlich Umweltwärme transportiert wird. Sie ist nicht mit einem gewöhnlichen Wirkungsgrad gleichzusetzen.
+
+Thermostate und Regelverhalten.
+Ein Zweipunktthermostat schaltet eine Heizung bei einer unteren Temperaturschwelle ein und bei einer oberen wieder aus. Diese Schaltdifferenz heisst Hysterese. Ohne Hysterese könnte das Gerät wegen kleiner Messschwankungen ständig ein- und ausschalten. Eine Solltemperatur von 22 Grad bedeutet daher nicht, dass die tatsächliche Temperatur zu jedem Zeitpunkt genau 22 Grad beträgt. Für einen Energievergleich muss man das komplette Temperatur- und Nutzungsprofil betrachten. Eine höhere Anschlussleistung kann die gewünschte Temperatur schneller erreichen, muss aber bei gleichem Energiebedarf nicht zwingend mehr Strom verbrauchen.
+
+Wärmeverluste und stationäres Gleichgewicht.
+Die Wärmeleistung, die an die Umgebung abgegeben wird, hängt unter anderem vom Temperaturunterschied, von Wärmeübergängen und der Dämmung ab. Ein warmer Behälter verliert bei zunehmendem Temperaturunterschied typischerweise mehr Energie. Im stationären Zustand entspricht die zugeführte Wärmeleistung den laufenden Verlusten. Die Temperatur steigt dann nicht weiter, obwohl Strom fliesst. Diese Beobachtung erklärt, weshalb aus der aufgenommenen Kilowattstundenzahl nicht direkt die Temperaturerhöhung eines Geräts abgeleitet werden darf. Gerade bei langen Nutzungszeiten dominieren oft die Wärmeverluste und nicht die einmalige Aufheizenergie.
+
+Fehlersuche auf Datenblattniveau.
+Wenn eine Heizleistung angeblich 1,5 Kilowatt beträgt, kann man anhand der Nennspannung grob die erwartete Stromaufnahme berechnen. Bei 230 Volt wären es etwa 6,5 Ampere, sofern sich die Last hinreichend ohmsch verhält. Weicht eine veröffentlichte Angabe stark davon ab, prüft man zunächst, ob Spannung, Betriebsphase und Leistungsart wirklich zusammenpassen. Eine Motorheizung, eine Temperaturregelung mit Leistungselektronik und ein stufenweise betriebenes Gerät lassen sich nicht unkritisch mit einer einzigen Ohm-Rechnung beschreiben. Bei realen Installationen sind Messung und Anschlussbeurteilung Fachpersonen vorbehalten.
+
+Übungsfall und Lösung.
+Ein elektrischer Boiler erhitzt idealisiert 80 Kilogramm Wasser von 15 auf 55 Grad Celsius. Mit Q = m mal c mal Delta T ergibt sich 80 mal 4,18 mal 40 = 13 376 Kilojoule. Geteilt durch 3 600 sind das rund 3,72 Kilowattstunden. Bei einer tatsächlichen elektrischen Aufnahme von 4,5 Kilowattstunden entfallen im gewählten Betrachtungszeitraum rechnerisch rund 0,78 Kilowattstunden auf Speicher-, Leitungs- und weitere Verluste. Die Modell-Effizienz bezogen auf die Erwärmung des Wassers beträgt rund 82,6 Prozent. Eine echte Systembeurteilung muss Nutzungsprofil und Bilanzgrenze genauer definieren.
+
+Fehleranalyse und Transfer.
+Eine verbreitete Fehlannahme lautet: Ein 2-Kilowatt-Gerät benötigt immer doppelt so viel Energie wie ein 1-Kilowatt-Gerät. Das stimmt nur bei identischer Einschaltdauer. Läuft das stärkere Gerät halb so lange, kann die bezogene Energie gleich sein. Ein zweiter Fehler liegt darin, Watt und Kilowattstunden als dieselbe Grösse zu behandeln. Ordne in der Lernkontrolle folgende Begriffe: Leistung, Energie, Wärmemenge, Wirkungsgrad, Temperatur und Wärmekapazität. Jede Grösse benötigt eine eigene Einheit und eine nachvollziehbare Mess- oder Rechenmethode.
+
+Durchgerechneter Übungsfall.
+Aufgabenstellung: Ein Heizgerät nimmt 750 Watt auf und läuft 2 Stunden und 20 Minuten. Berechne die Energie und die Kosten bei 0,29 Franken je Kilowattstunde. Lösung und Rückprobe: 2 Stunden und 20 Minuten sind 2,333 Stunden. E = 0,75 Kilowatt mal 2,333 Stunden = 1,75 Kilowattstunden. Kosten = 1,75 mal 0,29 = rund 0,51 Franken. Die Rechnung setzt eine gleichbleibende elektrische Aufnahme während der gesamten Dauer voraus. Prüfe bei Deiner eigenen Lösung, ob die verwendete Einheit zur gesuchten Grösse passt und ob das Resultat die erwartete Grössenordnung hat. Begründe auch, welche Eingangsgrösse unsicher ist und welche Quelle für die praktische Bestätigung benötigt würde.
+
+Vertiefende Verständnisfragen.
+Formuliere die drei wichtigsten Aussagen dieser Lektion ohne Fachjargon, als würdest Du sie einem neuen Lernenden erklären. Stelle danach zu jeder Aussage eine gezielte Rückfrage: Was ändert sich, wenn eine Betriebsbedingung abweicht? Welche Messgrösse oder Dokumentation könnte die Annahme bestätigen? Welche typische Fehlinterpretation entsteht, wenn man das Beispiel zu stark verallgemeinert? Erstelle eine kurze Tabelle mit den Spalten Annahme, beobachtbare Wirkung, möglicher Fehler und Nachweis. Dadurch wird aus einer Rechenaufgabe ein überprüfbares technisches Argument.
+
+Sicherheit, Zuständigkeit und Grenzen.
+Diese Lektion ist ein Selbstlerntext mit sicheren Papier-, Datenblatt- und Simulationsaufgaben. Sie ermächtigt nicht zu Arbeiten an bestehenden elektrischen Installationen, Verteilungen oder unter Spannung stehenden Betriebsmitteln. Prüfschritte an realen Anlagen erfordern die zuständige Fachperson, die geeignete Arbeitsorganisation und den jeweils gültigen Normenstand. In den Themen der Installation und Sicherheitsprüfung dürfen vereinfachte Zahlenbeispiele insbesondere nicht als verbindliche Grenzwerte oder freigegebene Messverfahren interpretiert werden.
+
+Originaler Basisunterricht und Wiederholung.
 Lektion 2.09-A: Elektrische Wärme und Wärmemenge. Elektrische Widerstandsheizung wandelt elektrische Energie in Wärme um. Für vereinfachte Aufgaben können Energie aus Leistung und Zeit sowie Wärme aus Masse, Wärmekapazität und Temperaturänderung berechnet werden. Dabei sind Verluste an die Umgebung zu beachten. Thermostate beeinflussen den zeitlichen Energieverbrauch und die Temperaturregelung, nicht die physikalische Grundgleichung. Wir arbeiten dabei bewusst mit einem technischen Modell, damit wir Wirkung, Voraussetzungen und Grenzen sauber voneinander unterscheiden können. Gemeinsam durch ein Fachbeispiel. Wir betrachten folgenden Fall. Ein Heizgerät mit 500 Watt läuft idealisiert eine halbe Stunde bei voller Leistung. Es verbraucht 0,25 Kilowattstunden elektrische Energie. Überlege, warum die tatsächliche Temperaturerhöhung eines Raums nicht allein aus dieser Zahl bestimmt werden kann. Überlege zum Schluss: Welche Angaben sind sicher bekannt, welche Annahmen wurden getroffen und welcher Nachweis fehlt für einen realen Anwendungsfall? Das musst Du behalten. Der Kern dieser Lektion lautet: Energieaufnahme ist nicht gleich Temperaturerhöhung eines gesamten Systems. Beschreibe den Zusammenhang mit eigenen Worten und lege eine passende Zeichnung oder Berechnung dazu. Die dazugehörigen Lernziele sind: Ohmsche und induktive Wärmeverbraucher; Heizleistung und thermische Energie; Wärmekapazität. Ein auswendig gelernter Merksatz allein genügt noch nicht, wenn sich die Rahmenbedingungen verändern. Sicherheit, Normen und Praxistransfer. Die praktische Umsetzung an zweihundertdreissig und vierhundert Voltolt-Installationen sowie Arbeiten an spannungsführenden PV-Strings ist keine private Selbstlernübung. Je nach Tätigkeit braucht es den entsprechend berechtigten Betrieb, fachkundige Anleitung und die vorgeschriebenen Prüfungen. Als thematische Recherche ist im Arbeitsplan vermerkt: Norm-/Regelwerk: Lehrplan 3.5/5.2; NEV; N I N Teil 5. Diese Angaben sind Orientierungsstellen; genaue Grenzwerte, Vorschriftentexte und eventuelle Ausnahmen müssen in der gültigen Originalnorm oder beim E S T I überprüft werden. Als sichere Vertiefung bearbeitest Du einen Plan, ein Datenblatt, eine Berechnung oder eine Simulation. Das waren die wichtigsten Zusammenhänge. Wiederhole die Kernbegriffe und bearbeite anschliessend die Kontrollfragen in der Lernplattform.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Deine Lernziele lauten: Ohmsche und induktive Wärmeverbraucher; Heizleistung und thermische Energie; Wärmekapazität.
+
+Jetzt ein zusätzliches Rechen- und Anwendungsbeispiel zum Themengebiet Tagesenergie eines Geräts. Ein Gerät mit 2 kW läuft 30 Minuten pro Tag.
+
+Schritt 1. 30 Minuten entsprechen 0,5 Stunden.
+
+Schritt 2. E = P · t = 2 kW · 0,5 h.
+
+Schritt 3. Ergebnis E = 1 kWh pro Tag.
+
+Schritt 4. Jahreswerte erfordern ein realistisches Nutzungsprofil.
+
+Kontrolle des Ergebnisses: E = 1 kWh pro Tag.
+
+Übungsauftrag zur Anwendung: Rechenfälle einer Küche, einer Wärmepumpe und eines elektrischen Heizregisters; nur Planung. Halte zusätzlich die Antwort auf die Frage «Wie viel Energie verbrauchen 500 W in 0,5 h?» schriftlich fest und erkläre Deinen Lösungsweg. Keine eigenmächtigen Netzarbeiten.
+
+Für eine saubere Dokumentation notierst Du die Annahmen, den entscheidenden fachlichen Zusammenhang, Deinen Rechen- oder Denkweg und eine Kontrolle des Ergebnisses.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Wie viel Energie verbrauchen 500 W in 0,5 h? Die richtige Antwort lautet: 0,25 kWh. Warum? Energieaufnahme ist nicht gleich Temperaturerhöhung eines gesamten Systems.
+
+Frage 2: Welche Aussage ist als fachlicher Merksatz richtig? Die richtige Antwort lautet: Energieaufnahme ist nicht gleich Temperaturerhöhung eines gesamten Systems.. Warum? Der Merksatz lautet: Energieaufnahme ist nicht gleich Temperaturerhöhung eines gesamten Systems.
+
+Frage 3: Wie lässt sich dieses Thema im Selbststudium verantwortbar vertiefen? Die richtige Antwort lautet: Mit einer dokumentierten Berechnung, einem Plan, Datenblättern oder einer sicheren Simulation und anschliessender Fachprüfung. Warum? Modell, Theorie und echte berechtigte Installation sind unterschiedliche Ebenen.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.

@@ -25,3 +25,88 @@ Der Bauherr fordert, die Anlage heute zu montieren und morgen ohne weitere Unter
 Musterlösung.
 
 Planung und Normen verbieten ein unkoordiniertes Abkürzen der Verfahren. Es fehlen mindestens die konkret einschlägigen Netzmeldungen, das fachlich nachgewiesene Installations- und Schutzkonzept sowie Inbetriebnahme- und Prüfunterlagen.
+
+---
+
+Zusätzliche Unterrichtsvertiefung.
+
+Als Leitfrage für diese Lektion gilt: Der Bauherr fordert, die Anlage heute zu montieren und morgen ohne weitere Unterlagen einspeisen zu lassen.
+
+Ordne die Fallstudie zuerst ein, bevor Du die Musterlösung anhörst. Welche Informationen fehlen? Welche Rollen und Prüfungen müssen wir unterscheiden?
+
+Begründung zum Fall: Planung und Normen verbieten ein unkoordiniertes Abkürzen der Verfahren. Es fehlen mindestens die konkret einschlägigen Netzmeldungen, das fachlich nachgewiesene Installations- und Schutzkonzept sowie Inbetriebnahme- und Prüfunterlagen.
+
+Möglicher sicherer Übungsauftrag: Erstelle einen eigenständig formulierten Projektmeilensteinplan mit Nachweisen, Verantwortlichen und Prüfterminen.
+
+Zum Abschluss besprechen wir die Kontrollfragen samt Begründungen. Du kannst zuerst selbst antworten, bevor Du weiterhörst.
+
+Frage 1: Was ist 24 × 430 Wp? Die richtige Antwort lautet: 10,32 kWp. Warum? 24 × 430 = 10 320 Wp = 10,32 kWp.
+
+Frage 2: Ist die DC-Nennleistung gleich garantierte AC-Einspeisung? Die richtige Antwort lautet: Nein. Warum? Leistungsumwandlung, Begrenzungen und Bedingungen beeinflussen AC.
+
+Frage 3: Was gehört zur fachlichen Übergabe? Die richtige Antwort lautet: Dokumentation und Prüf-/Inbetriebnahmeunterlagen. Warum? Die normengerechte Übergabe umfasst nachvollziehbare technische Nachweise.
+
+Fazit: Verstehe und begründe jede Entscheidung mit konkreten Angaben. Bei Netzspannung, PV-Gleichstrom, Messungen und Arbeiten an Installationen genügt Selbststudium nicht; es gelten die erforderlichen Fachkompetenzen, Zuständigkeiten und Bewilligungen.
+
+Individuelle Unterrichtsvertiefung – Zusammenhänge, Rechnung und fachliche Nachweise.
+
+Fachkapitel 1: Ein Projekt braucht zuerst Randbedingungen.
+Die Fallstudie beginnt nicht mit einer Stringrechnung, sondern mit einer sauberen Bestandsaufnahme. Ein Einfamilienhaus erhält 24 Module mit je 430 Watt Peak. Daraus ergeben sich 10,32 Kilowatt Peak unter Standardtestbedingungen. Diese Zahl beschreibt keine garantierte Netzleistung und schon gar nicht den Jahresertrag. Vor dem Entwurf sind Dachgeometrie, Verschattung, statische Tragfähigkeit, Dachhaut, bestehende Elektroinstallation, Hauptverteilung und vorhandener Blitzschutz zu erfassen. Ebenso muss klar sein, ob der Bauherr nur Eigenverbrauch oder zusätzlich Speicher und Ladeinfrastruktur plant. Ein gutes Konzept nennt die offenen Abklärungen ausdrücklich. Wer voreilig ein bestimmtes Wechselrichtermodell auswählt, kann später an Spannungslimits, Anschlussbedingungen oder der Kabelführung scheitern.
+
+Fachkapitel 2: Zwei Strings als Rechenmodell.
+Für das Lernmodell bilden zwölf Module je einen String. Nehmen wir pro Modul bei Standardtestbedingungen eine Leerlaufspannung von 50 Volt und eine MPP-Spannung von 42 Volt an. Ein String hat damit rechnerisch 600 Volt Leerlaufspannung beziehungsweise 504 Volt MPP-Spannung. Das sind zunächst nur Werte bei den angegebenen Datenblattbedingungen. Die Leerlaufspannung steigt in der Kälte. Ist der Temperaturkoeffizient beispielsweise minus 0,28 Prozent pro Kelvin und die Zelltemperatur liegt 35 Kelvin unter 25 Grad, nimmt die Leerlaufspannung im einfachen linearen Modell um 9,8 Prozent zu. Aus 600 Volt werden etwa 658,8 Volt. Prüfe diesen Wert gegen die zulässige Eingangsspannung der geplanten Komponenten, bevor eine Freigabe erwogen wird.
+
+Fachkapitel 3: Strom und parallel geschaltete Eingänge.
+Bei Reihenschaltung addiert sich die Spannung, der Strom eines Strings wird nicht mit der Modulanzahl multipliziert. Beträgt der MPP-Strom eines Moduls im Beispiel 10,2 Ampere, bleibt der MPP-Strom des zwölfteiligen Strings modellhaft 10,2 Ampere. Werden zwei gleichartige Strings an einem dafür freigegebenen Eingang parallelgeführt, kann der gemeinsame Strom bei vergleichbaren Bedingungen etwa 20,4 Ampere erreichen. Ob dies zulässig ist, entscheidet nicht die einfache Formel allein: Eingangsstromgrenzen, zulässiger Kurzschlussstrom, Rückstromverhalten und Herstellervorgaben müssen einbezogen werden. Die Schülerinnen und Schüler formulieren eine eindeutige Stringtabelle mit Modulanzahl, Ausrichtung, erwarteten Spannungen, Strömen und Datenblattquellen.
+
+Fachkapitel 4: Ertrag und Eigenverbrauch getrennt betrachten.
+Ein mögliches Jahresertragsmodell beginnt mit einer spezifischen Ertragsannahme, etwa 950 Kilowattstunden pro installiertem Kilowatt Peak. Für 10,32 Kilowatt Peak ergäbe dies rund 9’804 Kilowattstunden pro Jahr. Dieser Wert ist ausdrücklich eine Szenarioannahme und weder standortgenaue Prognose noch Garantie. Nehmen wir 35 Prozent zeitgleichen Eigenverbrauch des PV-Ertrags an, wären das etwa 3’431 Kilowattstunden. Der verbleibende Anteil würde ins Netz abgegeben oder auf andere Weise genutzt. Für eine belastbare Planung müssen Viertelstundenprofile, tatsächliche Verbraucher und saisonale Schwankungen berücksichtigt werden. Eine Batterie ist nicht automatisch wirtschaftlich, nur weil Energieüberschüsse im Jahressaldo auftreten.
+
+Fachkapitel 5: Dach und elektrische Schnittstellen.
+Die fachliche Planung umfasst Montagepunkte, Dachstatik, Wind- und Schneelasten, Hinterlüftung sowie die Dichtheit der Dachhaut. Elektrisch interessieren Leitungstrassen, mechanischer Schutz, geeignete Steckverbinder, Leitungseinführung, Trennstellen, Überspannungsschutz, Erdung und Potenzialausgleich. Keiner dieser Punkte lässt sich aus der Modulleistung allein ableiten. Besondere Bedeutung hat die Schnittstelle zu bestehendem Blitzschutz: Neue metallische Gestelle, Kabelwege oder Dachaufbauten können ein bisheriges Konzept verändern. Darum muss die Bewertung durch die entsprechende Fachperson erfolgen. Fotos der geplanten Trassen und eine koordinierte Skizze vermeiden später schwer zugängliche oder sicherheitstechnisch ungünstige Leitungswege.
+
+Fachkapitel 6: Netzanschluss und Meldungen.
+Vor der Ausführung werden Netzbetreiber, Bewilligungsstatus des Installationsbetriebs und die anzuwendenden technischen Anschlussbedingungen geklärt. Werkvorschriften CH, lokale Vorgaben und die NIV erfüllen unterschiedliche Aufgaben. Das technische Anschlussgesuch behandelt unter anderem Netzverträglichkeit und Einspeiseeigenschaften, während die Installationsanzeige die geplanten Installationsarbeiten beschreibt. Der Sicherheitsnachweis dokumentiert eine andere Phase: den regelkonformen, geprüften Zustand. Die zeitliche Reihenfolge ist daher wesentlich. Eine fertige Anlage ohne vorab abgestimmtes Anschluss- und Messkonzept lässt sich nicht allein mit einem nachträglich ausgefüllten Formular fachlich sauber heilen. Lege für jedes Dokument fest, wer es erstellt, prüft, unterschreibt und empfängt.
+
+Fachkapitel 7: Mess- und Abnahmeplanung.
+Eine spätere Abnahme wird bereits während der Planung vorbereitet. Für die DC-Seite gehören unter anderem die eindeutige Stringzuordnung, geeignete Dokumentation, Sichtprüfung und die im geltenden Originalregelwerk vorgesehenen Prüfungen dazu. Auf der AC-Seite sind Netzsystem, Schutzmassnahmen, Verteilung und Abschaltbedingungen nach dem anwendbaren Prüfverfahren zu beurteilen. Die Lernaufgabe verlangt kein gefährliches Nachmessen am PV-String. Stattdessen werden fiktive Messberichte analysiert und mit Planwerten abgeglichen. So kann beispielsweise ein abweichender String-Leerlaufspannungswert auf eine andere Modulanzahl, einen Anschlussfehler, Temperaturunterschied oder eine Messabweichung hinweisen. Ohne Kontext ist er kein fertiger Fehlerbefund.
+
+Fachkapitel 8: Übergabe an den Betreiber.
+Die technische Übergabe umfasst mehr als eine Ertrags-App. Der Betreiber braucht einen verständlichen Aufbauplan, Geräte- und Garantiedaten, Angaben zu sicherem Betrieb, Abschalt- und Störungsmeldungen, Wartungszuständigkeiten und ein vollständiges Prüf- und Revisionsdossier. Dabei ist zu erklären, dass PV-Module bei Licht Spannung erzeugen können und dass das Ausschalten des AC-Hauptschalters nicht alle DC-Leitungen zwangsläufig spannungsfrei macht. Formuliere die Hinweise so, dass Laien Risiken erkennen, ohne ihnen unzulässige Eingriffe zu erklären. Offene Mängel sind mit Verantwortlichkeit und Frist separat zu dokumentieren. Erst damit wird der Projektabschluss fachlich nachvollziehbar.
+
+Anwendungsfälle und Musterlösungen.
+
+Fall 1: Spannung im Winter.
+Ein String besteht aus zwölf Modulen mit je 50 Volt Leerlaufspannung bei 25 Grad Zelltemperatur. Mit minus 0,28 Prozent pro Kelvin und minus 10 Grad Zelltemperatur ergibt sich im linearen Modell etwa 659 Volt. Erkläre, dass die absolute Gerätegrenze aus Datenblatt und anzuwendender Norm stammt. Prüfe auch, ob das angenommene Temperaturmodell im vorgesehenen Bereich durch den Hersteller gedeckt ist.
+
+Fall 2: Ertragsprognose kritisieren.
+Ein Anbieter verspricht für 10,32 Kilowatt Peak pauschal 12’000 Kilowattstunden jährlich. Leite die notwendige spezifische Ertragsannahme von ungefähr 1’163 Kilowattstunden je Kilowatt Peak ab. Welche Standortdaten, Verschattungs- und Ausrichtungsangaben wären nötig? Eine technisch gute Antwort trennt das rechnerische Verhältnis von der Standortprognose.
+
+Fall 3: Stringstrom falsch addiert.
+In einer Offerte steht für zwölf in Reihe geschaltete Module mit je 10,2 Ampere ein Stringstrom von 122,4 Ampere. Benenne den Rechenfehler und korrigiere auf 10,2 Ampere im einfachen Modell. Ergänze, warum tatsächlicher Kurzschlussstrom und parallelgeschaltete Eingänge getrennt behandelt werden müssen.
+
+Fall 4: Fehlende Dachabstimmung.
+Die Dachdeckerin möchte eine neue Leitungseinführung bohren, ohne Trasse und Abdichtung abzustimmen. Formuliere den korrekten Projektentscheid: Die Bau- und Elektroplanung müssen Durchdringung, Dichtheit, mechanischen Schutz und Zugänglichkeit gemeinsam freigeben. Der schnellste Einbauort ist nicht zwingend der richtige.
+
+Fall 5: Betreiber hat nur App-Zugang.
+Bei der Übergabe erhält der Eigentümer eine App, aber keine Revisionspläne oder Prüfprotokolle. Erstelle eine Nachforderungsliste und begründe, weshalb Service, Brandereignis und späterer Umbau ohne nachvollziehbare Dokumentation erschwert werden. Die Übergabe kann erst nach dokumentierter Klärung der offenen Unterlagen als abgeschlossen gelten.
+
+Fall 6: PV plus Speicher nachträglich.
+Ein Jahr nach Inbetriebnahme soll ein Batteriespeicher ergänzt werden. Frage nach Wechselrichterkompatibilität, Betriebsarten, Netzrückwirkungen, Messkonzept, zusätzlicher Schutzbewertung und Meldungen. Die richtige Lösung ist keine spontane Verdrahtung, sondern eine Neubewertung der Systemschnittstellen mit freigegebenem Änderungsdossier.
+
+Fall 7: Zwei Dachflächen mit unterschiedlicher Ausrichtung.
+Die 24 Module verteilen sich auf Ost- und Westdach. Ein Verkäufer möchte sie ohne weitere Betrachtung als einen gemeinsamen MPP-Eingang auslegen. Analysiere die Planungsfrage: Unterschiedliche Ausrichtungen erzeugen unterschiedliche Strom-Spannungs-Kennlinien und damit unterschiedliche optimale Betriebspunkte. Welche Datenblätter, Verschattungsannahmen und Eingangsoptionen des Wechselrichters müssen geprüft werden? Der Lernentscheid lautet nicht pauschal „immer zwei Wechselrichter“, sondern „String- und MPP-Konzept passend zu Ausrichtung und Gerät dokumentieren“. Ergänze eine Tabelle mit zwölf Modulen pro Dachseite, Neigungswinkel, Verschattung und den relevanten DC-Grenzen. Die Ertragssimulation ist als modellabhängige Prognose zu kennzeichnen.
+
+Fall 8: Batterie verliert Energie.
+Ein Kunde will den Eigenverbrauch mit einem Speicher steigern. Im Modell werden während des Tages 8 Kilowattstunden aus PV gespeichert und nachts nur 7,2 Kilowattstunden wieder abgegeben. Berechne den vereinfachten Rundlaufwirkungsgrad von 90 Prozent und 0,8 Kilowattstunden Verlust. Erläutere, weshalb das Laden und Entladen in einer Energiebilanz getrennt dargestellt werden muss. Die Batterie verschiebt Energie zeitlich; sie erzeugt keine zusätzliche PV-Energie. Für eine Wirtschaftlichkeitsrechnung sind neben Energiepreisen auch Speicherkosten, Alterung, verbleibende Kapazität und reales Lastprofil zu berücksichtigen. Ein Jahressaldo mit hoher Einspeisung genügt zur Speicherwahl nicht.
+
+Fall 9: Unvollständiger Inbetriebnahmebericht.
+Ein fiktiver Bericht nennt die AC-Wirkleistung und zeigt eine funktionierende App, doch die Stringtabelle fehlt. Prüfe die Nachweislücken. Ohne eindeutig dokumentierte Stringanzahl, Gerätezuordnung und Datenblattbezug können spätere Messungen schwer interpretiert werden. Das gilt auch, wenn der Wechselrichter zunächst ohne Störung produziert. Fordere die relevanten Revisionsunterlagen und die vorgesehenen Prüfberichte der berechtigten Fachpersonen. Der Betreiber erhält eine Liste der offenen Punkte mit Frist und Verantwortlichkeit. Erkläre, warum eine funktionierende Anlage nicht automatisch eine vollständig geprüfte und korrekt dokumentierte Anlage ist.
+
+Fall 10: Sommer und Winter auseinanderhalten.
+Ein String hat bei Standardtestbedingungen 600 Volt Leerlaufspannung; bei Kälte errechnet das Modell ungefähr 659 Volt. Gleichzeitig kann seine MPP-Spannung bei hoher Zelltemperatur absinken. Die Planungsaufgabe besteht darin, beide Extremzustände zu prüfen: obere Spannungsgrenze bei Kälte und ausreichender MPP-Spannungsbereich bei Wärme. Welche zusätzlichen Daten werden benötigt? Temperaturkoeffizienten, am Standort anzusetzende Zelltemperaturen, Wechselrichter-Eingangsfenster und Herstelleranweisungen. Erkläre, warum die Prüfung nur einer einzigen Normtemperatur zu kurz greift und weshalb die konkrete elektrische Auslegung nur mit gültigen Gerätedaten freigegeben werden kann.
+
+Fall 11: Vollständige Angebotsprüfung.
+Zwei Angebote für die gleiche 10,32-kWp-Anlage unterscheiden sich: Angebot A sieht zwei separate MPP-Eingänge für die Dachseiten und vollständige Prüfunterlagen vor, Angebot B nennt nur eine Gesamtleistung und einen Pauschalpreis. Entwickle eine nachvollziehbare Vergleichsmatrix mit den Kriterien Modul- und Stringdaten, Wechselrichtergrenzen, Kältetemperaturannahme, Verschattung, Dachstatik, Leitungsweg, Netzgesuch, Schutzkonzept, Messkonzept, erforderliche Abnahme und Garantien. Beurteile jedes Kriterium als belegt, nicht belegt oder klärungsbedürftig. Die Musterlösung darf nicht einfach das teurere Angebot bevorzugen, sondern muss die Datenlage erklären. Bei fehlenden Stringdaten bleibt die elektrische Auslegung offen. Ergänze eine kurze Kundeninformation: Ein Preisvergleich ist erst fair, wenn beide Anbieter denselben Leistungsumfang und dieselben Nachweispflichten anbieten. Für die finale Freigabe braucht es die Originaldatenblätter, gültige Regeln und die zuständigen Fachpersonen. Der Lerneffekt liegt darin, technische, wirtschaftliche und dokumentarische Kriterien zu verbinden, ohne fehlende Angaben zu erfinden.
+
+Abschliessende Selbstkontrolle. Beantworte ohne Unterlagen: Welche fachliche Aussage ist im konkreten Beispiel nachgewiesen, welche beruht nur auf einer Modellannahme, und für welche Entscheidung fehlen die verbindlichen Originalquellen oder eine Kontrolle durch berechtigte Fachpersonen? Stelle drei prüfbare Fragen für ein Fachgespräch zusammen und notiere zu jeder Frage die erwarteten Belege. Ein schlüssiger Lerntext ersetzt weder die praktische Ausbildung noch die Freigabe einer realen Anlage.
