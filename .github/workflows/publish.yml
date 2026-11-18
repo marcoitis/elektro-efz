@@ -66,7 +66,8 @@ jobs:
           import json
           v=json.load(open('/tmp/live-version.json'))
           a=json.load(open('/tmp/live-audio.json'))
-          assert v['build']=='0.11.9-audio-1',v
+          expected=json.load(open('version.json'))['build']
+          assert v['build']==expected,(v,expected)
           assert len(a['tracks'])==178 and a['generated']==178,(a.get('generated'),len(a['tracks']))
           print('LIVE PASS',v['version'],'MP3:',len(a['tracks']))
           PY
