@@ -1,0 +1,122 @@
+name: Audio MP3 aus 15 Chargen für App bereitstellen
+
+on:
+  push:
+    branches: [feature/audio-remote-update-check-v0119]
+    paths:
+      - .github/workflows/prepare-audio-release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: elektro-efz-release-audio-178
+  cancel-in-progress: false
+
+env:
+  RELEASE_ID: '449754883'
+  AUDIO_TAG: thorsten-high-v0118-audio-20261118
+
+jobs:
+  prepare:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 12
+    steps:
+      - name: Bestehende 15 Audio-ZIP-Archive prüfen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" > release.json
+          python3 - <<'PY'
+          import json
+          j=json.load(open('release.json'))
+          names={a['name'] for a in j.get('assets',[])}
+          expected={f'Audio_Thorsten_High_Batch_{i:02}.zip' for i in range(1,16)}
+          assert j['tag_name']=='thorsten-high-v0118-audio-20261118', j['tag_name']
+          assert expected <= names, f'Audio-Pakete fehlen: {expected-names}'
+          print('15 Audio-Archive vorhanden und zugeordnet.')
+          PY
+      - name: Release freischalten (Audio online verfügbar)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" \
+            -F draft=false -F prerelease=true >/dev/null
+          echo "Release veröffentlicht und als Vorabversion markiert."
+
+  unpack-upload:
+    name: Audio-Paket ${{ matrix.batch }} entpacken und Einzel-MP3 bereitstellen
+    needs: prepare
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        batch: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    steps:
+      - name: ZIP von Release laden
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BATCH=$(printf '%02d' ${{ matrix.batch }})
+          mkdir -p audio
+          gh release download "$AUDIO_TAG" --repo "$GITHUB_REPOSITORY" \
+            --pattern "Audio_Thorsten_High_Batch_$BATCH.zip" --dir .
+          unzip -q "Audio_Thorsten_High_Batch_$BATCH.zip" -d audio
+          rm "Audio_Thorsten_High_Batch_$BATCH.zip"
+      - name: MP3s und Prüfmanifest verifizieren
+        run: |
+          python3 - <<'PY'
+          import json, pathlib,hashlib
+          d=pathlib.Path('audio')
+          manifest=next(d.glob('manifest-*.json'))
+          m=json.loads(manifest.read_text(encoding='utf8'))
+          assert m['voice']=='de_DE-thorsten-high'
+          assert m['audio_status']=='rendered_not_acoustically_approved'
+          assert len(m['files'])==m['batch_expected'], 'Unvollständige Charge'
+          for item in m['files']:
+            path=d/item['file']
+            assert path.is_file() and path.stat().st_size==item['size_bytes'], path
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==item['mp3_sha256'],path
+          print('Validiert:',m['batch'],len(m['files']),'MP3')
+          PY
+      - name: Einzel-MP3s hochladen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "$AUDIO_TAG" audio/*.mp3 --repo "$GITHUB_REPOSITORY" --clobber
+          BATCH=$(printf '%02d' ${{ matrix.batch }})
+          echo "Einzel-MP3s Charge $BATCH bereitgestellt" >> "$GITHUB_STEP_SUMMARY"
+
+  verify:
+    name: 178 MP3-Dateien und 15 ZIP-Pakete prüfen
+    needs: [prepare, unpack-upload]
+    if: always()
+    runs-on: ubuntu-22.04
+    timeout-minutes: 12
+    steps:
+      - name: Vollständigkeit der Downloads prüfen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID/assets?per_page=100" > assets.json
+          python3 - <<'PY'
+          import json
+          text=open('assets.json').read()
+          assets=[]
+          decoder=json.JSONDecoder()
+          while text.strip():
+            text=text.lstrip()
+            batch,offset=decoder.raw_decode(text)
+            assets.extend(batch)
+            text=text[offset:]
+          mp3=[a for a in assets if a['name'].endswith('.mp3')]
+          zipfiles=[a for a in assets if a['name'].startswith('Audio_Thorsten_High_Batch_') and a['name'].endswith('.zip')]
+          print('MP3:',len(mp3),'ZIP:',len(zipfiles))
+          assert len(mp3)==178, f'Erwartet 178 Einzel-MP3, vorhanden {len(mp3)}'
+          assert len(zipfiles)==15, f'Erwartet 15 ZIPs, vorhanden {len(zipfiles)}'
+          assert len({a['name'] for a in mp3})==178
+          print('SUCCESS: 178 MP3s und 15 ZIPs online bereit.')
+          PY
