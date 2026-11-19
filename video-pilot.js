@@ -201,6 +201,7 @@ function parallel(phase){
  a+=rect(375,254,133,48,'#173c54','#85e6d1',8)+text(441,285,'R2 = 240 Ω',18);
  // Current path branches; never depict conductors bridging a resistor.
  a+=currentDots('M115 185 V96 H646 V320 H115 V250',4);
+ a+=currentDots('M115 185 V96 H268 V278 H646 V320 H115 V250',4);
  if(phase>=0)a+=text(185,376,'U = 12 V',24);
  if(phase>=1)a+=text(445,160,'I1 = 100 mA',21,PALETTE.green);
  if(phase>=2)a+=text(445,358,'I2 = 50 mA',21,PALETTE.green)+text(615,392,'Iges = 150 mA',20);
@@ -355,7 +356,8 @@ function bind(state,actions){
    stage.classList.toggle('vp-is-playing',Boolean(v.playing));
    stage.querySelectorAll('svg').forEach(visual=>{
     try{if(typeof visual.pauseAnimations==='function'){
-     if(v.playing)visual.unpauseAnimations();else visual.pauseAnimations();
+     const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+     if(v.playing&&!reduced)visual.unpauseAnimations();else visual.pauseAnimations();
     }}catch(_){/* SVG animation not supported: static diagram remains */}
    });
   }
@@ -412,7 +414,8 @@ function bind(state,actions){
   button.setAttribute('aria-expanded',String(opening));
   button.textContent=opening?'Vergleich schliessen':'Vergleich ansehen';
   container.querySelectorAll('svg').forEach(v=>{
-   try{if(opening)v.unpauseAnimations();else v.pauseAnimations();}catch(_){}
+   try{const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(opening&&!reduced)v.unpauseAnimations();else v.pauseAnimations();}catch(_){}
   });
  });
  $('#vp-expand')?.addEventListener('click',()=>{
