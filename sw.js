@@ -1,7 +1,7 @@
 /* Elektro EFZ v0.9 · versioned offline shell. Old cache is retained unless new install succeeds. */
 const CACHE='elektro-efz-shell-v0118-github-ready-1';
 const PREFIX='elektro-efz-shell-';
-const CORE=['./','./index.html','./styles.css','./studio.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./audio-zip-import.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
+const CORE=['./','./index.html','./styles.css','./studio.css','./video-pilot.css','./kurskompass.html','./vertiefung-151.html','./fachvertiefung-151.html','./data.js','./storage.js','./reviews.js','./exercises.js','./audio-engine.js','./audio-zip-import.js','./cloud.js','./offline.js','./trainer.js','./simulator.js','./norms.js','./norm-course.js','./academy-content.js','./chapters.js','./academy.js','./studio.js','./studio-examples-extra.js','./lecture-scripts.js','./lesson-audit.js','./lesson-long-slides.js','./video-pilot.js','./app.js','./version.json','./audio-manifest.json','./manifest.webmanifest','./icon-192.png','./icon-512.png',
   './visuals/1.01-A.svg',
   './visuals/1.01-B.svg',
   './visuals/1.01-C.svg',
@@ -360,7 +360,7 @@ const CORE=['./','./index.html','./styles.css','./studio.css','./kurskompass.htm
   './learning-visuals/N-W05.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)))});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})())});
-self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();if(event.data?.type==='GET_VERSION')event.source?.postMessage({type:'APP_VERSION',version:'0.11.10',cache:CACHE})});
+self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();if(event.data?.type==='GET_VERSION')event.source?.postMessage({type:'APP_VERSION',version:'0.12.0',cache:CACHE})});
 self.addEventListener('fetch',event=>{
  const req=event.request,url=new URL(req.url);if(req.method!=='GET'||url.origin!==self.location.origin)return;
  if(req.mode==='navigate'){
