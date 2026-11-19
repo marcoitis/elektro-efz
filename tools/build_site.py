@@ -17,11 +17,45 @@ def build(mode='text',audio_dir='public-audio',site_dir='dist'):
   if not f.is_file():raise SystemExit('Required app file missing: '+fn)
   (dest/fn).parent.mkdir(parents=True,exist_ok=True)
   shutil.copy2(f,dest/fn)
+ # The 178-masterclass program expands *one vetted lesson at a time*.
+ # Once a lesson is marked ready in the public catalog, include its
+ # original edited story, individually authored SVG renderer, frame-derived
+ # timeline and MP3 automatically. Do not manually expand CORE 178 times.
+ master_catalog=json.loads((ROOT/'masterclasses/catalog.json').read_text(encoding='utf8'))
+ master_entries=master_catalog.get('lessons',[])
+ if len(master_entries)!=178 or len({x['id'] for x in master_entries})!=178:
+  raise SystemExit('Masterclass production catalog must contain 178 unique lessons')
+ known_ids={p.stem for p in (ROOT/'tts_scripts').glob('*.txt')}
+ extra_files=[];shell_additions=[]
+ for item in master_entries:
+  if item.get('status')!='ready' or item['id']=='1.03-B':continue
+  lesson_id=item['id']
+  if lesson_id not in known_ids:raise SystemExit('Masterclass ID not in official course: '+lesson_id)
+  folder='masterclasses/'+lesson_id
+  paths=[folder+'/script.json',folder+'/visuals.js',folder+'/audio/timeline.json',folder+'/audio/masterclass.mp3']
+  for path in paths:
+   source=ROOT/path
+   if not source.is_file():raise SystemExit('Ready masterclass missing asset: '+path)
+   target=dest/path
+   target.parent.mkdir(parents=True,exist_ok=True)
+   shutil.copy2(source,target)
+   extra_files.append(path)
+  if lesson_id!='1.01-A':
+   shell_additions.extend(['./'+folder+'/visuals.js','./'+folder+'/audio/timeline.json'])
+ # Text, SVG and timing metadata for new ready lessons are cached in the PWA
+ # shell; their large MP3s are streamed on demand, not bulk-downloaded.
+ for filename,needle in (('sw.js','const CORE=['),('offline.js','const FILES=[')):
+  if shell_additions:
+   p=dest/filename
+   value=p.read_text(encoding='utf8')
+   if needle not in value:raise SystemExit('Could not locate PWA manifest array in '+filename)
+   value=value.replace(needle,needle+''.join(repr(x)+',' for x in shell_additions),1)
+   p.write_text(value,encoding='utf8')
  # Change cache identity whenever published application source changes, even if
  # an editor forgets to edit the Service Worker version manually. This is
  # applied only to dist/; the source tree keeps its validated release marker.
  fp=hashlib.sha256()
- for fn in sorted(CORE):
+ for fn in sorted(set(CORE+extra_files)):
   if (ROOT/fn).is_file():fp.update(fn.encode()+b'\0'+(ROOT/fn).read_bytes())
  cache_key='elektro-efz-shell-github-'+fp.hexdigest()[:14]
  for fn in ('sw.js','offline.js'):
