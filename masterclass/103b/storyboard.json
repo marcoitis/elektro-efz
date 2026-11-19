@@ -1,0 +1,106 @@
+{
+  "title": "Master-Sequenz 1.03-B · 12 V / 120 Ω",
+  "status": "Pilot – technische und fachliche Endabnahme erforderlich",
+  "version": "1.0",
+  "voice": "Piper de_DE-thorsten-high, length_scale 1.04",
+  "source_reference": "tts_scripts/1.03-B.txt",
+  "note": "Neue gestraffte Sprecherfassung zu den Prinzipien des Quellmanuskripts. Bewegte Punkte zeigen konventionelle Stromrichtung, nicht Elektronengeschwindigkeiten.",
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "title": "Ohmsches Gesetz",
+      "narration": "Stell dir einen einfachen Stromkreis vor. Eine Spannungsquelle, ein Widerstand und eine Verbindung dazwischen. Wir entdecken, wie aus zwölf Volt und hundertzwanzig Ohm ein Strom von hundert Milliampere wird."
+    },
+    {
+      "id": "quelle",
+      "kind": "circuit",
+      "title": "Die Spannungsquelle",
+      "narration": "Unsere sichere Modellquelle liefert zwölf Volt Gleichspannung. Plus und Minus kennzeichnen die elektrische Potenzialdifferenz zwischen ihren beiden Anschlüssen."
+    },
+    {
+      "id": "offen",
+      "kind": "open",
+      "title": "Noch kein geschlossener Weg",
+      "narration": "Solange die Verbindung unterbrochen ist, fliesst in diesem idealisierten Stromkreis kein stationärer Strom. Zuerst müssen wir den Kreis schliessen."
+    },
+    {
+      "id": "geschlossen",
+      "kind": "close",
+      "title": "Der Stromkreis schliesst sich",
+      "narration": "Jetzt ist die Verbindung geschlossen. Die Quelle treibt einen Strom durch den Widerstand. Die eingezeichnete technische Stromrichtung verläuft ausserhalb der Quelle von Plus nach Minus."
+    },
+    {
+      "id": "strom",
+      "kind": "flow",
+      "title": "Strom sichtbar machen",
+      "narration": "Die bewegten Punkte zeigen diese technische Stromrichtung als Lernmodell. Sie stellen nicht die tatsächliche Geschwindigkeit einzelner Elektronen dar."
+    },
+    {
+      "id": "widerstand",
+      "kind": "resistor",
+      "title": "Der Widerstand",
+      "narration": "Der Widerstand beträgt hundertzwanzig Ohm. Bei gleichbleibender Spannung begrenzt ein grösserer Widerstand den Strom stärker, ein kleinerer lässt mehr Strom zu."
+    },
+    {
+      "id": "zusammenhang",
+      "kind": "formula",
+      "title": "Drei Grössen, ein Zusammenhang",
+      "narration": "Für einen ohmschen Widerstand gilt: U gleich R mal I. Die Spannung ist also das Produkt aus Widerstand und Stromstärke."
+    },
+    {
+      "id": "umformen",
+      "kind": "isolate",
+      "title": "Gesucht ist der Strom",
+      "narration": "Wir kennen die Spannung und den Widerstand. Deshalb stellen wir die Formel nach I um: I gleich U geteilt durch R."
+    },
+    {
+      "id": "bekannt",
+      "kind": "givens",
+      "title": "Bekannte Werte",
+      "narration": "Die Werte stehen direkt in unserer Schaltung: U gleich zwölf Volt und R gleich hundertzwanzig Ohm. Wir übernehmen sie mitsamt den Einheiten."
+    },
+    {
+      "id": "einsetzen",
+      "kind": "substitute",
+      "title": "Werte einsetzen",
+      "narration": "Jetzt setzen wir ein. I ist gleich zwölf Volt, geteilt durch hundertzwanzig Ohm. Die Einheiten Volt durch Ohm ergeben Ampere."
+    },
+    {
+      "id": "resultat",
+      "kind": "result",
+      "title": "Das Ergebnis",
+      "narration": "Zwölf geteilt durch hundertzwanzig ergibt null Komma eins. Es fliessen also null Komma eins Ampere durch den Modellwiderstand."
+    },
+    {
+      "id": "milliampere",
+      "kind": "convert",
+      "title": "In Milliampere umrechnen",
+      "narration": "Ein Ampere entspricht tausend Milliampere. Null Komma eins Ampere sind deshalb hundert Milliampere, nicht zehn."
+    },
+    {
+      "id": "plausibel",
+      "kind": "compare",
+      "title": "Ist das plausibel?",
+      "narration": "Halbieren wir den Widerstand auf sechzig Ohm, verdoppelt sich bei zwölf Volt der Strom auf zweihundert Milliampere. Verdoppeln wir den Widerstand, sinkt er auf fünfzig Milliampere."
+    },
+    {
+      "id": "kennlinie",
+      "kind": "graph",
+      "title": "Die U-I-Kennlinie",
+      "narration": "Bei einem idealen ohmschen Widerstand wächst der Strom proportional zur Spannung. Darum bildet die Kennlinie eine Gerade durch den Ursprung."
+    },
+    {
+      "id": "dcac",
+      "kind": "dcac",
+      "title": "Gleichstrom und Wechselstrom",
+      "narration": "Eine wichtige Unterscheidung: Bei Gleichstrom bleibt die Stromrichtung gleich. Bei Wechselstrom kehrt sie periodisch um. Die Animation zeigt den Richtungswechsel bewusst stark verlangsamt. Für einen idealen ohmschen Widerstand wechselt der Strom entsprechend mit der Spannung."
+    },
+    {
+      "id": "finish",
+      "kind": "summary",
+      "title": "Das Wichtigste",
+      "narration": "Merke dir: Spannung gleich Widerstand mal Strom. Für unseren Stromkreis gilt zwölf Volt geteilt durch hundertzwanzig Ohm, also hundert Milliampere. Prüfe bei jeder Rechnung die Einheiten und die Plausibilität."
+    }
+  ]
+}
