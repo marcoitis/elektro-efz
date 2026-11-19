@@ -1,0 +1,125 @@
+name: EFZ Masterclass 1.01-A – Audio, Safari und Fachgrafiken
+# Use Range-aware web server so WebKit can seek real MP3 bytes on iPhone.
+# Final package now includes automatic ready-lesson discovery and main QA gate.
+
+on:
+  push:
+    branches: [feature/178-masterclasses-sequential-101a]
+    paths: [.github/workflows/test-masterclass-101a.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audio, 178 lessons, existing pilot and safety audits
+        run: |
+          python tools/check_sequential_master.py --lesson 1.01-A
+          python tools/validate_master_scene.py
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/check_github_release.py
+          node tools/test_video_pilot.js
+          node tools/test_sw_routes.js
+          node tools/test_ios_audio_retry.js
+          node tools/test_audio_zip_import.js
+          for file in masterclasses/player.js masterclasses/1.01-A/visuals.js app.js sw.js offline.js; do node --check "$file"; done
+      - name: PWA site build
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('dist')
+          status=json.loads((root/'masterclasses/catalog.json').read_text())
+          assert len(status['lessons'])==178
+          assert status['lessons'][0]['id']=='1.01-A'
+          assert len(json.loads((root/'audio-manifest.json').read_text())['tracks'])==178
+          assert json.loads((root/'version.json').read_text())['build']=='0.15.0-masterclass-101a'
+          assert (root/'masterclasses/1.01-A/audio/masterclass.mp3').stat().st_size>200000
+          print('PASS 178-lesson catalog, 2 narrated masterclasses, 178 existing tracks')
+          PY
+      - name: Browser engines
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps webkit chromium
+      - name: 'iPhone and desktop: real audio, normative model, quiz'
+        run: |
+          python tools/range_http_server.py --root dist --port 8787 >/tmp/master-101a.log 2>&1 &
+          sleep 2
+          mkdir -p screenshots
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+           for(const [engine,name] of [[webkit,'webkit'],[chromium,'chromium']]){
+            for(const width of [390,1280]){
+             const tag=name+'-'+width;
+             const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+             const page=await browser.newPage({viewport:{width,height:width===390?844:820},isMobile:width===390,hasTouch:width===390});
+             const errors=[];page.on('pageerror',e=>errors.push(e.message));
+             await page.goto('http://127.0.0.1:8787/masterclass.html?lesson=1.01-A',{waitUntil:'domcontentloaded'});
+             await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,null,{timeout:20000});
+             await page.waitForFunction(()=>document.querySelector('#mc-audio').duration>200,null,{timeout:30000});
+             const d=await page.evaluate(()=>document.querySelector('#mc-audio').duration);
+             await page.locator('#mc-play').click();
+             await page.waitForTimeout(850);
+             if(!(await page.evaluate(()=>!document.querySelector('#mc-audio').paused)))throw Error(tag+' audio failed');
+             await page.screenshot({path:'screenshots/'+tag+'-start.png'});
+             for(const [visual,expected] of [['efz','Anerkannter Berufsabschluss'],['exception2','Artikel 16'],['safe','STOP']]){
+              await page.evaluate(v=>{
+               const t=window.ElektroMaster.getTimeline();
+               document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+1.3;
+              },visual);
+              await page.waitForTimeout(950);
+              console.log('DEBUG '+tag+' '+visual+' '+JSON.stringify(await page.evaluate(()=>({
+               t:document.querySelector('#mc-audio').currentTime,
+               paused:document.querySelector('#mc-audio').paused,
+               seeking:document.querySelector('#mc-audio').seeking,
+               ready:document.querySelector('#mc-audio').readyState,
+               beat:window.ElektroMaster.getActiveBeat(),
+               name:window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual
+              }))));
+              await page.waitForFunction(v=>window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual===v,visual,{timeout:12000});
+              const body=await page.locator('#mc-stage').innerText();
+              if(!body.includes(expected))throw Error(tag+' '+visual+' scene missing');
+              await page.screenshot({path:'screenshots/'+tag+'-'+visual+'.png'});
+             }
+             await page.evaluate(()=>{
+              const t=window.ElektroMaster.getTimeline(),q=t.beats.find(b=>b.visual==='question');
+              document.querySelector('#mc-audio').currentTime=q.end+.03;
+             });
+             await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:12000});
+             if(!(await page.evaluate(()=>document.querySelector('#mc-audio').paused)))throw Error(tag+' quiz pause failed');
+             await page.locator('#mc-answer').click();
+             await page.waitForTimeout(550);
+             if(!(await page.locator('#mc-stage').innerText()).includes('NEIN'))throw Error(tag+' answer failed');
+             const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+             if(overflow>3)throw Error(tag+' horizontal overflow '+overflow);
+             if(errors.length)throw Error(tag+' JS errors '+errors.join(' | '));
+             console.log('PASS '+tag+' 24 visuals; Torsten High '+d.toFixed(2)+' sec; NIV Art16, safety and quiz');
+             await browser.close();
+            }
+           }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-101a-quality-screenshots
+          path: screenshots/*.png
+          if-no-files-found: ignore
+          retention-days: 7

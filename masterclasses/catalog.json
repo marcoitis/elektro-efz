@@ -1,0 +1,1614 @@
+{
+  "schema_version": 1,
+  "title": "Elektro EFZ – Professioneller Video-Unterricht (178 Lektionen)",
+  "total": 178,
+  "quality_standard": "master-103-b.html (v0.14.0)",
+  "production_order": "audio-plan/batches.json, in Reihenfolge der Lektionen",
+  "release_rule": "Only mark as ready after unique edited script, lesson-specific visual renderer, Thorsten High audio, frame-aligned cues, technical checks and iPhone/desktop browser QA",
+  "lessons": [
+    {
+      "sequence": 1,
+      "id": "1.01-A",
+      "title": "Berufsbild, EFZ und Installationsbewilligung",
+      "status": "ready",
+      "href": "./masterclass.html?lesson=1.01-A",
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual",
+      "published_version": "0.15.0",
+      "technical_tests": "GitHub Actions 44613366314: WebKit 390/1280, Chromium 390/1280, 24 beats, Art16, safety and quiz pass"
+    },
+    {
+      "sequence": 2,
+      "id": "1.01-B",
+      "title": "Elektrische Gefahren verstehen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 3,
+      "id": "1.01-C",
+      "title": "Sicherheitsregeln und Besonderheiten von PV-Anlagen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 4,
+      "id": "1.02-A",
+      "title": "SI-Einheiten und Zehnerpotenzen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 5,
+      "id": "1.02-B",
+      "title": "Formeln sicher umstellen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 6,
+      "id": "1.02-C",
+      "title": "Prozent, Wirkungsgrad und Energie",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 7,
+      "id": "1.03-A",
+      "title": "Spannung, Strom, Ladung und Widerstand",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 8,
+      "id": "1.03-B",
+      "title": "Ohmsches Gesetz – der zentrale Zusammenhang",
+      "status": "ready",
+      "href": "./master-103-b.html",
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 9,
+      "id": "1.03-C",
+      "title": "Leistung, Verlustwärme und Energie",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 10,
+      "id": "1.03-D",
+      "title": "Messgrundlagen am Schutzkleinspannungsmodell",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 11,
+      "id": "1.04-A",
+      "title": "Serien- und Parallelschaltung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 12,
+      "id": "1.04-B",
+      "title": "Kirchhoffsche Regeln und Spannungsteiler",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 13,
+      "id": "1.04-C",
+      "title": "Leitungswiderstand, Länge und Querschnitt",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 14,
+      "id": "1.05-A",
+      "title": "Leiterwerkstoffe und spezifischer Widerstand",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 15,
+      "id": "1.05-B",
+      "title": "Kabelaufbau, Isolierung und Leiterkennzeichnung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 16,
+      "id": "1.05-C",
+      "title": "IP-Schutz, Umwelteinflüsse und Materialverträglichkeit",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 17,
+      "id": "1.06-A",
+      "title": "Planarten und ihre jeweiligen Aufgaben",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 18,
+      "id": "1.06-B",
+      "title": "Schaltzeichen, Referenzkennzeichen und Klemmen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 19,
+      "id": "1.06-C",
+      "title": "Revision, Massstab und digitale Dokumentation",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 20,
+      "id": "1.07-A",
+      "title": "Werkzeugwahl, Befestigung und mechanische Qualität",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 21,
+      "id": "1.07-B",
+      "title": "Trassenplanung, Leitungsführung und Reserve",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 22,
+      "id": "1.07-C",
+      "title": "Arbeitssicherheit auf Baustellen und Brandabschottung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 23,
+      "id": "1.08-A",
+      "title": "Multimeter, Messbuchsen und Messkategorien",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 24,
+      "id": "1.08-B",
+      "title": "Messabweichung, Innenwiderstand und Protokolle",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 25,
+      "id": "1.08-C",
+      "title": "Systematische Fehlersuche am Kleinspannungsmodell",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 26,
+      "id": "1.09-A",
+      "title": "Elektrische Felder und Kondensatoren",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 27,
+      "id": "1.09-B",
+      "title": "Magnetfelder, Spulen und Induktion",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 28,
+      "id": "1.09-C",
+      "title": "RC-Zeitkonstante und reale Bauteile",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 29,
+      "id": "1.10-A",
+      "title": "Periodendauer, Frequenz und Sinussignal",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 30,
+      "id": "1.10-B",
+      "title": "Effektivwert und Spitzenwert",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 31,
+      "id": "1.10-C",
+      "title": "Energiewandlung, Wirkungsgrad und Lastprofil",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 32,
+      "id": "1.11-A",
+      "title": "Rechtsquellen, Normen und Verantwortlichkeit",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 33,
+      "id": "1.11-B",
+      "title": "Basisschutz, Fehlerschutz und Zusatzschutz",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 34,
+      "id": "1.11-C",
+      "title": "Kontrollen, Sicherheitsnachweis und Dokumentationspflicht",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 35,
+      "id": "1.12-A",
+      "title": "Anforderungskatalog für ein 12-V-Lichtmodell",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 36,
+      "id": "1.12-B",
+      "title": "Schaltmodell, Stückliste und Messplan",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 37,
+      "id": "1.12-C",
+      "title": "Fehlerszenarien und Jahresabschluss",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 38,
+      "id": "2.01-A",
+      "title": "Zeigerbilder und Phasenverschiebung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 39,
+      "id": "2.01-B",
+      "title": "Impedanz und RLC-Schaltungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 40,
+      "id": "2.01-C",
+      "title": "Wirk-, Blind- und Scheinleistung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 41,
+      "id": "2.02-A",
+      "title": "Drei Phasen und Sternschaltung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 42,
+      "id": "2.02-B",
+      "title": "Dreieck, Leistung und Lastsymmetrie",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 43,
+      "id": "2.02-C",
+      "title": "Neutralleiter, Unsymmetrie und Lastverteilung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 44,
+      "id": "2.03-A",
+      "title": "Faradaysches Induktionsgesetz",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 45,
+      "id": "2.03-B",
+      "title": "Transformatorenübersetzung und Verluste",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 46,
+      "id": "2.03-C",
+      "title": "Schutztrennung und Transformatoranwendung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 47,
+      "id": "2.04-A",
+      "title": "Dioden, Gleichrichter und Glättung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 48,
+      "id": "2.04-B",
+      "title": "Transistoren, Relais und Optokoppler",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 49,
+      "id": "2.04-C",
+      "title": "Digitale Logik und Sensor-Aktor-Prinzip",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 50,
+      "id": "2.05-A",
+      "title": "TN-, TT- und IT-Systeme",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 51,
+      "id": "2.05-B",
+      "title": "RCD, Fehlerströme und Schutzpotenzialausgleich",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 52,
+      "id": "2.05-C",
+      "title": "Schutzkonzepte anhand eines Fehlerfalls",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 53,
+      "id": "2.06-A",
+      "title": "Überlast, Kurzschluss und Schutzgerät",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 54,
+      "id": "2.06-B",
+      "title": "Leitungsdimensionierung und Spannungsfall",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 55,
+      "id": "2.06-C",
+      "title": "Schutzkoordination und Selektivität als Einstieg",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 56,
+      "id": "2.07-A",
+      "title": "Lichtschaltungen im Funktionsschema",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 57,
+      "id": "2.07-B",
+      "title": "Anschlussplan, Aderliste und Betriebsmittelkennzeichen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 58,
+      "id": "2.07-C",
+      "title": "Material- und Zeitkalkulation eines fiktiven Grundrisses",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 59,
+      "id": "2.08-A",
+      "title": "Lichtstrom, Beleuchtungsstärke und Lichtstärke",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 60,
+      "id": "2.08-B",
+      "title": "LED-Treiber, Lichtqualität und Effizienz",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 61,
+      "id": "2.08-C",
+      "title": "Lichtsteuerung und Präsenzanwendungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 62,
+      "id": "2.09-A",
+      "title": "Elektrische Wärme und Wärmemenge",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 63,
+      "id": "2.09-B",
+      "title": "Haushaltsgeräte und Anschlussdaten",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 64,
+      "id": "2.09-C",
+      "title": "Energieeffizienz und Kostenvergleich",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 65,
+      "id": "2.10-A",
+      "title": "Datenübertragung und Netzwerktopologien",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 66,
+      "id": "2.10-B",
+      "title": "Twisted Pair, Glasfaser und Übertragungswege",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 67,
+      "id": "2.10-C",
+      "title": "IP-Adressen, Geräte und Fehlersuche",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 68,
+      "id": "2.11-A",
+      "title": "Sichtprüfung vor elektrischen Messungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 69,
+      "id": "2.11-B",
+      "title": "Schutzleiter- und Isolationsprüfung verstehen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 70,
+      "id": "2.11-C",
+      "title": "RCD-Prüfung, Schleifenimpedanz und Messprotokoll",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 71,
+      "id": "2.12-A",
+      "title": "Raumbuch und Lastenliste erstellen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 72,
+      "id": "2.12-B",
+      "title": "Schutz- und Leitungsentwurf im Planungsfall",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 73,
+      "id": "2.12-C",
+      "title": "Dokumentation, Fehlerreview und Jahresprüfung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 74,
+      "id": "3.01-A",
+      "title": "Rohbau-, Hohlwand- und Aufputzinstallation",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 75,
+      "id": "3.01-B",
+      "title": "Leitungstrassen, Schacht und Brandabschnitt",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 76,
+      "id": "3.01-C",
+      "title": "Schaltgerätekombinationen und Verteilerplanung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 77,
+      "id": "3.02-A",
+      "title": "Leitungsschutz, RCD und Gerätefunktionen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 78,
+      "id": "3.02-B",
+      "title": "Überspannungsschutz und Schutzgerätekoordination",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 79,
+      "id": "3.02-C",
+      "title": "Schutzgeräteauswahl und thermische Betrachtung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 80,
+      "id": "3.03-A",
+      "title": "Erstprüfung als geplanter Prozess",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 81,
+      "id": "3.03-B",
+      "title": "Schutzleiter, Isolation und Polarisierung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 82,
+      "id": "3.03-C",
+      "title": "RCD, Schleifenimpedanz und Prüfprotokoll",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 83,
+      "id": "3.04-A",
+      "title": "Drehstrom-Asynchronmotor und Schlupf",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 84,
+      "id": "3.04-B",
+      "title": "Anlaufarten und Motorschutz",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 85,
+      "id": "3.04-C",
+      "title": "Frequenzumrichter und EMV",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 86,
+      "id": "3.05-A",
+      "title": "Selbsthaltung und Verriegelung mit Relais",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 87,
+      "id": "3.05-B",
+      "title": "Zeitglieder, Signalfluss und Funktionsablauf",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 88,
+      "id": "3.05-C",
+      "title": "KOP/FUP, Fehlerdiagnose und Not-Halt-Abgrenzung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 89,
+      "id": "3.06-A",
+      "title": "KNX-Bus, Topologie und Teilnehmer",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 90,
+      "id": "3.06-B",
+      "title": "Sensorik, Szenen und Raumfunktionen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 91,
+      "id": "3.06-C",
+      "title": "Diagnose, Fernzugriff und Dokumentation",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 92,
+      "id": "3.07-A",
+      "title": "PV-Kennlinie, MPP und Ertragsfaktoren",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 93,
+      "id": "3.07-B",
+      "title": "Stringplanung, Temperatur und Wechselrichtergrenzen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 94,
+      "id": "3.07-C",
+      "title": "DC-Sicherheit, Stecksysteme und PV-Dokumentation",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 95,
+      "id": "3.08-A",
+      "title": "NIV 14 und Abgrenzung der PV-Arbeiten",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 96,
+      "id": "3.08-B",
+      "title": "Netzanmeldung, Bauverfahren und Messkonzept",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 97,
+      "id": "3.08-C",
+      "title": "PV-Prüfprotokoll, Dachschutz und Übergabe",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 98,
+      "id": "3.09-A",
+      "title": "Bäder, Schutzbereiche und besondere Räume",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 99,
+      "id": "3.09-B",
+      "title": "Aussenanlagen, Baustellen und Landwirtschaft",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 100,
+      "id": "3.09-C",
+      "title": "Blitz-, Überspannungs- und Brandschutzkonzepte",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 101,
+      "id": "3.10-A",
+      "title": "Strukturierte Kupferverkabelung und Patchfelder",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 102,
+      "id": "3.10-B",
+      "title": "Glasfaser und optische Übertragung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 103,
+      "id": "3.10-C",
+      "title": "Koaxialtechnik, Pegel und Messberichte",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 104,
+      "id": "3.11-A",
+      "title": "Fehlerbaum und sicherer Diagnoseprozess",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 105,
+      "id": "3.11-B",
+      "title": "Messstrategie, Gegenprüfung und Ursachenanalyse",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 106,
+      "id": "3.11-C",
+      "title": "Kundengespräch, Rapport und Übergabe",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 107,
+      "id": "3.12-A",
+      "title": "Gesamtplanung: Verbraucher, PV und Datensystem",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 108,
+      "id": "3.12-B",
+      "title": "Schutz-, Leitungs- und PV-Dokumentation",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 109,
+      "id": "3.12-C",
+      "title": "Projektprüfung und Sicherheits-Fachgespräch",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 110,
+      "id": "4.01-A",
+      "title": "Komplexe Impedanz und Wechselstromnetze",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 111,
+      "id": "4.01-B",
+      "title": "Leistungsdreieck und Blindleistung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 112,
+      "id": "4.01-C",
+      "title": "Drehstromlasten und Plausibilitätsprüfung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 113,
+      "id": "4.02-A",
+      "title": "Fehlerschleifenimpedanz und Abschaltbedingungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 114,
+      "id": "4.02-B",
+      "title": "Selektivität und Schutzgerätabstimmung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 115,
+      "id": "4.02-C",
+      "title": "Schutzfälle und sichere Freigabeentscheidungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 116,
+      "id": "4.03-A",
+      "title": "Lastprofile, Eigenverbrauch und Energieflüsse",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 117,
+      "id": "4.03-B",
+      "title": "Batteriespeicher und Wirkungsgradkette",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 118,
+      "id": "4.03-C",
+      "title": "Elektromobilität und intelligentes Lastmanagement",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 119,
+      "id": "4.04-A",
+      "title": "Ablauflogik und Zustandsautomaten",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 120,
+      "id": "4.04-B",
+      "title": "Verriegelungen, Sensorik und Fehlertabelle",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 121,
+      "id": "4.04-C",
+      "title": "Gebäudeautomation und Benutzerfunktionen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 122,
+      "id": "4.05-A",
+      "title": "Sichtprüfung, Prüfreihenfolge und Freigaben",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 123,
+      "id": "4.05-B",
+      "title": "Messunsicherheit, Grenzwerte und Bewertungslogik",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 124,
+      "id": "4.05-C",
+      "title": "Erstprüfungsdossier und Übergabe",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 125,
+      "id": "4.06-A",
+      "title": "Gesetze, Verordnungen und technische Regeln auseinanderhalten",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 126,
+      "id": "4.06-B",
+      "title": "NIN-Systematik und gezielte Normrecherche",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 127,
+      "id": "4.06-C",
+      "title": "Rechts- und Normfälle im Fachgespräch",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 128,
+      "id": "4.07-A",
+      "title": "Auftrag, Arbeitsvorbereitung und Schnittstellen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 129,
+      "id": "4.07-B",
+      "title": "Material, Arbeitsrapport und Nachträge",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 130,
+      "id": "4.07-C",
+      "title": "Revisionsunterlagen und Kundeninstruktion",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 131,
+      "id": "4.08-A",
+      "title": "PV-Dossier: Modul- und Stringdaten überprüfen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 132,
+      "id": "4.08-B",
+      "title": "Sicherheits-, Kennzeichnungs- und Prüfunterlagen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 133,
+      "id": "4.08-C",
+      "title": "PV-Abschlussgespräch und Mängelmanagement",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 134,
+      "id": "4.09-A",
+      "title": "Übertragungsstrecken und Linkmessungen",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 135,
+      "id": "4.09-B",
+      "title": "Koaxialtechnik und Fehlersuche",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 136,
+      "id": "4.09-C",
+      "title": "Systematische Netzwerkdiagnose und Dokumentationsreview",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 137,
+      "id": "4.10-A",
+      "title": "Sicherheits- und Normen-Fachgespräch",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 138,
+      "id": "4.10-B",
+      "title": "Elektrotechnik und Systemtechnik mündlich erklären",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 139,
+      "id": "4.10-C",
+      "title": "Kommunikation, Steuerung und Prüfung unter Zeitdruck",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 140,
+      "id": "4.11-A",
+      "title": "Schriftliche Prüfung: Mathematik und Elektrotechnik",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 141,
+      "id": "4.11-B",
+      "title": "Schriftliche Prüfung: NIN, Pläne und Systemtechnik",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 142,
+      "id": "4.11-C",
+      "title": "Prüfungssimulation und Lernlückenanalyse",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 143,
+      "id": "4.12-A",
+      "title": "Praktisches QV: Auftrag und Arbeitsvorbereitung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 144,
+      "id": "4.12-B",
+      "title": "Praktisches QV: Ausführung und Erstprüfung unter Aufsicht",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 145,
+      "id": "4.12-C",
+      "title": "Abschlussreview und individueller Weg zur Zulassung",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 146,
+      "id": "N-S01",
+      "title": "N-S01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 147,
+      "id": "N-S02",
+      "title": "N-S02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 148,
+      "id": "N-S03",
+      "title": "N-S03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 149,
+      "id": "N-S04",
+      "title": "N-S04",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 150,
+      "id": "N-W01",
+      "title": "N-W01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 151,
+      "id": "N-W02",
+      "title": "N-W02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 152,
+      "id": "N-W03",
+      "title": "N-W03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 153,
+      "id": "N-W04",
+      "title": "N-W04",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 154,
+      "id": "N-W05",
+      "title": "N-W05",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 155,
+      "id": "N-P01",
+      "title": "N-P01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 156,
+      "id": "N-P02",
+      "title": "N-P02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 157,
+      "id": "N-P03",
+      "title": "N-P03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 158,
+      "id": "N-P04",
+      "title": "N-P04",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 159,
+      "id": "N-P05",
+      "title": "N-P05",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 160,
+      "id": "N-P06",
+      "title": "N-P06",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 161,
+      "id": "N-P07",
+      "title": "N-P07",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 162,
+      "id": "N-V01",
+      "title": "N-V01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 163,
+      "id": "N-V02",
+      "title": "N-V02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 164,
+      "id": "N-V03",
+      "title": "N-V03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 165,
+      "id": "N-V04",
+      "title": "N-V04",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 166,
+      "id": "N-V05",
+      "title": "N-V05",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 167,
+      "id": "N-V06",
+      "title": "N-V06",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 168,
+      "id": "N-V07",
+      "title": "N-V07",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 169,
+      "id": "N-V08",
+      "title": "N-V08",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 170,
+      "id": "N-E01",
+      "title": "N-E01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 171,
+      "id": "N-E02",
+      "title": "N-E02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 172,
+      "id": "N-E03",
+      "title": "N-E03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 173,
+      "id": "N-B01",
+      "title": "N-B01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 174,
+      "id": "N-B02",
+      "title": "N-B02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 175,
+      "id": "N-B03",
+      "title": "N-B03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 176,
+      "id": "N-I01",
+      "title": "N-I01",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 177,
+      "id": "N-I02",
+      "title": "N-I02",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    },
+    {
+      "sequence": 178,
+      "id": "N-I03",
+      "title": "N-I03",
+      "status": "pending",
+      "href": null,
+      "audio_review": "pending_manual",
+      "didactic_review": "pending_manual"
+    }
+  ]
+}

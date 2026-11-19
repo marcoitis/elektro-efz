@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#0b293e">
+ <meta name="description" content="Elektro EFZ Masterclasses: Thorsten High erklärt Fachbegriffe mit eigens animierten Bildern und samplebasierten Audio-Bild-Zeitmarken.">
+ <title>Elektro EFZ · Masterclass</title>
+ <link rel="icon" type="image/png" href="./icon-192.png">
+ <link rel="stylesheet" href="./master-103-b/player.css">
+</head>
+<body class="mc-body" data-master-lesson="1.01-A">
+<div class="mc-wrapper">
+ <header class="mc-header">
+  <a class="mc-brand" href="./index.html" aria-label="Zur Elektro EFZ Lernplattform">
+   <span class="mc-logo">E<b>+</b></span>
+   <span><strong>ELEKTRO · EFZ</strong><small>Deine digitale Fachschule</small></span>
+  </a>
+  <a class="mc-home" href="./masterclasses.html">Alle Masterclasses</a>
+ </header>
+ <section class="mc-heading">
+  <span class="mc-eyebrow" id="mc-lesson-label">1.01-A · Masterclass · Thorsten High</span>
+  <h1 id="mc-heading">Berufsbild, EFZ und Installationsbewilligung</h1>
+  <p>Unterricht statt Folienvortrag: Die wichtigsten Zusammenhänge entstehen Schritt für Schritt, während Thorsten erklärt.</p>
+ </section>
+ <main class="mc-root" id="mc-root">
+  <div class="mc-stage" id="mc-stage" role="group" aria-label="Synchronisierte Unterrichtsanimation">
+   <div class="mc-top"><div><span class="mc-lesson-mark">ELEKTRO · EFZ / MASTERCLASS</span><span class="mc-topic">Unterrichtsfilm wird geladen</span></div><span class="mc-stage-tag">AUDIO LÄDT</span></div>
+  </div>
+  <div class="mc-controls">
+   <div class="mc-seekline"><span id="mc-clock">0:00</span><input id="mc-seek" type="range" min="0" max="1000" value="0" step="1" disabled aria-label="Position im Unterrichtsfilm"><span id="mc-duration">–:––</span></div>
+   <div class="mc-transport">
+    <button class="mc-button" id="mc-back" type="button" disabled aria-label="Zurück zum letzten Erklärungsschritt">◀ Schritt</button>
+    <button class="mc-button mc-mainbutton" id="mc-play" type="button" disabled>Audio wird geladen …</button>
+    <button class="mc-button" id="mc-next" type="button" disabled aria-label="Zum nächsten Erklärungsschritt">Schritt ▶</button>
+    <label class="mc-speed" for="mc-speed">Tempo
+     <select id="mc-speed" aria-label="Wiedergabegeschwindigkeit">
+      <option value="0.85">0,85×</option>
+      <option value="1" selected>1,0×</option>
+      <option value="1.2">1,2×</option>
+      <option value="1.4">1,4×</option>
+     </select>
+    </label>
+   </div>
+   <div class="mc-tools">
+    <button class="mc-button" id="mc-captoggle" type="button" aria-pressed="false">Untertitel einblenden</button>
+    <button class="mc-button" id="mc-fullscreen" type="button">Bildschirm füllen</button>
+   </div>
+   <div id="mc-status" class="mc-status" role="status" aria-live="polite">Lade Unterrichtssequenz …</div>
+   <button type="button" class="mc-answer" id="mc-answer" hidden>Antwort anhören</button>
+   <div id="mc-support" class="mc-support" hidden>Falls der Start scheitert, öffne unten die native Audiosteuerung.</div>
+  </div>
+  <div id="mc-captions" class="mc-caption-wrap" hidden><span id="mc-caption"></span></div>
+ </main>
+ <section class="mc-below">
+  <details class="mc-accord"><summary>In einem anderen Thema weitermachen</summary><div class="mc-nav-grid" id="mc-chapters"></div></details>
+  <details class="mc-accord"><summary>Alternative Audiosteuerung für Safari</summary>
+   <p>Die native Audiosteuerung bedient dieselbe Aufnahme wie der Unterrichtsfilm.</p>
+   <audio class="mc-audio-controls" id="mc-audio" controls preload="metadata" playsinline></audio>
+  </details>
+ </section>
+ <p class="mc-footnote">Die Visualisierungen sind didaktische Modelle und keine Installationsanleitung. Eine konkrete Installationsarbeit erfordert die Einhaltung der aktuellen NIV, Fachkompetenz, Zuständigkeit und die passende Bewilligung. Die Szenenwechsel sind an die exakten Sprecherbaustein-Grenzen gekoppelt; eine menschliche akustische und normative Endabnahme bleibt erforderlich. <a id="mc-back-lesson" href="./index.html?lesson=1.01-A">Zur vollständigen Text- und Audiolektion</a>.</p>
+</div>
+<script>
+(function(){
+ 'use strict';
+ const query=new URLSearchParams(location.search).get('lesson')||'1.01-A';
+ const lesson=/^(?:[1-4]\.\d{2}-[A-Z]|N-[A-Z]\d{2})$/.test(query)?query:'1.01-A';
+ document.body.dataset.masterLesson=lesson;
+ const sound=document.getElementById('mc-audio');
+ sound.src='./masterclasses/'+encodeURIComponent(lesson)+'/audio/masterclass.mp3';
+ document.getElementById('mc-lesson-label').textContent=lesson+' · Masterclass · Thorsten High';
+ document.getElementById('mc-back-lesson').href='./index.html?lesson='+encodeURIComponent(lesson);
+ const message=document.getElementById('mc-status');
+ const url='./masterclasses/'+encodeURIComponent(lesson)+'/visuals.js';
+ const renderScript=document.createElement('script');
+ renderScript.src=url;
+ renderScript.onerror=()=>{message.textContent='Die Masterclass für '+lesson+' ist noch nicht veröffentlicht. Bitte die Übersicht öffnen.';};
+ renderScript.onload=()=>{
+  const engine=document.createElement('script');
+  engine.src='./masterclasses/player.js';
+  engine.onerror=()=>{message.textContent='Der Unterrichtsplayer konnte nicht geladen werden.';};
+  document.body.append(engine);
+ };
+ document.body.append(renderScript);
+})();
+</script>
+</body>
+</html>

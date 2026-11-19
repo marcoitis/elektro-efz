@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "lesson_id": "1.01-A-master",
+  "voice": "Piper de_DE-thorsten-high",
+  "model_sha256": "9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1",
+  "source_sha256": "98cd15fb748c558a4e185c370f13575451a34b1fb28b51a51a31855d45307290",
+  "audio_sha256": "a12649326529d47e762ee013041cdc011f99c112bb6e4ff71ef54cdfb41c7b39",
+  "duration_seconds": 233.848,
+  "sample_rate": 22050,
+  "alignment": "beat_exact_via_PCM_frame_count_not_word_aligned",
+  "approval": "technical_verified_not_acoustically_or_normatively_signed_off",
+  "beats": [
+    {
+      "id": "01",
+      "visual": "intro",
+      "start": 0.0,
+      "duration": 9.891,
+      "end": 9.891,
+      "narration": "Heute unterscheiden wir drei Begriffe, die oft verwechselt werden: Berufsabschluss, praktische Erfahrung und Installationsbewilligung. Alle drei haben unterschiedliche Aufgaben."
+    },
+    {
+      "id": "02",
+      "visual": "ladder",
+      "start": 9.891,
+      "duration": 10.818,
+      "end": 20.709,
+      "narration": "Stell dir drei Stufen vor. Unten steht die Ausbildung. Darüber wächst die praktische Erfahrung. Erst die rechtliche Berechtigung entscheidet über bestimmte selbstständige Installationsarbeiten."
+    },
+    {
+      "id": "03",
+      "visual": "efz",
+      "start": 20.709,
+      "duration": 11.226,
+      "end": 31.934,
+      "narration": "Ein Elektroinstallateur mit eidgenössischem Fähigkeitszeugnis besitzt einen anerkannten Berufsabschluss. Das Zeugnis bestätigt die Qualifikation, ersetzt aber nicht jede erforderliche Bewilligung."
+    },
+    {
+      "id": "04",
+      "visual": "skills",
+      "start": 31.934,
+      "duration": 11.11,
+      "end": 43.044,
+      "narration": "Die Ausbildung vermittelt technische Grundlagen, Arbeitssicherheit und praktische Kompetenzen. Damit ist aber noch nicht festgelegt, wer einen Auftrag in eigener Verantwortung übernehmen darf."
+    },
+    {
+      "id": "05",
+      "visual": "practice",
+      "start": 43.044,
+      "duration": 9.473,
+      "end": 52.516,
+      "narration": "Berufspraxis entsteht im betrieblichen Alltag unter passenden Rahmenbedingungen und fachlicher Aufsicht. Erfahrung allein ersetzt ebenfalls nicht die gesetzlichen Voraussetzungen."
+    },
+    {
+      "id": "06",
+      "visual": "responsibility",
+      "start": 52.516,
+      "duration": 9.958,
+      "end": 62.475,
+      "narration": "Auf einer Baustelle tragen verschiedene Personen unterschiedliche Verantwortung. Wer führt aus? Wer beaufsichtigt? Wer kontrolliert? Diese Fragen dürfen wir nicht vermischen."
+    },
+    {
+      "id": "07",
+      "visual": "niv",
+      "start": 62.475,
+      "duration": 8.8,
+      "end": 71.275,
+      "narration": "In der Schweiz regelt die Niederspannungs-Installationsverordnung, kurz N I V, wichtige Voraussetzungen für Installationsarbeiten und deren Kontrolle."
+    },
+    {
+      "id": "08",
+      "visual": "permit",
+      "start": 71.275,
+      "duration": 9.426,
+      "end": 80.701,
+      "narration": "Bei bewilligungspflichtigen Arbeiten an festen elektrischen Installationen muss die geeignete Bewilligung vorliegen. Technisches Können oder Eigentum genügen dafür nicht."
+    },
+    {
+      "id": "09",
+      "visual": "esti",
+      "start": 80.701,
+      "duration": 8.335,
+      "end": 89.036,
+      "narration": "Das Eidgenössische Starkstrominspektorat, kurz E S T I, prüft und erteilt die entsprechenden Installations- und Kontrollbewilligungen."
+    },
+    {
+      "id": "10",
+      "visual": "person",
+      "start": 89.036,
+      "duration": 10.1,
+      "end": 99.136,
+      "narration": "Eine allgemeine Installationsbewilligung kann unter den gesetzlichen Voraussetzungen einer fachkundigen natürlichen Person erteilt werden. Das ist etwas anderes als ein Fähigkeitszeugnis."
+    },
+    {
+      "id": "11",
+      "visual": "company",
+      "start": 99.136,
+      "duration": 9.925,
+      "end": 109.061,
+      "narration": "Auch Betriebe können eine allgemeine Installationsbewilligung besitzen. Dabei spielen die fachkundige Leitung und die wirksame technische Aufsicht eine wesentliche Rolle."
+    },
+    {
+      "id": "12",
+      "visual": "limits",
+      "start": 109.061,
+      "duration": 7.441,
+      "end": 116.502,
+      "narration": "Daneben gibt es eingeschränkte Bewilligungen für bestimmte Tätigkeiten oder Anlagen. Ihr Geltungsbereich ist klar begrenzt."
+    },
+    {
+      "id": "13",
+      "visual": "pv",
+      "start": 116.502,
+      "duration": 10.552,
+      "end": 127.054,
+      "narration": "Artikel vierzehn der N I V betrifft unter anderem besondere Anlagen wie Photovoltaik. Eine solche Bewilligung ist keine pauschale Erlaubnis für sämtliche Elektroinstallationen."
+    },
+    {
+      "id": "14",
+      "visual": "exception",
+      "start": 127.054,
+      "duration": 9.763,
+      "end": 136.817,
+      "narration": "Wichtig ist auch Artikel sechzehn. Er enthält gesetzlich geregelte Ausnahmen von der Bewilligungspflicht, beispielsweise für bestimmte Personen und Arbeiten im Wohnbereich."
+    },
+    {
+      "id": "15",
+      "visual": "exception2",
+      "start": 136.817,
+      "duration": 11.945,
+      "end": 148.762,
+      "narration": "Deshalb wäre die Aussage falsch, ein Elektroinstallateur mit Fähigkeitszeugnis dürfe im eigenen Wohnbereich grundsätzlich nie ohne allgemeine Bewilligung arbeiten. Entscheidend sind die genauen gesetzlichen Bedingungen."
+    },
+    {
+      "id": "16",
+      "visual": "owner",
+      "start": 148.762,
+      "duration": 6.443,
+      "end": 155.205,
+      "narration": "Umgekehrt gilt: Nur weil dir ein Haus oder eine Wohnung gehört, darfst du nicht automatisch alle Installationen verändern."
+    },
+    {
+      "id": "17",
+      "visual": "scope",
+      "start": 155.205,
+      "duration": 10.517,
+      "end": 165.723,
+      "narration": "Nehmen wir den Auftrag, eine defekte Steckdose zu ersetzen. Bevor jemand handelt, müssen Arbeitsumfang, Anlagenzustand, Zuständigkeit und Bewilligungslage geklärt sein."
+    },
+    {
+      "id": "18",
+      "visual": "safe",
+      "start": 165.723,
+      "duration": 7.603,
+      "end": 173.326,
+      "narration": "Fehlen Angaben oder eine passende Berechtigung, ist Stoppen die fachlich richtige Entscheidung. Nicht ausprobieren, nicht an Spannung arbeiten."
+    },
+    {
+      "id": "19",
+      "visual": "decision",
+      "start": 173.326,
+      "duration": 9.659,
+      "end": 182.985,
+      "narration": "Die richtige Reihenfolge lautet: Tätigkeit bestimmen, zuständige Personen und Bewilligung prüfen, Sicherheitsmassnahmen planen und erst dann den zulässigen Auftrag organisieren."
+    },
+    {
+      "id": "20",
+      "visual": "responsible",
+      "start": 182.985,
+      "duration": 9.589,
+      "end": 192.574,
+      "narration": "Eine verantwortliche Fachperson sorgt dafür, dass Ausführung, Aufsicht und erforderliche Kontrollen zur konkreten Arbeit passen. Rollen ersetzen sich nicht gegenseitig."
+    },
+    {
+      "id": "21",
+      "visual": "summary",
+      "start": 192.574,
+      "duration": 9.994,
+      "end": 202.568,
+      "narration": "Merke dir: Das Fähigkeitszeugnis bestätigt Ausbildung. Berufspraxis zeigt Erfahrung. Die Berechtigung ergibt sich aus der N I V und der konkreten Situation."
+    },
+    {
+      "id": "22",
+      "visual": "closing",
+      "start": 202.568,
+      "duration": 8.439,
+      "end": 211.007,
+      "narration": "Damit kennst du den Unterschied zwischen Können, Verantwortung und Berechtigung. Übe zunächst mit Fallbeispielen, nicht an elektrischen Installationen."
+    },
+    {
+      "id": "23",
+      "visual": "question",
+      "start": 211.007,
+      "duration": 10.517,
+      "end": 221.524,
+      "narration": "Zum Schluss eine Frage. Ein Elektroinstallateur hat sein Fähigkeitszeugnis bestanden. Besitzt er dadurch automatisch eine allgemeine Installationsbewilligung für beliebige Kundenaufträge?"
+    },
+    {
+      "id": "24",
+      "visual": "answer",
+      "start": 221.524,
+      "duration": 12.258,
+      "end": 233.782,
+      "narration": "Nein. Das Fähigkeitszeugnis allein erteilt keine allgemeine Installationsbewilligung. Für bestimmte Arbeiten bestehen allerdings gesetzliche Ausnahmen. Prüfe deshalb immer die konkrete Tätigkeit."
+    }
+  ]
+}

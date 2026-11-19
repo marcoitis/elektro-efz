@@ -1,0 +1,64 @@
+name: Masterclasses – eine Lektion pro Produktionsdurchlauf
+# Final scripted quality gate: closing precedes final question and revealed answer.
+
+on:
+  push:
+    branches: [feature/178-masterclasses-sequential-101a]
+    paths:
+      - .github/workflows/render-masterclass-101a.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: efz-masterclass-1-01-a-render
+  cancel-in-progress: false
+
+jobs:
+  render-101a:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproducible Piper + ffmpeg
+        run: |
+          python -m pip install --disable-pip-version-check 'piper-tts==1.2.0'
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y ffmpeg
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 \
+            -o .voice-cache/de_DE-thorsten-high.onnx \
+            'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 \
+            -o .voice-cache/de_DE-thorsten-high.onnx.json \
+            'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Vertone ausschliesslich Lektion 1.01-A und samplegenaue Zeitmarken
+        run: python tools/render_masterclass_sequential.py --lesson 1.01-A
+      - name: Audit after synthesizing
+        run: |
+          python tools/check_sequential_master.py --lesson 1.01-A
+      - name: Audio und Timing in denselben Produktionsbranch speichern
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f masterclasses/1.01-A/audio/masterclass.mp3
+          git add masterclasses/1.01-A/audio/timeline.json
+          git commit -m 'Render 1.01-A Thorsten-High Masterclass: sequential lesson 1 of 178'
+          SUCCESS=0
+          for ATTEMPT in 1 2 3 4 5 6 7 8 9 10; do
+            git fetch origin feature/178-masterclasses-sequential-101a
+            git rebase FETCH_HEAD
+            if git push origin HEAD:feature/178-masterclasses-sequential-101a; then
+              SUCCESS=1
+              break
+            fi
+            echo "Concurrent work detected, retry $ATTEMPT/10"
+            sleep 2
+          done
+          test "$SUCCESS" -eq 1
