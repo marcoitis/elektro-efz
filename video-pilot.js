@@ -64,127 +64,244 @@ function makeTimeline(script){
 }
 function clamp(n,min,max){return Math.max(min,Math.min(max,n))}
 function formatTime(sec){if(!Number.isFinite(sec))sec=0;sec=Math.max(0,Math.floor(sec));return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0')}
-function svg(content){return '<svg class="vp-svg" viewBox="0 0 800 400" role="img" aria-label="Animierte didaktische Grafik; nur Modellstromkreis mit Schutzkleinspannung">'+content+'</svg>'}
-function text(x,y,s,size,fill,cls){return '<text x="'+x+'" y="'+y+'" font-size="'+(size||23)+'" fill="'+(fill||'#e8f6ff')+'" text-anchor="middle" class="'+(cls||'')+'">'+escapeHtml(s)+'</text>'}
-function badge(x,y,s,fill){return '<rect x="'+(x-75)+'" y="'+(y-28)+'" width="150" height="45" rx="13" fill="'+(fill||'#12485e')+'"/>'+text(x,y,s,20)}
-function circuit(config,phase){
- const c=Object.assign({u:'12 V',r:'120 Ω',i:'100 mA',r2:'',u1:'',u2:''},config||{});
- const lead='#7fe0dd',white='#b9d6e7';
- let lines='<path class="vp-current-line" d="M185 214 V112 H480 M606 112 H615 V290 H185 V240" stroke="'+lead+'" fill="none" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>';
- lines+='<rect x="480" y="90" width="126" height="44" rx="10" fill="#142f45" stroke="#fff" stroke-width="3"/>';
- lines+=text(543,117,'R = '+c.r,19);
- lines+='<path d="M162 214 L208 214 M173 240 L197 240" stroke="white" stroke-width="5"/>';
- lines+=text(122,224,'+',22)+text(122,275,'−',22);
- lines+=badge(190,357,'U = '+c.u);
- lines+=badge(579,357,'I = '+c.i);
- lines+=text(398,80,'Einfacher DC-Modellstromkreis',22);
- if(phase>0)lines+='<path d="M250 148 L370 148" stroke="#76e3ae" stroke-width="5" marker-end="url(#vp-arrow)"/>'+text(345,191,'Stromrichtung I',18,'#9decd2');
- if(phase>1)lines+=text(399,270,'I = U / R',36,'#fff');
- return svg('<defs><marker id="vp-arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0 L0 10 L10 5 z" fill="#76e3ae"/></marker></defs>'+lines);
+/* Director V2: one large teaching surface rather than a competing sidebar.
+ * SVG movement depicts conventional current direction. Text in the original
+ * Thorsten transcript governs the topics; no invented simultaneous voiceover.
+ */
+const PALETTE={teal:'#6ce4d0',blue:'#75c5f0',green:'#95eab4',white:'#f1f8fb',muted:'#afc7d6',dark:'#14354a'};
+function svg(content,label='Didaktische Visualisierung'){
+ return '<svg class="vp-svg vp-master-svg" viewBox="0 0 800 420" role="img" aria-label="'+escapeHtml(label)+'">'+
+ '<defs><linearGradient id="vp-glow" x1="0" x2="1"><stop offset="0%" stop-color="#238b9e"/><stop offset="100%" stop-color="#63e0c3"/></linearGradient>'+
+ '<marker id="vp-dir" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0 0 L0 10 L10 5z" fill="#92eacf"/></marker></defs>'+content+'</svg>';
+}
+function text(x,y,content,size=29,fill=PALETTE.white,anchor='middle',weight=600){
+ return '<text x="'+x+'" y="'+y+'" font-family="Inter,system-ui,Arial,sans-serif" font-size="'+size+'" font-weight="'+weight+'" fill="'+fill+'" text-anchor="'+anchor+'">'+escapeHtml(content)+'</text>';
+}
+function rect(x,y,w,h,fill=PALETTE.dark,stroke='#447489',r=16){
+ return '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="'+r+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="1.5"/>';
+}
+function caption(x,y,content){return text(x,y,content,16,PALETTE.muted);}
+function currentDots(path,duration=4,offset=0){
+ let items='';
+ for(let k=0;k<5;k++){
+  items+='<circle class="vp-current-dot" r="6" fill="'+(k%2?PALETTE.green:PALETTE.teal)+'">'+
+   '<animateMotion dur="'+duration+'s" begin="'+(-k*duration/5-offset).toFixed(2)+'s" repeatCount="indefinite" path="'+path+'"/></circle>';
+ }
+ return items;
+}
+function circuit(config={},phase=1){
+ const x={u:'12 V',r:'120 Ω',i:'100 mA',...config};
+ let a='';
+ const trace='M152 177 V85 H640 V308 H152 V246';
+ a+='<path d="M152 177 V85 H500 M622 85 H640 V308 H152 V246" fill="none" stroke="#7babc2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>';
+ a+='<path d="M122 177 H182 M133 246 H171" stroke="#e8fafc" stroke-width="6" stroke-linecap="round"/>';
+ a+=rect(500,61,122,48,'#1a4456','#a9f7e2',8)+text(561,93,'R = '+x.r,19);
+ a+=text(100,186,'+',24,PALETTE.green)+text(100,256,'−',24,PALETTE.blue);
+ if(phase>=0)a+=rect(77,322,205,64,'#1a4054','#4e7c8d',13)+caption(179,346,'Spannung')+text(179,376,'U = '+x.u,27);
+ if(phase>=1){a+=currentDots(trace);a+=text(398,60,'Technische Stromrichtung',18,PALETTE.green);a+='<path d="M312 121 H460" stroke="'+PALETTE.green+'" stroke-width="4" marker-end="url(#vp-dir)"/>';}
+ if(phase>=2)a+=rect(517,322,215,64,'#124b55','#53c4ab',13)+caption(622,345,'Strom')+text(622,376,'I = '+x.i,25);
+ return svg(a,'DC-Modellstromkreis: technische Stromrichtung ausserhalb der Quelle von Plus über einen Widerstand nach Minus');
+}
+function formulas(phase){
+ const eq=['U = R × I','I = U / R','R = U / I'];
+ let a=caption(400,52,'DREI SCHREIBWEISEN · EIN GESETZ');
+ eq.forEach((f,i)=>{
+  const active=i===phase;
+  a+=rect(154,77+i*105,492,85,active?'#136973':'#12364d',active?'#9af1d7':'#4b7287',18);
+  a+=text(400,133+i*105,f,active?43:31,active?PALETTE.white:'#a9c4d1');
+ });
+ return svg(a,'Die drei Formeln des Ohmschen Gesetzes; die aktuelle wird hervorgehoben');
+}
+function steps(phase){
+ const steps=['Aufgabe verstehen','Werte mit Einheiten','Gesuchte Grösse','Formel einsetzen','Ergebnis prüfen'];
+ let a=caption(400,48,'RECHENWEG · SCHRITT FÜR SCHRITT');
+ steps.forEach((str,i)=>{
+  const active=i<=Math.floor((phase+1)*5/3)-1;
+  const x=95+(i%3)*215,y=91+Math.floor(i/3)*142;
+  a+=rect(x,y,194,113,active?'#174e60':'#142e43',active?'#82ead0':'#496b80',15);
+  a+=text(x+26,y+40,String(i+1).padStart(2,'0'),26,active?PALETTE.green:'#648797','start');
+  a+=text(x+97,y+76,str,15,active?PALETTE.white:'#98b4c6');
+ });
+ return svg(a,'Fünf Rechenschritte von Aufgabe über Formel bis Plausibilitätskontrolle');
+}
+function example(phase){
+ let a=circuit({u:'12 V',r:'120 Ω',i:'100 mA'},Math.min(2,phase));
+ const calculation=['U = 12 V    ·    R = 120 Ω','I = U / R = 12 V / 120 Ω','I = 0,1 A = 100 mA'][phase];
+ // Keep the connected circuit as the central illustration. Add one current calculation,
+ // not a column of unrelated facts.
+ a=a.replace('</svg>',rect(245,213,340,67,'#102f47','#81d9c6',13)+
+  text(415,255,calculation,phase===1?24:23,PALETTE.white)+'</svg>');
+ return a;
 }
 function graph(nonlinear,phase){
- let x=90,y=330,w=610,h=240, strokes='<path d="M'+x+' '+y+' V'+(-h)+' M'+x+' '+y+' H'+(x+w)+'" stroke="#91aabb" fill="none" stroke-width="3"/>';
- for(let j=1;j<=4;j++){
-  const yy=y-h*j/4;
-  strokes+='<path d="M'+x+' '+yy+' H'+(x+w)+'" stroke="#ffffff" stroke-opacity=".1" stroke-width="1"/>';
- }
- strokes+=text(424,386,'Spannung U (V)',21,'#aacddf')+text(55,72,'I',25,'#aacddf');
+ let a='<path d="M104 344 V58 M104 344 H712" stroke="#bcd9e7" stroke-width="3"/>';
+ for(let i=1;i<=4;i++){a+='<path d="M104 '+(344-i*62)+' H712" stroke="#ffffff" stroke-opacity=".1"/>';}
+ a+=text(407,402,'Spannung U (V)',20,PALETTE.muted)+text(55,55,'I',23,PALETTE.muted);
  if(nonlinear){
-  strokes+='<path d="M90 330 L670 99" stroke="#83cdeb" stroke-dasharray="9 6" stroke-width="3" fill="none"/>';
-  strokes+='<path d="M90 330 C350 330 478 328 560 290 S650 142 700 44" stroke="#78f0b5" stroke-width="7" fill="none" class="vp-graph-line"/>';
-  strokes+=text(600,83,'LED (schematisch)',24,'#91fac0')+text(310,169,'Ohmsch',21,'#83cdeb');
+  a+='<path d="M110 344 L671 92" fill="none" stroke="'+PALETTE.blue+'" stroke-width="3" stroke-dasharray="10 7"/>';
+  a+='<path d="M110 344 C371 344 520 344 572 287 S655 133 697 64" fill="none" stroke="'+PALETTE.green+'" stroke-width="7" stroke-linecap="round" class="vp-trace-reveal"/>';
+  if(phase>=1)a+=text(500,60,'LED: nichtlinear',23,PALETTE.green);
+  if(phase>=2)a+=text(288,197,'Ohmscher Widerstand',21,PALETTE.blue);
  }else{
-  strokes+='<path d="M90 330 L665 90" stroke="#70efd7" stroke-width="7" fill="none" class="vp-graph-line"/>';
-  const pts=[[3,25],[6,50],[12,100]],color=['#b4e4f0','#a3edbd','#fff'];
-  pts.slice(0,Math.max(1,phase+1)).forEach((p,i)=>{
-   const px=x+p[0]/12*575,py=y-p[1]/100*240;
-   strokes+='<circle cx="'+px+'" cy="'+py+'" r="9" fill="'+color[i]+'"/>'+text(px,py-23,p[0]+' V / '+p[1]+' mA',17);
+  a+='<path d="M104 344 L682 96" fill="none" stroke="'+PALETTE.teal+'" stroke-width="7" stroke-linecap="round" class="vp-trace-reveal"/>';
+  const pts=[[3,25],[6,50],[12,100]];
+  pts.slice(0,phase+1).forEach(([u,i])=>{
+   const x=104+u/12*578,y=344-i/100*248;
+   a+='<circle cx="'+x+'" cy="'+y+'" r="9" fill="#e2fff6"/>'+text(x,y-22,u+' V · '+i+' mA',17);
   });
  }
- return svg(strokes);
+ return svg(a,nonlinear?'Nichtlineare LED-Kennlinie verglichen mit einem ohmschen Widerstand':'Lineare U-I-Kennlinie bei konstantem Widerstand von 120 Ohm');
 }
 function bars(type,phase){
- const data=type==='quad'?[{label:'12 V',n:1.2,value:'1,2 W'},{label:'24 V',n:4.8,value:'4,8 W'}]:[{label:'60 Ω',n:200,value:'200 mA'},{label:'120 Ω',n:100,value:'100 mA'},{label:'240 Ω',n:50,value:'50 mA'}];
- const max=Math.max(...data.map(d=>d.n)),unit=type==='quad'?'W':'mA';
- let content=text(400,51,type==='quad'?'Verlustleistung bei R = 120 Ω':'Strom bei U = 12 V',26);
- data.forEach((d,i)=>{
-  const left=145+i*(type==='quad'?280:190),h=d.n/max*215,vis=phase>=i;
-  content+='<rect x="'+left+'" y="'+(310-(vis?h:8))+'" width="120" height="'+(vis?h:8)+'" rx="9" fill="'+(i%2===0?'#45b6cf':'#77e5b7')+'" class="vp-bar"/>';
-  content+=text(left+60,340,d.label,22)+text(left+60,Math.max(70,305-h-16),vis?d.value:'…',22);
+ const power=type==='quad';
+ const data=power?[['12 V',1.2,'1,2 W'],['24 V',4.8,'4,8 W']]:[['60 Ω',200,'200 mA'],['120 Ω',100,'100 mA'],['240 Ω',50,'50 mA']];
+ const max=Math.max(...data.map(x=>x[1]));
+ let a=caption(400,45,power?'GLEICHER WIDERSTAND · LEISTUNGSVERGLEICH':'GLEICHE SPANNUNG · STROMVERGLEICH');
+ data.forEach(([label,n,value],i)=>{
+  const shown=i<=phase,base=328,height=shown?n/max*236:0;
+  const x=power?234+i*230:130+i*214;
+  a+=rect(x,base-height,130,height||2,i%2?PALETTE.green:PALETTE.blue,'none',9);
+  a+=text(x+65,361,label,24);
+  if(shown)a+=text(x+65,base-height-17,value,25,PALETTE.white);
  });
- return svg(content);
+ return svg(a,power?'Leistung vervierfacht sich bei doppelter Spannung und gleichem Widerstand':'Strom sinkt bei erhöhtem Widerstand und gleicher Spannung');
 }
-function formulaArt(phase){
- const f=['U = R × I','I = U / R','R = U / I'],y=[105,208,310];
- let code='';
- f.forEach((part,i)=>{code+='<rect x="125" y="'+(y[i]-52)+'" width="540" height="86" rx="19" fill="'+(i===phase?'#126e78':'#102c45')+'" stroke="'+(i===phase?'#87f0d6':'#416679')+'" stroke-width="'+(i===phase?3:1)+'"/>'+text(395,y[i],part,39,i===phase?'#fff':'#a8c4d5');});
- return svg(code);
+function twoWays(phase){
+ const entries=[['Spannung berechnen','U = 470 Ω × 0,02 A','9,4 V'],['Widerstand berechnen','R = 9 V / 0,03 A','300 Ω'],['Einheiten umrechnen','2,2 kΩ = 2 200 Ω','5 mA bei 11 V']];
+ const d=entries[phase];
+ return svg(rect(100,73,600,264,'#12394f','#68c7b7',23)+caption(400,124,d[0])+text(400,202,d[1],36)+text(400,294,d[2],44,PALETTE.green),'Eine Umformung des Ohmschen Gesetzes mit konkretem Rechenbeispiel');
 }
-function parallelArt(phase){
- let s='<path d="M125 190 H240 V95 H377 M503 95 H630 V190 H690 M240 190 V290 H377 M503 290 H630 V190" stroke="#8ce8dc" stroke-width="6" stroke-linejoin="round" fill="none"/>'+
- '<rect x="377" y="73" width="126" height="44" rx="8" fill="#153348" stroke="#e8f7fa" stroke-width="3"/>'+
- '<rect x="377" y="269" width="126" height="44" rx="8" fill="#153348" stroke="#e8f7fa" stroke-width="3"/>'+
- text(440,101,'R1 = 120 Ω',18)+text(440,297,'R2 = 240 Ω',18)+
- text(150,143,'12 V',26)+text(642,143,'12 V',22)+text(392,35,'Parallelschaltung',25);
- if(phase>0)s+=text(380,157,'I1 = 100 mA',23,'#92efd5');
- if(phase>1)s+=text(380,260,'I2 = 50 mA',23,'#92efd5')+badge(405,370,'Iges = 150 mA');
- return svg(s);
+function power(phase){
+ const rows=[['Leistung','P = U × I','Watt'],['12 V · 0,1 A','P = 1,2 W','Wärmeabgabe beachten'],['Mit Ohm kombiniert','P = I² × R','auch P = U² / R']];
+ const r=rows[phase];
+ return svg(rect(122,72,556,268,'#12384d','#6bd8bd',20)+caption(400,120,r[0])+text(400,211,r[1],47)+text(400,293,r[2],24,PALETTE.green),'Leistungsformeln und konkrete Werte für einen ohmschen Verbraucher');
 }
-function seriesArt(phase,exam){
- const r1=exam?'180 Ω':'100 Ω',r2=exam?'320 Ω':'200 Ω',u=exam?'10 V':'12 V',i=exam?'20 mA':'40 mA';
- let p='<path class="vp-current-line" d="M125 209 V115 H240 M380 115 H475 M615 115 H685 V315 H125 V260" stroke="#82e6d9" stroke-width="6" fill="none"/>'+
- '<rect x="240" y="94" width="140" height="44" rx="9" fill="#183c51" stroke="white" stroke-width="3"/>'+
- '<rect x="475" y="94" width="140" height="44" rx="9" fill="#183c51" stroke="white" stroke-width="3"/>'+
- text(310,122,'R1 = '+r1,19)+text(545,122,'R2 = '+r2,19)+
- '<path d="M99 218 H151 M110 241 H140" stroke="white" stroke-width="5"/>'+text(94,207,'+',22)+text(94,264,'−',22)+badge(196,365,'U = '+u)+badge(608,365,'I = '+i);
- if(phase>0)p+=text(310,195,exam?'3,6 V':'4 V',27,'#92efd5')+text(545,195,exam?'6,4 V':'8 V',27,'#92efd5');
- if(phase>1)p+=text(406,254,exam?'180 + 320 = 500 Ω':'100 + 200 = 300 Ω',29,'#fff');
- return svg(p);
+function series(phase,exam=false){
+ const values=exam?{u:'10 V',r1:'180 Ω',r2:'320 Ω',i:'20 mA',v1:'3,6 V',v2:'6,4 V',sum:'500 Ω'}:
+ {u:'12 V',r1:'100 Ω',r2:'200 Ω',i:'40 mA',v1:'4 V',v2:'8 V',sum:'300 Ω'};
+ let a='<path d="M123 185 V100 H240 M375 100 H465 M600 100 H683 V316 H123 V251" stroke="#82bbce" stroke-width="6" fill="none" stroke-linecap="round"/>';
+ a+='<path d="M94 185 H152 M103 251 H144" stroke="#fff" stroke-width="6"/>'+
+ text(77,193,'+',25,PALETTE.green)+text(77,261,'−',25,PALETTE.blue);
+ a+=rect(240,75,135,50,'#1d4256','#a5f1dc',7)+text(307,106,'R1 = '+values.r1,18);
+ a+=rect(465,75,135,50,'#1d4256','#a5f1dc',7)+text(533,106,'R2 = '+values.r2,18);
+ a+=currentDots('M123 185 V100 H683 V316 H123 V251',5);
+ a+=text(156,374,'U = '+values.u,25);
+ if(phase>=1)a+=text(309,169,'U1 = '+values.v1,22,PALETTE.green)+text(532,169,'U2 = '+values.v2,22,PALETTE.green);
+ if(phase>=2)a+=text(477,303,'I = '+values.i+'    ·    Rges = '+values.sum,22,PALETTE.white);
+ return svg(a,'Serienschaltung: gleicher Strom, Teilspannungen '+values.v1+' und '+values.v2+' addieren sich zur Gesamtspannung');
 }
-function gauge(phase){
- const labels=['Sollwert','Istwert','Differenz'],values=['100 mA','95 mA','−5 mA'];
- let s=text(400,50,'Beispiel: modellierte Messabweichung',26);
- labels.forEach((v,i)=>{s+='<rect x="120" y="'+(80+i*93)+'" width="560" height="73" rx="15" fill="'+(i===phase?'#116577':'#14334b')+'"/>'+text(265,126+i*93,v,22)+text(555,126+i*93,values[i],26,i===phase?'#aaf9df':'#e7f2f6');});
- return svg(s);
+function parallel(phase){
+ let a='<path d="M115 185 V96 H268 M268 96 H375 M508 96 H646 V320 H115 V250 M268 96 V278 H375 M508 278 H646" fill="none" stroke="#8ebed0" stroke-width="6" stroke-linejoin="round"/>';
+ // Two resistors are placed between the exact shared node pairs.
+ a+='<path d="M90 185 H141 M101 250 H130" stroke="#fff" stroke-width="6"/>'+
+ text(70,196,'+',24,PALETTE.green)+text(70,266,'−',24,PALETTE.blue);
+ // Both resistors connect to the same two nodes (268 and 646).
+ // Top resistor occupies 375..508 at y=96; bottom resistor 375..508 at y=278.
+ a+=rect(375,72,133,48,'#173c54','#85e6d1',8)+text(441,104,'R1 = 120 Ω',18);
+ a+=rect(375,254,133,48,'#173c54','#85e6d1',8)+text(441,285,'R2 = 240 Ω',18);
+ // Current path branches; never depict conductors bridging a resistor.
+ a+=currentDots('M115 185 V96 H646 V320 H115 V250',4);
+ a+=currentDots('M115 185 V96 H268 V278 H646 V320 H115 V250',4);
+ if(phase>=0)a+=text(185,376,'U = 12 V',24);
+ if(phase>=1)a+=text(445,160,'I1 = 100 mA',21,PALETTE.green);
+ if(phase>=2)a+=text(445,358,'I2 = 50 mA',21,PALETTE.green)+text(615,392,'Iges = 150 mA',20);
+ return svg(a,'Parallelschaltung: gleiche Spannung an beiden Widerständen, Teilströme 100 und 50 Milliampere');
+}
+function measure(phase){
+ const labels=[['Berechneter Strom','100 mA'],['Beispielmessung','95 mA'],['Abweichung','−5 mA']];
+ let a=caption(400,51,'NENNWERT IST NICHT ZWANGSLÄUFIG MESSWERT');
+ labels.forEach(([label,val],i)=>{
+  a+=rect(122,82+i*100,556,81,i===phase?'#186474':'#14364b',i===phase?'#8bedcf':'#476e82',14);
+  a+=text(178,130+i*100,label,21,PALETTE.muted,'start');
+  a+=text(613,133+i*100,val,30,i===phase?PALETTE.green:PALETTE.white,'end');
+ });
+ return svg(a,'Beispiel zur Messabweichung zwischen berechneten 100 und gemessenen 95 Milliampere');
+}
+function balance(phase){
+ const vals=[['R1','0,072 W'],['R2','0,128 W'],['Gesamt','0,200 W']];
+ let a=caption(400,49,'DIE SUMME DER TEILLEISTUNGEN STIMMT');
+ vals.forEach(([name,value],i)=>{
+  a+=rect(107+i*212,104,184,178,i<=phase?'#155063':'#133348',i===phase?'#85f0d3':'#41687d',14);
+  a+=text(199+i*212,164,name,23,PALETTE.muted);
+  if(i<=phase)a+=text(199+i*212,231,value,26,PALETTE.white);
+ });
+ if(phase>=2)a+=text(400,360,'0,072 W + 0,128 W = 0,200 W',28,PALETTE.green);
+ return svg(a,'Rechnerische Leistungsbilanz, die Gesamtleistung entspricht den beiden Teil-Leistungen');
+}
+function mistakes(phase){
+ const errors=[['Einheit prüfen','1 A = 1 000 mA'],['Schaltung beachten','Serie ≠ parallel'],['Modell beachten','LED ≠ konstanter R']];
+ const item=errors[phase];
+ return svg(rect(105,78,590,268,'#14374e','#83dfcd',24)+caption(400,126,'DENKFEHLER ERKENNEN')+
+ text(400,208,item[0],39)+text(400,282,item[1],32,PALETTE.green),'Typischer Denkfehler wird einzeln und übersichtlich hervorgehoben');
+}
+function finish(phase){
+ const problems=[['400 Ω · 8 V','I = 20 mA'],['5 V · 10 mA','R = 500 Ω'],['LED-Kennlinie','Nichtlinear · Temperatur beachten']];
+ const d=problems[phase];
+ return svg(rect(95,67,610,292,'#143a50','#73d9c6',23)+
+ caption(400,124,'LERNKONTROLLE · AUFGABE '+(phase+1)+' VON 3')+
+ text(400,209,d[0],38)+text(400,295,d[1],30,PALETTE.green),'Kontrollfragen erscheinen erst im ausdrücklich gesprochenen Abschlussabschnitt');
 }
 function slidesFor(c,phase){
  switch(c.kind){
-  case 'opening':return circuit({u:'12 V',r:'120 Ω',i:'100 mA'},2);
-  case 'overview':return circuit({},phase);
-  case 'definitions':return circuit({},phase);
-  case 'formula':return formulaArt(phase);
-  case 'steps':return formulaArt(phase);
-  case 'example':return circuit({},phase);
-  case 'resistance':return bars('resistance',phase);
-  case 'twoways':return formulaArt(phase);
-  case 'graph':return graph(false,phase);
-  case 'nonlinear':return graph(true,phase);
-  case 'power':return circuit({u:'12 V',r:'120 Ω',i:'100 mA'},phase);
-  case 'quad':return bars('quad',phase);
-  case 'series':return seriesArt(phase,false);
-  case 'parallel':return parallelArt(phase);
-  case 'measure':return gauge(phase);
-  case 'exam':return seriesArt(phase,true);
-  case 'balance':return bars('quad',phase);
-  case 'mistakes':return formulaArt(phase);
-  case 'finish':return circuit({},phase);
-  default:return circuit({},phase);
+ case 'opening':return circuit({},2);
+ case 'overview':case 'definitions':return circuit({},phase);
+ case 'formula':return formulas(phase);
+ case 'steps':return steps(phase);
+ case 'example':return example(phase);
+ case 'resistance':return bars('resistance',phase);
+ case 'twoways':return twoWays(phase);
+ case 'graph':return graph(false,phase);
+ case 'nonlinear':return graph(true,phase);
+ case 'power':return power(phase);
+ case 'quad':return bars('quad',phase);
+ case 'series':return series(phase);
+ case 'parallel':return parallel(phase);
+ case 'measure':return measure(phase);
+ case 'exam':return series(phase,true);
+ case 'balance':return balance(phase);
+ case 'mistakes':return mistakes(phase);
+ case 'finish':return finish(phase);
+ default:return circuit({},phase);
  }
 }
-function pointsMarkup(points,phase){
- return '<div class="vp-facts">'+points.map((point,i)=>
-  '<div class="vp-fact '+(i<=phase+Math.max(0,points.length-4)?'vp-fact-on':'')+'">'+
-  '<span class="vp-fact-no">'+String(i+1).padStart(2,'0')+'</span><span>'+escapeHtml(point)+'</span></div>').join('')+'</div>';
-}
 function sceneMarkup(c,phase,index){
- return '<div class="vp-scene vp-scene-fade"><div class="vp-scene-header"><span class="vp-kicker">Kapitel '+String(index+1).padStart(2,'0')+' / '+CUES.length+'</span><h3>'+escapeHtml(c.title)+'</h3><p>'+escapeHtml(c.sub)+'</p></div>'+
- '<div class="vp-presentation"><div class="vp-visual">'+slidesFor(c,phase)+'</div><div class="vp-interpretation"><span class="vp-caption">Während Thorsten High erklärt</span>'+pointsMarkup(c.points,phase)+'</div></div>'+
- '<div class="vp-safe">Didaktisches Modell · ausschliesslich für Papier, Simulation und geeignete Schutzkleinspannung · keine Installationsanweisung</div></div>';
+ // Deliberately no secondary facts list or "Während Thorsten erklärt" header:
+ // the full visual area is reserved for one explanation at a time.
+ return '<div class="vp-scene vp-scene-fade"><div class="vp-scene-header">'+
+ '<span class="vp-kicker">LEKTION 1.03-B · KAPITEL '+String(index+1).padStart(2,'0')+' / '+CUES.length+'</span>'+
+ '<h3>'+escapeHtml(c.title)+'</h3></div>'+
+ '<div class="vp-canvas">'+slidesFor(c,phase)+'</div>'+
+ '<div class="vp-safe">Didaktisches Modell · nur für Simulation und geeignete Schutzkleinspannung</div></div>';
+}
+function dcAcMarkup(){
+ // This segment is demonstrative and deliberately NOT synchronized to
+ // Ohm's law narration: the original audio does not explain AC/DC.
+ const axis=(y)=>'<path d="M100 '+y+' H700" stroke="#668ba0" stroke-width="8" stroke-linecap="round"/>';
+ const dc=svg(axis(215)+
+  '<path d="M160 156 H620" stroke="#83e9cf" stroke-width="4" marker-end="url(#vp-dir)"/>'+
+  currentDots('M105 215 H695',3)+
+  text(400,91,'GLEICHSTROM (DC)',33)+text(400,305,'Stromrichtung bleibt gleich',23,PALETTE.muted),
+  'Gleichstrom als zeitlich gerichtete konventionelle Stromrichtung');
+ const ac=svg(axis(215)+
+  '<path d="M130 155 H670" stroke="#8dd4fb" stroke-width="2" stroke-dasharray="9 9"/>'+
+  '<path class="vp-ac-right" d="M245 177 H565" stroke="#8dd4fb" stroke-width="5" marker-end="url(#vp-dir)"/>'+
+  '<path class="vp-ac-left" d="M555 176 H232" stroke="#8dd4fb" stroke-width="5" marker-end="url(#vp-dir)"/>'+
+  '<circle r="9" fill="#93e8fa"><animateMotion dur="4s" repeatCount="indefinite" path="M130 215 H670 H130"/></circle>'+
+  '<path d="M160 356 H640" stroke="#708ba0" stroke-width="2"/>'+
+  '<path d="M160 356 C200 310 240 310 280 356 S360 402 400 356 S480 310 520 356 S600 402 640 356" stroke="#8dd4fb" stroke-width="3" fill="none"/>'+
+  text(400,91,'WECHSELSTROM (AC)',33)+text(400,305,'Richtung wechselt periodisch',23,PALETTE.muted),
+  'Wechselstrom als langsam hin- und hergehende konventionelle Stromrichtung');
+ return '<section id="vp-dc-ac" class="vp-demonstration"><div class="vp-demo-intro">'+
+ '<div><span class="vp-demo-kicker">ZUSÄTZLICHE ANIMATION · AUSSERHALB DER SPRECHERLEKTION</span>'+
+ '<h3>Gleichstrom und Wechselstrom vergleichen</h3>'+
+ '<p>Die Animation zeigt die technische Stromrichtung schematisch in Zeitlupe. Bei Wechselstrom kehrt sich die Richtung periodisch um. Die Bewegung ist nicht massstabsgetreu und stellt keine einzelnen Elektronenbahnen dar.</p></div>'+
+ '<button type="button" class="btn" id="vp-demo-toggle" aria-expanded="false" aria-controls="vp-demo-grid">Vergleich ansehen</button></div>'+
+ '<div id="vp-demo-grid" class="vp-demo-grid" hidden><div>'+dc+'</div><div>'+ac+'</div></div></section>';
 }
 function render(l,state){
  if(l?.id!==ID)return '';
  return '<section id="video-pilot" class="vp-shell" aria-label="Audiovisueller Pilotunterricht" data-vp-id="'+ID+'">'+
- '<div class="vp-headline"><div><span class="vp-chip">PILOT · ANIMIERTER UNTERRICHT</span><h2>Ohmsches Gesetz – Bild und Ton</h2><p>Eine zusammenhängende visuelle Lektion mit der originalen Thorsten-High-Aufnahme.</p></div><button class="btn" type="button" id="vp-expand" aria-label="Darstellung vergrössern">Bildschirm füllen</button></div>'+
+ '<div class="vp-headline"><div><span class="vp-chip">VIDEO-UNTERRICHT · PILOT V2</span></div><button class="btn" type="button" id="vp-expand" aria-label="Darstellung vergrössern">Bildschirm füllen</button></div>'+
  '<div class="vp-stage" id="vp-stage" role="group" aria-label="Animierte Lehrdarstellung">'+sceneMarkup(CUES[0],0,0)+'</div>'+
  '<div class="vp-control-panel"><div class="vp-progress-row"><span id="vp-time">0:00</span><input id="vp-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in der Audiolektion" disabled><span id="vp-duration">–:––</span></div>'+
  '<div class="vp-controls"><button class="btn" id="vp-back" type="button" aria-label="15 Sekunden zurück">−15 s</button>'+
@@ -193,6 +310,7 @@ function render(l,state){
  '<label class="vp-speed-label" for="vp-speed">Tempo <select id="vp-speed" aria-label="Wiedergabegeschwindigkeit">'+
  [0.8,1,1.15,1.3,1.5].map(x=>'<option value="'+x+'" '+((Number(state?.settings?.rate)||1)===x?'selected':'')+'>'+String(x).replace('.',',')+'×</option>').join('')+
  '</select></label></div><div class="vp-status" id="vp-status" role="status" aria-live="polite">Verbinde die Sprecheraufnahme …</div></div>'+
+ dcAcMarkup()+
  '<div class="vp-chapter-head"><h3>Kapitel direkt anwählen</h3><span>Das Bild folgt der aktuellen Audioposition</span></div>'+
  '<div id="vp-chapters" class="vp-chapters">'+CUES.map((c,i)=>'<button type="button" data-vp-chapter="'+i+'" class="vp-chapter '+(i===0?'active':'')+'"><span class="vp-ch-number">'+String(i+1).padStart(2,'0')+'</span><span>'+escapeHtml(c.title)+'</span><small data-vp-time="'+i+'">–:––</small></button>').join('')+'</div>'+
  '<p class="vp-fallback"><a class="btn teal" href="./video-103-b.html" target="_blank" rel="noopener noreferrer">Videolektion im separaten Safari-Player starten</a></p>'+
@@ -233,6 +351,16 @@ function bind(state,actions){
    if(stage)stage.innerHTML=sceneMarkup(CUES[idx],phase,idx);
    rootElement.querySelectorAll('[data-vp-chapter]').forEach(b=>b.classList.toggle('active',Number(b.dataset.vpChapter)===idx));
   }
+  const stage=$('#vp-stage');
+  if(stage){
+   stage.classList.toggle('vp-is-playing',Boolean(v.playing));
+   stage.querySelectorAll('svg').forEach(visual=>{
+    try{if(typeof visual.pauseAnimations==='function'){
+     const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+     if(v.playing&&!reduced)visual.unpauseAnimations();else visual.pauseAnimations();
+    }}catch(_){/* SVG animation not supported: static diagram remains */}
+   });
+  }
   const seek=$('#vp-seek'),play=$('#vp-play');
   if(seek&&!seek.matches(':active')){seek.value=Math.round(f*1000);seek.disabled=!valid;}
   if($('#vp-time'))$('#vp-time').textContent=formatTime(t);
@@ -270,6 +398,7 @@ function bind(state,actions){
   const s=api.getState();if(s.duration<=0)return;
   const target=s.duration*times[Number(b.dataset.vpChapter)].pct;
   seekTo(Math.min(s.duration-.25,Math.max(0,target+1.3)));
+  $('#vp-stage')?.scrollIntoView?.({behavior:'smooth',block:'start'});
  }));
  $('#vp-speed')?.addEventListener('change',e=>{
   const rate=Number(e.target.value);
@@ -277,6 +406,18 @@ function bind(state,actions){
   api.setRate(rate);
   state.settings.rate=rate;
   actions.save();
+ });
+ $('#vp-demo-toggle')?.addEventListener('click',()=>{
+  const container=$('#vp-demo-grid'),button=$('#vp-demo-toggle');
+  if(!container||!button)return;
+  const opening=container.hidden;
+  container.hidden=!opening;
+  button.setAttribute('aria-expanded',String(opening));
+  button.textContent=opening?'Vergleich schliessen':'Vergleich ansehen';
+  container.querySelectorAll('svg').forEach(v=>{
+   try{const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(opening&&!reduced)v.unpauseAnimations();else v.pauseAnimations();}catch(_){}
+  });
  });
  $('#vp-expand')?.addEventListener('click',()=>{
   rootElement.classList.toggle('vp-expanded');
