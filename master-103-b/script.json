@@ -8,122 +8,122 @@
     {
       "id": "01",
       "visual": "start",
-      "text": "Stell dir einen einfachen Gleichstromkreis vor. Eine Spannungsquelle, ein Widerstand und zwei Verbindungsleitungen. Wir betrachten ausschliesslich ein sicheres, strombegrenztes Schulungsmodell."
+      "text": "Wir betrachten einen einfachen Gleichstromkreis: eine Spannungsquelle, einen Widerstand und Leitungen. Alle Werte gehören zu einem sicheren Schulungsmodell."
     },
     {
       "id": "02",
       "visual": "source",
-      "text": "Die Quelle stellt zwölf Volt bereit. Die Spannung bezeichnet eine elektrische Potenzialdifferenz zwischen zwei Punkten. Zwölf Volt allein sagen noch nicht, wie viel Strom fliesst."
+      "text": "Unsere Quelle liefert zwölf Volt. Spannung bedeutet elektrische Potenzialdifferenz. Allein aus der Spannung kennen wir den Strom noch nicht."
     },
     {
       "id": "03",
       "visual": "open",
-      "text": "Solange der Stromkreis unterbrochen ist, fliesst in unserem vereinfachten Modell kein dauerhafter Strom. Erst wenn wir den Stromweg schliessen, ist ein stationärer Stromfluss möglich."
+      "text": "Bei offenem Stromkreis fliesst im vereinfachten Modell kein dauerhafter Strom. Der leitfähige Weg ist unterbrochen."
     },
     {
       "id": "04",
       "visual": "close",
-      "text": "Jetzt schliessen wir den Stromkreis. Die technische Stromrichtung führt ausserhalb der Spannungsquelle vom Pluspol über den Verbraucher zurück zum Minuspol."
+      "text": "Wir schliessen den Stromkreis. Die technische Stromrichtung verläuft ausserhalb der Quelle vom Pluspol über den Widerstand zum Minuspol."
     },
     {
       "id": "05",
       "visual": "flow",
-      "text": "Die bewegten Lichtpunkte zeigen nur die technische Stromrichtung. Sie sind eine Lernhilfe und keine realistischen Elektronenbahnen. Elektronen bewegen sich in metallischen Leitern entgegengesetzt."
+      "text": "Die bewegten Punkte zeigen nur diese technische Stromrichtung, keine tatsächlichen Elektronenbahnen. Elektronen bewegen sich im Metall entgegengesetzt."
     },
     {
       "id": "06",
       "visual": "resistor",
-      "text": "Unser Widerstand hat hundertzwanzig Ohm. Er begrenzt bei gleicher Spannung den Strom. Der elektrische Widerstand wird mit dem Buchstaben R bezeichnet."
+      "text": "Der Widerstand beträgt hundertzwanzig Ohm. Sein Formelzeichen ist R. Bei gleicher Spannung bestimmt er die Stromstärke mit."
     },
     {
       "id": "07",
       "visual": "relation",
-      "text": "Wie hängen nun Spannung, Widerstand und Strom zusammen? Für einen idealen ohmschen Widerstand gilt: Spannung gleich Widerstand mal Stromstärke."
+      "text": "Für einen idealen ohmschen Widerstand gilt: Spannung gleich Widerstand mal Stromstärke. Kurz: U gleich R mal I."
     },
     {
       "id": "08",
       "visual": "formula",
-      "text": "Suchen wir die Stromstärke, stellen wir die Formel um. Strom gleich Spannung geteilt durch Widerstand. In Zeichen: I gleich U durch R."
+      "text": "Wir suchen den Strom und stellen die Gleichung um. I gleich U geteilt durch R."
     },
     {
       "id": "09",
       "visual": "valueU",
-      "text": "Die Spannung kennen wir bereits. U ist gleich zwölf Volt. Wir übernehmen diesen Wert direkt aus dem Schaltbild in die Rechnung."
+      "text": "Die Spannung steht schon im Bild. Wir übernehmen zwölf Volt in die Formel."
     },
     {
       "id": "10",
       "visual": "valueR",
-      "text": "Auch der Widerstand ist bekannt: R gleich hundertzwanzig Ohm. Jetzt haben wir beide Grössen, die wir für den Strom benötigen."
+      "text": "Auch der Widerstand ist bekannt: hundertzwanzig Ohm. Damit sind beide erforderlichen Werte vorhanden."
     },
     {
       "id": "11",
       "visual": "substitution",
-      "text": "Wir setzen die Werte ein. Zwölf Volt geteilt durch hundertzwanzig Ohm. Der Zahlenwert ergibt null Komma eins."
+      "text": "Wir setzen ein: zwölf Volt geteilt durch hundertzwanzig Ohm. Das ergibt null Komma eins."
     },
     {
       "id": "12",
       "visual": "units",
-      "text": "Aus Volt geteilt durch Ohm entsteht die Einheit Ampere. Unsere Stromstärke beträgt deshalb null Komma eins Ampere."
+      "text": "Volt geteilt durch Ohm ergibt Ampere. Die Stromstärke beträgt deshalb null Komma eins Ampere."
     },
     {
       "id": "13",
       "visual": "milli",
-      "text": "Für kleine Ströme ist die Einheit Milliampere praktisch. Ein Ampere entspricht tausend Milliampere. Null Komma eins Ampere sind hundert Milliampere."
+      "text": "Ein Ampere sind tausend Milliampere. Null Komma eins Ampere entspricht genau hundert Milliampere."
     },
     {
       "id": "14",
       "visual": "result",
-      "text": "Wir halten fest: zwölf Volt, hundertzwanzig Ohm und hundert Milliampere gehören in diesem idealen Modell zusammen."
+      "text": "Unser Ergebnis lautet: zwölf Volt an hundertzwanzig Ohm ergeben im idealen Modell hundert Milliampere."
     },
     {
       "id": "15",
       "visual": "testR",
-      "text": "Jetzt prüfen wir, ob das Ergebnis plausibel ist. Was passiert, wenn wir bei gleicher Spannung den Widerstand verdoppeln?"
+      "text": "Prüfen wir das Ergebnis. Was passiert bei gleicher Spannung, wenn wir den Widerstand verdoppeln?"
     },
     {
       "id": "16",
       "visual": "doubleR",
-      "text": "Aus hundertzwanzig werden zweihundertvierzig Ohm. Der Strom sinkt auf fünfzig Milliampere. Doppelt so viel Widerstand, halb so viel Strom."
+      "text": "Aus hundertzwanzig werden zweihundertvierzig Ohm. Der Strom halbiert sich auf fünfzig Milliampere."
     },
     {
       "id": "17",
       "visual": "halfR",
-      "text": "Halbieren wir den Widerstand stattdessen auf sechzig Ohm, steigt der Strom auf zweihundert Milliampere. Eine wichtige Beziehung, die du dir merken solltest."
+      "text": "Halbieren wir den Widerstand auf sechzig Ohm, verdoppelt sich der Strom auf zweihundert Milliampere."
     },
     {
       "id": "18",
       "visual": "restore",
-      "text": "Wir kehren zum Ausgangsbeispiel zurück: zwölf Volt und hundertzwanzig Ohm. Daraus folgen wieder hundert Milliampere."
+      "text": "Zurück zum Ausgangsbeispiel: zwölf Volt, hundertzwanzig Ohm und hundert Milliampere."
     },
     {
       "id": "19",
       "visual": "dc",
-      "text": "Achte auf die Stromrichtung. Bei dieser Gleichspannung bleibt die technische Stromrichtung im stationären Modell gleich. Die Animation bewegt sich daher nur in eine Richtung."
+      "text": "Bei Gleichstrom bleibt die technische Stromrichtung im stationären Fall gleich. Deshalb laufen die Punkte nur vorwärts."
     },
     {
       "id": "20",
       "visual": "ac",
-      "text": "Zum Vergleich betrachten wir Wechselstrom. Hier kehrt die technische Stromrichtung periodisch um. Die Anzeige pendelt langsam hin und her, stark verlangsamt gegenüber dem echten Netzwechselstrom."
+      "text": "Bei Wechselstrom kehrt sich die Stromrichtung periodisch um. Die Bewegung geht daher vor und zurück."
     },
     {
       "id": "21",
       "visual": "acdetail",
-      "text": "Diese Animation zeigt nur das Prinzip des Richtungswechsels. Sie ist keine massstäbliche Darstellung der Elektronenbewegung oder der Frequenz."
+      "text": "Die Wechselstrombewegung ist didaktisch stark verlangsamt. Sie zeigt weder eine reale Netzfrequenz noch einzelne Elektronenbahnen."
     },
     {
       "id": "22",
       "visual": "recap",
-      "text": "Das Ohmsche Gesetz erklärt also, wie Spannung, Stromstärke und Widerstand zusammenhängen. Entscheidend sind die richtige Formel, saubere Einheiten und ein plausibles Ergebnis."
+      "text": "Merke dir die Beziehung: I gleich U durch R. Ein grösserer Widerstand bedeutet bei gleicher Spannung weniger Strom."
     },
     {
       "id": "23",
       "visual": "question",
-      "text": "Zum Abschluss eine Kontrollfrage. Bei zwölf Volt verdoppeln wir den Widerstand von hundertzwanzig auf zweihundertvierzig Ohm. Wie verändert sich die Stromstärke?"
+      "text": "Eine Kontrollfrage: Wir verdoppeln den Widerstand bei zwölf Volt auf zweihundertvierzig Ohm. Wie gross ist der Strom?"
     },
     {
       "id": "24",
       "visual": "answer",
-      "text": "Richtig: Sie halbiert sich auf fünfzig Milliampere. Wenn du diesen Zusammenhang am Schaltbild erklären kannst, hast du das Grundprinzip verstanden."
+      "text": "Richtig: fünfzig Milliampere. Wer diesen Zusammenhang am Schaltbild erklären kann, hat das Grundprinzip verstanden."
     }
   ]
 }
