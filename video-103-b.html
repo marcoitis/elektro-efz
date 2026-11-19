@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102a3a">
+<meta name="description" content="Elektro EFZ, Lektion 1.03-B – Ohmsches Gesetz mit Thorsten High und animierten Grafiken">
+<title>Video-Unterricht 1.03-B | Elektro EFZ</title>
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./video-pilot.css">
+<style>
+body{margin:0;background:#f3f6f8;color:#193448}
+.vs-wrap{max-width:1120px;margin:0 auto;padding:18px clamp(12px,3vw,26px) 60px}
+.vs-top{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:5px 0 19px}
+.vs-brand{color:#102a3a;font-size:clamp(17px,3vw,23px);font-weight:850}
+.vs-brand small{display:block;color:#577183;font-size:12px;font-weight:500}
+.vs-back{background:#fff;border:1px solid #cddde5;border-radius:12px;padding:10px 13px;text-decoration:none;font-size:12px;font-weight:700}
+.vs-audio-fallback{margin:20px 0;padding:14px 16px;background:#fff;border:1px solid #d5e3eb;border-radius:14px}
+.vs-audio-fallback h3{font-size:15px;margin:0 0 7px}
+.vs-audio-fallback p{color:#536b7d;font-size:13px;margin:5px 0 12px}
+.vs-audio-fallback audio{display:block;width:100%;max-width:600px}
+.vs-audio-fallback a{display:inline-block;margin-top:11px;font-size:13px}
+#vs-error{color:#a34835;font-size:12px;margin:9px 0 0}
+.vs-wrap .vp-shell{max-width:none}
+@media(max-width:650px){.vs-top{align-items:flex-start}.vs-wrap{padding-top:8px}.vs-brand small{font-size:10px}}
+</style>
+</head>
+<body>
+<main class="vs-wrap">
+ <div class="vs-top">
+  <div class="vs-brand">ELEKTRO · EFZ <small>Video-Pilot · Ohmsches Gesetz · Lektion 1.03-B</small></div>
+  <a class="vs-back" href="./index.html?lesson=1.03-B&amp;tab=video">Zur Lernplattform</a>
+ </div>
+ <section class="vs-audio-fallback" aria-label="Audio-Start ohne App-Speicher">
+  <h3>Direkter Audio-Start</h3>
+  <p>Dieser Player funktioniert unabhängig von den lokal gespeicherten Audiodateien der Lernplattform. Drücke auf Play; die Animationen laufen zur Audioposition mit.</p>
+  <audio id="vs-native-audio" controls preload="metadata" playsinline aria-label="Originalstimme Thorsten High, Lektion 1.03-B">
+   <source src="https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.03-B.mp3" type="audio/mpeg">
+   Dein Browser unterstützt keine Audiowiedergabe.
+  </audio>
+  <div id="vs-error" role="alert" hidden></div>
+  <a href="https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.03-B.mp3" target="_blank" rel="noopener noreferrer">MP3 direkt öffnen oder herunterladen</a>
+ </section>
+ <div id="vs-player"></div>
+</main>
+<script src="./lecture-scripts.js"></script>
+<script src="./video-pilot.js"></script>
+<script>
+(function(){
+ 'use strict';
+ const TRACK='1.03-B';
+ const native=document.getElementById('vs-native-audio');
+ const error=document.getElementById('vs-error');
+ const saved={settings:{rate:1},audioTime:{},activeLesson:TRACK};
+ window.ElektroAudio={
+  getState:()=>({lessonId:TRACK,loaded:!!native.querySelector('source'),remote:true,
+   playing:!native.paused&&!native.ended,current:Math.max(0,native.currentTime||0),
+   duration:Number.isFinite(native.duration)?native.duration:0}),
+  play:()=>native.play(),
+  pause:()=>native.pause(),
+  seek:offset=>{if(!Number.isFinite(native.duration))return;native.currentTime=Math.min(native.duration-.2,Math.max(0,(native.currentTime||0)+offset));},
+  setRate:rate=>{native.playbackRate=rate}
+ };
+ const pilot=window.ElektroVideoPilot;
+ if(!pilot||!window.ElektroLectures?.[TRACK]){
+  error.hidden=false;error.textContent='Video-Daten konnten nicht geladen werden. Seite bei aktiver Verbindung neu öffnen.';return;
+ }
+ document.getElementById('vs-player').innerHTML=pilot.render({id:TRACK},saved);
+ pilot.bind(saved,{save:()=>{},audioLoad:async()=>true});
+ native.addEventListener('error',()=>{
+  error.hidden=false;error.textContent='Die MP3 konnte nicht von GitHub geladen werden. Bitte den direkten MP3-Link benutzen oder die Aufnahme über Offline & Audio importieren.';
+ });
+ native.addEventListener('loadedmetadata',()=>{error.hidden=true});
+ // Do not insert the same audio element twice: the native controls and animations
+ // share a single HTMLAudioElement, so neither can desynchronize independently.
+})();
+</script>
+</body>
+</html>

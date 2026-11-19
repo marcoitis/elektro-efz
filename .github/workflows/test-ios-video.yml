@@ -1,0 +1,87 @@
+name: iPhone Safari Video-Pilot v0.12.1 prüfen
+# Includes corrected version-marker regression test.
+
+on:
+  push:
+    branches: [fix/ios-video-pilot-start-v0121]
+    paths: [.github/workflows/test-ios-video.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax und PWA-Paket prüfen
+        run: |
+          node --check video-pilot.js
+          node --check app.js
+          node tools/test_video_pilot.js
+          node tools/test_sw_routes.js
+          node tools/test_audio_zip_import.js
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('dist')
+          assert (p/'video-103-b.html').is_file()
+          assert json.loads((p/'version.json').read_text())['build']=='0.12.1-safari-player-1'
+          assert len(json.loads((p/'audio-manifest.json').read_text())['tracks'])==178
+          print('PASS: standalone Safari video, 178 audios, app 0.12.1')
+          PY
+      - name: WebKit und Chromium installieren
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps webkit chromium
+      - name: Chromium und WebKit bei iPhone-Breite testen
+        run: |
+          python -m http.server 8787 --bind 127.0.0.1 --directory dist >/tmp/efz-test.log 2>&1 &
+          sleep 2
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+           for(const [engine,name] of [[webkit,'webkit-safari'],[chromium,'chromium']]){
+            const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+            const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            page.on('console',m=>{if(m.type()==='error')console.log(name+' CONSOLE ERROR: '+m.text().slice(0,280))});
+            await page.goto('http://127.0.0.1:8787/video-103-b.html',{waitUntil:'domcontentloaded'});
+            await page.locator('#video-pilot').waitFor({state:'visible',timeout:25000});
+            const scenes=await page.locator('[data-vp-chapter]').count();
+            const native=await page.locator('#vs-native-audio').count();
+            if(scenes!==19||native!==1)throw Error(name+' cannot render '+scenes+' chapters or native media');
+            await page.waitForFunction(()=>document.querySelector('#vs-native-audio').duration>300,null,{timeout:40000});
+            const audio=await page.evaluate(()=>({
+              duration:document.querySelector('#vs-native-audio').duration,
+              src:document.querySelector('#vs-native-audio').currentSrc,
+              error:document.querySelector('#vs-native-audio').error?.message
+            }));
+            await page.locator('#vp-play').click();
+            await page.waitForTimeout(1600);
+            let status=await page.evaluate(()=>window.ElektroAudio.getState());
+            console.log(name+' AUDIO: '+JSON.stringify({audio,status,errors}));
+            if(!status.playing)throw Error(name+' audio did not start');
+            await page.locator('#vp-play').click();
+            await page.locator('[data-vp-chapter="8"]').click();
+            await page.waitForTimeout(500);
+            const chapter=await page.locator('#vp-stage h3').textContent();
+            if(!chapter.includes('U-I-Kennlinie'))throw Error(name+' chapter visual did not follow '+chapter);
+            const overflow=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));
+            if(overflow.scroll>overflow.width+4)throw Error(name+' horizontal overflow: '+JSON.stringify(overflow));
+            if(errors.length)throw Error(name+' JavaScript errors: '+errors.join(';'));
+            console.log('PASS '+name+': native MP3, 19 scenes, play/pause, synced chapter, 390px viewport');
+            await browser.close();
+           }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
