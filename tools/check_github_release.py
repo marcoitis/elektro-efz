@@ -9,7 +9,7 @@ if 'audio-manifest.json' not in (r/'sw.js').read_text():errors.append('SW missin
 if len(list((r/'tts_scripts').glob('*.txt')))!=178:errors.append('Missing TTS source files')
 for file in r.rglob('*'):
  if not file.is_file() or any(x in file.parts for x in ('dist','.voice-cache','.audio-cache','.git')):continue
- if file.suffix.lower()=='.mp3' and re.fullmatch(r'masterclasses/(?:[1-4]\\.\\d{2}-[A-Z]|N-[A-Z]\\d{2})/audio/masterclass\\.mp3',file.relative_to(r).as_posix()):
+ if file.suffix.lower()=='.mp3' and re.fullmatch(r'masterclasses/(?:[1-4]\.\d{2}-[A-Z]|N-[A-Z]\d{2})/audio/masterclass\.mp3',file.relative_to(r).as_posix()):
   # Only the finished *lesson-specific* Torsten High MP3 is allowed here.
   # A timeline must bind the MP3 to the same manually edited source lesson.
   folder=file.parent.parent
