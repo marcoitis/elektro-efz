@@ -1,4 +1,5 @@
 name: Thorsten High Masterclass MP4 – 1.03-B
+# Rebuild after visual QA; check actual source and opened-switch circuit drawings.
 
 on:
   push:
