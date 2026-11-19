@@ -119,18 +119,18 @@
     },
     {
       "id": "22",
+      "visual": "closing",
+      "text": "Damit kennst du den Unterschied zwischen Können, Verantwortung und Berechtigung. Übe zunächst mit Fallbeispielen, nicht an elektrischen Installationen."
+    },
+    {
+      "id": "23",
       "visual": "question",
       "text": "Zum Schluss eine Frage. Ein Elektroinstallateur hat sein Fähigkeitszeugnis bestanden. Besitzt er dadurch automatisch eine allgemeine Installationsbewilligung für beliebige Kundenaufträge?"
     },
     {
-      "id": "23",
+      "id": "24",
       "visual": "answer",
       "text": "Nein. Das Fähigkeitszeugnis allein erteilt keine allgemeine Installationsbewilligung. Für bestimmte Arbeiten bestehen allerdings gesetzliche Ausnahmen. Prüfe deshalb immer die konkrete Tätigkeit."
-    },
-    {
-      "id": "24",
-      "visual": "closing",
-      "text": "Damit kennst du den Unterschied zwischen Können, Verantwortung und Berechtigung. Übe zunächst mit Fallbeispielen, nicht an elektrischen Installationen."
     }
   ]
 }
