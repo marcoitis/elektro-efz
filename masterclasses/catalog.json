@@ -10,10 +10,12 @@
       "sequence": 1,
       "id": "1.01-A",
       "title": "Berufsbild, EFZ und Installationsbewilligung",
-      "status": "in_production",
+      "status": "ready",
       "href": "./masterclass.html?lesson=1.01-A",
       "audio_review": "pending_manual",
-      "didactic_review": "pending_manual"
+      "didactic_review": "pending_manual",
+      "published_version": "0.15.0",
+      "technical_tests": "GitHub Actions 44613366314: WebKit 390/1280, Chromium 390/1280, 24 beats, Art16, safety and quiz pass"
     },
     {
       "sequence": 2,
