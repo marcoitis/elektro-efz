@@ -23,8 +23,9 @@ C={"bg":(8,24,38),"panel":(15,42,60),"panel2":(23,64,78),
 FONT_DIR=Path("/usr/share/fonts/truetype/dejavu")
 FB=FONT_DIR/"DejaVuSans-Bold.ttf"
 FR=FONT_DIR/"DejaVuSans.ttf"
-FONTS={(n,b):ImageFont.truetype(str(FB if b else FR),n) for n in [16,18,19,20,22,24,26,29,31,34,38,42,48,55,62,70,82,96,115] for b in [False,True]}
-def font(size=24,bold=False):return FONTS[(size,bold)]
+from functools import lru_cache
+@lru_cache(maxsize=96)
+def font(size=24,bold=False):return ImageFont.truetype(str(FB if bold else FR),size)
 def txt(d,x,y,s,size=24,color="text",bold=False,anchor=None):
     fill=C.get(color,color)
     d.text((x,y),str(s),font=font(size,bold),fill=fill,anchor=anchor)
@@ -85,11 +86,11 @@ def circuit(d,t,p,voltage="12 V",resistance="120 Ω",current=None,closed=True,
     # Visible interruption for the optional open-circuit scene.
     x1,x2=485,557
     ln(d,[(230,401),(230,288),(x1 if not closed else 756,288)],wire,7)
-    if closed:ln(d,[(756,288),(1020,288),(1020,515),(230,515),(230,451)],wire,7)
+    if closed:ln(d,[(928,288),(1020,288),(1020,515),(230,515),(230,451)],wire,7)
     else:
         ln(d,[(x2,288),(756,288)],wire,7)
         ln(d,[(x1,288),(x2,247)],"amber",6)
-        ln(d,[(756,288),(1020,288),(1020,515),(230,515),(230,451)],wire,7)
+        ln(d,[(928,288),(1020,288),(1020,515),(230,515),(230,451)],wire,7)
     # Upper resistive element between source wiring and return.
     box(d,(756,258,928,319),"panel2","amber" if resistor_focus else "teal",9,4 if resistor_focus else 3)
     txt(d,842,277,"R",38,"text",True,"mt")
