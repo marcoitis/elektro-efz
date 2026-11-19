@@ -49,8 +49,11 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add master-103-b/audio/masterclass.mp3 master-103-b/audio/timeline.json
+          git add -f master-103-b/audio/masterclass.mp3
+          git add master-103-b/audio/timeline.json
           git commit -m 'Add sample-aligned Thorsten High masterclass audio and exact timing'
+          git fetch origin feature/master-scene-103b-v0140
+          git rebase FETCH_HEAD
           git push origin HEAD:feature/master-scene-103b-v0140
           git show --stat --oneline HEAD
       - name: Generiertes Audio-Audit
