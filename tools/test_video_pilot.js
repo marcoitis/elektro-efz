@@ -48,5 +48,5 @@ for(const file of [index,sw,offline,build]){
  assert(file.includes('video-pilot.css'),'Pilot styles missing from shell');
 }
 const version=JSON.parse(fs.readFileSync('version.json','utf8'));
-assert.equal(version.build,'0.12.0-video-pilot-1');
+assert.equal(version.build,'0.12.1-safari-player-1');
 console.log('PASS 19/19 voice-script chapter markers, 57 SVG states, app integration, PWA files and version');
