@@ -79,9 +79,9 @@ jobs:
              for(const [visual,expected] of [['efz','Anerkannter Berufsabschluss'],['exception2','Artikel 16'],['safe','STOP']]){
               await page.evaluate(v=>{
                const t=window.ElektroMaster.getTimeline();
-               document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+.1;
+               document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+1.3;
               },visual);
-              await page.waitForTimeout(550);
+              await page.waitForFunction(v=>window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual===v,visual,{timeout:15000});
               const body=await page.locator('#mc-stage').innerText();
               if(!body.includes(expected))throw Error(tag+' '+visual+' scene missing');
               await page.screenshot({path:'screenshots/'+tag+'-'+visual+'.png'});
