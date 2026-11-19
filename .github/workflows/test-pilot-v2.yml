@@ -1,0 +1,104 @@
+name: Pilot V2 – Fachliche Visualisierung und Safari-Test
+
+on:
+  push:
+    branches: [feature/pilot-masterclass-v0122]
+    paths: [.github/workflows/test-pilot-v2.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  teaching-pilot-v2:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Quellcode, Sprechertext und Lehrgrafiken prüfen
+        run: |
+          for F in app.js video-pilot.js offline.js sw.js audio-engine.js; do node --check "$F"; done
+          node tools/test_video_pilot.js
+          node tools/test_ios_audio_retry.js
+          node tools/test_audio_zip_import.js
+          node tools/test_sw_routes.js
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/check_github_release.py
+      - name: Live-Paket bauen und prüfen
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('dist')
+          assert json.loads((p/'version.json').read_text())['build']=='0.13.0-classroom-v2'
+          assert len(json.loads((p/'audio-manifest.json').read_text())['tracks'])==178
+          assert 'Während Thorsten High erklärt' not in (p/'video-pilot.js').read_text()
+          assert 'dcAcMarkup' in (p/'video-pilot.js').read_text()
+          print('PASS: V2 teaching visuals, same 178 audio sources, no redundant lecturer-side text')
+          PY
+      - name: Safari WebKit und Chromium installieren
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps webkit chromium
+      - name: Echte iPhone-grosse Browserprüfung der neuen visuellen Lehre
+        run: |
+          python -m http.server 8787 --bind 127.0.0.1 --directory dist >/tmp/efz-v2-http.log 2>&1 &
+          sleep 2
+          mkdir -p screenshots
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+            for(const [engine,name] of [[webkit,'webkit'],[chromium,'chromium']]){
+              const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+              const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
+              const errors=[]; page.on('pageerror',err=>errors.push(err.message));
+              await page.goto('http://127.0.0.1:8787/video-103-b.html',{waitUntil:'domcontentloaded'});
+              await page.locator('#video-pilot').waitFor({state:'visible',timeout:20000});
+              if(await page.locator('[data-vp-chapter]').count()!==19)throw Error(name+': 19 chapters expected');
+              if(await page.locator('.vp-interpretation').count()!==0)throw Error(name+': old sidebar survived');
+              if(await page.locator('#vp-stage .vp-current-dot').count()<5)throw Error(name+': missing animated current direction');
+              await page.waitForFunction(()=>document.querySelector('#vs-native-audio')?.duration>300,null,{timeout:35000});
+              await page.locator('#vp-play').click();
+              await page.waitForTimeout(800);
+              if(!(await page.evaluate(()=>window.ElektroAudio.getState().playing)))throw Error(name+': play failed');
+              await page.screenshot({path:'screenshots/'+name+'-dc-lesson.png',fullPage:false});
+              await page.locator('#vp-play').click();
+              await page.locator('[data-vp-chapter="5"]').click();
+              await page.waitForTimeout(600);
+              const scene=await page.locator('#vp-stage').textContent();
+              if(!scene.includes('Beispiel: 12 V'))throw Error(name+': rechenbeispiel missing');
+              await page.screenshot({path:'screenshots/'+name+'-rechnung.png',fullPage:false});
+              const b=page.locator('#vp-demo-toggle');
+              await b.click();
+              if(await b.getAttribute('aria-expanded')!=='true')throw Error(name+': comparison toggle not expanded');
+              if(await page.locator('#vp-demo-grid svg').count()!==2)throw Error(name+': DC/AC comparison missing');
+              if(await page.locator('#vp-demo-grid .vp-ac-right').count()!==1||
+                 await page.locator('#vp-demo-grid .vp-ac-left').count()!==1)
+                 throw Error(name+': AC reversible direction missing');
+              await page.locator('#vp-demo-grid').screenshot({path:'screenshots/'+name+'-dc-ac-vergleich.png'});
+              const overflow=await page.evaluate(()=>({page:document.documentElement.scrollWidth,viewport:innerWidth}));
+              if(overflow.page>overflow.viewport+3)throw Error(name+' horizontal overflow: '+JSON.stringify(overflow));
+              if(errors.length)throw Error(name+' runtime errors: '+errors.join(' | '));
+              console.log('PASS '+name+': speaker audio, 19 clean teaching scenes, DC current animation, separate reversible AC demo, math, no overflow');
+              await browser.close();
+            }
+          })().catch(err=>{console.error(err);process.exit(1)});
+          JS
+      - name: Testbilder zur Qualitätskontrolle ablegen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pilot-v2-screenshots
+          path: screenshots/*.png
+          if-no-files-found: ignore
+          retention-days: 7
