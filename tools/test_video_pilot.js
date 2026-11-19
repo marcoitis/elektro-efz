@@ -20,7 +20,7 @@ const html=pilot.render({id:'1.03-B'},state);
 assert(html.includes('id="video-pilot"'));
 assert(!html.includes(' data-lesson='),'Video controls must not trigger existing [data-lesson] navigation handler');
 assert(html.includes('data-vp-id="1.03-B"'));
-assert(html.includes('Thorsten'));
+assert(html.includes('1.03-B.mp3'),'Original recorded audio link must remain available');
 assert(html.includes('vp-seek'));
 assert(html.includes('vp-expand'));
 assert(html.includes('vp-speed'));
