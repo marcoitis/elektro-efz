@@ -282,8 +282,12 @@ function dcAcMarkup(){
   text(400,91,'GLEICHSTROM (DC)',33)+text(400,305,'Stromrichtung bleibt gleich',23,PALETTE.muted),
   'Gleichstrom als zeitlich gerichtete konventionelle Stromrichtung');
  const ac=svg(axis(215)+
-  '<path d="M130 155 H670" stroke="#8dd4fb" stroke-width="4" stroke-linecap="round" stroke-dasharray="11 9"/>'+
+  '<path d="M130 155 H670" stroke="#8dd4fb" stroke-width="2" stroke-dasharray="9 9"/>'+
+  '<path class="vp-ac-right" d="M245 177 H565" stroke="#8dd4fb" stroke-width="5" marker-end="url(#vp-dir)"/>'+
+  '<path class="vp-ac-left" d="M555 176 H232" stroke="#8dd4fb" stroke-width="5" marker-end="url(#vp-dir)"/>'+
   '<circle r="9" fill="#93e8fa"><animateMotion dur="4s" repeatCount="indefinite" path="M130 215 H670 H130"/></circle>'+
+  '<path d="M160 356 H640" stroke="#708ba0" stroke-width="2"/>'+
+  '<path d="M160 356 C200 310 240 310 280 356 S360 402 400 356 S480 310 520 356 S600 402 640 356" stroke="#8dd4fb" stroke-width="3" fill="none"/>'+
   text(400,91,'WECHSELSTROM (AC)',33)+text(400,305,'Richtung wechselt periodisch',23,PALETTE.muted),
   'Wechselstrom als langsam hin- und hergehende konventionelle Stromrichtung');
  return '<section id="vp-dc-ac" class="vp-demonstration"><div class="vp-demo-intro">'+
