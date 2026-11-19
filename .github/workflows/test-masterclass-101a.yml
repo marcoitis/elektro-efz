@@ -1,4 +1,5 @@
 name: EFZ Masterclass 1.01-A – Audio, Safari und Fachgrafiken
+# Use Range-aware web server so WebKit can seek real MP3 bytes on iPhone.
 
 on:
   push:
@@ -56,7 +57,7 @@ jobs:
           npx playwright install --with-deps webkit chromium
       - name: 'iPhone and desktop: real audio, normative model, quiz'
         run: |
-          python -m http.server 8787 --bind 127.0.0.1 --directory dist >/tmp/master-101a.log 2>&1 &
+          python tools/range_http_server.py --root dist --port 8787 >/tmp/master-101a.log 2>&1 &
           sleep 2
           mkdir -p screenshots
           node <<'JS'
