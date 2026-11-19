@@ -77,6 +77,8 @@ jobs:
             console.log('AFTER CHAPTER CLICK',JSON.stringify(await page.evaluate(()=>({url:location.href,stage:document.querySelector('#vp-stage')?.innerHTML.slice(0,600)||null,pilotPresent:!!document.querySelector('#video-pilot'),view:document.querySelector('#main')?.textContent.slice(0,150)||null,audio:window.ElektroAudio?.getState()}))),JSON.stringify(errors));
             const chapter=await page.locator('#vp-stage h3').textContent({timeout:5000});
             if(!chapter.includes('U-I-Kennlinie'))throw Error('Chapter/audio seek misaligned: '+chapter);
+            await page.locator('[data-vp-chapter="0"]').click();
+            await page.waitForTimeout(500);
             await page.locator('#vp-play').click();
             await page.waitForTimeout(1200);
             let playing=await page.evaluate(()=>window.ElektroAudio.getState());
