@@ -271,7 +271,15 @@ ui.answer.addEventListener('click',()=>{
 audio.addEventListener('play',()=>{ui.play.textContent='Ⅱ  Pause';stopFrame();loop()});
 audio.addEventListener('pause',()=>{stopFrame();frame()});
 audio.addEventListener('timeupdate',frame);
-audio.addEventListener('seeking',()=>{if(answerPauseDone)ui.answer.hidden=true;frame()});
+audio.addEventListener('seeking',()=>{
+ // Keep the "answer" button visible when the player itself rewinds 70ms
+ // to the end of the question. Only user-initiated jumps hide it.
+ if(answerPauseDone && timeline){
+  const holdAt=timeline.beats[timeline.beats.length-2].end-.07;
+  if(Math.abs(audio.currentTime-holdAt)>.15)ui.answer.hidden=true;
+ }
+ frame();
+});
 audio.addEventListener('ended',()=>{stopFrame();ui.status.textContent='Sequenz abgeschlossen. Die vollständige Lektion bleibt separat verfügbar.';frame()});
 audio.addEventListener('error',()=>{
  ui.status.textContent='Audio konnte nicht geladen werden. Prüfe die Internetverbindung oder lade die Seite erneut.';
