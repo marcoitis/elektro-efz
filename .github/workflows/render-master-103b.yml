@@ -1,0 +1,67 @@
+name: Thorsten High – Master-Szene 1.03-B samplegenau vertonen
+
+on:
+  push:
+    branches: [feature/master-scene-103b-v0140]
+    paths:
+      - .github/workflows/render-master-103b.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: efz-thorsten-master-103b
+  cancel-in-progress: false
+
+jobs:
+  render-master:
+    name: Masterclass Sprecher- und Szenenaudio erzeugen
+    runs-on: ubuntu-22.04
+    timeout-minutes: 50
+    steps:
+      - name: Source checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Piper und ffmpeg installieren
+        run: |
+          python -m pip install --disable-pip-version-check 'piper-tts==1.2.0'
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y ffmpeg
+          command -v piper
+      - name: Echtes Piper-Thorsten-High-Modell laden und SHA prüfen
+        run: |
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 5 --connect-timeout 30 \
+            -o .voice-cache/de_DE-thorsten-high.onnx \
+            'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 5 --connect-timeout 30 \
+            -o .voice-cache/de_DE-thorsten-high.onnx.json \
+            'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Alle 24 Sprecher-Bausteine erstellen, zu einer MP3 zusammenfuehren
+        run: python tools/build_master_audio.py
+      - name: Saubere MP3 und Szenenzeitmarken im Pilotbranch sichern
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add master-103-b/audio/masterclass.mp3 master-103-b/audio/timeline.json
+          git commit -m 'Add sample-aligned Thorsten High masterclass audio and exact timing'
+          git push origin HEAD:feature/master-scene-103b-v0140
+          git show --stat --oneline HEAD
+      - name: Generiertes Audio-Audit
+        run: |
+          python - <<'PY'
+          import json,pathlib,hashlib
+          p=pathlib.Path('master-103-b/audio')
+          t=json.loads((p/'timeline.json').read_text())
+          a=(p/'masterclass.mp3').read_bytes()
+          assert len(t['beats'])==24
+          assert hashlib.sha256(a).hexdigest()==t['audio_sha256']
+          assert len(a)>200_000
+          print('RENDER PASS:',t['duration_seconds'],'seconds, 24 beat boundaries')
+          PY
