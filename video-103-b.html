@@ -28,12 +28,13 @@ body{margin:0;background:#f3f6f8;color:#193448}
 <body>
 <main class="vs-wrap">
  <div class="vs-top">
-  <div class="vs-brand">ELEKTRO · EFZ <small>Video-Pilot · Ohmsches Gesetz · Lektion 1.03-B</small></div>
+  <div class="vs-brand">ELEKTRO · EFZ <small>Unterrichtsfilm V2 · Ohmsches Gesetz · Lektion 1.03-B</small></div>
   <a class="vs-back" href="./index.html?lesson=1.03-B&amp;tab=video">Zur Lernplattform</a>
  </div>
+ <div id="vs-player"></div>
  <section class="vs-audio-fallback" aria-label="Audio-Start ohne App-Speicher">
-  <h3>Direkter Audio-Start</h3>
-  <p>Dieser Player funktioniert unabhängig von den lokal gespeicherten Audiodateien der Lernplattform. Drücke auf Play; die Animationen laufen zur Audioposition mit.</p>
+  <h3>Alternative Audiosteuerung (Safari)</h3>
+  <p>Falls der Startknopf im Unterrichtsfilm nicht reagiert, kannst du die gleiche Aufnahme auch hier starten. Bild und Ton bleiben gekoppelt.</p>
   <audio id="vs-native-audio" controls preload="metadata" playsinline aria-label="Originalstimme Thorsten High, Lektion 1.03-B">
    <source src="https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.03-B.mp3" type="audio/mpeg">
    Dein Browser unterstützt keine Audiowiedergabe.
@@ -41,7 +42,6 @@ body{margin:0;background:#f3f6f8;color:#193448}
   <div id="vs-error" role="alert" hidden></div>
   <a href="https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.03-B.mp3" target="_blank" rel="noopener noreferrer">MP3 direkt öffnen oder herunterladen</a>
  </section>
- <div id="vs-player"></div>
 </main>
 <script src="./lecture-scripts.js"></script>
 <script src="./video-pilot.js"></script>
