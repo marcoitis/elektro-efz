@@ -1,5 +1,6 @@
 name: Pilot V2 – Fachliche Visualisierung und Safari-Test
 # Final UI pass: compact video header, chapter jump, DC/AC demo above chapter list.
+# Assertions now target recorded-audio link rather than removed visual text.
 
 on:
   push:
