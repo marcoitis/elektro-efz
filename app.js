@@ -359,6 +359,7 @@ window.addEventListener('pagehide',()=>{if(isSpeaking)stopAudio();save();void st
 document.addEventListener('visibilitychange',()=>{if(document.hidden){if(isSpeaking&&!isPaused&&'speechSynthesis'in window){window.speechSynthesis.pause();isPaused=true}save();void storage.flush()}else if(state.view==='lesson')updateAudioUI()});
 document.addEventListener('keydown',e=>{if(e.code==='Space'&&state.view==='lesson'&&!['TEXTAREA','INPUT','SELECT','BUTTON'].includes(document.activeElement.tagName)){e.preventDefault();playAudio()}});
 async function initialize(){try{const loaded=await storage.init();state=normalize(loaded||fresh())}catch(e){console.warn('Lernstand konnte nicht geladen werden',e);state=fresh()}
+ const params=new URLSearchParams(location.search);if(params.get('lesson')==='1.03-B'&&params.get('tab')==='video'){state.view='lesson';state.activeLesson='1.03-B';state.tab='video';}
  activeTab=state.tab||'inhalt';render();await storage.weeklySnapshot(state);void setupUpdates();
  if(state.view==='offline')void refreshOffline();
  void cloud.start({getState:()=>state,onReceive:async raw=>{await storage.snapshot(state,'vor Cloud-Übernahme');stopAudio();state=normalize(raw);state.view='dashboard';activeTab=state.tab;state.updated=new Date().toISOString();storage.save(state);await storage.flush();render()},onStatus:msg=>{cloudNotice=msg;const el=q('#cloud-message');if(el)el.textContent=msg}});
