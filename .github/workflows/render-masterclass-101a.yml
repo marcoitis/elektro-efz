@@ -1,5 +1,5 @@
 name: Masterclasses – eine Lektion pro Produktionsdurchlauf
-# Regenerate after checked-in generic audit script is present.
+# Final scripted quality gate: closing precedes final question and revealed answer.
 
 on:
   push:
