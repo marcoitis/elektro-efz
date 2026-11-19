@@ -1,8 +1,8 @@
 {
-  "version": "0.11.10",
-  "build": "0.11.10-audio-1",
-  "date": "2026-11-18",
-  "title": "Stabiler iPhone-Audio-Download und gezielte Nachladung",
+  "version": "0.12.0",
+  "build": "0.12.0-video-pilot-1",
+  "date": "2026-11-19",
+  "title": "Pilotunterricht mit animierten Erklärungen",
   "recommended": true,
-  "notes": "Automatischer Wiederholversuch für MP3-Downloads und direkter Nachlade-Button für einzelne Lektionen"
+  "notes": "Pilot 1.03-B mit Thorsten High, 19 animierten Kapiteln, Kapitelsteuerung und iPhone-Player"
 }
