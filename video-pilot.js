@@ -183,7 +183,7 @@ function sceneMarkup(c,phase,index){
 }
 function render(l,state){
  if(l?.id!==ID)return '';
- return '<section id="video-pilot" class="vp-shell" aria-label="Audiovisueller Pilotunterricht" data-lesson="'+ID+'">'+
+ return '<section id="video-pilot" class="vp-shell" aria-label="Audiovisueller Pilotunterricht" data-vp-id="'+ID+'">'+
  '<div class="vp-headline"><div><span class="vp-chip">PILOT · ANIMIERTER UNTERRICHT</span><h2>Ohmsches Gesetz – Bild und Ton</h2><p>Eine zusammenhängende visuelle Lektion mit der originalen Thorsten-High-Aufnahme.</p></div><button class="btn" type="button" id="vp-expand" aria-label="Darstellung vergrössern">Bildschirm füllen</button></div>'+
  '<div class="vp-stage" id="vp-stage" role="group" aria-label="Animierte Lehrdarstellung">'+sceneMarkup(CUES[0],0,0)+'</div>'+
  '<div class="vp-control-panel"><div class="vp-progress-row"><span id="vp-time">0:00</span><input id="vp-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in der Audiolektion" disabled><span id="vp-duration">–:––</span></div>'+
