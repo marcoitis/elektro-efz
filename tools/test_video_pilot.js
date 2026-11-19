@@ -24,6 +24,13 @@ assert(html.includes('Thorsten'));
 assert(html.includes('vp-seek'));
 assert(html.includes('vp-expand'));
 assert(html.includes('vp-speed'));
+assert(html.includes('id="vp-dc-ac"'));
+assert(html.includes('id="vp-demo-toggle"'));
+assert(html.includes('ZUSÄTZLICHE ANIMATION'));
+assert(!html.includes('Während Thorsten High erklärt'));
+assert(!html.includes('vp-facts'));
+
+
 assert.equal((html.match(/data-vp-chapter=/g)||[]).length,19);
 for(let index=0;index<19;index++){
  for(let phase=0;phase<3;phase++){
@@ -32,6 +39,9 @@ for(let index=0;index<19;index++){
    phase,index
   );
   assert(scene.includes('<svg'));
+  assert(scene.includes('vp-canvas'),'Lesson must be one large teaching surface');
+  assert(!scene.includes('vp-interpretation'),'No competing sidebar');
+  assert(!scene.includes('Während Thorsten'),'No lecturer label overlay');
   assert(scene.includes('Didaktisches Modell'));
  }
 }
@@ -49,4 +59,4 @@ for(const file of [index,sw,offline,build]){
 }
 const version=JSON.parse(fs.readFileSync('version.json','utf8'));
 assert.equal(version.build,'0.13.0-classroom-v2');
-console.log('PASS 19/19 voice-script chapter markers, 57 SVG states, app integration, PWA files and version');
+console.log('PASS 19 narration chapters, 57 full-width classroom scenes, animated DC/AC demo, app integration and PWA version');
