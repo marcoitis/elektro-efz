@@ -1,4 +1,5 @@
 name: Masterclasses – eine Lektion pro Produktionsdurchlauf
+# Regenerate after checked-in generic audit script is present.
 
 on:
   push:
