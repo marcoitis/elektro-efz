@@ -26,6 +26,9 @@ if(!renderer||!renderer.groups||typeof renderer.render!=='function')
  throw Error('Fehlende Fachvisualisierungen für '+LESSON);
 const groups=renderer.groups;
 const artFor=renderer.render;
+const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=x=>{x=Number.isFinite(x)?Math.max(0,Math.floor(x)):0;return Math.floor(x/60)+':'+String(x%60).padStart(2,'0')};
+const mark=(label,sub)=>'<div class="mc-top"><div><span class="mc-lesson-mark">ELEKTRO · EFZ / MASTERCLASS</span><span class="mc-topic">'+esc(label)+'</span></div><span class="mc-stage-tag">'+esc(sub)+'</span></div>';
 function beatAt(t){
  const beats=timeline?.beats||[];
  let low=0,high=beats.length-1;
