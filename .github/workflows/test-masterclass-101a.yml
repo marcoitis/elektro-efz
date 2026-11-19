@@ -54,7 +54,7 @@ jobs:
         run: |
           npm install --no-save playwright@1.57.0
           npx playwright install --with-deps webkit chromium
-      - name: iPhone and desktop: real audio, normative model, quiz
+      - name: 'iPhone and desktop: real audio, normative model, quiz'
         run: |
           python -m http.server 8787 --bind 127.0.0.1 --directory dist >/tmp/master-101a.log 2>&1 &
           sleep 2
