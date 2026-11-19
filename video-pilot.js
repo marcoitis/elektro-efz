@@ -267,7 +267,8 @@ function bind(state,actions){
  });
  rootElement.querySelectorAll('[data-vp-chapter]').forEach(b=>b.addEventListener('click',()=>{
   const s=api.getState();if(s.duration<=0)return;
-  seekTo(s.duration*times[Number(b.dataset.vpChapter)].pct);
+  const target=s.duration*times[Number(b.dataset.vpChapter)].pct;
+  seekTo(Math.min(s.duration-.25,Math.max(0,target+1.3)));
  }));
  $('#vp-speed')?.addEventListener('change',e=>{
   const rate=Number(e.target.value);
