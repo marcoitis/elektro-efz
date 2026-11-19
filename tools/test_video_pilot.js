@@ -58,5 +58,5 @@ for(const file of [index,sw,offline,build]){
  assert(file.includes('video-pilot.css'),'Pilot styles missing from shell');
 }
 const version=JSON.parse(fs.readFileSync('version.json','utf8'));
-assert.equal(version.build,'0.14.0-masterclass-103b');
+assert.equal(version.build,'0.15.0-masterclass-101a');
 console.log('PASS 19 narration chapters, 57 full-width classroom scenes, animated DC/AC demo, app integration and PWA version');
