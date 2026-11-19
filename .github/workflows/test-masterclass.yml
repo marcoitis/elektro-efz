@@ -1,4 +1,5 @@
 name: EFZ Masterclass 1.03-B – WebKit, Audio und Didaktik prüfen
+# Regression: seek precisely across sample-aligned question/answer seam.
 # The sole SHA-audited master narration MP3 is explicitly allowed by preflight.
 
 on:
@@ -104,7 +105,7 @@ jobs:
                 await page.evaluate(()=>{
                   const t=window.ElektroMaster.getTimeline();
                   const q=t.beats.find(b=>b.visual==='question');
-                  document.querySelector('#mc-audio').currentTime=q.end-.38;
+                  document.querySelector('#mc-audio').currentTime=q.end+.02;
                 });
                 await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:12000});
                 if(await page.locator('#mc-answer').isHidden())throw Error(tag+' end-question must pause and offer answer');
