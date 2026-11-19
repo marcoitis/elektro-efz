@@ -1,0 +1,132 @@
+name: EFZ Masterclass 1.03-B – WebKit, Audio und Didaktik prüfen
+
+on:
+  push:
+    branches: [feature/master-scene-103b-v0140]
+    paths: [.github/workflows/test-masterclass.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  masterclass-qa:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Technische Sprecher-/Szenenzeitmarken und bestehenden Kurs prüfen
+        run: |
+          python tools/validate_master_scene.py
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/check_github_release.py
+          node tools/test_video_pilot.js
+          node tools/test_ios_audio_retry.js
+          node tools/test_audio_zip_import.js
+          node tools/test_sw_routes.js
+          for FILE in app.js video-pilot.js master-103-b/player.js offline.js sw.js; do node --check "$FILE"; done
+      - name: Vollständige PWA mit internem 2:34-Audio bauen
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('dist')
+          assert json.loads((p/'version.json').read_text())['build']=='0.14.0-masterclass-103b'
+          assert len(json.loads((p/'audio-manifest.json').read_text())['tracks'])==178
+          assert (p/'master-103-b/audio/masterclass.mp3').stat().st_size>200000
+          assert len(json.loads((p/'master-103-b/audio/timeline.json').read_text())['beats'])==24
+          assert 'master-103-b.html' in (p/'video-103-b.html').read_text()
+          print('PACKAGE PASS: 178 existing MP3 references plus continuous local 2:34 masterclass')
+          PY
+      - name: Safari/WebKit und Chromium einrichten
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps chromium webkit
+      - name: Realer Browser-Test mit MP3, Bild-Ton-Zeitmarken und Lernkontrolle
+        run: |
+          python -m http.server 8787 --bind 127.0.0.1 --directory dist >/tmp/master-http.log 2>&1 &
+          sleep 2
+          mkdir -p screenshots
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+            for(const [engine,name] of [[webkit,'webkit'],[chromium,'chromium']]){
+              for(const size of [{width:390,height:844},{width:1280,height:820}]){
+                const tag=name+'-'+size.width;
+                const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+                const page=await browser.newPage({viewport:size,deviceScaleFactor:1,isMobile:size.width===390,hasTouch:size.width===390});
+                const errors=[];page.on('pageerror',e=>errors.push(e.message));
+                await page.goto('http://127.0.0.1:8787/master-103-b.html',{waitUntil:'domcontentloaded'});
+                await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,{timeout:20000});
+                await page.waitForFunction(()=>document.querySelector('#mc-audio').duration>120,{timeout:25000});
+                const seconds=await page.evaluate(()=>document.querySelector('#mc-audio').duration);
+                if(seconds<120||seconds>260)throw Error('Invalid MP3 duration '+seconds);
+                await page.locator('#mc-play').click();
+                await page.waitForTimeout(1300);
+                if(!(await page.evaluate(()=>!document.querySelector('#mc-audio').paused)))throw Error(tag+' play failed');
+                await page.screenshot({path:'screenshots/'+tag+'-dc.png'});
+                await page.evaluate(()=>{
+                  const t=window.ElektroMaster.getTimeline();
+                  document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual==='valueR').start+.10;
+                });
+                await page.waitForTimeout(650);
+                let text=await page.locator('#mc-stage').innerText();
+                if(!text.includes('12 V / 120 Ω'))throw Error(tag+' formula not aligned: '+text.slice(-180));
+                await page.screenshot({path:'screenshots/'+tag+'-math.png'});
+                await page.evaluate(()=>{
+                  const t=window.ElektroMaster.getTimeline();
+                  document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual==='doubleR').start+.10;
+                });
+                await page.waitForTimeout(550);
+                text=await page.locator('#mc-stage').innerText();
+                if(!text.includes('240 Ω')||!text.includes('50 mA'))throw Error(tag+' variable resistor example missing: '+text);
+                await page.screenshot({path:'screenshots/'+tag+'-comparison.png'});
+                await page.evaluate(()=>{
+                  const t=window.ElektroMaster.getTimeline();
+                  document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual==='ac').start+.10;
+                });
+                await page.waitForTimeout(550);
+                if(await page.locator('#mc-stage .mc-ac-forth').count()!==1 ||
+                   await page.locator('#mc-stage .mc-ac-back').count()!==1)
+                   throw Error(tag+' AC reversal missing');
+                await page.screenshot({path:'screenshots/'+tag+'-dc-ac.png'});
+                await page.evaluate(()=>{
+                  const t=window.ElektroMaster.getTimeline();
+                  const q=t.beats.find(b=>b.visual==='question');
+                  document.querySelector('#mc-audio').currentTime=q.end-.38;
+                });
+                await page.waitForTimeout(850);
+                if(await page.locator('#mc-answer').isHidden())throw Error(tag+' end-question must pause and offer answer');
+                if(!(await page.evaluate(()=>document.querySelector('#mc-audio').paused)))
+                  throw Error(tag+' question did not pause narration');
+                await page.locator('#mc-answer').click();
+                await page.waitForTimeout(700);
+                text=await page.locator('#mc-stage').innerText();
+                if(!text.includes('50 mA'))throw Error(tag+' final answer not displayed');
+                const overflow=await page.evaluate(()=>({page:document.documentElement.scrollWidth,viewport:innerWidth}));
+                if(overflow.page>overflow.viewport+3)throw Error(tag+' horizontal overflow '+JSON.stringify(overflow));
+                if(errors.length)throw Error(tag+' runtime errors '+errors.join('; '));
+                console.log('BROWSER PASS',tag,'duration',seconds.toFixed(2),'24 sample-aligned beats, animated circuit, real Ohm math, reversing AC, answer pause, no overflow');
+                await browser.close();
+              }
+            }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Screenshots dokumentieren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: masterclass-103b-qa-screenshots
+          path: screenshots/*.png
+          if-no-files-found: ignore
+          retention-days: 7
