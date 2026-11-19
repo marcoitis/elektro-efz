@@ -192,10 +192,13 @@ function frame(){
  ui.duration.textContent=fmt(audio.duration||timeline.duration_seconds);
  ui.play.textContent=audio.paused?'▶  Film fortsetzen':'Ⅱ  Pause';
  stage.classList.toggle('mc-playing',!audio.paused);
- if(!answerPauseDone && audio.playbackRate>0 && !audio.paused && idx===timeline.beats.length-1){
-  // Once the spoken question finishes, pause before the narrated answer.
+ if(!answerPauseDone && audio.playbackRate>0 && !audio.paused){
+  // When the last spoken question reaches its end, pause *before* the answer.
+  // A larger pre-boundary guard is needed because Safari's timeupdate and MP3
+  // seek positions can differ by 100-300 ms.
   const q=timeline.beats[timeline.beats.length-2];
-  if(q?.visual==='question' && t>=q.end-0.035){
+  const a=timeline.beats[timeline.beats.length-1];
+  if(q?.visual==='question' && t>=q.end-0.22 && t<a.start+3){
    answerPauseDone=true;
    audio.pause();audio.currentTime=q.end-0.07;
    ui.answer.hidden=false;
