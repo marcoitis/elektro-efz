@@ -106,7 +106,7 @@ jobs:
                   const q=t.beats.find(b=>b.visual==='question');
                   document.querySelector('#mc-audio').currentTime=q.end-.38;
                 });
-                await page.waitForTimeout(850);
+                await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:12000});
                 if(await page.locator('#mc-answer').isHidden())throw Error(tag+' end-question must pause and offer answer');
                 if(!(await page.evaluate(()=>document.querySelector('#mc-audio').paused)))
                   throw Error(tag+' question did not pause narration');
