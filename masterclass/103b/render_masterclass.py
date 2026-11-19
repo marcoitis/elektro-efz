@@ -306,6 +306,9 @@ def main():
     assert len(data["scenes"])==16
     expected={"title","circuit","open","close","flow","resistor","formula","isolate","givens","substitute","result","convert","compare","graph","dcac","summary"}
     assert {x["kind"] for x in data["scenes"]}==expected, "Every storyboard scene must have a unique supported visual"
+    for idx in (1,2):
+        img=render(data["scenes"][idx],idx,16,0.5,5,5,151)
+        assert img.getpixel((230,288))==C["line"], "Electric circuit not visible in scene "+str(idx)
     soundtrack,durations=synthesize(data)
     starts=[0.0]
     for sec in durations:starts.append(starts[-1]+sec)
