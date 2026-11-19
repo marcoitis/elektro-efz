@@ -124,12 +124,12 @@ def large_formula(d,a,b,c,y=320,frac=False):
     txt(d,891,y+72,c,62,"text",True,"mm")
 
 def stage(d,sc,p,t):
-    kind=sc["kind"]
+    kind={"circuit":"quelle","open":"offen"}.get(sc["kind"],sc["kind"])
     if kind=="title":
         txt(d,640,220,"12 V",115,"teal",True,"mm")
         txt(d,640,328,"÷",82,"muted",False,"mm")
         txt(d,640,438,"120 Ω",115,"amber",True,"mm")
-        if p>.48:
+        if p>.79:
             txt(d,640,550,"= 0,1 A = 100 mA",48,"text",True,"mm")
     elif kind=="quelle":
         circuit(d,t,p,closed=True,show_dots=False,source_focus=True)
@@ -304,6 +304,8 @@ def synthesize(data):
 def main():
     data=json.loads(SRC.read_text(encoding="utf-8"))
     assert len(data["scenes"])==16
+    expected={"title","circuit","open","close","flow","resistor","formula","isolate","givens","substitute","result","convert","compare","graph","dcac","summary"}
+    assert {x["kind"] for x in data["scenes"]}==expected, "Every storyboard scene must have a unique supported visual"
     soundtrack,durations=synthesize(data)
     starts=[0.0]
     for sec in durations:starts.append(starts[-1]+sec)
