@@ -18,6 +18,8 @@ for(let i=1;i<points.length;i++)
  assert(points[i].pct>points[i-1].pct,'Chapter boundaries must be monotone');
 const html=pilot.render({id:'1.03-B'},state);
 assert(html.includes('id="video-pilot"'));
+assert(!html.includes(' data-lesson='),'Video controls must not trigger existing [data-lesson] navigation handler');
+assert(html.includes('data-vp-id="1.03-B"'));
 assert(html.includes('Thorsten'));
 assert(html.includes('vp-seek'));
 assert(html.includes('vp-expand'));
