@@ -52,9 +52,18 @@ jobs:
           git add -f master-103-b/audio/masterclass.mp3
           git add master-103-b/audio/timeline.json
           git commit -m 'Add sample-aligned Thorsten High masterclass audio and exact timing'
-          git fetch origin feature/master-scene-103b-v0140
-          git rebase FETCH_HEAD
-          git push origin HEAD:feature/master-scene-103b-v0140
+          PUSHED=0
+          for ATTEMPT in 1 2 3 4 5 6 7 8 9 10; do
+            git fetch origin feature/master-scene-103b-v0140
+            git rebase FETCH_HEAD
+            if git push origin HEAD:feature/master-scene-103b-v0140; then
+              PUSHED=1
+              break
+            fi
+            echo "Branch advanced concurrently, retrying $ATTEMPT/10"
+            sleep 3
+          done
+          test "$PUSHED" -eq 1
           git show --stat --oneline HEAD
       - name: Generiertes Audio-Audit
         run: |
