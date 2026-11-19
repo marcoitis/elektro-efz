@@ -137,3 +137,14 @@
 @media(prefers-reduced-motion:reduce){
  .vp-current-dot,.vp-trace-reveal{animation:none!important}
 }
+
+
+.vp-ac-right{animation:vp-ac-forward 4s steps(1,end) infinite}
+.vp-ac-left{animation:vp-ac-reverse 4s steps(1,end) infinite}
+@keyframes vp-ac-forward{0%,49.99%{opacity:1}50%,100%{opacity:0}}
+@keyframes vp-ac-reverse{0%,49.99%{opacity:0}50%,100%{opacity:1}}
+@media(prefers-reduced-motion:reduce){
+ .vp-ac-right,.vp-ac-left{animation:none!important}
+ .vp-ac-right{opacity:1}
+ .vp-ac-left{opacity:0}
+}
