@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "lesson_id": "1.03-B-master",
+  "voice": "Piper de_DE-thorsten-high",
+  "model_sha256": "9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1",
+  "source_sha256": "3c8be92ab4ed9716fea67811a67162d0b5827668400404fafec4fa1795aaf9bb",
+  "audio_sha256": "69c68fd21d198c1de697a2a64408f9d1d479629cc824ade80944620ce82d6ef4",
+  "duration_seconds": 154.514,
+  "sample_rate": 22050,
+  "alignment": "beat_exact_via_PCM_frame_count_not_word_aligned",
+  "approval": "technically_verified_not_acoustically_or_didactically_signed_off",
+  "beats": [
+    {
+      "id": "01",
+      "visual": "start",
+      "start": 0.0,
+      "duration": 8.927,
+      "end": 8.927,
+      "narration": "Wir betrachten einen einfachen Gleichstromkreis: eine Spannungsquelle, einen Widerstand und Leitungen. Alle Werte gehören zu einem sicheren Schulungsmodell."
+    },
+    {
+      "id": "02",
+      "visual": "source",
+      "start": 8.927,
+      "duration": 7.835,
+      "end": 16.762,
+      "narration": "Unsere Quelle liefert zwölf Volt. Spannung bedeutet elektrische Potenzialdifferenz. Allein aus der Spannung kennen wir den Strom noch nicht."
+    },
+    {
+      "id": "03",
+      "visual": "open",
+      "start": 16.762,
+      "duration": 6.825,
+      "end": 23.587,
+      "narration": "Bei offenem Stromkreis fliesst im vereinfachten Modell kein dauerhafter Strom. Der leitfähige Weg ist unterbrochen."
+    },
+    {
+      "id": "04",
+      "visual": "close",
+      "start": 23.587,
+      "duration": 7.731,
+      "end": 31.318,
+      "narration": "Wir schliessen den Stromkreis. Die technische Stromrichtung verläuft ausserhalb der Quelle vom Pluspol über den Widerstand zum Minuspol."
+    },
+    {
+      "id": "05",
+      "visual": "flow",
+      "start": 31.318,
+      "duration": 8.23,
+      "end": 39.549,
+      "narration": "Die bewegten Punkte zeigen nur diese technische Stromrichtung, keine tatsächlichen Elektronenbahnen. Elektronen bewegen sich im Metall entgegengesetzt."
+    },
+    {
+      "id": "06",
+      "visual": "resistor",
+      "start": 39.549,
+      "duration": 7.266,
+      "end": 46.815,
+      "narration": "Der Widerstand beträgt hundertzwanzig Ohm. Sein Formelzeichen ist R. Bei gleicher Spannung bestimmt er die Stromstärke mit."
+    },
+    {
+      "id": "07",
+      "visual": "relation",
+      "start": 46.815,
+      "duration": 7.034,
+      "end": 53.849,
+      "narration": "Für einen idealen ohmschen Widerstand gilt: Spannung gleich Widerstand mal Stromstärke. Kurz: U gleich R mal I."
+    },
+    {
+      "id": "08",
+      "visual": "formula",
+      "start": 53.849,
+      "duration": 4.689,
+      "end": 58.539,
+      "narration": "Wir suchen den Strom und stellen die Gleichung um. I gleich U geteilt durch R."
+    },
+    {
+      "id": "09",
+      "visual": "valueU",
+      "start": 58.539,
+      "duration": 4.248,
+      "end": 62.787,
+      "narration": "Die Spannung steht schon im Bild. Wir übernehmen zwölf Volt in die Formel."
+    },
+    {
+      "id": "10",
+      "visual": "valueR",
+      "start": 62.787,
+      "duration": 6.094,
+      "end": 68.881,
+      "narration": "Auch der Widerstand ist bekannt: hundertzwanzig Ohm. Damit sind beide erforderlichen Werte vorhanden."
+    },
+    {
+      "id": "11",
+      "visual": "substitution",
+      "start": 68.881,
+      "duration": 5.479,
+      "end": 74.359,
+      "narration": "Wir setzen ein: zwölf Volt geteilt durch hundertzwanzig Ohm. Das ergibt null Komma eins."
+    },
+    {
+      "id": "12",
+      "visual": "units",
+      "start": 74.359,
+      "duration": 5.293,
+      "end": 79.652,
+      "narration": "Volt geteilt durch Ohm ergibt Ampere. Die Stromstärke beträgt deshalb null Komma eins Ampere."
+    },
+    {
+      "id": "13",
+      "visual": "milli",
+      "start": 79.652,
+      "duration": 5.676,
+      "end": 85.328,
+      "narration": "Ein Ampere sind tausend Milliampere. Null Komma eins Ampere entspricht genau hundert Milliampere."
+    },
+    {
+      "id": "14",
+      "visual": "result",
+      "start": 85.328,
+      "duration": 6.002,
+      "end": 91.33,
+      "narration": "Unser Ergebnis lautet: zwölf Volt an hundertzwanzig Ohm ergeben im idealen Modell hundert Milliampere."
+    },
+    {
+      "id": "15",
+      "visual": "testR",
+      "start": 91.33,
+      "duration": 5.397,
+      "end": 96.728,
+      "narration": "Prüfen wir das Ergebnis. Was passiert bei gleicher Spannung, wenn wir den Widerstand verdoppeln?"
+    },
+    {
+      "id": "16",
+      "visual": "doubleR",
+      "start": 96.728,
+      "duration": 6.175,
+      "end": 102.903,
+      "narration": "Aus hundertzwanzig werden zweihundertvierzig Ohm. Der Strom halbiert sich auf fünfzig Milliampere."
+    },
+    {
+      "id": "17",
+      "visual": "halfR",
+      "start": 102.903,
+      "duration": 5.398,
+      "end": 108.301,
+      "narration": "Halbieren wir den Widerstand auf sechzig Ohm, verdoppelt sich der Strom auf zweihundert Milliampere."
+    },
+    {
+      "id": "18",
+      "visual": "restore",
+      "start": 108.301,
+      "duration": 5.619,
+      "end": 113.92,
+      "narration": "Zurück zum Ausgangsbeispiel: zwölf Volt, hundertzwanzig Ohm und hundert Milliampere."
+    },
+    {
+      "id": "19",
+      "visual": "dc",
+      "start": 113.92,
+      "duration": 6.675,
+      "end": 120.594,
+      "narration": "Bei Gleichstrom bleibt die technische Stromrichtung im stationären Fall gleich. Deshalb laufen die Punkte nur vorwärts."
+    },
+    {
+      "id": "20",
+      "visual": "ac",
+      "start": 120.594,
+      "duration": 5.688,
+      "end": 126.282,
+      "narration": "Bei Wechselstrom kehrt sich die Stromrichtung periodisch um. Die Bewegung geht daher vor und zurück."
+    },
+    {
+      "id": "21",
+      "visual": "acdetail",
+      "start": 126.282,
+      "duration": 7.51,
+      "end": 133.792,
+      "narration": "Die Wechselstrombewegung ist didaktisch stark verlangsamt. Sie zeigt weder eine reale Netzfrequenz noch einzelne Elektronenbahnen."
+    },
+    {
+      "id": "22",
+      "visual": "recap",
+      "start": 133.792,
+      "duration": 6.733,
+      "end": 140.525,
+      "narration": "Merke dir die Beziehung: I gleich U durch R. Ein grösserer Widerstand bedeutet bei gleicher Spannung weniger Strom."
+    },
+    {
+      "id": "23",
+      "visual": "question",
+      "start": 140.525,
+      "duration": 6.721,
+      "end": 147.246,
+      "narration": "Eine Kontrollfrage: Wir verdoppeln den Widerstand bei zwölf Volt auf zweihundertvierzig Ohm. Wie gross ist der Strom?"
+    },
+    {
+      "id": "24",
+      "visual": "answer",
+      "start": 147.246,
+      "duration": 7.197,
+      "end": 154.443,
+      "narration": "Richtig: fünfzig Milliampere. Wer diesen Zusammenhang am Schaltbild erklären kann, hat das Grundprinzip verstanden."
+    }
+  ]
+}

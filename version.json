@@ -1,8 +1,8 @@
 {
-  "version": "0.13.0",
-  "build": "0.13.0-classroom-v2",
+  "version": "0.14.0",
+  "build": "0.14.0-masterclass-103b",
   "date": "2026-11-19",
-  "title": "Visueller Unterricht: Ohmsches Gesetz – Version 2",
+  "title": "Audio-synchronisierte Master-Sequenz 1.03-B",
   "recommended": true,
-  "notes": "Grossflächige didaktische Grafiken ohne Text-Seitenleiste; animierte technische Gleichstromrichtung und separater AC/DC-Vergleich"
+  "notes": "24 einzeln vertonte Sprecherbausteine, samplegenaue Bildwechsel, hochwertige Gleichstrom-/Wechselstrom-Animation, schrittweise Formel und Lernkontrolle"
 }
