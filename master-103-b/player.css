@@ -75,9 +75,9 @@ body.mc-body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe 
  .mc-brand strong{font-size:15px}
  .mc-brand small{font-size:10px}
  .mc-home{font-size:11px;padding:9px 10px;white-space:nowrap}
- .mc-heading{margin:18px 5px}
- .mc-heading h1{font-size:26px}
- .mc-heading p{font-size:12px}
+ .mc-heading{margin:9px 5px 11px}
+ .mc-heading h1{font-size:23px;margin:5px 0}
+ .mc-heading p{font-size:11px;display:none}
  .mc-root{border-radius:14px}
  .mc-stage{aspect-ratio:16 / 10}
  .mc-top{padding:10px 12px}
