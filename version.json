@@ -1,8 +1,8 @@
 {
-  "version": "0.12.0",
-  "build": "0.12.0-video-pilot-1",
+  "version": "0.12.1",
+  "build": "0.12.1-safari-player-1",
   "date": "2026-11-19",
-  "title": "Pilotunterricht mit animierten Erklärungen",
+  "title": "Direktstart des audiovisuellen Pilotunterrichts",
   "recommended": true,
-  "notes": "Pilot 1.03-B mit Thorsten High, 19 animierten Kapiteln, Kapitelsteuerung und iPhone-Player"
+  "notes": "Eigenständiger HTML5-Player mit nativen Safari-Audiokontrollen für 1.03-B"
 }
