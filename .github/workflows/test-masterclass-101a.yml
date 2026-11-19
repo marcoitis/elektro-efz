@@ -81,7 +81,16 @@ jobs:
                const t=window.ElektroMaster.getTimeline();
                document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+1.3;
               },visual);
-              await page.waitForFunction(v=>window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual===v,visual,{timeout:15000});
+              await page.waitForTimeout(950);
+              console.log('DEBUG '+tag+' '+visual+' '+JSON.stringify(await page.evaluate(()=>({
+               t:document.querySelector('#mc-audio').currentTime,
+               paused:document.querySelector('#mc-audio').paused,
+               seeking:document.querySelector('#mc-audio').seeking,
+               ready:document.querySelector('#mc-audio').readyState,
+               beat:window.ElektroMaster.getActiveBeat(),
+               name:window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual
+              }))));
+              await page.waitForFunction(v=>window.ElektroMaster.getTimeline().beats[window.ElektroMaster.getActiveBeat()]?.visual===v,visual,{timeout:12000});
               const body=await page.locator('#mc-stage').innerText();
               if(!body.includes(expected))throw Error(tag+' '+visual+' scene missing');
               await page.screenshot({path:'screenshots/'+tag+'-'+visual+'.png'});
