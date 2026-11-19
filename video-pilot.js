@@ -70,10 +70,10 @@ function badge(x,y,s,fill){return '<rect x="'+(x-75)+'" y="'+(y-28)+'" width="15
 function circuit(config,phase){
  const c=Object.assign({u:'12 V',r:'120 Ω',i:'100 mA',r2:'',u1:'',u2:''},config||{});
  const lead='#7fe0dd',white='#b9d6e7';
- let lines='<path class="vp-current-line" d="M185 290 L185 112 L615 112 L615 290 L185 290" stroke="'+lead+'" fill="none" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>';
- lines+='<rect x="515" y="90" width="116" height="44" rx="10" fill="#142f45" stroke="#fff" stroke-width="3"/>';
- lines+=text(573,117,'R = '+c.r,19);
- lines+='<path d="M166 217 L204 217 M173 239 L197 239" stroke="white" stroke-width="5"/>';
+ let lines='<path class="vp-current-line" d="M185 214 V112 H480 M606 112 H615 V290 H185 V240" stroke="'+lead+'" fill="none" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>';
+ lines+='<rect x="480" y="90" width="126" height="44" rx="10" fill="#142f45" stroke="#fff" stroke-width="3"/>';
+ lines+=text(543,117,'R = '+c.r,19);
+ lines+='<path d="M162 214 L208 214 M173 240 L197 240" stroke="white" stroke-width="5"/>';
  lines+=text(122,224,'+',22)+text(122,275,'−',22);
  lines+=badge(190,357,'U = '+c.u);
  lines+=badge(579,357,'I = '+c.i);
@@ -121,7 +121,7 @@ function formulaArt(phase){
  return svg(code);
 }
 function parallelArt(phase){
- let s='<path d="M125 190 H240 V95 H630 V190 H690 M240 190 V290 H630 V190" stroke="#8ce8dc" stroke-width="6" stroke-linejoin="round" fill="none"/>'+
+ let s='<path d="M125 190 H240 V95 H377 M503 95 H630 V190 H690 M240 190 V290 H377 M503 290 H630 V190" stroke="#8ce8dc" stroke-width="6" stroke-linejoin="round" fill="none"/>'+
  '<rect x="377" y="73" width="126" height="44" rx="8" fill="#153348" stroke="#e8f7fa" stroke-width="3"/>'+
  '<rect x="377" y="269" width="126" height="44" rx="8" fill="#153348" stroke="#e8f7fa" stroke-width="3"/>'+
  text(440,101,'R1 = 120 Ω',18)+text(440,297,'R2 = 240 Ω',18)+
@@ -132,11 +132,11 @@ function parallelArt(phase){
 }
 function seriesArt(phase,exam){
  const r1=exam?'180 Ω':'100 Ω',r2=exam?'320 Ω':'200 Ω',u=exam?'10 V':'12 V',i=exam?'20 mA':'40 mA';
- let p='<path class="vp-current-line" d="M125 315 V115 H685 V315 H125" stroke="#82e6d9" stroke-width="6" fill="none"/>'+
+ let p='<path class="vp-current-line" d="M125 209 V115 H240 M380 115 H475 M615 115 H685 V315 H125 V260" stroke="#82e6d9" stroke-width="6" fill="none"/>'+
  '<rect x="240" y="94" width="140" height="44" rx="9" fill="#183c51" stroke="white" stroke-width="3"/>'+
  '<rect x="475" y="94" width="140" height="44" rx="9" fill="#183c51" stroke="white" stroke-width="3"/>'+
  text(310,122,'R1 = '+r1,19)+text(545,122,'R2 = '+r2,19)+
- text(100,217,'+',27)+text(100,262,'−',27)+badge(196,365,'U = '+u)+badge(608,365,'I = '+i);
+ '<path d="M99 218 H151 M110 241 H140" stroke="white" stroke-width="5"/>'+text(94,207,'+',22)+text(94,264,'−',22)+badge(196,365,'U = '+u)+badge(608,365,'I = '+i);
  if(phase>0)p+=text(310,195,exam?'3,6 V':'4 V',27,'#92efd5')+text(545,195,exam?'6,4 V':'8 V',27,'#92efd5');
  if(phase>1)p+=text(406,254,exam?'180 + 320 = 500 Ω':'100 + 200 = 300 Ω',29,'#fff');
  return svg(p);
