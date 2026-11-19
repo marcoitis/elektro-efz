@@ -1,0 +1,68 @@
+name: Thorsten High Masterclass MP4 – 1.03-B
+
+on:
+  push:
+    branches: [feature/real-masterclass-film-103b-20261119]
+    paths: [.github/workflows/render-masterclass-103b.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  masterclass-film:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Piper Pillow FFmpeg bereitstellen
+        run: |
+          python -m pip install 'piper-tts==1.2.0' 'pillow>=10,<12'
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; fi
+      - name: Verifiziertes Thorsten High Modell
+        run: |
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 5 -o .voice-cache/de_DE-thorsten-high.onnx 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 5 -o .voice-cache/de_DE-thorsten-high.onnx.json 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Unterrichtsfilm mit 16 synchronen Sprechersegmenten rendern
+        run: python -u masterclass/103b/render_masterclass.py
+      - name: Laufzeit und Codecs prüfen
+        run: |
+          ffprobe -v error -show_entries format=duration,size:stream=codec_name,width,height -of json .masterclass-output/Elektro_EFZ_Masterclass_1.03-B_12V_120Ohm.mp4
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('.masterclass-output')
+          m=json.loads((p/'Unterrichtsablauf_1.03-B.json').read_text())
+          assert len(m['parts'])==16
+          assert 120<=m['runtime_seconds']<=320
+          assert (p/'Elektro_EFZ_Masterclass_1.03-B_12V_120Ohm.mp4').stat().st_size>1000000
+          print('PASS full MP4',m['runtime_seconds'],'seconds')
+          PY
+      - name: Unterrichtsfilm als GitHub Actions Download anbieten
+        uses: actions/upload-artifact@v4
+        with:
+          name: Elektro-EFZ-Masterclass-103B-Film
+          path: |
+            .masterclass-output/Elektro_EFZ_Masterclass_1.03-B_12V_120Ohm.mp4
+            .masterclass-output/Unterrichtsablauf_1.03-B.json
+            masterclass/103b/storyboard.json
+          retention-days: 90
+          compression-level: 0
+      - name: Unterrichtsfilm dauerhaft als Release anbieten
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=masterclass-103b-v1-20261119
+          if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+              --prerelease --title "Masterclass 1.03-B - erster animierter Unterrichtsfilm" \
+              --notes "Animierter Modellstromkreis; Originalstimme Piper Thorsten High. 16 Szenen, H.264/AAC, 1280x720. Nur die Pilotsequenz, nicht die ganze 17-Minuten-Lektion. Manuelle akustische Endabnahme steht aus."
+          fi
+          gh release upload "$TAG" \
+            '.masterclass-output/Elektro_EFZ_Masterclass_1.03-B_12V_120Ohm.mp4' \
+            '.masterclass-output/Unterrichtsablauf_1.03-B.json' --clobber --repo "$GITHUB_REPOSITORY"
+          echo "MP4: https://github.com/$GITHUB_REPOSITORY/releases/tag/$TAG" >> "$GITHUB_STEP_SUMMARY"
