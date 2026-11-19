@@ -301,7 +301,7 @@ function dcAcMarkup(){
 function render(l,state){
  if(l?.id!==ID)return '';
  return '<section id="video-pilot" class="vp-shell" aria-label="Audiovisueller Pilotunterricht" data-vp-id="'+ID+'">'+
- '<div class="vp-headline"><div><span class="vp-chip">PILOT · ANIMIERTER UNTERRICHT</span><h2>Ohmsches Gesetz – Bild und Ton</h2><p>Eine zusammenhängende visuelle Lektion mit der originalen Thorsten-High-Aufnahme.</p></div><button class="btn" type="button" id="vp-expand" aria-label="Darstellung vergrössern">Bildschirm füllen</button></div>'+
+ '<div class="vp-headline"><div><span class="vp-chip">VIDEO-UNTERRICHT · PILOT V2</span></div><button class="btn" type="button" id="vp-expand" aria-label="Darstellung vergrössern">Bildschirm füllen</button></div>'+
  '<div class="vp-stage" id="vp-stage" role="group" aria-label="Animierte Lehrdarstellung">'+sceneMarkup(CUES[0],0,0)+'</div>'+
  '<div class="vp-control-panel"><div class="vp-progress-row"><span id="vp-time">0:00</span><input id="vp-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in der Audiolektion" disabled><span id="vp-duration">–:––</span></div>'+
  '<div class="vp-controls"><button class="btn" id="vp-back" type="button" aria-label="15 Sekunden zurück">−15 s</button>'+
@@ -398,6 +398,7 @@ function bind(state,actions){
   const s=api.getState();if(s.duration<=0)return;
   const target=s.duration*times[Number(b.dataset.vpChapter)].pct;
   seekTo(Math.min(s.duration-.25,Math.max(0,target+1.3)));
+  $('#vp-stage')?.scrollIntoView?.({behavior:'smooth',block:'start'});
  }));
  $('#vp-speed')?.addEventListener('change',e=>{
   const rate=Number(e.target.value);
