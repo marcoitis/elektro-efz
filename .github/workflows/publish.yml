@@ -34,6 +34,19 @@ jobs:
           python tools/validate_v0118.py
           python tools/validate_v093.py
           python tools/check_github_release.py
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          items=json.loads(Path('masterclasses/catalog.json').read_text())['lessons']
+          assert len(items)==len(set(x['id'] for x in items))==178
+          for lesson in items:
+           if lesson['status']=='ready' and lesson['id']!='1.03-B':
+            lid=lesson['id']
+            subprocess.run(['python','tools/check_sequential_master.py','--lesson',lid],check=True)
+            subprocess.run(['node','--check',str(Path('masterclasses')/lid/'visuals.js')],check=True)
+          print('PASS: Every ready masterclass checked against its edited script, MP3 and exact timeline')
+          PY
+          node --check masterclasses/player.js
           node tools/test_sw_routes.js
           node tools/test_audio_zip_import.js
           for file in app.js audio-engine.js audio-zip-import.js offline.js sw.js; do node --check "$file"; done
