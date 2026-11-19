@@ -21,7 +21,6 @@ assert source['beats'][-2]['visual']=='question'
 assert source['beats'][-1]['visual']=='answer'
 assert 'ac' in {x['visual'] for x in beats}
 assert 'dc' in {x['visual'] for x in beats}
-assert '120 Ω' not in ''  # The spoken script uses words, not unexplained symbols.
 assert hashlib.sha256(A.read_bytes()).hexdigest()==timeline['audio_sha256']
 assert hashlib.sha256(S.read_bytes()).hexdigest()==timeline['source_sha256']
 assert A.stat().st_size>200000
