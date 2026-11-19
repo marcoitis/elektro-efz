@@ -307,6 +307,7 @@ function render(l,state){
  '</select></label></div><div class="vp-status" id="vp-status" role="status" aria-live="polite">Verbinde die Sprecheraufnahme …</div></div>'+
  '<div class="vp-chapter-head"><h3>Kapitel direkt anwählen</h3><span>Das Bild folgt der aktuellen Audioposition</span></div>'+
  '<div id="vp-chapters" class="vp-chapters">'+CUES.map((c,i)=>'<button type="button" data-vp-chapter="'+i+'" class="vp-chapter '+(i===0?'active':'')+'"><span class="vp-ch-number">'+String(i+1).padStart(2,'0')+'</span><span>'+escapeHtml(c.title)+'</span><small data-vp-time="'+i+'">–:––</small></button>').join('')+'</div>'+
+ dcAcMarkup()+
  '<p class="vp-fallback"><a class="btn teal" href="./video-103-b.html" target="_blank" rel="noopener noreferrer">Videolektion im separaten Safari-Player starten</a></p>'+
  '<p class="vp-note"><strong>Synchronisation:</strong> Die Kapitelwechsel sind aus den Wortpositionen des originalen Sprechmanuskripts geschätzt. Die Bilder folgen dem Audio kapitelweise, sind aber noch nicht auf einzelne Wörter exakt ausgerichtet. Die Aufnahme selbst ist unverändert.</p>'+
  '<a class="vp-source-link" href="https://github.com/marcoitis/elektro-efz/releases/download/thorsten-high-v0118-audio-20261118/1.03-B.mp3" target="_blank" rel="noopener noreferrer">MP3 direkt öffnen (falls Online-Wiedergabe scheitert)</a>'+
@@ -344,6 +345,15 @@ function bind(state,actions){
    const stage=$('#vp-stage');
    if(stage)stage.innerHTML=sceneMarkup(CUES[idx],phase,idx);
    rootElement.querySelectorAll('[data-vp-chapter]').forEach(b=>b.classList.toggle('active',Number(b.dataset.vpChapter)===idx));
+  }
+  const stage=$('#vp-stage');
+  if(stage){
+   stage.classList.toggle('vp-is-playing',Boolean(v.playing));
+   stage.querySelectorAll('svg').forEach(visual=>{
+    try{if(typeof visual.pauseAnimations==='function'){
+     if(v.playing)visual.unpauseAnimations();else visual.pauseAnimations();
+    }}catch(_){/* SVG animation not supported: static diagram remains */}
+   });
   }
   const seek=$('#vp-seek'),play=$('#vp-play');
   if(seek&&!seek.matches(':active')){seek.value=Math.round(f*1000);seek.disabled=!valid;}
@@ -389,6 +399,17 @@ function bind(state,actions){
   api.setRate(rate);
   state.settings.rate=rate;
   actions.save();
+ });
+ $('#vp-demo-toggle')?.addEventListener('click',()=>{
+  const container=$('#vp-demo-grid'),button=$('#vp-demo-toggle');
+  if(!container||!button)return;
+  const opening=container.hidden;
+  container.hidden=!opening;
+  button.setAttribute('aria-expanded',String(opening));
+  button.textContent=opening?'Vergleich schliessen':'Vergleich ansehen';
+  container.querySelectorAll('svg').forEach(v=>{
+   try{if(opening)v.unpauseAnimations();else v.pauseAnimations();}catch(_){}
+  });
  });
  $('#vp-expand')?.addEventListener('click',()=>{
   rootElement.classList.toggle('vp-expanded');
