@@ -1,5 +1,6 @@
 name: EFZ Masterclass 1.01-A – Audio, Safari und Fachgrafiken
 # Use Range-aware web server so WebKit can seek real MP3 bytes on iPhone.
+# Final package now includes automatic ready-lesson discovery and main QA gate.
 
 on:
   push:
