@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "lesson_id": "1.01-B-master",
+  "voice": "Piper de_DE-thorsten-high",
+  "model_sha256": "9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1",
+  "source_sha256": "ba7ff1672991a746b855115ce352921327658580ed9d14a75a4585303da1ca9d",
+  "audio_sha256": "9fab18784c4ebea58b0555f0bc46874be9a73117e5dae7942ff1093d91931df0",
+  "duration_seconds": 229.172,
+  "sample_rate": 22050,
+  "alignment": "beat_exact_via_PCM_frame_count_not_word_aligned",
+  "approval": "technical_verified_not_acoustically_or_normatively_signed_off",
+  "beats": [
+    {
+      "id": "01",
+      "visual": "intro",
+      "start": 0.0,
+      "duration": 10.749,
+      "end": 10.749,
+      "narration": "Elektrische Gefahren sind nicht immer sichtbar. Heute unterscheiden wir Körperdurchströmung, Lichtbogen und thermische Überlastung. Wir lernen, wann die einzig richtige Entscheidung Stoppen ist."
+    },
+    {
+      "id": "02",
+      "visual": "sources",
+      "start": 10.749,
+      "duration": 10.401,
+      "end": 21.15,
+      "narration": "Eine elektrische Gefährdung entsteht nicht allein durch ein Gerät. Entscheidend sind Energiequelle, möglicher Zugang, Umgebungsbedingungen und die tatsächliche Exposition einer Person."
+    },
+    {
+      "id": "03",
+      "visual": "shock",
+      "start": 21.15,
+      "duration": 10.25,
+      "end": 31.401,
+      "narration": "Bei einem elektrischen Schlag fliesst Strom durch den Körper. Die Wirkung kann von schmerzhaften Muskelreaktionen bis zu lebensgefährlichen Störungen von Atmung und Herz reichen."
+    },
+    {
+      "id": "04",
+      "visual": "path",
+      "start": 31.401,
+      "duration": 9.705,
+      "end": 41.106,
+      "narration": "Der Stromweg ist wichtig. Ein Kontakt zwischen zwei Händen oder zwischen Hand und Fuss kann andere Körperregionen beanspruchen als ein örtlich begrenzter Kontakt."
+    },
+    {
+      "id": "05",
+      "visual": "duration",
+      "start": 41.106,
+      "duration": 9.367,
+      "end": 50.473,
+      "narration": "Auch die Einwirkdauer beeinflusst die Gefährdung. Eine längere Durchströmung kann schwerwiegendere Folgen haben. Wir leiten daraus keine zulässige Berührungszeit ab."
+    },
+    {
+      "id": "06",
+      "visual": "conditions",
+      "start": 50.473,
+      "duration": 8.88,
+      "end": 59.354,
+      "narration": "Feuchtigkeit, Kontaktfläche und Hautzustand verändern die elektrischen Kontaktbedingungen. Der menschliche Körper ist kein konstanter technischer Widerstand."
+    },
+    {
+      "id": "07",
+      "visual": "noformula",
+      "start": 59.354,
+      "duration": 9.24,
+      "end": 68.594,
+      "narration": "Das Ohmsche Gesetz hilft bei technischen Modellen. Eine Rechnung mit einem angenommenen Körperwiderstand ist aber kein Nachweis dafür, dass eine Berührung ungefährlich wäre."
+    },
+    {
+      "id": "08",
+      "visual": "arc",
+      "start": 68.594,
+      "duration": 8.997,
+      "end": 77.59,
+      "narration": "Ein Lichtbogen ist eine elektrische Entladung durch ein Gas. Dabei können extreme Hitze, intensive Strahlung und gefährliche Druckwirkungen auftreten."
+    },
+    {
+      "id": "09",
+      "visual": "distance",
+      "start": 77.59,
+      "duration": 8.555,
+      "end": 86.146,
+      "narration": "Anders als beim Körperstrom kann ein Lichtbogen auch ohne direkte Berührung verletzen. Abstand allein garantiert deshalb noch keine sichere Arbeitsmethode."
+    },
+    {
+      "id": "10",
+      "visual": "heat",
+      "start": 86.146,
+      "duration": 9.356,
+      "end": 95.502,
+      "narration": "Eine überlastete Leitung oder eine schlechte Kontaktstelle kann sich erhitzen. Daraus können Schäden und Brände entstehen, auch ohne sichtbaren Stromschlag."
+    },
+    {
+      "id": "11",
+      "visual": "comparison",
+      "start": 95.502,
+      "duration": 8.359,
+      "end": 103.861,
+      "narration": "Wir unterscheiden nun drei Schadensmechanismen: Strom durch den Körper, Lichtbogen mit Hitze und Druck sowie unzulässige Erwärmung von Betriebsmitteln."
+    },
+    {
+      "id": "12",
+      "visual": "protection",
+      "start": 103.861,
+      "duration": 9.496,
+      "end": 113.357,
+      "narration": "Schutzmassnahmen wirken auf unterschiedlichen Ebenen: Zugang verhindern, Energiequellen beherrschen, sichere Arbeitsorganisation und geeignete fachkundige Personen einsetzen."
+    },
+    {
+      "id": "13",
+      "visual": "barriers",
+      "start": 113.357,
+      "duration": 7.986,
+      "end": 121.344,
+      "narration": "Ein geschlossenes, intaktes Gehäuse kann aktive Teile unzugänglich machen. Wird eine Abdeckung entfernt, ändert sich die Gefährdung sofort."
+    },
+    {
+      "id": "14",
+      "visual": "not_off",
+      "start": 121.344,
+      "duration": 8.613,
+      "end": 129.957,
+      "narration": "Eine stillstehende Maschine ist nicht zwangsläufig spannungsfrei. Auch gespeicherte Energie und Rückspeisung aus anderen Quellen müssen berücksichtigt werden."
+    },
+    {
+      "id": "15",
+      "visual": "pv",
+      "start": 129.957,
+      "duration": 10.343,
+      "end": 140.3,
+      "narration": "Bei Photovoltaikanlagen können Gleichspannungsquellen trotz abgeschalteter Wechselstromseite vorhanden sein. Den Zustand einer Anlage darf man nicht aus einem Schalterbild ableiten."
+    },
+    {
+      "id": "16",
+      "visual": "devices",
+      "start": 140.3,
+      "duration": 10.494,
+      "end": 150.795,
+      "narration": "Überstromschutz und Fehlerstromschutz erfüllen unterschiedliche Aufgaben. Kein einzelnes Schutzgerät beseitigt automatisch alle Risiken durch Körperstrom, Lichtbogen und Brand."
+    },
+    {
+      "id": "17",
+      "visual": "model",
+      "start": 150.795,
+      "duration": 10.576,
+      "end": 161.37,
+      "narration": "Für ein ungefährliches, strombegrenztes Lernmodell gilt: Zwanzig Watt über dreissig Sekunden entsprechen sechshundert Joule. Das beschreibt Energie, keine menschliche Verletzungsschwelle."
+    },
+    {
+      "id": "18",
+      "visual": "timeenergy",
+      "start": 161.37,
+      "duration": 8.033,
+      "end": 169.403,
+      "narration": "Bei gleicher Leistung steigt die umgesetzte Energie mit der Zeit. Ein thermischer Fehler kann deshalb auch ohne auffälligen Beginn gefährlich werden."
+    },
+    {
+      "id": "19",
+      "visual": "scenario",
+      "start": 169.403,
+      "duration": 9.542,
+      "end": 178.945,
+      "narration": "Fallbeispiel: Vor dir steht eine geöffnete Elektroverteilung. Du kennst die Einspeisungen nicht und hast keinen Nachweis der Spannungsfreiheit. Was tust du?"
+    },
+    {
+      "id": "20",
+      "visual": "stop",
+      "start": 178.945,
+      "duration": 10.297,
+      "end": 189.242,
+      "narration": "Die richtige Entscheidung lautet: nicht berühren, keine Messung improvisieren und die Arbeit unterbrechen. Eine befähigte, zuständige Fachperson muss das weitere Vorgehen festlegen."
+    },
+    {
+      "id": "21",
+      "visual": "assessment",
+      "start": 189.242,
+      "duration": 10.471,
+      "end": 199.713,
+      "narration": "Bei jeder Gefährdungsbeurteilung trennen wir Beobachtetes, Vermutetes und Nachgewiesenes. Ein Foto oder eine ausgeschaltete Anzeige ersetzt keinen fachlichen Sicherheitsnachweis."
+    },
+    {
+      "id": "22",
+      "visual": "recap",
+      "start": 199.713,
+      "duration": 9.032,
+      "end": 208.745,
+      "narration": "Merke dir die drei Gefahren und die wichtigsten Einflussgrössen: Stromweg, Einwirkdauer, Kontaktbedingungen, verfügbare Energie und vorhandene Schutzbarrieren."
+    },
+    {
+      "id": "23",
+      "visual": "question",
+      "start": 208.745,
+      "duration": 9.507,
+      "end": 218.252,
+      "narration": "Lernkontrolle: Eine Maschine steht still, und die Anzeige ist dunkel. Darf man daraus schliessen, dass im Schaltschrank keine gefährliche elektrische Energie mehr vorhanden ist?"
+    },
+    {
+      "id": "24",
+      "visual": "answer",
+      "start": 218.252,
+      "duration": 10.854,
+      "end": 229.106,
+      "narration": "Nein. Stillstand und dunkle Anzeige beweisen keine Spannungsfreiheit. Mögliche Einspeisungen und gespeicherte Energie müssen von zuständigen Fachpersonen sicher beurteilt werden."
+    }
+  ]
+}
