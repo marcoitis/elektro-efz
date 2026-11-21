@@ -1,0 +1,43 @@
+name: Render 1.01-B – Thorsten High (draft only)
+on:
+  push:
+    branches: [feature/masterclass-101b-production]
+    paths: [.github/workflows/render-masterclass-101b.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: efz-masterclass-101b-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install reproducible synthesis dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'piper-tts==1.2.0'
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y ffmpeg
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx.json 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Render next lesson only, PCM-sample aligned
+        run: python tools/render_masterclass_sequential.py --lesson 1.01-B
+      - name: Audit audio and timings
+        run: python tools/check_sequential_master.py --lesson 1.01-B
+      - name: Save verified draft artifacts to feature branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f masterclasses/1.01-B/audio/masterclass.mp3
+          git add masterclasses/1.01-B/audio/timeline.json
+          git commit -m 'Render 1.01-B Thorsten High and PCM timeline (draft)'
+          git push origin HEAD:feature/masterclass-101b-production
