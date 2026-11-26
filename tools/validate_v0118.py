@@ -27,7 +27,7 @@ for lid in counts:
  else:
   master=json.loads((R/'masterclasses/1.01-B/script.json').read_text(encoding='utf-8'))
   assert master['lesson_id']==lid and 18<=len(master['beats'])<=30
-  assert master['source'].startswith('tts_scripts/1.01-B.txt')
+  assert '24-beat masterclass narration' in master['source'] and 'long-form course manuscript reference: tts_scripts/1.01-B.txt' in master['source']
  assert qr[lid]['script_words']==audit[lid]['script_words']==books[lid]['ttsWords']==n,lid
  assert qr[lid]['15_to_30_minute_target'] is audit[lid]['15_to_30_minute_target'] is True,lid
  assert not qr[lid]['normaussagen_freigegeben'] and not qr[lid]['fachliche_einzelpruefung'],lid
