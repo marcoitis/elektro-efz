@@ -48,7 +48,7 @@ assert "window.EFZ_MasterRenderers['1.01-B']" in visuals
 assert "function render(key)" in visuals
 assert 'viewBox="0 0 960 540"' in visuals
 assert 'role="img"' in visuals and 'aria-label=' in visuals
-assert all(re.search(r'"' + re.escape(b["visual"]) + r'"\\s*:', visuals) for b in beats)
+# Scene-key coverage is already checked above with both quote styles; do not duplicate it with an over-escaped regex.
 assert "mc-illustration" in visuals
 audio = (base / "audio" / "masterclass.mp3")
 assert audio.stat().st_size > 100_000
