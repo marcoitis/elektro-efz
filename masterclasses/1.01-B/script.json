@@ -140,5 +140,6 @@
     "reference_state": "ESTI-Weisung 407 Version 0526, gültig ab 1. Mai 2026; die Weisung nennt eine Übergangszeit von einem Jahr nach Veröffentlichung.",
     "scope": "Orientierung zu Körperdurchströmung, Lichtbogen, thermischen Gefährdungen, Gefährdungsbeurteilung und DC-Anlagen. Die konkrete Wahl des Arbeitsverfahrens und die Umsetzung der Schutzmassnahmen sind nicht Gegenstand einer Freigabe durch dieses Lernvideo.",
     "limitation": "Ersetzt weder NIV/NIN noch betriebliche Sicherheitsorganisation, Gefährdungsbeurteilung, Fachinstruktion, erforderliche Bewilligungen, praktische Ausbildung oder Prüfung am konkreten Arbeitsplatz."
-  }
+  },
+  "production_revision": "2026-11-26-draft-qa"
 }
