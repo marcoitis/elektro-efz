@@ -23,6 +23,10 @@ def main(lesson):
     assert time['alignment']=='beat_exact_via_PCM_frame_count_not_word_aligned'
     assert 15<=len(beats)==len(cues)<=50
     assert time['source_sha256']==sha(sc)
+    tts_source=ROOT/'tts_scripts'/f'{lesson}.txt'
+    course_data=ROOT/'data.js'
+    if 'tts_source_sha256' in time: assert tts_source.is_file() and time['tts_source_sha256']==sha(tts_source)
+    if 'course_data_sha256' in time: assert course_data.is_file() and time['course_data_sha256']==sha(course_data)
     assert time['audio_sha256']==sha(mp3)
     assert 200000<mp3.stat().st_size<9000000
     assert 110<time['duration_seconds']<450
@@ -31,6 +35,12 @@ def main(lesson):
         assert s['text']==c['narration']
         assert 2<c['duration']<60
         if n:assert abs(cues[n-1]['end']-c['start'])<.006
+        if 'start_sample' in c:
+            assert c['start_sample']+c['duration_samples']==c['end_sample']
+            assert abs(c['start']-c['start_sample']/time['sample_rate'])<1e-7
+            if n: assert cues[n-1]['end_sample']==c['start_sample']
+    if 'duration_samples' in time: assert time['duration_samples']==cues[-1]['end_sample']
+    if 'pcm_duration_seconds' in time: assert abs(cues[-1]['end']-time['pcm_duration_seconds'])<1e-7
     assert abs(cues[-1]['end']-time['duration_seconds'])<.3
     assert beats[-2]['visual']=='question' and beats[-1]['visual']=='answer'
     print(f'PASS {lesson}: {len(beats)} curated beats; {time["duration_seconds"]:.1f}s mono MP3 verified, sample-level starts')
