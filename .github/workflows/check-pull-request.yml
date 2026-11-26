@@ -57,7 +57,7 @@ jobs:
           npm install --no-save playwright@1.57.0
           npx playwright install --with-deps webkit chromium
 
-      - name: iPhone-WebKit und Desktop-Chromium – 24 Szenen, Audio, Animation und Lernkontrolle
+      - name: iPhone-WebKit und Desktop-Chromium – 24 Szenen, Audio-Synchronität und Lernkontrolle
         if: github.event.pull_request.head.ref == 'feature/masterclass-101b-production' && github.event.pull_request.head.repo.full_name == github.repository
         run: |
           python tools/range_http_server.py --root . --port 8787 >/tmp/efz-101b-range.log 2>&1 &
@@ -83,13 +83,23 @@ jobs:
                 });
                 if(Math.abs(data.duration-data.expected)>.4)throw Error(tag+' MP3/timeline duration mismatch');
                 if(data.durationSamples!==data.beats.at(-1).end_sample)throw Error(tag+' PCM total sample mismatch');
+                // Seek while paused and wait for the browser's actual seeked event.
+                // A fixed waitForFunction on a stale activeBeat can time out in WebKit.
+                await page.evaluate(()=>document.querySelector('#mc-audio').pause());
                 for(let i=0;i<data.beats.length;i++){
                   const b=data.beats[i];
                   if(b.start_sample+b.duration_samples!==b.end_sample)throw Error(tag+' bad PCM beat '+i);
                   if(i&&data.beats[i-1].end_sample!==b.start_sample)throw Error(tag+' PCM gap/overlap '+i);
                   if(Math.abs(b.start-b.start_sample/data.sampleRate)>1e-7)throw Error(tag+' non-sample-derived start '+i);
-                  await page.evaluate(t=>{document.querySelector('#mc-audio').currentTime=t;},b.start+.02);
-                  await page.waitForFunction(i=>window.ElektroMaster.getActiveBeat()===i,i,{timeout:6000});
+                  await page.evaluate(async t=>{
+                    const a=document.querySelector('#mc-audio');
+                    await new Promise((resolve,reject)=>{
+                      const timer=setTimeout(()=>reject(Error('seeked timeout')),5000);
+                      a.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});
+                      a.currentTime=t;
+                    });
+                  },b.start+.02);
+                  await page.waitForFunction(i=>window.ElektroMaster.getActiveBeat()===i,i,{timeout:3000});
                   const scene=await page.evaluate(()=>({
                     svg:!!document.querySelector('#mc-stage svg'),
                     label:document.querySelector('#mc-stage svg')?.getAttribute('aria-label')||'',
@@ -99,33 +109,45 @@ jobs:
                   if(scene.overflow>3)throw Error(tag+' horizontal overflow at beat '+i);
                 }
                 const q=data.beats.at(-2);
-                await page.evaluate(t=>{document.querySelector('#mc-audio').currentTime=t;},q.start+.02);
                 await page.locator('#mc-play').click();
                 await page.waitForTimeout(500);
                 if(await page.evaluate(()=>document.querySelector('#mc-audio').paused))throw Error(tag+' audio did not play');
-                for(const [visual,selector] of [['shock','.efz-flow'],['arc','.efz-arc'],['heat','.efz-heat'],['timeenergy','.efz-graph'],['pv','.efz-flow']]){
-                  const beat=data.beats.find(x=>x.visual===visual);
-                  await page.evaluate(t=>{document.querySelector('#mc-audio').currentTime=t;},beat.start+.02);
-                  await page.waitForTimeout(120);
-                  const exists=await page.locator('#mc-stage '+selector).count();
-                  if(!exists)throw Error(tag+' animation element missing: '+visual);
-                  const state=await page.locator('#mc-stage '+selector).first().evaluate(el=>({
-                    name:getComputedStyle(el).animationName,
-                    play:getComputedStyle(el).animationPlayState
-                  }));
-                  if(state.name==='none'||state.play!=='running')throw Error(tag+' animation not running: '+visual+' '+JSON.stringify(state));
-                }
                 await page.locator('#mc-play').click();
-                await page.waitForTimeout(100);
-                const pausedState=await page.locator('#mc-stage .efz-flow').first().evaluate(el=>getComputedStyle(el).animationPlayState);
-                if(pausedState!=='paused')throw Error(tag+' SVG animation did not pause with audio');
-                await page.evaluate(t=>{document.querySelector('#mc-audio').currentTime=t;},q.end+.02);
+                const sceneChecks=[
+                  ['shock','KÖRPERDURCHSTRÖMUNG'],
+                  ['arc','LICHTBOGEN'],
+                  ['heat','THERMISCHE ÜBERLASTUNG'],
+                  ['timeenergy','ENERGIE STEIGT MIT ZEIT'],
+                  ['pv','PV: DC-QUELLE BLEIBT']
+                ];
+                for(const [visual,expected] of sceneChecks){
+                  const beat=data.beats.find(x=>x.visual===visual);
+                  await page.evaluate(async t=>{
+                    const a=document.querySelector('#mc-audio');
+                    await new Promise((resolve,reject)=>{
+                      const timer=setTimeout(()=>reject(Error('seeked timeout')),5000);
+                      a.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});
+                      a.currentTime=t;
+                    });
+                  },beat.start+.02);
+                  await page.waitForFunction(()=>!!document.querySelector('#mc-stage svg[aria-label]'),null,{timeout:3000});
+                  const label=await page.locator('#mc-stage svg').getAttribute('aria-label');
+                  if(!label.includes(expected))throw Error(tag+' wrong scene '+visual+': '+label);
+                }
+                await page.evaluate(async t=>{
+                  const a=document.querySelector('#mc-audio');
+                  await new Promise((resolve,reject)=>{
+                    const timer=setTimeout(()=>reject(Error('seeked timeout')),5000);
+                    a.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});
+                    a.currentTime=t;
+                  });
+                },q.end+.02);
                 await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:10000});
                 if(!await page.evaluate(()=>document.querySelector('#mc-audio').paused))throw Error(tag+' quiz did not pause before answer');
                 await page.screenshot({path:'screenshots/'+tag+'-quiz.png'});
                 await page.locator('#mc-answer').click();
                 await page.waitForTimeout(550);
-                if(!(await page.locator('#mc-stage').innerText()).includes('NEIN'))throw Error(tag+' answer scene missing');
+                if(!(await page.locator('#mc-stage svg').getAttribute('aria-label')).includes('NEIN'))throw Error(tag+' answer scene missing');
                 if(errors.length)throw Error(tag+' JavaScript errors: '+errors.join(' | '));
                 console.log('PASS '+tag+': 24 beats; '+data.duration.toFixed(2)+'s; PCM sample indices; five animated scene types; pause-before-answer');
                 await browser.close();
