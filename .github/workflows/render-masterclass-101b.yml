@@ -87,7 +87,7 @@ jobs:
                 await page.locator('#mc-play').click();
                 await page.waitForTimeout(900);
                 if(!(await page.evaluate(()=>!document.querySelector('#mc-audio').paused)))throw Error(tag+' audio play failed');
-                for(const [visual,needle] of [['arc','LICHTBOGEN'],['pv','PV'],['stop','STOP']]){
+                for(const [visual,needle] of [['arc','LICHTBOGEN'],['pv','PV'],['stop','SICHERE ENTSCHEIDUNG']]){
                   await page.evaluate(v=>{
                     const t=window.ElektroMaster.getTimeline();
                     document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+0.2;
