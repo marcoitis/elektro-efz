@@ -70,9 +70,9 @@ def run(lesson):
             timing.append({'id':beat['id'],'visual':beat['visual'],
                            'start_sample':start_sample,'duration_samples':frames,
                            'end_sample':end_sample,
-                           'start':round(start_sample/rate,6),
-                           'duration':round(frames/rate,6),
-                           'end':round(end_sample/rate,6),
+                           'start':round(start_sample/rate,9),
+                           'duration':round(frames/rate,9),
+                           'end':round(end_sample/rate,9),
                            'narration':beat['text']})
             frames_total=end_sample
             paths.append(target)
@@ -99,8 +99,8 @@ def run(lesson):
               'tts_source_sha256':digest(tts_source),
               'course_data_sha256':digest(course_data),
               'audio_sha256':digest(mp3),
-              'duration_seconds':round(duration,6),
-              'pcm_duration_seconds':round(frames_total/sample_rate,6),
+              'duration_seconds':round(duration,9),
+              'pcm_duration_seconds':round(frames_total/sample_rate,9),
               'sample_rate':sample_rate,'duration_samples':frames_total,
               'alignment':'beat_exact_via_PCM_frame_count_not_word_aligned',
               'approval':'technical_verified_not_acoustically_or_normatively_signed_off',
