@@ -14,6 +14,8 @@ visuals = (base / "visuals.js").read_text(encoding="utf-8")
 catalog = json.loads((root / "masterclasses" / "catalog.json").read_text(encoding="utf-8"))
 beats = script["beats"]
 assert script["lesson_id"] == lesson
+assert "24-beat masterclass narration" in script["source"]
+assert "long-form course manuscript reference" in script["source"]
 assert timeline["lesson_id"] == script["id"]
 assert timeline["voice"] == "Piper de_DE-thorsten-high"
 assert timeline["alignment"] == "beat_exact_via_PCM_frame_count_not_word_aligned"
