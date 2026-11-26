@@ -4,7 +4,7 @@
   "title": "Elektrische Gefahren verstehen",
   "voice": "de_DE-thorsten-high",
   "status": "edited_draft_pending_audio_browser_and_normative_review",
-  "source": "tts_scripts/1.01-B.txt; data.js module 1.01",
+  "source": "24-beat masterclass narration: this script.json; long-form course manuscript reference: tts_scripts/1.01-B.txt; course context: data.js module 1.01",
   "safety_note": "Keine Anleitung für Arbeiten unter Spannung. Keine Sicherheitsfreigabe aus Modellen oder Fotos ableiten.",
   "beats": [
     {
