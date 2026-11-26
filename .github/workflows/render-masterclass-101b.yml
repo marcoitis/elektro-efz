@@ -13,6 +13,9 @@ on:
         - data.js
         - masterclass.html
         - masterclasses/player.js
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize]
   workflow_dispatch:
 permissions:
   contents: write
@@ -52,6 +55,10 @@ jobs:
         run: |
           python tools/build_site.py --mode remote
           python tools/verify_pages_package.py --site dist
+          # Stage the in-progress lesson into the isolated QA package only; the public catalog remains unchanged.
+          mkdir -p dist/masterclasses/1.01-B/audio
+          cp masterclasses/1.01-B/script.json masterclasses/1.01-B/visuals.js dist/masterclasses/1.01-B/
+          cp masterclasses/1.01-B/audio/masterclass.mp3 masterclasses/1.01-B/audio/timeline.json dist/masterclasses/1.01-B/audio/
           test -s dist/masterclasses/1.01-B/audio/masterclass.mp3
           test -s dist/masterclasses/1.01-B/audio/timeline.json
           test -s dist/masterclasses/1.01-B/visuals.js
