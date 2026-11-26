@@ -80,7 +80,7 @@
     {
       "id": "15",
       "visual": "pv",
-      "text": "Bei Photovoltaikanlagen können Gleichspannungsquellen trotz abgeschalteter Wechselstromseite vorhanden sein. Den Zustand einer Anlage darf man nicht aus einem Schalterbild ableiten."
+      "text": "Bei Photovoltaikanlagen können Gleichspannungsquellen trotz abgeschalteter Wechselstromseite vorhanden sein. Für Gleichstrom gelten grundsätzlich dieselben Sicherheitsmassnahmen; beim Trennen unter Last kann ein Lichtbogen entstehen."
     },
     {
       "id": "16",
@@ -90,7 +90,7 @@
     {
       "id": "17",
       "visual": "model",
-      "text": "Für ein ungefährliches, strombegrenztes Lernmodell gilt: Zwanzig Watt über dreissig Sekunden entsprechen sechshundert Joule. Das beschreibt Energie, keine menschliche Verletzungsschwelle."
+      "text": "In einem rein rechnerischen Lernmodell gilt: Zwanzig Watt über dreissig Sekunden entsprechen sechshundert Joule. Das beschreibt Energie, keine menschliche Verletzungsschwelle."
     },
     {
       "id": "18",
@@ -105,7 +105,7 @@
     {
       "id": "20",
       "visual": "stop",
-      "text": "Die richtige Entscheidung lautet: nicht berühren, keine Messung improvisieren und die Arbeit unterbrechen. Eine befähigte, zuständige Fachperson muss das weitere Vorgehen festlegen."
+      "text": "Die richtige Entscheidung lautet: nicht berühren, keine Messung improvisieren und die Arbeit unterbrechen. Eine zuständige, dafür qualifizierte Elektrofachperson muss das weitere Vorgehen festlegen."
     },
     {
       "id": "21",
@@ -127,5 +127,18 @@
       "visual": "answer",
       "text": "Nein. Stillstand und dunkle Anzeige beweisen keine Spannungsfreiheit. Mögliche Einspeisungen und gespeicherte Energie müssen von zuständigen Fachpersonen sicher beurteilt werden."
     }
-  ]
+  ],
+  "source_urls": [
+    "https://www.esti.admin.ch/inhalte/ESTI_407_0526_d.pdf",
+    "https://www.esti.admin.ch/de/dokumentation/esti-weisungen/esti-weisungen",
+    "https://www.suva.ch/de-ch/download/factsheets/instandhaltung-elektrischer-einrichtungen/factsheets--33079.d",
+    "https://www.esti.admin.ch/de/themen/bewilligungen-niv-uebersicht/bewilligungen-niv"
+  ],
+  "normative_review": {
+    "status": "pending_independent_expert_review",
+    "checked_on": "2026-11-26",
+    "reference_state": "ESTI-Weisung 407 Version 0526, gültig ab 1. Mai 2026; die Weisung nennt eine Übergangszeit von einem Jahr nach Veröffentlichung.",
+    "scope": "Orientierung zu Körperdurchströmung, Lichtbogen, thermischen Gefährdungen, Gefährdungsbeurteilung und DC-Anlagen. Die konkrete Wahl des Arbeitsverfahrens und die Umsetzung der Schutzmassnahmen sind nicht Gegenstand einer Freigabe durch dieses Lernvideo.",
+    "limitation": "Ersetzt weder NIV/NIN noch betriebliche Sicherheitsorganisation, Gefährdungsbeurteilung, Fachinstruktion, erforderliche Bewilligungen, praktische Ausbildung oder Prüfung am konkreten Arbeitsplatz."
+  }
 }
