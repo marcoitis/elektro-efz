@@ -39,6 +39,9 @@ def run(lesson):
         raise ValueError('Unrecognized lesson ID')
     base=ROOT/'masterclasses'/lesson
     source=base/'script.json'
+    tts_source=ROOT/'tts_scripts'/f'{lesson}.txt'
+    course_data=ROOT/'data.js'
+    assert tts_source.is_file() and course_data.is_file(), 'Narration source or course data missing'
     sc=json.loads(source.read_text(encoding='utf-8'))
     assert sc['lesson_id']==lesson and sc['id']==lesson+'-master'
     beats=sc['beats']
@@ -62,12 +65,16 @@ def run(lesson):
             if sample_rate is None:sample_rate=rate
             assert rate==sample_rate and rate in (22050,24000)
             assert frames>rate*2, (beat['id'],frames)
+            start_sample=frames_total
+            end_sample=frames_total+frames
             timing.append({'id':beat['id'],'visual':beat['visual'],
-                           'start':round(frames_total/rate,3),
-                           'duration':round(frames/rate,3),
-                           'end':round((frames_total+frames)/rate,3),
+                           'start_sample':start_sample,'duration_samples':frames,
+                           'end_sample':end_sample,
+                           'start':round(start_sample/rate,6),
+                           'duration':round(frames/rate,6),
+                           'end':round(end_sample/rate,6),
                            'narration':beat['text']})
-            frames_total+=frames
+            frames_total=end_sample
             paths.append(target)
             print(f'BEAT {idx:02}/{len(beats)} {beat["visual"]}: {frames/rate:.2f}s',flush=True)
         wave_file=Path(tmp)/'joined.wav'
@@ -88,14 +95,21 @@ def run(lesson):
     assert 200_000<mp3.stat().st_size<9_000_000
     manifest={'version':1,'lesson_id':lesson+'-master',
               'voice':'Piper de_DE-thorsten-high','model_sha256':MODEL_SHA,
-              'source_sha256':digest(source),'audio_sha256':digest(mp3),
-              'duration_seconds':round(duration,3),'sample_rate':22050,
+              'source_sha256':digest(source),
+              'tts_source_sha256':digest(tts_source),
+              'course_data_sha256':digest(course_data),
+              'audio_sha256':digest(mp3),
+              'duration_seconds':round(duration,6),
+              'pcm_duration_seconds':round(frames_total/sample_rate,6),
+              'sample_rate':sample_rate,'duration_samples':frames_total,
               'alignment':'beat_exact_via_PCM_frame_count_not_word_aligned',
               'approval':'technical_verified_not_acoustically_or_normatively_signed_off',
               'beats':timing}
     (out/'timeline.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     assert len(timing)==len(beats)
-    assert all(abs(timing[i-1]['end']-timing[i]['start'])<.006 for i in range(1,len(timing)))
+    assert all(timing[i-1]['end_sample']==timing[i]['start_sample'] for i in range(1,len(timing)))
+    assert all(abs(x['start']-x['start_sample']/sample_rate)<1e-7 for x in timing)
+    assert timing[-1]['end_sample']==frames_total
     print(f'PASS {lesson}: {duration:.2f} sec, {len(beats)} exact beat starts, {mp3.stat().st_size} bytes',flush=True)
 
 if __name__=='__main__':
