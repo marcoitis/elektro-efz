@@ -18,6 +18,12 @@ assert timeline["lesson_id"] == script["id"]
 assert timeline["voice"] == "Piper de_DE-thorsten-high"
 assert timeline["alignment"] == "beat_exact_via_PCM_frame_count_not_word_aligned"
 assert timeline["approval"] == "technical_verified_not_acoustically_or_normatively_signed_off"
+assert timeline["tts_source_sha256"] == hashlib.sha256((root / "tts_scripts/1.01-B.txt").read_bytes()).hexdigest()
+assert timeline["course_data_sha256"] == hashlib.sha256((root / "data.js").read_bytes()).hexdigest()
+assert timeline["duration_samples"] == timeline["beats"][-1]["end_sample"]
+assert script["normative_review"]["status"] == "pending_independent_expert_review"
+assert "ESTI_407_0526_d.pdf" in script["source_urls"][0]
+assert "ungefährlich" not in " ".join(b["text"].lower() for b in beats)
 assert len(beats) == len(timeline["beats"]) == 24
 assert len({b["visual"] for b in beats}) == 24
 assert all(b["id"] == f"{i:02}" for i, b in enumerate(beats, 1))
@@ -27,8 +33,11 @@ assert all(re.search(r'["\']' + re.escape(b["visual"]) + r'["\']\s*:', visuals)
            for b in beats), "A scene key is missing in visuals.js"
 assert all(b["duration"] > 0 for b in timeline["beats"])
 for previous, current in zip(timeline["beats"], timeline["beats"][1:]):
-    assert abs(previous["end"] - current["start"]) < 0.003
-assert abs(timeline["beats"][-1]["end"] - timeline["duration_seconds"]) < 0.003
+    assert previous["end_sample"] == current["start_sample"]
+    assert abs(current["start"] - current["start_sample"] / timeline["sample_rate"]) < 1e-7
+assert abs(timeline["beats"][-1]["end"] - timeline["pcm_duration_seconds"]) < 1e-7
+assert abs(timeline["beats"][-1]["end"] - timeline["duration_seconds"]) < 0.25
+assert all(x in visuals for x in ["efz-flow", "efz-arc", "efz-heat", "efz-graph", "mc-animating"])
 audio = (base / "audio" / "masterclass.mp3")
 assert audio.stat().st_size > 100_000
 assert hashlib.sha256(audio.read_bytes()).hexdigest() == timeline["audio_sha256"]
