@@ -39,7 +39,15 @@ for previous, current in zip(timeline["beats"], timeline["beats"][1:]):
     assert abs(current["start"] - current["start_sample"] / timeline["sample_rate"]) < 1e-7
 assert abs(timeline["beats"][-1]["end"] - timeline["pcm_duration_seconds"]) < 1e-7
 assert abs(timeline["beats"][-1]["end"] - timeline["duration_seconds"]) < 0.25
-assert all(x in visuals for x in ["efz-flow", "efz-arc", "efz-heat", "efz-graph", "mc-animating"])
+# Assert the actual lesson-specific renderer contract, not obsolete CSS/SVG
+# class names from an earlier prototype. The scene keys above are the source
+# of truth and each beat must resolve to a dedicated scene.
+assert "window.EFZ_MasterRenderers['1.01-B']" in visuals
+assert "function render(key)" in visuals
+assert 'viewBox="0 0 960 540"' in visuals
+assert 'role="img"' in visuals and 'aria-label=' in visuals
+assert all(re.search(r'"' + re.escape(b["visual"]) + r'"\\s*:', visuals) for b in beats)
+assert "mc-illustration" in visuals
 audio = (base / "audio" / "masterclass.mp3")
 assert audio.stat().st_size > 100_000
 assert hashlib.sha256(audio.read_bytes()).hexdigest() == timeline["audio_sha256"]
