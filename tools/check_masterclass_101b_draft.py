@@ -23,7 +23,9 @@ assert timeline["course_data_sha256"] == hashlib.sha256((root / "data.js").read_
 assert timeline["duration_samples"] == timeline["beats"][-1]["end_sample"]
 assert script["normative_review"]["status"] == "pending_independent_expert_review"
 assert "ESTI_407_0526_d.pdf" in script["source_urls"][0]
-assert "ungefährlich" not in " ".join(b["text"].lower() for b in beats)
+narration_text = " ".join(b["text"].lower() for b in beats)
+assert "kein nachweis dafür, dass eine berührung ungefährlich wäre" in narration_text
+assert not re.search(r"(?:ist|bleibt|gilt als)\\s+ungefährlich", narration_text)
 assert len(beats) == len(timeline["beats"]) == 24
 assert len({b["visual"] for b in beats}) == 24
 assert all(b["id"] == f"{i:02}" for i, b in enumerate(beats, 1))
