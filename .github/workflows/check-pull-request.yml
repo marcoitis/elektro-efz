@@ -4,6 +4,9 @@ on:
     branches: [main]
 permissions:
   contents: write
+concurrency:
+  group: efz-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 jobs:
   check:
     runs-on: ubuntu-22.04
@@ -16,15 +19,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Allgemeine Kurs-, PWA- und Multimedia-Prüfung
-        run: |
-          python tools/quality_check.py
-          python tools/quality_check_multimedia.py
-          python tools/validate_v0118.py
-          python tools/check_github_release.py
-          node tools/test_sw_routes.js
-          python tools/build_site.py --mode text
-          python tools/verify_pages_package.py --site dist
 
       - name: 1.01-B Branch für sequenzielle Vertonung auschecken
         if: github.event.pull_request.head.ref == 'feature/masterclass-101b-production' && github.event.pull_request.head.repo.full_name == github.repository
@@ -140,12 +134,25 @@ jobs:
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
 
-      - name: 1.01-B Browser-Nachweise sichern
+      - name: Allgemeine Kurs-, PWA- und Multimedia-Prüfung
+        run: |
+          python tools/quality_check.py
+          python tools/quality_check_multimedia.py
+          python tools/validate_v0118.py
+          python tools/check_github_release.py
+          node tools/test_sw_routes.js
+          python tools/build_site.py --mode text
+          python tools/verify_pages_package.py --site dist
+
+      - name: 1.01-B Audio- und Browser-Nachweise sichern
         if: always() && github.event.pull_request.head.ref == 'feature/masterclass-101b-production'
         uses: actions/upload-artifact@v4
         with:
           name: masterclass-101b-browser-evidence
-          path: screenshots/*.png
+          path: |
+            screenshots/*.png
+            masterclasses/1.01-B/audio/masterclass.mp3
+            masterclasses/1.01-B/audio/timeline.json
           if-no-files-found: ignore
           retention-days: 7
 
