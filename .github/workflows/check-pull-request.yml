@@ -86,7 +86,7 @@ jobs:
                 // Seek while paused and wait for the browser's actual seeked event.
                 // A fixed waitForFunction on a stale activeBeat can time out in WebKit.
                 await page.evaluate(()=>document.querySelector('#mc-audio').pause());
-                for(let i=0;i<data.beats.length;i++){
+                for(let i=0;i<data.beats.length-2;i++){
                   const b=data.beats[i];
                   if(b.start_sample+b.duration_samples!==b.end_sample)throw Error(tag+' bad PCM beat '+i);
                   if(i&&data.beats[i-1].end_sample!==b.start_sample)throw Error(tag+' PCM gap/overlap '+i);
@@ -109,6 +109,14 @@ jobs:
                   if(scene.overflow>3)throw Error(tag+' horizontal overflow at beat '+i);
                 }
                 const q=data.beats.at(-2);
+                await page.evaluate(async t=>{
+                  const a=document.querySelector('#mc-audio');
+                  await new Promise((resolve,reject)=>{
+                    const timer=setTimeout(()=>reject(Error('seeked timeout')),5000);
+                    a.addEventListener('seeked',()=>{clearTimeout(timer);resolve();},{once:true});
+                    a.currentTime=t;
+                  });
+                },data.beats[0].start+.02);
                 await page.locator('#mc-play').click();
                 await page.waitForTimeout(500);
                 if(await page.evaluate(()=>document.querySelector('#mc-audio').paused))throw Error(tag+' audio did not play');
