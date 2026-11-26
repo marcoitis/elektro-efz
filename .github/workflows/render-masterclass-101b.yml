@@ -2,7 +2,17 @@ name: Render 1.01-B – Thorsten High (draft only)
 on:
   push:
     branches: [feature/masterclass-101b-production]
-    paths: [.github/workflows/render-masterclass-101b.yml]
+    paths:
+        - .github/workflows/render-masterclass-101b.yml
+        - tools/render_masterclass_sequential.py
+        - tools/check_sequential_master.py
+        - tools/check_masterclass_101b_draft.py
+        - tools/validate_v0118.py
+        - masterclasses/1.01-B/**
+        - tts_scripts/1.01-B.txt
+        - data.js
+        - masterclass.html
+        - masterclasses/player.js
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,8 +41,76 @@ jobs:
           echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
       - name: Render next lesson only, PCM-sample aligned
         run: python tools/render_masterclass_sequential.py --lesson 1.01-B
-      - name: Audit audio and timings
-        run: python tools/check_sequential_master.py --lesson 1.01-B
+      - name: Audit audio, timings, manuscript and lesson renderer
+        run: |
+          python tools/check_sequential_master.py --lesson 1.01-B
+          python tools/check_masterclass_101b_draft.py
+          python tools/validate_v0118.py
+          node --check masterclasses/1.01-B/visuals.js
+          node --check masterclasses/player.js
+      - name: Build complete draft site package
+        run: |
+          python tools/build_site.py --mode remote
+          python tools/verify_pages_package.py --site dist
+          test -s dist/masterclasses/1.01-B/audio/masterclass.mp3
+          test -s dist/masterclasses/1.01-B/audio/timeline.json
+          test -s dist/masterclasses/1.01-B/visuals.js
+      - name: Install real WebKit and Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps webkit chromium
+      - name: iPhone-sized and desktop browser QA for 1.01-B
+        run: |
+          python tools/range_http_server.py --root dist --port 8787 >/tmp/master-101b.log 2>&1 &
+          sleep 2
+          mkdir -p screenshots
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+            for(const [engine,name] of [[webkit,'webkit'],[chromium,'chromium']]){
+              for(const width of [390,1280]){
+                const tag=name+'-'+width;
+                const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+                const page=await browser.newPage({viewport:{width,height:width===390?844:820},isMobile:width===390,hasTouch:width===390});
+                const errors=[];page.on('pageerror',e=>errors.push(e.message));
+                await page.goto('http://127.0.0.1:8787/masterclass.html?lesson=1.01-B',{waitUntil:'domcontentloaded'});
+                await page.waitForFunction(()=>window.ElektroMaster?.getTimeline?.()?.beats?.length===24,null,{timeout:20000});
+                await page.waitForFunction(()=>document.querySelector('#mc-audio')?.duration>180,null,{timeout:30000});
+                const duration=await page.evaluate(()=>document.querySelector('#mc-audio').duration);
+                await page.locator('#mc-play').click();
+                await page.waitForTimeout(900);
+                if(!(await page.evaluate(()=>!document.querySelector('#mc-audio').paused)))throw Error(tag+' audio play failed');
+                for(const [visual,needle] of [['arc','LICHTBOGEN'],['pv','PV'],['stop','STOP']]){
+                  await page.evaluate(v=>{
+                    const t=window.ElektroMaster.getTimeline();
+                    document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+0.2;
+                  },visual);
+                  await page.waitForTimeout(750);
+                  const svg=await page.locator('#mc-stage svg').count();
+                  if(svg!==1)throw Error(tag+' expected one lesson SVG for '+visual);
+                  const label=await page.locator('#mc-stage svg').getAttribute('aria-label');
+                  if(!label||!label.includes(needle))throw Error(tag+' wrong scene '+visual+': '+label);
+                  await page.screenshot({path:'screenshots/'+tag+'-'+visual+'.png'});
+                }
+                await page.evaluate(()=>{
+                  const t=window.ElektroMaster.getTimeline(),q=t.beats.find(b=>b.visual==='question');
+                  document.querySelector('#mc-audio').currentTime=q.end+.03;
+                });
+                await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:12000});
+                if(!(await page.evaluate(()=>document.querySelector('#mc-audio').paused)))throw Error(tag+' question did not pause');
+                await page.locator('#mc-answer').click();
+                await page.waitForTimeout(650);
+                const answer=await page.locator('#mc-stage svg').getAttribute('aria-label');
+                if(!answer?.includes('NEIN'))throw Error(tag+' answer scene missing: '+answer);
+                const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+                if(overflow>3)throw Error(tag+' horizontal overflow '+overflow);
+                if(errors.length)throw Error(tag+' JS errors '+errors.join('; '));
+                console.log('BROWSER PASS',tag,duration.toFixed(2),'24 beats; audio; lesson SVG; quiz pause; no overflow');
+                await browser.close();
+              }
+            }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
       - name: Save verified draft artifacts to feature branch
         run: |
           git config user.name 'github-actions[bot]'
