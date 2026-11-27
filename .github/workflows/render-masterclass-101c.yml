@@ -103,7 +103,7 @@ jobs:
       - name: Save verified draft audio and timing to feature branch
         run: |
           git config user.name 'github-actions[bot]'
-          git config user.email '41898282+actions@users.noreply.github.com'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -f masterclasses/1.01-C/audio/masterclass.mp3
           git add masterclasses/1.01-C/audio/timeline.json
           git commit -m 'Render 1.01-C Thorsten High masterclass audio and PCM timeline (draft)'
