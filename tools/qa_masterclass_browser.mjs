@@ -21,7 +21,7 @@ try {
         page.on('response',r=>{if(r.status()>=400)badResponses.push(r.status()+' '+r.url())});
         await page.goto('http://127.0.0.1:8765/masterclass.html?lesson=1.01-B',{waitUntil:'domcontentloaded'});
         try {
-          await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,{timeout:30000});
+          await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,null,{timeout:30000});
         } catch(e) {
           const state=await page.evaluate(()=>({
             status:document.querySelector('#mc-status')?.textContent,
@@ -33,7 +33,7 @@ try {
           throw new Error(name+' '+width+': timeline initialization failed; '+JSON.stringify({state,errors,failedRequests,badResponses})+'; '+e.message);
         }
         try {
-          await page.waitForFunction(()=>document.querySelector('#mc-audio')?.readyState>=1,{timeout:30000});
+          await page.waitForFunction(()=>document.querySelector('#mc-audio')?.readyState>=1,null,{timeout:30000});
         } catch(e) {
           const state=await page.evaluate(()=>{
             const a=document.querySelector('#mc-audio');
@@ -51,7 +51,7 @@ try {
         });
         if(!Number.isFinite(info.duration)||info.duration<110||info.duration>450) throw new Error(name+' '+width+': invalid MP3 duration '+info.duration);
         if(info.beats!==24||!info.svg||info.overflow) throw new Error(name+' '+width+': renderer, beat count or viewport check failed '+JSON.stringify(info));
-        await page.evaluate(async()=>{
+        const quiz=await page.evaluate(async()=>{
           const a=document.querySelector('#mc-audio'), q=window.ElektroMaster.getTimeline().beats.at(-2);
           const target=Math.max(0,q.end-.05);
           if(Math.abs(a.currentTime-target)>.2){
@@ -62,8 +62,10 @@ try {
             });
           }
           a.dispatchEvent(new Event('timeupdate'));
+          return {paused:a.paused,currentTime:a.currentTime,questionEnd:q.end,questionVisual:q.visual,
+            answerHidden:document.querySelector('#mc-answer').hidden,status:document.querySelector('#mc-status').textContent};
         });
-        await page.waitForFunction(()=>document.querySelector('#mc-audio').paused && !document.querySelector('#mc-answer').hidden,{timeout:5000});
+        if(!quiz.paused||quiz.answerHidden) throw new Error(name+' '+width+': quiz pause failed '+JSON.stringify(quiz));
         if(errors.length) throw new Error(name+' '+width+': '+errors.join('; '));
         console.log('PASS '+name+' '+width+'px: '+info.duration.toFixed(2)+'s, 24 beats, SVG, quiz pause, no overflow');
         await page.close();
