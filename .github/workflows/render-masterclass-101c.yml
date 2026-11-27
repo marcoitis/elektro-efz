@@ -1,0 +1,118 @@
+name: Render 1.01-C – Thorsten High (draft only)
+on:
+  push:
+    branches: [feature/masterclass-101b-production]
+    paths:
+      - .github/workflows/render-masterclass-101c.yml
+      - tools/render_masterclass_sequential.py
+      - tools/check_sequential_master.py
+      - tools/check_masterclass_101c_draft.py
+      - masterclasses/1.01-C/**
+      - tts_scripts/1.01-C.txt
+      - data.js
+      - masterclass.html
+      - masterclasses/player.js
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: efz-masterclass-101c-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install reproducible synthesis dependencies
+        run: |
+          python -m pip install --disable-pip-version-check 'piper-tts==1.2.0'
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y ffmpeg
+          mkdir -p .voice-cache
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx'
+          curl -fL --retry 5 --retry-delay 4 --connect-timeout 30 -o .voice-cache/de_DE-thorsten-high.onnx.json 'https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high/de_DE-thorsten-high.onnx.json'
+          echo '9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx' | sha256sum -c -
+      - name: Render only lesson 1.01-C with PCM-aligned cues
+        run: python tools/render_masterclass_sequential.py --lesson 1.01-C
+      - name: Audit narration, timing and unique visuals
+        run: |
+          python tools/check_sequential_master.py --lesson 1.01-C
+          python tools/check_masterclass_101c_draft.py
+          node --check masterclasses/1.01-C/visuals.js
+          node --check masterclasses/player.js
+      - name: Build isolated draft Pages package
+        run: |
+          python tools/build_site.py --mode remote
+          mkdir -p dist/masterclasses/1.01-C/audio
+          cp masterclasses/1.01-C/script.json masterclasses/1.01-C/visuals.js dist/masterclasses/1.01-C/
+          cp masterclasses/1.01-C/audio/masterclass.mp3 masterclasses/1.01-C/audio/timeline.json dist/masterclasses/1.01-C/audio/
+          test -s dist/masterclasses/1.01-C/audio/masterclass.mp3
+          test -s dist/masterclasses/1.01-C/audio/timeline.json
+      - name: Install WebKit and Chromium
+        run: |
+          npm install --no-save playwright@1.57.0
+          npx playwright install --with-deps webkit chromium
+      - name: Browser QA at iPhone width and desktop width
+        run: |
+          python tools/range_http_server.py --root dist --port 8787 >/tmp/master-101c.log 2>&1 &
+          sleep 2
+          mkdir -p screenshots
+          node <<'JS'
+          const {webkit,chromium}=require('playwright');
+          (async()=>{
+            for(const [engine,name] of [[webkit,'webkit'],[chromium,'chromium']]){
+              for(const width of [390,1280]){
+                const tag=name+'-'+width;
+                const browser=await engine.launch({headless:true,args:name==='chromium'?['--autoplay-policy=no-user-gesture-required']:[]});
+                const page=await browser.newPage({viewport:{width,height:width===390?844:820},isMobile:width===390,hasTouch:width===390});
+                const errors=[];page.on('pageerror',e=>errors.push(e.message));
+                await page.goto('http://127.0.0.1:8787/masterclass.html?lesson=1.01-C',{waitUntil:'domcontentloaded'});
+                await page.waitForFunction(()=>window.ElektroMaster?.getTimeline?.()?.beats?.length===24,null,{timeout:20000});
+                await page.waitForFunction(()=>document.querySelector('#mc-audio')?.duration>180,null,{timeout:30000});
+                const duration=await page.evaluate(()=>document.querySelector('#mc-audio').duration);
+                await page.locator('#mc-play').click();await page.waitForTimeout(800);
+                if(!(await page.evaluate(()=>!document.querySelector('#mc-audio').paused)))throw Error(tag+' audio play failed');
+                for(const [visual,needle] of [['rule1','1 · VOLLSTÄNDIG FREISCHALTEN'],['pv_modules','PV-MODULE BEI LICHT'],['dc_arc','DC-LICHTBOGEN'],['stop','STOPP BEI UNKLARHEIT']]){
+                  await page.evaluate(v=>{const t=window.ElektroMaster.getTimeline();document.querySelector('#mc-audio').currentTime=t.beats.find(b=>b.visual===v).start+.2;},visual);
+                  await page.waitForTimeout(650);
+                  if(await page.locator('#mc-stage svg').count()!==1)throw Error(tag+' SVG missing '+visual);
+                  const label=await page.locator('#mc-stage svg').getAttribute('aria-label');
+                  if(!label?.includes(needle))throw Error(tag+' wrong scene '+visual+': '+label);
+                }
+                await page.evaluate(()=>{const t=window.ElektroMaster.getTimeline(),q=t.beats.find(b=>b.visual==='question');document.querySelector('#mc-audio').currentTime=q.end+.03;});
+                await page.waitForFunction(()=>!document.querySelector('#mc-answer').hidden,null,{timeout:12000});
+                if(!(await page.evaluate(()=>document.querySelector('#mc-audio').paused)))throw Error(tag+' question did not pause');
+                await page.locator('#mc-answer').click();await page.waitForTimeout(600);
+                const answer=await page.locator('#mc-stage svg').getAttribute('aria-label');
+                if(!answer?.includes('ANTWORT: NEIN'))throw Error(tag+' answer scene missing '+answer);
+                const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+                if(overflow>3)throw Error(tag+' horizontal overflow '+overflow);
+                if(errors.length)throw Error(tag+' JS errors '+errors.join('; '));
+                console.log('BROWSER PASS',tag,duration.toFixed(2),'24 beats; audio; 4 lesson SVGs; quiz pause; no overflow');
+                await browser.close();
+              }
+            }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Save verified draft audio and timing to feature branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+actions@users.noreply.github.com'
+          git add -f masterclasses/1.01-C/audio/masterclass.mp3
+          git add masterclasses/1.01-C/audio/timeline.json
+          git commit -m 'Render 1.01-C Thorsten High masterclass audio and PCM timeline (draft)'
+          PUSHED=0
+          for ATTEMPT in 1 2 3 4 5 6 7 8 9 10; do
+            git fetch origin feature/masterclass-101b-production
+            git rebase FETCH_HEAD
+            if git push origin HEAD:feature/masterclass-101b-production; then PUSHED=1; break; fi
+            echo "Concurrent branch update, retry $ATTEMPT/10"
+            sleep 3
+          done
+          test "$PUSHED" -eq 1
