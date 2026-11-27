@@ -51,9 +51,17 @@ try {
         });
         if(!Number.isFinite(info.duration)||info.duration<110||info.duration>450) throw new Error(name+' '+width+': invalid MP3 duration '+info.duration);
         if(info.beats!==24||!info.svg||info.overflow) throw new Error(name+' '+width+': renderer, beat count or viewport check failed '+JSON.stringify(info));
-        await page.evaluate(()=>{
+        await page.evaluate(async()=>{
           const a=document.querySelector('#mc-audio'), q=window.ElektroMaster.getTimeline().beats.at(-2);
-          a.currentTime=Math.max(0,q.end-.05); a.dispatchEvent(new Event('timeupdate'));
+          const target=Math.max(0,q.end-.05);
+          if(Math.abs(a.currentTime-target)>.2){
+            await new Promise((resolve,reject)=>{
+              const timer=setTimeout(()=>reject(new Error('Audio seek did not finish before quiz-boundary test')),15000);
+              a.addEventListener('seeked',()=>{clearTimeout(timer);resolve()},{once:true});
+              a.currentTime=target;
+            });
+          }
+          a.dispatchEvent(new Event('timeupdate'));
         });
         await page.waitForFunction(()=>document.querySelector('#mc-audio').paused && !document.querySelector('#mc-answer').hidden,{timeout:5000});
         if(errors.length) throw new Error(name+' '+width+': '+errors.join('; '));
