@@ -97,7 +97,8 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "masterclasses/${{ steps.next.outputs.lesson }}/audio/masterclass.mp3" "masterclasses/${{ steps.next.outputs.lesson }}/audio/timeline.json"
+          git add -f "masterclasses/${{ steps.next.outputs.lesson }}/audio/masterclass.mp3"
+          git add "masterclasses/${{ steps.next.outputs.lesson }}/audio/timeline.json"
           if git diff --cached --quiet; then
             echo "No generated audio changes to persist."
           else
