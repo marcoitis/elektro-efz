@@ -1,0 +1,106 @@
+name: Sequential Masterclass Production
+on:
+  push:
+    branches: [feature/masterclass-101b-production]
+    paths:
+      - '.github/workflows/masterclass-production.yml'
+      - 'tools/**'
+      - 'masterclasses/**/script.json'
+      - 'masterclasses/**/visuals.js'
+      - 'tts_scripts/**'
+      - 'audio-plan/**'
+      - 'masterclasses/catalog.json'
+      - 'masterclass.html'
+      - 'masterclasses/player.js'
+      - 'data.js'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/masterclass-production.yml'
+      - 'tools/**'
+      - 'masterclasses/**/script.json'
+      - 'masterclasses/**/visuals.js'
+      - 'tts_scripts/**'
+      - 'audio-plan/**'
+      - 'masterclasses/catalog.json'
+      - 'masterclass.html'
+      - 'masterclasses/player.js'
+      - 'data.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: masterclass-sequential-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  render-and-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout exact production branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+          fetch-depth: 0
+      - name: Set up Python and Node
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install audio toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install 'piper-tts==1.2.0'
+      - name: Resolve exactly the next pending lesson
+        id: next
+        shell: bash
+        run: |
+          set -euo pipefail
+          LESSON="$(python tools/next_masterclass.py)"
+          if [ "$LESSON" = "ALL_READY" ]; then
+            echo "all_ready=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "lesson=$LESSON" >> "$GITHUB_OUTPUT"
+          echo "Selected exactly one next pending lesson: $LESSON"
+      - name: Download and verify Thorsten High voice
+        if: steps.next.outputs.all_ready != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p .voice-cache
+          BASE="https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE/thorsten/high"
+          curl --fail --location --retry 4 "$BASE/de_DE-thorsten-high.onnx" -o .voice-cache/de_DE-thorsten-high.onnx
+          curl --fail --location --retry 4 "$BASE/de_DE-thorsten-high.onnx.json" -o .voice-cache/de_DE-thorsten-high.onnx.json
+          echo "9df1c43c61149ef9b39e618e2b861fbe41e1fcea9390b2dac62e8761573ea4f1  .voice-cache/de_DE-thorsten-high.onnx" | sha256sum --check -
+          test "$(wc -c < .voice-cache/de_DE-thorsten-high.onnx.json)" -gt 1000
+      - name: Render one lesson into PCM-aligned MP3 and timeline
+        if: steps.next.outputs.all_ready != 'true'
+        run: python tools/render_masterclass_sequential.py --lesson "${{ steps.next.outputs.lesson }}"
+      - name: Install browser test runtime
+        if: steps.next.outputs.all_ready != 'true'
+        run: |
+          npm install --no-save playwright@1.52.0
+          npx playwright install --with-deps chromium webkit
+      - name: Test iPhone-sized and desktop Chromium and WebKit
+        if: steps.next.outputs.all_ready != 'true'
+        run: node tools/qa_masterclass_browser.mjs
+      - name: Persist generated audio only after all tests pass
+        if: steps.next.outputs.all_ready != 'true' && success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "masterclasses/${{ steps.next.outputs.lesson }}/audio/masterclass.mp3" "masterclasses/${{ steps.next.outputs.lesson }}/audio/timeline.json"
+          if git diff --cached --quiet; then
+            echo "No generated audio changes to persist."
+          else
+            git commit -m "Produce next masterclass audio: ${{ steps.next.outputs.lesson }}"
+            git push origin "HEAD:${{ github.event.pull_request.head.ref || github.ref_name }}"
+          fi
