@@ -24,7 +24,12 @@
       "status": "pending",
       "href": null,
       "audio_review": "pending_manual",
-      "didactic_review": "pending_manual"
+      "didactic_review": "pending_manual",
+      "sequence_approval": {
+        "status": "user_approved_to_continue",
+        "approved_on": "2026-11-27",
+        "scope": "User approval to proceed with the next lesson. This does not mark 1.01-B ready for publication and is not an independent acoustic or normative expert sign-off."
+      }
     },
     {
       "sequence": 3,

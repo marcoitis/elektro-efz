@@ -88,7 +88,7 @@ jobs:
           npx playwright install --with-deps chromium webkit
       - name: Test iPhone-sized and desktop Chromium and WebKit
         if: steps.next.outputs.all_ready != 'true'
-        run: node tools/qa_masterclass_browser.mjs
+        run: node tools/qa_masterclass_browser.mjs "${{ steps.next.outputs.lesson }}"
       - name: Persist generated audio only after all tests pass
         if: steps.next.outputs.all_ready != 'true' && success()
         env:
