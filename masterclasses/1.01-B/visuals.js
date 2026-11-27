@@ -42,7 +42,7 @@ function graphic(type){
  if(type==='person'||type==='paths'||type==='wet'){s+=person(480,255)+bolt(325,265);if(type==='paths'){s+=flow(418,270,542,270,'#f5b66f',7)+flow(418,270,436,378,'#f5b66f',7);}else if(type==='wet'){s+=circle(645,240,45,'#16485c')+txt(645,250,'H₂O',24);}else{s+=line(355,270,420,270,'#f5b66f',7);}}
  else if(type==='source')s+=power();
  else if(type==='shock,arc,heat'||type==='comparison'){s+=person(250,245)+bolt(250,245)+bolt(480,265)+rect(620,215,170,105)+txt(705,275,'WÄRME',24);}
- else if(type==='arc'||type==='arc-distance'){s+=rect(175,175,150,185)+rect(640,175,150,185)+bolt(480,270);s+=line(325,270,415,270,'#ffbd70',6)+line(545,270,640,270,'#ffbd70',6);if(type==='arc-distance')s+=person(830,245);}
+ else if(type==='arc'||type==='arc-distance'||type==='distance'){s+=rect(175,175,150,185)+rect(640,175,150,185)+bolt(480,270);s+=line(325,270,415,270,'#ffbd70',6)+line(545,270,640,270,'#ffbd70',6);if(type==='arc-distance')s+=person(830,245);}
  else if(type==='heat'){s+=line(170,270,790,270,'#9fc8df',22)+'<circle class="mc-pulse" cx="480" cy="270" r="55" fill="#7b3c30" stroke="#ffb36b" stroke-width="4"/>'+txt(480,280,'HOT',22);}
  else if(type==='time'||type==='graph'){s+=line(195,360,780,360)+line(195,360,195,165);s+='<path class="mc-draw" d="M200 352 Q430 320 750 180" stroke="#ffbf70" stroke-width="8" fill="none"/>'+txt(770,405,'ZEIT',23)+txt(150,165,type==='graph'?'E':'RISIKO',22);}
  else if(type==='formula'||type==='energy'){s+=rect(230,170,500,185)+txt(480,255,type==='formula'?'U = R · I':'E = P · t',55)+txt(480,320,type==='formula'?'KEINE FREIGABE':'600 J',30,'#ffcf7b');}
@@ -51,7 +51,7 @@ function graphic(type){
  else if(type==='storage'){s+=rect(185,175,250,175)+txt(310,255,'STOPP',33)+rect(550,175,220,175)+bolt(660,260)+txt(660,400,'RESTENERGIE',22);}
  else if(type==='pv'){for(let i=0;i<3;i++)s+=rect(100+i*115,185,100,115,'#244f70','#79bde1');s+=flow(440,250,565,250,'#ffbe6f',7)+rect(565,195,170,110)+txt(650,255,'INVERTER',22)+txt(335,365,'DC',30,'#ffbe6f');}
  else if(type==='devices'){s+=rect(180,175,260,175)+rect(525,175,260,175)+txt(310,250,'LS',45)+txt(655,250,'RCD',45)+txt(310,300,'ÜBERSTROM',21)+txt(655,300,'FEHLERSTROM',21);}
- else if(type==='cabinet'){s+=rect(330,145,300,235,'#253a4b','#ffbb77')+line(480,145,480,380,'#ffbb77')+bolt(480,260)+txt(480,415,'UNBEKANNTER ZUSTAND',21);}
+ else if(type==='cabinet'||type==='scenario'){s+=rect(330,145,300,235,'#253a4b','#ffbb77')+line(480,145,480,380,'#ffbb77')+bolt(480,260)+txt(480,415,'UNBEKANNTER ZUSTAND',21);if(type==='scenario'){s+=rect(90,205,165,100)+txt(172,245,'NETZ',22)+txt(172,280,'?',30,'#ffbd7b')+rect(705,205,165,100)+txt(787,245,'WEITERE',19)+txt(787,280,'?',30,'#ffbd7b')+line(255,255,330,255,'#ffbd7b',6)+line(630,255,705,255,'#ffbd7b',6);}}
  else if(type==='stop'){s+=circle(480,270,112,'#813d3c','#ffb0a2')+txt(480,288,'STOP',64);}
  else if(type==='evidence'){s+=rect(190,175,260,165)+rect(515,175,260,165)+txt(320,255,'VERMUTET',24)+txt(645,255,'GEPRÜFT?',24)+txt(480,400,'≠',44,'#ffcf7b');}
  else if(type==='recap'){s+=person(260,260)+bolt(475,270)+rect(635,205,150,130)+txt(710,275,'SCHUTZ',22);}
