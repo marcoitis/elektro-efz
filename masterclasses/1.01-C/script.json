@@ -145,9 +145,10 @@
     "limitation": "Die Umsetzung der Regeln ist anlagen- und auftragsbezogen. Diese Lektion ersetzt weder NIV/NIN, Herstellerangaben, betriebliche Sicherheitsorganisation noch Instruktion und Aufsicht durch befähigte Personen."
   },
   "content_review": {
-    "status": "draft_requires_documentary_and_human_review",
+    "status": "passed_documentary_review_with_scope_limitation",
     "checked_on": "2026-11-27",
-    "scope": "24 Sprecherbausteine und 24 Visualisierungsszenen anhand des bereitgestellten Kursmanuskripts sowie öffentlicher Suva-/ESTI-Quellen.",
-    "limitation": "Noch keine vollständige fachliche Schlussprüfung. Keine unabhängige normative Freigabe und kein vollständiger Abgleich mit kostenpflichtigen Originalnormen NIN/SN EN."
+    "scope": "Alle 24 Sprecherbausteine, Lernziele, Lernkontrolle, theoretischer Übungsauftrag und 24 Visualisierungsszenen gegen ESTI-Weisung 407 V0526 sowie Suva-Publikationen 84042.D und 88814.D geprüft.",
+    "findings": "Die fünf Sicherheitsregeln sind in der üblichen Reihenfolge wiedergegeben; Erden und Kurzschliessen ist ausdrücklich als soweit erforderlich eingeordnet. Die Suva-5+5-Regeln sind als organisatorische Ergänzung getrennt dargestellt. Die Aussagen zu PV-DC bei Lichteinfall, AC/DC-Systemgrenzen, zusätzlichen Speicherquellen, möglicher Restenergie und DC-Lichtbogen sind mit den herangezogenen Quellen vereinbar. Keine kritischen oder wesentlichen fachlichen Widersprüche festgestellt.",
+    "limitation": "Dokumentarische KI-Fachprüfung anhand öffentlich zugänglicher Quellen. Keine unabhängige Freigabe durch eine Elektrofachperson und kein vollständiger Abgleich mit kostenpflichtigen Originalnormen NIN/SN EN. Keine konkrete Arbeitsanweisung oder normative Freigabe."
   }
 }
