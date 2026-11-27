@@ -18,7 +18,7 @@ const server=createServer((req,res)=>{
       'Accept-Ranges':'bytes','Cache-Control':'no-store'};
     const range=req.headers.range;
     if(range){
-      const match=/^bytes=(\\d*)-(\\d*)$/.exec(range);
+      const match=/^bytes=(\d*)-(\d*)$/.exec(range);
       if(!match){res.writeHead(416,{'Content-Range':'bytes */'+stat.size}).end();return;}
       let start=match[1]?Number(match[1]):Math.max(0,stat.size-Number(match[2]));
       let end=match[2]&&match[1]?Math.min(Number(match[2]),stat.size-1):stat.size-1;
