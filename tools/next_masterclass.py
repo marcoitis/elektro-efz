@@ -11,7 +11,8 @@ if len(ordered)!=catalog["total"] or len(set(ordered))!=len(ordered):
     raise SystemExit("FAIL: batches must contain exactly 178 unique lesson IDs")
 if set(ordered)!=set(status):
     raise SystemExit("FAIL: catalog and audio batch IDs differ")
-pending=[x for x in ordered if status[x]!="ready" and x not in {lesson_id for lesson_id, entry in ((item["id"], item) for item in catalog["lessons"]) if entry.get("sequence_approval", {}).get("status") == "user_approved_to_continue"}]
+approved_to_continue={item["id"] for item in catalog["lessons"] if item.get("sequence_approval", {}).get("status") == "user_approved_to_continue"}
+pending=[x for x in ordered if status[x]!="ready" and x not in approved_to_continue]
 if not pending:
     print("ALL_READY")
     raise SystemExit(0)

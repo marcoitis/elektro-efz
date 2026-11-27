@@ -4,7 +4,7 @@ import { createReadStream, statSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
 
 const lessonId=process.argv[2];
-if(!lessonId||! /^(?:[1-4]\\.\\d{2}-[A-Z]|N-[A-Z]\\d{2})$/.test(lessonId)) throw new Error('Usage: node tools/qa_masterclass_browser.mjs <lesson-id>');
+if(!lessonId||!/^(?:[1-4]\.\d{2}-[A-Z]|N-[A-Z]\d{2})$/.test(lessonId)) throw new Error('Usage: node tools/qa_masterclass_browser.mjs <lesson-id>');
 const root=process.cwd();
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8',
   '.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8',
@@ -52,14 +52,14 @@ try {
         page.on('pageerror',e=>errors.push(e.message));
         page.on('requestfailed',r=>failedRequests.push(r.url()+': '+(r.failure()?.errorText||'failed')));
         page.on('response',r=>{if(r.status()>=400)badResponses.push(r.status()+' '+r.url())});
-        await page.goto('http://127.0.0.1:8765/masterclass.html?lesson=${lessonId}',{waitUntil:'domcontentloaded'});
+        await page.goto('http://127.0.0.1:8765/masterclass.html?lesson='+lessonId,{waitUntil:'domcontentloaded'});
         try {
           await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,null,{timeout:30000});
         } catch(e) {
           const state=await page.evaluate(()=>({
             status:document.querySelector('#mc-status')?.textContent,
             lesson:document.body.dataset.masterLesson,
-            renderer:!!window.EFZ_MasterRenderers?.['1.01-B'],
+            renderer:!!window.EFZ_MasterRenderers?.[lessonId],
             engine:!!window.ElektroMaster,
             timeline:window.ElektroMaster?.getTimeline()?.beats?.length??null
           }));
