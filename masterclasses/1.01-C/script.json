@@ -1,0 +1,153 @@
+{
+  "id": "1.01-C-master",
+  "lesson_id": "1.01-C",
+  "title": "Sicherheitsregeln und Besonderheiten von PV-Anlagen",
+  "voice": "de_DE-thorsten-high",
+  "status": "edited_draft_pending_audio_browser_and_normative_review",
+  "source": "Edited 24-beat narration based on tts_scripts/1.01-C.txt, data.js module 1.01, Suva 5+5 rules and ESTI Weisung 407 V0526.",
+  "safety_note": "Keine Anleitung für Arbeiten an elektrischen Anlagen oder PV-Systemen. Keine Schalthandlung, Messung, Trennung oder Freigabe aus diesem Lernvideo ableiten.",
+  "beats": [
+    {
+      "id": "01",
+      "visual": "intro",
+      "text": "Sicherheitsregeln sind keine Formalität. Sie strukturieren die Vorbereitung, Durchführung und Freigabe elektrischer Arbeiten. Heute verbinden wir die fünf Sicherheitsregeln mit den zusätzlichen organisatorischen Regeln und den Besonderheiten von Photovoltaikanlagen."
+    },
+    {
+      "id": "02",
+      "visual": "overview",
+      "text": "Die Suva fasst zehn lebenswichtige Regeln in zwei Gruppen zusammen. Fünf Regeln betreffen Auftrag, Personal, Arbeitsmittel, Schutzausrüstung und Kontrollen. Die weiteren fünf beschreiben das Arbeiten im spannungsfreien Zustand."
+    },
+    {
+      "id": "03",
+      "visual": "rules_sequence",
+      "text": "Die Reihenfolge lautet: freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit feststellen, erden und kurzschliessen, soweit erforderlich, und gegen benachbarte unter Spannung stehende Teile schützen."
+    },
+    {
+      "id": "04",
+      "visual": "rule1",
+      "text": "Vollständig freischalten bedeutet, alle für den Arbeitsbereich relevanten Einspeisungen und Energiequellen zu berücksichtigen. Ein einzelner Hauptschalter ist nicht automatisch die vollständige Trennung des Gesamtsystems."
+    },
+    {
+      "id": "05",
+      "visual": "rule2",
+      "text": "Die Trennung muss gegen unbeabsichtigtes oder unbefugtes Wiedereinschalten gesichert werden. Dazu gehören die passenden technischen und organisatorischen Massnahmen gemäss Anlage und Arbeitsverfahren."
+    },
+    {
+      "id": "06",
+      "visual": "rule3",
+      "text": "Spannungsfreiheit ist festzustellen und nicht bloss anzunehmen. Prüfverfahren, Prüfmittel und Prüfpunkte müssen zur konkreten Anlage passen. Diese Prüfung ist Aufgabe entsprechend befähigter Personen."
+    },
+    {
+      "id": "07",
+      "visual": "rule4",
+      "text": "Erden und Kurzschliessen ist dort anzuwenden, wo es das konkrete Arbeitsverfahren und die Gefährdungsbeurteilung verlangen. Es ist keine pauschale Bastelanleitung und darf nicht eigenmächtig improvisiert werden."
+    },
+    {
+      "id": "08",
+      "visual": "rule5",
+      "text": "Auch wenn der vorgesehene Arbeitsbereich freigeschaltet ist, können benachbarte Teile unter Spannung bleiben. Diese müssen je nach Situation geschützt, abgedeckt oder ausreichend abgegrenzt werden."
+    },
+    {
+      "id": "09",
+      "visual": "plus5",
+      "text": "Die Suva nennt klare Aufträge und Verantwortung, Schulung und Berechtigung, sichere und intakte Arbeitsmittel, geeignete Schutzausrüstung sowie vorgeschriebene Kontrollen. Sicherheit beginnt vor dem ersten Handgriff."
+    },
+    {
+      "id": "10",
+      "visual": "order",
+      "text": "Keine einzelne Regel ersetzt die übrigen. Die konkrete Umsetzung hängt von Anlage, Arbeitsauftrag, möglichen Energiequellen und den geltenden Vorgaben ab. Eine Lernsequenz kann diese Beurteilung nicht freigeben."
+    },
+    {
+      "id": "11",
+      "visual": "sources",
+      "text": "Bei einer Photovoltaikanlage gehören Module, Wechselrichter, Netzanschluss und gegebenenfalls Batteriespeicher zum Gesamtsystem. Je nach Installation können weitere Einspeisungen oder gespeicherte Energien vorhanden sein."
+    },
+    {
+      "id": "12",
+      "visual": "pv_modules",
+      "text": "Photovoltaikmodule können bei Lichteinfall elektrische Spannung bereitstellen. In einer Serienschaltung addieren sich die Modulspannungen. Die DC-Seite kann deshalb auch dann Energie führen, wenn die AC-Seite abgeschaltet ist."
+    },
+    {
+      "id": "13",
+      "visual": "acdc",
+      "text": "Ein ausgeschalteter Netz- oder Wechselstromschalter beweist nicht, dass der PV-Generator und alle DC-Leitungen spannungsfrei sind. Die Systemgrenzen und die tatsächliche Trennwirkung müssen fachkundig beurteilt werden."
+    },
+    {
+      "id": "14",
+      "visual": "inverter",
+      "text": "Im Wechselrichter können Bauteile elektrische Energie speichern. Nach einer Abschaltung sind deshalb die Herstellerangaben und vorgeschriebenen Wartezeiten zu beachten. Eine Anzeige oder ein dunkles Display ist kein Spannungsnachweis."
+    },
+    {
+      "id": "15",
+      "visual": "battery",
+      "text": "Ein Batteriespeicher kann unabhängig von der Einstrahlung elektrische Energie bereitstellen. Auch bei abgeschalteter PV-Einspeisung können Speicher und zugehörige Leitungen relevante Energie führen."
+    },
+    {
+      "id": "16",
+      "visual": "multiple",
+      "text": "Netz, PV-Generator, Batteriespeicher und gegebenenfalls Notstrom- oder weitere Erzeugungsanlagen können zusammenwirken. Vor einer Arbeit muss die zuständige Fachperson die Quellen und Systemgrenzen vollständig erfassen."
+    },
+    {
+      "id": "17",
+      "visual": "dc_arc",
+      "text": "Bei Gleichstrom fehlt der periodische Nulldurchgang des Wechselstroms. Ein unter Last entstehender DC-Lichtbogen kann deshalb besonders hartnäckig sein. Steckverbindungen dürfen nicht unter Last getrennt werden, sofern sie dafür nicht ausdrücklich ausgelegt sind."
+    },
+    {
+      "id": "18",
+      "visual": "stop",
+      "text": "Sind Einspeisungen, Trennstellen, Zuständigkeit oder Spannungszustand unklar, wird die Arbeit nicht begonnen oder unterbrochen. Nicht berühren, keine Messung improvisieren und die zuständige Fachperson beiziehen."
+    },
+    {
+      "id": "19",
+      "visual": "scenario",
+      "text": "Ein Wechselrichter zeigt «Aus». Die Module auf dem Dach sind beleuchtet, und ein Batteriespeicher ist vorhanden. Welche Aussage ist tatsächlich belegt und welche Annahme wäre gefährlich?"
+    },
+    {
+      "id": "20",
+      "visual": "evidence",
+      "text": "Beobachtet ist nur die Anzeige «Aus». Daraus folgt weder die Spannungsfreiheit der DC-Leitungen noch die sichere Trennung des Speichers. Fehlende Informationen müssen fachkundig geklärt werden."
+    },
+    {
+      "id": "21",
+      "visual": "planning",
+      "text": "Vor Beginn müssen Auftrag, Anlagenunterlagen, Zuständigkeiten, Arbeitsverfahren und Kommunikation geklärt sein. Änderungen am System oder veraltete Pläne sind ausdrücklich zu berücksichtigen."
+    },
+    {
+      "id": "22",
+      "visual": "task",
+      "text": "Erstelle auf Papier eine Liste möglicher Energiequellen, offener Zustandsfragen, zuständiger Rollen und erforderlicher Nachweise. Arbeite nur mit Plänen oder Fotos und leite daraus keine praktische Schalthandlung ab."
+    },
+    {
+      "id": "23",
+      "visual": "question",
+      "text": "Ein PV-Wechselrichter ist auf der AC-Seite ausgeschaltet. Die Module erhalten Tageslicht. Darf daraus geschlossen werden, dass die DC-Leitungen spannungsfrei sind? Denke zuerst selbst nach."
+    },
+    {
+      "id": "24",
+      "visual": "answer",
+      "text": "Nein. Beleuchtete PV-Module können weiterhin Gleichspannung bereitstellen. Zusätzlich können Wechselrichter-Restenergie und Batteriespeicher relevant sein. Der Zustand muss durch befähigte Fachpersonen nach dem passenden Verfahren beurteilt werden."
+    }
+  ],
+  "source_urls": [
+    "https://www.esti.admin.ch/inhalte/ESTI_407_0526_d.pdf",
+    "https://www.esti.admin.ch/de/dokumentation/esti-weisungen/esti-weisungen",
+    "https://www.suva.ch/de-ch/download/regeln-und-tipps/5---5-lebenswichtige-regeln-im-umgang-mit-elektrizitaet--84042.D",
+    "https://www.suva.ch/de-ch/download/lern-und-lehrmittel/5---5-lebenswichtige-regeln-im-umgang-mit-elektrizitaet---instruktionshilfe/5---5-lebenswichtige-regeln-im-umgang-mit-elektrizitaet---instruktionshilfe--88814.D",
+    "https://www.esti.admin.ch/de/themen/faq/elektrische-installationen-und-anlagen/",
+    "https://www.esti.admin.ch/de/themen/bewilligungen-niv-uebersicht/bewilligung-fuer-installationsarbeiten-an-besonderen-anlagen-art-14-niv",
+    "https://ch.odat.at/de/cc/734.27-20251031-de.html"
+  ],
+  "normative_review": {
+    "status": "pending_independent_expert_review",
+    "checked_on": "2026-11-27",
+    "reference_state": "ESTI-Weisung 407 Version 0526, gültig ab 01.05.2026; Suva-Publikation 84042.D (Ausgabe 26.10.2022); NIV SR 734.27, Stand 31.10.2025.",
+    "scope": "Didaktische Darstellung der fünf Sicherheitsregeln, der Suva-5+5-Regeln sowie von PV-DC, mehreren Energiequellen, möglicher Restenergie und DC-Lichtbogen. Keine konkrete Arbeitssequenz oder Anlagenfreigabe.",
+    "limitation": "Die Umsetzung der Regeln ist anlagen- und auftragsbezogen. Diese Lektion ersetzt weder NIV/NIN, Herstellerangaben, betriebliche Sicherheitsorganisation noch Instruktion und Aufsicht durch befähigte Personen."
+  },
+  "content_review": {
+    "status": "draft_requires_documentary_and_human_review",
+    "checked_on": "2026-11-27",
+    "scope": "24 Sprecherbausteine und 24 Visualisierungsszenen anhand des bereitgestellten Kursmanuskripts sowie öffentlicher Suva-/ESTI-Quellen.",
+    "limitation": "Noch keine vollständige fachliche Schlussprüfung. Keine unabhängige normative Freigabe und kein vollständiger Abgleich mit kostenpflichtigen Originalnormen NIN/SN EN."
+  }
+}
