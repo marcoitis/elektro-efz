@@ -15,11 +15,34 @@ try {
     try {
       for (const width of [390,1280]) {
         const page=await browser.newPage({viewport:{width,height:844}});
-        const errors=[];
+        const errors=[], failedRequests=[], badResponses=[];
         page.on('pageerror',e=>errors.push(e.message));
-        await page.goto('http://127.0.0.1:8765/masterclass.html?lesson=1.01-B',{waitUntil:'networkidle'});
-        await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,{timeout:30000});
-        await page.waitForFunction(()=>document.querySelector('#mc-audio')?.readyState>=1,{timeout:30000});
+        page.on('requestfailed',r=>failedRequests.push(r.url()+': '+(r.failure()?.errorText||'failed')));
+        page.on('response',r=>{if(r.status()>=400)badResponses.push(r.status()+' '+r.url())});
+        await page.goto('http://127.0.0.1:8765/masterclass.html?lesson=1.01-B',{waitUntil:'domcontentloaded'});
+        try {
+          await page.waitForFunction(()=>window.ElektroMaster?.getTimeline()?.beats?.length===24,{timeout:30000});
+        } catch(e) {
+          const state=await page.evaluate(()=>({
+            status:document.querySelector('#mc-status')?.textContent,
+            lesson:document.body.dataset.masterLesson,
+            renderer:!!window.EFZ_MasterRenderers?.['1.01-B'],
+            engine:!!window.ElektroMaster,
+            timeline:window.ElektroMaster?.getTimeline()?.beats?.length??null
+          }));
+          throw new Error(name+' '+width+': timeline initialization failed; '+JSON.stringify({state,errors,failedRequests,badResponses})+'; '+e.message);
+        }
+        try {
+          await page.waitForFunction(()=>document.querySelector('#mc-audio')?.readyState>=1,{timeout:30000});
+        } catch(e) {
+          const state=await page.evaluate(()=>{
+            const a=document.querySelector('#mc-audio');
+            return {status:document.querySelector('#mc-status')?.textContent,src:a?.currentSrc||a?.src,
+              readyState:a?.readyState,networkState:a?.networkState,error:a?.error?.message||a?.error?.code||null,
+              duration:a?.duration,timeline:window.ElektroMaster?.getTimeline()?.beats?.length??null};
+          });
+          throw new Error(name+' '+width+': audio metadata did not load; '+JSON.stringify({state,errors,failedRequests,badResponses})+'; '+e.message);
+        }
         const info=await page.evaluate(()=>{
           const a=document.querySelector('#mc-audio'), t=window.ElektroMaster.getTimeline();
           return {duration:a.duration,beats:t.beats.length,svg:!!document.querySelector('#mc-stage svg'),
