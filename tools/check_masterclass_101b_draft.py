@@ -50,6 +50,8 @@ assert 'viewBox="0 0 960 540"' in visuals
 assert 'role="img"' in visuals and 'aria-label=' in visuals
 # Scene-key coverage is already checked above with both quote styles; do not duplicate it with an over-escaped regex.
 assert "mc-illustration" in visuals
+assert all(x in visuals for x in ["mc-flow","mc-arc","mc-draw","mc-pulse"])
+assert "prefers-reduced-motion:reduce" in visuals
 audio = (base / "audio" / "masterclass.mp3")
 assert audio.stat().st_size > 100_000
 assert hashlib.sha256(audio.read_bytes()).hexdigest() == timeline["audio_sha256"]
