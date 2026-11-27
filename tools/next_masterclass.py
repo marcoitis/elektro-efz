@@ -24,6 +24,6 @@ if missing:
 script=json.loads((base/"script.json").read_text(encoding="utf-8"))
 if script.get("lesson_id")!=lesson or len(script.get("beats",[]))<15:
     raise SystemExit("BLOCKED: lesson script identity or beat count invalid")
-if not re.fullmatch(r"(?:[1-4]\\.\\d{2}-[A-Z]|N-[A-Z]\\d{2})",lesson):
+if not re.fullmatch(r"(?:[1-4]\.\d{2}-[A-Z]|N-[A-Z]\d{2})",lesson):
     raise SystemExit("BLOCKED: invalid lesson ID")
 print(lesson)
